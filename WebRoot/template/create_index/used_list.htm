@@ -1,0 +1,9 @@
+        <div class="u_bd">
+          <div class="usedList">
+            <ul class="fix" id="used_list">
+			  <#list usedList as used>
+              <li><a target="_blank" href="http://used.21-sun.com/equipment/equipmentdetail_for_${used.id?c}.htm" class="img"><img data-lazy="${used.img1_1}" alt="${used.import_brand}${used.model}${used.name}"></a><a href="http://used.21-sun.com/equipment/equipmentdetail_for_${used.id?c}.htm"><div class="n">${used.import_brand}${used.model}${used.name}</div><div class="area">${used.area_name}${used.city_name}</div></a> </li>
+              </#list> 
+            </ul>
+          </div>
+        </div>

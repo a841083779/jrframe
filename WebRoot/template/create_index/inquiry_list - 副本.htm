@@ -1,0 +1,10 @@
+        <div class="tab_c">
+          <div class="j_xj_list">
+            <!--首页最新询价-->
+            <ul>
+			  <#list list as info>
+              <li><a target="_blank" href="/proDetail/${info.file_name!""}" class="img"><img onerror="this.src='/uploadfiles/no_big.gif'" data-lazy="http://product.21-sun.com/uploadfiles/${info.img2!""}" ></a><span class="ltitle">${info.province!""}${info.city!""}的 <#if (info.name?length >= 1)>${info.name?substring(0,1)}</#if>**  询：</span> <span class="r">${CommonDate.getFormatDate("MM-dd",info.add_date)}</span> <span class="linfo"><a href="/inquiry/detail_for_${info.id?c}.htm" target="_blank"><font title="${info.factoryname!""}${info.product_name!""}${info.cataname!""}">${info.factoryname!""}${info.product_name!""}${info.cataname!""}</font>的价格</a></span> </li>
+              </#list>
+			</ul>
+          </div>
+        </div>

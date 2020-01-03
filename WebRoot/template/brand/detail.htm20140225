@@ -1,0 +1,152 @@
+<#assign factory = query(" select is_made, is_qijiandian,usern,is_shop,id,name,is_shop,logo,full_name,introduce,mobile,zturl,img1,telphone from pro_agent_factory where usern = '${usern}' and is_show=1 and flag=1 ")>
+<#assign allcatalogs = query(" select name,num from pro_catalog where len(num) = 6 ")>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>${factory[0].name}_网上购买${factory[0].name}产品_${factory[0].name}品牌专区 - 中国工程机械商贸网</title>
+<meta name="keywords" content="${factory[0].name},${factory[0].name}产品报价,${factory[0].name}产品,${factory[0].name}产品图片,${factory[0].name}产品介绍,${factory[0].name}介绍" />
+<meta name="description" content="中国工程机械商贸网为您提供${factory[0].name}介绍,${factory[0].name}产品介绍,${factory[0].name}产品报价,${factory[0].name}产品图片,${factory[0].name}产品展示等${factory[0].name}产品信息，帮助您全面了解${factory[0].name}。" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<script  type="text/javascript" src="/scripts/sort.js"></script>
+<!-- jbox -->
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css"/>
+<script type="text/javascript" src="/plugin/area/city/citys.js"></script>
+</head>
+<body>
+<!--top--> 
+<!--#include virtual="/include/top.jsp"  --> 
+<!--面包屑-->
+<div class="contain980 mb10">
+  <h3 class="breadCrumbs">您现在所在的位置：<a href="/">工程机械产品中心</a> &gt;&gt;  <a href="/brand/">品牌大全</a> &gt;&gt;  ${factory[0].name}</h3>
+</div>
+<!--面包屑结束--> 
+<!--main-->
+<div class="contain980 mb10"> 
+  <!--left-->
+  <div class="w210 l">
+    <!--热门品牌-->
+    <div id="leftId"> </div>
+    <!--热门品牌结束--> 
+  </div>
+  <!--left end--> 
+  <!--right-->
+  <div class="w757 r"> <#if factory??&&(factory?size>0)>
+    <#list factory as oneFactory>
+    <div class="brandDetailTitle"> <#if oneFactory_index==0>
+      <#assign factoryid = oneFactory.id>
+      <#assign factoryname = oneFactory.name>
+      </#if>
+      <#if oneFactory.logo??&&(oneFactory.logo?length gt 0)>
+      <h2><img src="/uploadfiles/${oneFactory.logo}" width="90" height="32" align="absmiddle" /> ${oneFactory.full_name}</h2>
+      <#else>
+      <h2><img src="/uploadfiles/no_big.gif" width="90" height="32" align="absmiddle" /> ${oneFactory.full_name}</h2>
+      </#if>
+      <#if oneFactory.is_qijiandian??&&(oneFactory.is_qijiandian==1)> <span onclick="window.open('/brandshop/${oneFactory.usern}/')" style="cursor:pointer;">进入${oneFactory.name}官方旗舰店</span> </#if> </div>
+    <div class="brandContent mb10"> <#if oneFactory.img1??&&(oneFactory.img1?length>0)> 
+      <div class="bdimg"><img src="/uploadfiles/${oneFactory.img1}" width="194" height="197" /></div>
+      <#else>
+      <div class="bdimg"><img src="/uploadfiles/no_big.gif" width="194" height="197" /></div>
+      </#if>
+      <div class="bdintro">
+        <div class="bdtext"> 
+		<#if oneFactory.usern=="lyyj" >
+		${CommonHtml.filterHTML(CommonString.getFormatPara(oneFactory.introduce))}
+		<br> <div style="color:#FF0000; font-size:16px; font-weight:bold" >联系电话：13938874788  &nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.yto999.com/" target="_blank" style="color:#FF0000; font-size:16px; font-weight:bold">网址：http://www.yto999.com/</a></div> 
+		<#else>
+		${CommonHtml.filterHTML(CommonString.getFormatPara(oneFactory.introduce))}... 
+		</#if>
+		</div>
+        <div class="l"><img style="cursor:pointer" src="/images/pd_btn.gif" width="188" height="45" onclick="showinquery('','${oneFactory.id?c}')"/></div>
+        <div class="r"><a target="_blank" href="/admin/login.jsp">厂家登录</a> </div>
+             <div class="checkContact">
+          <span onclick="document.getElementById('contactLayer').style.display='block';" style="background:url(/images/contact_layer_point.gif) right no-repeat;display:block">联系电话</span>
+         <div id="contactLayer" style="display: none; position: relative;"> <a href="javascript:void(0);" class="ContactCloseBtn" onclick="jQuery('#contactLayer').hide();"></a>
+            <h3>联系电话</h3>
+            <div class="cc">联系本站：0535-6792733<br/>
+              　　　　　0535-6792745
+              <!--<span id="p0_1"> 联系厂家（<span id="telId">${oneFactory.telphone}</span>） </span>--></div>
+            <!--<div style="padding-left:20px; line-height:18px;">联系我们时，请说是在 <strong>中国工程机械商贸网</strong> 上看到的。</div>-->
+            <div class="cb"><a href="javascript:void(0)"><img src="/images/pd_btn.gif" onclick="showinquery('','${factoryid?c}')"></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </#list>
+    </#if>
+    <div class="l bdrank">
+      <div class="bdrankContain l"> <#if allcatalogs??&&(allcatalogs?size>0)>
+        <#list allcatalogs as oneCatalog>
+        <#assign subcatalogs = query(" select top 5 catalogname,name,file_name from pro_products where is_show=1 and factoryid = '${factoryid?c}' and catalognum like '${oneCatalog.num}%' order by order_no desc")>     
+        <#if subcatalogs??&&(subcatalogs?size>0)>
+        <div class="rcl">
+          <div class="title09">
+            <h2><a href="/products/prolist.jsp?factory=${CommonString.getFormatPara(factoryid)}&catalog=${CommonString.getFormatPara(oneCatalog.num)}" target="_blank">${factoryname}${oneCatalog.name}</a></h2>
+            <span><a href="/products/prolist.jsp?factory=${CommonString.getFormatPara(factoryid)}&catalog=${CommonString.getFormatPara(oneCatalog.num)}" target="_blank">更多&gt;&gt;</a></span> </div>
+          <ul>
+            <#list subcatalogs as oneSub>
+            <#if oneSub_index<3>
+            <li class="top3"> <#else>
+            
+            <li> </#if> <em>${oneSub_index+1}</em>
+              <h3><a href="/proDetail/${oneSub.file_name}" target="_blank">${factoryname} ${oneSub.name} ${oneSub.catalogname}</a></h3>
+            </li>
+            </#list>
+          </ul>
+        </div>
+        </#if>
+        </#list>
+        </#if> </div>
+    </div>
+    <!--#include virtual="/include/brand/order.jsp?factoryid=${factoryid?c}"  --> <!-- 订单 --> 
+    <script type="text/javascript">
+    	jQuery.ajax({
+    		url : '/include/prodetail/agent_list.jsp',
+    		data : {
+    			id : '${factoryid?c}'
+    		} ,
+    		async : false,
+    		type : 'post',
+    		success : function(data){
+    			document.write(data);
+    		}
+    	});
+    </script>
+  </div>
+  <!--right end-->
+  <div class="clear"></div>
+</div>
+<!--main end--> 
+<!--foot--> 
+<!--#include virtual="/include/foot.jsp" --> 
+<!--end of foot--> 
+<script type="text/javascript" src="../scripts/sort.js"></script>
+<script language="javascript" type="text/javascript">
+//左侧
+jQuery.ajax({
+	url:"/include/left.jsp",
+	type:"post",
+	data:{"url":"/products/prolist.jsp"},
+	success:function(data){
+		jQuery("#leftId").html(jQuery.trim(data));	
+	}
+})
+//营销宝统计
+jQuery(function(){
+	jQuery.ajax({
+		type:'post',
+		url:'/action/ajax.jsp',
+		data:{flag:'getAgentViewCount',agentId:'${factoryid?c}'} ,
+		success:function(msg){
+		}
+	}) ;
+}); 
+</script>
+</body>
+</html>

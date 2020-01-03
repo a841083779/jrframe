@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>八月优买团，梦想新航线，未来合伙人_21-sun优买团</title>
+<meta name="keywords" content="21-sun优买团,诚邀合伙人,卡特迷你挖掘机,山工装载机,三一挖掘机,卡特挖机,山推专场,配件,破碎锤" />
+<meta name="description" content="21-sun优买团,中国工程机械商贸网13周年感恩回馈客户,梦想新航线未来合伙人,热销机型包括,卡特迷你挖掘机,山工装载机,三一挖掘机,卡特挖机,山推机械等专场优惠" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/common.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".nav li:eq(0)").addClass("selected");
+  $(".sideGuide a:eq(1)").addClass("selected");
+});
+</script>
+</head>
+<body id="top">
+<!--#include virtual="include/top.jsp"-->
+<div class="main">
+  <div class="wrapper banner"><img src="images/banner_img.jpg" width="1000" height="572" /></div>
+  <div class="main-con clearfix pb10">
+    <div class="mc try">
+      <div class="title">
+        <h3><em></em><img src="images/title_text01.gif" alt="免费入伙体验" width="180" height="40" /><br />
+          <span>1个月、3个月、6个月免费入伙体验</span>
+        </h3>
+        <span class="tel">
+          免费入伙体验<br />
+          <strong>0535-6727793  6921286  6722830</strong>
+        </span>
+      </div>
+      <div class="content">
+        <ul class="list">
+          <li><a href="lottery.jsp" target="_blank" title="1个月入伙体验券"><img src="images/try1.gif" alt="1个月入伙体验券" width="259" height="101" /></a></li>
+          <li><a href="lottery.jsp" target="_blank" title="3个月入伙体验券"><img src="images/try3.gif" alt="3个月入伙体验券" width="259" height="101" /></a></li>
+          <li><a href="lottery.jsp" target="_blank" title="6个月入伙体验券"><img src="images/try6.gif" alt="6个月入伙体验券" width="259" height="101" /></a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="mc proRec">
+      <div class="title">
+        <h3><em></em><img src="images/title_text02.gif" alt="热销机型推荐" width="180" height="40" /><br />
+          <span>更多优惠、劲爆机型等你来抢！</span>
+        </h3>
+      </div>
+      <div class="content">
+        <ul class="list proList01">
+          <li><a href="http://product.21-sun.com/proDetail/306E.shtm" target="_blank" title="卡特彼勒306E小型液压挖掘机" class="img"><img src="/tuan/july/images/cat_img02.jpg" width="300" height="265" alt="卡特彼勒306E小型液压挖掘机"><span class="hotSale"></span></a>
+            <a onclick="showinquery('20164','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预订</a>
+            <h3><a href="http://product.21-sun.com/proDetail/306E.shtm" target="_blank" title="卡特彼勒306E小型液压挖掘机">卡特彼勒306E<br />小型液压挖掘机</a></h3>
+          </li>
+          <li><a class="img" href="http://product.21-sun.com/proDetail/320D320DL.shtm" target="_blank" title="卡特彼勒320D 320DL履带式挖掘机"><img src="/tuan/july/images/cat_img04.jpg" width="300" height="265" alt="卡特彼勒320D 320DL履带式挖掘机"><span class="hotSale"></span></a>
+            <a href="javascript:void(0);" target="_self" class="ydbtn" onClick="showinquery('400','');">我要预订</a>
+            <h3><a href="http://product.21-sun.com/proDetail/320D320DL.shtm" target="_blank" title="卡特彼勒320D 320DL履带式挖掘机">卡特彼勒320D 320DL<br />履带式挖掘机</a></h3>
+          </li>
+          <li><a class="img" href="http://product.21-sun.com/proDetail/ZL5-G-I.shtm" target="_blank" title="山工ZL50F-II轮式装载机"><img src="/tuan/july/images/sem_img01.jpg" width="300" height="265" alt="山工ZL50F-II轮式装载机"><span class="hotSale"></span></a>
+            <a href="javascript:void(0);" target="_self" class="ydbtn" onClick="showinquery('883','');">我要预订</a>
+            <h3><a href="http://product.21-sun.com/proDetail/ZL5-G-I.shtm" target="_blank" title="山工ZL50F-II轮式装载机">山工ZL50F-II<br />
+            轮式装载机</a></h3>
+          </li>
+          <li><a class="img" href="http://product.21-sun.com/proDetail/SY225C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="三一SY225C-9(2013款)履带式挖掘机"><img src="images/SY225C-9.jpg" width="300" height="265" alt="三一SY225C-9(2013款)履带式挖掘机"><span class="hotSale"></span></a>
+            <a href="javascript:void(0);" target="_self" class="ydbtn" onClick="showinquery('18543','');">我要预订</a>
+            <h3><a href="http://product.21-sun.com/proDetail/SY225C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="三一SY225C-9(2013款)履带式挖掘机">三一SY225C-9<br />(2013款)履带式挖掘机</a></h3>
+          </li>
+          <li><a class="img" href="http://product.21-sun.com/proDetail/PC200-8.shtm" target="_blank" title="小松PC200-8履带式挖掘机"><img src="images/PC200-8.jpg" width="300" height="265" alt="小松PC200-8履带式挖掘机"><span class="hotSale"></span></a>
+            <a href="javascript:void(0);" target="_self" class="ydbtn" onClick="showinquery('6822','');">我要预订</a>
+            <h3><a href="http://product.21-sun.com/proDetail/PC200-8.shtm" target="_blank" title="小松PC200-8履带式挖掘机">小松PC200-8<br />履带式挖掘机</a></h3>
+          </li>
+          <li><a class="img" href="http://product.21-sun.com/proDetail/LG853.shtm" target="_blank" title="龙工LG853D装载机"><span class="hotSale"></span><img src="/tuan/august/images/logngg.jpg" width="300" height="265" alt="龙工LG853D装载机"></a>
+            <a href="javascript:void(0);" target="_self" class="ydbtn" onClick="showinquery('804','');">我要订购</a>
+            <h3><a href="http://product.21-sun.com/proDetail/LG853.shtm" target="_blank" title="龙工LG853D装载机">龙工LG853D装载机</a></h3>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="mc shopRec">
+      <div class="title">
+        <h3><em></em><img src="images/title_text03.gif" alt="优惠店铺推荐" width="180" height="40" /><br />
+          <span>更多优惠、劲爆机型等你来抢！</span>
+        </h3>
+      </div>
+      <div class="content">
+        <ul class="list">
+          <li>
+            <a href="cat_mini.htm#tuanPart" title="卡特迷你小挖专场">
+            <span class="enterIco"></span>
+            <img src="images/shop_img01.jpg" width="226" height="235" />
+            <h3>卡特迷你小挖专场</h3></a>
+          </li>
+          <li>
+            <a href="sem.htm#tuanPart" title="山工装载机专场">
+            <span class="enterIco"></span>
+            <img src="images/shop_img02.jpg" width="226" height="235" />
+            <h3>山工装载机专场</h3></a>
+          </li>
+          <li>
+            <a href="sany.htm#tuanPart" title="三一挖掘机专场">
+            <span class="enterIco"></span>
+            <img src="images/shop_img03.jpg" width="226" height="235" />
+            <h3>三一挖掘机专场</h3></a>
+          </li>
+          <li>
+            <a href="cat.htm#tuanPart" title="卡特挖掘机专场">
+            <span class="enterIco"></span>
+            <img src="images/shop_img04.jpg" width="226" height="235" />
+            <h3>卡特挖掘机专场</h3></a>
+          </li>
+          <li>
+            <a href="lonking.htm#tuanPart" title="龙工装载机专场">
+            <span class="enterIco"></span>
+            <img src="images/shop_img_lg.jpg" width="226" height="235" />
+            <h3>龙工装载机专场</h3></a>
+          </li>
+          <li>
+            <a href="parts.htm#tuanPart" title="配件专场">
+            <span class="enterIco"></span>
+            <img src="images/shop_img06.jpg" width="226" height="235" />
+            <h3>配件专场</h3></a>
+          </li>
+          <li>
+            <a href="breaker.htm#tuanPart" title="破碎锤专场">
+            <span class="enterIco"></span>
+            <img src="images/shop_img07.jpg" width="226" height="235" />
+            <h3>破碎锤专场</h3></a>
+          </li>
+          <li>
+            <a href="other.htm#tuanPart" title="其他挖机专场">
+            <span class="enterIco"></span>
+            <img src="images/shop_img08.jpg" width="226" height="235" />
+            <h3>其他挖机专场</h3></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<div class="foot">
+<!--#include virtual="/include/foot.jsp"--> 
+</div>
+<!--#include virtual="include/side_guide.jsp"-->
+<div style="display:none">
+<script src="http://s14.cnzz.com/stat.php?id=5557457&web_id=5557457&show=pic1" language="JavaScript"></script>
+</div> 
+</body>
+<script type="text/javascript">
+jQuery(function(){
+	jQuery('.shopRec li').hover(function(){
+		jQuery(".enterIco", this).show();
+	}, function() {
+		jQuery(".enterIco", this).hide();
+	});
+})
+</script>
+<!-- jbox -->
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<script type="text/javascript">
+function showinquery(pid,factoryid){
+	jQuery.jBox("iframe:/include/products/product_order.jsp?productid="+pid+"&factoryid="+factoryid, {
+	title: "在线询价",
+	width: 720,
+	height: 435,
+	top: '20%',
+	iframeScrolling : 'no',
+	buttons: { '关闭': false }
+	});
+	jQuery(".jbox-button-panel").attr("style","display:none;") ;
+}
+</script>
+</html>

@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /tools/
+Disallow: /web/
+Disallow: /template/
+Disallow: /scripts/
+Disallow: /include/
+Disallow: /style/
+Disallow: /product/*=baidu
+Disallow: /product/proDetail_b/
+Disallow: /buy/
+Disallow: /equipment/
+Disallow: /rent/
+Disallow: /inquiry.jsp
+Disallow: /news/equipment_content.jsp
+Sitemap: http://m.21-sun.com/sitemap.xml
+User-agent: Yahoo! Slurp China
+Disallow: /
+User-agent: Yahoo
+Disallow: /
+User-agent: Googlebot
+Disallow: /

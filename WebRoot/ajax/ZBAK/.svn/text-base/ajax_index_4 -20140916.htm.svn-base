@@ -1,0 +1,35 @@
+<div class="sortLeft">
+  <div class="cate">
+    <h3>推土机分类</h3>
+    <ul>
+      <li><a href="/products/prolist.jsp?catalog=101003001" target="_blank">履带推土机</a></li>
+      <li><a href="/products/prolist.jsp?catalog=101003004" target="_blank">轮式推土机</a></li>
+    </ul>
+  </div>
+  <div class="brandRec">
+    <h3>品牌推荐</h3>
+    <ul>
+      <li><a href="/products/prolist.jsp?factory=144&catalog=101003" target="_blank">山推</a></li>
+      <li><a href="http://product.21-sun.com/brandshop/cql/" target="_blank">山工</a></li>
+      <li><a href="/products/prolist.jsp?factory=135&catalog=101003" target="_blank">龙工</a></li>
+      <li><a href="/products/prolist.jsp?factory=154&catalog=101003" target="_blank">宣工</a></li>
+      <li><a href="/products/prolist.jsp?factory=209&catalog=101003" target="_blank">徐工</a></li>
+      <li><a href="/products/prolist.jsp?factory=182&catalog=101003" target="_blank">小松</a></li>
+      <li><a href="/products/prolist.jsp?factory=134&catalog=101003" target="_blank">中联重科</a></li>
+      <li><a href="/products/prolist.jsp?factory=161&catalog=101003" target="_blank">移山</a></li>
+      <li><a href="/products/prolist.jsp?factory=156&catalog=101003" target="_blank">彭浦</a></li>
+      <li><a href="/products/prolist.jsp?factory=136&catalog=101003" target="_blank">柳工</a></li>
+      <li><a href="/products/prolist.jsp?factory=139&catalog=101003" target="_blank">厦工</a></li>
+      <li><a href="/products/prolist.jsp?factory=174&catalog=101003" target="_blank">卡特彼勒</a></li>
+      <li><a href="/products/prolist.jsp?factory=143&catalog=101003" target="_blank">宇通重工</a></li>
+      <li><a href="/products/prolist.jsp?factory=140&catalog=101003" target="_blank">鼎盛天工</a></li>
+      <li><a href="/products/prolist.jsp?factory=1187&catalog=101003" target="_blank">东方红</a></li>
+      <li><a href="/products/prolist.jsp?factory=455&catalog=101003" target="_blank">凯斯</a></li>
+    </ul>
+  </div>
+</div>
+<div class="sortRight">
+  <div class="l"><a href="/products/prolist.jsp?catalog=101003" target="_blank"><img src="ads/ttj.jpg" width="432" height="430" alt="推土机" /></a></div>
+  <div class="r"><a href="/proDetail/ZD160-3.shtm" target="_blank"><img src="ads/tj5.jpg" width="230" height="215" alt="中联重科ZD160-3推土机" /></a></div>
+  <div class="r"><a href="/proDetail/SD8B.shtm" target="_blank"><img src="ads/xg011.jpg" width="230" height="215" alt="宣工SD8B高驱动推土机" /></a></div>
+</div>

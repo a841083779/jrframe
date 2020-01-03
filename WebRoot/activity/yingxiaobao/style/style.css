@@ -1,0 +1,81 @@
+/* CSS Document */
+body.bao { background-color:#0f377c; cursor:default;}
+body.bao .brand_topbg { display:none;}
+.nohighlight:focus { outline:none; }
+
+body.bao .banner { width:100%; height:624px; background:url(../images/bannerbg.jpg) center top no-repeat; overflow:hidden;}
+body.bao .banner .contain980 { height:624px; position:relative;}
+body.bao .banner .nav { position:absolute; left:45px; bottom:61px;}
+body.bao .banner .nav li { width:171px; height:69px; float:left; margin-right:22px;}
+body.bao .banner .nav li a { display:block; width:100%; height:69px; text-align:center; font:700 24px/64px 微软雅黑; color:#fff!important;}
+body.bao .banner a.join { display:block; width:124px; height:38px; position:absolute; right:18px; top:500px; background:url(/images/blank.gif);}
+
+.part01 { height:237px; background:url(../images/part01_leftbg.gif) 6px 0px no-repeat; margin-bottom:15px;}
+.part01 .tel { width:auto; float:right;}
+.part01 .text { width:480px; float:left; padding:107px 0px 0px 36px; font:700 16px/30px 微软雅黑; color:#005ac5;}
+.part01 .text em { font-size:18px; color:#ff0048; font-style:italic;}
+
+.bao-con { width:966px; height:auto; clear:both; margin:0 auto;}
+.bao-con .title { height:65px; padding-top:26px;}
+.bao-con .title h3 { height:54px; padding-left:32px; font:700 40px/50px 微软雅黑; color:#fff;}
+.bao-con .title span { font-size:24px; color:#7cc9ff; font-style:italic;}
+.bao-con .title em { width:54px; height:54px; float:left; background:url(../images/part_point.gif) no-repeat; margin-right:20px; overflow:hidden;}
+.bao-con .content { width:auto; height:auto; padding:0px 15px 0px 30px; clear:both;}
+.bao-con .content .intro { width:460px; float:left;}
+.bao-con .content .intro p { font:100 14px/25px 微软雅黑; color:#fff; padding-bottom:25px;}
+.bao-con .content .intro p.text01 { font-weight:bold;}
+.bao-con .content .intro h2 { font:700 24px/44px 微软雅黑; color:#7cc9ff;}
+.bao-con .content .intro table th,.bao-con .content .intro table td { border-top:#005ac5 6px solid; font-size:14px; font-family:微软雅黑; color:#005ac5; line-height:22px; padding:4px 0px 4px 12px;}
+.bao-con .content .intro table th { background-color:#1e78e4; border-right:#005ac5 1px solid; font-weight:normal; text-align:left; font-weight:bold; color:#fff;}
+.bao-con .content .intro table td { background-color:#7cc9ff;}
+
+.bao-con .content .img { width:auto; float:right; padding-top:5px;}
+.bao-con .content .img img { width:auto; height:auto; border:#7cc9ff 5px solid;}
+
+.part02 { height:556px; background:#005ac5 url(../images/part02_bg.gif) 300px 216px no-repeat;}
+
+.part03 { height:520px; background:#ffa810 url(../images/part03_bg.gif) 0px 0px no-repeat;} 
+.part03 .title em { background-position:0px -54px;}
+.part03 .title h3 { color:#5a3901;}
+.part03 .title h3 span { color:#fff548;}
+.part03 .content .intro p { color:#5a3901; padding-bottom:40px;}
+.part03 .content .intro table th,.part03 .content .intro table td { border-color:#ffa810;}
+.part03 .content .intro table th { background-color:#b97601; color:#fef000;}
+.part03 .content .intro table td { background-color:#ffc72a; color:#5a3901;}
+.part03 .content .img img { border-color:#ffc72a;}
+
+.part04 { height:430px; background:#86b703 url(../images/part04_bg.gif) 300px 80px no-repeat;} 
+.part04 .title em { background-position:0px -108px;}
+.part04 .title h3 { color:#fff;}
+.part04 .title h3 span { color:#226800;}
+.part04 .content .intro p { color:#fff; padding-bottom:40px;}
+.part04 .content .intro table th,.part04 .content .intro table td { border-color:#86b703;}
+.part04 .content .intro table th { background-color:#a3e000; color:#226800;}
+.part04 .content .intro table td { background-color:#cffa5c; color:#226800;}
+.part04 .content .img img { border-color:#cffa5c;}
+
+.part05 { height:480px; background:#00b7c9 url(../images/part05_bg.gif) 0px bottom no-repeat;} 
+.part05 .title em { background-position:0px -162px;}
+.part05 .title h3 { color:#fff;}
+.part05 .title h3 span { color:#226800;}
+.part05 .content .intro p { color:#fff; padding-bottom:40px;}
+.part05 .content .intro table th,.part05 .content .intro table td { border-color:#00b7c9;}
+.part05 .content .intro table th { background-color:#00e1f7; color:#00484f;}
+.part05 .content .intro table td { background-color:#85f4ff; color:#00484f;}
+.part05 .content .img img { border-color:#85f4ff;}
+
+.part06 { height:180px; background:#ff9700 url(../images/part06_bg.gif) 60px 25px no-repeat;}
+.part06 .form { width:448px; height:101px; padding:39px 0px 0px 362px; float:left;}
+.part06 .form .input { width:307px; height:101px; float:left;}
+.part06 .form .input div { width:247px; height:50px; padding-left:60px; background:url(../images/part06_formbg.gif) no-repeat; overflow:hidden;}
+.part06 .form .input div.name { padding-top:1px; background-position:0px 0px;}
+.part06 .form .input div.tel { background-position:0px -51px;}
+.part06 .form .input div input { width:247px; height:25px; line-height:25px; padding:12px 0px; border:none; background-color:transparent; font-size:14px; font-family:微软雅黑; color:#7d7c76;}
+
+.part06 .form .btn { width:141px; height:101px; background:url(../images/part06_formbg.gif) -307px 0px no-repeat; overflow:hidden;}
+.part06 .form .btn input { width:141px; height:101px; border:none; background-color:transparent; cursor:pointer;}
+
+.foot { padding:20px 0px 10px;}
+.foot .New_website { display:none;}
+.foot .New_foot { margin-top:0px;}
+.foot span.New_links,.foot .New_foot,.foot .New_foot a { color:#fff!important;}

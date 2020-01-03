@@ -1,0 +1,17 @@
+ <!-- 1级栏目 -->
+<div class="sideGuide">
+	    <a href="#sg1">土方机械</a>
+	    <a href="#sg2">起重机</a>
+	    <a href="#sg3">混凝土机械</a>
+	    <a href="#sg4">筑养路机械</a>
+	    <a href="#sg5">桩工机械</a>
+	    <a href="#sg6">压实机械</a>
+	    <a href="#sg7">叉车</a>
+	    <a href="#sg8">桥梁机械</a>
+	    <a href="#sg9">地下及矿山机械</a>
+	    <a href="#sg10">港口机械</a>
+	    <a href="#sg11">破碎设备</a>
+	    <a href="#sg12">专用汽车</a>
+	    <a href="#sg13">煤炭机械</a>
+	    <a href="#sg14">风机</a>
+</div>

@@ -1,0 +1,176 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+<#assign grab_order = query(" select top 10 id,factoryname,name,catalogname,file_name,view_count,img2 from pro_products where catalognum like '%101001%' and is_show=1 order by view_count desc  ")> <#-- 挖掘机排行 -->
+<#assign loader_order = query(" select top 10 id,factoryname,name,catalogname,file_name,view_count,img2 from pro_products where catalognum like '%101002%' and is_show=1 order by view_count desc ")> <#-- 装载机排行 -->
+<#assign bulldozer_order = query(" select top 10 id ,factoryname,name,catalogname,file_name,view_count,img2 from pro_products where catalognum like '%101003%' and is_show=1 order by view_count desc ")> <#-- 推土机排行 -->
+<#assign grader_order = query(" select top 10 id,factoryname,name,catalogname,file_name,view_count,img2 from pro_products where catalognum like '%101005%' and is_show=1 order by view_count desc ")> <#-- 平地机排行 -->
+<#assign crane_order = query(" select top 10 id,factoryname,name,catalogname,file_name,view_count,img2 from pro_products where catalognum like '%102%' and is_show=1 order by view_count desc ")> <#-- 起重机排行 -->
+<#assign roller_order = query(" select top 10 id,factoryname,name,catalogname,file_name,view_count,img2 from pro_products where catalognum like '%106001%' and is_show=1 order by view_count desc ")> <#-- 压路机排行 -->
+<div class="rankContain"> 
+  <div class="wfull l">
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="/top/pro_0_0_0_0_101001_0.htm" target="_blank" title="挖掘机排行榜">挖掘机排行榜</a></h2>
+        <span><a href="/top/pro_0_0_0_0_101001_0.htm" target="_blank" title="更多挖掘机排行榜">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+        <#if grab_order??&&(grab_order?size>0)>
+        	<#list grab_order as oneGrab>
+        		<#if oneGrab_index<3>
+        		   	<li class="top3">
+        			<#else>
+        			<li>
+        		</#if>
+        		<em>${oneGrab_index+1}</em>
+	          <h3 style="width:170px;"><a href="/proDetail/${oneGrab.file_name}" target="_blank" title="${oneGrab.factoryname}${oneGrab.name} ${oneGrab.catalogname}">${oneGrab.factoryname}${oneGrab.name} ${oneGrab.catalogname}</a></h3>
+	          <span>关注指数：${oneGrab.view_count?c}</span>
+	          <#if oneGrab_index==0>
+	          <div class="wfull">
+	          <a href="/proDetail/${oneGrab.file_name}" target="_blank" title="${oneGrab.factoryname}${oneGrab.name} ${oneGrab.catalogname}">
+	          <img src="/uploadfiles/${oneGrab.img2}" width="120" height="90" title="${oneGrab.factoryname}${oneGrab.name} ${oneGrab.catalogname}"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" /></a> 
+	          <a href="javascript:;" class="plbtn" onclick="showinquery(${oneGrab.id?c})">询价</a></div>
+	          </#if>
+	        </li>
+        	</#list>
+        </#if>
+      </ul>
+    </div>
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="/top/pro_0_0_0_0_101002_0.htm" target="_blank" title="装载机排行榜">装载机排行榜</a></h2>
+        <span><a href="/top/pro_0_0_0_0_101002_0.htm" target="_blank" title="更多装载机排行榜">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+        <#if loader_order??&&(loader_order?size>0)>
+        	<#list loader_order as oneLoader>
+        		<#if oneLoader_index<3>
+        		   	<li class="top3">
+        			<#else>
+        			<li>
+        		</#if>
+        		<em>${oneLoader_index+1}</em>
+	          <h3 style="width:170px;"><a href="/proDetail/${oneLoader.file_name}" target="_blank" title="${oneLoader.factoryname}${oneLoader.name} ${oneLoader.catalogname}">${oneLoader.factoryname}${oneLoader.name} ${oneLoader.catalogname}</a></h3>
+	          <span>关注指数：${oneLoader.view_count?c}</span>
+	          <#if oneLoader_index==0>
+	          <div class="wfull">
+	          <a href="/proDetail/${oneLoader.file_name}" target="_blank" title="${oneLoader.factoryname}${oneLoader.name} ${oneLoader.catalogname}">
+	          <img src="/uploadfiles/${oneLoader.img2}" width="120" height="90" title="${oneLoader.factoryname}${oneLoader.name} ${oneLoader.catalogname}"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/> </a>
+	          <a href="javascript:;" class="plbtn" onclick="showinquery(${oneLoader.id?c})">询价</a></div>
+	          </#if>
+	        </li>
+        	</#list>
+        </#if>
+      </ul>
+    </div>
+    
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="/top/pro_0_0_0_0_101003_0.htm" target="_blank" title="推土机排行榜">推土机排行榜</a></h2>
+        <span><a href="/top/pro_0_0_0_0_101003_0.htm" target="_blank" title="更多推土机排行榜">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+         <#if bulldozer_order??&&(bulldozer_order?size>0)>
+        	<#list bulldozer_order as oneBulldozer>
+        		<#if oneBulldozer_index<3>
+        		   	<li class="top3">
+        			<#else>
+        			<li>
+        		</#if>
+        		<em>${oneBulldozer_index+1}</em>
+	          <h3 style="width:170px;"><a href="/proDetail/${oneBulldozer.file_name}" target="_blank" title="${oneBulldozer.factoryname}${oneBulldozer.name} ${oneBulldozer.catalogname}">${oneBulldozer.factoryname}${oneBulldozer.name} ${oneBulldozer.catalogname}</a></h3>
+	          <span>关注指数：${oneBulldozer.view_count?c}</span>
+	          <#if oneBulldozer_index==0>
+	          <div class="wfull">
+	          <a href="/proDetail/${oneBulldozer.file_name}" target="_blank" title="${oneBulldozer.factoryname}${oneBulldozer.name} ${oneBulldozer.catalogname}">
+	          <img src="/uploadfiles/${oneBulldozer.img2}" width="120" height="90" title="${oneBulldozer.factoryname}${oneBulldozer.name} ${oneBulldozer.catalogname}"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a>
+	           <a href="javascript:;" onclick="showinquery(${oneBulldozer.id?c})" class="plbtn">询价</a></div>
+	          </#if>
+	        </li>
+        	</#list>
+        </#if>
+      </ul>
+    </div>
+    
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="/top/pro_0_0_0_0_101005_0.htm" target="_blank" title="平地机排行榜">平地机排行榜</a></h2>
+        <span><a href="/top/pro_0_0_0_0_101005_0.htm" target="_blank" title="更多平地机排行榜">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+        <#if grader_order??&&(grader_order?size>0)>
+        	<#list grader_order as oneGrader>
+        		<#if oneGrader_index<3>
+        		   	<li class="top3">
+        			<#else>
+        			<li>
+        		</#if>
+        		<em>${oneGrader_index+1}</em>
+	          <h3 style="width:170px;"><a href="/proDetail/${oneGrader.file_name}" target="_blank" title="${oneGrader.factoryname}${oneGrader.name} ${oneGrader.catalogname}">${oneGrader.factoryname}${oneGrader.name} ${oneGrader.catalogname}</a></h3>
+	          <span>关注指数：${oneGrader.view_count?c}</span>
+	          <#if oneGrader_index==0>
+	          <div class="wfull">
+	          <a href="/proDetail/${oneGrader.file_name}" target="_blank" title="${oneGrader.factoryname}${oneGrader.name} ${oneGrader.catalogname}">
+	          <img src="/uploadfiles/${oneGrader.img2}" width="120" height="90" title="${oneGrader.factoryname}${oneGrader.name} ${oneGrader.catalogname}"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/> </a>
+	          <a href="javascript:;" onclick="showinquery(${oneGrader.id?c})" class="plbtn">询价</a></div>
+	          </#if>
+	        </li>
+        	</#list>
+        </#if>
+      </ul>
+    </div>
+    
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="/top/pro_0_0_0_0_102_0.htm" target="_blank" title="起重机排行榜">起重机排行榜</a></h2>
+        <span><a href="/top/pro_0_0_0_0_102_0.htm" target="_blank" title="更多起重机排行榜">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+         <#if crane_order??&&(crane_order?size>0)>
+        	<#list crane_order as oneCrane>
+        		<#if oneCrane_index<3>
+        		   	<li class="top3">
+        			<#else>
+        			<li>
+        		</#if>
+        		<em>${oneCrane_index+1}</em>
+	          <h3 style="width:170px;"><a href="/proDetail/${oneCrane.file_name}" target="_blank" title="${oneCrane.factoryname}${oneCrane.name} ${oneCrane.catalogname}">${oneCrane.factoryname}${oneCrane.name} ${oneCrane.catalogname}</a></h3>
+	          <span>关注指数：${oneCrane.view_count?c}</span>
+	          <#if oneCrane_index==0>
+	          <div class="wfull">
+	         <a href="/proDetail/${oneCrane.file_name}" target="_blank" title="${oneCrane.factoryname}${oneCrane.name} ${oneCrane.catalogname}">
+	         <img src="/uploadfiles/${oneCrane.img2}" width="120" height="90" title="${oneCrane.factoryname}${oneCrane.name} ${oneCrane.catalogname}"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/> </a>
+	          <a href="javascript:;"  class="plbtn" onclick="showinquery(${oneCrane.id?c})">询价</a></div>
+	          </#if>
+	        </li>
+        	</#list>
+        </#if>
+      </ul>
+    </div>
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="/top/pro_0_0_0_0_106001_0.htm" target="_blank" title="压路机排行榜">压路机排行榜</a></h2>
+        <span><a href="/top/pro_0_0_0_0_106001_0.htm" target="_blank" title="更多压路机排行榜">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+         <#if roller_order??&&(roller_order?size>0)>
+        	<#list roller_order as oneRoller>
+        		<#if oneRoller_index<3>
+        		   	<li class="top3">
+        			<#else>
+        			<li>
+        		</#if>
+        		<em>${oneRoller_index+1}</em>
+	          <h3 style="width:170px;"><a href="/proDetail/${oneRoller.file_name}" target="_blank" title="${oneRoller.factoryname}${oneRoller.name} ${oneRoller.catalogname}">${oneRoller.factoryname}${oneRoller.name} ${oneRoller.catalogname}</a></h3>
+	          <span>关注指数：${oneRoller.view_count?c}</span>
+	          <#if oneRoller_index==0>
+	          <div class="wfull">
+	          <a href="/proDetail/${oneRoller.file_name}" target="_blank" title="${oneRoller.factoryname}${oneRoller.name} ${oneRoller.catalogname}">
+	          <img src="/uploadfiles/${oneRoller.img2}" width="120" height="90" title="${oneRoller.factoryname}${oneRoller.name} ${oneRoller.catalogname}"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" /></a>
+	           <a href="javascript:;" onclick="showinquery(${oneRoller.id?c})" class="plbtn">询价</a></div>
+	          </#if>
+	        </li>
+        	</#list>
+        </#if>
+      </ul>
+    </div>
+  </div>  
+  </div>

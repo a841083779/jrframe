@@ -1,0 +1,65 @@
+﻿.tuan_top { clear:both; background:#fff; padding:5px 0 5px; line-height:32px;}
+.tuan_top .logo { float:left; font-size:20px; margin-left: 290px; width:348px; white-space:nowrap;}
+.tuan_top .logo img { float:left; margin-right:10px;}
+.tuan_top .tuan_tel { float:right;}
+body, html, .wrap { min-width:1000px;}
+.tuan_top .wrap { max-width:100%; width:auto; padding:0 10px; min-width:100px;}
+
+.tuan_shopBox,.ts_left { height:500px;}
+.tuan_shopBox { position:relative; background:#ccc; clear:both; padding-left:300px; overflow:hidden;}
+.ts_left { width:300px; background:#5d5d5c; position:absolute; left:0; bottom:0;}
+.ts_left .n { text-align:center; height:60px; line-height:60px; background:#4f4f4f; color:#ffb400; font-size:28px;}
+.ts_left .ion { color:#fff; font-size:16px; margin-left:10px;}
+
+.ts_menus { overflow-y:auto; overflow-x:hidden;}
+.ts_menus a { display:block; line-height:40px; padding:30px 10px 30px 50px; font-size:28px; color:#fff; background:#6f6f6f;}
+
+.ts_menus a.lk01 { background:#646464;}
+.ts_menus .on a.lk01,.tr01 { background:#00a0e6;}
+.ts_menus a.lk02 { background:#6f6f6f;}
+.ts_menus .on a.lk02,.tr02 { background:#4ea59d;}
+.ts_menus a.lk03 { background:#666666;}
+.ts_menus .on a.lk03,.tr03 { background:#f25648;}
+.ts_menus a.lk04 { background:#525252;}
+.ts_menus .on a.lk04,.tr04 { background:#ffb400;}
+
+.ts_right { width:100%;}
+.ts_right .box { padding:30px 50px 10px;}
+
+.ts_right .n { height:50px; line-height:50px; font-size:28px; font-weight:bold; color:#fff;}
+.sliderBox { width:100%; height:300px; position:relative; overflow:hidden;}
+.sliderBox .slide_nav { width:100%; height:auto; position:absolute; left:0; bottom:0px; text-align:center; font:0/0 a; letter-spacing:-9px;}
+.sliderBox .slide_nav a { display:inline-block; width:30px; height:30px; background:url(../images/tuan/slide_menu.png) -90px 0 no-repeat; overflow:hidden; cursor:pointer;}
+.sliderBox .slide_nav a.on { background-position:-60px 0;}
+.sliderBox .arrs { display:block; width:30px; height:30px; background:url(../images/tuan/slide_menu.png) 0 0 no-repeat; position:absolute; bottom:0px; z-index:10; overflow:hidden;}
+.sliderBox .arr_prev { background-position:0 0; left:50%; margin-left:-90px;}
+.sliderBox .arr_next { background-position:-30px 0; right:50%; margin-right:-90px;}
+
+.sl { width:20%; height:0; overflow:hidden; position:relative; padding-bottom:10%; float:left; background:#fff; margin:3.5% 5% 0 0; *margin-right:4.5%;}
+.sl ._img { width:100%; height:auto;}
+.sl .cover { width:100%; height:100%; position:absolute; left:0; top:100%; color:#333; background:#ffb400; z-index:10;}
+.sl .cover .sbox { padding:10px 20px; font-size:12px;}
+.sl .cover .sbox h3 { font-size:14px;}
+
+
+/*介绍*/
+.introBox {/* padding:85px 82px 0 325px; */ width:405px; height:283px; /*background:url(../images/tuan/introbg.png) no-repeat; */color:#fff; position:relative;/* margin-top:6%; margin-left:5%;*/}
+.introBox .text { font-size:14px; line-height:32px;}
+.introBox .tel { font-size:18px; color:#ffde00; float:left;}
+.introBox .tel b { font-size:14px; font-weight:normal;}
+.introBox .join { display:block; width:137px; height:38px; line-height:38px; background:#ffa800; color:#fff; font-size:20px; font-weight:normal; text-align:center; border-radius:5px; float:right; margin-right:-30px; margin-top:10px;}
+
+/*优势*/
+.odds { width:100%; height:397px; margin:3% auto 0; clear:both; overflow:hidden; cursor:default;}
+.odds ul { width:110%; float:left;}
+.odds ul li { width:290px; height:397px; float:left; margin-right:5%; background:url(../images/tuan/qj_bg.gif) no-repeat;}
+.odds ul li.odd01 { background-position:0px 0px;}
+.odds ul li.odd02 { background-position:-290px 0px;}
+.odds ul li.odd03 { background-position:-580px 0px;}
+.odds ul li p.text { width:220px; font:700 24px/36px 微软雅黑; color:#fff; padding:155px 38px 0px;}
+/*zengfc*/
+.logo_intro{width:990px;height:320px;float:left;padding-top:30px}
+.logo_s{width:330px;height:320px;float:left;text-align:center}
+.logo_img img{width:164px;height:188px}
+.logo_text {font-size:26px}
+.text_intro{font-size:35px;width:990px;line-height:50px;text-align:center}

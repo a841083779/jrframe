@@ -1,0 +1,27 @@
+﻿<#assign brandList = query(" select id from pro_agent_factory where is_show=1 and  flag = 1 and usern<>'tdbenniu' ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+		<#list brandList as brand>
+		<url>
+            <loc>http://product.21-sun.com/products/prolist.jsp?factory=${brand.id?c}</loc>
+            <lastmod>2014-06-11</lastmod>
+			<priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+        <#assign proList = query("select catalognum from pro_products where is_show=1 and factoryid = '${brand.id?c}'  group by catalognum ")>
+		<#list proList as pro>
+		<url>
+            <loc>http://product.21-sun.com/products/prolist.jsp?catalog=${pro.catalognum}</loc>
+            <lastmod>2014-06-11</lastmod>
+			<priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>			
+        <url>
+            <loc>http://product.21-sun.com/products/prolist.jsp?factory=${brand.id?c}&catalog=${pro.catalognum}</loc>
+            <lastmod>2014-06-11</lastmod>
+			<priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+	    </#list>	
+	    </#list>
+</urlset>

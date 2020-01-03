@@ -1,0 +1,19 @@
+<!--http://spec.21-sun.com/brands/*.htm-->
+<!-- 品牌街——专题 -->
+<#if pro_agent_factory_nums != 0>
+	<#assign pro_agent_factory_list = query(" select usern from pro_agent_factory where  id between 30000 * (${pro_agent_factory_nums}-1) and 30000 * ${pro_agent_factory_nums}")>
+</#if>
+<#if pro_agent_factory_nums == 0>
+<#assign pro_agent_factory_list = query(" select usern from pro_agent_factory ")>
+</#if>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list pro_agent_factory_list as agent_factory >
+	<url>
+		<loc>http://spec.21-sun.com/brands/${agent_factory.usern}.htm</loc>
+		<lastmod>${.now}</lastmod>
+		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	</#list>
+</urlset>

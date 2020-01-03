@@ -1,0 +1,146 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+
+<#assign grab_order = query("SELECT top 10 allCount,factoryid,name,full_name,logo,english_name,usern from (SELECT COUNT(*) AS allCount,factoryid from pro_product_form  WHERE  is_deleted=0 and catanum like '101001%' GROUP BY factoryid ) as h INNER JOIN ( SELECT name,full_name,logo,id,english_name,usern,view_count  FROM pro_agent_factory WHERE flag=1 ) AS j ON  j.id=h.factoryid ORDER BY (h.allCount) DESC ")> <#-- 挖掘机排行 -->
+<#assign loader_order = query(" SELECT top 10 allCount,factoryid,name,full_name,logo,english_name,usern from (SELECT COUNT(*) AS allCount,factoryid from pro_product_form  WHERE  is_deleted=0 and catanum like '101002%' GROUP BY factoryid ) as h INNER JOIN ( SELECT name,full_name,logo,id,english_name,usern,view_count  FROM pro_agent_factory WHERE flag=1 ) AS j ON  j.id=h.factoryid ORDER BY (h.allCount) DESC ")> <#-- 装载机排行 -->
+<#assign bulldozer_order = query(" SELECT top 10 allCount,factoryid,name,full_name,logo,english_name,usern from (SELECT COUNT(*) AS allCount,factoryid from pro_product_form  WHERE  is_deleted=0 and catanum like '101003%' GROUP BY factoryid ) as h INNER JOIN ( SELECT name,full_name,logo,id,english_name,usern,view_count  FROM pro_agent_factory WHERE flag=1 ) AS j ON  j.id=h.factoryid ORDER BY (h.allCount) DESC ")> <#-- 推土机排行 -->
+<#assign grader_order = query(" SELECT top 10 allCount,factoryid,name,full_name,logo,english_name,usern from (SELECT COUNT(*) AS allCount,factoryid from pro_product_form  WHERE  is_deleted=0 and catanum like '101005%' GROUP BY factoryid ) as h INNER JOIN ( SELECT name,full_name,logo,id,english_name,usern,view_count  FROM pro_agent_factory WHERE flag=1 ) AS j ON  j.id=h.factoryid ORDER BY (h.allCount) DESC ")> <#-- 平地机排行 -->
+<#assign crane_order = query(" SELECT top 10 allCount,factoryid,name,full_name,logo,english_name,usern from (SELECT COUNT(*) AS allCount,factoryid from pro_product_form  WHERE  is_deleted=0 and catanum like '102%' GROUP BY factoryid ) as h INNER JOIN ( SELECT name,full_name,logo,id,english_name,usern,view_count  FROM pro_agent_factory WHERE flag=1 ) AS j ON  j.id=h.factoryid ORDER BY (h.allCount) DESC")> <#-- 起重机排行 -->
+<#assign roller_order = query("SELECT top 10 allCount,factoryid,name,full_name,logo,english_name,usern from (SELECT COUNT(*) AS allCount,factoryid from pro_product_form  WHERE  is_deleted=0 and catanum like '106001%' GROUP BY factoryid ) as h INNER JOIN ( SELECT name,full_name,logo,id,english_name,usern,view_count  FROM pro_agent_factory WHERE flag=1 ) AS j ON  j.id=h.factoryid ORDER BY (h.allCount) DESC ")> <#-- 压路机排行 -->
+    
+	
+	
+	<div class="w755 l brand_list">
+	 <div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_101001_0.htm" title="挖掘机排行榜">挖掘机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_101001_0.htm" title="更多挖掘机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+		<#if grab_order??&&(grab_order?size>0)>
+        	<#list grab_order as oneGrab>
+        <p>
+          <strong class="brand_01 top${oneGrab_index+1}"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/${oneGrab.usern}/" title="${oneGrab.name}">${oneGrab.name}</a></span>
+          <span class="brand_03"><b><i style="width:${(oneGrab.allCount/100)?c}%"></i></b><strong>${(oneGrab.allCount*9)?c}</strong></span>
+        </p>
+		    </#list>
+        </#if>
+        <p class="more">
+          <a href="/brand_0_0_0_101001_0.htm" title="挖掘机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	   <div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_101002_0.htm" title="装载机排行榜">装载机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_101002_0.htm" title="更多装载机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+		<#if loader_order??&&(loader_order?size>0)>
+        	<#list loader_order as oneLoader>
+        <p>
+          <strong class="brand_01 top${oneLoader_index+1}"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/${oneLoader.usern}/" title="${oneLoader.name}">${oneLoader.name}</a></span>
+          <span class="brand_03"><b><i style="width:${(oneLoader.allCount/80)?c}%"></i></b><strong>${(oneLoader.allCount*9)?c}</strong></span>
+        </p>
+		    </#list>
+        </#if>
+        <p class="more">
+          <a href="/brand_0_0_0_101002_0.htm" title="装载机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	<div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_101003_0.htm" title="推土机排行榜">推土机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_101003_0.htm" title="更多推土机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+         <#if bulldozer_order??&&(bulldozer_order?size>0)>
+        	<#list bulldozer_order as oneBulldozer>
+        <p>
+          <strong class="brand_01 top${oneBulldozer_index+1}"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/${oneBulldozer.usern}/" title="${oneBulldozer.name}">${oneBulldozer.name}</a></span>
+          <span class="brand_03"><b><i style="width:${(oneBulldozer.allCount/50)?c}%"></i></b><strong>${(oneBulldozer.allCount*9)?c}</strong></span>
+        </p>
+		    </#list>
+        </#if>
+        <p class="more">
+          <a href="/brand_0_0_0_101003_0.htm" title="推土机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	
+		<div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_101005_0.htm" title="平地机排行榜">平地机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_101005_0.htm" title="更多平地机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+        <#if grader_order??&&(grader_order?size>0)>
+        	<#list grader_order as oneGrader>
+        <p>
+          <strong class="brand_01 top${oneGrader_index+1}"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/${oneGrader.usern}/" title="${oneGrader.name}">${oneGrader.name}</a></span>
+          <span class="brand_03"><b><i style="width:${(oneGrader.allCount/20)?c}%"></i></b><strong>${(oneGrader.allCount*9)?c}</strong></span>
+        </p>
+        	</#list>
+        </#if>
+        <p class="more">
+          <a href="/brand_0_0_0_101005_0.htm" title="平地机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	
+	
+		<div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_102_0.htm" title="起重机排行榜">起重机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_102_0.htm" title="更多起重机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+         <#if crane_order??&&(crane_order?size>0)>
+        	<#list crane_order as oneCrane>
+        <p>
+          <strong class="brand_01 top${oneCrane_index+1}"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/${oneCrane.usern}/" title="${oneCrane.name}">${oneCrane.name}</a></span>
+          <span class="brand_03"><b><i style="width:${(oneCrane.allCount/30)?c}%"></i></b><strong>${(oneCrane.allCount*9)?c}</strong></span>
+        </p>
+		    </#list>
+        </#if>
+        <p class="more">
+          <a href="/brand_0_0_0_102_0.htm" title="起重机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	
+	
+		<div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_106001_0.htm" title="压路机排行榜">压路机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_106001_0.htm" title="更多压路机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+         <#if roller_order??&&(roller_order?size>0)>
+        	<#list roller_order as oneRoller>
+        <p>
+          <strong class="brand_01 top${oneRoller_index+1}"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/${oneRoller.usern}/" title="${oneRoller.name}">${oneRoller.name}</a></span>
+          <span class="brand_03"><b><i style="width:${(oneRoller.allCount/30)?c}%"></i></b><strong>${(oneRoller.allCount)?c}</strong></span>
+        </p>
+		    </#list>
+        </#if>
+        <p class="more">
+          <a href="/brand_0_0_0_106001_0.htm" title="压路机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+  
+
+
+  </div>  

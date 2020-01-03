@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+.cp_t{ height:35px; line-height:35px; border-bottom:1px solid #d8d8d8; background-color:#f9f6f8; font-size:14px; color:#5d5c5a; padding-left:10px;}
+.cp_list { padding:15px;}
+.cp_list ul { width:104%}
+.cp_list ul li{ float:left; width:305px; margin-right:15px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding-left:5px; background:url(../images/c_dot.png) left no-repeat; margin-bottom:10px;; height:25px; line-height:25px;}
+.cp_list ul li a{ font-size:14px; color:#5d5c5a; display:block}

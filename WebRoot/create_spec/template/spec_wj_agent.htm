@@ -1,0 +1,15 @@
+								<#if list?? && (list?size>0)>
+								<#list list as list>
+								<a title="${list.title?replace("^R","®")}" target="_blank" class="item <#if (list_index==0) || (list_index==2) || (list_index==4) > odd <#else> even </#if>" href="${list.title_url}">
+									<div class="fix">
+										<div class="l logo">
+											<img src="http://product.21-sun.com/uploadfiles${list.img}" alt="${list.title?replace("^R","®")}">
+										</div>
+										<div class="r info">
+											<div class="tit el">${list.title?replace("^R","®")}</div>
+											<div class="desc el">代理品牌：${list.sub_title}</div>
+										</div>
+									</div>
+								</a>
+								</#list>
+								</#if>

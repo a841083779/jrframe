@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>卡特迷你挖掘机_八月优买团，梦想新航线，未来合伙人_21-sun优买团</title>
+<meta name="keywords" content="21-sun优买团,诚邀合伙人,卡特迷你挖掘机,山工装载机,三一挖掘机,卡特挖机,山推专场,配件,破碎锤" />
+<meta name="description" content="21-sun优买团,中国工程机械商贸网13周年感恩回馈客户,梦想新航线未来合伙人,热销机型包括,卡特迷你挖掘机,山工装载机,三一挖掘机,卡特挖机,山推机械等专场优惠" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/common.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".nav li:eq(1)").addClass("selected");
+  $(".sideGuide a:eq(2)").addClass("selected");
+});
+</script>
+</head>
+<body id="top" class="cat_mini">
+<!--#include virtual="include/top.jsp"-->
+<div class="main">
+  <div class="wrapper banner"><img src="images/banner_catmini.jpg" width="1000" height="467" /></div>
+  <div class="tuan_part01" id="tuanPart">
+    <div class="main-con tuanParts clearfix">
+      <div class="title">
+        <h3>卡特彼勒迷你小挖专场</h3>
+        <span class="tel">更多优惠请咨询：0535-6727793</span>
+      </div>
+      <div class="content">
+        <ul class="list proList02">
+          <li>
+            <h2><a href="http://product.21-sun.com/proDetail/307E.shtm" target="_blank">卡特彼勒307E小型液压挖掘机</a></h2>
+            <a href="http://product.21-sun.com/proDetail/307E.shtm" target="_blank" class="img"><img src="images/cat_307E.jpg" alt="卡特彼勒307E小型液压挖掘机" width="427" height="334" /></a>
+            <a onclick="showinquery('20163','');" target="_self" href="javascript:void(0);" title="立即预订" class="ydbtn"><img src="images/buy_btn02.gif" alt="立即预订" width="306" height="74" /></a>
+          </li>
+          <li>
+            <h2><a href="http://product.21-sun.com/proDetail/306E.shtm" target="_blank">卡特彼勒306E小型液压挖掘机</a></h2>
+            <a href="http://product.21-sun.com/proDetail/306E.shtm" target="_blank" class="img"><img src="images/cat_306E.jpg" alt="卡特彼勒306E小型液压挖掘机" width="427" height="334" /></a>
+            <a onclick="showinquery('20164','');" target="_self" href="javascript:void(0);" title="立即预订" class="ydbtn"><img src="images/buy_btn02.gif" alt="立即预订" width="306" height="74" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="tuan_part02">
+    <div class="wrapper">
+      <p class="text">
+        客户支持 – 无与伦比的支持服务使 Caterpillar 卓尔不凡。<br />
+        Cat 代理商可随时助您作出购买决定并处理购买之后的所有事宜。<br />
+        • 提供灵活的融资套餐服务，以满足您的需求;<br />
+        • 无可比拟的零件供应可以为您的作业提供保障;<br />
+        • 对机器详加比较，估算部件使用寿命、预防性维护和生产成本;<br />
+      • 有关 Cat 产品、各种代理商服务和行业解决方案的更多信息，请访问网站：<a href="http://www.cat.com/" target="_blank">www.cat.com</a>。 </p>
+    </div>
+  </div>
+</div>
+<div class="foot">
+<!--#include virtual="/include/foot.jsp"--> 
+</div>
+<!--#include virtual="include/side_guide.jsp"-->
+</body>
+<!-- jbox -->
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<script type="text/javascript">
+function showinquery(pid,factoryid){
+	jQuery.jBox("iframe:/include/products/product_order.jsp?productid="+pid+"&factoryid="+factoryid, {
+	title: "在线询价",
+	width: 720,
+	height: 435,
+	top: '20%',
+	iframeScrolling : 'no',
+	buttons: { '关闭': false }
+	});
+	jQuery(".jbox-button-panel").attr("style","display:none;") ;
+}
+</script>
+</html>

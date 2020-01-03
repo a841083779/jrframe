@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>卡特彼勒挖掘机电商平台</title>
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<!--[if (IE 6)]>
+<script src="scripts/iepng.js" type="text/javascript"></script>
+<script type="text/javascript">
+   EvPNG.fix('.png'); 
+</script>
+<![endif]-->
+</head>
+<body>
+<div class="top">
+  <div class="top_up mb20">
+    <div class="wrap">
+      <h3>卡特彼勒配件中国区唯一官方合作网络营销平台</h3>
+      <div class="logIn">您好，欢迎进入卡特彼勒配件营销平台！<strong> 登陆 | 免费注册 |</strong> 在线收藏 | 安全保障</div>
+    </div>
+  </div>
+  <div class="wrap top_down clearfix">
+    <div class="logo"> <img src="images/logo.jpg" /> <span class="Yh18"> 卡特彼勒挖掘机电商平台</span> </div>
+    <div class="search">
+      <div class="searchBox clearfix">
+        <input type="text" class="searchTxt" />
+        <input type="button" value="搜索" class="search_btn"/>
+      </div>
+      <div class="keywords"> <span>热搜：</span><a href="#" target="_blank">313D系列2</a><a href="#" target="_blank">306E</a><a href="#" target="_blank">307E</a><a href="#" target="_blank">320DGC</a> </div>
+    </div>
+  </div>
+</div>
+<div class="nav_bg">
+  <ul class="clearfix">
+    <li class="category"> <span class="n">全部产品分类 <i></i></span> 
+      <div class="con1_left">
+        <dl>
+          <dt><a href="#" target="_blank">Cat小型挖掘机&gt;</a></dt>
+          <dd class="menu"><a href="#" target="_blank">313D系列2</a><a href="#" target="_blank">306E</a><a href="#" target="_blank">307E</a><a href="#" target="_blank">312D GC系列2</a><a href="#" target="_blank">313D</a><a href="#" target="_blank">318D</a><a href="#" target="_blank">318DL</a></dd>
+        </dl>
+        <dl class="mid">
+          <dt><a href="#" target="_blank">Cat小型挖掘机&gt;</a></dt>
+          <dd class="menu"><a href="#" target="_blank">313D系列2</a><a href="#" target="_blank">306E</a><a href="#" target="_blank">307E</a><a href="#" target="_blank">312D GC系列2</a><a href="#" target="_blank">313D</a><a href="#" target="_blank">318D</a><a href="#" target="_blank">318DL</a></dd>
+        </dl>
+        <dl>
+          <dt><a href="#" target="_blank">Cat小型挖掘机&gt;</a></dt>
+          <dd class="menu"><a href="#" target="_blank">313D系列2</a><a href="#" target="_blank">306E</a><a href="#" target="_blank">307E</a><a href="#" target="_blank">312D GC系列2</a><a href="#" target="_blank">313D</a><a href="#" target="_blank">318D</a><a href="#" target="_blank">318DL</a></dd>
+        </dl>
+      </div>
+    </li>
+    <li><a href="#" target="_blank">首　　页</a></li>
+    <li><a href="#" target="_blank">新品推荐</a> <i class="newIcon"></i></li>
+    <li><a href="#" target="_blank">用户互动区</a></li>
+    <li><a href="#" target="_blank">预约试机</a></li>
+    <li><a href="#" target="_blank">活动专题</a></li>
+  </ul>
+</div>
+<div class="wrap_inside">
+  <div class="active_option clearfix">
+    <div class="option_left">
+      <h3><strong>活动专题:</strong></h3>
+      <ul>
+        <li class="choosed"><a href="#">全部</a></li>
+        <li><a href="#">1月</a></li>
+        <li><a href="#">2月</a></li>
+        <li><a href="#">3月</a></li>
+        <li><a href="#">4月</a></li>
+        <li><a href="#">5月</a></li>
+        <li><a href="#">6月</a></li>
+        <li><a href="#">7月</a></li>
+        <li><a href="#">8月</a></li>
+        <li><a href="#">9月</a></li>
+        <li><a href="#">10月</a></li>
+        <li><a href="#">11月</a></li>
+        <li><a href="#">12月</a></li>
+        <li><a href="#">30天内</a></li>
+      </ul>
+    </div>
+    <div class="option_right">
+      <h3><strong>活动状态:</strong></h3>
+      <ul>
+        <li class="choosed"><a href="#">全部</a></li>
+        <li><a href="#">报名中</a></li>
+        <li><a href="#">报名结束</a></li>
+        <li><a href="#">活动中</a></li>
+        <li><a href="#">活动结束</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="TabTitle">
+    <ul id="myTab">
+      <li class="active" onclick="nTabs(this,0);">官方活动</li>
+      <li class="normal" onclick="nTabs(this,1);"><i class="ico01"></i>最新活动</li>
+      <li class="normal" onclick="nTabs(this,2);"><i class="ico02"></i>推荐活动</li>
+    </ul>
+  </div>
+  <div class="TabContent">
+    <ul id="myTab_Content0" class="clearfix">
+      <li>
+        <div class="img"><img src="images/act_img.jpg" width="486" height="208" /></div>
+        <div class="intro">
+          <h3>CAT(卡特）小型挖掘机全面升级</h3>
+          <p>活动日期：2013-11-11~2013-12-12<br />
+            报名截止：2013-11-15<br />
+            活动介绍：从遥远的戈壁到高耸的山脊，卡特彼勒正携手中国，
+            致力于未来的进步和成功。这些来自中国不同区域的品牌故事，
+            讲述了卡特彼勒的解决方案正在如何和影响着客户和社会的发展。
+            这是卡特彼勒关于成长，合作和未来的故事。
+            我们正与客户和社会各界携手共建长久牢固的伙伴关系。 </p>
+        </div>
+      </li>
+      <li>
+        <div class="img"><img src="images/act_img.jpg" width="486" height="208" /></div>
+        <div class="intro">
+          <h3>CAT(卡特）小型挖掘机全面升级</h3>
+          <p>活动日期：2013-11-11~2013-12-12<br />
+            报名截止：2013-11-15<br />
+            活动介绍：从遥远的戈壁到高耸的山脊，卡特彼勒正携手中国，
+            致力于未来的进步和成功。这些来自中国不同区域的品牌故事，
+            讲述了卡特彼勒的解决方案正在如何和影响着客户和社会的发展。
+            这是卡特彼勒关于成长，合作和未来的故事。
+            我们正与客户和社会各界携手共建长久牢固的伙伴关系。 </p>
+        </div>
+      </li>
+      <li>
+        <div class="img"><img src="images/act_img.jpg" width="486" height="208" /></div>
+        <div class="intro">
+          <h3>CAT(卡特）小型挖掘机全面升级</h3>
+          <p>活动日期：2013-11-11~2013-12-12<br />
+            报名截止：2013-11-15<br />
+            活动介绍：从遥远的戈壁到高耸的山脊，卡特彼勒正携手中国，
+            致力于未来的进步和成功。这些来自中国不同区域的品牌故事，
+            讲述了卡特彼勒的解决方案正在如何和影响着客户和社会的发展。
+            这是卡特彼勒关于成长，合作和未来的故事。
+            我们正与客户和社会各界携手共建长久牢固的伙伴关系。 </p>
+        </div>
+      </li>
+    </ul>
+    <div id="myTab_Content1" class="none">最新活动</div>
+    <div id="myTab_Content2" class="none">推荐活动</div>
+  </div>
+  <div class="paga_mark"><a href="#" class="prev"></a><strong class="cur">1</strong><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><a href="#">6</a><a href="#">7</a><span class="dot">...</span><a href="#">99</a><a href="#">100</a><a href="#" class="next"></a>
+    <span class="goto"><b>跳转到:</b>
+      <input type="text" class="txt"/>
+      <input type="button" value="GO" class="btn"/>
+    </span>
+  </div>
+  <div class="foot clearfix mb15">
+    <dl>
+      <dt>产品系列</dt>
+      <dd><a href="#" target="_blank">小型挖掘机</a></dd>
+      <dd><a href="#" target="_blank">中型挖掘机</a></dd>
+      <dd><a href="#" target="_blank">大型挖掘机</a></dd>
+      <dd><a href="#" target="_blank">大型挖掘机</a></dd>
+    </dl>
+    <dl>
+      <dt>服务与体验</dt>
+      <dd><a href="#" target="_blank">专家品牌解读</a></dd>
+      <dd><a href="#" target="_blank">成功人士经验分享</a></dd>
+      <dd><a href="#" target="_blank">卡特融资服务</a></dd>
+      <dd><a href="#" target="_blank">零件与服务</a></dd>
+      <dd><a href="#" target="_blank">二手设备</a></dd>
+    </dl>
+    <dl>
+      <dt>新闻与活动</dt>
+      <dd><a href="#" target="_blank">行业资讯</a></dd>
+      <dd><a href="#" target="_blank">卡特新闻与活动</a></dd>
+    </dl>
+    <dl>
+      <dt>热销型号</dt>
+      <dd><a href="#" target="_blank">卡特312D2 GC液压挖掘机</a></dd>
+      <dd><a href="#" target="_blank">卡特320D液压挖掘机</a></dd>
+      <dd><a href="#" target="_blank">卡特320D液压挖掘机</a></dd>
+      <dd><a href="#" target="_blank">卡特313D2挖掘机</a></dd>
+      <dd><a href="#" target="_blank">卡特320D2挖掘机</a></dd>
+    </dl>
+  </div>
+  <div class="beian">
+    <p> 关于我们 | 联系我们 | 版权声明 | 法律声明| 网站地图| Cat®官网<br />
+      ©2013 卡特彼勒保留所有权利 </p>
+  </div>
+</div>
+<script type="text/javascript" src="scripts/comm.js"></script> 
+<script type="text/javascript">
+function nTabs(thisObj, Num) {
+	if (thisObj.className == "active") return;
+	var tabObj = thisObj.parentNode.id;
+	var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+	for (i = 0; i < tabList.length; i++) {
+		if (i == Num) {
+			thisObj.className = "active";
+			document.getElementById(tabObj + "_Content" + i).style.display = "block";
+		} else {
+			tabList[i].className = "normal";
+			document.getElementById(tabObj + "_Content" + i).style.display = "none";
+		}
+	}
+}
+$(document).ready(function(e) {
+    $('.TabTitle li').click(function(){
+		$('html,body').stop(1,0).animate({scrollTop:$('.TabTitle').offset().top},500);
+	})
+});
+</script>
+</body>
+</html>

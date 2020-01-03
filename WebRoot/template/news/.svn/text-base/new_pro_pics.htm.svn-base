@@ -1,0 +1,101 @@
+<#assign pro_rec1 = query(" select top 9 id,img2,add_date,factoryname,catalogname,name from pro_products where img2 is not null and img2 != '' order by newid() desc")>
+<#assign pro_rec2=query(" select top 9 id,img2,add_date,factoryname,catalogname,name from pro_products where img2 is not null and img2 != '' and id not in(select top 9 id from pro_products where img2 is not null and img2 != ''  order by id desc) order by newid() desc")>
+<#assign pro_rec3=query(" select top 9 id,img2,add_date,factoryname,catalogname,name from pro_products where img2 is not null and img2 != '' and id not in(select top 18 id from pro_products where img2 is not null and img2 != ''  order by id desc) order by newid() desc")>
+<div class="newspart blue mb10">
+   <div class="title bigTitle">
+      <h3>产品图库</h3>
+      <ul class="t-con" style="width:550px;list-style:none;">
+          <li style="*padding-top:2px;">搜索图片：</li>
+          <li>
+          <div class="selectContain" align="left" style="margin-top:8px;*margin-top:0px;">
+            <select id="factoryid" name="factoryid" style="width:140px;">
+              <option selected="selected" value=""> 选择品牌 </option>
+            </select>
+            <select  id="catalogid" name="catalogid" disabled="disabled" style="width:160px">
+              <option selected="selected" value=""> 选择类型　　 </option>
+            </select>
+            <!--<select style="position: absolute; left: -2000px;"  id="level_3" 	name="level_3" disabled="disabled">
+                    <option selected="selected" value=""> 请选择机型 </option>
+                  </select>-->
+          </div>
+             <a onclick="submitYN();" class="photbtn" style="margin-top:7px; margin-left:-70px;*margin-left:-140px;" href="javascript:void(0)">搜索</a>
+        </li>
+      </ul>
+      <span class="more"><a href="http://photo.21-sun.com/" target="_blank">更多&gt;&gt;</a></span>
+    </div>
+    <div class="content NewsImgscroll" id="NewsImgscroll">
+      <div class="hd"> 
+        <a class="newsImgnext"></a>
+        <ul>
+        </ul>
+        <a class="newsImgprev"></a> 
+      </div>
+      <div class="bd">
+        <ul class="newsPicList">
+         <#if pro_rec1??&&(pro_rec1?size>0)>
+          <li>
+            <#list pro_rec1 as rec1>
+            <#if rec1_index==0>
+            <div class="newsBigimg"><a href="http://product.21-sun.com/photo/detail_for_${rec1.id?c}.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/${rec1.img2}" alt="${rec1.factoryname+rec1.catalogname+rec1.name}" width="369" height="262" /><h3>${rec1.factoryname+rec1.catalogname+rec1.name}</h3></a></div>
+            </#if>
+            </#list>
+            <div class="newsSmallimg">
+            <#list pro_rec1 as rec11>
+               <#if rec11_index gt 0 >
+              <dl><a href="http://product.21-sun.com/photo/detail_for_${rec11.id?c}.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/${rec11.img2}" alt="${rec11.factoryname+rec11.catalogname+rec11.name}" width="120" height="90" /><br />
+             ${rec11.factoryname+rec11.catalogname+rec11.name}</a></dl>
+              </#if>
+              </#list>
+            </div>
+          </li>
+          </#if>
+                   <#if pro_rec1??&&(pro_rec1?size>0)>
+          <li>
+            <#list pro_rec2 as rec2>
+            <#if rec2_index==0>
+            <div class="newsBigimg"><a href="http://product.21-sun.com/photo/detail_for_${rec2.id?c}.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/${rec2.img2}" alt="${rec2.factoryname+rec2.catalogname+rec2.name}" width="369" height="262" /><h3>${rec2.factoryname+rec2.catalogname+rec2.name}</h3></a></div>
+            </#if>
+            </#list>
+            <div class="newsSmallimg">
+            <#list pro_rec2 as rec22>
+               <#if rec22_index gt 0 >
+              <dl><a href="http://product.21-sun.com/photo/detail_for_${rec22.id?c}.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/${rec22.img2}" alt="${rec22.factoryname+rec22.catalogname+rec22.name}" width="120" height="90" /><br />
+              ${rec22.factoryname+rec22.catalogname+rec22.name}</a></dl>
+              </#if>
+              </#list>
+            </div>
+          </li>
+          </#if>
+                   <#if pro_rec3??&&(pro_rec3?size>0)>
+          <li>
+            <#list pro_rec3 as rec3>
+            <#if rec3_index==0>
+            <div class="newsBigimg"><a href="http://product.21-sun.com/photo/detail_for_${rec3.id?c}.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/${rec3.img2}" alt="${rec3.factoryname+rec3.catalogname+rec3.name}" width="369" height="262" /><h3>${rec3.factoryname+rec3.catalogname+rec3.name}</h3></a></div>
+            </#if>
+            </#list>
+            <div class="newsSmallimg">
+            <#list pro_rec3 as rec33>
+               <#if rec33_index gt 0 >
+              <dl><a href="http://product.21-sun.com/photo/detail_for_${rec33.id?c}.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/${rec33.img2}" alt="${rec33.factoryname+rec33.catalogname+rec33.name}" width="120" height="90" /><br />
+              ${rec33.factoryname+rec33.catalogname+rec33.name}</a></dl>
+              </#if>
+              </#list>
+            </div>
+          </li>
+          </#if>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="/scripts/choose_cascade_date.js"></script>
+    <script type="text/javascript">jQuery("#NewsImgscroll").slide({ titCell:".hd ul", mainCell:".bd ul",effect:"left",vis:1,scroll:1,autoPlay:true,autoPage:true});</script> 
+ 	<script>
+ 	function submitYN(){
+		  if(""==jQuery.trim(jQuery("#factory").val())){
+		  	jQuery("#factory").removeAttr("name") ;
+		  }
+         var factoryid = jQuery("#factoryid").val() ;
+         var catalogid = jQuery("#catalogid").val() ;
+         window.open("http://product.21-sun.com/photo/list.jsp?factoryid="+factoryid+"&catalogid="+catalogid) ;
+		}
+ 	</script>
+  </div>

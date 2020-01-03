@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>斗山感恩回馈大型让利促销</title>
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<!--[if (IE 6)]>
+<script src="scripts/iepng.js" type="text/javascript"></script>
+<script type="text/javascript">
+   EvPNG.fix('.png'); 
+</script>
+<![endif]-->
+<script type="text/javascript" src="scripts/jscroll.js"></script>
+<script type="text/javascript">
+$(document).ready(function(e) {
+    $(".scroll").jscroll({ W:"8px"//设置滚动条宽度
+					,BgUrl:"url(images/s_bg.gif)"//设置滚动条背景图片地址
+					,Bg:"right 0 repeat-y"//设置滚动条背景图片position,颜色等
+					,Bar:{Bd:{Out:"#001c3b",Hover:"#001c3b"}//设置滚动滚轴边框颜色：鼠标离开(默认)，经过
+						 ,Bg:{Out:"-45px 0 repeat-y",Hover:"-45px 0 repeat-y",Focus:"-45px 0 repeat-y"}}//设置滚动条滚轴背景：鼠标离开(默认)，经过，点击
+					,Btn:{btn:false}
+					,Fn:function(){}//滚动时候触发的方法
+					});
+});
+</script>
+</head>
+<body class="page04">
+<div class="logo"><img src="images/logo.png" class="png" width="123" height="57" /></div>
+<div class="text01"><img src="images/top_text.png" class="png" width="346" height="163" /></div>
+<div class="nav png"><img src="images/blank.gif" width="216" height="851" usemap="#Map" border="0" />
+  <map name="Map" id="Map">
+    <area shape="poly" coords="101,468,182,494,172,525,92,499" href="index.htm" title="首页" onmouseover="document.body.style.cursor='Hand'" onmouseout="document.body.style.cursor='Default'" />
+    <area shape="poly" coords="89,508,166,533,155,562,80,537" href="breaker.htm" title="破碎器" onmouseover="document.body.style.cursor='Hand'" onmouseout="document.body.style.cursor='Default'" />
+    <area shape="poly" coords="79,547,155,571,146,602,71,578" href="zhuamuqi.htm" title="抓木器" onmouseover="document.body.style.cursor='Hand'" onmouseout="document.body.style.cursor='Default'" />
+    <area shape="poly" coords="68,585,147,608,138,643,59,620" href="yeyajian.htm" title="液压件" onmouseover="document.body.style.cursor='Hand'" onmouseout="document.body.style.cursor='Default'" />
+  </map>
+</div>
+
+<div class="con02 png">
+  <h2>斗山原装液压配件</h2>
+  <div class="scroll">
+    <div class="con">
+    <p class="text">
+    <img src="images/text_img01.png" width="379" height="42" /><br />
+    <span class="st01"><img src="images/l_p01_x.gif" style="vertical-align:middle;" /> 促销部品优惠幅度：<font>20%-50%</font>　　 <img src="images/l_p01_x.gif" style="vertical-align:middle;" /> 促销部品保修期：<font>6个月</font> <br />
+    <img src="images/l_p01_x.gif" style="vertical-align:middle;" /> 有效期限：<font>2013年9月20日-2014年12月31日</font></span>
+    </p>
+    <div class="list04">
+      <ul class="fix">
+        <li><a href="http://ytdoushan.part.21-sun.com/shop/product/36491.htm#ad-image-0" target="_blank"><img src="images/temp/yyj_img01.jpg" /><strong>缸体柱塞</strong><i></i></a><a href="http://ytdoushan.part.21-sun.com/shop/product/36491.htm#ad-image-0" target="_blank" class="buyNow">立即订购</a></li>
+        <li><a href="http://ytdoushan.part.21-sun.com/shop/product/36489.htm#ad-image-0"  target="_blank"><img src="images/temp/yyj_img02.jpg" /><strong>回转马达</strong><i></i></a><a href="http://ytdoushan.part.21-sun.com/shop/product/36489.htm#ad-image-0"   target="_blank" class="buyNow">立即订购</a></li>
+        <li><a href="http://ytdoushan.part.21-sun.com/shop/product/36488.htm#ad-image-0"  target="_blank"><img src="images/temp/yyj_img03.jpg" /><strong>主泵</strong><i></i></a><a href="http://ytdoushan.part.21-sun.com/shop/product/36488.htm#ad-image-0"  target="_blank" class="buyNow">立即订购</a></li>
+        <li><a href="http://ytdoushan.part.21-sun.com/shop/product/36487.htm#ad-image-0"  target="_blank"><img src="images/temp/yyj_img04.jpg" /><strong>行走装置</strong><i></i></a><a href="http://ytdoushan.part.21-sun.com/shop/product/36487.htm#ad-image-0"  target="_blank" class="buyNow">立即订购</a></li>
+        <li><a href="http://ytdoushan.part.21-sun.com/shop/product/36485.htm#ad-image-0"  target="_blank"><img src="images/temp/yyj_img05.jpg" /><strong>液压油缸</strong><i></i></a><a href="http://ytdoushan.part.21-sun.com/shop/product/36485.htm#ad-image-0"  target="_blank" class="buyNow">立即订购</a></li>
+      </ul>
+    </div>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+        <p style="font-size:14px; color:#333; padding-right:20px; line-height:30px;">
+          <span style="font-size:18px; font-weight:bold;">纯正部品识别标识：</span> <br />
+          <img src="images/n01.png" style="vertical-align:middle" /> 斗山纯正部品标签基底印有&ldquo;Genuine Parts&rdquo;暗纹； <br />
+          <img src="images/n02.png" style="vertical-align:middle" /> 斗山纯正部品标签右上方印有一次性防伪图案，以&ldquo;X&rdquo;型分割，中间为&ldquo;DOOSAN&rdquo;图样，左上有竖版&ldquo;DOOSAN&rdquo;图样，右下有&ldquo;1962&rdquo;图样； <br />
+          <img src="images/n03.png" style="vertical-align:middle" /> 斗山纯正部品标签中品号、数量、产地均为机打，非印刷； <br />
+          <img src="images/n04.png" style="vertical-align:middle" /> 斗山纯正部品标签下方印有斗山公司联系方式<br /> <br /><br />
+        </p>
+        </td>
+        <td valign="top" width="440"><img src="images/bs.png" width="423" height="246" /></td>
+      </tr>
+    </table>
+    <div class="table-con">
+      <p style="font-size:14px; color:#333; padding:10px 0px;"><span style="font-size:20px;">部品促销明细注：</span>(实绩销售价格请咨询斗山当地代理商)</p>
+      <table cellspacing="1" cellpadding="0" width="100%" bgcolor="#0093DA" bordercolor="#0093DA" border="0">
+	<colgroup>
+		<col width="122"><col width="507">
+	</colgroup>
+	<tr>
+		<td width="122" bgcolor="#0093DA" style="padding-left: 10px" height="26">
+		<b><font color="#FFFFFF">促销部品</font></b></td>
+		<td width="507" bgcolor="#0093DA" style="padding-left: 10px" height="26">
+		<b><font color="#FFFFFF">适用机型</font></b></td>
+	</tr>
+	<tr>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">铲斗油缸</td>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">
+		DH210W-7/DH215-7/DH215-9/DH215-9E/DH220LC-7/DH220LC-9E/DH225LC-7/DH225LC-9/DH300LC-7</td>
+	</tr>
+	<tr>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">小臂油缸</td>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">
+		DH55G/DH210W-7/DH215-7/DH215-9/DH215-9E/DH220LC-7/DH220LC-9E/DH225LC-7/DH225LC-9/DH300LC-7</td>
+	</tr>
+	<tr>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">主泵</td>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">
+		DH55G/DH130LC-V/DH150LC-7/DH150W-7/DH215-7/DH220LC-7/DH225LC-7/DH215-9/DH225LC-9/DH215-9E/DH220-9E/DH300LC-7</td>
+	</tr>
+	<tr>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">主泵柱塞组件</td>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">
+		DH130W-V/DH150LC-7/DX150LC/DH210W-7/DH215-7/DH220LC-7/DH225LC-7/DH258LC-7/DH215-9/DH215-9E/DH220LC-9E/DH225LC-7/DH225LC-9/DH210W-7（CKD）/DX225LC/DX230LC</td>
+	</tr>
+	<tr>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">回转减速器</td>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">
+		DH130LC-V/DH130W-V/DH150LC-7/DH150W-7/DX150LC/DH210W-7/DH215-7/DH215-9/DH215-9E/DH220LC-7/DH220LC-9E/DH225LC-7/DH225LC-9</td>
+	</tr>
+	<tr>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">回转马达</td>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">
+		DH150LC-7/DH150W-7/DX150LC/DH215-9/DH215-9E/DH220LC-9E/DH225LC-9/DH300LC-7/DX300LC</td>
+	</tr>
+	<tr>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">回转马达缸体</td>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">
+		DH130W-V/DH150LC-7/DH150W-7/DX150LC/DH215-9/DH215-9E/DH220LC-9E/DH225LC-9/DH210W-7</td>
+	</tr>
+	<tr>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">回转马达柱塞组件</td>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">
+		DH150LC-7/DH150W-7/DX150LC/DH210W-7/DH220LC-7/DH225LC-7/DH258LC-7/DH215-7/DH215-9/DH215-9E/DH220LC-9E/DH225LC-9/DH500LC-7</td>
+	</tr>
+	<tr>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">行走马达缸体</td>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">
+		DH215-7/DH220LC-7/DH225LC-7/DH215-9/DH225LC-9/DH215-9E/DH220LC-9E/DX230LC</td>
+	</tr>
+	<tr>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">行走马达柱塞组件</td>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">
+		DH215-9/DH225LC-9/DH215-9E/DH220LC-9E/DX230LC</td>
+	</tr>
+	<tr>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">行走装置</td>
+		<td bgcolor="#FFFFFF" style="padding-left: 10px" height="26">
+		DX80/DH80G/DH150LC-7/DX150LC/DH215-9/DH215-9E/DH220LC-9E/DH225LC-9/DH225LC-7/DX230LC/DH300LC-7/DH370LC-7/DH370LC-9</td>
+	</tr>
+	</table>
+    </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="scripts/comm.js"></script>
+</body>
+</html>

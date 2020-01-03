@@ -1,0 +1,166 @@
+/* CSS Document */
+/*reset*/
+body{line-height:20px;font-size:12px;font-family:"微软雅黑",'SimSun',sans-serif;color:#666; background:url("body_back.gif")/*tpa=http://www.deca-glass.com/images/body_back.gif*/ repeat-x;}
+body,h1,h2,h3,h4,p,ul,ol,dd,dl,form{margin:0;font-weight:normal;cursor:default;}
+input,textarea{outline:none;}
+ul{padding-left:0;list-style-type:none;}
+a{text-decoration:none;hide-focus:expression(this.hideFocus=true);outline:none; color:#000;}
+img{border:none;vertical-align:top;}
+.clear{clear:both;line-height:0px;overflow:hidden;height:0px;width:auto;visibility:hidden;}
+input{ background:url("input_back.gif")/*tpa=http://www.deca-glass.com/images/input_back.gif*/ no-repeat; width:215px; height:23px; border:none;}
+.fix{*zoom:1;}.fix:before,.fix:after{display:block; content:"."; height:0; clear:both; visibility:hidden;}.fix:after {clear: both;} 
+.l{ float:left;}
+.ml27{ margin-left:27px;}
+.ml14{ margin-left:14px;}
+.mt17{ margin-top:17px;}
+.readmore1{ position:relative; top:15px; left:220px; color:#0068b9}
+.readmore2{ position:relative; left:248px; color:#0068b9}
+.tc{ text-align:center;}
+
+
+
+/*top*/
+.top{ width:940px; height:86px; margin:0 auto;}
+.ssc{ padding-top:19px;}
+.ssc a{margin-right:6px; padding-right:6px; background:url("dotted.gif")/*tpa=http://www.deca-glass.com/images/dotted.gif*/ right no-repeat; float:right;}
+.ssc a span{ color:#418dcb; font-family:\5FAE\8F6F\96C5\9ED1;}
+.top_contact{ background:none !important;}
+.plist02{ background:url("language_back.gif")/*tpa=http://www.deca-glass.com/images/language_back.gif*/ no-repeat; width:99px; height:19px; cursor:pointer; position:relative; z-index:5; text-align:left; padding-left:15px; float:right;}
+.plist02 font{ font-size:13px; line-height:17px; }
+.pllayer02 { display:none; position:absolute;top:19px; left:0px; width:97px; height:auto; font-size:12px; font-family:\5FAE\8F6F\96C5\9ED1; border-left:1px solid #b8b8b8;border-right:1px solid #b8b8b8;border-bottom:1px solid #b8b8b8; margin-left:0px !important;}
+.pllayer02 dl { border-bottom:none; text-align:left;}
+.pllayer02 dl dd { background:#FFF; height:18px; line-height:18px;}
+.pllayer02 dl dd a { color:#a6a6a6; float:none !important; margin-left:10px; background:none !important;}
+
+.lonav{ overflow:hidden;*zoom:1;}
+.logo{ height:16px; overflow:hidden; padding-top:32px; width:274px; float:left;}
+.logo img{ margin-top:-32px;}
+.logo span{ font-family:\5FAE\8F6F\96C5\9ED1; color:#646464; margin-left:5px;}
+.nav{height:24px; padding-top:24px; float:right; width:636px;}
+.nav li{ float:left; width:86px; text-align:center; background:url("dotted.gif")/*tpa=http://www.deca-glass.com/images/dotted.gif*/ no-repeat right; margin-right:10px; padding-right:10px; color:#3f3f3f}
+.nav li a{ font-size:13px; font-family:\5FAE\8F6F\96C5\9ED1; line-height:24px; height:24px; width:86px; display:block; color:#3f3f3f}
+#nav_last{ background:none !important;}
+.on{ background:url("nav_on.gif")/*tpa=http://www.deca-glass.com/images/nav_on.gif*/ no-repeat; color:#FFF !important;}
+
+/*index banner_list*/
+.ban,.ban2{ position:relative;height:386px;width:940px;margin:15px auto;}
+.ban_c {position:absolute;left:0;top:0;}
+.ban_nav{position:absolute;top:361px;left:0; text-align:right; height:25px; width:100%; background:url("index_banner_shu_back.gif")/*tpa=http://www.deca-glass.com/images/index_banner_shu_back.gif*/ repeat-y;}
+.ban_nav a{ display:inline-block;width:20px;height:20px;margin-right:5px; background:#FFF; text-align:center; margin-top:2px; overflow:hidden;}
+.ban_nav a.on{border-color:#333; background:#969696; color:#FFF;}
+.tbLeft{position:absolute;top:272px;right:10px;}
+.tbRight{position:absolute;top:272px;right:0;}
+/*index content*/
+.index_content{ width:940px; margin:20px auto; overflow:hidden;}
+.company_summary{ width:320px; border-right:1px solid #dfdfdf; height:236px; overflow:hidden; line-height:21px; float:left;}
+.company_summary h3{ font-size:15px; color:#000; font-family:\5FAE\8F6F\96C5\9ED1; margin-left:5px; margin-top:11px; margin-bottom:22px; cursor:pointer;}
+.company_summary .fix span{ font-weight:bold; color:#666; font-family:"Courier New", Courier, monospace;}
+.about{ margin-right:25px;}
+.about a{ color:#666;}
+.fix img{ margin-right:9px;}
+.pro_show{ width:346px;border-right:1px solid #dfdfdf; height:236px; float:left;}
+.pro_show h3{ font-size:15px; color:#000; font-family:\5FAE\8F6F\96C5\9ED1; margin-bottom:22px; margin-top:11px; margin-left:32px; cursor:pointer;}
+.ipro{ margin-left:24px; overflow:hidden; border-bottom:1px solid #ddd; height:78px; width:300px;}
+.ipro img{ border:1px solid #ddd; margin-left:10px; float:left;}
+.ipro_intro{ float:left; margin-left:15px; width:175px;}
+.ipro_intro span{ font-weight:bold; font-family:\5FAE\8F6F\96C5\9ED1;}
+.pr2{ margin-top:14px; border-bottom:none; height:70px;}
+.icontact{ float:right; width:265px; height:236px;}
+.icontact h3{font-size:15px; color:#000; font-family:\5FAE\8F6F\96C5\9ED1; margin-top:11px; margin-left:27px;}
+.con_content{ margin-top:14px; margin-left:28px; color:#666; width:240px; border-bottom:1px solid #ddd; height:87px; margin-bottom:11px;}
+.con_content a{ color:#666;}
+.con_content a. hover{ color:#0266bb;}
+.icontact font{ font-size:15px; color:#000; font-family:\5FAE\8F6F\96C5\9ED1; margin-left:27px;}
+
+/*foot*/
+.foot{ width:940px; border-top:1px dotted #c7c8cd; margin:24px auto; padding-top:20px; overflow:hidden;*zoom:1; font-size:11px !important;}
+.foot a{ color:#666; font-size:11px !important; margin-right:10px;}
+.left_word{ float:left;}
+.right_word{ float:right;}
+
+/*inner page*/
+.content{ margin:15px auto 0; width:940px; position:relative; overflow:hidden;*zoom:1;}
+.leftmenu{ width:209px; background:#f1f5f6; position:absolute; height:999px;}
+.leftmenu h2{ font-size:20px; font-family:\5FAE\8F6F\96C5\9ED1; color:#0268b8; text-align:center; margin-top:30px;}
+.leftmenu h3{margin:0 auto; margin-top:32px; text-align:center; color:#000; font-family:\5FAE\8F6F\96C5\9ED1; font-size:14px; margin-bottom:19px;}
+.leftnav{ margin:0 auto; margin-top:17px; width:90%; text-align:center;}
+.leftnav li{ padding-top:3px; padding-bottom:3px; border-bottom:1px dotted #bdc4ca;}
+.leftnav li a{ display:block; line-height:25px; color:#898a8a;}
+.cur{ background:#0167b9; color:#FFF !important;}
+.leftmenu a img{ margin-left:39px; margin-bottom:15px;}
+.right_content{ float:right; width:720px; height:auto !important;height:600px;min-height:600px;}
+.channelT{ margin-top:21px; overflow:hidden; height:30px; border-bottom:1px dotted #a8a8a8;}
+.channelT h2{ font-size:16px; font-family:\5FAE\8F6F\96C5\9ED1; background:url("channelT_icon.gif")/*tpa=http://www.deca-glass.com/images/channelT_icon.gif*/ no-repeat left; padding-left:18px; float:left; margin-left:17px; color:#0b4596;}
+.posi{ float:right; margin-right:7px;color:#a5a5a5;}
+.posi a{ color:#a5a5a5;}
+.con{ margin-top:22px; color:#666; font-family:"Courier New", Courier, monospace; margin-left:22px; margin-right:22px;}
+.con a:link { color: #6b6b6b; text-decoration: none;}
+.con a:visited { color: #6b6b6b; text-decoration: none;}
+.con a:hover { color: #0267b9; text-decoration: none; }
+
+
+/*product*/
+.pon{ margin-top:22px; margin-right:-30px; padding-left:20px; color:#666; overflow:hidden;*zoom:1; }
+.pro_one{float:left;  margin-right:30px; margin-bottom:36px;}
+.pro_cat{ color:#000; font-size:13px; font-family:\5FAE\8F6F\96C5\9ED1; margin-left:4px;}
+.pro_img{ width:206px; height:145px; background:#e9eff1;margin-top:8px; overflow:hidden; }
+.pro_img img{ border:1px solid #d2d8d9; margin-top:4px; margin-left:3px;}
+.plist03{width:140px; height:19px; cursor:pointer; position:relative; z-index:5; text-align:left; padding-left:45px; background:url("down_icon.gif")/*tpa=http://www.deca-glass.com/images/down_icon.gif*/ right no-repeat; top:2px;}
+.plist03 font{ font-size:13px; line-height:17px; }
+.pllayer03 { display:none; position:absolute;top:19px; left:0px; width:206px; height:auto; font-size:12px; font-family:\5FAE\8F6F\96C5\9ED1; margin-left:0px !important;}
+.pllayer03 dl { border-bottom:none; text-align:left; padding:5px 0}
+.pllayer03 dl dd { background:#e9eff1; height:24px; line-height:24px;text-align:left; text-indent:10px; border-bottom:1px dashed #d2d8d9;}
+.pllayer03 dl dd a { color:#696868; float:none !important; margin-left:2px; background:none !important; text-indent:10px}
+
+/*prodetail*/
+.pro_name{ color:#217ac2; font-size:14px; font-family:\5FAE\8F6F\96C5\9ED1;}
+.pro_name span{ margin-left:25px;}
+.pro_pic{ margin-top:24px; width:100%;}
+/*选项卡处样式*/
+.pd_tabs { margin-bottom:10px;}
+.pd_tabs ul { height:27px; border-bottom:1px solid #dcdcdc;}
+.pd_tabs ul li { float:left; width:124px; height:28px; line-height:31px;overflow:hidden;_height:27px;}
+.pd_tabs ul li a { display:block;background:url("tab_noselect.gif")/*tpa=http://www.deca-glass.com/images/tab_noselect.gif*/ no-repeat; color:#FFF;font-weight:bold; text-align:center; height:28px;}
+.pd_tabs ul .selected {position:relative; height:28px;border-bottom:1px solid #FFF;background:url("tab_select_top.gif")/*tpa=http://www.deca-glass.com/images/tab_select_top.gif*/ repeat-x;  color:#000;}
+
+.pd_content { width:100%;}
+.pdf_down{ margin-top:30px;}
+.close a{ width:96px; height:24px; text-align:center; line-height:24px; color:#fff!important; font-weight:bold; float:right; background:#0266bb; margin-right:70px; margin-top:20px; display:block}
+
+
+
+.datalist{
+ border:1px solid #cccccc; /* 表格边框 */
+ font-family:Arial;
+ border-collapse:collapse; /* 边框重叠 */
+ background-color:#ffffff; /* 表格背景色 */
+ font-size:12px;
+}
+ 
+.datalist caption{
+ padding-bottom:5px;
+ font:bold 12px;
+ text-align:left;
+}
+ 
+.datalist th{
+ border:1px solid #cccccc; /* 行名称边框 */
+ background-color:#e6e6e6; /* 行名称背景色 */
+ color:#000000;    /* 行名称颜色 */
+ font-weight:bold;
+ padding-top:4px; padding-bottom:4px;
+ padding-left:15px; 
+ text-align:left;
+}
+.datalist td{
+ border:1px solid #cccccc; /* 单元格边框 */
+ text-align:left;
+ padding-top:4px; padding-bottom:4px;
+ padding-left:15px; 
+}
+.datalist tr.altrow{
+ background-color:#c7e5ff; /* 隔行变色 */
+}
+
+
+.highslide-caption{ background:#fff;} 

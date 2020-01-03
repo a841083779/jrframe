@@ -1,0 +1,105 @@
+<#assign factory = query(" select is_made,pro_brand_title, is_qijiandian,usern,is_shop,id,name,is_shop,logo,full_name,introduce,mobile,url,img1,telphone,banner,factory_intro from pro_agent_factory where usern = '${usern}' and is_show=1 and flag=1 ")>
+<#assign allcatalogs = query(" select name,num from pro_catalog where len(num) = 6 ")>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>${factory[0].full_name}_${factory[0].name}企业简介 - 铁臂${factory[0].name}专区</title>
+<meta name="keywords" content="${factory[0].name},${factory[0].name}企业简介" />
+<meta name="description" content="铁臂${factory[0].name}专区为您提供${factory[0].name}企业介绍，帮助您快速了解${factory[0].name}人物, ${factory[0].name}发展历程，${factory[0].name}企业文化等信息。买${factory[0].name}产品，就上铁臂商城！" />
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<link href="/brandshow/style/brands.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+</head>
+<body>
+<!--top-->
+<!--#include virtual="/include/top.jsp"  --> 
+<!--top end-->
+<div class="contain980 fix">
+  <div class="s_brand_logo">
+    <img src="http://product.21-sun.com/uploadfiles/${factory[0].logo}" alt="${factory[0].name}" width="120" height="50" class="s_img" /><strong class="s_n"><h1>${factory[0].name}</h1></strong>
+  </div>
+  <div class="s_mainSite"><a href="${factory[0].url}" target="_blank">访问官网</a></div>
+  <div class="s_tel">${factory[0].name}品牌客服电话：<b>${factory[0].telphone}</b></div>
+</div>
+<div class="s_navBar">
+  <div class="contain980">
+    <ul class="fix">
+      <li><a href="/">${factory[0].name}首页</a></li>
+      <li class="selected"><a href="/intro.htm">${factory[0].name}简介</a></li>
+      <li><a href="/news.htm">${factory[0].name}动态</a></li>
+      <li><a href="#">${factory[0].name}人物</a></li>
+      <li><a href="/product_list.htm">${factory[0].name}产品</a></li>
+      <li><a href="/comment_list.htm">${factory[0].name}口碑</a></li>
+      <li><a href="/agent_list.htm">${factory[0].name}代理商</a></li>
+    </ul>
+  </div>
+</div>
+<div class="contain980 mb10 mt10">
+  <div class="breadCrumbs"><a href="/">铁臂${factory[0].name}专区</a> &gt;&gt; ${factory[0].name}简介</div>
+</div>
+<div class="s_main fix">
+  <!--left-->
+  <div class="contain980 fix pt15">
+    <div class="s_mleft">
+      <!--简介-->
+      <div class="comBox mb10">
+        <div class="hd fix">
+          <h3>${factory[0].name}简介</h3>
+        </div>
+        <div class="bd fix s_text">
+          ${factory[0].introduce}
+        </div>
+      </div>
+      <!--人物-->
+      <div class="comBox mb10">
+        <div class="hd fix">
+          <h3>${factory[0].name}人物</h3>
+          <span class="more"><a href="#">更多${factory[0].name}人物 &gt;&gt;</a></span>
+        </div>
+        <div class="bd fix s_renwu">
+          <ul class="fix">
+            <li><a href="#"><img src="http://product.21-sun.com/brandshow/images/temp/temp_img04.jpg" />
+              <strong class="n">梁稳根</strong>
+              <div class="p">三一重工董事长</div>
+            </a><a href="#" class="focus">加关注</a></li>
+            <li><a href="#"><img src="http://product.21-sun.com/brandshow/images/temp/temp_img04.jpg" />
+              <strong class="n">梁稳根</strong>
+              <div class="p">三一重工董事长</div>
+            </a><a href="#" class="focus">加关注</a></li>
+            <li><a href="#"><img src="http://product.21-sun.com/brandshow/images/temp/temp_img04.jpg" />
+              <strong class="n">梁稳根</strong>
+              <div class="p">三一重工董事长</div>
+            </a><a href="#" class="focus">加关注</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--上市情况-->
+      ${factory[0].factory_intro}
+      <!--${factory[0].name}代理商-->
+      <div class="comBox mb10">
+        <div class="hd fix">
+         <h3>${factory[0].name}代理商</h3>
+          <span class="more"><a href="/agent_list.htm" target="_blank">更多${factory[0].name}代理商 &gt;&gt;</a></span>
+        </div>
+        <div class="bd fix s_company">
+          	<!--agent-->
+        	<!--#include virtual="/include/brandshow/brand_agent.jsp?factoryid=${(factory[0].id)?c}"  --> 
+			<!--agent end-->
+        </div>
+      </div>
+    </div>
+    <!--right-->
+    <div class="s_right">
+    	<!--agent-->
+        	<!--#include virtual="right.htm"  --> 
+		<!--agent end-->
+    </div>
+  </div>
+</div>
+<!--foot--> 
+<!--#include virtual="/include/foot.jsp"  --> 
+<!--end of foot--> 
+</body>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+</html>

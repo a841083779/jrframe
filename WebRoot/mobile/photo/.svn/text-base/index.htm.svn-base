@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<title>铁臂图库</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+<link rel="apple-touch-startup-image" href="/img/screen.png" />
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="design by www.21-sun.com">
+<link href="./web/css/style.css" rel="stylesheet" />
+</head>
+<body>
+<div class="kba_top">
+  <a class="goback" onclick="backs()" href="javascript:;"><img src="http://product.21-sun.com/mobile/koubei/huodong/web/img/goback.png"> 返回</a>
+  <a href="/"><h2 class="logo">铁臂图库</h2></a>
+  <a class="login" href="/web_login_activity.jsp">登录</a>
+  <a class="reg" href="/web_reg.jsp">注册</a>
+</div>
+<div class="c_banner">
+<img src="./web/img/temp_banner.jpg" width="640" height="319" >
+</div>
+<div class="act_menu">
+  <div class="flex-row">
+    <div class="flex-1"><a href="#" class="cur">首页</a></div>
+    <div class="flex-1"><a href="#p1">奖项设置</a></div>
+    <div class="flex-1"><a href="#p2">大赛规则</a></div>
+    <div class="upload"><a href="#"><img src="./web/img/up_btn.png" width="201" height="53" alt="上传作品" ></a></div>
+  </div>
+</div>
+<div class="act_intro fix">
+  <img src="web/img/int_t.png" alt="大赛介绍" class="ait">你有清晰原创的产品图片吗？你有捕捉到施工的精彩瞬间吗？铁臂图库上线，特举办“9要随手拍，就要出风头”摄影大赛活动。晒出你的照片，分享你的美图，就有机会抱得大奖。还犹豫什么，拿起手中的手机和相机，咔嚓起来吧！
+</div>
+<div class="act_lc"><img src="./web/img/lc.png" alt="大赛流程"></div>
+<div class="gifts fix" id="p1">
+  <div class="gt"><img src="./web/img/ico01.png">奖项设置</div>
+  <div class="text">
+    1.每周产生“活跃奖”1名，由每周上传合格图片最多者获得；<br>
+    2.活动结束将在所有参赛作品中选取20幅作品入围，入围作品必须为作者拥有原版权的作品，由网友投票产生<br>
+    一等奖1名，二等奖2名，三等奖3名（得票数高+标题及描述完善+迎合主题）；<br>
+    3.其他入围参赛选手均可获得鼓励奖。
+  </div>
+  <div class="gift_img"><br>
+  <img src="./web/img/gift01.jpg"><br>
+  <img src="./web/img/gift02.jpg">
+  </div>
+</div>
+<div class="works">
+  <div class="gt"><img src="./web/img/ico01.png">全部作品</div>
+  <div class="work_t fix">
+    <ul>
+      <li class="cur"><a href="#">产品图片</a></li>
+      <li><a href="#">行业图片</a></li>
+      <li><a href="#">施工图片</a></li>
+      <li><a href="#">维修图片</a></li>
+      <li><a href="#">展会图片</a></li>
+      <li><a href="#">趣味图片</a></li>
+    </ul>
+  </div>
+  <div class="work_c fix">
+    <ul>
+      <li>
+        <a href="#" class="img"><img src="./web/img/temp_img01.jpg"></a>
+        <div class="info">
+        <a href="#">现代225LC-7挖掘机<br>
+        拍摄者：cherry<br>
+        描述：无</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="img"><img src="./web/img/temp_img01.jpg"></a>
+        <div class="info">
+        <a href="#">现代225LC-7挖掘机<br>
+        拍摄者：cherry<br>
+        描述：无</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="img"><img src="./web/img/temp_img01.jpg"></a>
+        <div class="info">
+        <a href="#">现代225LC-7挖掘机<br>
+        拍摄者：cherry<br>
+        描述：无</a>
+        </div>
+      </li>
+      <li class="last">
+        <a href="#" class="img"><img src="./web/img/more.png"></a>
+      </li>
+    </ul>
+  </div>
+  <div class="btns"><a href="#" class="bc"><img src="./web/img/up_ico.png">上传作品</a><a href="#" class="bc">查看我的作品</a></div>
+</div>
+<div class="act_rules" id="p2">
+  <div class="gt"><img src="./web/img/ico03.png">参赛规则</div>
+  <div class="act_rules_c">
+    <div class="act_tip">
+      <div class="tip_tt"><img src="web/img/tip_t01.png"></div>
+      <div class="c">
+        <strong class="n">会员登录</strong>
+        <div class="text">登录活动页面，注册成为铁臂商城会员</div>
+      </div>
+    </div>
+    <div class="act_tip">
+      <div class="tip_tt"><img src="web/img/tip_t02.png"></div>
+      <div class="c">
+        <strong class="n">选择上传照片分类，按要求填写标题</strong>
+        <div class="text">标题拟格式：产品品牌+产品型号+其他描述（例如：卡特320D挖鱼塘或 柳工CLG856 1000小时），上传成功，返回继续上传。</div>
+      </div>
+    </div>
+    <div class="rules_d">
+      <strong class="n">活动规则：</strong>
+      <div class="text">
+        1. 本次大赛面向中国大陆（含港、澳）广泛征集，凡铁臂商城注册会员均可参加。<br>
+        2. 作品的版权需具有原创性，参赛作品内容必须合法，不涉及著作权、肖像权等侵权现象，作品不能危害国家安全和社会稳定，不得涉及诽谤、色情、暴力。因上述侵权而产生的一切法律责任及造成的一切损失均由参赛作者本人承担。<br>
+        3. 凡数码照片均可参赛，并接受手机拍摄的作品。请保留底稿。参赛作品仅可做亮度、对比度、色彩饱和度的适度调整，不得做合成、添加、大幅度改变色彩等技术处理，不接受电脑创意和改变原始影像的作品。<br>
+        4.数码电子作品单个文件大小在2M—8M之间， 会员参赛作品数量不限。<br>
+        5. 每位参赛者作品投稿后，即被视为已同意大赛主办者及其被许可人拥有参赛者作品的使用权（著作权仍由作者拥有），不另付稿酬。<br>
+        6. 参赛者同意铁臂商城拥有本活动规则的最终解释权。凡投稿的作者，均视为同意并遵守以上各条规定，凡不符合征稿要求的作品一经发现一律取消参评资格。<br><br>
+        <span class="yellow">拍摄主题：以工程机械为拍摄对象进行拍摄</span><br>
+        一、整机美图（整机外观图、街拍、设备摆拍、人机合影）<br>
+        二、整机部件（驾驶室拍摄、底盘拍摄、发动机液压系统等部件拍摄）<br>
+        三、第一现场（交机现场、不同工况施工现场、维修现场、服务现场、新机发布现场、展会现场、厂家活动现场）
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="./modules/seajs/sea.js" id="seanode" ></script>
+<script src="./web/seajs.config.js"></script>
+<script>
+	var jrChannel='0#0';
+	seajs.use('app/index.js')
+</script>
+</html>

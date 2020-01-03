@@ -1,0 +1,1926 @@
+<%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>工程机械地区代理商信息大全_工程机械地区代理商平台 – 铁臂商城代理商平台</title>
+<meta name="keywords" content="工程机械地区代理商平台,工程机械地区代理商信息大全" />
+<meta name="description" content="铁臂商城代理商平台拥有全国各个地区的工程机械代理商信息,是工程机械行业地区代理商信息最全的代理商平台,买工程机械就上铁臂商城。" />
+<meta name="renderer" content="webkit">
+<meta name="author" content="design by www.21-sun.com">
+<link href="/style/style.css" rel="stylesheet" />
+<link href="style/style.css" rel="stylesheet" />
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+<script type="text/javascript">
+//导航选中状态
+var jrChannel='3#0'
+</script>
+</head>
+<body>
+<!--top-->
+<jsp:include page="include/top.jsp" flush="true" />
+<!--top end-->
+<div class="contain980 mb10">
+  <h3 class="breadCrumbs"><a href="/">铁臂商城代理商平台</a> &gt;&gt; 代理地区</h3>
+</div>
+<div class="contain980 agent_area fix">
+  <div class="comBox01">
+    <div class="hd">
+      <ul class="idTabs">
+        <li><a href="#area01" class="selected">全国</a></li>
+		
+        <li><a href="#area02">华北地区</a></li>
+        <li><a href="#area03">华东地区</a></li>
+        <li><a href="#area04">华南地区</a></li>
+        <li><a href="#area05">华中地区</a></li>
+        <li><a href="#area06">东北地区</a></li>
+        <li><a href="#area07">西南地区</a></li>
+        <li><a href="#area08">西北地区</a></li>
+      </ul>
+    </div>
+    <div class="bd">
+      <div class="allcity" id="area01">
+        <div class="letterGuide">
+          <div class="city_zimu">
+            <ul class="zimu">
+              <li><a href="#a">A</a></li>
+              <li><a href="#b">B</a></li>
+              <li><a href="#c">C</a></li>
+              <li><a href="#d">D</a></li>
+              <li><a href="#e">E</a></li>
+              <li><a href="#f">F</a></li>
+              <li><a href="#g">G</a></li>
+              <li><a href="#h">H</a></li>
+              <li>I</li>
+              <li><a href="#j">J</a></li>
+              <li><a href="#k">K</a></li>
+              <li><a href="#l">L</a></li>
+              <li><a href="#m">M</a></li>
+              <li><a href="#n">N</a></li>
+              <li><a href="#o">O</a></li>
+              <li><a href="#p">P</a></li>
+              <li><a href="#q">Q</a></li>
+              <li><a href="#r">R</a></li>
+              <li><a href="#s">S</a></li>
+              <li><a href="#t">T</a></li>
+              <li>U</li>
+              <li>V</li>
+              <li><a href="#w">W</a></li>
+              <li><a href="#x">X</a></li>
+              <li><a href="#y">Y</a></li>
+              <li><a href="#z">Z</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="zimucity">
+          <dl>
+            <dt>
+              <label id="a">A</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/123_123009_0_0_0.shtm" target="_blank">阿坝</a></li>
+                <li><a href="/131_131003_0_0_0.shtm" target="_blank">阿克苏</a></li>
+                <li><a href="/108_108012_0_0_0.shtm" target="_blank">阿拉善</a></li>
+                <li><a href="/131_131007_0_0_0.shtm" target="_blank">阿勒泰</a></li>
+                <li><a href="/126_126002_0_0_0.shtm" target="_blank">阿里</a></li>
+                <li><a href="/127_127006_0_0_0.shtm" target="_blank">安康</a></li>
+                <li><a href="/111_111002_0_0_0.shtm" target="_blank">安庆</a></li>
+                <li><a href="/120_120003_0_0_0.shtm" target="_blank">鞍山</a></li>
+                <li><a href="/124_124003_0_0_0.shtm" target="_blank">安顺</a></li>
+                <li><a href="/117_117005_0_0_0.shtm" target="_blank">安阳</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="b">B</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/121_121005_0_0_0.shtm" target="_blank">白城</a></li>
+                <li><a href="/114_114012_0_0_0.shtm" target="_blank">百色</a></li>
+                <li><a href="/121_121006_0_0_0.shtm" target="_blank">白山</a></li>
+                <li><a href="/128_128012_0_0_0.shtm" target="_blank">白银</a></li>
+                <li><a href="/106_106003_0_0_0.shtm" target="_blank">保定</a></li>
+                <li><a href="/127_127004_0_0_0.shtm" target="_blank">宝鸡</a></li>
+                <li><a href="/125_125014_0_0_0.shtm" target="_blank">保山</a></li>
+                <li><a href="/108_108002_0_0_0.shtm" target="_blank">包头</a></li>
+                <li><a href="/108_108009_0_0_0.shtm" target="_blank">巴彦淖尔</a></li>
+                <li><a href="/131_131012_0_0_0.shtm" target="_blank">巴音郭楞</a></li>
+                <li><a href="/123_123011_0_0_0.shtm" target="_blank">巴中</a></li>
+                <li><a href="/104_104004_0_0_0.shtm" target="_blank">北海</a></li>
+                <li><a href="/101_0_0_0_0.shtm" target="_blank">北京</a></li>
+                <li><a href="/111_111004_0_0_0.shtm" target="_blank">蚌埠</a></li>
+                <li><a href="/120_120008_0_0_0.shtm" target="_blank">本溪</a></li>
+                <li><a href="/124_124008_0_0_0.shtm" target="_blank">毕节</a></li>
+                <li><a href="/105_105008_0_0_0.shtm" target="_blank">滨州</a></li>
+                <li><a href="/131_131031_0_0_0.shtm" target="_blank">博尔塔拉</a></li>
+                <li><a href="/111_111010_0_0_0.shtm" target="_blank">亳州</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="c">C</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/106_106005_0_0_0.shtm" target="_blank">沧州</a></li>
+                <li><a href="/121_121002_0_0_0.shtm" target="_blank">长春</a></li>
+                <li><a href="/119_119003_0_0_0.shtm" target="_blank">常德</a></li>
+                <li><a href="/126_126005_0_0_0.shtm" target="_blank">昌都</a></li>
+                <li><a href="/131_131014_0_0_0.shtm" target="_blank">昌吉</a></li>
+                <li><a href="/119_119001_0_0_0.shtm" target="_blank">长沙</a></li>
+                <li><a href="/109_109014_0_0_0.shtm" target="_blank">常熟</a></li>
+                <li><a href="/107_107004_0_0_0.shtm" target="_blank">长治</a></li>
+                <li><a href="/109_109003_0_0_0.shtm" target="_blank">常州</a></li>
+                <li><a href="/111_111013_0_0_0.shtm" target="_blank">巢湖</a></li>
+                <li><a href="/120_120006_0_0_0.shtm" target="_blank">朝阳</a></li>
+                <li><a href="/112_112018_0_0_0.shtm" target="_blank">潮州</a></li>
+                <li><a href="/106_106011_0_0_0.shtm" target="_blank">承德</a></li>
+                <li><a href="/123_123001_0_0_0.shtm" target="_blank">成都</a></li>
+                <li><a href="/119_119002_0_0_0.shtm" target="_blank">郴州</a></li>
+                <li><a href="/108_108004_0_0_0.shtm" target="_blank">赤峰</a></li>
+                <li><a href="/111_111014_0_0_0.shtm" target="_blank">池州</a></li>
+                <li><a href="/104_0_0_0_0.shtm" target="_blank">重庆</a></li>
+                <li><a href="/114_114010_0_0_0.shtm" target="_blank">崇左</a></li>
+                <li><a href="/125_125015_0_0_0.shtm" target="_blank">楚雄</a></li>
+                <li><a href="/111_111016_0_0_0.shtm" target="_blank">滁州</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="d">D</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/125_125003_0_0_0.shtm" target="_blank">大理</a></li>
+                <li><a href="/120_120002_0_0_0.shtm" target="_blank">大连</a></li>
+                <li><a href="/120_120014_0_0_0.shtm" target="_blank">丹东</a></li>
+                <li><a href="/122_122002_0_0_0.shtm" target="_blank">大庆</a></li>
+                <li><a href="/107_107005_0_0_0.shtm" target="_blank">大同</a></li>
+                <li><a href="/122_122007_0_0_0.shtm" target="_blank">大兴安岭</a></li>
+                <li><a href="/123_123013_0_0_0.shtm" target="_blank">达州</a></li>
+                <li><a href="/125_125008_0_0_0.shtm" target="_blank">德宏</a></li>
+                <li><a href="/123_123004_0_0_0.shtm" target="_blank">德阳</a></li>
+                <li><a href="/105_105009_0_0_0.shtm" target="_blank">德州</a></li>
+                <li><a href="/128_128009_0_0_0.shtm" target="_blank">定西</a></li>
+                <li><a href="/125_125010_0_0_0.shtm" target="_blank">迪庆</a></li>
+                <li><a href="/112_112006_0_0_0.shtm" target="_blank">东莞</a></li>
+                <li><a href="/105_105006_0_0_0.shtm" target="_blank">东营</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="e">E</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/108_108003_0_0_0.shtm" target="_blank">鄂尔多斯</a></li>
+                <li><a href="/118_118010_0_0_0.shtm" target="_blank">恩施</a></li>
+                <li><a href="/118_118012_0_0_0.shtm" target="_blank">鄂州</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="f">F</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/114_114007_0_0_0.shtm" target="_blank">防城港</a></li>
+                <li><a href="/112_112007_0_0_0.shtm" target="_blank">佛山</a></li>
+                <li><a href="/112_120013_0_0_0.shtm" target="_blank">抚顺</a></li>
+                <li><a href="/112_120012_0_0_0.shtm" target="_blank">阜新</a></li>
+                <li><a href="/113_113001_0_0_0.shtm" target="_blank">福州</a></li>
+                <li><a href="/111_111003_0_0_0.shtm" target="_blank">阜阳</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="g">G</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/128_128013_0_0_0.shtm" target="_blank">甘南</a></li>
+                <li><a href="/115_115002_0_0_0.shtm" target="_blank">赣州</a></li>
+                <li><a href="/125_123008_0_0_0.shtm" target="_blank">甘孜</a></li>
+                <li><a href="/123_123014_0_0_0.shtm" target="_blank">广安</a></li>
+                <li><a href="/123_123019_0_0_0.shtm" target="_blank">广元</a></li>
+                <li><a href="/112_112002_0_0_0.shtm" target="_blank">广州</a></li>
+                <li><a href="/114_114013_0_0_0.shtm" target="_blank">贵港</a></li>
+                <li><a href="/114_114003_0_0_0.shtm" target="_blank">桂林</a></li>
+                <li><a href="/124_124001_0_0_0.shtm" target="_blank">贵阳</a></li>
+                <li><a href="/129_129003_0_0_0.shtm" target="_blank">果洛</a></li>
+                <li><a href="/130_130002_0_0_0.shtm" target="_blank">固原</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="h">H</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/122_122001_0_0_0.shtm" target="_blank">哈尔滨</a></li>
+                <li><a href="/129_129008_0_0_0.shtm" target="_blank">海北</a></li>
+                <li><a href="/129_129006_0_0_0.shtm" target="_blank">海东</a></li>
+                <li><a href="/126_116001_0_0_0.shtm" target="_blank">海口</a></li>
+                <li><a href="/129_129005_0_0_0.shtm" target="_blank">海南</a></li>
+                <li><a href="/129_129007_0_0_0.shtm" target="_blank">海西</a></li>
+                <li><a href="/131_131004_0_0_0.shtm" target="_blank">哈密</a></li>
+                <li><a href="/106_106004_0_0_0.shtm" target="_blank">邯郸</a></li>
+                <li><a href="/110_110001_0_0_0.shtm" target="_blank">杭州</a></li>
+                <li><a href="/127_127005_0_0_0.shtm" target="_blank">汉中</a></li>
+                <li><a href="/117_117015_0_0_0.shtm" target="_blank">鹤壁</a></li>
+                <li><a href="/114_114005_0_0_0.shtm" target="_blank">河池</a></li>
+                <li><a href="/111_111001_0_0_0.shtm" target="_blank">合肥</a></li>
+                <li><a href="/122_122013_0_0_0.shtm" target="_blank">鹤岗</a></li>
+                <li><a href="/122_122008_0_0_0.shtm" target="_blank">黑河</a></li>
+                <li><a href="/106_106010_0_0_0.shtm" target="_blank">衡水</a></li>
+                <li><a href="/119_119004_0_0_0.shtm" target="_blank">衡阳</a></li>
+                <li><a href="/131_131002_0_0_0.shtm" target="_blank">和田</a></li>
+                <li><a href="/112_112015_0_0_0.shtm" target="_blank">河源</a></li>
+                <li><a href="/105_105010_0_0_0.shtm" target="_blank">菏泽</a></li>
+                <li><a href="/114_114014_0_0_0.shtm" target="_blank">贺州</a></li>
+                <li><a href="/125_125005_0_0_0.shtm" target="_blank">红河</a></li>
+                <li><a href="/109_109012_0_0_0.shtm" target="_blank">淮安</a></li>
+                <li><a href="/111_111006_0_0_0.shtm" target="_blank">淮北</a></li>
+                <li><a href="/119_119014_0_0_0.shtm" target="_blank">怀化</a></li>
+                <li><a href="/111_111007_0_0_0.shtm" target="_blank">淮南</a></li>
+                <li><a href="/118_118011_0_0_0.shtm" target="_blank">黄冈</a></li>
+                <li><a href="/129_129004_0_0_0.shtm" target="_blank">黄南</a></li>
+                <li><a href="/111_111015_0_0_0.shtm" target="_blank">黄山</a></li>
+                <li><a href="/118_118005_0_0_0.shtm" target="_blank">黄石</a></li>
+                <li><a href="/108_108001_0_0_0.shtm" target="_blank">呼和浩特</a></li>
+                <li><a href="/112_112005_0_0_0.shtm" target="_blank">惠州</a></li>
+                <li><a href="/120_120006_0_0_0.shtm" target="_blank">葫芦岛</a></li>
+                <li><a href="/108_108006_0_0_0.shtm" target="_blank">呼伦贝尔</a></li>
+                <li><a href="/110_110008_0_0_0.shtm" target="_blank">湖州</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="j">J</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/128_128010_0_0_0.shtm"  target="_blank">金昌</a></li>
+                <li><a href="/122_122010_0_0_0.shtm"  target="_blank">佳木斯</a></li>
+                <li><a href="/115_115009_0_0_0.shtm"  target="_blank">吉安</a></li>
+                <li><a href="/112_112009_0_0_0.shtm"  target="_blank">江门</a></li>
+                <li><a href="/109_109018_0_0_0.shtm"  target="_blank">江阴</a></li>
+                <li><a href="/117_117006_0_0_0.shtm"  target="_blank">焦作</a></li>
+                <li><a href="/110_110006_0_0_0.shtm" target="_blank">嘉兴</a></li>
+                <li><a href="/128_128011_0_0_0.shtm" target="_blank">嘉峪关</a></li>
+                <li><a href="/112_112011_0_0_0.shtm" target="_blank">揭阳</a></li>
+                <li><a href="/121_0_0_0_0.shtm" target="_blank">吉林</a></li>
+                <li><a href="/105_105001_0_0_0.shtm" target="_blank">济南</a></li>
+                <li><a href="/107_107006_0_0_0.shtm" target="_blank">晋城</a></li>
+                <li><a href="/115_115008_0_0_0.shtm" target="_blank">景德镇</a></li>
+                <li><a href="/118_118014_0_0_0.shtm" target="_blank">荆门</a></li>
+                <li><a href="/118_118006_0_0_0.shtm" target="_blank">荆州</a></li>
+                <li><a href="/110_110007_0_0_0.shtm" target="_blank">金华</a></li>
+                <li><a href="/105_105005_0_0_0.shtm" target="_blank">济宁</a></li>
+                <li><a href="/107_107007_0_0_0.shtm" target="_blank">晋中</a></li>
+                <li><a href="/115_115003_0_0_0.shtm" target="_blank">九江</a></li>
+                <li><a href="/128_128003_0_0_0.shtm" target="_blank">酒泉</a></li>
+                <li><a href="/122_122011_0_0_0.shtm" target="_blank">鸡西</a></li>
+                <li><a href="/117_117017_0_0_0.shtm" target="_blank">济源</a></li>
+                <li><a href="/115_115007_0_0_0.shtm" target="_blank">抚州</a></li>
+                <li><a href="/120_120004_0_0_0.shtm" target="_blank">锦州</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="k">K</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/117_117014_0_0_0.shtm" target="_blank">开封</a></li>
+                <li><a href="/131_131005_0_0_0.shtm" target="_blank">喀什</a></li>
+                <li><a href="/131_131011_0_0_0.shtm" target="_blank">克拉玛依</a></li>
+                <li><a href="/125_125001_0_0_0.shtm" target="_blank">昆明</a></li>
+                <li><a href="/109_109015_0_0_0.shtm" target="_blank">昆山</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="l">L</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/114_114009_0_0_0.shtm" target="_blank">来宾</a></li>
+                <li><a href="/105_105013_0_0_0.shtm" target="_blank">莱芜</a></li>
+                <li><a href="/106_106007_0_0_0.shtm" target="_blank">廊坊</a></li>
+                <li><a href="/128_128001_0_0_0.shtm" target="_blank">兰州</a></li>
+                <li><a href="/126_126001_0_0_0.shtm" target="_blank">拉萨</a></li>
+                <li><a href="/123_123005_0_0_0.shtm" target="_blank">乐山</a></li>
+                <li><a href="/123_123007_0_0_0.shtm" target="_blank">凉山</a></li>
+                <li><a href="/109_109011_0_0_0.shtm" target="_blank">连云港</a></li>
+                <li><a href="/105_105012_0_0_0.shtm" target="_blank">聊城</a></li>
+                <li><a href="/120_120007_0_0_0.shtm" target="_blank">辽阳</a></li>
+                <li><a href="/121_121007_0_0_0.shtm" target="_blank">辽源</a></li>
+                <li><a href="/125_125006_0_0_0.shtm" target="_blank">丽江</a></li>
+                <li><a href="/125_125009_0_0_0.shtm" target="_blank">临沧</a></li>
+                <li><a href="/107_107002_0_0_0.shtm" target="_blank">临汾</a></li>
+                <li><a href="/128_128007_0_0_0.shtm" target="_blank">临夏</a></li>
+                <li><a href="/105_105004_0_0_0.shtm" target="_blank">临沂</a></li>
+                <li><a href="/126_126007_0_0_0.shtm" target="_blank">林芝</a></li>
+                <li><a href="/110_110010_0_0_0.shtm" target="_blank">丽水</a></li>
+                <li><a href="/124_124006_0_0_0.shtm" target="_blank">六盘水</a></li>
+                <li><a href="/114_114002_0_0_0.shtm" target="_blank">柳州</a></li>
+                <li><a href="/128_128014_0_0_0.shtm" target="_blank">陇南</a></li>
+                <li><a href="/113_113004_0_0_0.shtm" target="_blank">龙岩</a></li>
+                <li><a href="/119_119005_0_0_0.shtm" target="_blank">娄底</a></li>
+                <li><a href="/111_111005_0_0_0.shtm" target="_blank">六安</a></li>
+                <li><a href="/117_117013_0_0_0.shtm" target="_blank">漯河</a></li>
+                <li><a href="/117_117002_0_0_0.shtm" target="_blank">洛阳</a></li>
+                <li><a href="/123_123010_0_0_0.shtm" target="_blank">泸州</a></li>
+                <li><a href="/107_107009_0_0_0.shtm" target="_blank">吕梁</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="m">M</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/111_111012_0_0_0.shtm" target="_blank">马鞍山</a></li>
+                <li><a href="/112_112019_0_0_0.shtm" target="_blank">茂名</a></li>
+                <li><a href="/123_123012_0_0_0.shtm" target="_blank">眉山</a></li>
+                <li><a href="/112_112021_0_0_0.shtm" target="_blank">梅州</a></li>
+                <li><a href="/123_123002_0_0_0.shtm" target="_blank">绵阳</a></li>
+                <li><a href="/122_122003_0_0_0.shtm" target="_blank">牡丹江</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="n">N</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/115_115001_0_0_0.shtm" target="_blank">南昌</a></li>
+                <li><a href="/123_123003_0_0_0.shtm" target="_blank">南充</a></li>
+                <li><a href="/109_109001_0_0_0.shtm" target="_blank">南京</a></li>
+                <li><a href="/114_114001_0_0_0.shtm" target="_blank">南宁</a></li>
+                <li><a href="/113_113009_0_0_0.shtm" target="_blank">南平</a></li>
+                <li><a href="/109_109004_0_0_0.shtm" target="_blank">南通</a></li>
+                <li><a href="/117_117004_0_0_0.shtm" target="_blank">南阳</a></li>
+                <li><a href="/126_126003_0_0_0.shtm" target="_blank">那曲</a></li>
+                <li><a href="/123_123015_0_0_0.shtm" target="_blank">内江</a></li>
+                <li><a href="/110_110002_0_0_0.shtm" target="_blank">宁波</a></li>
+                <li><a href="/113_113008_0_0_0.shtm" target="_blank">宁德</a></li>
+                <li><a href="/125_125007_0_0_0.shtm" target="_blank">怒江</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="p">P</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/120_120011_0_0_0.shtm" target="_blank">盘锦</a></li>
+                <li><a href="/123_123018_0_0_0.shtm" target="_blank">攀枝花</a></li>
+                <li><a href="/117_117009_0_0_0.shtm" target="_blank">平顶山</a></li>
+                <li><a href="/128_128008_0_0_0.shtm" target="_blank">平凉</a></li>
+                <li><a href="/115_115011_0_0_0.shtm" target="_blank">萍乡</a></li>
+                <li><a href="/125_125016_0_0_0.shtm" target="_blank">普洱</a></li>
+                <li><a href="/113_113007_0_0_0.shtm" target="_blank">莆田</a></li>
+                <li><a href="/117_117008_0_0_0.shtm" target="_blank">濮阳</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="q">Q</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/124_124005_0_0_0.shtm" target="_blank">黔东南</a></li>
+                <li><a href="/118_118009_0_0_0.shtm" target="_blank">潜江</a></li>
+                <li><a href="/124_124007_0_0_0.shtm" target="_blank">黔南</a></li>
+                <li><a href="/124_124009_0_0_0.shtm" target="_blank">黔西南</a></li>
+                <li><a href="/105_105002_0_0_0.shtm" target="_blank">青岛</a></li>
+                <li><a href="/128_128004_0_0_0.shtm" target="_blank">庆阳</a></li>
+                <li><a href="/112_112013_0_0_0.shtm" target="_blank">清远</a></li>
+                <li><a href="/106_106008_0_0_0.shtm" target="_blank">秦皇岛</a></li>
+                <li><a href="/114_114011_0_0_0.shtm" target="_blank">钦州</a></li>
+                <li><a href="/122_122004_0_0_0.shtm" target="_blank">齐齐哈尔</a></li>
+                <li><a href="/122_122012_0_0_0.shtm" target="_blank">七台河</a></li>
+                <li><a href="/113_113003_0_0_0.shtm" target="_blank">泉州</a></li>
+                <li><a href="/125_125002_0_0_0.shtm" target="_blank">曲靖</a></li>
+                <li><a href="/110_110009_0_0_0.shtm" target="_blank">衢州</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="r">R</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/126_126006_0_0_0.shtm" target="_blank">日喀则</a></li>
+                <li><a href="/105_105017_0_0_0.shtm" target="_blank">日照</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="s">S</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/117_117018_0_0_0.shtm" target="_blank">三门峡</a></li>
+                <li><a href="/113_113006_0_0_0.shtm" target="_blank">三明</a></li>
+                <li><a href="/116_116002_0_0_0.shtm" target="_blank">三亚</a></li>
+                <li><a href="/103_0_0_0_0.shtm" target="_blank">上海</a></li>
+                <li><a href="/127_127008_0_0_0.shtm" target="_blank">商洛</a></li>
+                <li><a href="/117_117010_0_0_0.shtm" target="_blank">商丘</a></li>
+                <li><a href="/115_115004_0_0_0.shtm" target="_blank">上饶</a></li>
+                <li><a href="/126_126004_0_0_0.shtm" target="_blank">山南</a></li>
+                <li><a href="/112_112008_0_0_0.shtm" target="_blank">汕头</a></li>
+                <li><a href="/112_112014_0_0_0.shtm" target="_blank">汕尾</a></li>
+                <li><a href="/112_112010_0_0_0.shtm" target="_blank">韶关</a></li>
+                <li><a href="/110_110005_0_0_0.shtm" target="_blank">绍兴</a></li>
+                <li><a href="/119_119007_0_0_0.shtm" target="_blank">邵阳</a></li>
+                <li><a href="/120_120001_0_0_0.shtm" target="_blank">沈阳</a></li>
+                <li><a href="/112_112001_0_0_0.shtm" target="_blank">深圳</a></li>
+                <li><a href="/106_106001_0_0_0.shtm" target="_blank">石家庄</a></li>
+                <li><a href="/118_118004_0_0_0.shtm" target="_blank">十堰</a></li>
+                <li><a href="/130_130005_0_0_0.shtm" target="_blank">石嘴山</a></li>
+                <li><a href="/122_122005_0_0_0.shtm" target="_blank">双鸭山</a></li>
+                <li><a href="/107_107010_0_0_0.shtm" target="_blank">朔州</a></li>
+                <li><a href="/121_121008_0_0_0.shtm" target="_blank">四平</a></li>
+                <li><a href="/121_121009_0_0_0.shtm" target="_blank">松原</a></li>
+                <li><a href="/122_122006_0_0_0.shtm" target="_blank">绥化</a></li>
+                <li><a href="/123_123022_0_0_0.shtm" target="_blank">遂宁</a></li>
+                <li><a href="/118_118013_0_0_0.shtm" target="_blank">随州</a></li>
+                <li><a href="/109_109013_0_0_0.shtm" target="_blank">宿迁</a></li>
+                <li><a href="/109_109002_0_0_0.shtm" target="_blank">苏州</a></li>
+                <li><a href="/111_111009_0_0_0.shtm" target="_blank">宿州</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="t">T</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/131_131008_0_0_0.shtm" target="_blank">塔城</a></li>
+                <li><a href="/105_105007_0_0_0.shtm" target="_blank">泰安</a></li>
+                <li><a href="/109_109017_0_0_0.shtm" target="_blank">太仓</a></li>
+                <li><a href="/107_107001_0_0_0.shtm" target="_blank">太原</a></li>
+                <li><a href="/109_109010_0_0_0.shtm" target="_blank">泰州</a></li>
+                <li><a href="/106_106002_0_0_0.shtm" target="_blank">唐山</a></li>
+                <li><a href="/102_0_0_0_0.shtm" target="_blank">天津</a></li>
+                <li><a href="/128_128005_0_0_0.shtm" target="_blank">天水</a></li>
+                <li><a href="/120_120010_0_0_0.shtm" target="_blank">铁岭</a></li>
+                <li><a href="/127_127009_0_0_0.shtm" target="_blank">铜川</a></li>
+                <li><a href="/121_121004_0_0_0.shtm" target="_blank">通化</a></li>
+                <li><a href="/108_108005_0_0_0.shtm" target="_blank">通辽</a></li>
+                <li><a href="/111_111011_0_0_0.shtm" target="_blank">铜陵</a></li>
+                <li><a href="/124_124004_0_0_0.shtm" target="_blank">铜仁</a></li>
+                <li><a href="/131_131009_0_0_0.shtm" target="_blank">吐鲁番</a></li>
+                <li><a href="/110_110004_0_0_0.shtm" target="_blank">台州</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="w">W</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/123_123006_0_0_0.shtm" target="_blank">万州</a></li>
+                <li><a href="/105_105015_0_0_0.shtm" target="_blank">潍坊</a></li>
+                <li><a href="/105_105016_0_0_0.shtm" target="_blank">威海</a></li>
+                <li><a href="/127_127003_0_0_0.shtm" target="_blank">渭南</a></li>
+                <li><a href="/125_125013_0_0_0.shtm" target="_blank">文山</a></li>
+                <li><a href="/110_110003_0_0_0.shtm" target="_blank">温州</a></li>
+                <li><a href="/108_108007_0_0_0.shtm" target="_blank">乌海</a></li>
+                <li><a href="/118_118001_0_0_0.shtm" target="_blank">武汉</a></li>
+                <li><a href="/111_111008_0_0_0.shtm" target="_blank">芜湖</a></li>
+                <li><a href="/108_108008_0_0_0.shtm" target="_blank">乌兰察布</a></li>
+                <li><a href="/131_131001_0_0_0.shtm" target="_blank">乌鲁木齐</a></li>
+                <li><a href="/128_128006_0_0_0.shtm" target="_blank">武威</a></li>
+                <li><a href="/109_109009_0_0_0.shtm" target="_blank">无锡</a></li>
+                <li><a href="/130_130003_0_0_0.shtm" target="_blank">吴忠</a></li>
+                <li><a href="/114_114008_0_0_0.shtm" target="_blank">梧州</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="x">X</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/113_113002_0_0_0.shtm" target="_blank">厦门</a></li>
+                <li><a href="/127_127001_0_0_0.shtm" target="_blank">西安</a></li>
+                <li><a href="/119_119013_0_0_0.shtm" target="_blank">湘潭</a></li>
+                <li><a href="/119_119009_0_0_0.shtm" target="_blank">湘西</a></li>
+                <li><a href="/118_118003_0_0_0.shtm" target="_blank">襄阳</a></li>
+                <li><a href="/118_118007_0_0_0.shtm" target="_blank">咸宁</a></li>
+                <li><a href="/124_127007_0_0_0.shtm" target="_blank">咸阳</a></li>
+                <li><a href="/118_118008_0_0_0.shtm" target="_blank">孝感</a></li>
+                <li><a href="/108_108011_0_0_0.shtm" target="_blank">锡林郭勒</a></li>
+                <li><a href="/108_108010_0_0_0.shtm" target="_blank">兴安</a></li>
+                <li><a href="/106_106006_0_0_0.shtm" target="_blank">邢台</a></li>
+                <li><a href="/129_129001_0_0_0.shtm" target="_blank">西宁</a></li>
+                <li><a href="/131_131006_0_0_0.shtm" target="_blank">新疆克州</a></li>
+                <li><a href="/117_117003_0_0_0.shtm" target="_blank">新乡</a></li>
+                <li><a href="/117_117012_0_0_0.shtm" target="_blank">信阳</a></li>
+                <li><a href="/115_115010_0_0_0.shtm" target="_blank">新余</a></li>
+                <li><a href="/107_107008_0_0_0.shtm" target="_blank">忻州</a></li>
+                <li><a href="/125_125012_0_0_0.shtm" target="_blank">西双版纳</a></li>
+                <li><a href="/111_111017_0_0_0.shtm" target="_blank">宣城</a></li>
+                <li><a href="/117_117007_0_0_0.shtm" target="_blank">许昌</a></li>
+                <li><a href="/109_109005_0_0_0.shtm" target="_blank">徐州</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="y">Y</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/123_123016_0_0_0.shtm" target="_blank">雅安</a></li>
+                <li><a href="/127_127010_0_0_0.shtm" target="_blank">延安</a></li>
+                <li><a href="/121_121003_0_0_0.shtm" target="_blank">延边</a></li>
+                <li><a href="/109_109008_0_0_0.shtm" target="_blank">盐城</a></li>
+                <li><a href="/112_112016_0_0_0.shtm" target="_blank">阳江</a></li>
+                <li><a href="/107_107011_0_0_0.shtm" target="_blank">阳泉</a></li>
+                <li><a href="/109_109006_0_0_0.shtm" target="_blank">扬州</a></li>
+                <li><a href="/105_105014_0_0_0.shtm" target="_blank">烟台</a></li>
+                <li><a href="/122_122009_0_0_0.shtm" target="_blank">伊春</a></li>
+                <li><a href="/123_123017_0_0_0.shtm" target="_blank">宜宾</a></li>
+                <li><a href="/118_118002_0_0_0.shtm" target="_blank">宜昌</a></li>
+                <li><a href="/115_115005_0_0_0.shtm" target="_blank">宜春</a></li>
+                <li><a href="/131_131010_0_0_0.shtm" target="_blank">伊犁</a></li>
+                <li><a href="/130_130001_0_0_0.shtm" target="_blank">银川</a></li>
+                <li><a href="/120_120005_0_0_0.shtm" target="_blank">营口</a></li>
+                <li><a href="/115_115006_0_0_0.shtm" target="_blank">鹰潭</a></li>
+                <li><a href="/119_119011_0_0_0.shtm" target="_blank">益阳</a></li>
+                <li><a href="/127_127002_0_0_0.shtm" target="_blank">榆林</a></li>
+                <li><a href="/119_119012_0_0_0.shtm" target="_blank">永州</a></li>
+                <li><a href="/119_119008_0_0_0.shtm" target="_blank">岳阳</a></li>
+                <li><a href="/114_114006_0_0_0.shtm" target="_blank">玉林</a></li>
+                <li><a href="/107_107003_0_0_0.shtm" target="_blank">运城</a></li>
+                <li><a href="/112_112020_0_0_0.shtm" target="_blank">云浮</a></li>
+                <li><a href="/129_129002_0_0_0.shtm" target="_blank">玉树</a></li>
+                <li><a href="/125_125004_0_0_0.shtm" target="_blank">玉溪</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <label id="z">Z</label>
+            </dt>
+            <dd>
+              <ul>
+                <li><a href="/105_105011_0_0_0.shtm" target="_blank">枣庄</a></li>
+                <li><a href="/109_109016_0_0_0.shtm" target="_blank">张家港</a></li>
+                <li><a href="/119_119010_0_0_0.shtm" target="_blank">张家界</a></li>
+                <li><a href="/106_106009_0_0_0.shtm" target="_blank">张家口</a></li>
+                <li><a href="/128_128002_0_0_0.shtm" target="_blank">张掖</a></li>
+                <li><a href="/113_113005_0_0_0.shtm" target="_blank">漳州</a></li>
+                <li><a href="/112_112017_0_0_0.shtm" target="_blank">湛江</a></li>
+                <li><a href="/112_112012_0_0_0.shtm" target="_blank">肇庆</a></li>
+                <li><a href="/125_125011_0_0_0.shtm" target="_blank">昭通</a></li>
+                <li><a href="/117_117001_0_0_0.shtm" target="_blank">郑州</a></li>
+                <li><a href="/109_109007_0_0_0.shtm" target="_blank">镇江</a></li>
+                <li><a href="/112_112004_0_0_0.shtm" target="_blank">中山</a></li>
+                <li><a href="/130_130004_0_0_0.shtm" target="_blank">中卫</a></li>
+                <li><a href="/117_117011_0_0_0.shtm" target="_blank">周口</a></li>
+                <li><a href="/110_110011_0_0_0.shtm" target="_blank">舟山</a></li>
+                <li><a href="/112_112003_0_0_0.shtm" target="_blank">珠海</a></li>
+                <li><a href="/117_117016_0_0_0.shtm" target="_blank">驻马店</a></li>
+                <li><a href="/119_119006_0_0_0.shtm" target="_blank">株洲</a></li>
+                <li><a href="/105_105003_0_0_0.shtm" target="_blank">淄博</a></li>
+                <li><a href="/123_123021_0_0_0.shtm" target="_blank">自贡</a></li>
+                <li><a href="/123_123020_0_0_0.shtm" target="_blank">资阳</a></li>
+                <li><a href="/124_124002_0_0_0.shtm" target="_blank">遵义</a></li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="areabox" id="area02">
+        <div class="onearea">
+          <dl>
+            <dt><a href="/101_0_0_0_0.shtm">北京</a></dt>
+            <dd><a href="javascript:void(0)" target="_blank">东城区</a>
+            	<a href="javascript:void(0)" target="_blank">西城区</a>
+                <a href="javascript:void(0)" target="_blank">崇文区</a>
+                <a href="javascript:void(0)" target="_blank">宣武区</a>
+                <a href="javascript:void(0)" target="_blank">朝阳区</a>
+                <a href="javascript:void(0)" target="_blank">丰台区</a>
+                <a href="javascript:void(0)" target="_blank">石景山区</a>	
+              	<a href="javascript:void(0)" target="_blank">海淀区</a>
+                <a href="javascript:void(0)" target="_blank">门头沟区</a>
+                <a href="javascript:void(0)" target="_blank">房山区</a>
+                <a href="javascript:void(0)" target="_blank">通州区</a>
+                <a href="javascript:void(0)" target="_blank">顺义区</a>
+                <a href="javascript:void(0)" target="_blank">昌平区</a>
+                <a href="javascript:void(0)" target="_blank">大兴区</a>
+                <a href="javascript:void(0)" target="_blank">怀柔区</a>
+                <a href="javascript:void(0)" target="_blank">平谷区</a>
+                <a href="javascript:void(0)" target="_blank">密云县</a>
+                <a href="javascript:void(0)" target="_blank">延庆县</a>
+                </dd>
+          </dl>
+        </div>
+        <div class="onearea">
+          <dl>
+            <dt><a href="/102_0_0_0_0.shtm">天津</a></dt>
+            <dd><a href="javascript:void(0)" target="_blank">和平区</a>
+            <a href="javascript:void(0)" target="_blank">河东区</a>
+            <a href="javascript:void(0)" target="_blank">河西区</a>
+            <a href="javascript:void(0)" target="_blank">南开区</a>
+            <a href="javascript:void(0)" target="_blank">河北区</a>
+            <a href="javascript:void(0)" target="_blank">红桥区</a>
+            <a href="javascript:void(0)" target="_blank">塘沽区</a>
+            <a href="javascript:void(0)" target="_blank">东丽区</a>
+            <a href="javascript:void(0)" target="_blank">西青区</a>
+            <a href="javascript:void(0)" target="_blank">津南区</a>
+            <a href="javascript:void(0)" target="_blank">北辰区</a>
+            <a href="javascript:void(0)" target="_blank">武清区</a>
+            <a href="javascript:void(0)" target="_blank">宝坻区</a>
+            <a href="javascript:void(0)" target="_blank">滨海新区</a>
+            <a href="javascript:void(0)" target="_blank">宁河县</a>
+            <a href="javascript:void(0)" target="_blank">静海县</a>
+            <a href="javascript:void(0)" target="_blank">蓟县</a>
+            </dd>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span><a href="/105_0_0_0_0.shtm" target="_blank">山东</a></span><i></i></h5>
+          <dl>
+            <dt><a href="/105_105001_0_0_0.shtm" target="_blank">济南</a></dt>
+            <dd><a href="javascript:void(0)" target="_blank">历下区</a>
+            <a href="javascript:void(0)" target="_blank">市中区</a>
+            <a href="javascript:void(0)" target="_blank">槐荫区</a>
+            <a href="javascript:void(0)" target="_blank">天桥区</a>
+            <a href="javascript:void(0)" target="_blank">历城区</a>
+            <a href="javascript:void(0)" target="_blank">长清区</a>
+            <a href="javascript:void(0)" target="_blank">平阴县</a>
+            <a href="javascript:void(0)" target="_blank">济阳县</a>
+            <a href="javascript:void(0)" target="_blank">商河县</a>
+            <a href="javascript:void(0)" target="_blank">章丘市</a>
+            </dd>
+          </dl>
+          <dl>
+            <dt><a href="/105_105002_0_0_0.shtm" target="_blank">青岛</a></dt>
+            <dd><a href="javascript:void(0)" target="_blank">市南区</a>
+            <a href="javascript:void(0)" target="_blank">市北区</a>
+            <a href="javascript:void(0)" target="_blank">四方区</a>
+            <a href="javascript:void(0)" target="_blank">黄岛区</a>
+            <a href="javascript:void(0)" target="_blank">崂山区</a>
+            <a href="javascript:void(0)" target="_blank">李沧区</a>
+            <a href="javascript:void(0)" target="_blank">城阳区</a>
+            <a href="javascript:void(0)" target="_blank">胶州市</a>
+            <a href="javascript:void(0)" target="_blank">即墨市</a>
+            <a href="javascript:void(0)" target="_blank">平度市</a>
+            <a href="javascript:void(0)" target="_blank">胶南市</a>
+            <a href="javascript:void(0)" target="_blank">莱西市</a>
+            </dd>
+          </dl>
+          <dl>
+            <dt><a href="/105_105003_0_0_0.shtm" target="_blank">淄博</a></dt>
+            <dd><a href="javascript:void(0)" target="_blank">淄川区</a>
+            <a href="javascript:void(0)" target="_blank">张店区</a>
+            <a href="javascript:void(0)" target="_blank">博山区</a>
+            <a href="javascript:void(0)" target="_blank">临淄区</a>
+            <a href="javascript:void(0)" target="_blank">周村区</a>
+            <a href="javascript:void(0)" target="_blank">桓台县</a>
+            <a href="javascript:void(0)" target="_blank">高青县</a>
+            <a href="javascript:void(0)" target="_blank">沂源县</a>
+            </dd>
+          </dl>
+          <dl>
+            <dt><a href="/105_105004_0_0_0.shtm" target="_blank">临沂</a></dt>
+            <dd><a href="javascript:void(0)" target="_blank">兰山区</a>
+            <a href="javascript:void(0)" target="_blank">罗庄区</a>
+            <a href="javascript:void(0)" target="_blank">河东区</a>
+            <a href="javascript:void(0)" target="_blank">沂南县</a>
+            <a href="javascript:void(0)" target="_blank">郯城县</a>
+            <a href="javascript:void(0)" target="_blank">沂水县</a>
+            <a href="javascript:void(0)" target="_blank">苍山县</a>
+            <a href="javascript:void(0)" target="_blank">费县</a>
+            <a href="javascript:void(0)" target="_blank">平邑县</a>
+            <a href="javascript:void(0)" target="_blank">莒南县</a>
+            <a href="javascript:void(0)" target="_blank">蒙阴县</a>
+            <a href="javascript:void(0)" target="_blank">临沭县</a>
+            </dd>
+          </dl>
+          <dl>
+            <dt><a href="/105_105005_0_0_0.shtm" target="_blank">济宁</a></dt>
+            <dd><a href="javascript:void(0)" target="_blank">市中区</a>
+            <a href="javascript:void(0)" target="_blank">任城区</a>
+            <a href="javascript:void(0)" target="_blank">微山县</a>
+            <a href="javascript:void(0)" target="_blank">鱼台县</a>
+            <a href="javascript:void(0)" target="_blank">金乡县</a>
+            <a href="javascript:void(0)" target="_blank">嘉祥县</a>
+            <a href="javascript:void(0)" target="_blank">汶上县</a>
+            <a href="javascript:void(0)" target="_blank">泗水县</a>
+            <a href="javascript:void(0)" target="_blank">梁山县</a>
+            <a href="javascript:void(0)" target="_blank">曲阜市</a>
+            <a href="javascript:void(0)" target="_blank">兖州市</a>
+            <a href="javascript:void(0)" target="_blank">邹城市</a>
+            </dd>
+          </dl>
+          <dl>
+            <dt><a href="/105_105006_0_0_0.shtm" target="_blank">东营</a></dt>
+            <dd><a href="javascript:void(0)" target="_blank">东营区</a>
+            <a href="javascript:void(0)" target="_blank">河口区</a>
+            <a href="javascript:void(0)" target="_blank">垦利县</a>
+            <a href="javascript:void(0)" target="_blank">利津县</a>
+            <a href="javascript:void(0)" target="_blank">广饶县</a>
+            </dd>
+          </dl>
+          <dl>
+            <dt><a href="/105_105007_0_0_0.shtm" target="_blank">泰安</a></dt>
+            <dd><a href="javascript:void(0)" target="_blank">泰山区</a>
+            <a href="javascript:void(0)" target="_blank">岱岳区</a>
+            <a href="javascript:void(0)" target="_blank">宁阳县</a>
+            <a href="javascript:void(0)" target="_blank">东平县</a>
+            <a href="javascript:void(0)" target="_blank">新泰市</a>
+            <a href="javascript:void(0)" target="_blank">肥城市</a>
+            </dd>
+          </dl>
+          <dl>
+            <dt><a href="/105_105008_0_0_0.shtm" target="_blank">滨州</a></dt>
+            <dd><a href="javascript:void(0)" target="_blank">滨城区</a>
+            <a href="javascript:void(0)" target="_blank">惠民县</a>
+            <a href="javascript:void(0)" target="_blank">阳信县</a>
+            <a href="javascript:void(0)" target="_blank">无棣县</a>
+            <a href="javascript:void(0)" target="_blank">沾化县</a>
+            <a href="javascript:void(0)" target="_blank">博兴县</a>
+            <a href="javascript:void(0)" target="_blank">邹平县</a>
+            </dd>
+          </dl>
+          <dl>
+            <dt><a href="/105_105009_0_0_0.shtm" target="_blank">德州</a></dt>
+            <dd><a href="javascript:void(0)" target="_blank">德城区</a>
+            <a href="javascript:void(0)" target="_blank">陵县</a>
+            <a href="javascript:void(0)" target="_blank">宁津县</a>
+            <a href="javascript:void(0)" target="_blank">庆云县</a>
+            <a href="javascript:void(0)" target="_blank">临邑县</a>
+            <a href="javascript:void(0)" target="_blank">齐河县</a>
+            <a href="javascript:void(0)" target="_blank">平原县</a>
+            <a href="javascript:void(0)" target="_blank">夏津县</a>
+            <a href="javascript:void(0)" target="_blank">武城县</a>
+            <a href="javascript:void(0)" target="_blank">乐陵市</a>
+            <a href="javascript:void(0)" target="_blank">禹城市</a>
+            </dd>
+          </dl>
+          <dl>
+            <dt><a href="/105_105010_0_0_0.shtm" target="_blank">菏泽</a></dt>
+
+          </dl>
+          <dl>
+            <dt><a href="/105_105011_0_0_0.shtm" target="_blank">枣庄</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/105_105012_0_0_0.shtm" target="_blank">聊城</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/105_105013_0_0_0.shtm" target="_blank">莱芜</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/105_105014_0_0_0.shtm" target="_blank">烟台</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/105_105015_0_0_0.shtm" target="_blank">潍坊</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/105_105016_0_0_0.shtm" target="_blank">威海</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/105_105017_0_0_0.shtm" target="_blank">日照</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>河北</span><i></i></h5>
+          <dl>
+            <dt><a href="/106_106001_0_0_0.shtm" target="_blank">石家庄</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/106_106002_0_0_0.shtm" target="_blank">唐山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/106_106003_0_0_0.shtm" target="_blank">保定</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/106_106004_0_0_0.shtm" target="_blank">邯郸</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/106_106005_0_0_0.shtm" target="_blank">沧州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/106_106006_0_0_0.shtm" target="_blank">邢台</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/106_106007_0_0_0.shtm" target="_blank">廊坊</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/106_106008_0_0_0.shtm/" target="_blank">秦皇岛</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/106_106009_0_0_0.shtm" target="_blank">张家口</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/106_106010_0_0_0.shtm" target="_blank">衡水</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/106_106011_0_0_0.shtm" target="_blank">承德</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>山西</span><i></i></h5>
+          <dl>
+            <dt><a href="/107_107001_0_0_0.shtm" target="_blank">太原</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/107_107002_0_0_0.shtm" target="_blank">临汾</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/107_107003_0_0_0.shtm" target="_blank">运城</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/107_107004_0_0_0.shtm" target="_blank">长治</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/107_107005_0_0_0.shtm" target="_blank">大同</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/107_107006_0_0_0.shtm" target="_blank">晋城</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/107_107007_0_0_0.shtm" target="_blank">晋中</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/107_107008_0_0_0.shtm" target="_blank">忻州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/107_107009_0_0_0.shtm" target="_blank">吕梁</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/107_107010_0_0_0.shtm" target="_blank">朔州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="/107_107011_0_0_0.shtm" target="_blank">阳泉</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>内蒙古</span><i></i></h5>
+          <dl>
+            <dt><a href="/108_108001_0_0_0.shtm" target="_blank">呼和浩特</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="108_108002_0_0_0.shtm" target="_blank">包头</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="108_108003_0_0_0.shtm" target="_blank">鄂尔多斯</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="108_108004_0_0_0.shtm" target="_blank">赤峰</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="108_108005_0_0_0.shtm" target="_blank">通辽</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="108_108006_0_0_0.shtm" target="_blank">呼伦贝尔</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="108_108007_0_0_0.shtm" target="_blank">乌海</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="108_108008_0_0_0.shtm" target="_blank">乌兰察布</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="108_108009_0_0_0.shtm" target="_blank">巴彦淖尔</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="108_108010_0_0_0.shtm" target="_blank">兴安</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="108_108011_0_0_0.shtm" target="_blank">锡林郭勒</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="108_108012_0_0_0.shtm" target="_blank">阿拉善</a></dt>
+          </dl>
+        </div>
+      </div>
+      <div class="areabox" id="area03">
+        <div class="onearea">
+          <dl>
+            <dt><a href="103_0_0_0_0.shtm">上海</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>江苏</span><i></i></h5>
+          <dl>
+            <dt><a href="http://nanjing.bitauto.com/cheshi/" target="_blank">南京</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://suzhou.bitauto.com/cheshi/" target="_blank">苏州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://changzhou.bitauto.com/cheshi/" target="_blank">常州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://nantong.bitauto.com/cheshi/" target="_blank">南通</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://xuzhou.bitauto.com/cheshi/" target="_blank">徐州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://yangzhou.bitauto.com/cheshi/" target="_blank">扬州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://zhenjiang.bitauto.com/cheshi/" target="_blank">镇江</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://yancheng.bitauto.com/cheshi/" target="_blank">盐城</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://wuxi.bitauto.com/cheshi/" target="_blank">无锡</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://taizhou.bitauto.com/cheshi/" target="_blank">泰州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/lianyungang/cheshi/" target="_blank">连云港</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://huaian.bitauto.com/cheshi/" target="_blank">淮安</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/suqian/cheshi/" target="_blank">宿迁</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://changshu.bitauto.com/cheshi/" target="_blank">常熟</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://kunshan.bitauto.com/cheshi/" target="_blank">昆山</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://zhangjiagang.bitauto.com/cheshi/" target="_blank">张家港</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://taicang.bitauto.com/cheshi/" target="_blank">太仓</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jiangyin/cheshi/" target="_blank">江阴</a></dt>
+            <dd></dd>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>浙江</span><i></i></h5>
+          <dl>
+            <dt><a href="http://hangzhou.bitauto.com/cheshi/" target="_blank">杭州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://ningbo.bitauto.com/cheshi/" target="_blank">宁波</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://wenzhou.bitauto.com/cheshi/" target="_blank">温州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://tz.bitauto.com/cheshi/" target="_blank">台州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://shaoxing.bitauto.com/cheshi/" target="_blank">绍兴</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://jiaxing.bitauto.com/cheshi/" target="_blank">嘉兴</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://jinhua.bitauto.com/cheshi/" target="_blank">金华</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://huzhou.bitauto.com/cheshi/" target="_blank">湖州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/quzhou/cheshi/" target="_blank">衢州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/lishui/cheshi/" target="_blank">丽水</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/zhoushan/cheshi/" target="_blank">舟山</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>安徽</span><i></i></h5>
+          <dl>
+            <dt><a href="http://hefei.bitauto.com/cheshi/" target="_blank">合肥</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://anqing.bitauto.com/cheshi/" target="_blank">安庆</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://fy.bitauto.com/cheshi/" target="_blank">阜阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://bengbu.bitauto.com/cheshi/" target="_blank">蚌埠</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://luan.bitauto.com/cheshi/" target="_blank">六安</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://huaibei.bitauto.com/cheshi/" target="_blank">淮北</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://huainan.bitauto.com/cheshi/" target="_blank">淮南</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://wuhu.bitauto.com/cheshi/" target="_blank">芜湖</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/sz/cheshi/" target="_blank">宿州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/bozhou/cheshi/" target="_blank">亳州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/tongling/cheshi/" target="_blank">铜陵</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/maanshan/cheshi/" target="_blank">马鞍山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/chaohu/cheshi/" target="_blank">巢湖</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/chizhou/cheshi/" target="_blank">池州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/huangshan/cheshi/" target="_blank">黄山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/chuzhou/cheshi/" target="_blank">滁州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/xuancheng/cheshi/" target="_blank">宣城</a></dt>
+          </dl>
+        </div>
+      </div>
+      <div class="areabox" id="area04">
+        <div class="onearea lastarea">
+          <h5><span>广东</span><i></i></h5>
+          <dl>
+            <dt><a href="http://shenzhen.bitauto.com/cheshi/" target="_blank">深圳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://guangzhou.bitauto.com/cheshi/" target="_blank">广州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://zhuhai.bitauto.com/cheshi/" target="_blank">珠海</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://zhongshan.bitauto.com/cheshi/" target="_blank">中山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://huizhou.bitauto.com/cheshi/" target="_blank">惠州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://dongguan.bitauto.com/cheshi/" target="_blank">东莞</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://foshan.bitauto.com/cheshi/" target="_blank">佛山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://shantou.bitauto.com/cheshi/" target="_blank">汕头</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://jiangmen.bitauto.com/cheshi/" target="_blank">江门</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://shaoguan.bitauto.com/cheshi/" target="_blank">韶关</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jieyang/cheshi/" target="_blank">揭阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://zhaoqing.bitauto.com/cheshi/" target="_blank">肇庆</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://qingyuan.bitauto.com/cheshi/" target="_blank">清远</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/shanwei/cheshi/" target="_blank">汕尾</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/heyuan/cheshi/" target="_blank">河源</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yangjiang/cheshi/" target="_blank">阳江</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/zhanjiang/cheshi/" target="_blank">湛江</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/chaozhou/cheshi/" target="_blank">潮州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/maoming/cheshi/" target="_blank">茂名</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yunfu/cheshi/" target="_blank">云浮</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/meizhou/cheshi/" target="_blank">梅州</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>福建</span><i></i></h5>
+          <dl>
+            <dt><a href="http://fuzhou.bitauto.com/cheshi/" target="_blank">福州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://xiamen.bitauto.com/cheshi/" target="_blank">厦门</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://quanzhou.bitauto.com/cheshi/" target="_blank">泉州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://longyan.bitauto.com/cheshi/" target="_blank">龙岩</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://zhangzhou.bitauto.com/cheshi/" target="_blank">漳州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://sanming.bitauto.com/cheshi/" target="_blank">三明</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://putian.bitauto.com/cheshi/" target="_blank">莆田</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://ningde.bitauto.com/cheshi/" target="_blank">宁德</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://nanping.bitauto.com/cheshi/" target="_blank">南平</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>广西</span><i></i></h5>
+          <dl>
+            <dt><a href="http://nanning.bitauto.com/cheshi/" target="_blank">南宁</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://liuzhou.bitauto.com/cheshi/" target="_blank">柳州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://guilin.bitauto.com/cheshi/" target="_blank">桂林</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://beihai.bitauto.com/cheshi/" target="_blank">北海</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://hechi.bitauto.com/cheshi/" target="_blank">河池</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://yulin.bitauto.com/cheshi/" target="_blank">玉林</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/fangchenggang/cheshi/" target="_blank">防城港</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/wuzhou/cheshi/" target="_blank">梧州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/laibin/cheshi/" target="_blank">来宾</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/chongzuo/cheshi/" target="_blank">崇左</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/qinzhou/cheshi/" target="_blank">钦州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/baise/cheshi/" target="_blank">百色</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/guigang/cheshi/" target="_blank">贵港</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/hezhou/cheshi/" target="_blank">贺州</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>江西</span><i></i></h5>
+          <dl>
+            <dt><a href="http://nanchang.bitauto.com/cheshi/" target="_blank">南昌</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://ganzhou.bitauto.com/cheshi/" target="_blank">赣州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jiujiang/cheshi/" target="_blank">九江</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/shangrao/cheshi/" target="_blank">上饶</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yichun/cheshi/" target="_blank">宜春</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yingtan/cheshi/" target="_blank">鹰潭</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jxfz/cheshi/" target="_blank">抚州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jingdezhen/cheshi/" target="_blank">景德镇</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jian/cheshi/" target="_blank">吉安</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/xinyu/cheshi/" target="_blank">新余</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/pingxiang/cheshi/" target="_blank">萍乡</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>海南</span><i></i></h5>
+          <dl>
+            <dt><a href="http://haikou.bitauto.com/cheshi/" target="_blank">海口</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/sanya/cheshi/" target="_blank">三亚</a></dt>
+          </dl>
+        </div>
+      </div>
+      <div class="areabox" id="area05">
+        <div class="onearea lastarea">
+          <h5><span>河南</span><i></i></h5>
+          <dl>
+            <dt><a href="http://zhengzhou.bitauto.com/cheshi/" target="_blank">郑州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://luoyang.bitauto.com/cheshi/" target="_blank">洛阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://xinxiang.bitauto.com/cheshi/" target="_blank">新乡</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://nanyang.bitauto.com/cheshi/" target="_blank">南阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://anyang.bitauto.com/cheshi/" target="_blank">安阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://jiaozuo.bitauto.com/cheshi/" target="_blank">焦作</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://xuchang.bitauto.com/cheshi/" target="_blank">许昌</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://puyang.bitauto.com/cheshi/" target="_blank">濮阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://pingdingshan.bitauto.com/cheshi/" target="_blank">平顶山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://shangqiu.bitauto.com/cheshi/" target="_blank">商丘</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/zhoukou/cheshi/" target="_blank">周口</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/xinyang/cheshi/" target="_blank">信阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/luohe/cheshi/" target="_blank">漯河</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/kaifeng/cheshi/" target="_blank">开封</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/hebi/cheshi/" target="_blank">鹤壁</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/zhumadian/cheshi/" target="_blank">驻马店</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jiyuan/cheshi/" target="_blank">济源</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/sanmenxia/cheshi/" target="_blank">三门峡</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>湖北</span><i></i></h5>
+          <dl>
+            <dt><a href="http://wuhan.bitauto.com/cheshi/" target="_blank">武汉</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://yichang.bitauto.com/cheshi/" target="_blank">宜昌</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://xiangyang.bitauto.com/cheshi/" target="_blank">襄阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/shiyan/cheshi/" target="_blank">十堰</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/huangshi/cheshi/" target="_blank">黄石</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://jingzhou.bitauto.com/cheshi/" target="_blank">荆州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/xianning/cheshi/" target="_blank">咸宁</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/xiaogan/cheshi/" target="_blank">孝感</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://qianjiang.bitauto.com/cheshi/" target="_blank">潜江</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/enshi/cheshi/" target="_blank">恩施</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/huanggang/cheshi/" target="_blank">黄冈</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/ezhou/cheshi/" target="_blank">鄂州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/suizhou/cheshi/" target="_blank">随州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jingmen/cheshi/" target="_blank">荆门</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>湖南</span><i></i></h5>
+          <dl>
+            <dt><a href="http://changsha.bitauto.com/cheshi/" target="_blank">长沙</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://chenzhou.bitauto.com/cheshi/" target="_blank">郴州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://changde.bitauto.com/cheshi/" target="_blank">常德</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://hengyang.bitauto.com/cheshi/" target="_blank">衡阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://loudi.bitauto.com/cheshi/" target="_blank">娄底</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://zhuzhou.bitauto.com/cheshi/" target="_blank">株洲</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://shaoyang.bitauto.com/cheshi/" target="_blank">邵阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://yueyang.bitauto.com/cheshi/" target="_blank">岳阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/xiangxitujiazumiaozuzizhizhou/cheshi/" target="_blank">湘西</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/zhangjiajie/cheshi/" target="_blank">张家界</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yiyang/cheshi/" target="_blank">益阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yongzhou/cheshi/" target="_blank">永州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/xiangtan/cheshi/" target="_blank">湘潭</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/huaihua/cheshi/" target="_blank">怀化</a></dt>
+          </dl>
+        </div>
+      </div>
+      <div class="areabox" id="area06">
+        <div class="onearea lastarea">
+          <h5><span>辽宁</span><i></i></h5>
+          <dl>
+            <dt><a href="http://shenyang.bitauto.com/cheshi/" target="_blank">沈阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://dalian.bitauto.com/cheshi/" target="_blank">大连</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://anshan.bitauto.com/cheshi/" target="_blank">鞍山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jz/cheshi/" target="_blank">锦州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yingkou/cheshi/" target="_blank">营口</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/huludao/cheshi/" target="_blank">葫芦岛</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/liaoyang/cheshi/" target="_blank">辽阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/benxi/cheshi/" target="_blank">本溪</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/chaoyang/cheshi/" target="_blank">朝阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/tieling/cheshi/" target="_blank">铁岭</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/panjin/cheshi/" target="_blank">盘锦</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/fuxin/cheshi/" target="_blank">阜新</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/fushun/cheshi/" target="_blank">抚顺</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/dandong/cheshi/" target="_blank">丹东</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>吉林</span><i></i></h5>
+          <dl>
+            <dt><a href="http://changchun.bitauto.com/cheshi/" target="_blank">长春</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://jilin.bitauto.com/cheshi/" target="_blank">吉林</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yanbianchaoxianzuzizhizhou/cheshi/" target="_blank">延边</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/tonghua/cheshi/" target="_blank">通化</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/baicheng/cheshi/" target="_blank">白城</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/baishan/cheshi/" target="_blank">白山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/liaoyuan/cheshi/" target="_blank">辽源</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/siping/cheshi/" target="_blank">四平</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/songyuan/cheshi/" target="_blank">松原</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>黑龙江</span><i></i></h5>
+          <dl>
+            <dt><a href="http://haerbin.bitauto.com/cheshi/" target="_blank">哈尔滨</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://daqing.bitauto.com/cheshi/" target="_blank">大庆</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://mudanjiang.bitauto.com/cheshi/" target="_blank">牡丹江</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/qiqihaer/cheshi/" target="_blank">齐齐哈尔</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/shuangyashan/cheshi/" target="_blank">双鸭山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/suihua/cheshi/" target="_blank">绥化</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/daxinganlingdiqu/cheshi/" target="_blank">大兴安岭</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/heihe/cheshi/" target="_blank">黑河</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yc/cheshi/" target="_blank">伊春</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jiamusi/cheshi/" target="_blank">佳木斯</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jixi/cheshi/" target="_blank">鸡西</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/qitaihe/cheshi/" target="_blank">七台河</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/hegang/cheshi/" target="_blank">鹤岗</a></dt>
+          </dl>
+        </div>
+      </div>
+      <div class="areabox" id="area07">
+        <div class="onearea">
+          <dl>
+            <dt><a href="http://chongqing.bitauto.com/cheshi/">重庆</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>四川</span><i></i></h5>
+          <dl>
+            <dt><a href="http://chengdu.bitauto.com/cheshi/" target="_blank">成都</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://mianyang.bitauto.com/cheshi/" target="_blank">绵阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://nanchong.bitauto.com/cheshi/" target="_blank">南充</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/deyang/cheshi/" target="_blank">德阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/leshan/cheshi/" target="_blank">乐山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://wanzhou.bitauto.com/cheshi/" target="_blank">万州</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/liangshanyizuzizhizhou/cheshi/" target="_blank">凉山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/ganzicangzuzizhizhou/cheshi/" target="_blank">甘孜</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/abacangzuqiangzuzizhizhou/cheshi/" target="_blank">阿坝</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/luzhou/cheshi/" target="_blank">泸州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/bazhong/cheshi/" target="_blank">巴中</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/meishan/cheshi/" target="_blank">眉山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/dazhou/cheshi/" target="_blank">达州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/guangan/cheshi/" target="_blank">广安</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/neijiang/cheshi/" target="_blank">内江</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yaan/cheshi/" target="_blank">雅安</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yibin/cheshi/" target="_blank">宜宾</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/panzhihua/cheshi/" target="_blank">攀枝花</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/guangyuan/cheshi/" target="_blank">广元</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/ziyang/cheshi/" target="_blank">资阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/zigong/cheshi/" target="_blank">自贡</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/suining/cheshi/" target="_blank">遂宁</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>贵州</span><i></i></h5>
+          <dl>
+            <dt><a href="http://guiyang.bitauto.com/cheshi/" target="_blank">贵阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://zunyi.bitauto.com/cheshi/" target="_blank">遵义</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/anshun/cheshi/" target="_blank">安顺</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/tongren/cheshi/" target="_blank">铜仁</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/qiandongnanmiaozudongzuzizhizhou/cheshi/" target="_blank">黔东南</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/liupanshui/cheshi/" target="_blank">六盘水</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/qiannanbuyizumiaozuzizhizhou/cheshi/" target="_blank">黔南</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/bijie/cheshi/" target="_blank">毕节</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/qianxinanbuyizumiaozuzizhizhou/cheshi/" target="_blank">黔西南</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>云南</span><i></i></h5>
+          <dl>
+            <dt><a href="http://kunming.bitauto.com/cheshi/" target="_blank">昆明</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://qujing.bitauto.com/cheshi/" target="_blank">曲靖</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/dali/cheshi/" target="_blank">大理</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yuxi/cheshi/" target="_blank">玉溪</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/honghehanizuyizuzizhizhou/cheshi/" target="_blank">红河</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/lijiang/cheshi/" target="_blank">丽江</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/nujianglisuzuzizhizhou/cheshi/" target="_blank">怒江</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/dehongdaizujingpozuzizhizhou/cheshi/" target="_blank">德宏</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/lincang/cheshi/" target="_blank">临沧</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/diqingcangzuzizhizhou/cheshi/" target="_blank">迪庆</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/zhaotong/cheshi/" target="_blank">昭通</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/xishuangbanna/cheshi/" target="_blank">西双版纳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/wenshan/cheshi/" target="_blank">文山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/baoshan/cheshi/" target="_blank">保山</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/chuxiong/cheshi/" target="_blank">楚雄</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/puer/cheshi/" target="_blank">普洱</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>西藏</span><i></i></h5>
+          <dl>
+            <dt><a href="http://lasa.bitauto.com/cheshi/" target="_blank">拉萨</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/alidiqu/cheshi/" target="_blank">阿里</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/naqudiqu/cheshi/" target="_blank">那曲</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/shannan/cheshi/" target="_blank">山南</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/changdudiqu/cheshi/" target="_blank">昌都</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/rikaze/cheshi/" target="_blank">日喀则</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/linzhidiqu/cheshi/" target="_blank">林芝</a></dt>
+          </dl>
+        </div>
+      </div>
+      <div class="areabox" id="area08">
+        <div class="onearea lastarea">
+          <h5><span>陕西</span><i></i></h5>
+          <dl>
+            <dt><a href="http://xian.bitauto.com/cheshi/" target="_blank">西安</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://yl.bitauto.com/cheshi/" target="_blank">榆林</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/weinan/cheshi/" target="_blank">渭南</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/baoji/cheshi/" target="_blank">宝鸡</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/hanzhong/cheshi/" target="_blank">汉中</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/ankang/cheshi/" target="_blank">安康</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/xianyang/cheshi/" target="_blank">咸阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/shangluo/cheshi/" target="_blank">商洛</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/tongchuan/cheshi/" target="_blank">铜川</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yanan/cheshi/" target="_blank">延安</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>甘肃</span><i></i></h5>
+          <dl>
+            <dt><a href="http://lanzhou.bitauto.com/cheshi/" target="_blank">兰州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/zhangye/cheshi/" target="_blank">张掖</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jiuquan/cheshi/" target="_blank">酒泉</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/qingyang/cheshi/" target="_blank">庆阳</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/tianshui/cheshi/" target="_blank">天水</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/wuwei/cheshi/" target="_blank">武威</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/linxia/cheshi/" target="_blank">临夏</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/pingliang/cheshi/" target="_blank">平凉</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/dingxi/cheshi/" target="_blank">定西</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jc/cheshi/" target="_blank">金昌</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/jiayuguan/cheshi/" target="_blank">嘉峪关</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/baiyin/cheshi/" target="_blank">白银</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/gannanzangzuzizhizhou/cheshi/" target="_blank">甘南</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/longnan/cheshi/" target="_blank">陇南</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>青海</span><i></i></h5>
+          <dl>
+            <dt><a href="http://xining.bitauto.com/cheshi/" target="_blank">西宁</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yushucangzuzizhizhou/cheshi/" target="_blank">玉树</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/guoluocangzuzizhizhou/cheshi/" target="_blank">果洛</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/huangnancangzuzizhizhou/cheshi/" target="_blank">黄南</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/hainanzangzuzizhizhou/cheshi/" target="_blank">海南</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/haidongdiqu/cheshi/" target="_blank">海东</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/haiximengguzucangzuzizhizhou/cheshi/" target="_blank">海西</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/haibeizangzuzizhizhou/cheshi/" target="_blank">海北</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>宁夏</span><i></i></h5>
+          <dl>
+            <dt><a href="http://yinchuan.bitauto.com/cheshi/" target="_blank">银川</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/guyuan/cheshi/" target="_blank">固原</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/wuzhong/cheshi/" target="_blank">吴忠</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/zhongwei/cheshi/" target="_blank">中卫</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/shizuishan/cheshi/" target="_blank">石嘴山</a></dt>
+          </dl>
+        </div>
+        <div class="onearea lastarea">
+          <h5><span>新疆</span><i></i></h5>
+          <dl>
+            <dt><a href="http://wulumuqi.bitauto.com/cheshi/" target="_blank">乌鲁木齐</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/hetian/cheshi/" target="_blank">和田</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/akesu/cheshi/" target="_blank">阿克苏</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/hami/cheshi/" target="_blank">哈密</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/kashi/cheshi/" target="_blank">喀什</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/xinjiangkezhou/cheshi/" target="_blank">新疆克州</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/aletai/cheshi/" target="_blank">阿勒泰</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/tacheng/cheshi/" target="_blank">塔城</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/tulufan/cheshi/" target="_blank">吐鲁番</a></dt>
+            <dd></dd>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/yilihasakezizhizhou/cheshi/" target="_blank">伊犁</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/kelamayi/cheshi/" target="_blank">克拉玛依</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/bayinguolengmengguzizhizhou/cheshi/" target="_blank">巴音郭楞</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/boertalamengguzizhizhou/cheshi/" target="_blank">博尔塔拉</a></dt>
+          </dl>
+          <dl>
+            <dt><a href="http://www.bitauto.com/changji/cheshi/" target="_blank">昌吉</a></dt>
+            <dd></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--foot-->
+<div class="foot_box">
+<jsp:include page="/include/foot.jsp" flush="true" />
+</div>
+<!--foot end-->
+</body>
+<script type="text/javascript" src="scripts/common.js"></script>
+<script type="text/javascript" src="/scripts/idTabs.js"></script>
+<script type="text/javascript">
+$(".idTabs").idTabs("!mouseover");
+</script>
+</html>

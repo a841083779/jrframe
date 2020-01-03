@@ -1,0 +1,64 @@
+﻿<#assign proList = query(" select id,full_name,agent_fac_name,city,usern,telephone,is_qijiandian,is_made from pro_agent_factory where flag = 2 and is_show = 1  order by  is_shop desc,flag ASC , name DESC , id DESC  ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list proList as pro>  
+		<#if ((pro.is_qijiandian??)&&(pro.is_qijiandian==1))&&((pro.is_made??)&&(pro.is_made==1))>
+       
+        <url>
+            <loc>http://product.21-sun.com/agentstore/${pro.usern}/</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		<url>
+            <loc>http://product.21-sun.com/agentstore/${pro.usern}/introduce.htm</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		<url>
+            <loc>http://product.21-sun.com/agentstore/${pro.usern}/agent_products.htm</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		<url>
+            <loc>http://product.21-sun.com/agentstore/${pro.usern}/agent_message.htm</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		<url>
+            <loc>http://product.21-sun.com/agentstore/${pro.usern}/</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		<url>
+            <loc>http://product.21-sun.com/agentstore/${pro.usern}/</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+				
+     	<#elseif ((pro.is_qijiandian??)&&(pro.is_qijiandian==1))&&((pro.is_made??)&&(pro.is_made==1))>
+		
+		<url>
+            <loc>http://${pro.usern}.product.21-sun.com</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		
+        <#elseif ((pro.is_qijiandian??)&&(pro.is_qijiandian==1))&&((pro.is_made??)&&(pro.is_made==1))>
+        
+		<url>
+            <loc>http://product.21-sun.com/agentshop02/${pro.usern}/</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		
+        <#else>
+		
+		<url>
+            <loc>http://product.21-sun.com/agent/${pro.usern}/</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		
+        </#if>
+	</#list>
+</urlset>

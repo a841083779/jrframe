@@ -1,0 +1,115 @@
+<#assign factory = query(" select is_made, is_qijiandian,usern,is_shop,id,name,is_shop,logo,full_name,introduce,mobile,zturl,img1,telphone from pro_agent_factory where usern = '${usern}' and is_show=1 and flag=1 ")>
+<#assign allcatalogs = query(" select name,num from pro_catalog where len(num) = 6 ")>
+<#setting url_escaping_charset='utf-8'>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>${factory[0].name}动态_${factory[0].name}动态大全_${factory[0].name}  - 铁臂商城</title>
+<meta name="keywords" content="${factory[0].name}动态,${factory[0].name}动态大全,${factory[0].name}" />
+<meta name="description" content="铁臂商城${factory[0].name}品牌专区，为您提供${factory[0].name}最新动态资讯，帮助您全面了解${factory[0].name}最新动态。" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<link href="/style/new_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<!-- jbox -->
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<!-- jbox -->
+<!--[if IE 6]>
+<script src="/scripts/iepng.js"></script>
+<script>
+   EvPNG.fix('.png')
+</script>
+<![endif]-->
+</head>
+<body>
+<!--top--> 
+<!--#include virtual="/include/top_brand.jsp?factoryid=${(factory[0].id)?c}"  --> 
+<!--top end-->
+<!--nav-->
+<div class="n_pp_nav">
+	<div class="contain980">
+    	<ul class="np_fix">
+        	<li><a href="/brand/${usern}/">${factory[0].name}首页</a></li>
+            <li><a href="/brand/${usern}/product.htm">${factory[0].name}产品</a></li>
+            <li><a href="/brand/${usern}/news.htm">${factory[0].name}动态</a></li>
+            <li><a href="/brand/${usern}/picture.htm">${factory[0].name}图片</a></li>
+            <li><a href="/brand/${usern}/video.htm">${factory[0].name}实拍</a></li>
+            <li><a href="javascript:void(0)" onclick="ts();">${factory[0].name}用户手册</a></li>
+            <li><a href="/brand/${usern}/inquiry.htm">${factory[0].name}产品价格表</a></li>
+        </ul>
+    </div>
+</div>
+<!--nav end-->
+<div></div>
+<!--面包屑-->
+<div class="contain980 mb10">
+  <h3 class="breadCrumbs"><a href="/">铁臂商城</a> &gt;&gt;  <a href="/brand/">品牌大全</a> &gt;&gt; <a href="/brand/${usern}">${factory[0].name}</a> &gt;&gt;  ${factory[0].name}动态</h3>
+</div>
+<!--面包屑结束--> 
+<!--main-->
+<div class="contain980 n_pp_promain">
+	<div class="npp_protitle"><span><h1>${factory[0].name}动态</h1></span></div>
+    <div class="npp_prolist">
+    	<div class="npp_pl_top">
+        	<ul class="np_fix">
+            <#if allcatalogs??&&(allcatalogs?size>0)>
+	        <#list allcatalogs as oneCatalog>
+	        	<#assign subcatalogs = query(" select top 1 id from pro_products where is_show=1 and factoryid = '${(factory[0].id)?c}' and catalognum like '${oneCatalog.num}%'")>     
+	        	<#if subcatalogs??&&(subcatalogs?size>0)>
+            		<li><a href="/brand/${usern}/news_${CommonString.getFormatPara(oneCatalog.num)}.htm" title="${factory[0].name}${oneCatalog.name}动态">${factory[0].name}${oneCatalog.name}动态</a></li>
+            	</#if>
+        	</#list>
+        	</#if>
+            </ul>
+        </div>
+        <div class="np_fix npp_chan_t">
+            	<div class="l npp_chan_t_left">${factory[0].name}图片动态</div>
+                <div class="r npp_chan_t_right"><a href="http://product.21-sun.com/news/list.jsp?flag=pronews" title="更多图片动态">更多 &gt;&gt;</a></div>
+         </div>
+        <div class="npp_video_list">
+        	<ul class="np_fix">
+            	<!--pic--> 
+         		<!--#include virtual="/include/brand/news_pic.jsp?factoryid=${(factory[0].id)?c}"  --> 
+				<!--end of pic--> 
+                
+            </ul>
+        </div>
+        <div class="np_fix npp_chan_t">
+            	<div class="l npp_chan_t_left">${factory[0].name}动态</div>
+                <div class="r npp_chan_t_right"><a href="http://sowa.21-sun.com/?q=${(factory[0].name)?url}&f=news" target="_blank" title="更多动态">更多 &gt;&gt;</a></div>
+         </div>
+         <div class=" npp_newslist">
+         	<ul class="np_fix">
+         		<!--news--> 
+         		<!--#include virtual="/include/brand/news_article.jsp?factoryid=${(factory[0].id)?c}"  --> 
+				<!--end of news--> 
+            </ul>
+         </div>
+        
+       
+    </div>
+</div>
+<!--main end--> 
+<!--foot--> 
+<!--#include virtual="/include/foot.jsp"  --> 
+<!--end of foot--> 
+<script type="text/javascript" src="../scripts/sort.js"></script>
+<script>
+//营销宝统计
+jQuery(function(){
+	jQuery.ajax({
+		type:'post',
+		url:'/action/ajax.jsp',
+		data:{flag:'getAgentViewCount',agentId:'${factory[0].id?c}'} ,
+		success:function(msg){
+		}
+	}) ;
+}); 
+</script>
+</body>
+</html>

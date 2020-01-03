@@ -1,0 +1,33 @@
+.Service {
+	WIDTH: 175px; OVERFLOW: hidden; PADDING-TOP: 180px
+}
+.Service .topimg {
+	WIDTH: 175px; BACKGROUND: url("top_img.gif")/*tpa=http://www.hubeianding.com/kf/top_img.gif*/ no-repeat; HEIGHT: 27px
+}
+.Service .brbg {
+	BORDER-BOTTOM: #00236f 1px solid; BORDER-LEFT: #00236f 1px solid; WIDTH: 173px; BACKGROUND: #f8f8f8; BORDER-TOP: #00236f 1px solid; BORDER-RIGHT: #00236f 1px solid
+}
+.Service .imgbg {
+	WIDTH: 173px; BACKGROUND: url("img_bg.gif")/*tpa=http://www.hubeianding.com/kf/img_bg.gif*/ no-repeat; HEIGHT: 140px
+}
+.Service .btn {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-TOP: 4px
+}
+.Service .title2 {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 6px; LINE-HEIGHT: 27px; BACKGROUND: url("title_bg.gif")/*tpa=http://www.hubeianding.com/kf/title_bg.gif*/ no-repeat center top; HEIGHT: 27px
+}
+.Service .qq {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 21px; PADDING-RIGHT: 21px; FONT-FAMILY: Arial; PADDING-TOP: 0px
+}
+.Service .qq TABLE {
+	TEXT-ALIGN: center; WIDTH: 131px; COLOR: #666
+}
+.Service .bottomimg {
+	WIDTH: 175px; BACKGROUND: url("bottom_kf.gif")/*tpa=http://www.hubeianding.com/kf/bottom_kf.gif*/ no-repeat; HEIGHT: 29px
+}
+.closskf {
+	WIDTH: 30px; DISPLAY: block; FLOAT: right; HEIGHT: 27px
+}
+.heiziti {
+	COLOR: #000000
+}

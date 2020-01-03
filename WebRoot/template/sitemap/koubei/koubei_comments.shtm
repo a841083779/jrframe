@@ -1,0 +1,12 @@
+<#assign comments_list = query(" select id from pro_comments where is_show = 1")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list comments_list as comments >
+	<url>
+		<loc>http://koubei.21-sun.com/detail/${comments.id}.htm</loc>
+		<lastmod>${.now}</lastmod>
+		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	</#list>
+</urlset>

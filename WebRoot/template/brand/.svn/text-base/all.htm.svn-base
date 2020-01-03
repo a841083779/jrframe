@@ -1,0 +1,113 @@
+<!--热门品牌-->
+<div class="hotBrand">
+  <div class="hbTitle">
+    <h2>热门品牌</h2>
+  </div>
+  <div class="hbContain">
+    <ul>
+      <li> <a target="_blank" href="sany/"><img onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/09070916592948_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" href="sany/">三一重工</a></h3>
+      </li>
+      <li> <a target="_blank" href="xcmg/"><img onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/20081212082831_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" href="xcmg/">徐工</a></h3>
+      </li>
+      <li> <a target="_blank" href="zoomlion/"><img onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/20081208093148_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" href="zoomlion/">中联重科</a></h3>
+      </li>
+      <li> <a target="_blank" href="liugong/"><img onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/09031711214794_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" href="liugong/">柳工</a></h3>
+      </li>
+      <li> <a target="_blank" href="shantui/"><img onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/20081211180948_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" href="shantui/">山推</a></h3>
+      </li>
+      <li> <a target="_blank" href="sdlg/"><img onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/09031711372951_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" href="sdlg/">山东临工</a></h3>
+      </li>
+      <li> <a target="_blank" href="lovol/"><img onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/0903171119171_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" href="lovol/">福田雷沃</a></h3>
+      </li>
+      <li> <a target="_blank" href="chinalonggong/"><img onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/11091416204918_0.jpg" original="http://product.21-sun.com/uploadfiles/11091416204918_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" href="chinalonggong/">龙工</a></h3>
+      </li>
+      <li> 
+        <a href="komatsu/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/09031711183542_0.jpg" width="80" height="30" /></a>
+        <h3><a href="komatsu/" target="_blank">小松</a></h3>
+      </li>
+      <li> 
+        <a href="cat/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/20081204173853_0.jpg" original="/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a href="cat/" target="_blank">卡特彼勒</a></h3>
+      </li>
+      <li> 
+        <a href="volvo/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/09031718090534_0.jpg" original="/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a href="volvo/" target="_blank">沃尔沃</a></h3>
+      </li>
+        <li> 
+        <a href="liebherr/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/20081204175150_0.jpg" original="/uploadfiles/20081204175150_0.jpg" width="80" height="30" /></a>
+        <h3><a href="liebherr/" target="_blank">利勃海尔</a></h3>
+      </li>
+       <li> 
+        <a href="kobelco/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/20081205142130_0.jpg" original="/uploadfiles/20081205142130_0.jpg" width="80" height="30" /></a>
+        <h3><a href="kobelco/" target="_blank">神钢</a></h3>
+      </li>
+      <li> 
+        <a href="hitachi/" target="_blank" ><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/20081205142317_0.jpg" original="/uploadfiles/20081205142317_0.jpg" width="80" height="30" /></a>
+        <h3><a href="hitachi/" target="_blank">日立</a></h3>
+      </li>
+      <li> 
+        <a href="sakai/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/09031718322659_0.jpg" original="/uploadfiles/09031718322659_0.jpg" width="80" height="30" /></a>
+        <h3><a href="sakai/" target="_blank">酒井</a></h3>
+      </li>
+      <li> 
+        <a href="jcb/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/09031713161592_0.jpg" original="/uploadfiles/09031713161592_0.jpg" width="80" height="30" /></a>
+        <h3><a href="jcb/" target="_blank">杰西博</a></h3>
+      </li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
+<#assign all_brands_upper_index = query(" select distinct upper_index from pro_agent_factory where is_show=1 and upper_index is not null and flag=1 ")> <!-- 国内品牌的首写字母 -->
+
+<!--热门品牌结束-->
+<!--字母列表-->
+<#if all_brands_upper_index??&&(all_brands_upper_index?size>0)>
+<#list all_brands_upper_index as one_upper_index>
+<#assign all_brands = query("  select is_qijiandian,id,logo,name,usern from pro_agent_factory where flag=1 and is_show=1 and logo is not null and upper_index='${one_upper_index.upper_index}' order by order_no desc")>
+<div class="brandCondition">
+  <div class="contain980">
+    <div style="position: relative;"> <a style="position:absolute; top:-107px; " id="${one_upper_index.upper_index}" name="${one_upper_index.upper_index}"></a> </div>
+    <strong class="Letter">${one_upper_index.upper_index}</strong>
+    <div class="brandtopborder"></div>
+    <div class="brandcontain925">
+    <#list all_brands as oneBrand>
+     <#-- <#assign total_agent = query("  select count(*) total from pro_agent_factory where agent_fac like '%${oneBrand.id?c}%' ")> -->
+     <#assign total_agent = query(" select count(*) total from pro_catalog_for_factory where factoryid='${oneBrand.id?c}'")>
+      <div class="blbg">
+       
+       <#if total_agent??&&(total_agent?size>0)>
+        <#list total_agent as agent>
+         <div class="blp">
+          <#if oneBrand.is_qijiandian??&&(oneBrand.is_qijiandian==1)>
+         <a target="_blank" href="/brandshop/${oneBrand.usern}/">
+         <#else>
+         <a target="_blank" href="${oneBrand.usern}/">
+         </#if>
+        <img width="80" height="30"  src="/uploadfiles/${oneBrand.logo}" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"  style="display: inline;">
+        </a></div>
+        <div class="bli">有<font>${agent.total}</font>个系列<br>
+        <#setting url_escaping_charset='utf-8'> 
+          [<a target="_blank" class="link13" href="/agent/0_0_${oneBrand.id?c}_0.shtm">代理商</a>]</div>
+         </#list>
+         </#if>
+         <#if oneBrand.is_qijiandian??&&(oneBrand.is_qijiandian==1)>
+        <h3 class="bln"><a target="_blank" href="/brandshop/${oneBrand.usern}/">${oneBrand.name}</a></h3>
+        <#else>
+          <h3 class="bln"><a target="_blank" href="${oneBrand.usern}/">${oneBrand.name}</a></h3>
+        </#if>
+      </div>
+    </#list> 
+    </div>
+    <div class="brandbottomborder"></div>
+  </div>
+</div>
+</#list>
+</#if>

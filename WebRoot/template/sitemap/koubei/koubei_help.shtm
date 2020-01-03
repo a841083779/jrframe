@@ -1,0 +1,12 @@
+<#assign catalog_list = query(" select num from pro_catalog where is_show = 1 ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list catalog_list as catalog >
+	<url>
+		<loc>http://koubei.21-sun.com/${ catalog.num?c }-${agent_factory_id}-0.htm</loc>
+		<lastmod>${.now}</lastmod>
+		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	</#list>
+</urlset>

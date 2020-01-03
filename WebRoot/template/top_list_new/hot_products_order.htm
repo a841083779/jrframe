@@ -1,0 +1,50 @@
+<%@ page language="java"  pageEncoding="UTF-8"%>
+<#assign hot_products_order_as_brand = query(" select top 10 factoryid,factoryname,max(name)name,max(catalogname) catalogname,max(file_name) file_name from pro_products where factoryid in(select top 10 id from pro_agent_factory where flag=1 order by view_count desc ) and is_show=1 group by factoryid,factoryname ")> 			<!-- 按品牌排序 -->
+<#assign hot_products_order_as_viewCount = query(" select top 10 factoryname,name,catalogname,file_name from pro_products where is_show=1 order by view_count desc  ")>   <!-- 按点击量排序 -->
+<#assign hot_products_order_as_orders = query(" select top 10 factoryname,name,catalogname,file_name  from pro_products where id in(select top 15 product_id from pro_product_form  group by product_id order by count(product_id) desc ) and is_show=1 ")>           <!--按订单排序 -->
+<div class="w978 l border03 mb10">
+    <div class="title09">
+      <h2>热门产品排行</h2>
+      <span><a href="/pro_list.jsp" target="_blank" title="更多热门产品排行">更多&gt;&gt;</a></span>
+    </div>
+    <div class="contain09">
+      <ul class="list09">
+        <li>
+          <div class="title10">
+            <h3>按品牌</h3>
+          </div>
+          <ul class="list10">
+          <#if hot_products_order_as_brand??&&(hot_products_order_as_brand?size>0)>
+          <#list hot_products_order_as_brand as oneProduct>
+            <li><a href="http://product.21-sun.com/proDetail/${oneProduct.file_name}" target="_blank" title="${oneProduct.factoryname}${oneProduct.name}${oneProduct.catalogname}">${oneProduct.factoryname}${oneProduct.name}${oneProduct.catalogname}</a></li>
+            </#list>
+            </#if>
+          </ul>
+        </li>
+        <li>
+          <div class="title10">
+            <h3>按点击</h3>
+          </div>
+          <ul class="list10">
+            <#if hot_products_order_as_viewCount??&&(hot_products_order_as_viewCount?size>0)>
+             	<#list hot_products_order_as_viewCount as oneProduct>
+             		   <li><a href="http://product.21-sun.com/proDetail/${oneProduct.file_name}" target="_blank" title="${oneProduct.factoryname}${oneProduct.name}${oneProduct.catalogname}">${oneProduct.factoryname}${oneProduct.name}${oneProduct.catalogname}</a></li>
+             	</#list>
+            </#if>
+          </ul>
+        </li>
+        <li>
+          <div class="title10">
+            <h3>按订单</h3>
+          </div>
+          <ul class="list10">
+            <#if hot_products_order_as_orders??&&(hot_products_order_as_orders?size>0)>
+            	<#list hot_products_order_as_orders as oneProduct>
+            		 <li><a href="http://product.21-sun.com/proDetail/${oneProduct.file_name}" target="_blank">${oneProduct.factoryname}${oneProduct.name}${oneProduct.catalogname}</a></li>
+            	</#list>
+            </#if>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>

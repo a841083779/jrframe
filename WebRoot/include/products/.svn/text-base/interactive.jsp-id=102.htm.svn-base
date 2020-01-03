@@ -1,0 +1,186 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>catå¡ç‰¹ â€œä¸ºä¸­å›½è€Œç”Ÿâ€æŒ–æœºæ–°å“ä¸“é¢˜</title>
+<link href="style.css" tppabs="http://www.wajueji.com/cat/style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery.min.js" tppabs="http://www.wajueji.com/cat/scripts/jquery.min.js"></script>
+<style type="text/css">
+.slide { position: relative; width:100%; }
+.ban_c { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; }
+.ban_c img { width: 100%; height: 100%; }
+.ban_t { position: absolute; left: 0; bottom: 0; width: 100%; line-height: 20px; padding: 4px 0; text-indent: 10px; white-space: nowrap; overflow: hidden; color: #fff; background: rgba(0,0,0,.5); z-index: 3; filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#88000000,endcolorstr=#88000000);}
+.ban_nav { position: absolute; bottom: 0; right:0; z-index: 4; }
+.ban_nav a { display: inline-block; vertical-align: middle; width: 14px; height: 14px; line-height: 14px; overflow: hidden; text-align: center; margin:0 8px 5px 0; cursor: pointer; text-decoration: none; font-size: 10px; background: #ccc; }
+.ban_nav .on { background: #f90; color: #fff; }
+.Left, .Right { cursor: pointer; position:absolute;}
+/*banner*/
+.bannerSlider { height:275px; width:980px;}
+.bannerSlider img { width:980px; height:275px;}
+.bannerSlider .ban_c { height:275px;}
+.bannerSlider .ban_nav { bottom:15px;}
+</style>
+</head>
+<body>
+<!--top-->
+
+
+
+<div class="topBar">
+  <div class="wrap clearfix">
+	
+    <span class="login"><a href="javascript:if(confirm('http://www.wajueji.com/new_login.jsp  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.wajueji.com/new_login.jsp'" tppabs="http://www.wajueji.com/new_login.jsp">ç™»å½•</a><em class="w">|</em><a href="javascript:if(confirm('http://www.wajueji.com/regist.jsp  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.wajueji.com/regist.jsp'" tppabs="http://www.wajueji.com/regist.jsp" target="_blank">æ³¨å†Œ</a></span>
+    <span class="quickLogin">
+      <strong class="t">å¿«é€Ÿç™»å½•</strong> <a href="javascript:goToSNS('qq');"><em class="qq"></em></a> <a  href="javascript:goToSNS('sina');"><em class="sina"></em></a> 
+    </span>
+
+  </div>
+</div>
+<div class="wrap clearfix nav combg">
+  <h1 class="logo"><img src="logo.gif" tppabs="http://www.wajueji.com/cat/images/logo.gif" alt="å¡ç‰¹å½¼å‹’" width="100" height="70" /></h1>
+  <ul class="navlist">
+    <li><a href="index.jsp.htm" tppabs="http://www.wajueji.com/cat/index.jsp" >é¦–é¡µ</a></li>
+    <li><a href="product_313.jsp.htm" tppabs="http://www.wajueji.com/cat/product_313.jsp" >å°å‹æœº313D2</a></li>
+    <li><a href="product_320.jsp.htm" tppabs="http://www.wajueji.com/cat/product_320.jsp" >ä¸­å‹æœº320D2</a></li>
+    <li><a href="javascript:alert('æ•¬è¯·æœŸå¾…!');" >å¤§å‹æœº336D2</a></li>
+    <li><a href="exhibition.jsp.htm" tppabs="http://www.wajueji.com/cat/exhibition.jsp" >å±•ä¼šé›¶è·ç¦»</a></li>
+    <li><a href="interactive.jsp.htm" tppabs="http://www.wajueji.com/cat/interactive.jsp" class='selected'>äº’åŠ¨ç¤¾åŒº</a></li>
+  </ul>
+</div>
+<!--top end-->
+
+<div class="banner wrap clearfix combg slide bannerSlider">
+  <div class="ban_c"><a href="javascript:if(confirm('http://www.wajueji.com/service/detail_for_38575.htm  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.wajueji.com/service/detail_for_38575.htm'" tppabs="http://www.wajueji.com/service/detail_for_38575.htm" target="_blank"><img src="top.jpg" tppabs="http://www.wajueji.com/cat/images/topic/old/top.jpg" /></a></div>
+  <div class="ban_c"><a href="javascript:if(confirm('http://www.wajueji.com/service/detail_for_38582.htm  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.wajueji.com/service/detail_for_38582.htm'" tppabs="http://www.wajueji.com/service/detail_for_38582.htm" target="_blank"><img src="top-1.jpg" tppabs="http://www.wajueji.com/cat/images/topic/313/top.jpg" /></a></div>
+</div>
+
+<div class="main wrap clearfix">
+  <div class="title title01">
+    <h3>äº’åŠ¨ä¸“åŒº</h3>
+  </div>
+  <div class="content">
+    <div class="themeTitle">
+      <h2>äº’åŠ¨è´´å­</h2>
+      <div class="themeInfo">ä»Šæ—¥: 0<em class="w">|</em>ä¸»é¢˜: 36<em class="w">|</em>å¸–å­: 544</div>
+      <a href="posting.jsp.htm" tppabs="http://www.wajueji.com/cat/posting.jsp" class="submitBtn">å‘å¸–<i></i></a>
+    </div>
+    <div class="themeCates" id="Tab">
+      <a href="interactive.jsp.htm#Tab" tppabs="http://www.wajueji.com/cat/interactive.jsp#Tab" class="all">å…¨éƒ¨</a>
+      <a href="interactive.jsp-id=101.htm#Tab" tppabs="http://www.wajueji.com/cat/interactive.jsp?id=101#Tab" class="c01">æœ€è€æŒ–æœº</a>
+      <a href="interactive.jsp-id=102.htm#Tab" tppabs="http://www.wajueji.com/cat/interactive.jsp?id=102#Tab" class="c02">åˆ›å¯Œæ•…äº‹ç»</a>
+      <a href="interactive.jsp-id=103.htm#Tab" tppabs="http://www.wajueji.com/cat/interactive.jsp?id=103#Tab" class="c03">çœæ²¹é‚£äº›äº‹å„¿</a>
+      <a href="interactive.jsp-id=104.htm#Tab" tppabs="http://www.wajueji.com/cat/interactive.jsp?id=104#Tab" class="c04">è´­æœºæ•…äº‹</a>
+    </div>
+    
+    <ul class="themeList">
+	   
+      <li>
+      
+        <a class="img" href="javascript:if(confirm('http://www.wajueji.com/service/detail_for_40144.htm  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.wajueji.com/service/detail_for_40144.htm'" tppabs="http://www.wajueji.com/service/detail_for_40144.htm" target="_blank"><img src="20131019214602_527.jpg" tppabs="http://www.wajueji.com/upload/image/2013/10/20131019214602_527.jpg" onerror="this.src='/images_new/defaultImg/120x90.png'" width="195" height="139" /></a>
+        
+        <div class="intro">
+          <h3><a href="javascript:if(confirm('http://www.wajueji.com/service/detail_for_40144.htm  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.wajueji.com/service/detail_for_40144.htm'" tppabs="http://www.wajueji.com/service/detail_for_40144.htm" target="_blank">æˆ‘æ‰§æ¢¦æƒ³</a>
+          
+          </h3>
+          <p class="text">å› ä¸ºè§‰å¾—è¿™å››ä¸ªå­—å¾ˆé€‚åˆè‡ªå·±ï¼Œæ‰€ä»¥å€Ÿç”¨äº†å¡ç‰¹çš„è¿™ä¸ªæ´»åŠ¨çš„åç§°ã€‚è™½ç„¶å…¥è¡Œâ€¦â€¦</p>
+		  <div class="otherInfo">
+            <span class="user"><i></i>å³°</span>
+            <span class="from">æ¥è‡ª<b>é“è‡‚å…„å¼Ÿè¿</b></span>
+            <span class="time">2013-10-19   23:00</span>
+          </div> 
+        </div>
+        <span class="tools">
+          <a href="javascript:if(confirm('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http%3A%2F%2Fwww.wajueji.com%2Fservice%2Fdetail_for_40144.htm&title=æˆ‘æ‰§æ¢¦æƒ³&summary=å› ä¸ºè§‰å¾—è¿™å››ä¸ªå­—å¾ˆé€‚åˆè‡ªå·±ï¼Œæ‰€ä»¥å€Ÿç”¨äº†å¡ç‰¹çš„è¿™ä¸ªæ´»åŠ¨çš„åç§°ã€‚è™½ç„¶å…¥è¡Œâ€¦â€¦  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http%3A%2F%2Fwww.wajueji.com%2Fservice%2Fdetail_for_40144.htm&title=æˆ‘æ‰§æ¢¦æƒ³&summary=å› ä¸ºè§‰å¾—è¿™å››ä¸ªå­—å¾ˆé€‚åˆè‡ªå·±ï¼Œæ‰€ä»¥å€Ÿç”¨äº†å¡ç‰¹çš„è¿™ä¸ªæ´»åŠ¨çš„åç§°ã€‚è™½ç„¶å…¥è¡Œâ€¦â€¦'" tppabs="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http%3A%2F%2Fwww.wajueji.com%2Fservice%2Fdetail_for_40144.htm&title=æˆ‘æ‰§æ¢¦æƒ³&summary=å› ä¸ºè§‰å¾—è¿™å››ä¸ªå­—å¾ˆé€‚åˆè‡ªå·±ï¼Œæ‰€ä»¥å€Ÿç”¨äº†å¡ç‰¹çš„è¿™ä¸ªæ´»åŠ¨çš„åç§°ã€‚è™½ç„¶å…¥è¡Œâ€¦â€¦" target="_blank" class="ico ico01" title="åˆ†äº«"></a>
+          <a href="javascript:if(confirm('http://www.wajueji.com/service/detail_for_40144.htm  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.wajueji.com/service/detail_for_40144.htm'" tppabs="http://www.wajueji.com/service/detail_for_40144.htm" target="_blank" title="è¯„è®º"><i class="ico ico02"></i> 14</a>
+        </span>
+      </li>
+      
+    </ul>
+    
+    
+   <div class="pages"></div>
+  </div>
+</div>
+<!--foot-->
+
+<div class="wrap foot clearfix">
+  <a href="javascript:if(confirm('http://www.catwaji.com/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.catwaji.com/'" tppabs="http://www.catwaji.com/" target="_blank">å¡ç‰¹æŒ–æ˜æœºæŸ¥è¯¢ä¸­å¿ƒ</a><em class="w">|</em><a href="javascript:if(confirm('http://www.catwaji.com/about.html  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.catwaji.com/about.html'" tppabs="http://www.catwaji.com/about.html" target="_blank">å…³äºå¡ç‰¹å½¼å‹’</a><em class="w">|</em><a href="javascript:if(confirm('http://www.catwaji.com/find-dealer.html  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.catwaji.com/find-dealer.html'" tppabs="http://www.catwaji.com/find-dealer.html" target="_blank">æŸ¥æ‰¾ç»é”€å•†</a><em class="w">|</em><a href="javascript:if(confirm('http://www.catwaji.com/proquanli.html  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.catwaji.com/proquanli.html'" tppabs="http://www.catwaji.com/proquanli.html" target="_blank">ç‰ˆæƒå£°æ˜</a><br />
+  Copyright äº¬ICPå¤‡
+</div>
+<!--foot end-->
+<div style="display:none">
+<script src="stat.php-id=5687188&web_id=5687188&show=pic" tppabs="http://s13.cnzz.com/stat.php?id=5687188&web_id=5687188&show=pic" language="JavaScript"></script>
+</div> 
+</body>
+<script type="text/javascript" src="cat.js" tppabs="http://www.wajueji.com/cat/scripts/cat.js"></script>
+<script>
+var ie6 = !-[1,] && !window.XMLHttpRequest; 
+//Slide func
+$.fn.slide=function(){
+var defaults,opts,data_opts,$this,$b_,t,n=0,count,$nav,$p,$n;
+defaults={
+fade:true,
+auto:true,
+time:4000,
+callback:null
+};
+$this=$(this);
+if($this.attr('data-slide')){eval('data_opts='+$this.attr('data-slide'))};
+opts=$.extend({},defaults,data_opts);
+$b_=$this.children('.ban_c');
+count=$b_.length;
+if($this.find('.ban_nav').length){$nav=$this.find('.ban_nav')}else{
+$nav=$('<div class="ban_nav"></div>');
+for(i=0;i<count;i++){$nav.append('<a>'+(i+1)+'</a>')};
+$this.append($nav)
+};
+$this.append('<a class="Left"></a><a class="Right"></a>');
+$nav.children('a').eq(0).addClass('on');
+$nav.children('a').eq(1).addClass('ban_next');
+$nav.children('a').eq(count-1).addClass('ban_prev');
+$b_.hide().eq(0).show();
+if(ie6){$b_.height($b_.attr('height') || $this.height())};
+$nav.children('a').each(function(index) {
+$(this).click(function(event) {
+event.preventDefault();
+if (index >= count){return}else{
+$nav.children('a').eq(index-1).addClass('ban_prev').siblings().removeClass('ban_prev');
+$nav.children('a').eq(index==count-1 ? 0 : index+1).addClass('ban_next').siblings().removeClass('ban_next')
+};
+if(opts.fade){$b_.stop(1,1).fadeOut(500).eq(index).stop(1,1).fadeIn(800)}else{$b_.hide().eq(index).show()};
+$(this).addClass('on').siblings().removeClass("on");
+n=index
+})
+});
+$p=$(this).find('.Left');
+$n=$(this).find('.Right');
+if(opts.auto){
+t = setInterval(function(){showAuto()}, opts.time);
+$this.hover(function(){clearInterval(t)},function(){t=setInterval(function(){showAuto()},opts.time)})
+};
+$p.click(function(){showPre()});
+$n.click(function(){showAuto()});
+function showAuto(){n=n>=(count - 1) ? 0 : ++n;$nav.find('a').eq(n).trigger('click')};
+function showPre(){n=n<=0 ? (count - 1) : --n;$nav.find('a').eq(n).trigger('click')};
+if(opts.callback){opts.callback($b_,$nav,count)}
+};
+$('.bannerSlider').each(function() {$(this).slide()});
+</script>
+
+</html>

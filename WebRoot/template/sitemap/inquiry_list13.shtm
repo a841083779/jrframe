@@ -1,0 +1,16 @@
+﻿<#assign provinceList = query(" select   * from hz_py where province='0' order by id asc ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list provinceList as province>
+		<#list query(" select  * from hz_py where province='${province.hanzi}' ") as city>
+                <#list query(" select catalognum from pro_products where is_show=1 and factoryid = '${factoryid}'  group by catalognum  ") as catalog>
+                	<url>
+                        <loc>http://product.21-sun.com/inquiry/${province.pinyin}_${city.pinyin}_${factoryid}_${catalog.catalognum}_0.shtm</loc>
+                        <lastmod>2014-06-11</lastmod>
+						<priority>1.0</priority>
+                        <changefreq>monthly</changefreq>
+                    </url>
+				</#list>	
+	    </#list>	
+	</#list>	
+</urlset>

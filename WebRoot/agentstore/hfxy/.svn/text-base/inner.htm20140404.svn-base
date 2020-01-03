@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>4月优买团预售</title>
+<meta name="keywords" content="装载机,挖掘机优惠促销，工程机械优惠活动" />
+<meta name="description" content="装载机,挖掘机，工程机械促销,买工程机械就来铁臂商城4006-521-526" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<link href="style/flag_shop02.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+
+<!--[if (IE 6)]>
+<script src="scripts/iepng.js" type="text/javascript"></script>
+<script type="text/javascript">
+   EvPNG.fix('.ee'); 
+</script>
+<![endif]-->
+</head>
+<body class="inner">
+<div class="top">
+  <div class="wrap clearfix">
+    <div class="logo"><img src='images/logo.gif' alt="" width="473" height="94"/></div>
+    <div class="tel"><img src='images/tel.gif' width="210" height="94" alt=""/></div>
+  </div>
+</div>
+<div class="nav">
+  <div class="wrap">
+    <ul class=" clearfix">
+      <li class="cur"><a href="#">首      页</a></li>
+      <li><a href="#">三一挖掘机</a></li>
+      <li><a href="#">破碎锤</a></li>
+      <li><a href="#">混凝土设备</a></li>
+      <li><a href="#">公司介绍</a></li>
+    </ul>
+  </div>
+</div>
+<div class="innerContent wrap clearfix">
+  <div class="inner_left">
+    <div class="up">
+      <h3>产品列表</h3>
+      <ul>
+        <li>三一挖掘机</li>
+        <li>三一挖掘机</li>
+        <li>三一挖掘机</li>
+        <li>三一挖掘机</li>
+      </ul>
+    </div>
+    <div class="down">
+      <h3>店铺介绍</h3>
+      <div class="dp">
+        <h4>湘元集团</h4>
+        <p> 湘元集团成立于2006年，是一家民营股份制企业，注册资金人民币1000万元，员工近1000人。湘元集团6S总部坐落于合肥市龙塘工业园，占地面积54000平方米。是目前国内工程机械行业最先进的6S总部之一，集整机销售、服务、配件、维修、培训、后市场业务为一体。湘元集团是三一重机全国规模最大的代理商。<br />
+          商家：合肥湘元官方旗舰店<br />
+          地址：安徽合肥市肥东县合裕路831号<br />
+          （龙塘工业园）<br />
+          电话：400 008 3131 </p>
+        <a class="enter" href="#" target="_blank"></a> </div>
+    </div>
+  </div>
+  <div class="inner_right">
+    <div class="innerBanner"></div>
+    <h3>三一挖掘机</h3>
+    <ul>
+      <li> <img src='images/pic2.jpg'/>
+        <p> <span>三一挖掘机<br />
+          SY155C-9</span> <a href="#" target="_blank"></a> </p>
+      </li>
+      <li> <img src='images/pic2.jpg'/>
+        <p> <span>三一挖掘机<br />
+          SY155C-9</span> <a href="#" target="_blank"></a> </p>
+      </li>
+      <li> <img src='images/pic2.jpg'/>
+        <p> <span>三一挖掘机<br />
+          SY155C-9</span> <a href="#" target="_blank"></a> </p>
+      </li>
+      <li> <img src='images/pic2.jpg'/>
+        <p> <span>三一挖掘机<br />
+          SY155C-9</span> <a href="#" target="_blank"></a> </p>
+      </li>
+      <li> <img src='images/pic2.jpg'/>
+        <p> <span>三一挖掘机<br />
+          SY155C-9</span> <a href="#" target="_blank"></a> </p>
+      </li>
+      <li> <img src='images/pic2.jpg'/>
+        <p> <span>三一挖掘机<br />
+          SY155C-9</span> <a href="#" target="_blank"></a> </p>
+      </li>
+      <li> <img src='images/pic2.jpg'/>
+        <p> <span>三一挖掘机<br />
+          SY155C-9</span> <a href="#" target="_blank"></a> </p>
+      </li>
+      <li> <img src='images/pic2.jpg'/>
+        <p> <span>三一挖掘机<br />
+          SY155C-9</span> <a href="#" target="_blank"></a> </p>
+      </li>
+      <li> <img src='images/pic2.jpg'/>
+        <p> <span>三一挖掘机<br />
+          SY155C-9</span> <a href="#" target="_blank"></a> </p>
+      </li>
+    </ul>
+    <div class="paging"> <a href="#" class="prev">上一页</a> <a href="#" class="cur">1</a> <a href="#">2</a> <a href="#" class="next">下一页</a> <span>共2页</span> </div>
+  </div>
+</div>
+</body>
+</html>

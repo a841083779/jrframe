@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<title>铁臂商城</title>
+<link href="Static/css/style.css" rel="stylesheet" />
+</head>
+<body>
+<header>
+  <h2 class="logo"><img src="Static/img/logo.png" alt="铁臂商城"></h2>
+  <a href="#" class="bc"><img src="Static/img/back.png"></a>
+  <a href="#" class="search">筛选<img src="Static/img/search_ico.png"></a>
+</header>
+<nav>
+  <ul>
+    <li><a href="#" class="cur">挖掘机</a></li>
+    <li><a href="#">装载机</a></li>
+    <li><a href="#">平地机</a></li>
+    <li class="more"><span class="n">更多</span>
+      <div class="box">
+        <a href="#">挖掘机</a>
+        <a href="#">挖掘机</a>
+        <a href="#">挖掘机</a>
+        <a href="#">挖掘机</a>
+        <a href="#">挖掘机</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<ul class="proList">
+  <li>
+    <a href="#" title="卡特彼勒307E挖掘机" class="int">
+      <img src="Static/img/temp_img01.jpg">
+      <div class="n">卡特彼勒307E挖掘机</div>
+      <div class="p">参考价格：<font>23-26万</font></div>
+      <div class="num"><span>询价：1803次</span><span>评论：1803条</span></div>
+    </a>
+    <dl class="btn">
+      <dd class="b1"><a href="#"><img src="Static/img/btn_tel.png">询问底价</a></dd>
+      <dd class="b2"><a href="#"><img src="Static/img/btn_buy.png">立即订购</a></dd>
+    </dl>
+  </li>
+  <li>
+    <a href="#" title="卡特彼勒307E挖掘机" class="int">
+      <img src="Static/img/temp_img01.jpg">
+      <div class="n">卡特彼勒307E挖掘机</div>
+      <div class="p">参考价格：<font>23-26万</font></div>
+      <div class="num"><span>询价：1803次</span><span>评论：1803条</span></div>
+    </a>
+    <dl class="btn">
+      <dd class="b1"><a href="#"><img src="Static/img/btn_tel.png">询问底价</a></dd>
+      <dd class="b2"><a href="#"><img src="Static/img/btn_buy.png">立即订购</a></dd>
+    </dl>
+  </li>
+  <li>
+    <a href="#" title="卡特彼勒307E挖掘机" class="int">
+      <img src="Static/img/temp_img01.jpg">
+      <div class="n">卡特彼勒307E挖掘机</div>
+      <div class="p">参考价格：<font>23-26万</font></div>
+      <div class="num"><span>询价：1803次</span><span>评论：1803条</span></div>
+    </a>
+    <dl class="btn">
+      <dd class="b1"><a href="#"><img src="Static/img/btn_tel.png">询问底价</a></dd>
+      <dd class="b2"><a href="#"><img src="Static/img/btn_buy.png">立即订购</a></dd>
+    </dl>
+  </li>
+  <li>
+    <a href="#" title="卡特彼勒307E挖掘机" class="int">
+      <img src="Static/img/temp_img01.jpg">
+      <div class="n">卡特彼勒307E挖掘机</div>
+      <div class="p">参考价格：<font>23-26万</font></div>
+      <div class="num"><span>询价：1803次</span><span>评论：1803条</span></div>
+    </a>
+    <dl class="btn">
+      <dd class="b1"><a href="#"><img src="Static/img/btn_tel.png">询问底价</a></dd>
+      <dd class="b2"><a href="#"><img src="Static/img/btn_buy.png">立即订购</a></dd>
+    </dl>
+  </li>
+</ul>
+<div class="paging"><a href="#" class="first">首页</a><strong class="cur">1</strong><a href="#">2</a><a href="#">3</a><span>...</span><a href="#" class="last">末页</a></div>
+<div class="bottomBar">
+  <div class="share bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more">分享</a></div>
+  <div class="tel"><a href="tel:4006-521-526"><img src="Static/img/tel_ico.png"><span>4006-521-526</span></a></div>
+  <div class="comment"><a href="#"><img src="Static/img/com_btn.png" class="io">评论</a></div>
+</div>
+</body>
+<script src="Static/js/seajs/sea.js" id="seanode"></script>
+<script src="Static/js/seajs/seajs.config.js"></script>
+<script>
+	var jrChannel='0#0';
+	seajs.use('app/index.js');
+</script>
+</html>

@@ -1,0 +1,20 @@
+﻿<#assign provinceList = query(" select  * from hz_py where province='0' ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list query(" select top 150  id from pro_agent_factory where id not in(select top 150  id from pro_agent_factory where is_show=1 and flag=1 order by id asc) and is_show=1 and flag=1 order by id asc") as factory>
+        <#list query(" select  catalognum  from pro_products where is_show=1 and factoryid = '${factory.id?c}'  group by catalognum  ") as catalog>
+			<url>
+                <loc>http://product.21-sun.com/agent/0_0_${factory.id?c}_${catalog.catalognum}.shtm</loc>
+                <priority>1.0</priority>
+                <changefreq>monthly</changefreq>
+            </url>
+            <#list provinceList as province>
+			<url>
+                <loc>http://product.21-sun.com/agent/${province.pinyin}_0_${factory.id?c}_${catalog.catalognum}.shtm</loc>
+                <priority>1.0</priority>
+                <changefreq>monthly</changefreq>
+            </url>
+			</#list>
+		</#list>	
+	</#list>   
+</urlset>

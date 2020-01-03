@@ -1,0 +1,539 @@
+<!--区域下拉列表-->
+<div class="dl_area_list dl_sele fix">
+    <div class="l dl_sele_l">
+    <ul class="idTabs dl_sele_l_ls">
+	      <li><a href="#area1" >北京<i></i></a></li>
+      <li><a href="#area2" >天津<i></i></a></li>
+      <li><a href="#area3" >上海<i></i></a></li>
+      <li><a href="#area4" >重庆<i></i></a></li>
+      <li><a href="#area5" >山东<i></i></a></li>
+      <li><a href="#area6" >河北<i></i></a></li>
+      <li><a href="#area7" >山西<i></i></a></li>
+      <li><a href="#area8" >内蒙古<i></i></a></li>
+      <li><a href="#area9" >江苏<i></i></a></li>
+      <li><a href="#area10" >浙江<i></i></a></li>
+      <li><a href="#area11" >安徽<i></i></a></li>
+      <li><a href="#area12" >广东<i></i></a></li>
+      <li><a href="#area13" >福建<i></i></a></li>
+      <li><a href="#area14" >广西<i></i></a></li>
+      <li><a href="#area15" >江西<i></i></a></li>
+      <li><a href="#area16" >海南<i></i></a></li>
+      <li><a href="#area17" >河南<i></i></a></li>
+      <li><a href="#area18" >湖北<i></i></a></li>
+      <li><a href="#area19" >湖南<i></i></a></li>
+      <li><a href="#area20" >辽宁<i></i></a></li>
+      <li><a href="#area21" >吉林<i></i></a></li>
+      <li><a href="#area22" >黑龙江<i></i></a></li>
+      <li><a href="#area23" >四川<i></i></a></li>
+      <li><a href="#area24" >贵州<i></i></a></li>
+      <li><a href="#area25" >云南<i></i></a></li>
+      <li><a href="#area26" >西藏<i></i></a></li>
+      <li><a href="#area27" >陕西<i></i></a></li>
+      <li><a href="#area28" >甘肃<i></i></a></li>
+      <li><a href="#area29" >青海<i></i></a></li>
+      <li><a href="#area30" >宁夏<i></i></a></li>
+      <li><a href="#area31" >新疆<i></i></a></li>
+    </ul>
+  </div>
+  <div class="r dl_sele_r">
+    <div class="dl_sele_r_ls" id="area1">
+      <ul>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area2">
+      <ul>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area3">
+      <ul>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area4">
+      <ul>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area5">
+      <ul>
+        <li><a href="#"><span></span>济南</a></li>
+        <li><a href="#"><span></span>青岛</a></li>
+        <li><a href="#"><span></span>淄博</a></li>
+        <li><a href="#"><span></span>临沂</a></li>
+        <li><a href="#"><span></span>济宁</a></li>
+        <li><a href="#"><span></span>东营</a></li>
+        <li><a href="#"><span></span>泰安</a></li>
+        <li><a href="#"><span></span>滨州</a></li>
+        <li><a href="#"><span></span>德州</a></li>
+        <li><a href="#"><span></span>菏泽</a></li>
+        <li><a href="#"><span></span>枣庄</a></li>
+        <li><a href="#"><span></span>聊城</a></li>
+        <li><a href="#"><span></span>莱芜</a></li>
+        <li><a href="#"><span></span>烟台</a></li>
+        <li><a href="#"><span></span>潍坊</a></li>
+        <li><a href="#"><span></span>威海</a></li>
+        <li><a href="#"><span></span>日照</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area6">
+      <ul>
+        <li><a href="#"><span></span>石家庄</a></li>
+        <li><a href="#"><span></span>唐山</a></li>
+        <li><a href="#"><span></span>保定</a></li>
+        <li><a href="#"><span></span>邯郸</a></li>
+        <li><a href="#"><span></span>沧州</a></li>
+        <li><a href="#"><span></span>邢台</a></li>
+        <li><a href="#"><span></span>廊坊</a></li>
+        <li><a href="#"><span></span>秦皇岛</a></li>
+        <li><a href="#"><span></span>张家口</a></li>
+        <li><a href="#"><span></span>衡水</a></li>
+        <li><a href="#"><span></span>承德</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area7">
+      <ul>
+        <li><a href="#"><span></span>太原</a></li>
+        <li><a href="#"><span></span>临汾</a></li>
+        <li><a href="#"><span></span>运城</a></li>
+        <li><a href="#"><span></span>长治</a></li>
+        <li><a href="#"><span></span>大同</a></li>
+        <li><a href="#"><span></span>晋城</a></li>
+        <li><a href="#"><span></span>晋中</a></li>
+        <li><a href="#"><span></span>忻州</a></li>
+        <li><a href="#"><span></span>吕梁</a></li>
+        <li><a href="#"><span></span>朔州</a></li>
+        <li><a href="#"><span></span>阳泉</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area8">
+      <ul>
+        <li><a href="#"><span></span>呼和浩特</a></li>
+        <li><a href="#"><span></span>包头</a></li>
+        <li><a href="#"><span></span>鄂尔多斯</a></li>
+        <li><a href="#"><span></span>赤峰</a></li>
+        <li><a href="#"><span></span>通辽</a></li>
+        <li><a href="#"><span></span>呼伦贝尔</a></li>
+        <li><a href="#"><span></span>乌海</a></li>
+        <li><a href="#"><span></span>乌兰察布</a></li>
+        <li><a href="#"><span></span>巴彦淖尔</a></li>
+        <li><a href="#"><span></span>兴安</a></li>
+        <li><a href="#"><span></span>锡林郭勒</a></li>
+        <li><a href="#"><span></span>阿拉善</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area9">
+      <ul>
+        <li><a href="#"><span></span>南京</a></li>
+        <li><a href="#"><span></span>苏州</a></li>
+        <li><a href="#"><span></span>常州</a></li>
+        <li><a href="#"><span></span>南通</a></li>
+        <li><a href="#"><span></span>徐州</a></li>
+        <li><a href="#"><span></span>扬州</a></li>
+        <li><a href="#"><span></span>镇江</a></li>
+        <li><a href="#"><span></span>盐城</a></li>
+        <li><a href="#"><span></span>无锡</a></li>
+        <li><a href="#"><span></span>泰州</a></li>
+        <li><a href="#"><span></span>连云港</a></li>
+        <li><a href="#"><span></span>淮安</a></li>
+        <li><a href="#"><span></span>宿迁</a></li>
+        <li><a href="#"><span></span>常熟</a></li>
+        <li><a href="#"><span></span>昆山</a></li>
+        <li><a href="#"><span></span>张家港</a></li>
+        <li><a href="#"><span></span>太仓</a></li>
+        <li><a href="#"><span></span>江阴</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area10">
+      <ul>
+        <li><a href="#"><span></span>杭州</a></li>
+        <li><a href="#"><span></span>宁波</a></li>
+        <li><a href="#"><span></span>温州</a></li>
+        <li><a href="#"><span></span>台州</a></li>
+        <li><a href="#"><span></span>绍兴</a></li>
+        <li><a href="#"><span></span>嘉兴</a></li>
+        <li><a href="#"><span></span>金华</a></li>
+        <li><a href="#"><span></span>湖州</a></li>
+        <li><a href="#"><span></span>衢州</a></li>
+        <li><a href="#"><span></span>丽水</a></li>
+        <li><a href="#"><span></span>舟山</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area11">
+      <ul>
+        <li><a href="#"><span></span>合肥</a></li>
+        <li><a href="#"><span></span>安庆</a></li>
+        <li><a href="#"><span></span>阜阳</a></li>
+        <li><a href="#"><span></span>蚌埠</a></li>
+        <li><a href="#"><span></span>六安</a></li>
+        <li><a href="#"><span></span>淮北</a></li>
+        <li><a href="#"><span></span>淮南</a></li>
+        <li><a href="#"><span></span>芜湖</a></li>
+        <li><a href="#"><span></span>宿州</a></li>
+        <li><a href="#"><span></span>亳州</a></li>
+        <li><a href="#"><span></span>铜陵</a></li>
+        <li><a href="#"><span></span>马鞍山</a></li>
+        <li><a href="#"><span></span>巢湖</a></li>
+        <li><a href="#"><span></span>池州</a></li>
+        <li><a href="#"><span></span>黄山</a></li>
+        <li><a href="#"><span></span>滁州</a></li>
+        <li><a href="#"><span></span>宣城</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area12">
+      <ul>
+        <li><a href="#"><span></span>深圳</a></li>
+        <li><a href="#"><span></span>广州</a></li>
+        <li><a href="#"><span></span>珠海</a></li>
+        <li><a href="#"><span></span>中山</a></li>
+        <li><a href="#"><span></span>惠州</a></li>
+        <li><a href="#"><span></span>东莞</a></li>
+        <li><a href="#"><span></span>佛山</a></li>
+        <li><a href="#"><span></span>汕头</a></li>
+        <li><a href="#"><span></span>江门</a></li>
+        <li><a href="#"><span></span>韶关</a></li>
+        <li><a href="#"><span></span>揭阳</a></li>
+        <li><a href="#"><span></span>肇庆</a></li>
+        <li><a href="#"><span></span>清远</a></li>
+        <li><a href="#"><span></span>汕尾</a></li>
+        <li><a href="#"><span></span>河源</a></li>
+        <li><a href="#"><span></span>阳江</a></li>
+        <li><a href="#"><span></span>湛江</a></li>
+        <li><a href="#"><span></span>潮州</a></li>
+        <li><a href="#"><span></span>茂名</a></li>
+        <li><a href="#"><span></span>云浮</a></li>
+        <li><a href="#"><span></span>梅州</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area13">
+      <ul>
+        <li><a href="#"><span></span>福州</a></li>
+        <li><a href="#"><span></span>厦门</a></li>
+        <li><a href="#"><span></span>泉州</a></li>
+        <li><a href="#"><span></span>龙岩</a></li>
+        <li><a href="#"><span></span>漳州</a></li>
+        <li><a href="#"><span></span>三明</a></li>
+        <li><a href="#"><span></span>莆田</a></li>
+        <li><a href="#"><span></span>宁德</a></li>
+        <li><a href="#"><span></span>南平</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area14">
+      <ul>
+        <li><a href="#"><span></span>南宁</a></li>
+        <li><a href="#"><span></span>柳州</a></li>
+        <li><a href="#"><span></span>桂林</a></li>
+        <li><a href="#"><span></span>北海</a></li>
+        <li><a href="#"><span></span>河池</a></li>
+        <li><a href="#"><span></span>玉林</a></li>
+        <li><a href="#"><span></span>防城港</a></li>
+        <li><a href="#"><span></span>梧州</a></li>
+        <li><a href="#"><span></span>来宾</a></li>
+        <li><a href="#"><span></span>崇左</a></li>
+        <li><a href="#"><span></span>钦州</a></li>
+        <li><a href="#"><span></span>百色</a></li>
+        <li><a href="#"><span></span>贵港</a></li>
+        <li><a href="#"><span></span>贺州</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area15">
+      <ul>
+        <li><a href="#"><span></span>南昌</a></li>
+        <li><a href="#"><span></span>赣州</a></li>
+        <li><a href="#"><span></span>九江</a></li>
+        <li><a href="#"><span></span>上饶</a></li>
+        <li><a href="#"><span></span>宜春</a></li>
+        <li><a href="#"><span></span>鹰潭</a></li>
+        <li><a href="#"><span></span>抚州</a></li>
+        <li><a href="#"><span></span>景德镇</a></li>
+        <li><a href="#"><span></span>吉安</a></li>
+        <li><a href="#"><span></span>新余</a></li>
+        <li><a href="#"><span></span>萍乡</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area16">
+      <ul>
+        <li><a href="#"><span></span>海口</a></li>
+        <li><a href="#"><span></span>三亚</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area17">
+      <ul>
+        <li><a href="#"><span></span>郑州</a></li>
+        <li><a href="#"><span></span>洛阳</a></li>
+        <li><a href="#"><span></span>新乡</a></li>
+        <li><a href="#"><span></span>南阳</a></li>
+        <li><a href="#"><span></span>安阳</a></li>
+        <li><a href="#"><span></span>焦作</a></li>
+        <li><a href="#"><span></span>许昌</a></li>
+        <li><a href="#"><span></span>濮阳</a></li>
+        <li><a href="#"><span></span>平顶山</a></li>
+        <li><a href="#"><span></span>商丘</a></li>
+        <li><a href="#"><span></span>周口</a></li>
+        <li><a href="#"><span></span>信阳</a></li>
+        <li><a href="#"><span></span>漯河</a></li>
+        <li><a href="#"><span></span>开封</a></li>
+        <li><a href="#"><span></span>鹤壁</a></li>
+        <li><a href="#"><span></span>驻马店</a></li>
+        <li><a href="#"><span></span>济源</a></li>
+        <li><a href="#"><span></span>三门峡</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area18">
+      <ul>
+        <li><a href="#"><span></span>武汉</a></li>
+        <li><a href="#"><span></span>宜昌</a></li>
+        <li><a href="#"><span></span>襄阳</a></li>
+        <li><a href="#"><span></span>十堰</a></li>
+        <li><a href="#"><span></span>黄石</a></li>
+        <li><a href="#"><span></span>荆州</a></li>
+        <li><a href="#"><span></span>咸宁</a></li>
+        <li><a href="#"><span></span>孝感</a></li>
+        <li><a href="#"><span></span>潜江</a></li>
+        <li><a href="#"><span></span>恩施</a></li>
+        <li><a href="#"><span></span>黄冈</a></li>
+        <li><a href="#"><span></span>鄂州</a></li>
+        <li><a href="#"><span></span>随州</a></li>
+        <li><a href="#"><span></span>荆门</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area19">
+      <ul>
+        <li><a href="#"><span></span>长沙</a></li>
+        <li><a href="#"><span></span>郴州</a></li>
+        <li><a href="#"><span></span>常德</a></li>
+        <li><a href="#"><span></span>衡阳</a></li>
+        <li><a href="#"><span></span>娄底</a></li>
+        <li><a href="#"><span></span>株洲</a></li>
+        <li><a href="#"><span></span>邵阳</a></li>
+        <li><a href="#"><span></span>岳阳</a></li>
+        <li><a href="#"><span></span>湘西</a></li>
+        <li><a href="#"><span></span>张家界</a></li>
+        <li><a href="#"><span></span>益阳</a></li>
+        <li><a href="#"><span></span>永州</a></li>
+        <li><a href="#"><span></span>湘潭</a></li>
+        <li><a href="#"><span></span>怀化</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area20">
+      <ul>
+        <li><a href="#"><span></span>沈阳</a></li>
+        <li><a href="#"><span></span>大连</a></li>
+        <li><a href="#"><span></span>鞍山</a></li>
+        <li><a href="#"><span></span>锦州</a></li>
+        <li><a href="#"><span></span>营口</a></li>
+        <li><a href="#"><span></span>葫芦岛</a></li>
+        <li><a href="#"><span></span>辽阳</a></li>
+        <li><a href="#"><span></span>本溪</a></li>
+        <li><a href="#"><span></span>朝阳</a></li>
+        <li><a href="#"><span></span>铁岭</a></li>
+        <li><a href="#"><span></span>盘锦</a></li>
+        <li><a href="#"><span></span>阜新</a></li>
+        <li><a href="#"><span></span>抚顺</a></li>
+        <li><a href="#"><span></span>丹东</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area21">
+      <ul>
+        <li><a href="#"><span></span>长春</a></li>
+        <li><a href="#"><span></span>吉林</a></li>
+        <li><a href="#"><span></span>延边</a></li>
+        <li><a href="#"><span></span>通化</a></li>
+        <li><a href="#"><span></span>白城</a></li>
+        <li><a href="#"><span></span>白山</a></li>
+        <li><a href="#"><span></span>辽源</a></li>
+        <li><a href="#"><span></span>四平</a></li>
+        <li><a href="#"><span></span>松原</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area22">
+      <ul>
+        <li><a href="#"><span></span>哈尔滨</a></li>
+        <li><a href="#"><span></span>大庆</a></li>
+        <li><a href="#"><span></span>牡丹江</a></li>
+        <li><a href="#"><span></span>齐齐哈尔</a></li>
+        <li><a href="#"><span></span>双鸭山</a></li>
+        <li><a href="#"><span></span>绥化</a></li>
+        <li><a href="#"><span></span>大兴安岭</a></li>
+        <li><a href="#"><span></span>黑河</a></li>
+        <li><a href="#"><span></span>伊春</a></li>
+        <li><a href="#"><span></span>佳木斯</a></li>
+        <li><a href="#"><span></span>鸡西</a></li>
+        <li><a href="#"><span></span>七台河</a></li>
+        <li><a href="#"><span></span>鹤岗</a></li>
+        <li><a href="#"><span></span>重庆</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area23">
+      <ul>
+        <li><a href="#"><span></span>成都</a></li>
+        <li><a href="#"><span></span>绵阳</a></li>
+        <li><a href="#"><span></span>南充</a></li>
+        <li><a href="#"><span></span>德阳</a></li>
+        <li><a href="#"><span></span>乐山</a></li>
+        <li><a href="#"><span></span>万州</a></li>
+        <li><a href="#"><span></span>凉山</a></li>
+        <li><a href="#"><span></span>甘孜</a></li>
+        <li><a href="#"><span></span>阿坝</a></li>
+        <li><a href="#"><span></span>泸州</a></li>
+        <li><a href="#"><span></span>巴中</a></li>
+        <li><a href="#"><span></span>眉山</a></li>
+        <li><a href="#"><span></span>达州</a></li>
+        <li><a href="#"><span></span>广安</a></li>
+        <li><a href="#"><span></span>内江</a></li>
+        <li><a href="#"><span></span>雅安</a></li>
+        <li><a href="#"><span></span>宜宾</a></li>
+        <li><a href="#"><span></span>攀枝花</a></li>
+        <li><a href="#"><span></span>广元</a></li>
+        <li><a href="#"><span></span>资阳</a></li>
+        <li><a href="#"><span></span>自贡</a></li>
+        <li><a href="#"><span></span>遂宁</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area24">
+      <ul>
+        <li><a href="#"><span></span>贵阳</a></li>
+        <li><a href="#"><span></span>遵义</a></li>
+        <li><a href="#"><span></span>安顺</a></li>
+        <li><a href="#"><span></span>铜仁</a></li>
+        <li><a href="#"><span></span>黔东南</a></li>
+        <li><a href="#"><span></span>六盘水</a></li>
+        <li><a href="#"><span></span>黔南</a></li>
+        <li><a href="#"><span></span>毕节</a></li>
+        <li><a href="#"><span></span>黔西南</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area25">
+      <ul>
+        <li><a href="#"><span></span>昆明</a></li>
+        <li><a href="#"><span></span>曲靖</a></li>
+        <li><a href="#"><span></span>大理</a></li>
+        <li><a href="#"><span></span>玉溪</a></li>
+        <li><a href="#"><span></span>红河</a></li>
+        <li><a href="#"><span></span>丽江</a></li>
+        <li><a href="#"><span></span>怒江</a></li>
+        <li><a href="#"><span></span>德宏</a></li>
+        <li><a href="#"><span></span>临沧</a></li>
+        <li><a href="#"><span></span>迪庆</a></li>
+        <li><a href="#"><span></span>昭通</a></li>
+        <li><a href="#"><span></span>西双版纳</a></li>
+        <li><a href="#"><span></span>文山</a></li>
+        <li><a href="#"><span></span>保山</a></li>
+        <li><a href="#"><span></span>楚雄</a></li>
+        <li><a href="#"><span></span>普洱</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area26">
+      <ul>
+        <li><a href="#"><span></span>拉萨</a></li>
+        <li><a href="#"><span></span>阿里</a></li>
+        <li><a href="#"><span></span>那曲</a></li>
+        <li><a href="#"><span></span>山南</a></li>
+        <li><a href="#"><span></span>昌都</a></li>
+        <li><a href="#"><span></span>日喀则</a></li>
+        <li><a href="#"><span></span>林芝</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area27">
+      <ul>
+        <li><a href="#"><span></span>西安</a></li>
+        <li><a href="#"><span></span>榆林</a></li>
+        <li><a href="#"><span></span>渭南</a></li>
+        <li><a href="#"><span></span>宝鸡</a></li>
+        <li><a href="#"><span></span>汉中</a></li>
+        <li><a href="#"><span></span>安康</a></li>
+        <li><a href="#"><span></span>咸阳</a></li>
+        <li><a href="#"><span></span>商洛</a></li>
+        <li><a href="#"><span></span>铜川</a></li>
+        <li><a href="#"><span></span>延安</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area28">
+      <ul>
+        <li><a href="#"><span></span>兰州</a></li>
+        <li><a href="#"><span></span>张掖</a></li>
+        <li><a href="#"><span></span>酒泉</a></li>
+        <li><a href="#"><span></span>庆阳</a></li>
+        <li><a href="#"><span></span>天水</a></li>
+        <li><a href="#"><span></span>武威</a></li>
+        <li><a href="#"><span></span>临夏</a></li>
+        <li><a href="#"><span></span>平凉</a></li>
+        <li><a href="#"><span></span>定西</a></li>
+        <li><a href="#"><span></span>金昌</a></li>
+        <li><a href="#"><span></span>嘉峪关</a></li>
+        <li><a href="#"><span></span>白银</a></li>
+        <li><a href="#"><span></span>甘南</a></li>
+        <li><a href="#"><span></span>陇南</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area29">
+      <ul>
+        <li><a href="#"><span></span>西宁</a></li>
+        <li><a href="#"><span></span>玉树</a></li>
+        <li><a href="#"><span></span>果洛</a></li>
+        <li><a href="#"><span></span>黄南</a></li>
+        <li><a href="#"><span></span>海南</a></li>
+        <li><a href="#"><span></span>海东</a></li>
+        <li><a href="#"><span></span>海西</a></li>
+        <li><a href="#"><span></span>海北</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area30">
+      <ul>
+        <li><a href="#"><span></span>银川</a></li>
+        <li><a href="#"><span></span>固原</a></li>
+        <li><a href="#"><span></span>吴忠</a></li>
+        <li><a href="#"><span></span>中卫</a></li>
+        <li><a href="#"><span></span>石嘴山</a></li>
+		
+      </ul>
+    </div>
+    <div class="dl_sele_r_ls" id="area31">
+      <ul>
+        <li><a href="#"><span></span>乌鲁木齐</a></li>
+        <li><a href="#"><span></span>和田</a></li>
+        <li><a href="#"><span></span>阿克苏</a></li>
+        <li><a href="#"><span></span>哈密</a></li>
+        <li><a href="#"><span></span>喀什</a></li>
+        <li><a href="#"><span></span>新疆克州</a></li>
+        <li><a href="#"><span></span>阿勒泰</a></li>
+        <li><a href="#"><span></span>塔城</a></li>
+        <li><a href="#"><span></span>吐鲁番</a></li>
+        <li><a href="#"><span></span>伊犁</a></li>
+        <li><a href="#"><span></span>克拉玛依</a></li>
+        <li><a href="#"><span></span>巴音郭楞</a></li>
+        <li><a href="#"><span></span>博尔塔拉</a></li>
+        <li><a href="#"><span></span>昌吉</a></li>
+		
+      </ul>
+    </div>
+  </div>
+  <div class="dl_sele_btm"></div>
+</div>
+<!--end 区域下拉列表 --> 

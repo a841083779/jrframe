@@ -1,0 +1,52 @@
+﻿<#assign provinceList = query(" select  * from hz_py where province='0' ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list provinceList as province>
+		<url>
+            <loc>http://product.21-sun.com/inquiry/${province.pinyin}_0_0_0_0.shtm</loc>
+            <lastmod>2014-06-11</lastmod>
+			<priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		<#list query(" select  id from pro_agent_factory where is_show=1 and flag=1 ") as factory1>
+			<url>
+                        <loc>http://product.21-sun.com/inquiry/${province.pinyin}_0_${factory1.id?c}_0_0.shtm</loc>
+                        <lastmod>2014-06-11</lastmod>
+						<priority>1.0</priority>
+                        <changefreq>monthly</changefreq>
+            </url>
+	    </#list>
+		<#list query(" select  num from pro_catalog where is_show=1 ") as catalog1>
+			<url>
+                        <loc>http://product.21-sun.com/inquiry/${province.pinyin}_0_0_${catalog1.num}_0.shtm</loc>
+                        <lastmod>2014-06-11</lastmod>
+						<priority>1.0</priority>
+                        <changefreq>monthly</changefreq>
+            </url>
+	    </#list>
+		<#list query(" select  * from hz_py where province='${province.hanzi}' ") as city>
+            <url>
+                <loc>http://product.21-sun.com/inquiry/${province.pinyin}_${city.pinyin}_0_0_0.shtm</loc>
+                <lastmod>2014-06-11</lastmod>
+				<priority>1.0</priority>
+                <changefreq>monthly</changefreq>
+            </url>      
+	    </#list>	
+	</#list>
+    <#list query(" select  id from pro_agent_factory where is_show=1 and flag=1 ") as factory>
+    	<url>
+            <loc>http://product.21-sun.com/inquiry/0_0_${factory.id?c}_0_0.shtm</loc>
+            <lastmod>2014-06-11</lastmod>
+			<priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+	</#list>
+    <#list query(" select  num from pro_catalog where is_show=1 ") as catalog>
+    	<url>
+            <loc>http://product.21-sun.com/inquiry/0_0_0_${catalog.num}_0.shtm</loc>
+            <lastmod>2014-06-11</lastmod>
+			<priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+	</#list>	
+</urlset>

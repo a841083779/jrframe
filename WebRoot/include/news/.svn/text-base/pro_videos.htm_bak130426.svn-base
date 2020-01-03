@@ -1,0 +1,38 @@
+ <div class="newspart video blue mb10">
+    <div class="title bigTitle">
+      <h3>产品看看</h3>
+      <ul class="t-con">
+        <li>热门：<a href="http://video.21-sun.com/search.jsp?searchKey=%E6%8C%96%E6%8E%98%E6%9C%BA" target="_blank">挖掘机</a> <a href="http://video.21-sun.com/search.jsp?searchKey=%E8%A3%85%E8%BD%BD%E6%9C%BA" target="_blank">装载机</a> <a href="http://video.21-sun.com/search.jsp?searchKey=%E6%8E%A8%E5%9C%9F%E6%9C%BA" target="_blank">推土机</a> </li>
+      </ul>
+      <span class="more"><a href="http://video.21-sun.com/" target="_blank">更多&gt;&gt;</a></span>
+    </div>
+    <div class="content bigContent">
+      <ul class="list">
+			<li>
+	          <a href="http://player.youku.com/player.php/sid/XMzgxOTI3Njgw/v.swf" target="_blank"><img src="http://news.21-sun.com/UserFiles/Image/20120416104328_0.jpg" width="160" height="90" /><em class="playico"></em>
+	          </a>
+			  <h3 style="width:160px;overflow:hidden;"><a href="http://player.youku.com/player.php/sid/XMzgxOTI3Njgw/v.swf" target="_blank">斗山装载机表演征服您的眼球！</a></h3>
+	        </li>
+			<li>
+	          <a href="http://player.youku.com/player.php/sid/XMzA1NzQyNzky/v.swf" target="_blank"><img src="http://news.21-sun.com/UserFiles/Image/20110921162009_0.jpg" width="160" height="90" /><em class="playico"></em>
+	          </a>
+			  <h3 style="width:160px;overflow:hidden;"><a href="http://player.youku.com/player.php/sid/XMzA1NzQyNzky/v.swf" target="_blank">泵车揭幕现场 三一86米泵车震撼发布</a></h3>
+	        </li>
+			<li>
+	          <a href="http://player.youku.com/player.php/sid/XMzA0NTgwMjA4/v.swf" target="_blank"><img src="http://news.21-sun.com/UserFiles/Image/20110914103919_0.jpg" width="160" height="90" /><em class="playico"></em>
+	          </a>
+			  <h3 style="width:160px;overflow:hidden;"><a href="http://player.youku.com/player.php/sid/XMzA0NTgwMjA4/v.swf" target="_blank">住友SH350挖机</a></h3>
+	        </li>
+			<li>
+	          <a href="http://player.youku.com/player.php/sid/XNDg1MTg3NzY0/v.swf" target="_blank"><img src="http://news.21-sun.com/UserFiles/Image/20121210132151_0.jpg" width="160" height="90" /><em class="playico"></em>
+	          </a>
+			  <h3 style="width:160px;overflow:hidden;"><a href="http://player.youku.com/player.php/sid/XNDg1MTg3NzY0/v.swf" target="_blank">21-sun带您看徐工自卸车</a></h3>
+	        </li>
+			<li>
+	          <a href="http://player.youku.com/player.php/Type/Folder/Fid/17940769/Ob/1/sid/XNDM0NTc0Njg0/v.swf" target="_blank"><img src="http://news.21-sun.com/UserFiles/Image/20121102111842_0.jpg" width="160" height="90" /><em class="playico"></em>
+	          </a>
+			  <h3 style="width:160px;overflow:hidden;"><a href="http://player.youku.com/player.php/Type/Folder/Fid/17940769/Ob/1/sid/XNDM0NTc0Njg0/v.swf" target="_blank">卡特小挖参与新农村建设</a></h3>
+	        </li>
+      </ul>
+    </div>
+  </div>

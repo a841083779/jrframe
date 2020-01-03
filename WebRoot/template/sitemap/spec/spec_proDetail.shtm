@@ -1,0 +1,19 @@
+<!--例：http://spec.21-sun.com/proDetail/HW240-8.htm-->
+<!--产品详情——专题 -->
+<#if list_products_nums != 0>
+	<#assign product_list = query(" select * from pro_products  where is_show = 1 and id between 30000 * (${productnum}-1) and 30000 * ${productnum}")>
+</#if>
+<#if list_products_nums == 0>
+	<#assign product_list = query(" select * from pro_products where is_show = 1 ")>
+</#if>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list product_list as product>
+				<url>
+					<loc>http://spec.21-sun.com/proDetail/${product.file_name?replace('.shtm', '')}.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+	</#list>
+</urlset>

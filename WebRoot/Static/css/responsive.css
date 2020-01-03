@@ -1,0 +1,54 @@
+/*
+* name: responsive StyleSheet
+* version: v1.0.0
+* update: 收集响应式样式
+* data: 2015-01-30
+*/
+
+/* import responsive stylesheet */
+@import url(./Pad.css) screen and (max-width: 64em);
+@import url(./Mobile.css) screen and (max-width: 40em);
+
+/*
+* PcMode
+*/
+body:after {
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  content: 'Pc';
+}
+.PcMode:after { content: 'Pc' !important;}
+.UnpcPush, .MobilePush { display: none;}
+
+/*
+* PadMode
+*/
+@media only screen and (max-width: 64em) {
+
+  body:after {
+    content: 'Pad';
+  }
+  body{ user-select: none;-webkit-user-select: none;}
+  body,input,textarea,button,select {font-family: inherit;font-size:14px;}
+  .wrap{padding-left:2%;padding-right:2%;max-width: none;}
+  .PcPush{display: none;}
+  .UnpcPush{display: block;}
+
+}
+
+/*
+* MobileMode
+*/
+@media only screen and (max-width: 40em) {
+
+  body:after {
+    content: 'Mobile';
+  }
+  .UnmobilePush{display: none;}
+  .MobilePush{display:block;}
+
+
+}

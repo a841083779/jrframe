@@ -1,0 +1,122 @@
+<html>
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="style.css" tppabs="http://www.hnbls.com/style/style.css">
+<script type="text/javascript" src="flash.js" tppabs="http://www.hnbls.com/scripts/flash.js"></script> 
+</head>
+<script src="common.js" tppabs="http://www.hnbls.com/scripts/common.js"></script>
+<script src="prototype.js" tppabs="http://www.hnbls.com/scripts/prototype.js" ></script>
+<script>
+function form_submit(id,delid)
+ {var str="";
+   if(id==0)
+   {if(formcheck())
+     {document.theform.action="apply.jsp-flag_save=1.htm"/*tpa=http://www.hnbls.com/service/apply.jsp?flag_save=1*/;
+      document.theform.method="post";
+      document.theform.submit();
+      }
+  }
+}
+
+ //判断表单的数据是否有效
+  function formcheck() 
+    {if(trim($("zd_name").value)=="")
+         { alert("请输入姓名！");
+           $("zd_name").focus();
+		   $("zd_name").select(); 
+		   return false;
+         }
+    else if(trim($("zd_contact_tel").value)=="")
+         { alert("请输入您的电话号码！");
+          $("zd_contact_tel").focus();
+		  $("zd_contact_tel").select(); 
+		   return false;
+         }
+	else if(trim($("zd_message").value)=="")
+         { alert("请输入留言！");
+          $("zd_message").focus();
+		  $("zd_message").select(); 
+		   return false;
+         }
+   return true;      
+}
+</script>
+<script  language="javascript">
+function f_frameStyleResize(targObj)   
+{   
+  var   targWin   =   targObj.parent.document.all[targObj.name]; 
+  if(targWin   !=   null)   
+  {   
+  var   HeightValue   =   targObj.document.body.scrollHeight   
+  if(HeightValue   <   100){HeightValue   =   100}   //不小于540  
+   targWin.height   =   HeightValue;
+  }   
+}  
+function   f_iframeResize()   
+{
+  f_frameStyleResize(self);
+}  
+window.onload=f_iframeResize;
+ </script>
+
+<style type="text/css">
+<!--
+body {
+	background-color: #FFFFFF; font-family:Arial;
+}
+.p92{font-size:12px; color:#555; border-bottom:#EEE solid 1px;}
+.bor{ border:#C8C8C8 solid 1px;}
+-->
+</style><form name="theform" id="theform">
+ <div align="center"  style="padding-left:29px;padding-right:19px;width:680px">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%" >
+				<tr>
+					<td align="left" class="p92" style="padding:10px">
+					客户满意是我们的宗旨。如果您对我们的服务、产品有更好建议，请给我们留言。<br>
+					我们将及时给您回复。</td>
+				</tr>
+			</table>
+ <table width="100%" cellpadding="2" cellspacing="0" bordercolorlight="#333333" bordercolordark="#FFFFFF" bgcolor="#CCCCCC" border="0"/>    <tr>
+      <td width="17%" bgcolor="#F2F2F2" class="p92" style="height: 29px"> 　姓　　名： </td>
+      <td width="83%" bgcolor="#F2F2F2" class="p92" style="height: 29px"><input name="zd_name" type="text" id="zd_name" class="bor">
+        <font color="red">*</font></td>
+    </tr>
+    <tr bgcolor="#FAFAFA">
+      <td height="29" bgcolor="#FFFFFF" class="p92">　您的电话号码：</td>
+      <td height="29" bgcolor="#FFFFFF" class="p92"><input name="zd_contact_tel" type="text" id="zd_contact_tel" class="bor">
+        <font color="red">*</font></td>
+    </tr>
+    <tr>
+      <td height="29" bgcolor="#F2F2F2" class="p92">　联系地址：</td>
+      <td height="29" bgcolor="#F2F2F2" class="p92"><input name="zd_contact_address" type="text" id="zd_contact_address" size="50" class="bor"></td>
+    </tr>
+    <tr bgcolor="#FAFAFA">
+      <td height="29" bgcolor="#FFFFFF" class="p92">　Email： </td>
+      <td height="29" bgcolor="#FFFFFF" class="p92"><input name="zd_email" type="text" id="zd_email" class="bor"></td>
+    </tr>
+    <tr bgcolor="#FAFAFA">
+      <td height="88" bgcolor="#F2F2F2" class="p92">　留　　言： </td>
+      <td height="88" bgcolor="#F2F2F2" class="p92"><textarea name="zd_message" cols="40" rows="5" id="zd_message" class="bor"></textarea>
+        <font color="red">*
+        <input name="zd_id" type="hidden" id="zd_id" value="0" />
+        <input name="zd_web_no" type="hidden" id="zd_web_no" value='10368' />
+        <input name="zd_catalog_no" type="hidden" id="zd_catalog_no" value='services02' />
+        <input name="zd_language_version" type="hidden" id="zd_language_version" value='1' />
+        <input name="zd_add_user" type="hidden" id="zd_add_user" value='' />
+        <input name="zd_add_ip" type="hidden" id="zd_add_ip" value='119.180.98.134' />
+        <input name="zd_sort_no" type="hidden" id="zd_sort_no" value='0' />
+		<input name="zd_add_date" type="hidden" id="zd_add_date" value='2013-08-02 09:29:32' />
+		<input name="zd_is_pub" type="hidden" id="zd_is_pub" value='0' />
+		 
+      </font></td>
+    </tr>
+  </table>
+  </div>
+</form>
+<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+  <tr>
+    <td align="middle"  style="padding:10px; text-align:center">
+	<input class="p921" id="b_submit" onclick="javascript:form_submit(0,0);" type="button" value="发送留言" name="b_submit"  style="font-size:12px; padding-left: 4px; padding-right: 4px; background-color: #065A9E;color:#fff" />      &nbsp;&nbsp;
+        <input class="p921" id="b_view" type="reset" value="查看留言" name="b_view" onclick="javascript:top.location.href='message.jsp.htm'/*tpa=http://www.hnbls.com/service/message.jsp*/;"  style="font-size:12px; padding-left: 4px; padding-right: 4px; background-color: #065A9E;color:#fff"/>    </td>
+  </tr>
+</table>

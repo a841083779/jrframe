@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>【${model.factoryname}${model.product_name}${model.cataname}价格表】${model.province}${model.city}${model.name?substring(0,1)}***${model.mobile_phone?substring(0,3)}***${model.factoryname}${model.product_name}${model.cataname}询价单 - 铁臂商城</title>
+<meta name="keywords" content="${model.factoryname}价格表,${model.cataname}价格表,${model.factoryname}${model.cataname}价格表, ${model.factoryname}${model.product_name}${model.cataname}最新询价单" />
+<meta name="description" content="咨询【${model.factoryname}${model.product_name}${model.cataname}成交价格】请上铁臂商城,铁臂商城提供最新的${model.factoryname}${model.product_name}${model.cataname}价格,帮助您了解${model.factoryname}${model.product_name}${model.cataname}价格的最新动态。" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="../style/style.css" rel="stylesheet" type="text/css" />
+<link href="/new_resources/css/style.css" rel="stylesheet" />
+<link href="/new_resources/css/style_common.css" rel="stylesheet" />
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<link href="/Static/css/common.css" rel="stylesheet" />
+<!-- jbox -->
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css"/>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<script type="text/javascript" src="/new_resources/js/superslide.js"></script>
+<link href="/Static/css/common.css" rel="stylesheet" />
+<link href="/Static/css/ui.css" rel="stylesheet" />
+<style>
+.txd_filter_plist li {
+	border-top: 1px solid #F7F7F7;
+	border-bottom: 1px solid #F7F7F7;
+	border-left: 1px solid #F7F7F7;
+}
+</style>
+</head>
+<body>
+<!--top-->
+<!--#include virtual="/include/top.jsp"--> 
+<!--top end-->
+<!--面包屑-->
+<div class="contain1190 mb10"  style="margin-top: 15px;">
+  <h3 class="breadCrumbs">我的位置：<a href="/">铁臂商城</a> &gt;&gt; <a href="/inquiry/">采购询价</a> &gt;&gt; <a href="/inquiry/0_0_${model.factoryid?c}_0_0.shtm">${model.factoryname}</a>&gt;&gt; <a href="/inquiry/0_0_0_${model.catanum}_0.shtm">${model.cataname}</a>&gt;&gt; <a  href="/inquiry/0_0_${model.factoryid?c}_${model.catanum}_0.shtm ">${model.factoryname}${model.cataname}</a> &gt;&gt; ${model.factoryname}${model.product_name}${model.cataname}/属具价格</h3>
+</div>
+<!--面包屑结束-->
+<!--main-->
+<div class="contain1190 mb10">
+  <!--left-->
+  <!--#include virtual="/include/inquiry_detail_left.htm"--> 
+  <!--left end-->
+  <!--right-->
+  <div class="w960  r">
+    <div class="w960  border03 l rightPart03 mb10">
+      <div class="title08">
+        <h3><b>${model.factoryname}${model.product_name}${model.cataname}最新询价单</b></h3>
+        <span>询价时间：${model.add_date?string("yyyy-MM-dd HH:mm:ss")}</span> </div>
+      <div class="li">
+        <ul>
+		  <#if (model.name??&&model.name!='')>
+          <li class="i8">联 系 人：${model.name?substring(0,1)}***</li>
+		  <#else>   
+		  <li class="i8">联 系 人：***</li>
+		  </#if> 
+		  <#if (model.mobile_phone??&&model.mobile_phone!='')>
+          <li class="i9">联系电话：${model.mobile_phone?substring(0,3)}***</li>
+		   <#else>
+		  <li class="i9">联系电话：***</li>
+           </#if> 
+          <li class="i10">所在地区：${model.province}${model.city}</li>
+          <li class="i11">留言内容：我对${model.factoryname}${model.product_name}${model.cataname}感兴趣</li>
+        </ul>
+      </div>
+      <div class="wfull l alignCenter pb15"> <a href="javascript:;" title="免费询价" onClick="showinquery('${model.product_id?c}','${model.factoryid?c}')"><img src="../images/pd_btn.gif" alt="免费询价" width="188" height="45" class="mb10" /></a><br />
+        <strong>因不同地区代理商及价格差异，请您点击<b onClick="showinquery('${model.product_id?c}','${model.factoryid?c}')" style="color:red; cursor:pointer">咨询最低价</b>。</strong> </div>
+      
+	  <div class="plist">
+        <ul>
+          <li> <a href="/proDetail/${proMap.file_name}" target="_blank"><img src="/uploadfiles/${proMap.img2}" onerror="this.src='/uploadfiles/no_small.gif'" width="130" height="90" class="plimg" alt="${model.factoryname}${model.product_name}${model.cataname}" title="${model.factoryname}${model.product_name}${model.cataname}"/></a>
+            <div class="w618 r">
+              <h2><a href="/proDetail/${proMap.file_name}" target="_blank">${model.factoryname}${model.product_name}${model.cataname}</a></h2>
+              <span class="info"><a href="/inquiry/index.jsp?proId=${model.product_id?c}" target="_blank">订单</a> <em>|</em> <a href="/proDetail/${proMap.file_name}" target="_blank">图片</a> <a href="javascript:;" onClick="showinquery('${model.product_id?c}','')" class="plbtn">询价</a></span>
+              <div class="plInfo"> <div class="inquiry_intro">${proMap.introduce}</div><b><a href="/proDetail/${proMap.file_name}" target="_blank">[查看详情]</a></b> </div>
+              <div class="wfull l">询价单号：${model.id?c}
+                <div style="float:right;"><a target="_blank" href="/products/prolist.jsp?factory=${model.factoryid?c}"><span style="color:#2e65b7">${model.factoryname}</span></a>|<a target="_blank" href="/products/prolist.jsp?factory=${model.factoryid?c}&catalog=${model.catanum}"><span style="color:#2e65b7">${model.factoryname}${model.cataname}</span></a> </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+	  
+    </div>
+    <!--该产品本地区订单-->
+    <!--询价列表-->
+    <div class="w960 border03 l mb10 list08">
+      <div class="title08 listTop">
+        <h3><b>${model.factoryname}${model.product_name}${model.cataname}询价单</b> </h3>
+        <div class="r" style="padding-top:0px;"> <a title="${model.factoryname}${model.product_name}${model.cataname}询价单" href="/inquiry/" target="_blank">更多</a> </div>
+      </div>
+      <ul class="ti">
+        <li class="i1">编号</li>
+        <li class="i2" style="width:238px">询价产品</li>
+        <li class="i3" style="width: 12%;">联系人</li>
+        <li class="i4" style="width: 12%;">电话</li>
+        <li class="i5">询价品牌</li>
+        <li class="i6">询价区域</li>
+        <li class="i7" style="width:141px">询价时间</li>
+      </ul>
+      <div class="li" id="showorders">
+	    <#assign inquiry_list = query(" select top 10 id,province,city,name,mobile_phone,add_date  from  pro_product_form  where is_deleted=0 and  product_id = ${model.product_id?c}  order by  id desc  ")>
+        <#if inquiry_list??&&(inquiry_list?size>0)>
+		    <#list inquiry_list as inquiry> 
+        <ul class="libg01">
+          <li class="i1">${inquiry_index+1}</li>
+          <li class="i2" style="width:233px"><a href="detail_for_${inquiry.id?c}.htm">${model.factoryname}${model.product_name}${model.cataname}</a></li>
+		  <#if (inquiry.name??&&inquiry.name!='')>
+          <li class="i3" style="width: 12%;">${inquiry.name?substring(0,1)}***</li>
+		  <#else> 
+		  <li class="i3" style="width: 12%;">***</li>
+          </#if>
+		  <#if (inquiry.mobile_phone??&&inquiry.mobile_phone!='')>
+          <li class="i4" style="width: 12%;">${inquiry.mobile_phone?substring(0,3)}***</li>
+		  <#else> 
+          <li class="i4" style="width: 12%;">***</li>
+		  </#if>
+          <li class="i5"><a href="/inquiry/0_0_${model.factoryid?c}_0_0.shtm">${model.factoryname}</a></li>
+          <li class="i6"> ${inquiry.province}${inquiry.city} </li>
+          <li class="i7" style="width:141px">${inquiry.add_date?string("yyyy-MM-dd HH:mm:ss")}</li>
+        </ul>
+		    </#list>
+        </#if>
+      </div>
+    </div>
+  </div>
+  <!--询价列表结束-->
+</div>
+<!--right end-->
+<div class="clear"></div>
+<!--main end-->
+<!--foot-->
+  <!--#include virtual="/include/new_foot.htm"--> 
+<!--foot end-->
+<script type="text/javascript" src="/scripts/sort.js"></script>
+<script type="text/javascript" src="/new_resources/js/sele_t.js"></script>
+<script type="text/javascript"  src="/new_resources/js/new_common.js"></script>
+</body>
+</html>

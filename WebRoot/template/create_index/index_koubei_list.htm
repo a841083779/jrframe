@@ -1,0 +1,35 @@
+<div class="kbList">
+<ul>
+<#list koubeilist as l> 
+<li>
+  <a target="_blank" href="http://koubei.21-sun.com/detail/${l.id?c}.htm" class="face">
+  	<#assign memList = query(" select top 1 image from pro_member where  username='${l.username!''}'")>
+		<#if memList??&&(memList?size>0)>
+			<#list memList as memImg>
+                <img src="<#if (memImg.image??&&memImg.image!='')>${memImg.image}<#else>/new_resources/img/temp/101001_${l.randnum}.png</#if>" alt="用户头像" />
+  			</#list>
+		<#else>
+		        <img src="/new_resources/img/temp/101001_${l.randnum}.png" alt="用户头像" />
+		</#if>
+  </a>
+  <div class="intro">
+    <div class="text">${l.content!""}</div>
+    <span class="good">有用<b>
+	<#if l.is_help??>(${l.is_help?c})<#else>(1)</#if>
+	</b></span>
+		<#assign comList = query(" select top 6 image,image_small from pro_comments_image where comment_id=${l.id?c}")>
+		<#if comList??&&(comList?size>0)>
+        <ul class="imgs zoomList">
+		    <#list comList as comImg>
+			<#if comImg.image_small??&&comImg.image_small!='' >
+            <li><img src="${comImg.image_small}"></li>
+			</#if>
+			</#list>
+        </ul>
+		</#if>
+    <div class="from"><span class="f">来自${l.factoryname!""}${l.product_name!""}${l.catalogname!""}</span><b>${l.username!''}</b> 于${CommonDate.getFormatDate("yyyy-MM-dd",l.add_date)}发表</div>
+  </div>
+</li>
+</#list>
+</ul>
+</div>

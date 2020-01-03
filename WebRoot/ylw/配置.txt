@@ -1,0 +1,1 @@
+ <Resource name="web21sun_pro" auth="Container" type="javax.sql.DataSource" driverClassName="net.sourceforge.jtds.jdbc.Driver" url="jdbc:jtds:sqlserver://49.4.53.0:1433;DatabaseName=asjrcms;useLOBs=false" username="db21sun" password="dbpass_!@#" maxActive="100" maxIdle="10" maxWait="-1" /> 

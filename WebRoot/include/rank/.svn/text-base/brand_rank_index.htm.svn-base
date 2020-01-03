@@ -1,0 +1,386 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+
+    
+	
+	
+	<div class="w755 l brand_list">
+	 <div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_101001_0.htm" title="挖掘机排行榜">挖掘机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_101001_0.htm" title="更多挖掘机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+        <p>
+          <strong class="brand_01 top1"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/komatsu/" title="小松">小松</a></span>
+          <span class="brand_03"><b><i style="width:147.43%"></i></b><strong>132687</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top2"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/cat/" title="卡特彼勒">卡特彼勒</a></span>
+          <span class="brand_03"><b><i style="width:146.31%"></i></b><strong>131679</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top3"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/sany/" title="三一">三一</a></span>
+          <span class="brand_03"><b><i style="width:106.68%"></i></b><strong>96012</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top4"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/doosan/" title="斗山">斗山</a></span>
+          <span class="brand_03"><b><i style="width:79.81%"></i></b><strong>71829</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top5"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/hitachi/" title="日立">日立</a></span>
+          <span class="brand_03"><b><i style="width:73.08%"></i></b><strong>65772</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top6"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/kobelco/" title="神钢">神钢</a></span>
+          <span class="brand_03"><b><i style="width:50.38%"></i></b><strong>45342</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top7"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/liugong/" title="柳工">柳工</a></span>
+          <span class="brand_03"><b><i style="width:45.53%"></i></b><strong>40977</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top8"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/xcmg/" title="徐工">徐工</a></span>
+          <span class="brand_03"><b><i style="width:45.34%"></i></b><strong>40806</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top9"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/volvo/" title="沃尔沃">沃尔沃</a></span>
+          <span class="brand_03"><b><i style="width:39.85%"></i></b><strong>35865</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top10"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/xiagong/" title="厦工">厦工</a></span>
+          <span class="brand_03"><b><i style="width:26.39%"></i></b><strong>23751</strong></span>
+        </p>
+        <p class="more">
+          <a href="/brand_0_0_0_101001_0.htm" title="挖掘机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	   <div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_101002_0.htm" title="装载机排行榜">装载机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_101002_0.htm" title="更多装载机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+        <p>
+          <strong class="brand_01 top1"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/liugong/" title="柳工">柳工</a></span>
+          <span class="brand_03"><b><i style="width:145.6375%"></i></b><strong>104859</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top2"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/china-sg/" title="山工">山工</a></span>
+          <span class="brand_03"><b><i style="width:117.1875%"></i></b><strong>84375</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top3"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/chinalonggong/" title="龙工">龙工</a></span>
+          <span class="brand_03"><b><i style="width:71.2625%"></i></b><strong>51309</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top4"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/sdlg/" title="山东临工">山东临工</a></span>
+          <span class="brand_03"><b><i style="width:35.125%"></i></b><strong>25290</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top5"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/xiagong/" title="厦工">厦工</a></span>
+          <span class="brand_03"><b><i style="width:34.8625%"></i></b><strong>25101</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top6"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/xcmg/" title="徐工">徐工</a></span>
+          <span class="brand_03"><b><i style="width:29.275%"></i></b><strong>21078</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top7"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/lugongjx/" title="山东鲁工">山东鲁工</a></span>
+          <span class="brand_03"><b><i style="width:26.425%"></i></b><strong>19026</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top8"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/xgtj/" title="徐工特机">徐工特机</a></span>
+          <span class="brand_03"><b><i style="width:20.775%"></i></b><strong>14958</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top9"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/lovol/" title="福田雷沃">福田雷沃</a></span>
+          <span class="brand_03"><b><i style="width:20.35%"></i></b><strong>14652</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top10"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/chenggong/" title="成工">成工</a></span>
+          <span class="brand_03"><b><i style="width:15.7375%"></i></b><strong>11331</strong></span>
+        </p>
+        <p class="more">
+          <a href="/brand_0_0_0_101002_0.htm" title="装载机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	<div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_101003_0.htm" title="推土机排行榜">推土机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_101003_0.htm" title="更多推土机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+        <p>
+          <strong class="brand_01 top1"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/shantui/" title="山推">山推</a></span>
+          <span class="brand_03"><b><i style="width:47.7%"></i></b><strong>21465</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top2"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/lyyj/" title="洛阳东方红">洛阳东方红</a></span>
+          <span class="brand_03"><b><i style="width:13.04%"></i></b><strong>5868</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top3"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/gjzjyituo/" title="东方红">东方红</a></span>
+          <span class="brand_03"><b><i style="width:11.68%"></i></b><strong>5256</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top4"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/hbxg/" title="河北宣工">河北宣工</a></span>
+          <span class="brand_03"><b><i style="width:9.18%"></i></b><strong>4131</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top5"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/cat/" title="卡特彼勒">卡特彼勒</a></span>
+          <span class="brand_03"><b><i style="width:8.66%"></i></b><strong>3897</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top6"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/zoomlion_tufang/" title="中联土方">中联土方</a></span>
+          <span class="brand_03"><b><i style="width:7.04%"></i></b><strong>3168</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top7"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/liugong/" title="柳工">柳工</a></span>
+          <span class="brand_03"><b><i style="width:5.92%"></i></b><strong>2664</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top8"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/komatsu/" title="小松">小松</a></span>
+          <span class="brand_03"><b><i style="width:5.64%"></i></b><strong>2538</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top9"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/yishan/" title="移山">移山</a></span>
+          <span class="brand_03"><b><i style="width:4.92%"></i></b><strong>2214</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top10"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/zoomlion/" title="中联重科">中联重科</a></span>
+          <span class="brand_03"><b><i style="width:4.76%"></i></b><strong>2142</strong></span>
+        </p>
+        <p class="more">
+          <a href="/brand_0_0_0_101003_0.htm" title="推土机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	
+		<div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_101005_0.htm" title="平地机排行榜">平地机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_101005_0.htm" title="更多平地机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+        <p>
+          <strong class="brand_01 top1"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/xcmg/" title="徐工">徐工</a></span>
+          <span class="brand_03"><b><i style="width:16.35%"></i></b><strong>2943</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top2"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/liugong/" title="柳工">柳工</a></span>
+          <span class="brand_03"><b><i style="width:7%"></i></b><strong>1260</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top3"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/china-sg/" title="山工">山工</a></span>
+          <span class="brand_03"><b><i style="width:6.95%"></i></b><strong>1251</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top4"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/sany/" title="三一">三一</a></span>
+          <span class="brand_03"><b><i style="width:5.35%"></i></b><strong>963</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top5"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/dstg/" title="鼎盛重工">鼎盛重工</a></span>
+          <span class="brand_03"><b><i style="width:5.15%"></i></b><strong>927</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top6"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/changlin/" title="常林股份">常林股份</a></span>
+          <span class="brand_03"><b><i style="width:5.1%"></i></b><strong>918</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top7"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/volvo/" title="沃尔沃">沃尔沃</a></span>
+          <span class="brand_03"><b><i style="width:2.9%"></i></b><strong>522</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top8"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/zoomlion/" title="中联重科">中联重科</a></span>
+          <span class="brand_03"><b><i style="width:2.35%"></i></b><strong>423</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top9"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/xzwb/" title="万邦重科">万邦重科</a></span>
+          <span class="brand_03"><b><i style="width:2.2%"></i></b><strong>396</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top10"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/cat/" title="卡特彼勒">卡特彼勒</a></span>
+          <span class="brand_03"><b><i style="width:2.1%"></i></b><strong>378</strong></span>
+        </p>
+        <p class="more">
+          <a href="/brand_0_0_0_101005_0.htm" title="平地机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	
+	
+		<div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_102_0.htm" title="起重机排行榜">起重机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_102_0.htm" title="更多起重机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+        <p>
+          <strong class="brand_01 top1"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/zoomlion/" title="中联重科">中联重科</a></span>
+          <span class="brand_03"><b><i style="width:77.9%"></i></b><strong>21033</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top2"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/xcmg/" title="徐工">徐工</a></span>
+          <span class="brand_03"><b><i style="width:66.7%"></i></b><strong>18009</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top3"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/sany/" title="三一">三一</a></span>
+          <span class="brand_03"><b><i style="width:28.1%"></i></b><strong>7587</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top4"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/liugong/" title="柳工">柳工</a></span>
+          <span class="brand_03"><b><i style="width:20.466666666667%"></i></b><strong>5526</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top5"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/liebherr/" title="利勃海尔">利勃海尔</a></span>
+          <span class="brand_03"><b><i style="width:7.3%"></i></b><strong>1971</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top6"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/dongyue/" title="东岳重工">东岳重工</a></span>
+          <span class="brand_03"><b><i style="width:7.266666666667%"></i></b><strong>1962</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top7"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/bq-tadano/" title="北起多田野">北起多田野</a></span>
+          <span class="brand_03"><b><i style="width:6.966666666667%"></i></b><strong>1881</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top8"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/bdzg/" title="八达重工">八达重工</a></span>
+          <span class="brand_03"><b><i style="width:5.933333333333%"></i></b><strong>1602</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top9"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/jchic/" title="京城重工">京城重工</a></span>
+          <span class="brand_03"><b><i style="width:5.933333333333%"></i></b><strong>1602</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top10"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/xzzx/" title="徐重">徐重</a></span>
+          <span class="brand_03"><b><i style="width:5.6%"></i></b><strong>1512</strong></span>
+        </p>
+        <p class="more">
+          <a href="/brand_0_0_0_102_0.htm" title="起重机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	
+	
+		<div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_106001_0.htm" title="压路机排行榜">压路机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_106001_0.htm" title="更多压路机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+        <p>
+          <strong class="brand_01 top1"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/xcmg/" title="徐工">徐工</a></span>
+          <span class="brand_03"><b><i style="width:39.866666666667%"></i></b><strong>1196</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top2"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/liugong/" title="柳工">柳工</a></span>
+          <span class="brand_03"><b><i style="width:24.266666666667%"></i></b><strong>728</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top3"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/xiagong/" title="厦工">厦工</a></span>
+          <span class="brand_03"><b><i style="width:11.033333333333%"></i></b><strong>331</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top4"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/chinalonggong/" title="龙工">龙工</a></span>
+          <span class="brand_03"><b><i style="width:10.566666666667%"></i></b><strong>317</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top5"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/sany/" title="三一">三一</a></span>
+          <span class="brand_03"><b><i style="width:8.366666666667%"></i></b><strong>251</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top6"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/shantui/" title="山推">山推</a></span>
+          <span class="brand_03"><b><i style="width:8%"></i></b><strong>240</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top7"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/china-sg/" title="山工">山工</a></span>
+          <span class="brand_03"><b><i style="width:7.933333333333%"></i></b><strong>238</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top8"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/lyltzg/" title="洛阳路通">洛阳路通</a></span>
+          <span class="brand_03"><b><i style="width:7.533333333333%"></i></b><strong>226</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top9"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/dynapac/" title="戴纳派克">戴纳派克</a></span>
+          <span class="brand_03"><b><i style="width:6.4%"></i></b><strong>192</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top10"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/yituo/" title="一拖">一拖</a></span>
+          <span class="brand_03"><b><i style="width:6.333333333333%"></i></b><strong>190</strong></span>
+        </p>
+        <p class="more">
+          <a href="/brand_0_0_0_106001_0.htm" title="压路机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+  
+
+
+  </div>  

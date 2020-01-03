@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<title>【斯泰克1100 HD反击式破碎机】斯泰克1100 HD反击式破碎机价格表_参数_图片_口碑 - 铁臂商城</title>
+<meta name="keywords" content="斯泰克1100 HD反击式破碎机,斯泰克1100 HD反击式破碎机价格表,斯泰克1100 HD反击式破碎机参数,斯泰克1100 HD反击式破碎机图片,斯泰克1100 HD反击式破碎机口碑" />
+<meta name="description" content="铁臂商城为您提供斯泰克1100 HD反击式破碎机价格,参数,性能,图片,口碑等信息,帮助您通过网络订购斯泰克1100 HD反击式破碎机,买斯泰克1100 HD反击式破碎机就上铁臂商城。" />
+<link href="/Static/css/style.css" rel="stylesheet" />
+</head>
+<body class="brands">
+<header>
+  <h2 class="logo"><img src="/Static/img/logo.png" alt="铁臂商城"></h2>
+  <a href="javascript:history.back()" class="bc"><img src="/Static/img/back.png"></a>
+  <a href="/brands_list.jsp" class="search">筛选<img src="/Static/img/search_ico.png"></a>
+</header>
+
+<div class="swiper-container index">
+  <a href="javascript:void(0)" class="arr_ arr_left"></a>
+  <a href="javascript:void(0)" class="arr_ arr_right"></a>
+  <div class="swiper-wrapper">
+
+        
+ <div class="swiper-slide"><a href="javascript:void(0)"><img title="斯泰克1100 HD反击式破碎机" src="/uploadfiles///2014/01/20140103185232_766.jpg"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" ></a></div>
+	
+  </div>
+  <div class="pagination"></div>
+</div>
+
+<div class="detailT">
+  <div class="dtt">
+    <h1 class="proName">斯泰克1100 HD反击式破碎机</h1>
+    <div class="p">参考价格：<font>
+	       面议
+	</font></div>
+    <div class="tool"><i></i>
+
+    </div>
+  </div>
+  <div class="bm">
+    <a href="javascript:void(0);" onclick="addShop();return false;"><img src="/Static/img/bm.png">收藏</a>
+  </div>
+</div>
+
+<div class="proT">
+  <ul class="idTabs">
+    <li><a href="#pt01" class="selected">产品性能</a></li>
+    <li><a href="#pt02">产品参数</a></li>
+    <li><a href="#pt03">产品评论</a></li>
+  </ul>
+</div>
+
+<div class="proC">
+  <div id="pt01" class="pcc">
+  <p><img src="/uploadfiles//image/2014/01/20140103185423_114.jpg" style="float:none;" border="0" hspace="0" vspace="0" /><br /></p>
+  </div>
+  <div id="pt02" class="pcc">
+  <p><img src="/uploadfiles//image/2014/01/20140103185429_814.jpg" style="float:none;" border="0" hspace="0" vspace="0" /><br /></p>
+  </div>
+    <div id="pt03" class="pcc">
+
+	暂无相关评论！
+  </div>
+</div>
+
+<ul class="proList">
+  <li>
+    <dl class="btn">
+      <dd class="b1"><a href="tel:4006-521-526"><img src="/Static/img/btn_tel.png">询问底价</a></dd>
+      <dd class="b2"><a href="/form.jsp?pid=20836"><img src="/Static/img/btn_buy.png">立即订购</a></dd>
+    </dl>
+  </li>
+</ul>
+
+<div class="bottomBar">
+  <div class="share bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more">分享</a></div>
+  <div class="tel"><a href="tel:4006-521-526"><img src="/Static/img/tel_ico.png"><span>4006-521-526</span></a></div>
+  <div class="comment"><a href="http://koubei.21-sun.com/"><img src="/Static/img/com_btn.png" class="io">评论</a></div>
+</div>
+</body>
+<script src="/Static/js/seajs/sea.js" id="seanode"></script>
+<script src="/Static/js/seajs/seajs.config.js"></script>
+<script src="http://product.21-sun.com/scripts/scripts.js"></script>
+<script src="http://product.21-sun.com/scripts/jquery-1.7.min.js"></script>
+
+<script>
+	var jrChannel='0#0';
+	seajs.use('app/product.js');
+</script>
+<script type="text/javascript">
+function addShop(){　 // 收藏店铺
+    try{
+       window.external.addFavorite('http://m.product.21-sun.com/1100HD.shtm', '斯泰克1100 HD反击式破碎机');
+   }catch (e){
+       try{
+           window.sidebar.addPanel('斯泰克1100 HD反击式破碎机','http://m.product.21-sun.com/1100HD.shtm',"");
+       }catch (e){
+           alert("加入收藏失败，请使用Ctrl+D进行添加");
+       }
+   }
+}
+</script> 
+</html>

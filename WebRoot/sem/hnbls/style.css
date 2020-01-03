@@ -1,0 +1,304 @@
+<style type="text/css">
+
+
+
+*{border:0px;margin:0px;padding:0px}
+ul,li{ list-style-type:none;}
+body{background:#E2E2E2;font-size:12px;font-family:宋体;color:#727272}
+
+.datalist{
+ border:1px solid #cccccc; /* 表格边框 */
+ font-family:Arial;
+ border-collapse:collapse; /* 边框重叠 */
+ background-color:#ffffff; /* 表格背景色 */
+ font-size:12px;
+}
+ 
+.datalist caption{
+ padding-bottom:5px;
+ font:bold 12px;
+ text-align:left;
+}
+ 
+.datalist th{
+ border:1px solid #cccccc; /* 行名称边框 */
+ background-color:#eeeeee; /* 行名称背景色 */
+ color:#000000;    /* 行名称颜色 */
+ font-weight:bold;
+ padding-top:4px; padding-bottom:4px;
+ padding-left:15px; 
+ text-align:left;
+}
+.datalist td{
+ border:1px solid #cccccc; /* 单元格边框 */
+ text-align:left;
+ padding-top:4px; padding-bottom:4px;
+ padding-left:15px; 
+}
+.datalist tr.altrow{
+ background-color:#c7e5ff; /* 隔行变色 */
+}
+ 
+
+
+a            { text-decoration: none }
+a:link       { color: #565656 }
+a:visited    { color: #565656 }
+a:hover      { color: #333333; text-decoration: none }
+
+a.n1          { text-decoration: none }
+a.n1:link     { color: #333333 }
+a.n1:visited  { color: #333333 }
+a.n1:hover    { color: #f5f5f5; text-decoration: none;}
+
+a.n2          { text-decoration: none }
+a.n2:link     { color: #676767 }
+a.n2:visited  { color: #676767}
+a.n2:hover    { color: #333333; text-decoration: none }
+
+a.n3          { text-decoration: none }
+a.n3:link     { color: #fdf122 }
+a.n3:visited  { color: #fdf122}
+a.n3:hover    { color: #ffffff; text-decoration: none }
+
+a.n4          { text-decoration: none }
+a.n4:link     { color: #565656 }
+a.n4:visited  { color: #565656}
+a.n4:hover    { color: #f2ac28; text-decoration: none }
+
+a.back          { text-decoration: none;text-align:left;padding-left:36px;line-height:22px;display:block; width:112px;font-weight:bold;}
+a.back:link     { color: #ffffff;width:112px;height:22px;font-size:12px; }
+a.back:visited  { color: #ffffff;width:112px;height:22px;}
+a.back:hover    { color: #000000;background:url("svo11.jpg")/*tpa=http://www.hnbls.com/style/svo11.jpg*/;width:112px;height:22px}
+
+
+a.back1          { text-decoration: none;text-align:left;padding-left:36px;line-height:22px;display:block; width:112px;font-weight:bold;}
+a.back1:link     { color: #000000;width:112px;height:22px;font-size:12px;background:url("svo11.jpg")/*tpa=http://www.hnbls.com/style/svo11.jpg*/;  }
+a.back1:visited  { color: #000000;width:112px;height:22px;background:url("svo11.jpg")/*tpa=http://www.hnbls.com/style/svo11.jpg*/; }
+a.back1:hover    { color: #000000;background:url("svo11.jpg")/*tpa=http://www.hnbls.com/style/svo11.jpg*/;width:112px;height:22px}
+
+
+
+.p92         { color: #565656; font-size: 12px; line-height: 24px;font-family:arial; }
+.p92         { color: #565656; font-size: 12px; line-height: 24px;font-family:arial; }
+.p922 a{color:#565656; text-decoration:none;}
+.p92 a{color:#565656; text-decoration:none;}
+.p922 a:hover{ color:#333; text-decoration:none;}
+
+.p92 a:hover{ color:#333; text-decoration:none;}
+
+.p92         { color: #565656; font-size: 12px; line-height: 24px;font-family:arial; }
+.p922         { color:#565656; font-size: 12px; line-height: 18px }
+.pwhite         { color:#cae6fb; font-size: 12px; line-height: 22px }
+.p9b         { color: 898989; font-size: 12px; line-height: 18px;font-weight:bold; }
+.p9a         { color: #646464; font-size: 12px; line-height: 18px;font-family:arial}
+.p9c         { color: 676767; font-size: 12px; line-height: 18px;font-family:arial}
+.p9d         { color: #165e98; font-size: 14px; line-height: 18px;font-family:arial}
+.cp{padding:3px 5px 3px 5px}
+
+/*product_detail*/
+.nTab{ width:92%; margin:0 auto;}
+
+.TabTitle{ clear:both; height:23px;}
+.TabTitle li{ float:left; width:78px; cursor:pointer; height:23px; line-height:23px; text-align:center; font-size:12px}
+
+.active{ background:url("bais.gif")/*tpa=http://www.hnbls.com/images/bais.gif*/ no-repeat;}
+.normal{ }
+
+.TabContent{ background:#fff; padding:0px 0 0 0; height:auto; text-align:left; }
+
+.none { display:none;}
+
+
+
+/*--层的样式--*/
+.jixielist{height:auto;overflow:hidden}
+.jixielist div{width:85px;height:72px;border:1px #CECDCD solid;padding:3px;float:left; display:inline;list-style:none; margin:8px 10px 0px 2px;font-size:0px;}
+.jixielist div img{width:87px;height:72px}
+.jixielist ul{}
+.jixielist li{width:85px;height:72px;border:1px #CECDCD solid;padding:3px;float:left;list-style:none;margin-top:8px;font-size:0px;}
+.jixielist li img{width:87px;height:72px}
+
+.top{width:956px;margin:0 auto;padding:0px 23px 0 24px;height:115px;background:url("bg.jpg")/*tpa=http://www.hnbls.com/images/bg.jpg*/; overflow:hidden;}
+.top1{width:956px;height:115px;background:url("topbg.gif")/*tpa=http://www.hnbls.com/images/topbg.gif*/;}
+.xcy{width:290px;height:34px;float:left;padding-top:72px;padding-left:114px;display:inline;}
+.picture_1{float:left;width:692px;height:auto;overflow:hidden;text-align:left;margin-top:10px;}
+.picture_2{float:left;width:160px;height:100%;text-align:center;margin:5px 10px 0 0;border:1px solid #E3E3E3;}
+.picture_3{float:left;width:169px;height:174px;text-align:center; text-align:center;margin:13px ;display:inline;}
+
+.picture{float:left;margin:10px 25px;width:120px;height:130px;text-align:center;repeat-x bottom; }
+.picture2{float:left;width:135px;height:115px;margin:10px;text-align:center; }
+.xwzxstyle{margin-top:10px;font-size:12px}
+.lxfsfont{margin-top:30px;font-size:12px}
+.bottom{ width:1004px;border:0px;cellpadding:0px;cellspacing0px;background:#FFFFFF;height:50px;font-size:12px;}
+.welcome{width:956px;margin:0 auto;padding:0px 23px;height:29px;background:url("bg.jpg")/*tpa=http://www.hnbls.com/images/bg.jpg*/;}
+.welcome1{height:29px;background:url("top_bg.gif")/*tpa=http://www.hnbls.com/images/top_bg.gif*/}
+.welcome1left{width:8px;float:left;height:29px}
+.welcome1center{width:600px;height:22px;padding-top:7px;text-indent:68px;float:left}
+.welcome1right{width:5px;float:right;height:29px}
+.center1{width:956px;margin:0 auto;padding:0px 23px;padding-top:10px;height:auto;overflow:hidden;background:url("bg.jpg")/*tpa=http://www.hnbls.com/images/bg.jpg*/;}
+.center3{width:956px;margin:0 auto;padding:0px 23px;height:auto;overflow:hidden;background:url("bg.jpg")/*tpa=http://www.hnbls.com/images/bg.jpg*/;}
+.dh{width:956px;overflow:hidden;background-image:url("bls5.gif")/*tpa=http://www.hnbls.com/images/bls5.gif*/;background-repeat: repeat-x}
+.dhleft{width:8px;float:left;height:37px;display:inline}
+.dhcenter{width:932px;float:left;height:37px;display:inline}
+.dhright{width:8px;float:right;height:37px;display:inline}
+.center1left{float:left;width:219px;height:auto;overflow:hidden}
+.center1leftproduct{width:219px;height:38px}
+.center1leftfenlei{height:auto;overflow:hidden;width:217px;border-left:1px #4977B5 solid;border-right:1px #4977B5 solid;}
+.center1leftfenlei1{width:191px;height:auto;overflow:hidden;margin-left:13px;float:left;display:inline;padding-top:10px}
+.center1leftfenlei1 ul{}
+.center1leftfenlei1 li{height:34px;border-bottom:1px #E4E4E4 dashed;width:191px;text-align:left;text-indent:13px;line-height:34px;font-weight:bold;color:#676767;font-size:12px;list-style:none;}
+.center1leftfenlei1 li a:link{display:block;height:34px;text-align:left;background:url("cpfl_dot.gif")/*tpa=http://www.hnbls.com/images/cpfl_dot.gif*/ 178px no-repeat;line-height:34px;font-weight:bold;color:#676767;font-size:12px;list-style:none}
+.center1leftfenlei1 li a:visited{display:block;height:34px;text-align:left;background:url("cpfl_dot.gif")/*tpa=http://www.hnbls.com/images/cpfl_dot.gif*/ 178px no-repeat;line-height:34px;font-weight:bold;color:#676767;font-size:12px;list-style:none}
+.center1leftfenlei1 li a:hover{display:block;height:34px;text-align:left;background:url("cpfl_dot1.gif")/*tpa=http://www.hnbls.com/images/cpfl_dot1.gif*/ 178px no-repeat;line-height:34px;font-weight:bold;color:#1E61B0;font-size:12px;list-style:none}
+.center1leftfenlei2{background:url("cpfl_dot1.gif")/*tpa=http://www.hnbls.com/images/cpfl_dot1.gif*/ 178px no-repeat;color:#1E61B0}
+.center1lefttel{width:217px;height:49px;border-left:1px #4977B5 solid;border-right:1px #4977B5 solid;;padding-top:23px}
+.center1leftcontact{width:203px;padding:0px 7px;border-left:1px #4977B5 solid;border-right:1px #4977B5 solid;height:65px;padding-bottom:8px}
+.center1leftksdh{height:18px;width:219px;}
+.center1leftksdh1{height:94px;width:217px;border-left:1px #E4E4E4 solid;border-right:1px #E4E4E4 solid}
+.center1leftksdh1 ul{}
+.center1leftksdh1 li{width:90px;height:30px;float:left;display:inline;list-style:none;margin-left:10px;margin-top:12px}
+.ksdhpic{width:33px;float:left;height:30px}
+.ksdhname{width:55px;float:right;height:30px;line-height:32px;font-weight:bold;color:#868686;}
+.center1leftbottom{width:219px;height:27px}
+.style1{color:#1D5EAE}
+.style2{color:#1D5EAE;font-weight:bold}
+.center1right{width:728px;float:right;height:auto;overflow:hidden}
+.banner{width:728px;height:183px}
+.lmtitle{width:728px;height:74px;background:url("righttop_bg.jpg")/*tpa=http://www.hnbls.com/images/righttop_bg.jpg*/;margin-top:10px}
+.lmszwz{height:16px;padding-top:11px;color:#666;text-align:right}
+.lmname{height:23px;text-indent:80px;color:#165e98;font-size:14pt;font-family:微软雅黑;}
+.lmtext{height:auto;overflow:hidden;line-height:26px;color:#676767;padding-top:10px;}
+.center2{width:956px;margin:0 auto;padding:0px 23px;padding-top:10px;height:60px;background:url("bg.jpg")/*tpa=http://www.hnbls.com/images/bg.jpg*/;}
+.xcbottom{height:20px;font-family:Arial}
+.xcbottom1{width:750px;float:left;height:20px;line-height:20px;text-indent:15px}
+.xcbottomtel{display:block;width:11px;height:15px;margin-top:5px;margin-left:5px;display:inline;margin-right:5px;}
+.xcbottomnumber{width:110px;float:left;height:20px;line-height:20px;text-indent:5px}
+.xcbottomemail{width:120px;float:left;height:20px;line-height:20px;text-indent:5px;}
+.xcbottomfk{width:135px;float:right;height:20px;line-height:20px}
+.logo{width:242px;float:left;height:96px;margin-left:48px;margin-top:9px;display:inline}
+.qtbb{
+	width:585px;
+	float:right;
+	display:inline;
+	height:22px;
+	margin-top:70px
+}
+.qtbb ul{}
+.qtbb li{width:90px;height:22px;float:left;display:inline;list-style:none; margin-top:10px;}
+.qtbbpic{width:30px;height:22px;float:left}
+.qtbbfont{width:60px;float:left;font-weight:bold;height:22px;line-height:22px}
+.lmtextleft{width:380px;float:left;height:auto;overflow:hidden;padding-left:10px}
+.lxfscompany{height:42px;text-indent:50px;width:400px}
+.lxfstext{width:380px;height:auto;overflow:hidden;padding-left:50px;margin-top:10px;font-family:arail;}
+.lxfstext ul{}
+.lxfstext li{width:380px;float:left;display:inline;height:36px;line-height:36px;background:url("dot.gif")/*tpa=http://www.hnbls.com/contacts/images/dot.gif*/ left no-repeat;list-style:none;text-indent:10px}
+.lmtextright{width:237px;float:left;height:96px;padding-top:150px}
+.rcxqtop{border:1px #E9E9E9 solid;height:14px;padding:5px 0px}
+.rcxqtop ul{}
+.rcxqtop li{width:138px;height:14px;line-height:14px;list-style:none;float:left;display:inline;border-right:1px #A4A4A4 dashed;text-align:center}
+.rcxqzhiwei{height:31px;line-height:31px;width:348px;float:left;display:inline;text-indent:40px}
+.rcxqriqi{height:31px;line-height:31px;color:#A0A09E;width:137px;float:left;text-align:center}
+.rcxqrenshu{height:31px;line-height:31px;width:137px;float:left;text-align:center}
+.newslisttop{width:100%;float:right;height:26px;background:url("top_bg-1.gif")/*tpa=http://www.hnbls.com/news/images/top_bg.gif*/;border:1px #C2C2C2 solid}
+.newslisttop ul{}
+.newslisttop li{width:140px;float:left;height:26px;line-height:26px;list-style:none;text-align:center;font-weight:bold;color:#4d4d4d}
+
+.rcxqlist{width:690px;float:right;height:26px;border:0px;border-bottom:1px #E9E9E9 solid;background:url("dot-1.gif")/*tpa=http://www.hnbls.com/job/images/dot.gif*/ 20px no-repeat}
+.rcxqlist ul{}
+.rcxqlist li{width:140px;float:left;height:26px;line-height:26px;list-style:none;text-align:center;color:#4d4d4d;}
+
+
+
+.newslist{height:auto;overflow:hidden;width:690px;}
+.newslist ul{}
+.newslist li{width:690px;float:left;height:31px;line-height:31px;border-bottom:1px #9F9F9F dashed;background:url("dot-1.gif")/*tpa=http://www.hnbls.com/job/images/dot.gif*/ 20px no-repeat;list-style:none;color:#4E4E4E;}
+
+
+.newszhiwei{height:31px;line-height:31px;width:310px;float:left;text-indent:40px;}
+.newszhiwei11{height:31px;line-height:31px;width:460px;float:left;display:inline}
+.newsriqi{height:31px;line-height:31px;color:#A0A09E;width:137px;float:left;text-align:center}
+.newsrenshu{height:31px;line-height:31px;width:137px;float:left;text-align:center}
+.newsrenshu11{height:31px;line-height:31px;width:137px;float:left;text-align:center;color:#ff7d01;}
+.product{width:670px;height:126px;padding-left:38px}
+.product ul{}
+.product li{width:104px;height:131px;float:left;display:inline;margin-right:20px;list-style:none;white-space:nowrap; text-overflow:ellipsis; overflow:hidden; 
+}
+.productpic{width:97px;height:98px;border:1px #DCDDDF solid;padding:2px;}
+.productpic img { width:97px; height:98px;}
+.productname{height:25px;line-height:25px;text-align:center;}
+.djjr{height:15px;padding-top:15px;color:#1E61B2}
+.djjr a:link{color:#1E61B2}
+.djjr a:visited{color:#1E61B2}
+.djjr a:hover{color:#043D7C;}
+.newstitle{border-bottom:1px #C5CED5 dashed;height:20px;line-height:20px;margin-top:10px;font-weight:bold;text-align:center}
+.newsnr{height:auto;overflow:hidden;line-height:22px;padding:20px 0px;border-bottom:1px #C5CED5 dashed;}
+.newsback{height:20px;margin-top:10px;text-align:left;text-indent:630px}
+.productlist{height:auto;overflow:hidden}
+.productlist ul{}
+.productlist li{width:145px;height:135px;float:left;list-style:none;margin-left:20px;display:inline;margin-top:8px}
+.productlistpic{width:130px;height:105px;padding:5px;border:1px #ddd solid;}
+.productlistpic img{width:130px;height:105px}
+.productlistname{width:140px;height:20px;line-height:20px;text-align:center}
+.productcontant{width:708px;height:auto;overflow:hidden;line-height:20px;color:#676767;padding:10px 0px;padding-left:20px;display:inline;}
+.productcontant1{width:650px;margin-left:20px;border-bottom:1px #969696 dashed;padding:10px 0px}
+.productgwc{width:728px;height:auto;overflow:hidden}
+.productgwc1{height:30px;line-height:30px;border-bottom:1px #969696 dashed;background:url("gwc.gif")/*tpa=http://www.hnbls.com/products/images/gwc.gif*/ no-repeat 10px center;width:650px;margin-left:38px;margin-top:10px;text-indent:40px}
+.productdhlist{width:698px;height:auto;overflow:hidden;padding-left:30px;margin-top:10px}
+.productdhlist ul{}
+.productdhlist li{width:101px;height:24px;float:left;margin-right:10px;list-style:none;display:inline}
+.producttable{width:670px;float:left;height:30px;line-height:30px;padding-left:38px;color:#1B5AA9;font-weight:bold}
+.producttablefoot{width:660px;float:left;height:auto;overflow:hidden;padding-left:38px;margin-top:1px}
+.producttablefoot ul{}
+.producttablefoot li{height:25px;line-height:25px;background:#e9e9e9;list-style:none;width:660px}
+.productxh{width:210px;height:25px;line-height:25px;float:left;border-right:1px #fff solid;text-indent:10px}
+.productxq{width:160px;float:left;height:25px;line-height:25px;background:url("dot-2.gif")/*tpa=http://www.hnbls.com/products/images/dot.gif*/ 15px no-repeat;border-right:1px #fff solid;text-indent:32px}
+.productal{width:125px;float:left;height:25px;line-height:25px;background:url("dot2.gif")/*tpa=http://www.hnbls.com/products/images/dot2.gif*/ 15px no-repeat;border-right:1px #fff solid;text-indent:32px}
+.productdg{width:128px;float:left;height:25px;line-height:25px;background:url("dot3.gif")/*tpa=http://www.hnbls.com/products/images/dot3.gif*/ 15px no-repeat;text-indent:32px}
+
+
+/*product_detail*/
+.productnTab{ width:642px;height:auto;overflow:hidden;margin-left:40px}
+
+.productTabTitle{ clear:both; height:21px;background:url("product_bg1.gif")/*tpa=http://www.hnbls.com/products/images/product_bg1.gif*/ repeat-x; width:642px}
+.productTabTitle li{ float:left; width:101px; cursor:pointer; height:21px; line-height:21px; text-align:center;margin-right:1px;display:inline }
+
+.productactive{ background:url("product_bg2.gif")/*tpa=http://www.hnbls.com/products/images/product_bg2.gif*/ no-repeat;height:21px;width:101px}
+.productnormal{ background:url("product_bg.gif")/*tpa=http://www.hnbls.com/products/images/product_bg.gif*/ repeat-x;height:21px;width:101px}
+
+.productTabContent{ width:650px;height:auto; word-wrap:break-word; overflow:hidden;text-align:left;border-left:1px #CCCCCC solid;border-right:1px #CCCCCC solid;border-bottom:1px #CCCCCC solid ;}
+
+.productnone { display:none;}
+
+
+
+.slideBox .hd .tempWrap{ margin-left:0px; width:956px;}
+.slideBox{ width:956px; height:400px; overflow:hidden; position:relative;    } 
+.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:10px; bottom:10px; z-index:1; } 
+.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  } 
+.slideBox .hd ul li{ float:left; margin-right:5px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; } 
+.slideBox .hd ul li.on{ background:#f00; color:#fff; } 
+.slideBox .bd{ position:relative; height:100%; z-index:0;   } 
+.slideBox .bd img{ width:956px; height:400px; } 
+
+
+.wrapper {width:956px; margin:0 auto; padding-bottom:0px;}
+
+h1 {height:50px; line-height:50px; font-size:22px; font-weight:normal; font-family:"Microsoft YaHei",SimHei;}
+
+.shuoming {margin-top:20px; border:1px solid #ccc; padding-bottom:10px;}
+.shuoming dt {height:30px; line-height:30px; font-weight:bold; text-indent:10px;}
+.shuoming dd {line-height:20px; padding:5px 20px;}
+
+/* qqshop focus */
+#focus {width:956px; height:400px; overflow:hidden; position:relative;}
+#focus ul {height:400px; position:absolute;}
+#focus ul li {float:left; width:956px; height:400px; overflow:hidden; position:relative; background:#000;}
+#focus ul li div {position:absolute; overflow:hidden;}
+#focus .btnBg {position:absolute; width:956px; height:20px; left:0; bottom:0; background:#000;}
+#focus .btn {position:absolute; width:900px; height:10px; padding:20px 10px; right:0; bottom:0; text-align:right;}
+#focus .btn span {display:inline-block; _display:inline; _zoom:1; width:25px; height:10px; _font-size:0; margin-left:5px; cursor:pointer; background:#fff;}
+#focus .btn span.on {background:#fff;}
+#focus .preNext {width:45px; height:100px; position:absolute; top:90px; background:url("sprite.png")/*tpa=http://www.hnbls.com/images/sprite.png*/ no-repeat 0 0; cursor:pointer;}
+#focus .pre {left:0;}
+#focus .next {right:0; background-position:right top;}

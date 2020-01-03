@@ -1,0 +1,19 @@
+﻿@charset "utf-8";
+body { background:#4a0b21;}
+.topbg { display:none;}
+.New_website { display:none;}
+.fewm { display:none;}
+.New_foot,span.New_links { color:#fff!important;}
+.proFoot { height:auto!important; padding:10px 0px;}
+.proFoot #bdshare { color:#fff;}
+.actMain { background:#fff; padding:40px 15px 20px; width:950px; cursor:default;}
+.acts { width:457px; height:245px; margin-bottom:20px; overflow:hidden;}
+.acts .steps { height:25px; background:url(../images/stepbg.png) no-repeat; font-size:16px; font-family:"Microsoft Yahei"; margin-bottom:10px; overflow:hidden;}
+.acts .steps li { width:25%; line-height:25px; float:left; text-align:center; color:#fff;}
+.acts .steps li.act { color:#dd0a00;}
+.acts .box { height:190px; background-color:#fff4d9; border-radius:10px; padding:10px 15px; font:14px/20px "Microsoft Yahei"; color:#e82600; overflow:hidden;}
+.acts .box p { padding-top:5px;}
+
+.zhuyi { clear:both; background-color:#fff4d9; border-radius:10px; padding:10px 15px; font:14px/26px "Microsoft Yahei"; color:#e82600;}
+.zhuyi strong.t { font-size:18px;}
+

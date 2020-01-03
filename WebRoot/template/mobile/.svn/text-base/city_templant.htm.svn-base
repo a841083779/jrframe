@@ -1,0 +1,40 @@
+<%@ page language="java" import="java.sql.Connection,com.jerehnet.webservice.*,org.json.*,java.util.*,com.jerehnet.util.common.*,com.jerehnet.util.dbutil.*" pageEncoding="UTF-8"%>
+
+<%
+	String factory = CommonString.getFormatPara(request.getParameter("factory"));
+	String catalog = CommonString.getFormatPara(request.getParameter("catalog"));
+	String url="";
+	if(!catalog.equals("")){url=url+"catalog="+catalog;}
+	if(!factory.equals("")){url=url+"&factory="+factory;}
+	%>
+<!--区域下拉列表-->
+<div class="dl_area_list dl_sele fix">
+    <div class="l dl_sele_l">
+    <ul class="idTabs dl_sele_l_ls">
+	 <li style="height:0;"><a style="height:0" href="#area00"></a></li>
+	<#list query("select id,name,num,parent_num from pro_agent_province_city where parent_num=0 order by id asc ") as prevince > 
+	<#list query("select count(id) as count  from pro_agent_province_city where parent_num='${prevince.num}' ")  as item>
+        <li><a <#if item.count==0>href="agent_list.jsp?<%=url%>&city=${prevince.num}-${prevince.num}" <#else> href="#area${prevince_index+1}" </#if> >${prevince.name}<i><#if item.count==0><#else>${item.count}</#if></i></a></li>
+	  </#list>
+	  </#list>
+    </ul>
+  </div>
+  <div class="r dl_sele_r">
+  <div class="dl_sele_r_ls" id="area00">
+    </div>
+  <#list query("select id,name,num,parent_num from pro_agent_province_city where parent_num=0 order by id asc ") as previnces > 
+    <div class="dl_sele_r_ls" id="area${previnces_index+1}">
+      <ul>
+	   <li><a href="agent_list.jsp?<%=url%>&city=${previnces.num}-${previnces.num}"><span></span>全省</a></li>
+	   <#list query("select id,name,num,parent_num from pro_agent_province_city where parent_num='${previnces.num}' order by id asc ") as city >
+	   <#list query("select count(id) as count  from pro_agent_factory where city like '%${city.name}%' ") as items >
+        <li><a href="agent_list.jsp?<%=url%>&city=${previnces.num}-${city.num}"><span>${items.count}</span>${city.name}</a></li>
+		</#list>
+		</#list>
+      </ul>
+    </div>
+   </#list>
+  </div>
+  <div class="dl_sele_btm"></div>
+</div>
+<!--end 区域下拉列表 --> 

@@ -1,0 +1,11 @@
+    <div class="newsRight">
+      <div class="title">
+        <h3>活动推荐</h3>
+      </div>
+      <ul class="activity">
+        <li><a href="http://www.catwaji.com/tuijian/?utm_source=catwaji&utm_medium=owned&utm_content=kv1&utm_campaign=tuijian" target="_blank"><img src="/images/cathd.jpg" width="206" height="133" /></a></li>
+        <li><a href="http://product.21-sun.com/tuan/december/" target="_blank"><img src="/images/12ymt.jpg" width="206" height="133" /></a></li>
+        <li><a href="http://product.21-sun.com/tuan/november/" target="_blank"><img src="/images/11ymt.jpg" width="206" height="133" /></a></li>
+        <li><a href="http://news.21-sun.com/detail/2013/03/2013031822524360.shtml" target="_blank"><img src="../images/sany_c8.jpg" width="206" height="133" /></a></li>
+      </ul>
+    </div>

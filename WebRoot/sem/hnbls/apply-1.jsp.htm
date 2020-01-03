@@ -1,0 +1,275 @@
+<html>
+
+
+<!--begin--><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="style.css" tppabs="http://www.hnbls.com/style/style.css"></head>
+<script src="common.js" tppabs="http://www.hnbls.com/scripts/common.js"></script>
+<script src="prototype.js" tppabs="http://www.hnbls.com/scripts/prototype.js" ></script>
+<script  language="javascript">
+function f_frameStyleResize(targObj)   
+{   
+  var   targWin   =   targObj.parent.document.all[targObj.name]; 
+  if(targWin   !=   null)   
+  {   
+  var   HeightValue   =   targObj.document.body.scrollHeight   
+  if(HeightValue   <   100){HeightValue   =   100}   //不小于540  
+   targWin.height   =   HeightValue;
+  }   
+}  
+function   f_iframeResize()   
+{
+  f_frameStyleResize(self);
+}  
+window.onload=f_iframeResize;
+ </script>
+ 
+<script>
+function form_submit(id,delid)
+ {var str="";
+   if(id==0)
+   {if(formcheck())
+     {document.theform.action="apply-1.jsp-flag_save=1.htm"/*tpa=http://www.hnbls.com/job/apply.jsp?flag_save=1*/;
+      document.theform.method="post";
+      document.theform.submit();
+      }
+  }
+}
+ //判断表单的数据是否有效
+  function formcheck() 
+    { 
+       if(trim($("zd_name").value) == "") 
+         { alert("请输入姓名！");
+		   $("zd_name").focus();
+		   $("zd_name").select(); 
+           return false;
+         }
+      else if(trim($("zd_position").value)=="")
+         { alert("请输入应聘职位！");
+           $("zd_position").focus();
+		   $("zd_position").select(); 
+		   return false;
+         }
+     else if(trim($("zd_birthday").value)=="")
+         { alert("请输入出生年月！");
+           $("zd_birthday").focus();
+		   $("zd_birthday").select(); 
+		   return false;
+         }
+         
+     else if(trim($("zd_standing").value)=="")
+         { alert("请输入身高！");
+           $("zd_standing").focus();
+		   $("zd_standing").select(); 
+		   return false;
+         }
+
+     else if(trim($("zd_address").value)=="")
+         { alert("请输入籍贯！");
+           $("zd_address").focus();
+		   $("zd_address").select(); 
+		   return false;
+         }
+  
+
+	else if(trim($("zd_now_address").value)=="")
+         { alert("请输入现住址！");
+           $("zd_now_address").focus();
+		   $("zd_now_address").select(); 
+		   return false;
+         }
+    else if(trim($("zd_telephone").value)=="")
+         { alert("请输入联系电话！");
+           $("zd_telephone").focus();
+		   $("zd_telephone").select(); 
+		   return false;
+         }
+      
+
+   
+     else if(trim($("zd_college").value)=="")
+         { alert("请输入毕业院校！");
+           $("zd_college").focus();
+		   $("zd_college").select(); 
+		   return false;
+         }
+         
+     else if(trim($("zd_specialty").value)=="")
+         { alert("请输入专业！");
+           $("zd_specialty").focus();
+		   $("zd_specialty").select(); 
+		   return false;
+         }
+         
+     else if(trim($("zd_waiyu").value)=="")
+         { alert("请输入外语种类及程度！");
+           $("zd_waiyu").focus();
+		   $("zd_waiyu").select(); 
+		   return false;
+         }
+
+
+     else if(trim($("zd_work_years").value)=="")
+         { alert("请输入工作年限！");
+           $("zd_work_years").focus();
+		   $("zd_work_years").select(); 
+		   return false;
+         }
+  
+
+	else if(trim($("zd_work_experience").value)=="")
+         { alert("请输入工作经历！");
+           $("zd_work_experience").focus();
+		   $("zd_work_experience").select(); 
+		   return false;
+         }
+    else if(trim($("zd_self_evaluation").value)=="")
+         { alert("请输入自我评价！");
+           $("zd_self_evaluation").focus();
+		   $("zd_self_evaluation").select(); 
+		   return false;
+         }
+    
+         
+         
+    return true;      
+    }
+</script>
+
+
+<style type="text/css">
+<!--
+body {
+	background-color: #FFFFFF; font-family:Arial;
+}
+.p92{font-size:12px; color:#555; border-bottom:#EEE solid 1px;}
+.bor{ border:#C8C8C8 solid 1px;}
+-->
+</style>
+<body style="background-color: #FFFFFF">
+
+
+<form name="theform" style="margin:0;padding:0">
+
+<input name="zd_add_date" type="hidden" id="zd_add_date" value='2013-08-02 09:29:34' />
+<input name="zd_add_ip" type="hidden" id="zd_add_ip" value='119.180.98.134' />
+<input name="zd_add_user" type="hidden" id="zd_add_user" value='' />
+<input name="zd_language_version" type="hidden" id="zd_language_version" value='1' />
+<input name="zd_catalog_no" type="hidden" id="zd_catalog_no" value='jobs02' />
+<input name="zd_web_no" type="hidden" id="zd_web_no" value='10368' />
+<input name="zd_id" type="hidden" id="zd_id" value="0" />
+
+<div align="center"  style="padding-left:49px;padding-right:19px;width:660px">
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" id="table3" class="p92" style="margin-top:26px;">
+<tr>
+<td bgcolor="#F7F7F7">　　如果您对我们的职位感兴趣，请认真填写以下信息,真诚期待您的加盟！</td>
+</tr>
+
+<tr>
+<td bgcolor="#F7F7F7" align="center">----带<font color="red"> * </font>号的是必添信息----</td>
+</tr>
+
+<div align="center">
+
+<table width="100%" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC" class="p92" height="441">
+<tr bgcolor="#ECECEC">
+<td width="18%" align="center" bgcolor="#F5F5F5" height="28" nowrap>姓名</td>
+<td width="80%" bgcolor="#F5F5F5" nowrap>&nbsp;<input name="zd_name" type="text" id="zd_name" size="50" maxlength="50">
+<font color="red">*</font></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="center" height="28" nowrap>应聘职位</td>
+<td nowrap>&nbsp;<input name="zd_position" type="text" id="zd_position" size="50" maxlength="50"  value=""/>
+<font color="red">*</font></td>
+</tr>
+<tr bgcolor="#ECECEC">
+<td align="center" bgcolor="#F5F5F5" height="28" nowrap>性别</td>
+<td bgcolor="#F5F5F5" height="26" nowrap>&nbsp;<select name="zd_sex" id="zd_sex">
+<option value="男">男</option>
+<option value="女">女</option>
+</select>
+<font color="red">*</font></td>
+</tr>
+<tr bgcolor="#ECECEC">
+<td width="18%" align="center" bgcolor="#FFFFFF" height="28" nowrap>出生年月</td>
+<td width="80%" bgcolor="#FFFFFF" nowrap>&nbsp;<input name="zd_birthday" type="text" id="zd_birthday" size="15" /><font color="#FF0000">
+</font><font color="red">*</font></td>
+</tr>
+<tr bgcolor="#F5F5F5">
+<td align="center" height="28" nowrap >婚姻状况</td>
+<td nowrap>&nbsp;<select name="zd_marriage" id="zd_marriage">
+<option value="未婚">未婚</option>
+<option value="已婚">已婚</option>
+<option value="离异">离异</option>
+</select> <font color="red">*</font></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="center" height="28" nowrap>身高</td>
+<td nowrap>&nbsp;<input name="zd_standing" type="text" id="zd_standing" size="15" maxlength="15" />
+<font color="red">*</font></td>
+</tr>
+<tr bgcolor="#ECECEC">
+<td align="center" bgcolor="#F5F5F5" height="28" nowrap>籍贯</td>
+<td bgcolor="#F5F5F5" nowrap>&nbsp;<input name="zd_address" type="text" id="zd_address"  size="50" maxlength="50" /><font color="red"> *</font></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="center" height="28" nowrap>现住地址</td>
+<td nowrap>&nbsp;<input name="zd_now_address" type="text" id="zd_now_address"  size="50" maxlength="50" />
+<font color="red">*</font></td>
+</tr>
+<tr bgcolor="#ECECEC">
+<td align="center" bgcolor="#F5F5F5" height="28" nowrap>联系电话</td>
+<td bgcolor="#F5F5F5" nowrap>&nbsp;<input name="zd_telephone" type="text" id="zd_telephone" size="30" maxlength="30" />
+<font color="red">*</font></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="center" height="28" nowrap>邮箱</td>
+<td nowrap>&nbsp;<input name="zd_email" type="text" id="zd_email" size="30" maxlength="30" /></td>
+</tr>
+<tr bgcolor="#ECECEC">
+<td align="center" bgcolor="#F5F5F5" height="28" nowrap>学历</td>
+<td bgcolor="#F5F5F5" nowrap>&nbsp;<select name="zd_education" id="zd_education">
+<option value="初中">初中</option>
+<option value="高中" selected="selected">高中</option>
+<option value="大专">大专</option>
+<option value="本科">本科</option>
+<option value="研究生">研究生</option>
+<option value="博士">博士</option>
+</select> <font color="red">*</font></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="center" height="28" nowrap>毕业院校</td>
+<td nowrap>&nbsp;<input name="zd_college" type="text" id="zd_college" size="30" maxlength="30" />
+<font color="red">*</font></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="center" height="28" nowrap>专业</td>
+<td nowrap>&nbsp;<input name="zd_specialty" type="text" id="zd_specialty"  size="30" maxlength="30" />
+<font color="red">*</font></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="center" height="28" nowrap>外语种类及程度</td>
+<td nowrap>&nbsp;<input name="zd_waiyu" type="text" id="zd_waiyu"  size="30" maxlength="30" />
+<font color="red">*</font></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="center" height="28" nowrap>工作年限</td>
+<td nowrap>&nbsp;<input name="zd_work_years" type="text" id="zd_work_years"  size="30" maxlength="30" />
+<font color="red">*</font></td>
+</tr>
+<tr bgcolor="#ECECEC">
+<td align="center" bgcolor="#F5F5F5" nowrap>工作经历</td>
+<td bgcolor="#F5F5F5" nowrap>&nbsp;<textarea name="zd_work_experience" cols="60" rows="5" id="zd_work_experience"></textarea><font color="red">*</font></td>
+</tr>
+<tr bgcolor="#ECECEC">
+<td align="center" bgcolor="#F5F5F5" nowrap>自我评价</td>
+<td bgcolor="#F5F5F5" nowrap>&nbsp;<textarea name="zd_self_evaluation" cols="60" rows="5" id="zd_self_evaluation"></textarea><font color="red"> *</font></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td colspan="2" align="center" height="30"><input name="b_save" type="button" id="b_save" onClick="javascript:form_submit(0,0);" value="简历提交" style="font-size:12px;color:#fff;text-align:center; background: #065A9E"/>&nbsp;&nbsp;
+<input name="b_close" type="reset" id="b_close" value="重新填写"  style="font-size:12px;color:#fff;text-align:center; background: #065A9E"/></td>
+</tr>
+</table>
+</div>
+</form>

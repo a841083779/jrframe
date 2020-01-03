@@ -1,0 +1,18 @@
+﻿<#assign caseList = query(" select id from pro_case_news where is_approval=1 ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+		<url>
+            <loc>http://product.21-sun.com/case/</loc>
+            <lastmod>2014-06-11</lastmod>
+			<priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		<#list caseList as case>
+        <url>
+            <loc>http://product.21-sun.com/case/detail_for_${case.id?c}.htm</loc>
+            <lastmod>2014-06-11</lastmod>
+			<priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+	    </#list>
+</urlset>

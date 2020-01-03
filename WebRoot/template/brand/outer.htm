@@ -1,0 +1,89 @@
+<!--热门品牌-->
+<div class="hotBrand">
+  <div class="hbTitle">
+    <h2>热门品牌</h2>
+  </div>
+  <div class="hbContain">
+    <ul>
+      <li> 
+        <a href="komatsu/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/09031711183542_0.jpg" width="80" height="30" /></a>
+        <h3><a href="komatsu/" target="_blank">小松</a></h3>
+      </li>
+      <li> 
+        <a href="cat/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/20081204173853_0.jpg" original="/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a href="cat/" target="_blank">卡特</a></h3>
+      </li>
+      <li> 
+        <a href="volvo/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/09031718090534_0.jpg" original="/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a href="volvo/" target="_blank">VOLVO</a></h3>
+      </li>
+        <li> 
+        <a href="liebherr/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/20081204175150_0.jpg" original="/uploadfiles/20081204175150_0.jpg" width="80" height="30" /></a>
+        <h3><a href="liebherr/" target="_blank">利勃海尔</a></h3>
+      </li>
+       <li> 
+        <a href="kobelco/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/20081205142130_0.jpg" original="/uploadfiles/20081205142130_0.jpg" width="80" height="30" /></a>
+        <h3><a href="kobelco/" target="_blank">神钢</a></h3>
+      </li>
+      <li> 
+        <a href="hitachi/" target="_blank" ><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/20081205142317_0.jpg" original="/uploadfiles/20081205142317_0.jpg" width="80" height="30" /></a>
+        <h3><a href="hitachi/" target="_blank">日立</a></h3>
+      </li>
+      <li> 
+        <a href="sakai/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/09031718322659_0.jpg" original="/uploadfiles/09031718322659_0.jpg" width="80" height="30" /></a>
+        <h3><a href="sakai/" target="_blank">酒井</a></h3>
+      </li>
+      <li> 
+        <a href="jcb/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" src="/uploadfiles/09031713161592_0.jpg" original="/uploadfiles/09031713161592_0.jpg" width="80" height="30" /></a>
+        <h3><a href="jcb/" target="_blank">JCB</a></h3>
+      </li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
+<#assign inner_brands_upper_index = query(" select distinct upper_index from pro_agent_factory where is_show=1 and is_inner=0 and flag=1")> <!-- 国外品牌的首写字母 -->
+
+<!--热门品牌结束-->
+<!--字母列表-->
+<#if inner_brands_upper_index??&&(inner_brands_upper_index?size>0)>
+<#list inner_brands_upper_index as one_upper_index>
+<#assign inner_brands = query("  select is_qijiandian,id,logo,name,usern from pro_agent_factory where flag=1 and is_show=1 and is_inner=0 and logo is not null and upper_index='${one_upper_index.upper_index}' order by order_no desc ")>
+<div class="brandCondition">
+  <div class="contain980">
+    <div style="position: relative;"> <a style="position:absolute; top:-107px; " id="${one_upper_index.upper_index}" name="${one_upper_index.upper_index}"></a> </div>
+    <strong class="Letter">${one_upper_index.upper_index}</strong>
+    <div class="brandtopborder"></div>
+    <div class="brandcontain925">
+    <#list inner_brands as oneBrand>
+       <#--	<#assign total_agent = query("  select count(*) total from pro_agent_factory where agent_fac like '%${oneBrand.id}%' ")> -->
+          <#assign total_agent = query(" select count(*) total from pro_catalog_for_factory where factoryid='${oneBrand.id?c}'")>
+      <div class="blbg">
+       <#if total_agent??&&(total_agent?size>0)>
+        <#list total_agent as agent>
+          <div class="blp">
+          <#if oneBrand.is_qijiandian??&&(oneBrand.is_qijiandian==1)>
+          <a target="_blank" href="/brandshop/${oneBrand.usern}/">
+          <#else>
+           <a target="_blank" href="${oneBrand.usern}/">
+         </#if>
+        <img width="80" height="30"  src="/uploadfiles/${oneBrand.logo}" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"  style="display: inline;"></a></div>
+        <div class="bli">有<font>${agent.total}</font>个系列<br>
+        <#setting url_escaping_charset='utf-8'> 
+          [<a target="_blank" class="link13" href="/agent/0_0_${oneBrand.id?c}_0.shtm">代理商</a>]</div>
+         </#list>
+         </#if>
+        <h3 class="bln">
+         <#if oneBrand.is_qijiandian??&&(oneBrand.is_qijiandian==1)>
+        <a target="_blank" href="/brandshop/${oneBrand.usern}/">${oneBrand.name}</a>
+        <#else>
+        <a target="_blank" href="${oneBrand.usern}/">${oneBrand.name}</a>
+        </#if>
+        </h3>
+      </div>
+    </#list> 
+    </div>
+    <div class="brandbottomborder"></div>
+  </div>
+</div>
+</#list>
+</#if>

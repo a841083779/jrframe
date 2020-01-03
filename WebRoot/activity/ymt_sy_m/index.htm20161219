@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<title>抢大红包，提前过年！---三一“压得快”系列压路机 首发狂欢</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="design by www.jerei.com">
+<link href="static/ui/ui.css" rel="stylesheet">
+<link href="style/style.css" rel="stylesheet">
+<script>
+//4.4以下js适配
+(function(){
+    if (/Android (\d+\.\d+)/.test(navigator.userAgent)) {
+        var version = parseFloat(RegExp.$1);
+        if(version<4.4){
+        	var phoneScale = parseInt(window.innerWidth) / 640;
+        	var rootSize = phoneScale*100+'px';
+        	document.documentElement.style.fontSize = rootSize;
+        }
+    } 
+})()
+</script>
+</head>
+
+<body>   
+<div class="header" id="target_top">
+  <div class="wrap">
+    <a href="http://m.21-sun.com/product/ymt.htm"><h1 class="logo">铁臂商城</h1></a>
+    <a href="tel:4006-521-526"><span class="headRight"></span></a>
+  </div>
+</div>
+<div class="banner">
+  <div class="banner-top"><img src="static/images/banner.jpg"></div>
+  <div class="banner-bot"><img src="static/images/banner_bot.jpg"></div>
+</div>
+<div class="main">
+  <div class="wrap">
+    <div class="titleTxt main-title">
+      <h3>-活动产品-</h3>
+      <p>施工效率高、综合性能好、动力强劲</p>
+    </div>
+    <div class="pro-list">
+      <ul>
+        <li>
+          <a href="http://m.21-sun.com/product//proDetail/SSR200AC-8.htm"><img src="images/pro_1.jpg" alt="SSR200AC-8全液压单驱单钢轮压路机"></a>
+          <div class="pro-infor fix">
+            <span class="pro-tip l">首发预售价</span>
+            <h3 class="pro-price l"><i>&yen;</i>33.8万<span>(预付认筹金再享3重优惠)</span></h3>
+            <span class="pri-price r">&yen;39万</span>
+          </div>
+          <div class="buy-btn fix"><a class="order-btn r" href="javascript:;">立即预定</a></div>
+        </li>
+        <li>
+          <a href="http://m.21-sun.com/product//proDetail/SSR220AC-8.htm"><img src="images/pro_2.jpg" alt="SSR220AC-8全液压单驱单钢轮压路机"></a>
+          <div class="pro-infor fix">
+            <span class="pro-tip l">首发预售价</span>
+            <h3 class="pro-price l"><i>¥</i>34.8万<span>(预付认筹金再享3重优惠)</span></h3>
+            <span class="pri-price r">¥40万</span>
+          </div>
+          <div class="buy-btn fix"><a class="order-btn r" href="javascript:order('1');">立即预定</a></div>
+        </li>
+      </ul>
+    </div>
+    <div class="wechat-share fix">
+      <div class="wechat-box l">
+        <img src="static/images/wechat.jpg"><br>立即推荐给好友
+      </div>
+      <div class="wechat-des r">
+        <h3>推荐有礼</h3>
+        <p>凡推荐朋友全款购买SSR200/220AC-8压路机，推荐人可获得1000元现金奖励。购买成功后，联系在线客服领取。</p>
+      </div>
+    </div>
+    <div class="activity-des">
+      <h3 class="titleTxt">-活动说明-</h3>
+      <p><span class="des-name">活动时间</span><span class="des-cont"><i>2016年12月13日-2017年01月15日</i></span></p>
+      <p><span class="des-name">活动对象</span><span class="des-cont">支付千元认筹金并<i>全款购机</i>的客户可享3重优惠。</span></p>
+      <p><span class="des-name">关于认筹金</span><span class="des-cont">缴纳的认筹金，可在<i>2017年3月31日</i>之后申请退款。</span></p>
+      <p><span class="des-name">发货时间</span><span class="des-cont"><i>2017年1月15日之后。可工厂自提，</i>代发货需自行承担运费。</span></p>
+      <p><span class="des-name">优惠说明</span><span class="des-cont">“千元认筹享3重好礼”仅限活动时间内前31位全款成交客户。</span></p>
+    </div>
+  </div>
+</div>
+
+<div class="alert-bg">
+  <div class="form-box">
+    <form>
+      <label class="titleTxt">-产品订购-</label>
+      <span>* 产品型号：</span><select name="proType" id="proType"><option data-value="SSR200AC-8">SSR200AC-8</option><option data-value="SSR220AC-8">SSR220AC-8</option></select><br />
+      <span>* 姓名：</span><input type="text" name="userName" id="userName" /><br />
+      <span>* 联系电话：</span><input type="text" name="userTel" id="userTel" /><br />
+      <span>* 区域：</span><div id="citySelect" class="citySelect"><select class="prov"></select><select class="city" disabled="disabled"></select></div>
+      <input type="button" name="submitBtn" id="submitBtn" />
+    </form>
+    <div class="close-btn"></div>
+  </div>
+</div>
+
+</body>
+<script src="static/lib/jquery/jquery.js"></script>
+<script src="static/lib/citySelect/jquery.cityselect.js"></script>
+<script src="js/index.js"></script>
+</html>

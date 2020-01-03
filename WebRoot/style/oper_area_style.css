@@ -1,0 +1,146 @@
+.title_bar {
+	height: 26px;
+	background-image: url(../../../images/admin/oper_title_bg.gif);
+	vertical-align: middle;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	margin: 0px;
+	padding: 0px 6px;
+	line-height: 140%;
+}
+.table_border_bg {
+	background-color: #EEEEEE;
+}
+.list_border_bg {
+	background-color: #EEEEEE;
+}
+.table_border_cell_bg {
+	background-color: #FFFFFF;
+	height: 22px;
+	font-size: 9pt;
+	color: #333333;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+}
+.list_cell_bg {
+	background-color: #FFFFFF;
+	height: 22px;
+	font-size: 9pt;
+	color: #333333;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 6px;
+}
+.table_title {
+	background-image: url(../../../images/admin/oper_table_title_bg.gif);
+	height: 32px;
+	font-size: 10pt;
+	color: #333333;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+}
+.list_left_title {
+	font-size: 10pt;
+	color: #333333;
+	text-align: right;
+	background-color: #FFFFFF;
+	vertical-align: middle;
+	font-weight: bold;
+	padding-left: 10px;
+
+}
+.oper_text_button_bar {
+	font-size: 10pt;
+	color: #0066CC;
+	text-align: center;
+	background-color: #FFFFFF;
+	vertical-align: middle;
+	font-weight: bold;
+	height: 26pt;
+}
+.table_oper_tr {
+	text-align: center;
+	height: 28pt;
+	background-position: center;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+
+
+
+}
+.form_select {
+	font-size: 9pt;
+}
+.form_input {
+	font-size: 9pt;
+}
+.form_radio {
+	font-size: 9pt;
+}
+.form_textarea {
+	font-size: 9pt;
+}
+.form_checkbox {
+	font-size: 9pt;
+}
+.form_button {
+	font-size: 9pt;
+}
+.text_button {
+	font-size: 9pt;
+	color: #0066CC;
+}
+.text_button2 {
+	font-size: 9pt;	
+}
+.page_ctrl {
+	font-size: 9pt;
+	color: #006699;
+}
+.text_audition_no {
+	font-size: 9pt;
+	color: #FF0000;
+}
+.test_must {
+	font-size: 10pt;
+	color: #FF0000;
+	font-weight: normal;
+
+}
+.text_remark {
+	font-size: 9pt;
+	line-height: 160%;
+	color: #999999;
+	text-align: left;
+	vertical-align: middle;
+
+}
+.text3 {
+	font-size: 11pt;
+	line-height: 160%;
+	color: #0066CC;
+
+}
+.help_tip {
+	font-size: 9pt;
+	color: #333333;
+	background-color: #FFFFCC;
+	margin: 4pt;
+	padding: 8pt;
+	border: 1px solid #FFCC66;
+}
+
+.font_big {
+	font-size: 10pt;
+}
+.title1 {
+	font-size: 10pt;
+	color: #000000;
+}

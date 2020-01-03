@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<title>${model.factoryname}${model.name}${model.catalogname}参数_报价_${model.factoryname}${model.catalogname} – ${model.factoryname}${model.catalogname}专栏</title>
+<meta name="keywords" content="${model.factoryname}${model.name}${model.catalogname},${model.factoryname}${model.catalogname},${model.factoryname},${model.catalogname},${model.catalogname}专栏" />
+<meta name="description" content="${model.catalogname}专栏提供卡${model.factoryname}${model.catalogname}具体参数,包括发动机型号，功率等，帮助您更好的了解${model.factoryname}${model.name}${model.catalogname}，买${model.factoryname}${model.name}${model.catalogname}就上铁臂商城。" />
+<link href="/Static/css/style.css" rel="stylesheet" />
+<link href="modules/jBox-v2.3/Skins2/Blue/jbox.css" rel="stylesheet" type="text/css"></link>
+
+
+
+
+<script type="text/javascript" src="http://product.21-sun.com/scripts/rememberAccount.js"></script>
+</head>
+<body class="pro kbddetail_body">
+<header>
+  <h2 class="logo"><img src="/Static/img/logo.png" alt="铁臂商城"></h2>
+  <a href="javascript:history.back()" class="bc"><img src="/Static/img/back.png"></a>
+  <a href="/brands_list.jsp" class="search">筛选<img src="/Static/img/search_ico.png"></a>
+</header>
+
+<div class="swiper-container index">
+  <a href="javascript:void(0)" class="arr_ arr_left"></a>
+  <a href="javascript:void(0)" class="arr_ arr_right"></a>
+  <div class="swiper-wrapper">
+   <#list query("select name,img_name from pro_product_pic where product_id =${model.id?c} ") as pics>
+     <#if pics.img_name?contains("uploadfiles")>
+          <div class="swiper-slide"><a href="javascript:void(0)"><img title="${pics.name}" src="http://m.product.21-sun.com/${pics.img_name?replace('image', '')}"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" ></a></div>
+      <#elseif pics.img_name?contains("image")>
+          <div class="swiper-slide"><a href="javascript:void(0)"><img title="${pics.name}" src="http://m.product.21-sun.com/uploadfiles/${pics.img_name?replace('image', '')}"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" ></a></div>
+	 <#else>
+          <div class="swiper-slide"><a href="javascript:void(0)"><img title="${pics.name}" src="http://m.product.21-sun.com/uploadfiles/${pics.img_name?replace('image', '')}"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" ></a></div>
+	 </#if>
+  </#list>
+  </div>
+  <div class="pagination"></div>
+</div>
+
+<div class="detailT">
+  <div class="dtt">
+    <h1 class="proName">${model.factoryname}${model.name}${model.catalogname}</h1>
+    <div class="p">参考价格：
+	 <#if (model.price_start??&&model.price_start!=0)&&(model.price_end??&&model.price_end!=0)>
+	       <font>${model.price_start}-${model.price_end}万</font>
+	    <#else>
+	       面议
+	 	</#if></div>
+    <div class="tool"><i></i>
+     <!-- <ul class="lk">
+        <li><a href="#"><img src="Static/img/li01.png">复制产品标题</a></li>
+        <li><a href="#"><img src="Static/img/li02.png">复制产品链接</a></li>
+      </ul>-->
+    </div>
+  </div>
+  <div class="bm">
+    <a href="javascript:void(0);" onclick="addShop();return false;"><img src="Static/img/bm.png">收藏</a>
+  </div>
+</div>
+
+<div class="proT">
+  <ul class="idTabs">
+    <li><a href="#pt01" class="selected">产品性能</a></li>
+    <li><a href="#pt02">产品参数</a></li>
+   <li><a href="#pt03">产品评论</a></li>
+  </ul>
+</div>
+
+<div class="proC">
+  <div id="pt01" class="pcc">
+      <div class="pcc_nr">
+       <#if (model.introduce?? && model.introduce?length > 11)>${model.introduce?replace("?","")}<#else>暂无介绍</#if>
+      </div>
+      <div class="load_more">加载更多</div>
+  </div>
+  <div id="pt02" class="pcc">
+      <div class="pcc_nr">
+       <#if (model.paras?? && model.paras?length > 15)>${model.paras?replace("m3","m<sup>3</sup>")?replace("m2","m<sup>2</sup>")?replace("?","")}<#else>暂无参数</#if>
+      </div>
+      <div class="load_more">加载更多</div>
+  </div>
+ <div id="pt03" class="pcc">
+    <#assign proList = query(" select name,content from pro_comments where product_id =${model.id?c}")>
+         <ul>
+	  <#if proList??&&(proList?size>0)>
+    <#list proList as oneComment>
+	<li style="border-bottom: #f1f1f1 1px solid;">${oneComment.name}评论：${oneComment.content}</li>
+    </#list>
+	<#else>
+	暂无相关评论！
+	</#if>
+	</ul>
+      <div class="load_more">加载更多</div>
+  </div>
+</div>
+
+<div class="pdet_form">
+<form action="/action/order_save_koubei_mobiles.jsp" method="post" name="form1" id="form1" >  
+	<div class="pdet_fwz">填写您的联系方式，销售人员会尽快与您联系！</div>
+    <div class="pdet_inp">姓名：<input type="text" name="zd_name" id="zd_name" /></div>
+    <div class="pdet_inp">电话：<input type="text" name="zd_mobile_phone" id="zd_mobile_phone"/></div>
+	     <input name = "zd_factoryname" type="hidden" id="zd_factoryname" value="${model.factoryname}"/>
+          <input name = "zd_product_name" type="hidden" id="zd_product_name" value="${model.product_name}"/>
+         <input type="hidden" name="zd_cataname" id="zd_cataname" value="${model.cataname}" />
+         <input type="hidden" name="zd_product_id" id="zd_product_id" value="${model.product_id}" />
+         <input type="hidden" name="zd_factoryid" id="zd_factoryid" value="${model.factoryid}" />
+         <input type="hidden" name="zd_catanum" id="zd_catanum" value="${model.catalognum}" />
+    <div class="pdet_fsub"><a href="javascript:void(0)" onclick="submitYN(this);">立即订购</a></div>
+	</form>
+</div>
+
+<!--#include virtual="/mobile/foot.jsp"-->
+</body>
+<script src="/Static/js/seajs/sea.js" id="seanode"></script>
+<script src="/Static/js/seajs/seajs.config.js"></script>
+
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/scripts/jquery.form.js"></script>
+<script src="http://product.21-sun.com/scripts/scripts.js"></script>
+
+<script>
+	var jrChannel='0#0';
+	seajs.use('app/product.js');
+</script>
+<script type="text/javascript">
+function addShop(){　 // 收藏店铺
+    try{
+       window.external.addFavorite('http://m.product.21-sun.com/${model.file_name}', '${model.factoryname}${model.name}${model.catalogname}');
+   }catch (e){
+       try{
+           window.sidebar.addPanel('${model.factoryname}${model.name}${model.catalogname}','http://m.product.21-sun.com/${model.file_name}',"");
+       }catch (e){
+           alert("加入收藏失败，请使用Ctrl+D进行添加");
+       }
+   }
+}
+</script> 
+<script>
+	function submitYN(event) {
+	
+
+     
+	var mobile_phone_reg = /^1([\d]{10})$/;
+	 var connect_reg=/^((0\d{2,3})-)(\d{7,8})(-(\d{3,}))?$/;
+	 // var connect_reg = /^(([0\+]\d{2,3}-)?(0\d{2,3})-)?(\d{7,8})(-(\d{3,}))?|(0([\d]{10}))$/;
+	var emailreg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+	
+	var  content = jQuery.trim(jQuery("#zd_message").val()) ;
+		   if(content!=content.replace(/<\/?[^>]*>/g,'').replace('&lt','').replace('&gt','') || (content.indexOf("www")!=-1 || content.indexOf("http")!=-1)){
+		       //alert('您的留言内容不符合规则，请重新输入!') ;	
+		      // jQuery("#zd_message").val("") ;
+		      // jQuery("#zd_message").focus() ;
+		        //return false ;
+    }
+	/*
+	if (null == jQuery("#zd_name").val() || jQuery("#zd_name").val().length == 0) {
+		jQuery.jBox.tip("请输入您的姓名!");
+		setTimeout(function() {
+			jQuery("#zd_name").focus();
+		},
+		0);
+		return false;
+	}
+	if ((null == jQuery("#zd_mobile_phone").val() || jQuery("#zd_mobile_phone").val().length == 0)) {
+		jQuery.jBox.tip("请输入您的手机或固定电话！");
+		setTimeout(function() {
+		 	jQuery("#zd_mobile_phone").focus();
+		},
+		10);
+		return false;
+	}
+	if (jQuery("#zd_mobile_phone").val().length != 0 && (!mobile_phone_reg.test(jQuery('#zd_mobile_phone').attr("value"))&&!connect_reg.test(jQuery('#zd_mobile_phone').attr("value")))) {
+		jQuery.jBox.tip("请输入正确的电话号码!");
+		setTimeout(function() {
+			jQuery("#zd_mobile_phone").focus();
+			jQuery("#zd_mobile_phone").select(); 
+		},
+		10);
+		return false;
+	}
+	if(jQuery("#zd_ifgroup").val()=='公司'){
+		if(jQuery("#zd_company").val()=='公司名字' || jQuery.trim(jQuery("#zd_company").val())==''){
+			jQuery.jBox.tip("请输入公司名字") ;
+			jQuery("#zd_company").focus() ;
+		     return false ;
+		}
+	} 
+  */
+  if (null == jQuery("#zd_name").val() || jQuery("#zd_name").val().length == 0) {
+		alert("请输入您的姓名!");
+		setTimeout(function() {
+			jQuery("#zd_name").focus();
+		},
+		0);
+		return false;
+	}
+	if (jQuery("#zd_mobile_phone").val().length != 0 && (!mobile_phone_reg.test(jQuery('#zd_mobile_phone').attr("value"))&&!connect_reg.test(jQuery('#zd_mobile_phone').attr("value")))) {
+		alert("请输入正确的电话号码!");
+		setTimeout(function() {
+			jQuery("#zd_mobile_phone").focus();
+			jQuery("#zd_mobile_phone").select(); 
+		},
+		10);
+		return false;
+	}
+	jQuery("#zd_contact_address").val(jQuery("#zd_province").val()+jQuery("#zd_city").val()) ;
+	//jQuery("#form1").submit() ;
+  				jQuery("#form1").ajaxSubmit({
+				type : "POST",
+				async : false ,
+				success : function(data){
+			     if(jQuery.trim(data)=='no'){
+				   alert("您输入的内容中含有敏感词，请重新输入") ;
+				    jQuery("#content").val("") ;
+		            jQuery("#content").focus() ; 
+				   return ;
+				}
+					alert("订购成功！");
+					//getComment();
+					jQuery("#form1").clearForm();
+		
+				}					  
+			});
+
+}
+
+</script>
+</html>

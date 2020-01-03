@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 2.6//EN"
+        "http://tuckey.org/res/dtds/urlrewrite2.6.dtd">
+
+<!--
+	
+	Configuration file for UrlRewriteFilter
+	http://tuckey.org/urlrewrite/
+	
+-->
+
+<urlrewrite>
+	
+	<rule>
+		<from>
+			/agent/([\d\D]*)/([\d\D]*).shtm
+		</from>
+		<to>
+			/agent/$2.jsp?usern=$1
+		</to>
+	</rule>
+	
+	<rule>
+		<from>
+			/agent/([\d\D]*)/$
+		</from>
+		<to>
+			/agent/detail.jsp?usern=$1
+		</to>
+	</rule>
+	
+	<rule>
+		<from>
+			/agent/([^\.]+)$
+		</from>
+		<to>
+			/agent/detail.jsp?usern=$1
+		</to>
+	</rule>
+	
+	<rule>
+		<from>
+			/agentshop/([\d\D]*)/([\d\D]*).htm
+		</from>
+		<to>
+			/agentshop/$2.jsp?usern=$1
+		</to>
+	</rule>
+		<rule>
+		<from>
+			/domainshop/([\d\D]*)/([\d\D]*).htm
+		</from>
+		<to>
+			/domainshop/$2.jsp?usern=$1
+		</to>
+	</rule>
+	<rule>
+		<from>
+			/agentshop/([\d\D]*)/$
+		</from>
+		<to>
+			/agentshop/detail.jsp?usern=$1
+		</to>
+	</rule>
+		<rule>
+		<from>
+			/domainshop/([\d\D]*)/$
+		</from>
+		<to>
+			/domainshop/detail.jsp?usern=$1
+		</to>
+	</rule>
+		<rule>
+		<from>
+			/agentshop02/([\d\D]*)/([\d\D]*).htm
+		</from>
+		<to>
+			/agentshop02/$2.jsp?usern=$1
+		</to>
+	</rule>
+	<rule>
+		<from>
+			/agentshop03/([\d\D]*)/([\d\D]*).htm
+		</from>
+		<to>
+			/agentshop03/$2.jsp?usern=$1
+		</to>
+	</rule>
+		<rule>
+		<from>
+			/agentshop02/([\d\D]*)/$
+		</from>
+		<to>
+			/agentshop02/detail.jsp?usern=$1
+		</to>
+		</rule>
+		
+		<rule>
+		<from>
+			/agentshop03/([\d\D]*)/$
+		</from>
+		<to>
+			/agentshop03/detail.jsp?usern=$1
+		</to>
+		</rule>	
+	<rule>
+		<from>
+			/([\d\D]*)/([a-zA-Z]+)_for_([0-9]+).htm
+		</from>
+		<to>
+		/$1/$2.jsp?id=$3
+		</to>
+	</rule>
+	
+	 <rule>
+		<from>
+			/agent/([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*).shtm
+		</from>
+		<to>
+			/agent/index.jsp?province=$1&amp;city=$2&amp;factoryid=$3&amp;catalog=$4
+		</to>
+	</rule>
+	
+	<rule>
+		<from>
+			/agent/([\d\D]*)-([\d\D]*)-([\d\D]*)-([\d\D]*)-([\d\D]*).shtm
+		</from>
+		<to>
+			/agent/index.jsp?province=$1&amp;city=$2&amp;factoryid=$3&amp;catalog=$4&amp;offset=$5
+		</to>
+	</rule>
+	
+	<rule>
+		<from>
+			/inquiry/area_for_([\d\D]*)_([\d\D]*)_([\d\D]*).htm
+		</from>
+		<to>
+		/inquiry/area.jsp?id=$1&amp;province=$2&amp;city=$3
+		</to>
+	</rule>
+	
+	
+	 <rule>
+		<from>
+			/inquiry/([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*).shtm
+		</from>
+		<to>
+			/inquiry/index.jsp?province=$1&amp;city=$2&amp;factoryid=$3&amp;catalog=$4&amp;offset=$5
+		</to>
+	</rule>
+	
+	<!-- 品牌大全 -->
+	<rule>
+		<from>
+			/brand/([\d\D]*)/([\d\D]*)_([\d\D]*).htm
+		</from>
+		<to>
+			/brand/$2.jsp?usern=$1&amp;catalog=$3
+		</to>
+	</rule>
+	
+	<!-- 口碑 -->
+
+	<rule>
+		<from>
+			/koubei/([\d\D]*)-([\d\D]*)-([\d\D]*)-([\d\D]*)-([\d\D]*).htm
+		</from>
+		<to>
+			/koubei/index.jsp?catalog=$1&amp;factory=$2&amp;orderby=$3&amp;goodbad=$4&amp;offset=$5
+		</to>
+	</rule>
+		<!--维修-->
+	<rule>
+		<from>
+			/weixiu/([\d\D]*)-([\d\D]*)-([\d\D]*)-([\d\D]*).htm
+		</from>
+		<to>
+		/weixiu/network.jsp?catalog=$4&amp;factory=$3&amp;province=$1&amp;city=$2
+		</to>
+	</rule>
+	
+	
+   <rule>
+		<from>
+			/weixiu/([\d\D]*)-([\d\D]*)-([\d\D]*).htm
+		</from>
+		<to>
+		/weixiu/index.jsp?catalog=$1&amp;area=$2&amp;factory=$3
+		</to>
+	</rule>
+	
+	<rule>
+		<from>
+			/weixiu/detail_for_([\d\D]*)_([\d\D]*)_([\d\D]*).htm
+		</from>
+		<to>
+		/weixiu/detail.jsp?catalognum=$2&amp;factoryid=$1&amp;id=$3
+		</to>
+	</rule>
+	
+    <rule>
+		<from>
+			/search/(.*)_([\d\D]*)_([\d\D]*)_([\d\D]*).htm
+		</from>
+		<to>
+		/search/index.jsp?keyword=$1&amp;factory=$2&amp;catalog=$3&amp;nowPage=$4
+		</to>
+	</rule>
+	
+	<!--排行榜无分页列表-->
+	<rule>
+		<from>
+			/top/brand_([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*).htm
+		</from>
+		<to>
+		/top/brand_detail.jsp?year=$1&amp;month=$2&amp;season=$3&amp;catalog=$4&amp;area=$5
+		</to>
+	</rule>
+	
+	
+    <rule>
+		<from>
+			/top/pro_([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*).htm
+		</from>
+		<to>
+		/top/detail.jsp?year=$1&amp;month=$2&amp;season=$3&amp;factory=$4&amp;catalog=$5&amp;tonnage=$6
+		</to>
+	</rule>
+	
+	
+	<!--排行榜有分页详细列表-->
+	<rule>
+		<from>
+			/top/blist_([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*).htm
+		</from>
+		<to>
+		/top/brand.jsp?year=$1&amp;month=$2&amp;season=$3&amp;catalog=$4&amp;area=$5&amp;offset=$6
+		</to>
+	</rule>
+	
+	
+	<rule>
+		<from>
+			/top_list/plist_([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*)_([\d\D]*).htm
+		</from>
+		<to>
+		/top_list/products.jsp?year=$1&amp;month=$2&amp;season=$3&amp;factoryid=$4&amp;catalog=$5&amp;tonnage=$6&amp;offset=$7
+		</to>
+	</rule>
+	
+	
+</urlrewrite>

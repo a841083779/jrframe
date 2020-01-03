@@ -1,0 +1,5 @@
+								<#if list?? && (list?size>0)>
+								<#list list as list>
+									<a target="_blank" href="${list.title_url}" target="_blank" class="l" title="${list.title?replace("^R","®")}">${list.title?replace("^R","®")}</a>
+								</#list>
+								</#if>

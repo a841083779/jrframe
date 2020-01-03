@@ -1,0 +1,32 @@
+<script type="text/javascript" src="/scripts/jquery.jcarousel.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    jQuery('#mycarousel_pl01').jcarousel({
+    });
+});
+</script>
+<#assign list = query(" select top 20 img2,name,catalogname,factoryname,id from pro_products where img2 is not null and img2 != '' order by id desc ")>
+<ul id="mycarousel_pl01" class="jcarousel-skin-hp01">
+  <li>
+    <div class="picList">
+    <#list list as photo>
+    <#if (photo_index <= 9) >
+      <div><a target="_blank" href="/photo/detail_for_${photo.id?c}.htm"><img src="/uploadfiles/${photo.img2}" width="153" height="114" alt="${photo.factoryname!""} ${photo.name!""} ${photo.catalogname!""}" /></a>
+        <h4><a target="_blank" href="/photo/detail_for_${photo.id?c}.htm">${photo.factoryname!""} ${photo.name!""} ${photo.catalogname!""}</a></h4>
+      </div>
+    <#else>
+    	<#break>
+    </#if>
+    </#list>   
+  </li>
+  <li>
+    <div class="picList">
+    <#list list as photo>
+    <#if (photo_index >= 10) >
+      <div><a target="_blank" href="/photo/detail_for_${photo.id?c}.htm"><img src="/uploadfiles/${photo.img2}" width="153" height="114" alt="${photo.factoryname!""} ${photo.name!""} ${photo.catalogname!""}" /></a>
+        <h4><a target="_blank" href="/photo/detail_for_${photo.id?c}.htm">${photo.factoryname!""} ${photo.name!""} ${photo.catalogname!""}</a></h4>
+      </div>
+    </#if>
+    </#list>  
+  </li>
+</ul>

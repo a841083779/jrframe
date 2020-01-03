@@ -1,0 +1,48 @@
+<#assign factory_list = query(" select id from pro_agent_factory where is_show = 1 ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list factory_list as factory >
+	<url>
+		<loc>http://koubei.21-sun.com/comment-0-${factory.id?c}-0-0-0.htm</loc>
+		<lastmod>${.now}</lastmod>
+		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://koubei.21-sun.com/comment-0-${factory.id?c}-pubdate-0-0.htm</loc>
+		<lastmod>${.now}</lastmod>
+		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://koubei.21-sun.com/comment-0-${factory.id?c}-help-0-0.htm</loc>
+		<lastmod>${.now}</lastmod>
+		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	</#list>
+	<url>
+		<loc>http://koubei.21-sun.com/new/</loc>
+		<lastmod>${.now}</lastmod>
+		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://koubei.21-sun.com/comment-0-0-0-0-0.htm</loc>
+		<lastmod>${.now}</lastmod>
+		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://koubei.21-sun.com/comment-0-0-pubdate-0-0.htm</loc>
+		<lastmod>${.now}</lastmod>
+		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>http://koubei.21-sun.com/comment-0-0-help-0-0.htm</loc>
+		<lastmod>${.now}</lastmod>
+		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+</urlset>

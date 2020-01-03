@@ -1,0 +1,9 @@
+﻿@charset "utf-8";
+
+.i2 { width:286px;}
+.list08 div.li ul li.i2 { width:281px;}
+.i3 { width:140px;}
+.i4 { width:110px;}
+.i6 { width:150px;}
+.i7 { width:150px;}
+

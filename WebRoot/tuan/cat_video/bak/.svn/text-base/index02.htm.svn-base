@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<title>卡特帮视频抢先看</title>
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<!--[if IE 6]><script src="scripts/pngfix.js">/* s,i,.pngfix,.pngimg img */</script><![endif]-->
+</head>
+<body>
+<!--top-->
+<!--#include virtual="/include/top.jsp"--> 
+<!--end of top--> 
+<!--main-->
+<div class="main">
+  <div class="wrap">
+    <span class="video">
+      <embed src="http://player.youku.com/player.php/sid/XNzExMDM0MDcy/v.swf" allowFullScreen="true" quality="high" width="453" height="275" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+    </span>
+  </div>
+  <div class="wrap box" style="height:841px; margin-bottom:8px;">
+    <div class="text01 dash">我们有幸邀请您提前赏鉴卡特帮宣传片，并真诚的希望您能在观后作答简单问卷，您的任何反馈都将对卡特帮计划产生积极影响。</div>
+    <ul class="wenti">
+      <li>
+        <strong class="t">Q1：您目前是_________?</strong>
+        <p>
+          <span><input type="radio" name="radio" id="radio" value="radio">挖掘机手</span>
+          <span><input type="radio" name="radio" id="radio2" value="radio">机主，也曾有挖机操作经验</span>        
+          <span><input type="radio" name="radio" id="radio3" value="radio">其他（请说明：<input type="text" name="textfield" id="textfield" class="bc">）</span>
+        </p>
+      </li>
+      <li>
+        <strong class="t">Q2：看完视频，您是否了解‘卡特帮’可以为您提供什么样的帮助? </strong>
+        <p>
+          <span>
+          <input type="radio" name="radio4" id="radio4" value="radio4">是</span>
+          <span>
+          <input type="radio" name="radio4" id="radio5" value="radio4">否</span>        
+          <span>
+          <input type="radio" name="radio4" id="radio6" value="radio4">不确定（请说明：<input type="text" name="textfield" id="textfield" class="bc">）</span>
+        </p>
+      </li>
+      <li>
+        <strong class="t">Q3：看完视频，您是否愿意加入卡特英雄俱乐部，向卡特专家提问？</strong>
+        <p>
+          <span>
+          <input type="radio" name="radio7" id="radio7" value="radio7">是</span>
+          <span>
+          <input type="radio" name="radio7" id="radio8" value="radio7">否</span>        
+          <span>
+          <input type="radio" name="radio7" id="radio9" value="radio7">不确定（请说明：<input type="text" name="textfield" id="textfield" class="bc">）</span>
+        </p>
+      </li>
+      <li>
+        <strong class="t">Q4：您是否愿意将视频分享给其他朋友？</strong>
+        <p>
+          <span>
+          <input type="radio" name="radio10" id="radio10" value="radio10">是</span>
+          <span>
+          <input type="radio" name="radio10" id="radio11" value="radio10">否</span>        
+          <span>
+          <input type="radio" name="radio10" id="radio12" value="radio10">不确定（请说明：<input type="text" name="textfield" id="textfield" class="bc">）</span>
+        </p>
+      </li>
+      <li>
+        <strong class="t">Q5：您是否喜欢这支视频？从1-5分打分</strong>
+        <p>
+          <span>
+          <input type="radio" name="radio13" id="radio13" value="radio13">1分，非常不喜欢</span>
+          <span>
+          <input type="radio" name="radio13" id="radio14" value="radio13">2分，不太喜欢</span>        
+          <span>
+          <input type="radio" name="radio13" id="radio15" value="radio13">3分，一般</span>
+          <span>
+          <input type="radio" name="radio13" id="radio16" value="radio13">4分，喜欢</span>
+          <span>
+          <input type="radio" name="radio13" id="radio17" value="radio13">5分，非常喜欢</span>
+        </p>
+      </li>
+    </ul>
+    <div class="text02">感谢您的配合，您的意见非常宝贵，希望您能继续关注卡特彼勒，祝您工作生活愉快！</div>
+    <div class="formBtn">
+      <input type="submit" name="button2" id="button2" value="&nbsp;" class="btn">
+    </div>
+  </div>
+  <div class="footInfo"><span>产品询价专线：4006-521-526</span><span><a href="http://www.21-sun.com/" target="_blank">中国工程机械商贸网</a> Copyright &copy; 2000-<script type="text/javascript">document.write((new Date()).getFullYear());</script></span></div>
+</div>
+<!--main end-->
+<!--foot-->
+<div class="foot">
+  
+</div>
+<!--foot end-->
+<script type="text/javascript" src="scripts/comm.js"></script>
+</body>
+</html>

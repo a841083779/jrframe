@@ -1,0 +1,8 @@
+/*scrollbar*/
+.scroll_bar{position:absolute;height:100%;top:0;right:0;overflow:hidden;z-index:8;cursor:default;-moz-user-select: none;}
+.scroll_up,.scroll_down{position:absolute;left:0;background:#333;overflow:hidden;*zoom:1;}
+.scroll_up{top:0;}
+.scroll_down{bottom:0;}
+.scroll_up_on,.scroll_down_on{background:#ccc;}
+.scroll_slider{position:absolute;left:0;background:#eee;cursor:default;}
+.scroll_slider_on{background:#ccc;}

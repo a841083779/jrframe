@@ -1,0 +1,47 @@
+<div class="newsLeft">
+      <div class="title">
+        <h3>新品推荐</h3>
+        <span class="more"><a href="/news/list.jsp?flag=newprorec" target="_blank">更多&gt;&gt;</a></span>
+      </div>
+      <div class="content newstyle01">
+				      <div class="newslist">
+					  <h3><a href="/news/detail.jsp?id=141867" target="_blank" title="柳工挖掘机首台电动抓料机CLG950EMHE诞生">柳工挖掘机首台电动抓料机CLG950EMHE诞生</a></h3>
+					  <a href="/news/detail.jsp?id=141867" class="img" target="_blank"><img src="http://news.21-sun.com//UserFiles/Image/2014/08/20140815134354_663.jpg" onerror="this.src='/images/nopic.gif'" width="110" height="85" /></a>
+					  <div class="intro">
+						<p class="text">
+						<a href="/news/detail.jsp?id=141867" target="_blank" style="color:#999999">　　7月11日，我公司应市场需求，耗时一年潜心研发的首台电动抓料机（如图）CLG950EMHE在柳州挖...
+				              
+						</a></p>
+						<span class="time">2014-08-1</span>
+					  </div>
+					</div>
+				      <div class="newslist">
+					  <h3><a href="/news/detail.jsp?id=141837" target="_blank" title="沃尔华推出新型轮式挖掘机以及蔗木装卸机">沃尔华推出新型轮式挖掘机以及蔗木装卸机</a></h3>
+					  <a href="/news/detail.jsp?id=141837" class="img" target="_blank"><img src="http://news.21-sun.com//UserFiles/Image/2014/08/20140815095353_813.jpg" onerror="this.src='/images/nopic.gif'" width="110" height="85" /></a>
+					  <div class="intro">
+						<p class="text">
+						<a href="/news/detail.jsp?id=141837" target="_blank" style="color:#999999">　　近期，沃尔华集团全新产品DLS890-9A新型轮式蔗木装卸机和DLS890-9A新型轮式挖掘机实现...
+				              
+						</a></p>
+						<span class="time">2014-08-1</span>
+					  </div>
+					</div>
+				      <div class="newslist">
+					  <h3><a href="/news/detail.jsp?id=141787" target="_blank" title="谁比谁更火 炎夏挖掘机吹响新品集结号">谁比谁更火 炎夏挖掘机吹响新品集结号</a></h3>
+					  <a href="/news/detail.jsp?id=141787" class="img" target="_blank"><img src="http://news.21-sun.com//UserFiles/Image/2014/08/20140814183458_154.jpg" onerror="this.src='/images/nopic.gif'" width="110" height="85" /></a>
+					  <div class="intro">
+						<p class="text">
+						<a href="/news/detail.jsp?id=141787" target="_blank" style="color:#999999">　　这是最热的季节，也是最冷的时代。恶性竞争泛滥、产能过剩严重、库存居高不下、市场持续低迷，让身处炎夏...
+				              
+						</a></p>
+						<span class="time">2014-08-1</span>
+					  </div>
+					</div>
+		</div>
+      <ul class="newstyle02">
+         	     <li><a href="/news/detail.jsp?id=141886" target="_blank" title="国机洛建16台“圆梦使者”压路机出使非洲">国机洛建16台“圆梦使者”压路机出使非洲</a></li>
+         	     <li><a href="/news/detail.jsp?id=141884" target="_blank" title="袁万胜：“桃花源”里的“谷王圆梦”故事">袁万胜：“桃花源”里的“谷王圆梦”故事</a></li>
+         	     <li><a href="/news/detail.jsp?id=141882" target="_blank" title="汽柴油价格再次下调 幅度为每吨100元至165元">汽柴油价格再次下调 幅度为每吨100元至165元</a></li>
+         	     <li><a href="/news/detail.jsp?id=141881" target="_blank" title="“谷王”烘干机拓宽“潇湘”合作社致富路">“谷王”烘干机拓宽“潇湘”合作社致富路</a></li>
+      </ul>
+    </div>

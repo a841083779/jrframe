@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>八月优买团，梦想新航线，未来合伙人_21-sun优买团</title>
+<meta name="keywords" content="21-sun优买团,诚邀合伙人,卡特迷你挖掘机,山工装载机,三一挖掘机,卡特挖机,山推专场,配件,破碎锤" />
+<meta name="description" content="21-sun优买团,中国工程机械商贸网13周年感恩回馈客户,梦想新航线未来合伙人,热销机型包括,卡特迷你挖掘机,山工装载机,三一挖掘机,卡特挖机,山推机械等专场优惠" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/common.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".nav li:eq(0)").addClass("selected");
+  $(".sideGuide a:eq(1)").addClass("selected");
+});
+</script>
+<script type="text/javascript" src="/scripts/MSClass.js"></script>
+</head>
+<body id="top" class="lottery">
+<!--#include virtual="include/top.jsp"-->
+<div class="main">
+  <div class="wrapper banner"><img src="images/lottery_img.jpg" width="1000" height="562" />
+    <div class="lottery_flash">
+      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" name="index" width="460" height="460" align="middle" id="index">
+        <param name="allowScriptAccess" value="sameDomain" />
+        <param name="allowFullScreen" value="false" />
+        <param name="movie" value="images/lottery.swf" />
+        <param name="quality" value="High" />
+        <param name="bgcolor" value="#ffffff" />	
+        <param name="wmode" value="transparent">
+        <embed src="images/lottery.swf" quality="High" bgcolor="#ffffff" width="460" height="460" name="index" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" />
+    </object>
+    </div>
+    <div class="nameList" style="display:none;">
+      <div class="nameList-con clearfix" id="nameList">
+        <ul>
+          <li>
+            <strong class="userName">恭喜 <b>王景丽</b></strong>
+            <span class="gift">获得了 <font>1个月入伙体验券</font></span>
+          </li>
+          <li>
+            <strong class="userName">恭喜 <b>宋书宁</b></strong>
+            <span class="gift">获得了 <font>6个月入伙体验券</font></span>
+          </li>
+          <li>
+            <strong class="userName">恭喜 <b>高鹏</b></strong>
+            <span class="gift">获得了 <font>1个月入伙体验券</font></span>
+          </li>
+          <li>
+            <strong class="userName">恭喜 <b>王国强</b></strong>
+            <span class="gift">获得了 <font>3个月入伙体验券</font></span>
+          </li>
+          <li>
+            <strong class="userName">恭喜 <b>王景丽1号</b></strong>
+            <span class="gift">获得了 <font>1个月入伙体验券</font></span>
+          </li>
+          <li>
+            <strong class="userName">恭喜 <b>宋书宁1号</b></strong>
+            <span class="gift">获得了 <font>6个月入伙体验券</font></span>
+          </li>
+          <li>
+            <strong class="userName">恭喜 <b>高鹏1号</b></strong>
+            <span class="gift">获得了 <font>1个月入伙体验券</font></span>
+          </li>
+          <li>
+            <strong class="userName">恭喜 <b>王国强1号</b></strong>
+            <span class="gift">获得了 <font>3个月入伙体验券</font></span>
+          </li>
+          <li>
+            <strong class="userName">恭喜 <b>王景丽2号</b></strong>
+            <span class="gift">获得了 <font>1个月入伙体验券</font></span>
+          </li>
+          <li>
+            <strong class="userName">恭喜 <b>宋书宁2号</b></strong>
+            <span class="gift">获得了 <font>6个月入伙体验券</font></span>
+          </li>
+          <li>
+            <strong class="userName">恭喜 <b>高鹏2号</b></strong>
+            <span class="gift">获得了 <font>1个月入伙体验券</font></span>
+          </li>
+          <li>
+            <strong class="userName">恭喜 <b>王国强2号</b></strong>
+            <span class="gift">获得了 <font>3个月入伙体验券</font></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript">
+	new Marquee("nameList",0,1,440,88,50,0,0)//向上连续滚动及鼠标拖动实例实例
+	</script>
+    <div class="rules" style="top:240px;">
+      <p>1、领券时间：8月1日至8月31日，用券时间：从领券时间算起到取抽的活动截止时间，最长6个月内使用兑换。<br />
+        2、活动规则：手机号直接可以注册会员参与大转盘抽券，所有抽到的券仅可用于电子商务活动专区指定服务。<br />
+        3、本次活动每个手机号有3次抽奖机会，会在页面滚动播出抽奖结果，敬请关注！<br />
+      4、活动详情请咨询客服：0535-6727793 6921286 6722830 </p>
+      <p><strong>活动范围和政策</strong><br />
+        1、本次活动针对工程机械行业生产厂家、代理商和配件生产商、经销商 <br />
+      2、活动最终解释权归21-sun所有。</p>
+    </div>
+  </div>
+</div>
+<div class="foot">
+<!--#include virtual="/include/foot.jsp"--> 
+</div>
+<!--#include virtual="include/side_guide.jsp"-->
+<div class="blackCover"></div>
+<div class="lotteryLayer">
+  <a class="close" title="关闭"></a>
+  <div class="con loginTip">
+    亲爱的用户，您还未登录哦，登录后可以<br />立即参与抽奖啦！<a href="javascript:void(0);" style="color:#b10700;">点击登录</a>
+  </div>
+  <div class="con loginForm">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <th>手机：</th>
+        <td><input type="text" name="textfield" id="textfield" class="loginInput" /></td>
+      </tr>
+      <tr>
+        <th>姓名：</th>
+        <td><input type="text" name="textfield2" id="textfield2" class="loginInput" /></td>
+      </tr>
+      <tr>
+        <th>公司名称：</th>
+        <td><input type="text" name="textfield3" id="textfield3" class="loginInput" /></td>
+      </tr>
+      <tr>
+        <th>&nbsp;</th>
+        <td><input type="submit" name="button" id="button" value="提交" class="loginBtn" /></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div class="lotteryLayer lotteryLayer_tip" style="background-image:url(images/lottery_layer_tip.gif);">
+  <a class="close" title="关闭"></a>
+  <div class="con loginTip">
+    亲，我们的抽奖活动还没有开始哦！<br />请您在8月1日后再来参与抽奖活动，谢谢！
+  </div>
+</div>
+<div style="display:none">
+<script src="http://s14.cnzz.com/stat.php?id=5557510&web_id=5557510&show=pic" language="JavaScript"></script> 
+</div> 
+</body>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".lottery_flash img").click(function(){
+	   $(".lotteryLayer,.blackCover").show();
+	  });	
+  $(".lotteryLayer a.close").click(function(){
+	   $(".lotteryLayer,.blackCover").hide();
+	  });
+  $(".loginTip a").click(function(){
+	  $(".loginTip").hide();
+	  $(".loginForm").show();
+	  });
+});
+function setPriseType(){
+	$(".lotteryLayer_tip,.blackCover").show();
+//	alert("抽奖活动尚未开始：\r请您在8月1号之后再来参与抽奖活动，谢谢！");
+	return -1;
+}
+</script>
+<!-- jbox -->
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<script type="text/javascript">
+function showinquery(pid,factoryid){
+	jQuery.jBox("iframe:/include/products/product_order.jsp?productid="+pid+"&factoryid="+factoryid, {
+	title: "在线询价",
+	width: 720,
+	height: 435,
+	top: '20%',
+	iframeScrolling : 'no',
+	buttons: { '关闭': false }
+	});
+	jQuery(".jbox-button-panel").attr("style","display:none;") ;
+}
+</script>
+</html>

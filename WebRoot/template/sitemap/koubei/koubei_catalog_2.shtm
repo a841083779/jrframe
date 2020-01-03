@@ -1,0 +1,15 @@
+<#assign catalog_list = query("SELECT TOP 40 num FROM pro_catalog where is_show = 1 and num  NOT in (SELECT TOP 40 num FROM pro_catalog where is_show = 1)")>
+<#assign agent_factory_list = query(" select id from pro_agent_factory where is_show = 1 and flag = 1")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list catalog_list as catalog >
+	<#list agent_factory_list as agent_factory >
+	<url>
+		<loc>http://koubei.21-sun.com/${catalog.num!"0" }-${agent_factory.id?c}-0.htm</loc>
+		<lastmod>${.now}</lastmod>
+		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	</#list>
+	</#list>
+</urlset>

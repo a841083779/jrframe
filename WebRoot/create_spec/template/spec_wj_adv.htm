@@ -1,0 +1,9 @@
+								<#if list?? && (list?size>0)>
+								<#list list as list>
+									<div class="machine_banner">
+										<a title="${list.title?replace("^R","®")}" target="_blank" href="${list.title_url}">
+											<img src="http://product.21-sun.com/uploadfiles${list.img}" alt="${list.title?replace("^R","®")}">
+										</a>
+									</div>
+								</#list>
+								</#if>

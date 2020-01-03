@@ -1,0 +1,28 @@
+﻿@charset "utf-8";
+.nav,.New_website,.fewm { display:none;}
+.New_foot,span.New_links,.proFoot #bdshare { color:#fff!important;}
+.topbg { margin-bottom:0!important;}
+.proFoot { height:auto!important; padding-top:15px;}
+#topcontrol { visibility:hidden;}
+
+body { background:url(../images/mainbg.jpg) center top repeat-y;}
+.bigBanner { width:100%; height:549px; background:url(../images/banner.jpg) center top no-repeat; clear:both; overflow:hidden; font:0/0 a; letter-spacing:-9px;}
+
+.wraps { width:1198px; clear:both; margin:0 auto;}
+.brands { width:1170px; margin:0 auto 15px; clear:both;}
+.brands li { width:160px; height:60px; float:left; margin:0px 5px 5px 0px; line-height:0; font-size:0;}
+.brands ul { background:#e94609; padding:10px 0px 5px 10px;}
+
+.section { line-height:0; font-size:0;}
+#sec08 { position:relative;}
+#sec08 a { display:block; width:258px; height:50px; position:absolute; left:46px; top:366px; background:url(../images/blank.gif);}
+.sideGuide { width:133px; height:513px; position:absolute; right:0px; top:679px; z-index:999;}
+.sideGuide ul { width:123px; background:url(../images/side_nav.png) no-repeat; height:513px;}
+.sideGuide li { padding-bottom:10px;}
+.sideGuide a { display:block; width:100%; height:30px; line-height:30px; font-size:16px; font-family:"Microsoft Yahei"; text-align:center; font-weight:bold; color:#fff!important;}
+.sideGuide .gotop { padding-bottom:0; padding-top:3px;}
+.sideGuide .gotop a { font:0/0 a; letter-spacing:-9px;}
+
+.sg-fix { position:fixed; top:10px;}
+* html,* html body{background-attachment:fixed}
+* html .sg-fix {position:absolute;top:expression(eval(document.documentElement.scrollTop)+10);}

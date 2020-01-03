@@ -1,0 +1,126 @@
+/*
+* name: common.css
+* version: v1.0.0
+* update: no
+* date: 2016-07-18
+*/
+
+html, body{ width:100%; height:100%; overflow:hidden;}
+
+
+/********** 通用样式 **********/
+.pos-absolute{ position:absolute;}
+
+.mt-10{ margin-top:10px;}
+.mt-20{ margin-top:20px;}
+.mt-30{ margin-top:30px;}
+.mb-10{ margin-bottom:10px;}
+.mb-20{ margin-bottom:20px;}
+.mr-6{ margin-right:6px;}
+.mr-44{ margin-right:44px;}
+
+.pt-10{ padding-top:10px;}
+.pt-20{ padding-top:20px;}
+.pt-30{ padding-top:30px;}
+.pt-40{ padding-top:40px;}
+.pb-20{ padding-bottom:20px;}
+
+.color-feb71f{ color:#feb71f !important;}
+.color-red{ color:#f00;}
+
+.font-12{ font-size:12px;}
+.font-16{ font-size:16px;}
+.font-18{ font-size:18px;}
+.font-20{ font-size:20px;}
+.font-24{ font-size:24px;}
+.font-42{ font-size:42px;}
+
+.fw-bold{ font-weight:bold;}
+
+.text-c{ text-align:center;}
+.text-r{ text-align:right;}
+
+.transition-ele{ transition:all ease 0.3s; -webkit-transition:all ease 0.3s; -moz-transition:all ease 0.3s; -o-transition:all ease 0.3s;}
+
+.icon{ background:url(../static/images/icon.png) no-repeat;}
+
+
+/*loading*/
+#loading{ position:fixed; left:0; top:0; z-index:999; height:100%; width:100%; background-color:#000;}
+#loading-center{ width: 100%; height: 100%; position: relative;}
+#loading-center-absolute { display:block; position: absolute; left: 50%; top: 50%; height: 50px; width: 130px; margin-top: -65px; margin-left: -65px;}
+.object{ display:none\9; width: 8px; height: 50px; margin-right:5px; background-color: #FFF; -webkit-animation: animate 1s infinite; animation: animate 1s infinite; float: left;}
+.object:last-child { margin-right: 0px;}
+
+.object:nth-child(10){ -webkit-animation-delay: 0.9s; animation-delay: 0.9s;}
+.object:nth-child(9){ -webkit-animation-delay: 0.8s; animation-delay: 0.8s;}	
+.object:nth-child(8){ -webkit-animation-delay: 0.7s;  animation-delay: 0.7s;}
+.object:nth-child(7){ -webkit-animation-delay: 0.6s; animation-delay: 0.6s;}
+.object:nth-child(6){ -webkit-animation-delay: 0.5s; animation-delay: 0.5s;}
+.object:nth-child(5){ -webkit-animation-delay: 0.4s; animation-delay: 0.4s;}
+.object:nth-child(4){ -webkit-animation-delay: 0.3s; animation-delay: 0.3s;}
+.object:nth-child(3){ -webkit-animation-delay: 0.2s; animation-delay: 0.2s;}
+.object:nth-child(2){ -webkit-animation-delay: 0.1s; animation-delay: 0.1s;}						
+	
+@-webkit-keyframes animate {
+    50% { -ms-transform: scaleY(0); -webkit-transform: scaleY(0); transform: scaleY(0);}
+    }
+
+@keyframes animate {
+    50% { -ms-transform: scaleY(0); -webkit-transform: scaleY(0); transform: scaleY(0);}
+    }
+
+.loading-tip{ display:none; display:block\9; width:50px; height:50px; margin:16px auto 0; background:url(http://toutiao.21-sun.com/static/images/loading.gif) no-repeat center center #fff; border-radius:4px;}
+.loading-text{ display:none; position:absolute; left:0; bottom:-50px; width:100%; color:#fff; text-align:center;}
+.loading-text{ display:block\9;}
+.copyright{ bottom:20px; left:0; width:100%; text-align:center;}
+.copyright a{ color:#999;}
+
+
+/*header*/
+.header{ position:absolute; left:0; top:0; z-index:1; width:100%; height:48px; background-color:#fff; border-bottom:#dfdfdf solid 1px;}
+.logo{ display:block; width:340px; height:48px; background:url(http://zhuanti.21-sun.com/cat_360/static/images/logo.gif) no-repeat left center; font:0/0 Verdana, Geneva, sans-serif;}
+.servTel{ display:block; width:130px; height:48px; background:url(http://zhuanti.21-sun.com/cat_360/static/images/tel.gif) no-repeat left center;}
+
+
+
+/*main-cont*/
+.buy-btn{ display:block; position:relative; width:346px; height:58px; text-align:center; font-size:22px; color:#fff; line-height:58px;}
+.buy-btn span{ display:block; position:absolute; left:0; top:0; width:100%; height:100%;}
+.buy-btn .btn-box::before,
+.buy-btn .btn-box::after,
+.buy-btn .btn-wrap::before,
+.buy-btn .btn-wrap::after{ content:""; position:absolute; transition:all ease 0.3s; -webkit-transition:all ease 0.3s; -moz-transition:all ease 0.3s; -o-transition:all ease 0.3s; opacity:0;}
+
+.buy-btn .btn-box::before,
+.buy-btn .btn-box::after{ width:346px; height:1px;}
+.buy-btn .btn-box::before{ left:0; top:0; transform:translate(346px,0); -webkit-transform:translate(346px,0); -moz-transform:translate(346px,0); -o-transform:translate(346px,0); -ms-transform:translate(346px,0);}
+.buy-btn .btn-box::after{ left:0; bottom:0; transform:translate(-346px,0); -webkit-transform:translate(-346px,0); -moz-transform:translate(-346px,0); -o-transform:translate(-346px,0); -ms-transform:translate(-346px,0);}
+
+.buy-btn .btn-wrap::before,
+.buy-btn .btn-wrap::after{ width:1px; height:58px;}
+.buy-btn .btn-wrap::before{ left:0; top:0; transform:translate(0,-58px); -webkit-transform:translate(0,-58px); -moz-transform:translate(0,-58px); -o-transform:translate(0,-58px); -ms-transform:translate(0,-58px);}
+.buy-btn .btn-wrap::after{ right:0; top:0; transform:translate(0,58px); -webkit-transform:translate(0,58px); -moz-transform:translate(0,58px); -o-transform:translate(0,58px); -ms-transform:translate(0,58px);}
+
+.buy-btn:hover{ color:#fff;}
+.buy-btn:hover .btn-box::before,
+.buy-btn:hover .btn-box::after,
+.buy-btn:hover .btn-wrap::before,
+.buy-btn:hover .btn-wrap::after{ display:none\9; transform:translate(0,0); opacity:1;}
+
+.buy-btn i{ display:inline-block; width:42px; height:33px; margin-right:14px; background-position:0 -92px; vertical-align:middle;}
+
+.close-layer{ position:absolute; right:10px; top:10px; width:30px; height:30px; background-position:-56px -92px; cursor:pointer; transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -o-transform:rotate(0deg); -ms-transform:rotate(0deg);}
+.close-layer:hover{ transform:rotate(180deg); -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -o-transform:rotate(180deg); -ms-transform:rotate(180deg);}
+
+
+/*buy-btn-lit*/
+.buy-btn-lit{ display:block; width:126px; height:32px; border:#fff solid 1px; border-radius:8px; background-color:#ffad00; box-shadow:1px 2px 2px rgba(0,0,0,0.5); font-size:20px; line-height:32px; text-align:center;}
+.buy-btn-lit:hover{ color:inherit; box-shadow:2px 3px 5px rgba(0,0,0,0.5);}
+
+
+/*wechat*/
+.wechat{ position:absolute; right:4px; top:50%; z-index:99; margin-top:-65px; width:106px; height:130px; padding:5px; border-radius:5px; background-color:#e65200; text-align:center;}
+.wechat p{ font-size:12px; color:#fff; line-height:20px; margin-top:4px;}
+.wechat img{ max-width:100%;}
+

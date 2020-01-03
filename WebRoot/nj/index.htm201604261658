@@ -1,0 +1,2035 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="renderer" content="webkit">
+<title>铁臂商城 – 农机</title>
+<meta name="keywords" content="工程机械,铁臂商城" />
+<meta name="description" content="铁臂商城涵盖了挖掘机、装载机、起重机等各种工程机械产品，买工程机械产品就上铁臂商城。" />
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="design by www.21-sun.com">
+<script type="text/javascript" src="Static/app/mobile.js"></script>
+<link href="Static/grid/grid12.css" rel="stylesheet" />
+<link href="Static/css/ui.css" rel="stylesheet" />
+<link href="Static/css/common.css" rel="stylesheet" />
+<link href="Static/css/index.css" rel="stylesheet" />
+<link href="scripts/owl.carousel/owl.carousel.css" rel="stylesheet">
+<link href="scripts/owl.carousel/owl.theme.css" rel="stylesheet">
+<link href="scripts/owl.carousel/owl.transitions.css" rel="stylesheet">
+<!--[if lt IE 9]><script src="Static/lib/H5shiv.js"></script><![endif]-->
+</head>
+<body>
+<!--top-->
+<!--topBar-->
+<div class="j_topBar">
+  <div class="wrap fix">
+    <div class="j_wel l j_grey" id="topLabel"><a href="http://www.21-sun.com/" target="_blank">欢迎您访问中国工程机械商贸网！</a><a href="http://product.21-sun.com/user/login.htm"  target="_blank">[登录]</a>&nbsp;&nbsp;<a href="http://product.21-sun.com/user/reg.htm" target="_blank">[注册]</a></div>
+    <ul class="j_t_layer r">
+      <li class="j_tl j_wei"><a href="http://www.21-sun.com/weixin/" target="_blank"><img width="74" height="20" style="margin-top:4px;" src="http://www.21-sun.com/weixin/images/weixin.jpg"></a></li>
+      <li class="j_tl j_mobile">
+        <div class="j_con"> <span class="j_n"><i class="ico"></i>手机商城<i class="ico ico1_3"></i></span>
+          <div class="j_tlayer">
+            <div><a href="http://www.21-sun.com/app/" target="_blank" rel="nofollow">手机商贸网</a></div>
+            <div><a href="http://www.21-sun.com/app/phone_news.htm" target="_blank" rel="nofollow">工程机械动态</a></div>
+            <div><img src="/nj/Static/images/ewm01.png" class="j_ewm">行业讯息</div>
+            <div style="border:none;"><img src="/nj/Static/images/ewm02.png" class="j_ewm">铁臂商城微信</div>
+          </div>
+        </div>
+      </li>
+      <li class="j_tl j_about">
+        <div class="j_con"> <span class="j_n"><a href="http://product.21-sun.com/about/" target="_blank" rel="nofollow">关于铁臂</a></span> </div>
+      </li>
+      <li class="j_tl j_siteNav">
+        <div class="j_con"> <span class="j_n">网站导航<i class="ico ico1_3"></i></span>
+          <div class="j_tlayer">
+            <ul class="fix">
+              <li onClick="window.open('http://product.21-sun.com/');">铁臂商城</li>
+              <li onClick="window.open('http://photo.21-sun.com/');">产品图库</li>
+              <li onClick="window.open('http://weixiu.21-sun.com/');">维　　修</li>
+              <li onClick="window.open('http://koubei.21-sun.com/');">口　　碑</li>
+              <li onClick="window.open('http://market.21-sun.com/');">供求市场</li>
+              <li onClick="window.open('http://news.21-sun.com/');">行业动态</li>
+              <li onClick="window.open('http://used.21-sun.com/');">二手设备</li>
+              <li onClick="window.open('http://www.21-sun.com/part/');">配件市场</li>
+              <li onClick="window.open('http://www.21part.com/');">杰 配 网</li>
+              <li onClick="window.open('http://www.21-sun.com/supply/');">供 应 商</li>
+              <li onClick="window.open('http://www.21taiyang.com/');">太阳商城</li>
+              <li onClick="window.open('http://www.wajueji.com/');">铁臂兄弟连</li>
+              <li onClick="window.open('http://dealer.21-sun.com/');">代理商</li>
+              <li onClick="window.open('http://product.21-sun.com/about/case.htm');">旗舰店</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="j_tl j_proNav">
+        <div class="j_con topBigGuide"><span class="j_n">购机导航<i class="ico ico1_3"></i></span></div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!--topBar end-->
+<!--top-->
+<div class="wrap fix n_top">
+  <h1 class="new_logo"> <a href="/" title="铁臂商城"> <img src="/nj/Static/images/logo.png" alt="铁臂商城"> <span class="columnName">农机</span> </a> </h1>
+  <div class="n_topSearch">
+    <div class="input">
+      <input id="keyword" name="keyword" type="text" placeholder="输入您要搜索的产品" />
+    </div>
+    <button onClick="tj3()" type="button" class="topBtn">搜索</button>
+    <div class="n_hotwords"> <span>热门搜索：</span> <a href="/nj/prolist.jsp?catalog=102" >拖拉机</a> <a href="/nj/prolist.jsp?catalog=103">耕整地机械</a> <a href="/nj/prolist.jsp?catalog=104"  >种植施肥机械</a> <a href="/nj/prolist.jsp?catalog=105">收割/收获机</a> <a href="/nj/prolist.jsp?catalog=106" >农产品加工机械</a> <a href="/nj/prolist.jsp?catalog=109" >运输</a> </div>
+  </div>
+  <script>
+  	  function tj3(){ 
+		  if(jQuery('#keyword').val()==''){
+		     alert("请输入您要搜索的关键词");
+		     jQuery('#keyword').focus();
+			 return false;
+		  }
+		  var keyword=jQuery('#keyword').val();
+		  window.location.href="/nj/prolist.jsp?keyword="+keyword;
+	  }
+	   jQuery('#keyword').on('keydown', function (e) { if (e.keyCode == 13) {tj3()} })
+  </script>
+</div>
+<!--top end-->
+<div class="navBox">
+  <div class="navBar">
+    <div class="wrap fix">
+      <ul class="menu">
+        <li><a class="active" href="/nj/">首页</a></li>
+        <li><a href="/nj/prolist.jsp?catalog=102">拖拉机</a></li>
+        <li><a href="/nj/prolist.jsp?catalog=103">耕整地机械</a></li>
+        <li><a href="/nj/prolist.jsp?catalog=104">种植施肥机械</a></li>
+        <li><a href="/nj/prolist.jsp?catalog=105">收割/收获机</a></li>
+        <li><a href="/nj/prolist.jsp?catalog=106">农产品加工机械</a></li>
+        <li><a href="/nj/prolist.jsp?catalog=109">运输机械</a></li>
+        <li><a href="/nj/prolist.jsp?catalog=109">更多</a></li>
+      </ul>
+      <div class="allCates">
+        <div class="acn">全部分类</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--banner-->
+<div class="bannerWrap">
+  <div id="banner"  class="owl-carousel">
+    <div class="banPic"><a href=""><img src="images/banner01.jpg" alt=""></a></div>
+  </div>
+</div>
+<!--banner end-->
+
+<!--拖拉机-->
+<div class="wrap fix ipart ipart01" id="part01">
+  <div class="part_hd fix"> <strong class="n">1F</strong>
+    <h2 class="tip"><a href="/nj/prolist.jsp?catalog=102" target="_blank">拖拉机</a></h2>
+    <ul class="partTabBox" id="tlj_move">
+      <li class="tab_t tab_t_cur" ><a href="/nj/prolist.jsp?catalog=102001" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">轮式拖拉机<i></i></a></li>
+      <li class="tab_t" ><a href="/nj/prolist.jsp?catalog=102002" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">手扶拖拉机<i></i></a></li>
+      <li class="tab_t" ><a href="/nj/prolist.jsp?catalog=102003" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">履带拖拉机<i></i></a></li>
+    </ul>
+  </div>
+  <div class="part_bd fix">
+    <div class="leftPart">
+      <a href="/nj/prolist.jsp?catalog=102" target="_blank"><img data-lazy="images/leftPartPic01.jpg" alt=""></a>
+    </div>
+    <div id="wjj_list">
+      <div class="midPart txd_mpro_list" style="display:block;">
+      <ul class="fix">
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/M1200-D.shtm" title="雷沃M1200-D轮式拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422112351_211.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/M1200-D.shtm" title="雷沃M1200-D轮式拖拉机">雷沃M1200-D轮式拖拉机</a></div>
+            <div class="mp_link" id="summary">外形美观，作业适应性好</div>
+			
+            <div class="mp_price"><a data-val="3" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/MF1004-1104-1204.shtm" title="爱科MF1004/1104/1轮式拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422135046_195.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/MF1004-1104-1204.shtm" title="爱科MF1004/1104/1轮式拖拉机">爱科MF1004/1104/1轮式拖拉机</a></div>
+            <div class="mp_link" id="summary">简便、耐用、高效的拖拉机</div>
+			
+            <div class="mp_price"><a data-val="137" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/TA404.shtm" title="五征TA404轮式拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422131607_241.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/TA404.shtm" title="五征TA404轮式拖拉机">五征TA404轮式拖拉机</a></div>
+            <div class="mp_link" id="summary">操纵舒适，经久耐用</div>
+			
+            <div class="mp_price"><a data-val="34" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/D1000-4.shtm" title="东方红D1000-4轮式拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422152700_688.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/D1000-4.shtm" title="东方红D1000-4轮式拖拉机">东方红D1000-4轮式拖拉机</a></div>
+            <div class="mp_link" id="summary">拉的多，跑的快，爬坡能力强</div>
+			<div class="mp_link" id="detail" style="display:none">
+			
+			</div>
+            <div class="mp_price"><a data-val="346" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/SF500.shtm" title="时风SF500轮式拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422163844_59.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/SF500.shtm" title="时风SF500轮式拖拉机">时风SF500轮式拖拉机</a></div>
+            <div class="mp_link" id="summary">整机通过性好,操作轻便灵活</div>
+			<div class="mp_link" id="detail" style="display:none">
+			
+			</div>
+            <div class="mp_price"><a data-val="424" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/RC900.shtm" title="中联重科RC900轮式拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423092733_193.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/RC900.shtm" title="中联重科RC900轮式拖拉机">中联重科RC900轮式拖拉机</a></div>
+            <div class="mp_link" id="summary">强劲动力，性能好</div>
+			<div class="mp_link" id="detail" style="display:none">
+			
+			</div>
+            <div class="mp_price"><a data-val="513" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- 手扶拖拉机 -->
+	<div class="midPart txd_mpro_list">
+      <ul class="fix">
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/CL81.shtm" title="川龙CL81手扶拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423112943_90.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/CL81.shtm" title="川龙CL81手扶拖拉机">川龙CL81手扶拖拉机</a></div>
+            <div class="mp_link" id="summary">结构简单紧凑可靠耐用</div>
+			
+            <div class="mp_price"><a data-val="1032" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/101C.shtm" title="千里牛101C手扶拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423113940_862.png" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/101C.shtm" title="千里牛101C手扶拖拉机">千里牛101C手扶拖拉机</a></div>
+            <div class="mp_link" id="summary">动力强劲，可靠性高</div>
+			
+            <div class="mp_price"><a data-val="1058" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/GY181.shtm" title="刚毅GY181手扶拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423134023_975.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/GY181.shtm" title="刚毅GY181手扶拖拉机">刚毅GY181手扶拖拉机</a></div>
+            <div class="mp_link" id="summary">缸水冷柴油机、底盘、旋耕机</div>
+			
+            <div class="mp_price"><a data-val="1216" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/HHL-101.shtm" title="黄鹤楼HHL-101手扶拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423135355_503.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/HHL-101.shtm" title="黄鹤楼HHL-101手扶拖拉机">黄鹤楼HHL-101手扶拖拉机</a></div>
+            <div class="mp_link" id="summary">单片、干式常结合摩擦式,坡道停车自动装</div>
+			<div class="mp_link" id="detail" style="display:none">
+			
+			</div>
+            <div class="mp_price"><a data-val="1265" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/WH121-1.shtm" title="潍河WH121-1手扶拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423144733_82.png" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/WH121-1.shtm" title="潍河WH121-1手扶拖拉机">潍河WH121-1手扶拖拉机</a></div>
+            <div class="mp_link" id="summary">牵引驱动型手扶拖拉机</div>
+			<div class="mp_link" id="detail" style="display:none">
+			
+			</div>
+            <div class="mp_price"><a data-val="1419" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/CL81.shtm" title="川龙CL81手扶拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423112943_90.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/CL81.shtm" title="川龙CL81手扶拖拉机">川龙CL81手扶拖拉机</a></div>
+            <div class="mp_link" id="summary">轻便灵活，综合利用性强</div>
+			<div class="mp_link" id="detail" style="display:none">
+			
+			</div>
+            <div class="mp_price"><a data-val="1032" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- 履带拖拉机 -->
+	<div class="midPart txd_mpro_list">
+      <ul class="fix">
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/CY-502CY-502.shtm" title="春燕CY-502CY-502履带拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422142918_928.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/CY-502CY-502.shtm" title="春燕CY-502CY-502履带拖拉机">春燕CY-502CY-502履带拖拉机</a></div>
+            <div class="mp_link" id="summary">采用领先技术研发的新型履带拖拉机</div>
+			
+            <div class="mp_price"><a data-val="237" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/C1402.shtm" title="东方红C1402履带拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422151422_739.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/C1402.shtm" title="东方红C1402履带拖拉机">东方红C1402履带拖拉机</a></div>
+            <div class="mp_link" id="summary">寿命长，散热好，可靠性高</div>
+			
+            <div class="mp_price"><a data-val="312" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/C502-C602.shtm" title="东方红C502/C602履带拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422151940_259.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/C502-C602.shtm" title="东方红C502/C602履带拖拉机">东方红C502/C602履带拖拉机</a></div>
+            <div class="mp_link" id="summary">操纵方便，适合各种作业</div>
+			
+            <div class="mp_price"><a data-val="326" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/JC-7049LL.shtm" title="金驰JC-7049LL船式拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423111150_527.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/JC-7049LL.shtm" title="金驰JC-7049LL船式拖拉机">金驰JC-7049LL船式拖拉机</a></div>
+            <div class="mp_link" id="summary">节能减排，行淤越障能力强</div>
+			<div class="mp_link" id="detail" style="display:none">
+			
+			</div>
+            <div class="mp_price"><a data-val="974" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/852TX-1.shtm" title="子秋852TX-1履带拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422162935_368.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/852TX-1.shtm" title="子秋852TX-1履带拖拉机">子秋852TX-1履带拖拉机</a></div>
+            <div class="mp_link" id="summary">4135AK-5g单列立式四冲程四缸直接喷射式</div>
+			<div class="mp_link" id="detail" style="display:none">
+			
+			</div>
+            <div class="mp_price"><a data-val="413" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/CB1002-CB1202.shtm" title="东方红CB1002/CB1202履带拖拉机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422153118_182.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/CB1002-CB1202.shtm" title="东方红CB1002/CB1202履带拖拉机">东方红CB1002/CB1202履带拖拉机</a></div>
+            <div class="mp_link" id="summary">操作简单，维修方便，使用可靠</div>
+			<div class="mp_link" id="detail" style="display:none">
+			
+			</div>
+            <div class="mp_price"><a data-val="353" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 1end -->
+    </div>
+    <div class="rightPart">
+      <div class="se_hd fix">
+        <h3 class="n">品牌专区</h3>
+      </div>
+      <div class="se_bd rankTab">
+        <ul class="fix">
+       	  <li><a href="/nj/prolist.jsp?factory=7" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422111500_493.jpg"></a></li><!-- 雷沃 7 -->
+          <li><a href="/nj/prolist.jsp?factory=10" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422113605_686.jpg"></a></li><!-- 爱科 10 -->
+          <li><a href="/nj/prolist.jsp?factory=12" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422114523_874.jpg"></a></li><!-- 久保田 12 -->
+          <li><a href="/nj/prolist.jsp?factory=34" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422151703_994.jpg"></a></li><!-- 爱司伯 34 -->
+          <li><a href="/nj/prolist.jsp?factory=39" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422153133_65.jpg"></a></li><!-- 江淮动力 39 -->
+          <li><a href="/nj/prolist.jsp?factory=30" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422145646_888.jpg"></a></li><!-- 东方红 30 -->
+          <li><a href="/nj/prolist.jsp?factory=18" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422115854_728.jpg"></a></li><!-- 刚毅 18 -->
+          <li><a href="/nj/prolist.jsp?factory=52" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422172410_635.jpg"></a></li><!-- 五征 52 -->
+          <li><a href="/nj/prolist.jsp?factory=55" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423091623_97.jpg"></a></li><!-- 南岳 55 -->
+          <li><a href="/nj/prolist.jsp?factory=57" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423092401_995.jpg"></a></li><!-- 中联重科 57 -->
+          <li><a href="/nj/prolist.jsp?factory=60" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423100107_425.jpg"></a></li><!-- 凯斯 60 -->
+          <li><a href="/nj/prolist.jsp?factory=71" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423112246_938.jpg"></a></li><!-- 洋马  71-->
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--耕整地机械-->
+<div class="wrap fix ipart ipart02" id="part02">
+  <div class="part_hd fix"> <strong class="n">2F</strong>
+    <h2 class="tip"><a href="/nj/prolist.jsp?catalog=103" target="_blank">耕整地机械</a></h2>
+    <ul class="partTabBox" id="gzd_move">
+      <li class="tab_t tab_t_cur"><a href="/nj/prolist.jsp?catalog=103001" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">旋耕机<i></i></a></li>
+      <li class="tab_t"><a href="/nj/prolist.jsp?catalog=103002" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">微耕机<i></i></a></li>
+      <li class="tab_t"><a href="/nj/prolist.jsp?catalog=103003" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">耕整机<i></i></a></li>
+      <li class="tab_t"><a href="/nj/prolist.jsp?catalog=103004" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">深松机<i></i></a></li>
+      <li class="tab_t"><a href="/nj/prolist.jsp?catalog=103005" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">钉齿耙<i></i></a></li>
+    </ul>
+  </div>
+  <div class="part_bd fix">
+    <div class="leftPart">
+      <a href="/nj/prolist.jsp?catalog=103" target="_blank"><img data-lazy="images/leftPartPic02.jpg" alt=""></a>
+    </div>
+    <div id="zzj_list">
+    <!-- 旋耕机 -->
+      <div class="midPart txd_mpro_list"  style="display:block;">
+      <ul class="fix">
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1GK-250.shtm" title="神耕1GK-250旋耕机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422114910_260.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1GK-250.shtm" title="神耕1GK-250旋耕机">神耕1GK-250旋耕机</a></div>
+            <div class="mp_link" id="summary">框架罩板一体焊合式，结构更紧凑坚固</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="15" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/-43.shtm" title="神耕1GN-140旋耕机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422132137_882.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/-43.shtm" title="神耕1GN-140旋耕机">神耕1GN-140旋耕机</a></div>
+            <div class="mp_link" id="summary">整机结构简单，坚固耐用，技术成熟，性能稳定</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="51" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1GKN-180.shtm" title="神耕1GKN-180旋耕机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422132308_345.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1GKN-180.shtm" title="神耕1GKN-180旋耕机">神耕1GKN-180旋耕机</a></div>
+            <div class="mp_link" id="summary">工艺成熟，性能稳定，坚固耐用</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="55" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1G-240V2F.shtm" title="五征1G-240V2F旋耕机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422134711_745.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1G-240V2F.shtm" title="五征1G-240V2F旋耕机">五征1G-240V2F旋耕机</a></div>
+            <div class="mp_link" id="summary">提高作业效率，减轻劳动强度</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="129" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1GKN-250.shtm" title="春燕1GKN-250旋耕机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422142356_748.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1GKN-250.shtm" title="春燕1GKN-250旋耕机">春燕1GKN-250旋耕机</a></div>
+            <div class="mp_link" id="summary">结构强度大，碎土效果好</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="230" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/GA3050.shtm" title="雷沃GA3050旋耕机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422144633_641.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/GA3050.shtm" title="雷沃GA3050旋耕机">雷沃GA3050旋耕机</a></div>
+            <div class="mp_link" id="summary">性能可靠 ，作业高效，适应性好 </div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="265" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 微耕机 -->
+      <div class="midPart txd_mpro_list" >
+      <ul class="fix">
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/DWG-2.5.shtm" title="多力DWG-2.5微耕机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423102835_928.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/DWG-2.5.shtm" title="多力DWG-2.5微耕机">多力DWG-2.5微耕机</a></div>
+            <div class="mp_link" id="summary">结构紧凑，操作方便灵活，重量轻</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="830" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1WG-2.2Q.shtm" title="圣地亚1WG-2.2Q微耕机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423114740_710.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1WG-2.2Q.shtm" title="圣地亚1WG-2.2Q微耕机">圣地亚1WG-2.2Q微耕机</a></div>
+            <div class="mp_link" id="summary">体积小重量轻，便于搬运携带</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1079" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1WG6.3-110.shtm" title="黄鹤楼1WG6.3-110微耕机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423134718_992.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1WG6.3-110.shtm" title="黄鹤楼1WG6.3-110微耕机">黄鹤楼1WG6.3-110微耕机</a></div>
+            <div class="mp_link" id="summary">186F风冷柴油机，阻力棒，橡胶行走轮</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1243" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/CCX.shtm" title="圣杰除草型微耕机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423143728_597.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/CCX.shtm" title="圣杰除草型微耕机">圣杰除草型微耕机</a></div>
+            <div class="mp_link" id="summary">重量轻，体积小，结构简单，操作方便，易于维修，油耗低生产效率高</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1306" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1WG.shtm" title="源泉1WG微耕机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423142057_826.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1WG.shtm" title="源泉1WG微耕机">源泉1WG微耕机</a></div>
+            <div class="mp_link" id="summary">机构简单紧凑，操作轻便灵活</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1330" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1WGD4.0.shtm" title="农家盼1WGD4.0微耕机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423144713_538.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1WGD4.0.shtm" title="农家盼1WGD4.0微耕机">农家盼1WGD4.0微耕机</a></div>
+            <div class="mp_link" id="summary">高效，省油，省力，适应性广 </div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1415" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 耕整机 -->
+      <div class="midPart txd_mpro_list">
+      <ul class="fix">
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1ZS-20.shtm" title="春燕1ZS-20耕整机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422143223_584.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1ZS-20.shtm" title="春燕1ZS-20耕整机">春燕1ZS-20耕整机</a></div>
+            <div class="mp_link" id="summary">耕深可调节，适用范围广</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="243" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1WGD-6.3.shtm" title="春燕1WGD-6.3耕整机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422143647_969.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1WGD-6.3.shtm" title="春燕1WGD-6.3耕整机">春燕1WGD-6.3耕整机</a></div>
+            <div class="mp_link" id="summary">成本低，效率高</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="250" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1GZMN-350.shtm" title="德沃1GZMN-350耕整机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423113243_496.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1GZMN-350.shtm" title="德沃1GZMN-350耕整机">德沃1GZMN-350耕整机</a></div>
+            <div class="mp_link" id="summary">可实现灭茬、深松、碎土作业</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1037" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/CL1Z-31.shtm" title="川龙CL1Z-31耕整机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423115611_992.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/CL1Z-31.shtm" title="川龙CL1Z-31耕整机">川龙CL1Z-31耕整机</a></div>
+            <div class="mp_link" id="summary">结构简单、紧凑、可靠、耐用</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1102" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1GL-5.shtm" title="中联重科1GL-5联合整地机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423144932_505.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1GL-5.shtm" title="中联重科1GL-5联合整地机">中联重科1GL-5联合整地机</a></div>
+            <div class="mp_link" id="summary">设计合理、结构紧凑、性能稳定、安装简单、使用维修方便、适应范围广、工作效率高</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1425" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/2700.shtm" title="约翰迪尔2700复式整地机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423151843_313.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/2700.shtm" title="约翰迪尔2700复式整地机">约翰迪尔2700复式整地机</a></div>
+            <div class="mp_link" id="summary">多种作业和运输宽度，窄幅运输选件 </div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1507" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 深松机 -->
+      <div class="midPart txd_mpro_list">
+      <ul class="fix">
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1SZL-350.shtm" title="神耕1SZL-350深松机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422140636_188.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1SZL-350.shtm" title="神耕1SZL-350深松机">神耕1SZL-350深松机</a></div>
+            <div class="mp_link" id="summary">减轻对土壤的阻力，节约能耗</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="189" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1S-250.shtm" title="山东凯兴1S-250深松机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422144714_82.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1S-250.shtm" title="山东凯兴1S-250深松机">山东凯兴1S-250深松机</a></div>
+            <div class="mp_link" id="summary">适于犁底层硬化板结、熟土层较薄的旱田</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="266" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1S-300.shtm" title="源泉1S-300深松机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423144718_596.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1S-300.shtm" title="源泉1S-300深松机">源泉1S-300深松机</a></div>
+            <div class="mp_link" id="summary">减少资源消耗,降低使用成本</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1416" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/915-11.shtm" title="约翰迪尔915深松机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423152231_212.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/915-11.shtm" title="约翰迪尔915深松机">约翰迪尔915深松机</a></div>
+            <div class="mp_link" id="summary">有极佳的残茬处理能力</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1522" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1SZL.shtm" title="德沃1SZL深松机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423113437_667.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1SZL.shtm" title="德沃1SZL深松机">德沃1SZL深松机</a></div>
+            <div class="mp_link" id="summary">一次进地可完成对土壤的振动深松、碎土和除草作业</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1048" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1S-250.shtm" title="源泉1S-250深松机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423144836_247.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1S-250.shtm" title="源泉1S-250深松机">源泉1S-250深松机</a></div>
+            <div class="mp_link" id="summary">性能完备，价格合理，功能齐全 </div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1423" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 钉齿耙 -->
+      <div class="midPart txd_mpro_list">
+      <ul class="fix">
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/1BJX-1.7-2.0-2.2.shtm" title="东方红1BJX-1.7/2.0/2.2钉齿耙" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422164929_330.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/1BJX-1.7-2.0-2.2.shtm" title="东方红1BJX-1.7/2.0/2.2钉齿耙">东方红1BJX-1.7/2.0/2.2钉齿耙</a></div>
+            <div class="mp_link" id="summary">结构合理坚固耐用，运输方便，便于维护保养</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="442" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/HEAVYOFFSET790.shtm" title="凯斯Heavy Offset790偏置式圆盘耙" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423112745_736.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/HEAVYOFFSET790.shtm" title="凯斯Heavy Offset790偏置式圆盘耙">凯斯Heavy Offset790偏置式圆盘耙</a></div>
+            <div class="mp_link" id="summary">高效的残荐处理，增加土壤有机质</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1028" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/TRUE-TANDEM340.shtm" title="凯斯True-Tandem 340圆盘耙" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423112950_622.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/TRUE-TANDEM340.shtm" title="凯斯True-Tandem 340圆盘耙">凯斯True-Tandem 340圆盘耙</a></div>
+            <div class="mp_link" id="summary">最大强度和耐用性,功能强大</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1039" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/670.shtm" title="约翰迪尔670圆盘耙" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423151341_946.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/670.shtm" title="约翰迪尔670圆盘耙">约翰迪尔670圆盘耙</a></div>
+            <div class="mp_link" id="summary">采用牢固的车架设计，可抵抗扭转力</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1494" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/24PPZZB.shtm" title="凯捷沃丰24片偏置重耙" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423154242_893.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/24PPZZB.shtm" title="凯捷沃丰24片偏置重耙">凯捷沃丰24片偏置重耙</a></div>
+            <div class="mp_link" id="summary">适用于各种条件下的耕地，效率高，碎土效果好</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1555" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/2625.shtm" title="约翰迪尔2625重型耙" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423151535_20.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/2625.shtm" title="约翰迪尔2625重型耙">约翰迪尔2625重型耙</a></div>
+            <div class="mp_link" id="summary">适用于硬质土壤作业、残茬切碎/秸秆还田 </div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1498" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 2end -->
+    
+
+    </div>
+    <div class="rightPart">
+      <div class="se_hd fix">
+        <h3 class="n">品牌专区</h3>
+      </div>
+      <div class="se_bd rankTab">
+        <ul class="fix">
+          <li><a href="/nj/prolist.jsp?factory=57" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423092401_995.jpg"></a></li><!-- 中联重科 57 -->
+          <li><a href="/nj/prolist.jsp?factory=46" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422162640_674.jpg"></a></li><!-- 圣地亚 46 -->
+          <li><a href="/nj/prolist.jsp?factory=7" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422111500_493.jpg"></a></li><!-- 雷沃 7 -->
+		  <li><a href="/nj/prolist.jsp?factory=11" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422114702_316.jpg"></a></li><!-- 神耕 11 -->
+		  <li><a href="/nj/prolist.jsp?factory=28" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422144250_425.jpg"></a></li><!-- 希森天成 28 -->
+		  <li><a href="/nj/prolist.jsp?factory=45" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422162434_222.jpg"></a></li><!-- 碧浪 45 -->
+		  <li><a href="/nj/prolist.jsp?factory=52" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422172410_635.jpg"></a></li><!-- 五征 52 -->
+		  <li><a href="/nj/prolist.jsp?factory=60" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423100107_425.jpg"></a></li><!-- 凯斯 60 -->
+		  <li><a href="/nj/prolist.jsp?factory=67" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423105524_100.png"></a></li><!-- 千里牛 67 -->
+		  <li><a href="/nj/prolist.jsp?factory=69" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423110429_560.jpg"></a></li><!-- 德沃 69 -->
+		  <li><a href="/nj/prolist.jsp?factory=70" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423110600_6.jpg"></a></li><!-- 山拖泰山 70 -->
+		  <li><a href="/nj/prolist.jsp?factory=85" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423135351_271.png"></a></li><!--  潍河 85 -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--收割/收获机-->
+<div class="wrap fix ipart ipart04" id="part04">
+  <div class="part_hd fix"> <strong class="n">3F</strong>
+    <h2 class="tip"><a href="/nj/prolist.jsp?catalog=104" target="_blank">收割/收获机</a></h2>
+    <ul class="partTabBox" id="sgsh_move">
+      <li class="tab_t tab_t_cur"><a href="/nj/prolist.jsp?catalog=105001" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">玉米收割/收获机<i></i></a></li>
+      <li class="tab_t"><a href="/nj/prolist.jsp?catalog=105002" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">稻麦收割机<i></i></a></li>
+      <li class="tab_t"><a href="/nj/prolist.jsp?catalog=105003" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">谷物收割机<i></i></a></li>
+      <li class="tab_t"><a href="/nj/prolist.jsp?catalog=105004" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">打捆机<i></i></a></li>
+    </ul>
+  </div>
+  <div class="part_bd fix">
+    <div class="leftPart">
+      <a href="/nj/prolist.jsp?catalog=104" target="_blank"><img data-lazy="images/leftPartPic03.jpg" alt=""></a>
+    </div>
+    <div id="hnt_list">
+      <!-- 20160426 -->
+      <!--玉米收割/收获机-->       
+       <div class="midPart txd_mpro_list"  style="display:block;">
+       <ul class="fix">
+	   <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4YZP-32.shtm" title="五征4YZP-3玉米收割/收获机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422133554_642.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4YZP-32.shtm" title="五征4YZP-3玉米收割/收获机">五征4YZP-3玉米收割/收获机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">节能、环保、动力强劲，扭矩储备大</div>
+            <div class="mp_price" style="display: none;"><a data-val="97" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+	  <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4YZP-3X3.shtm" title="春雨4YZP-3X玉米收获机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422135411_252.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4YZP-3X3.shtm" title="春雨4YZP-3X玉米收获机">春雨4YZP-3X玉米收获机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">可靠性高，收获效果好</div>
+            <div class="mp_price" style="display: none;"><a data-val="153" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4YZ-3A.shtm" title="爱科4YZ-3A玉米收割/收获机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422140320_598.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4YZ-3A.shtm" title="爱科4YZ-3A玉米收割/收获机">爱科4YZ-3A玉米收割/收获机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">适应性好、作业高效、可靠性高</div>
+            <div class="mp_price" style="display: none;"><a data-val="177" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4YZ-41.shtm" title="玉明4YZ-4自走式玉米收获机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422140930_249.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4YZ-41.shtm" title="玉明4YZ-4自走式玉米收获机">玉明4YZ-4自走式玉米收获机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">卸粮方便快捷，排杂效果好，还田效果好</div>
+            <div class="mp_price" style="display: none;"><a data-val="194" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4LBZ-145(PRO488).shtm" title="久保田4LBZ-145(PRO488)玉米收割/收获机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422141929_835.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4LBZ-145(PRO488).shtm" title="久保田4LBZ-145(PRO488)玉米收割/收获机">久保田4LBZ-145(PRO488)玉米收割/收获机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">转载高输出，动力强劲</div>
+            <div class="mp_price" style="display: none;"><a data-val="217" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/CB03(4YZ-3H).shtm" title="雷沃CB03(4YZ-3H)玉米收割/收获机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422142734_247.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/CB03(4YZ-3H).shtm" title="雷沃CB03(4YZ-3H)玉米收割/收获机">雷沃CB03(4YZ-3H)玉米收割/收获机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">适应性好，作业效果好</div>
+            <div class="mp_price" style="display: none;"><a data-val="236" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 20160426  end-->
+      <!--稻麦收割机-->       
+       <div class="midPart txd_mpro_list">
+       <ul class="fix">
+	   <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/GA60.shtm" title="五征GA60稻麦收割机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422133947_945.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/GA60.shtm" title="五征GA60稻麦收割机">五征GA60稻麦收割机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">工作可靠性高、油耗低</div>
+            <div class="mp_price" style="display: none;"><a data-val="110" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+	  <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4LZ-2.shtm" title="爱科4LZ-2稻麦收割机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422140048_31.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4LZ-2.shtm" title="爱科4LZ-2稻麦收割机">爱科4LZ-2稻麦收割机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">强力拨禾弹齿，复脱滚筒</div>
+            <div class="mp_price" style="display: none;"><a data-val="168" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/GF60(4LZ-6F).shtm" title="雷沃GF60(4LZ-6F)稻麦收割机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422141824_665.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/GF60(4LZ-6F).shtm" title="雷沃GF60(4LZ-6F)稻麦收割机">雷沃GF60(4LZ-6F)稻麦收割机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">粮箱容积大，适应性强</div>
+            <div class="mp_price" style="display: none;"><a data-val="214" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4LBZ-105(PRO208).shtm" title="久保田4LBZ-105(PRO208)稻麦收割机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422141605_848.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4LBZ-105(PRO208).shtm" title="久保田4LBZ-105(PRO208)稻麦收割机">久保田4LBZ-105(PRO208)稻麦收割机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">转载高输出且动力强劲</div>
+            <div class="mp_price" style="display: none;"><a data-val="215" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/LDS4LZ-0.3-L.shtm" title="鑫源农机4LZ-0.3-L" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160425111927_710.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/LDS4LZ-0.3-L.shtm" title="鑫源农机4LZ-0.3-L">鑫源农机4LZ-0.3-L</a></div>
+            <div class="mp_link" id="summary" style="display: block;">重量轻、油耗低</div>
+            <div class="mp_price" style="display: none;"><a data-val="1651" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/TC80.shtm" title="" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423134630_11.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/TC80.shtm" title="中联重科TC80收割机">中联重科TC80收割机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">动力强劲，可靠性高</div>
+            <div class="mp_price" style="display: none;"><a data-val="1237" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--谷物收割机-->       
+       <div class="midPart txd_mpro_list">
+       <ul class="fix">
+	   <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4L-0.9B.shtm" title="" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422134829_626.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4L-0.9B.shtm" title="刚毅4L-0.9B谷物收割机">刚毅4L-0.9B谷物收割机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">动力强劲，可靠性高</div>
+            <div class="mp_price" style="display: none;"><a data-val="132" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/MF-T7.shtm" title="" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422135819_21.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/MF-T7.shtm" title="爱科MF-T7谷物收割机">爱科MF-T7谷物收割机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">重心更低 ，通过稳定性</div>
+            <div class="mp_price" style="display: none;"><a data-val="160" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4LZ-6.shtm" title="" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422140247_221.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4LZ-6.shtm" title="春雨4LZ-6谷物收割机">春雨4LZ-6谷物收割机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">自动化程度高，操作方便</div>
+            <div class="mp_price" style="display: none;"><a data-val="173" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+				
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4LZ-2.5A.shtm" title="" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422151559_295.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4LZ-2.5A.shtm" title="莱恩4LZ-2.5A谷物收割机">莱恩4LZ-2.5A谷物收割机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">高配置、高效能、高品质</div>
+            <div class="mp_price" style="display: none;"><a data-val="308" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+				
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4LZ-8.shtm" title="" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422154850_881.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4LZ-8.shtm" title="东禾4LZ-2.8Z谷物收割机">东禾4LZ-2.8Z谷物收割机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">动力强劲，可靠性高</div>
+            <div class="mp_price" style="display: none;"><a data-val="364" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		
+		
+	  <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4LZ-1.2.shtm" title="" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423141231_938.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4LZ-1.2.shtm" title="巨明4LZ-1.2谷物收割机">巨明4LZ-1.2谷物收割机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">脱离效果好、破碎率低</div>
+            <div class="mp_price" style="display: none;"><a data-val="1307" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+     <!--打捆机-->       
+       <div class="midPart txd_mpro_list">
+       <ul class="fix">
+	   <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/LSB1270-1290.shtm" title="" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160425113026_465.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/LSB1270-1290.shtm" title="库恩LSB 1270/1290打捆机">库恩LSB 1270/1290打捆机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">简单而坚固的驱动系统</div>
+            <div class="mp_price" style="display: none;"><a data-val="1656" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/9YFQ-1.9Z(TIB3000).shtm" title="" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423160457_68.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/9YFQ-1.9Z(TIB3000).shtm" title="世达尔9YFQ-1.9Z(TIB3000)打捆机">世达尔9YFQ-1.9Z(TIB3000)打捆机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">成捆率高，经久耐用</div>
+            <div class="mp_price" style="display: none;"><a data-val="1582" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/9YFQ-1.9.shtm" title="" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423150229_771.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/9YFQ-1.9.shtm" title="天艺9YFQ-1.9打捆机">天艺9YFQ-1.9打捆机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">牧草成捆收获机械</div>
+            <div class="mp_price" style="display: none;"><a data-val="1465" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/MARKANT.shtm" title="" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423141258_725.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/MARKANT.shtm" title="克拉斯MARKANT打捆机">克拉斯MARKANT打捆机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">捆压紧实，精确成形</div>
+            <div class="mp_price" style="display: none;"><a data-val="1309" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/BR6000.shtm" title="" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423131817_539.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/BR6000.shtm" title="纽荷兰BR6000圆捆打捆机">纽荷兰BR6000圆捆打捆机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">更好的通风性更便于运输</div>
+            <div class="mp_price" style="display: none;"><a data-val="1144" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+		<li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/9Y-1900.shtm" title="" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423110615_528.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/9Y-1900.shtm" title="德沃9Y-1900打捆机">德沃9Y-1900打捆机</a></div>
+            <div class="mp_link" id="summary" style="display: block;">脱离效果好、破碎率低</div>
+            <div class="mp_price" style="display: none;"><a data-val="948" href="javascript:;" target="_blank" class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div class="rightPart">
+      <div class="se_hd fix">
+        <h3 class="n">品牌专区</h3>
+      </div>
+      <div class="se_bd rankTab">
+        <ul class="fix">
+          <li><a href="/nj/prolist.jsp?factory=10" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422113605_686.jpg"></a></li><!-- 爱科 10 -->
+          <li><a href="/nj/prolist.jsp?factory=14" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422115009_840.jpg"></a></li><!-- 亿阳农业 14 -->
+          <li><a href="/nj/prolist.jsp?factory=18" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422115854_728.jpg"></a></li><!-- 刚毅 18 -->
+          <li><a href="/nj/prolist.jsp?factory=23" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422135046_674.jpg"></a></li><!-- 春雨 23 -->
+          <li><a href="/nj/prolist.jsp?factory=24" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422140730_83.jpg"></a></li><!-- 玉明 24 -->
+          <<li><a href="/nj/prolist.jsp?factory=28" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422144250_425.jpg"></a></li><!-- 希森天成 28 -->
+          <li><a href="/nj/prolist.jsp?factory=38" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422152609_578.jpg"></a></li><!-- 牧神 38 -->
+          <li><a href="/nj/prolist.jsp?factory=46" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422162640_674.jpg"></a></li><!-- 圣地亚 46 -->
+          <li><a href="/nj/prolist.jsp?factory=84" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423134445_404.jpg"></a></li><!-- 亿森机械  84-->
+          <li><a href="/nj/prolist.jsp?factory=99" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423145019_459.png"></a></li><!-- 东风井关 99 -->
+          <li><a href="/nj/prolist.jsp?factory=79" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423132434_991.jpg"></a></li><!-- 约翰迪尔 79 -->
+          <li><a href="/nj/prolist.jsp?factory=78" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423132354_540.jpg"></a></li><!-- 道依茨法尔 78 -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 烘干机 -->
+  <div class="wrap fix ipart ipart03" id="part03">
+  <div class="part_hd fix"> <strong class="n">3F</strong>
+    <h2 class="tip"><a href="/nj/prolist.jsp?catalog=106" target="_blank">农产品加工机械</a></h2>
+    <ul class="partTabBox" id="zzsf_move">
+      <li class="tab_t tab_t_cur"><a href="/nj/prolist.jsp?catalog=106001" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">脱粒机<i></i></a></li>
+      <li class="tab_t"><a href="/nj/prolist.jsp?catalog=106002" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">剥壳（去皮）机<i></i></a></li>
+      <li class="tab_t"><a href="/nj/prolist.jsp?catalog=106003" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">烘干机<i></i></a></li>
+      <li class="tab_t"><a href="/nj/prolist.jsp?catalog=106004" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">碾米机<i></i></a></li>
+      <li class="tab_t"><a href="/nj/prolist.jsp?catalog=106005" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">榨油机<i></i></a></li>
+      <li class="tab_t"><a href="/nj/prolist.jsp?catalog=106006" data-val="./create_index/index_tlj_lstlj.htm" target="_blank">精选机<i></i></a></li>
+    </ul>
+  </div>
+  <div class="part_bd fix">
+    <div class="leftPart">
+      <a href="/nj/prolist.jsp?catalog=106" target="_blank"><img data-lazy="images/leftPartPic03.jpg" alt=""></a><!--images/leftPartPic04.jpg-->
+    </div>
+    <div id="qzj_list">
+    <!-- 脱粒机 -->
+      <div class="midPart txd_mpro_list"  style="display:block;">
+      <ul class="fix">
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/YY130.shtm" title="亿阳农业YY130秸秆切碎收集机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422131117_811.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/YY130.shtm" title="亿阳农业YY130秸秆切碎收集机">亿阳农业YY130秸秆切碎收集机</a></div>
+            <div class="mp_link" id="summary">体积小分量轻便利操作</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="27" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+       <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/5TY-31-861.shtm" title="农伯乐5TY-31-86脱粒机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422133156_606.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/5TY-31-861.shtm" title="农伯乐5TY-31-86脱粒机">农伯乐5TY-31-86脱粒机</a></div>
+            <div class="mp_link" id="summary">脱净率高，破碎率低</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="90" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/YY-830-1.shtm" title="亿阳农业YY-830-1全自动玉米脱粒机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422133850_586.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/YY-830-1.shtm" title="亿阳农业YY-830-1全自动玉米脱粒机">亿阳农业YY-830-1全自动玉米脱粒机</a></div>
+            <div class="mp_link" id="summary">全自动玉米脱粒机</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="109" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/YY850.shtm" title="亿阳农业YY850大型玉米脱粒机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422135925_298.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/YY850.shtm" title="亿阳农业YY850大型玉米脱粒机">亿阳农业YY850大型玉米脱粒机</a></div>
+            <div class="mp_link" id="summary">自动上料，省力省时</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="165" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/5TY-190.shtm" title="玉明5TY-190脱粒机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422142529_212.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/5TY-190.shtm" title="玉明5TY-190脱粒机">玉明5TY-190脱粒机</a></div>
+            <div class="mp_link" id="summary">螺旋上料、速度快、上料均匀、不漏料</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="233" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4YB-41.shtm" title="金园宝4YB-4玉米脱粒机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422160211_834.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4YB-41.shtm" title="金园宝4YB-4玉米脱粒机">金园宝4YB-4玉米脱粒机</a></div>
+            <div class="mp_link" id="summary">美观结实，方便人性化</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="379" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 剥壳（去皮）机 -->
+      <div class="midPart txd_mpro_list">
+      <ul class="fix">
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/XXYMBPJ.shtm" title="农伯乐新型玉米剥壳（去皮）机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422133834_23.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/XXYMBPJ.shtm" title="农伯乐新型玉米剥壳（去皮）机">农伯乐新型玉米剥壳（去皮）机</a></div>
+            <div class="mp_link" id="summary">脱净率高，破碎率低</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="107" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+       <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/5YPJ-61.shtm" title="山东凯兴5YPJ-6玉米剥皮机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422150008_219.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/5YPJ-61.shtm" title="山东凯兴5YPJ-6玉米剥皮机">山东凯兴5YPJ-6玉米剥皮机</a></div>
+            <div class="mp_link" id="summary">效率高，性能稳定</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="290" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/4YB-4.shtm" title="金园宝4YB-4玉米剥皮机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422160611_117.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/4YB-4.shtm" title="金园宝4YB-4玉米剥皮机">金园宝4YB-4玉米剥皮机</a></div>
+            <div class="mp_link" id="summary">方便人性化，剥净率高</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="386" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/TYT-356.shtm" title="天阳TYT-350绿豆脱皮机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423092506_49.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/TYT-356.shtm" title="天阳TYT-350绿豆脱皮机">天阳TYT-350绿豆脱皮机</a></div>
+            <div class="mp_link" id="summary">设计合理、结构紧凑、操作简单、维修方便</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="520" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/HSBKJ.shtm" title="圣鲁机械花生剥壳（去皮）机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423132750_988.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/HSBKJ.shtm" title="圣鲁机械花生剥壳（去皮）机">圣鲁机械花生剥壳（去皮）机</a></div>
+            <div class="mp_link" id="summary">破碎率低、分选好、损失率低</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1179" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/YZYX300.shtm" title="公发YZYX300剥壳（去皮）机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423133714_339.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/YZYX300.shtm" title="公发YZYX300剥壳（去皮）机">公发YZYX300剥壳（去皮）机</a></div>
+            <div class="mp_link" id="summary">小巧便利，生产效率高，成本低</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1203" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 烘干机 -->
+      <div class="midPart txd_mpro_list">
+      <ul class="fix">
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/WGHX.shtm" title="万谷WGHX小型固定循环式粮食烘干机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422132436_19.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/WGHX.shtm" title="万谷WGHX小型固定循环式粮食烘干机">万谷WGHX小型固定循环式粮食烘干机</a></div>
+            <div class="mp_link" id="summary">热效率高，使用寿命长</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="64" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+       <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/5HXW0210.shtm" title="雷沃5HXW0210低温循环谷物烘干机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422144314_370.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/5HXW0210.shtm" title="雷沃5HXW0210低温循环谷物烘干机">雷沃5HXW0210低温循环谷物烘干机</a></div>
+            <div class="mp_link" id="summary">可靠性高，故障率低</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="260" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/5HXW0150.shtm" title="雷沃5HXW0150低温循环谷物烘干机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422144314_370.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/5HXW0150.shtm" title="雷沃5HXW0150低温循环谷物烘干机">雷沃5HXW0150低温循环谷物烘干机</a></div>
+            <div class="mp_link" id="summary">操作简便，测量灵敏、准确、可靠</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="261" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/5H-15-5H-15A.shtm" title="东方红5H-15/5H-15A循环式谷物干燥机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422172027_530.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/5H-15-5H-15A.shtm" title="东方红5H-15/5H-15A循环式谷物干燥机">东方红5H-15/5H-15A循环式谷物干燥机</a></div>
+            <div class="mp_link" id="summary">操作简便，省时省力，提高了作业效率</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="471" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/5H-1.5.shtm" title="川龙5H-1.5烘干机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423132208_713.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/5H-1.5.shtm" title="川龙5H-1.5烘干机">川龙5H-1.5烘干机</a></div>
+            <div class="mp_link" id="summary">移动快捷、灵活高效</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1156" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/5H-10-20-30.shtm" title="万穗5H-10/20/30烘干机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423151319_41.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/5H-10-20-30.shtm" title="万穗5H-10/20/30烘干机">万穗5H-10/20/30烘干机</a></div>
+            <div class="mp_link" id="summary">干燥速度快，粮食干燥均匀、破碎率少，降温快，有利储存</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="1490" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 碾米机 -->
+      <div class="midPart txd_mpro_list">
+      <ul class="fix">
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/TYS-400.shtm" title="天阳TYS-400砻谷碾白组合米机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423092506_82.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/TYS-400.shtm" title="天阳TYS-400砻谷碾白组合米机">天阳TYS-400砻谷碾白组合米机</a></div>
+            <div class="mp_link" id="summary">结构紧凑，体积小重量轻，操作与调整方便可靠</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="515" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+       <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/TYS-116.shtm" title="天阳TYS-110辊式水稻碾米机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423092506_7.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/TYS-116.shtm" title="天阳TYS-110辊式水稻碾米机">天阳TYS-110辊式水稻碾米机</a></div>
+            <div class="mp_link" id="summary">操作维修方便，耗电少、产量大，使用寿命长</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="533" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/TYS-112.shtm" title="天阳TYS-110中型水稻碾米机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423103344_919.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/TYS-112.shtm" title="天阳TYS-110中型水稻碾米机">天阳TYS-110中型水稻碾米机</a></div>
+            <div class="mp_link" id="summary">碎米少，糠米分离彻底</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="848" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/TYT-352.shtm" title="天阳TYT-350谷子碾米机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423103750_485.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/TYT-352.shtm" title="天阳TYT-350谷子碾米机">天阳TYT-350谷子碾米机</a></div>
+            <div class="mp_link" id="summary">脱净率和加工效率高</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="854" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/MYPNF15-C.shtm" title="湖北佳粮MYPNF15-C碾米机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423105733_121.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/MYPNF15-C.shtm" title="湖北佳粮MYPNF15-C碾米机">湖北佳粮MYPNF15-C碾米机</a></div>
+            <div class="mp_link" id="summary">省电，效率高，操作简单</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="916" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="http://product.21-sun.com/nj/proDetail/MYZNF15.shtm" title="湖北佳粮MYZNF15碾米机" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423105734_957.jpg" alt=""></a>
+			</div>
+            <div class="mp_title"><a href="http://product.21-sun.com/nj/proDetail/MYZNF15.shtm" title="湖北佳粮MYZNF15碾米机">湖北佳粮MYZNF15碾米机</a></div>
+            <div class="mp_link" id="summary">操作集中在小范围内，简单方便</div>
+			<div class="mp_link" id="detail" style="display:none">
+			</div>
+            <div class="mp_price"><a data-val="919" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- 3end -->
+    </div>
+    <div class="rightPart">
+      <div class="se_hd fix">
+        <h3 class="n">品牌专区</h3>
+      </div>
+      <div class="se_bd fix rankTab">
+        <ul class="fix">
+          <li><a href="/nj/prolist.jsp?factory=12" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422114523_874.jpg"></a></li><!-- 久保田 12 -->
+          <li><a href="/nj/prolist.jsp?factory=18" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422115854_728.jpg"></a></li><!-- 刚毅 18 -->
+          <li><a href="/nj/prolist.jsp?factory=44" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422161757_1.jpg"></a></li><!-- 潍佳 44 -->
+          <li><a href="/nj/prolist.jsp?factory=54" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423081847_378.jpg"></a></li><!-- 伊诺罗斯 54 -->
+          <li><a href="/nj/prolist.jsp?factory=58" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423095037_237.jpg"></a></li><!-- 祥河 58 -->
+          <li><a href="/nj/prolist.jsp?factory=63" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423102616_951.jpg"></a></li><!-- 川龙 63 -->
+          <li><a href="/nj/prolist.jsp?factory=72" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423112631_289.jpg"></a></li><!-- 圣鲁机械 72 -->
+          <li><a href="/nj/prolist.jsp?factory=74" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423115804_7.jpg"></a></li><!-- 冀农 74 -->
+          <li><a href="/nj/prolist.jsp?factory=76" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423115901_196.jpg"></a></li><!-- 越野 76 -->
+          <li><a href="/nj/prolist.jsp?factory=96" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423143740_348.jpg"></a></li><!-- 华盛中天 96 -->
+          <li><a href="/nj/prolist.jsp?factory=99" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423145019_459.png"></a></li><!-- 东风井关 99 -->
+          <li><a href="/nj/prolist.jsp?factory=118" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160425104122_958.jpg"></a></li><!-- 库恩 118 -->
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+</div>
+<!--foot-->
+<div class="j_foot j_foot02" style="height:auto">
+  <div class="wrap fix">
+    <div class="j_foot_link_tab j_tab">
+      <div class="j_tab_keylist">
+        <ul class="fix">
+          <li class="j_tab_key cur">中国工程机械商贸网 旗下网站</li>
+          <li class="j_tab_key">友情链接</li>
+        </ul>
+      </div>
+      <div class="j_tab_val" style="display: block;">
+        <ul class="fix j_link_list">
+          <li><a href="http://part.21-sun.com">中国工程机械配件网</a></li>
+          <li><a href="http://job.21-sun.com/">中国工程机械人才网</a></li>
+          <li><a href="http://rent.21-sun.com/">中国工程机械租赁网</a></li>
+          <li><a href="http://used.21-sun.com/">中国工程机械二手网</a></li>
+          <li><a href="http://www.cmbol.com/">Construction Equipment</a></li>
+          <li><a href="http://www.21part.com/">杰配网</a></li>
+          <li><a href="http://peitao.21-sun.com/">配套网</a></li>
+          <li><a href="http://www.21-sun.com/app/">手机21-SUN</a></li>
+          <li><a href="http://ad.21-sun.com/link_to.jsp?paras=0,0,100028&amp;url=www.21taiyang.com/">太阳商城</a></li>
+          <li><a href="http://product.21-sun.com/">铁臂商城</a></li>
+        </ul>
+      </div>
+      <div class="j_tab_val">
+        <ul class="fix j_link_list">
+          <li><a target="_blank" href="http://cn.newmaker.com/">佳工机电网</a></li>
+          <li><a target="_blank" href="http://www.51dzw.com/">51电子网</a></li>
+          <li><a target="_blank" href="http://gongkong.ofweek.com">工控</a></li>
+          <li><a target="_blank" href="http://www.skxox.com">云同盟</a></li>
+          <li><a target="_blank" href="http://www.jc35.com">机床网</a></li>
+          <li><a target="_blank" href="http://www.tielu.cn/">铁路网</a></li>
+          <li><a target="_blank" href="http://www.machine35.com/">中国机床网</a></li>
+          <li><a target="_blank" href="http://www.cncu.cn/">铜</a></li>
+          <li><a target="_blank" href="http://product.gongchang.com/">中国产品库</a></li>
+          <li><a target="_blank" href="http://paihang.jiameng.com/">品牌加盟店</a></li>
+          <li><a target="_blank" href="http://blog.zhulong.com/">筑龙博客</a></li>
+          <li><a target="_blank" href="http://changsha.liebiao.com/">长沙列表网</a></li>
+          <li><a target="_blank" href="http://cn.makepolo.com/">企业名录</a></li>
+          <li><a target="_blank" href="http://www.99114.com/">B2B平台</a></li>
+          <li><a target="_blank" href="http://p.tgnet.com/">工程信息</a></li>
+          <li><a target="_blank" href="http://www.qp110.com/">汽车配件110网</a></li>
+          <li><a target="_blank" href="http://nm.sci99.com/">有色金属价格</a></li>
+          <li><a target="_blank" href="http://huanbao.bjx.com.cn/">节能环保</a></li>
+          <li><a target="_blank" href="http://www.ayijx.com">百川网</a></li>
+          <li><a target="_blank" href="http://info.glinfo.com/">钢联资讯</a></li>
+          <li><a target="_blank" href="http://www.best73.com">优质企商网</a></li>
+          <li><a target="_blank" href="http://cd.fang.com">成都搜房网</a></li>
+          <li><a target="_blank" href="http://jz.zhulong.com/">建筑设计</a></li>
+          <li><a target="_blank" href="http://qiye.youboy.com/">企业名录</a></li>
+          <li><a target="_blank" href="http://jixie.huangye88.com/">中国机械网</a></li>
+          <li><a target="_blank" href="http://baojia.feijiu.net">废旧报价</a></li>
+          <li><a target="_blank" href="http://qicai.fengniao.com">摄影器材</a></li>
+          <li><a target="_blank" href="http://price.315che.com/">汽车报价网</a></li>
+          <li><a target="_blank" href="http://koubei.21-sun.com/">挖掘机口碑</a></li>
+          <li><a target="_blank" href="http://www.21-sun.com/service/wangzhanjianshe/anliMore.jsp">成功案例</a></li>
+          <li><a target="_blank" href="http://www.nongjx.com/">中国农机总网</a></li>
+          <li><a target="_blank" href="http://www.fdcew.com/">房地产E网</a></li>
+          <li><a target="_blank" href="http://steel.sci99.com">钢铁</a></li>
+          <li><a target="_blank" href="http://www.chamenhu.com/">B2B网站大全</a></li>
+          <li><a target="_blank" href="http://www.shigongjishu.cn/">施工技术杂志社</a></li>
+          <li><a target="_blank" href="http://www.machine.com.cn/link/">中国机械设备网</a></li>
+          <li><a target="_blank" href="http://bbs.cehome.com/">铁甲论坛</a></li>
+          <li><a target="_blank" href="http://bbs.qjy168.com">勤加缘社区</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="j_bottom">
+  <div class="wrap fix">
+    <div class="j_bottom_left l"> <span class="New_links" onClick="window.open('http://www.21-sun.com/service/guanggao/index.htm');">广告服务</span><em>|</em> <span class="New_links" onClick="window.open('http://www.jerei.com/contact/');">联系方式</span><em>|</em> <span class="New_links" onClick="window.open('http://www.jerei.com/');">关于我们</span><em>|</em> <span class="New_links" onClick="window.open('http://www.jerei.com/news/');">本网动态</span><em>|</em> <span class="New_links" onClick="window.open('http://www.jerei.com/contact/legal.jsp');">法律声明</span><em>|</em> <span class="New_links" onClick="window.open('http://aboutus.21-sun.com/map.htm');">网站导航</span><em>|</em> <span class="New_links" onClick="window.open('http://www.21-sun.com/contact/');">联系客服</span> </div>
+    <div class="j_bottom_left r">中国工程机械商贸网 © copyright 2000-<span class="currentDate">2015</span></div>
+  </div>
+</div>
+<!--foot end-->
+
+<!--购机导航内容-->
+<div class="j_tlayer j_prol">
+  <ul class="fix">
+    <li>
+      <div class="j_t"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=101001" class="j_link01" title="挖掘机/属具">挖掘机/属具</a> <a href="http://product.21-sun.com/brand/ht95/" title="恒天九五挖掘机">恒天九五挖掘机</a></div>
+      <a href="http://product.21-sun.com/brand/jcm/" class="j_link02" title="山重">山重</a> <a href="http://product.21-sun.com/brand/hi-tech/" class="j_link02" title="普堃韩泰克">普堃韩泰克</a> <a href="http://product.21-sun.com/brand/eddie/" class="j_link02" title="艾迪">艾迪</a> <a href="http://product.21-sun.com/brand/tike/" class="j_link02" title="泰科">泰科</a> <a href="http://product.21-sun.com/brand/ytxinrenty/" class="j_link02" title="DBK">DBK</a> <br>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101001001" title="履带挖掘机">履带挖掘机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101001004" title="轮式挖掘机">轮式挖掘机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101001007" title="特种挖掘机">特种挖掘机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101001098" title="破碎锤">破碎锤</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101001099" title="液压剪">液压剪</a> </li>
+    <li>
+      <div class="j_t"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=101001" class="j_link01" title="装载机">装载机</a> </div>
+      <a href="http://product.21-sun.com/brand/sdlg/" class="j_link02" title="临工">临工</a> <a href="http://product.21-sun.com/brand/liugong/" class="j_link02" title="柳工">柳工</a> <a href="http://product.21-sun.com/brandshop/xuangong/" class="j_link02" title="宣工">宣工</a><a href="http://ad.21-sun.com/link_to.jsp?paras=101,101,6850&amp;url=http://product.21-sun.com/brand/yingxuan/" class="j_link02" title="英轩">英轩</a> <br>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101002007" title="轮式装载机">轮式装载机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101002003" title="履带装载机">履带装载机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101002004" title="特种装载机">特种装载机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101002008" title="挖掘装载机">挖掘装载机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101002009" title="滑移装载机">滑移装载机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101002010" title="滑移装载机">滑移装载机</a> </li>
+    <li>
+      <div class="j_t"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=102" class="j_link01" title="起重机">起重机</a><span class="j_tr"> <a href="http://used.21-sun.com/qizhongji/0-0-0-0-0-0-0-0-0.htm" title="二手">二手</a> / <a href="http://rent.21-sun.com/equipment/index.jsp?find_category=02" title="起重机械">租赁</a></span> </div>
+      <a href="http://product.21-sun.com/brand/xcmg/" class="j_link02" title="徐工">徐工</a> <a href="http://product.21-sun.com/brand/sany/" class="j_link02" title="三一">三一</a> <a href="http://product.21-sun.com/brand/zoomlion/" class="j_link02" title="中联">中联</a> <a href="http://product.21-sun.com/brand/fuwa/" class="j_link02" title="抚挖">抚挖</a> <a href="http://product.21-sun.com/brand/liugong/" class="j_link02" title="柳工">柳工</a> <a rel="nofollow" href="http://www.sinoboom.com.cn/" class="j_link02" title="星邦重工">星邦重工</a><br>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=102007" title="汽车起重机">汽车起重机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=102002" title="塔式起重机">塔式起重机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=102003" title="高空作业车/平台">高空作业车/平台</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=102006" title="随车起重机">随车起重机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=102008" title="履带式起重机">履带式起重机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=102012" title="伸缩臂叉装机">伸缩臂叉装机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=102011" title="施工升降机">施工升降机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=102013" title="龙门/桥梁起重机">龙门/桥梁起重机</a> </li>
+    <li>
+      <div class="j_t"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001" class="j_link01" title="压路机/压实机/夯">压路机/压实机/夯</a> <a href="http://ad.21-sun.com/link_to.jsp?paras=101,101,4544&amp;url=www.green-belt.cn/" title="垂直振动压路机">垂直振动压路机</a></div>
+      <a href="http://product.21-sun.com/brand/gjzjyituo/" class="j_link02" title="洛建">洛建</a> <a href="http://product.21-sun.com/brand/shantui/" class="j_link02" title="山推">山推</a> <a href="http://product.21-sun.com/brand/sany/" class="j_link02" title="三一">三一</a> <a href="http://product.21-sun.com/brand/zoomlion/" class="j_link02" title="中联">中联</a> <a href="http://product.21-sun.com/brand/xcmg/" class="j_link02" title="徐工">徐工</a> <a href="http://product.21-sun.com/brand/changlin/" class="j_link02" title="常林">常林</a><br>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001001" title="单钢轮压路机">单钢轮压路机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001002" title="双钢轮压路机">双钢轮压路机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001003" title="三钢轮压路机">三钢轮压路机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001005" title="轮胎压路机">轮胎压路机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001004" title="手扶压路机">手扶压路机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001020" title="压实机">压实机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001021" title="夯实机">夯实机</a> </li>
+    <li >
+      <div class="j_t"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=101003" class="j_link01" title="推土机">推土机</a> </div>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101003001" title="履带推土机">履带推土机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101003004" title="轮式推土机">轮式推土机</a> </li>
+    <li >
+      <div class="j_t"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=101005" class="j_link01" title="平地机/铲运机">平地机/铲运机</a> </div>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101005001" title="自行式铲运机">自行式铲运机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101005002" title="自行式平地机">自行式平地机</a> </li>
+    <li>
+      <div class="j_t"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=109" class="j_link01" title="桥梁机械">桥梁机械</a> </div>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=109006" title="砂浆车">砂浆车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=109005" title="检测车">检测车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=109004" title="提梁机">提梁机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=109002" title="运梁车">运梁车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=109001" title="架桥机">架桥机</a> </li>
+    <li>
+      <div class="j_t"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=101008" class="j_link01" title="自卸卡车/矿卡">自卸卡车/矿卡</a> </div>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101008002" title="刚性自卸卡车">刚性自卸卡车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101008001" title="铰接式自卸卡车">铰接式自卸卡车</a> </li>
+    <li  style="margin-top:-45px">
+      <div class="j_t"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=110" class="j_link01" title="地下及矿山机械">地下及矿山机械</a> </div>
+      <a href="http://product.21-sun.com/brandshop/tiejian/" class="j_link02" title="铁建重工">铁建重工</a> <a href="http://product.21-sun.com/brand/kym/" class="j_link02" title="开元">开元</a> <a href="http://product.21-sun.com/brand/stwkks/" class="j_link02" title="山特维克">山特维克</a> <a href="http://product.21-sun.com/brand/carter/" class="j_link02" title="卡特重工">卡特重工</a> <a href="http://product.21-sun.com/brand/shanbao/" class="j_link02" title="山宝">山宝</a><br>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=110001" title="盾构机">盾构机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=110002" title="掘进机">掘进机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=110008" title="凿岩台车/钻机">凿岩台车/钻机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=110009" title="破碎机">破碎机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=110012" title="筛分机">筛分机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=110013" title="装载及搬运设备">装载及搬运设备</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=110018" title="扒渣机">扒渣机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=110019" title="采煤机">采煤机</a> </li>
+    <li  style="margin-top:-45px">
+      <div class="j_t"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=105" class="j_link01" title="桩工机械">桩工机械</a><span class="j_tr"> <a href="http://rent.21-sun.com/equipment/index.jsp?find_category=07" title="租赁">租赁</a></span> </div>
+      <a href="http://ad.21-sun.com/link_to.jsp?paras=101,101,7238&amp;url=http://product.21-sun.com/brandshop/hnxth/" class="j_link02" title="新天和">新天和</a> <a href="http://product.21-sun.com/brand/xcmg/" class="j_link02" title="徐工">徐工</a> <a href="http://product.21-sun.com/brand/sunward/" class="j_link02" title="山河智能">山河智能</a> <a href="http://product.21-sun.com/brand/dongda/" class="j_link02" title="东达">东达</a> <a class="j_link02" href="http://product.21-sun.com/brand/ht95/" title="恒天九五">恒天九五</a> <br>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=105003" title="旋挖钻机">旋挖钻机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=105004" title="潜孔钻机">潜孔钻机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=105005" title="水平定向钻">水平定向钻</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=105007" title="连续墙设备">连续墙设备</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=105018" title="螺旋钻机">螺旋钻机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=105009" title="压桩机/打桩机">压桩机/打桩机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=105028" title="截桩机/破桩机">截桩机/破桩机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=105027" title="其它桩工机械">其它桩工机械</a> </li>
+    <li  style="margin-top:-45px">
+      <div class="j_t"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=103" class="j_link01" title="混凝土机械">混凝土机械</a><a href="http://ad.21-sun.com/link_to.jsp?paras=101,101,7097&amp;url=http://product.21-sun.com/brand/roady/" title="陆德筑机">陆德筑机</a><span class="j_tr"> <a href="http://used.21-sun.com/hunningtu/0-0-0-0-0-0-0-0-0-0.htm" title="二手">二手</a> / <a href="http://rent.21-sun.com/equipment/index.jsp?find_category=03" title="租赁">租赁</a></span></div>
+      <a href="http://product.21-sun.com/brand/lingyu/" class="j_link02" title="中集凌宇">中集凌宇</a> <a href="http://product.21-sun.com/brand/sany/" class="j_link02" title="三一">三一</a> <a href="http://product.21-sun.com/brand/shenglida8/" class="j_link02" title="盛利达">盛利达</a> <a href="http://product.21-sun.com/brand/haizhoujx/" class="j_link02" title="海州">海州</a> <a href="http://product.21-sun.com/brand/ftls/" class="j_link02" title="雷萨">雷萨</a> <a href="http://product.21-sun.com/brand/shantui/" class="j_link02" title="山推">山推</a><br>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103001" title="混凝土泵车">混凝土泵车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103019" title="混凝土搅拌运输车">搅拌运输车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103017" title="车载泵">车载泵</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103018" title="拖泵">拖泵</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103020" title="输送泵">输送泵</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103002" title="混凝土搅拌站/楼/车">搅拌站/楼/车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103005" title="混凝土布料杆/车">布料杆/车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103008" title="干粉/砂浆生产设备">干粉/砂浆生产设备</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103010" title="喷湿机">喷湿机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103015" title="其它混凝土设备">其它混凝土设备</a> </li>
+    <li  style="margin-top:-45px">
+      <div class="j_t"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=104" class="j_link01" title="路面机械">路面机械</a> </div>
+      <a href="http://product.21-sun.com/brand/xizhu/" class="j_link02" title="中交西筑">中交西筑</a> <a href="http://product.21-sun.com/brand/rehorkj/" class="j_link02" title="雷奥">雷奥</a> <a href="http://product.21-sun.com/brand/xcmg/" class="j_link02" title="徐工">徐工</a> <br>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=104001" title="摊铺机">摊铺机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=104005" title="铣刨机">铣刨机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=104003" title="开槽机/灌缝机">开槽机/灌缝机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=104004" title="路面破碎机">破碎机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=104002" title="再生/修补机械">再生/修补机械</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=104008" title="稳定土厂拌设备">稳定土厂拌设备</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=104009" title="沥青搅拌/转运">沥青搅拌/转运</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=104006" title="沥青洒布/碎石散布机">沥青洒布/碎石散布机</a> </li>
+    <li>
+      <div class="j_t" style="margin-top:5px"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=118" class="j_link01" title="专用车辆">专用车辆</a> <span class="j_tr"> <a href="http://rent.21-sun.com/equipment/index.jsp?find_category=06" title="租赁">租赁</a></span></div>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118001" title="普通载货车">普通载货车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118013" title="公路牵引车">公路牵引车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118004" title="场地牵引车">场地牵引车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118003" title="消防车">消防车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118012" title="清障车">清障车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118005" title="冷藏车">冷藏车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118006" title="货厢车">货厢车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118007" title="粉罐车">粉罐车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118008" title="油罐车">油罐车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118009" title="液罐车">液罐车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118010" title="翻斗车">翻斗车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118011" title="渣土车">渣土车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118014" title="半挂车">半挂车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118002" title="其他专用车">其他专用车</a> </li>
+    <li>
+      <div class="j_t" style="margin-top:5px"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=107" class="j_link01" title="叉车">叉车</a> </div>
+      <a href="http://product.21-sun.com/brand/doosan/" class="j_link02" title="斗山">斗山</a> <a href="http://product.21-sun.com/brand/hyundai-bj/" class="j_link02" title="现代京城">现代京城</a><br>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=107011" title="内燃平衡重叉车">内燃平衡重叉车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=107012" title="电动叉车">电动叉车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=107013" title="侧面叉车">侧面叉车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=107014" title="前移叉车">前移叉车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=107015" title="搬运车/托盘车">搬运车/托盘车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=107016" title="堆高机/堆垛车">堆高机/堆垛车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=107018" title="仓储叉车">仓储叉车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=107017" title="专用叉车">专用叉车</a> </li>
+    <li >
+      <div class="j_t" style="margin-top:5px"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=111" class="j_link01" title="港口机械">港口机械</a> </div>
+      <a href="http://product.21-sun.com/brand/sany" class="j_link02" title="三一">三一</a> <a href="http://product.21-sun.com/brand/liebherr/" class="j_link02" title="利勃海尔">利勃海尔</a><br>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=111001" title="正面吊">正面吊</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=111004" title="门式起重机">门式起重机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=111002" title="码头堆高机">码头堆高机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=111003" title="卸船机">卸船机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=111007" title="推耙机">推耙机</a> </li>
+    <li  >
+      <div class="j_t" style="margin-top:5px"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=122" class="j_link01" title="环卫车辆">环卫车辆</a> </div>
+      <a href="http://product.21-sun.com/products/prolist.jsp?catalog=122001" title="清扫车">清扫车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=122002" title="垃圾车">垃圾车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=122003" title="清雪车">清雪车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=122004" title="酒水车">酒水车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=122005" title="污水粪便车">污水粪便车</a> </li>
+  </ul>
+  <div class="j_proCates">
+    <div> <strong>挖掘机：</strong>
+      <p> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=174&amp;catalog=101001" title="卡特挖掘机">卡特挖掘机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=182&amp;catalog=101001" title="小松挖掘机">小松挖掘机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&amp;catalog=101001" title="三一挖掘机">三一挖掘机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=184&amp;catalog=101001" title="日立挖掘机">日立挖掘机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=183&amp;catalog=101001" title="神钢挖掘机">神钢挖掘机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&amp;catalog=101001" title="徐工挖掘机">徐工挖掘机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=175&amp;catalog=101001" title="沃尔沃挖掘机">沃尔沃挖掘机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=135&amp;catalog=101001" title="龙工挖掘机">龙工挖掘机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=137&amp;catalog=101001" title="临工挖掘机">临工挖掘机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&amp;catalog=101001" title="柳工挖掘机">柳工挖掘机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=141&amp;catalog=101001" title="福田雷沃挖掘机">福田雷沃挖掘机</a> </p>
+    </div>
+    <div> <strong>装载机：</strong>
+      <p> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=138&amp;catalog=101002" title="山工装载机">山工装载机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&amp;catalog=101002" title="柳工装载机">柳工装载机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=135&amp;catalog=101002" title="龙工装载机">龙工装载机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&amp;catalog=101002" title="徐工装载机">徐工装载机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=137&amp;catalog=101002" title="临工装载机">临工装载机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=139&amp;catalog=101002" title="厦工装载机">厦工装载机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=141&amp;catalog=101002" title="福田雷沃装载机">福田雷沃装载机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=174&amp;catalog=101002" title="卡特装载机">卡特装载机</a> </p>
+    </div>
+  </div>
+</div>
+<!--头部购机导航内容 end-->
+
+<!--全部产品分类-->
+<div class="acLayer">
+  <!--拖拉机-->
+  <div class="acb">
+    <div class="hn">
+      <i class="ico ico3_4"></i>
+      <strong class="n"><a href="/nj/prolist.jsp?catalog=102" target="_blank">拖拉机</a></strong><br>
+      <a href="/nj/prolist.jsp?catalog=102001" target="_blank">轮式拖拉机</a>
+      <a href="/nj/prolist.jsp?catalog=102002" target="_blank">手扶拖拉机</a>
+      <a href="/nj/prolist.jsp?catalog=102003" target="_blank">履带拖拉机</a>
+    </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+          <li><a href="/nj/prolist.jsp?factory=7&catalog=102" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422111500_493.jpg" alt="雷沃"><strong class="n">雷沃</strong></a></li><!-- 雷沃 7 -->
+          <li><a href="/nj/prolist.jsp?factory=10&catalog=102" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422113605_686.jpg" alt="爱科"><strong class="n">爱科</strong></a></li><!-- 爱科 10 -->
+          <li><a href="/nj/prolist.jsp?factory=12&catalog=102" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422114523_874.jpg" alt="久保田"><strong class="n">久保田</strong></a></li><!-- 久保田 12 -->
+          <li><a href="/nj/prolist.jsp?factory=34&catalog=102" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422151703_994.jpg" alt="爱司伯"><strong class="n">爱司伯</strong></a></li><!-- 爱司伯 34 -->
+          <li><a href="/nj/prolist.jsp?factory=39&catalog=102" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422153133_65.jpg" alt="江淮动力"><strong class="n">江淮动力</strong></a></li><!-- 江淮动力 39 -->
+          <li><a href="/nj/prolist.jsp?factory=30&catalog=102" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422145646_888.jpg" alt="东方红"><strong class="n">东方红</strong></a></li><!-- 东方红 30 -->
+          <li><a href="/nj/prolist.jsp?factory=18&catalog=102" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422115854_728.jpg" alt="刚毅"><strong class="n">刚毅</strong></a></li><!-- 刚毅 18 -->
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dt><a target="_blank" href="/nj/prolist.jsp?catalog=102001">轮式拖拉机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?catalog=102002">手扶拖拉机</a><em>|</em><a  target="_blank" href="/nj/prolist.jsp?catalog=102003">履带拖拉机</a></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="/nj/prolist.jsp?catalog=102" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd><a href="/nj/prolist.jsp?factory=71&catalog=102" target="_blank">洋马拖拉机</a><em>|</em><a href="/nj/prolist.jsp?factory=60&catalog=102" target="_blank">凯斯拖拉机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?factory=57&catalog=102">中联重科拖拉机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?factory=55&catalog=102">南岳拖拉机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?factory=52&catalog=102">五征拖拉机</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--耕整地机械-->
+  <div class="acb">
+    <div class="hn">
+      <i class="ico ico3_4"></i>
+      <strong class="n"><a href="/nj/prolist.jsp?catalog=103" target="_blank">耕整地机械</a></strong><br>
+      <a href="/nj/prolist.jsp?catalog=103001" target="_blank">旋耕机</a>
+      <a href="/nj/prolist.jsp?catalog=103002" target="_blank">微耕机</a>
+      <a href="/nj/prolist.jsp?catalog=103003" target="_blank">耕整机</a>
+      <a href="/nj/prolist.jsp?catalog=103004" target="_blank">深松机</a>
+    </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+          <li><a href="/nj/prolist.jsp?factory=57&catalog=103" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423092401_995.jpg"  alt="中联重科"><strong class="n">中联重科</strong></a></li><!-- 中联重科 57 -->
+          <li><a href="/nj/prolist.jsp?factory=46&catalog=103" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422162640_674.jpg"  alt="圣地亚"><strong class="n">圣地亚</strong></a></li><!-- 圣地亚 46 -->
+          <li><a href="/nj/prolist.jsp?factory=7&catalog=103" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422111500_493.jpg"  alt="雷沃"><strong class="n">雷沃</strong></a></li><!-- 雷沃 7 -->
+		  <li><a href="/nj/prolist.jsp?factory=11&catalog=103" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422114702_316.jpg"  alt="神耕"><strong class="n">神耕</strong></a></li><!-- 神耕 11 -->
+		  <li><a href="/nj/prolist.jsp?factory=28&catalog=103" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422144250_425.jpg"  alt="希森天成"><strong class="n">希森天成</strong></a></li><!-- 希森天成 28 -->
+		  <li><a href="/nj/prolist.jsp?factory=45&catalog=103" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422162434_222.jpg"  alt="碧浪"><strong class="n">碧浪</strong></a></li><!-- 碧浪 45 -->
+		  <li><a href="/nj/prolist.jsp?factory=52&catalog=103" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422172410_635.jpg"  alt="五征"><strong class="n">五征</strong></a></li><!-- 五征 52 -->
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dt><a target="_blank" href="/nj/prolist.jsp?catalog=103001">旋耕机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?catalog=103002">微耕机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?catalog=103003">耕整机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?catalog=103004">深松机</a></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="/nj/prolist.jsp?catalog=103" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd><a target="_blank" href="/nj/prolist.jsp?factory=85&catalog=103">潍河旋耕机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?factory=70&catalog=103">山拖泰山旋耕机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?factory=69&catalog=103">德沃旋耕机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?factory=67&catalog=103">千里牛旋耕机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?factory=60&catalog=103">凯斯旋耕机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?factory=52&catalog=103">五征旋耕机</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--种植施肥机械-->
+  <div class="acb">
+    <div class="hn">
+      <i class="ico ico3_4"></i>
+      <strong class="n"><a href="/nj/prolist.jsp?catalog=104" target="_blank">种植施肥机械</a></strong><br>
+      <a href="/nj/prolist.jsp?catalog=104001" target="_blank">播种机</a>
+      <a href="/nj/prolist.jsp?catalog=104002" target="_blank">插秧机</a>
+      <a href="/nj/prolist.jsp?catalog=104003" target="_blank">施肥机</a>
+      <a href="/nj/prolist.jsp?catalog=104004" target="_blank">地膜机</a>
+    </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+          <li><a href="/nj/prolist.jsp?factory=12&catalog=104" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422114523_874.jpg"  alt="久保田"><strong class="n">久保田</strong></a></li><!-- 久保田 12 -->
+          <li><a href="/nj/prolist.jsp?factory=18&catalog=104" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422115854_728.jpg"  alt="刚毅"><strong class="n">刚毅</strong></a></li><!-- 刚毅 18 -->
+          <li><a href="/nj/prolist.jsp?factory=44&catalog=104" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422161757_1.jpg"  alt="潍佳"><strong class="n">潍佳</strong></a></li><!-- 潍佳 44 -->
+          <li><a href="/nj/prolist.jsp?factory=54&catalog=104" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423081847_378.jpg"  alt="伊诺罗斯"><strong class="n">伊诺罗斯</strong></a></li><!-- 伊诺罗斯 54 -->
+          <li><a href="/nj/prolist.jsp?factory=58&catalog=104" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423095037_237.jpg" alt="祥河"><strong class="n">祥河</strong></a></li><!-- 祥河 58 -->
+          <li><a href="/nj/prolist.jsp?factory=63&catalog=104" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423102616_951.jpg" alt="川龙"><strong class="n">川龙</strong></a></li><!-- 川龙 63 -->
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dt><a target="_blank" href="/nj/prolist.jsp?catalog=104001">播种机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?catalog=104002">插秧机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?catalog=104003">施肥机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?catalog=104004">地膜机</a></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="/nj/prolist.jsp?catalog=104" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd><a target="_blank" href="/nj/prolist.jsp?factory=118&catalog=104">库恩播种机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?factory=99&catalog=104">东风井关播种机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?factory=96&catalog=104">华盛中天播种机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?factory=76&catalog=104">越野播种机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?factory=74&catalog=104">冀农播种机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?factory=72&catalog=104">圣鲁机械播种机</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--收割/收获机-->
+  <div class="acb">
+    <div class="hn">
+      <i class="ico ico3_4"></i>
+      <strong class="n"><a href="/nj/prolist.jsp?catalog=105" target="_blank">收割/收获机</a></strong><br>
+      <a href="/nj/prolist.jsp?catalog=105003" target="_blank">谷物收割机</a>
+      <a href="/nj/prolist.jsp?catalog=105002" target="_blank">稻麦收割机</a>
+    </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+          <li><a href="/nj/prolist.jsp?factory=38&catalog=105" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422152609_578.jpg" alt="牧神"><strong class="n">牧神</strong></a></li><!-- 牧神 38 -->
+          <li><a href="/nj/prolist.jsp?factory=46&catalog=105" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422162640_674.jpg" alt="圣地亚"><strong class="n">圣地亚</strong></a></li><!-- 圣地亚 46 -->
+          <li><a href="/nj/prolist.jsp?factory=84&catalog=105" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423134445_404.jpg" alt="亿森机械"><strong class="n">亿森机械</strong></a></li><!-- 亿森机械  84-->
+          <li><a href="/nj/prolist.jsp?factory=99&catalog=105" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423145019_459.png" alt="东风井关"><strong class="n">东风井关</strong></a></li><!-- 东风井关 99 -->
+          <li><a href="/nj/prolist.jsp?factory=79&catalog=105" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423132434_991.jpg" alt="约翰迪尔"><strong class="n">约翰迪尔</strong></a></li><!-- 约翰迪尔 79 -->
+          <li><a href="/nj/prolist.jsp?factory=78&catalog=105" target="_blank"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423132354_540.jpg" alt="道依茨法尔"><strong class="n">道依茨法尔</strong></a></li><!-- 道依茨法尔 78 -->
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dt><a target="_blank" href="/nj/prolist.jsp?catalog=105003">谷物收割机</a><em>|</em><a target="_blank" href="/nj/prolist.jsp?catalog=105002">稻麦收割机</a></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="/nj/prolist.jsp?catalog=105" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd>
+          <a target="_blank" href="/nj/prolist.jsp?factory=10&catalog=105">爱科收割机</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=14&catalog=105">亿阳农业收割机</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=18&catalog=105">刚毅收割机</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=23&catalog=105">春雨收割机</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=24&catalog=105">玉明收割机</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=28&catalog=105">希森天成收割机</a>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--农产品加工机械-->
+  <div class="acb">
+    <div class="hn">
+      <i class="ico ico3_4"></i>
+      <strong class="n"><a href="/nj/prolist.jsp?catalog=106" target="_blank">农产品加工机械</a></strong><br>
+      <a href="/nj/prolist.jsp?catalog=106001" target="_blank">脱粒机</a>
+      <a href="/nj/prolist.jsp?catalog=106002" target="_blank">剥壳（去皮）机</a>
+      <a href="/nj/prolist.jsp?catalog=106003" target="_blank">烘干机</a>
+    </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+            <li><a target="_blank" href="/nj/prolist.jsp?factory=7&catalog=106"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422111500_493.jpg" alt="雷沃"><strong class="n">雷沃</strong></a></li>
+			<li><a target="_blank" href="/nj/prolist.jsp?factory=14&catalog=106"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422115009_840.jpg" alt="亿阳农业"><strong class="n">亿阳农业</strong></a></li>
+			<li><a target="_blank" href="/nj/prolist.jsp?factory=17&catalog=106"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422115458_446.jpg" alt="大华宝来"><strong class="n">大华宝来</strong></a></li>
+			<li><a target="_blank" href="/nj/prolist.jsp?factory=21&catalog=106"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422131742_770.jpg" alt="万谷"><strong class="n">万谷</strong></a></li>
+			<li><a target="_blank" href="/nj/prolist.jsp?factory=22&catalog=106"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422135157_517.jpg" alt="农伯乐"><strong class="n">农伯乐</strong></a></li>
+			<li><a target="_blank" href="/nj/prolist.jsp?factory=24&catalog=106"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422140730_83.jpg" alt="玉明"><strong class="n">玉明</strong></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dt>
+            <a target="_blank" href="/nj/prolist.jsp?catalog=106001">脱粒机</a><em>|</em>
+            <a target="_blank" href="/nj/prolist.jsp?catalog=106002">剥壳（去皮）机</a><em>|</em>
+            <a target="_blank" href="/nj/prolist.jsp?catalog=106003">烘干机</a>
+          </dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="/nj/prolist.jsp?catalog=106" class="more">更多<i class="ico ico3_3"></i></a>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd>
+          <a target="_blank" href="/nj/prolist.jsp?factory=24&catalog=106">玉明脱粒机</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=22&catalog=106">农伯乐脱粒机</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=21&catalog=106">万谷脱粒机</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=17&catalog=106">大华宝来脱粒机</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=14&catalog=106">亿阳农业脱粒机</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=7&catalog=106">雷沃脱粒机</a>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--灌溉机械-->
+  <div class="acb">
+    <div class="hn" style="border-width:0;">
+      <i class="ico ico3_4"></i>
+      <strong class="n"><a href="/nj/prolist.jsp?catalog=107" target="_blank">灌溉机械</a></strong><br>
+      <a href="/nj/prolist.jsp?catalog=107001" target="_blank">水泵</a>
+      <a href="/nj/prolist.jsp?catalog=107002" target="_blank">喷灌机</a>
+      <a href="/nj/prolist.jsp?catalog=107003" target="_blank">喷洒机</a>
+    </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+ 			<li><a target="_blank" href="/nj/prolist.jsp?factory=18&catalog=107"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160422115854_728.jpg" alt="刚毅"><strong class="n">刚毅</strong></a></li>
+ 			<li><a target="_blank" href="/nj/prolist.jsp?factory=56&catalog=107"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423092544_808.jpg" alt="华星雨林"><strong class="n">华星雨林</strong></a></li>
+ 			<li><a target="_blank" href="/nj/prolist.jsp?factory=86&catalog=107"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423135633_294.jpg" alt="华源"><strong class="n">华源</strong></a></li>
+ 			<li><a target="_blank" href="/nj/prolist.jsp?factory=96&catalog=107"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423143740_348.jpg" alt="华盛中天"><strong class="n">华盛中天</strong></a></li>
+ 			<li><a target="_blank" href="/nj/prolist.jsp?factory=110&catalog=107"><img src="http://product.21-sun.com/uploadfiles/image/2016/04/20160423155554_962.jpg" alt="开普"><strong class="n">开普</strong></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dt><a target="_blank" href="/nj/prolist.jsp?catalog=107001">水泵</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?catalog=107002">喷灌机</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?catalog=107003">喷洒机</a></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="/nj/prolist.jsp?catalog=109" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd>
+          <a target="_blank" href="/nj/prolist.jsp?factory=18&catalog=107">刚毅水泵</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=56&catalog=107">华星雨林水泵</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=86&catalog=107">华源水泵</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=96&catalog=107">华盛中天水泵</a><em>|</em>
+          <a target="_blank" href="/nj/prolist.jsp?factory=110&catalog=107">开普水泵</a>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+<!--全部产品分类 end-->
+<!--<style>
+.catesSide { width:64px; height:auto; position:fixed; right:5px; top:50%; text-align:center; background:#696969; z-index:320;}
+.catesSide a { display:block; height:36px; line-height:36px; border-bottom:#515151 1px solid; color:#fff; white-space:nowrap; font-size:12px;}
+.catesSide .active a { background:#ff5400;}
+.catesSide a.gotop { background:#989898; padding:10px 0; height:auto; line-height:1; border-bottom-width:0;}
+</style>
+<div class="catesSide">
+  <ul class="fix cate_target">
+    <li><a href="#part06">拖拉机</a></li>
+    <li><a href="#part07">耕整地机械</a></li>
+    <li><a href="#part01">种植施肥机械</a></li>
+    <li><a href="#part02">收割/收获机</a></li>
+    <li><a href="#part05">更多机型</a></li>
+  </ul>
+  <a href="#" class="gotop"><img style="padding-top:1px" src="Static/images/up_ico.png" alt="返回顶部"><br>
+  <br>
+  返回顶部</a> </div>-->
+</body>
+<script src="Static/modules/seajs/sea.js" id="seajsnode" ></script>
+<script src="seajs.config.js"></script>
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<script type="text/javascript" src="scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<script>
+	var jrChannel='0#0';
+	seajs.use('index/index.js')
+    define("page_use",function(require,exports,module) {
+	    var $ = require('jquery');
+	    var base = require('base');	
+    });
+    seajs.use("page_use");
+	function tj(){ 
+		  if(jQuery('#keyword').val()==''){
+		     alert("请输入您要搜索的关键词");
+		     jQuery('#keyword').focus();
+			 return false;
+		  }
+		  var keyword=jQuery('#keyword').val();
+		  window.open("http://product.21-sun.com/search/"+keyword+"_0_0_0.htm");
+	}
+	$('#keyword').on('keydown', function (e) { if (e.keyCode == 13) {tj()} })
+	//退出
+    function logout(){
+	    jQuery.ajax({
+		    url:'action/ajax.jsp?flag=logout&r='+new Date(),
+		    async:false,
+		    cache:false,
+		    success:function(data){
+			    alert("您已退出登录！");
+			    setTimeout("window.location.reload()",1000);
+		    }
+	    });
+    }
+	if (window.jereiReceiver) { 
+        var _jrTracker= jereiReceiver.getTracker("GWD-100002"); 
+        _jrTracker.trackIde(/id=.?gg_\w+.?/ig); 
+    }
+</script>
+<script src="scripts/owl.carousel/owl.carousel.min.js"></script>
+<script>
+$(function(){
+    $('#banner').owlCarousel({
+	     items:1,
+		 autoPlay:true,
+		 touchDrag:false,
+		 mouseDrag:false,
+	     });
+    });
+</script>
+<script>
+$('#tlj_move a').mouseover(function(){
+		$(this).parent().addClass('tab_t_cur').siblings().removeClass('tab_t_cur');
+		$('#wjj_list .txd_mpro_list').css('display','none');
+		$('#wjj_list .txd_mpro_list').eq($(this).parent('li').index()).css('display','block');
+      });
+$('#gzd_move a').mouseover(function(){
+		$(this).parent().addClass('tab_t_cur').siblings().removeClass('tab_t_cur');
+		$('#zzj_list .txd_mpro_list').css('display','none');
+		$('#zzj_list .txd_mpro_list').eq($(this).parent('li').index()).css('display','block');
+      });
+$('#zzsf_move a').mouseover(function(){
+		$(this).parent().addClass('tab_t_cur').siblings().removeClass('tab_t_cur');
+		$('#qzj_list .txd_mpro_list').css('display','none');
+		$('#qzj_list .txd_mpro_list').eq($(this).parent('li').index()).css('display','block');
+      });
+$('#sgsh_move a').mouseover(function(){
+		$(this).parent().addClass('tab_t_cur').siblings().removeClass('tab_t_cur');
+		$('#hnt_list .txd_mpro_list').css('display','none');
+		$('#hnt_list .txd_mpro_list').eq($(this).parent('li').index()).css('display','block');
+      });
+
+</script>
+</html>

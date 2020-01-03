@@ -1,0 +1,496 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>标题</title>
+<meta name="keywords" content="装载机,挖掘机优惠促销，工程机械优惠活动" />
+<meta name="description" content="装载机,挖掘机，工程机械促销,买工程机械就来铁臂商城4006-521-526" />
+<link href="http://product.21-sun.com/style/brandshop_top.css" rel="stylesheet" type="text/css" />
+<link href="http://product.21-sun.com/style/style.css" rel="stylesheet" type="text/css" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<!--[if (IE 6)]>
+<script src="scripts/iepng.js" type="text/javascript"></script>
+<script type="text/javascript">
+   EvPNG.fix('.ee'); 
+</script>
+<![endif]-->
+</head>
+<body>
+<div class="brand_topBar">
+  <div class="contain980 clearfix">
+    <div class="visit_21sun"><a target="_blank" href="http://product.21-sun.com/" title="返回铁臂商城"><img src="http://product.21-sun.com/images/brandshop_toppoint.gif"> 返回铁臂商城</a></div>
+    <script type="text/javascript">
+	jQuery(function(){
+		jQuery(".loginLinks_new li").hover(function(){
+			jQuery(this).toggleClass("hover");
+		},function(){
+			jQuery(this).removeClass("hover");
+		});
+	});
+	</script>
+    <ul class="loginLinks_new">
+      <li class=""><a target="_blank" href="http://product.21-sun.com/agent/login.jsp">厂家登录</a></li>
+      <li class=""><a target="_blank" href="http://product.21-sun.com/agent/login.jsp">代理商登录</a></li>
+    </ul>
+    <ul class="tlRight">
+      <li class="tl"><a target="_blank" href="http://product.21-sun.com/products/">产品大全</a></li>
+      <li class="tl"><a target="_blank" href="http://product.21-sun.com/brand/">品牌大全</a></li>
+      <li class="tl"><a target="_blank" href="http://product.21-sun.com/news/">行情导购</a></li>
+      <li class="tl"><a target="_blank" href="http://product.21-sun.com/inquiry/">采购询价</a></li>
+      <li class="tl"><a target="_blank" href="http://product.21-sun.com/photo/">产品图库</a></li>
+      <li class="tl"><a target="_blank" href="http://product.21-sun.com/top_list/">排行榜</a></li>
+      <li class="tl"><a target="_blank" href="http://product.21-sun.com/agent/">代理商专区</a></li>
+      <li onmouseout="hideOther()" onmouseover="showOther()" class="guide"><span class="gt">网站导航</span>
+        <ul id="other">
+          <li onclick="window.open('http://market.21-sun.com/');" style="color:#434343">供求市场</li>
+          <li onclick="window.open('http://news.21-sun.com/');" style="color:#434343">行业动态</li> 
+          <li onclick="window.open('http://product.21-sun.com/');" style="color:#434343">整机市场</li>
+          <li onclick="window.open('http://www.21-sun.com/part/');" style="color:#434343">配件市场</li>
+          <li onclick="window.open('http://www.21-rent.com/');" style="color:#434343">租赁调剂</li>
+          <li onclick="window.open('http://www.21part.com/');" style="color:#434343">杰 配 网</li>
+          <li onclick="window.open('http://www.21peitao.com/');" style="color:#434343">配 套 网</li>
+          <li onclick="window.open('http://www.21-sun.com/supply/');" style="color:#434343">供 应 商</li>
+          <li onclick="window.open('http://www.21-cmjob.com/');" style="color:#434343">招聘求职</li>
+          <li onclick="window.open('http://data.21-sun.com/');" style="color:#434343">数据分析</li>
+          <li onclick="window.open('http://www.21-sun.com/bidding/');" style="color:#434343">招 投 标</li>
+          <li onclick="window.open('http://stock.21-sun.com/');" style="color:#434343">行业股市</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="brand_topbg">
+<div class="top contain980 brand_top">
+  <h1><a href="http://product.21-sun.com/" title="铁臂商城"><img width="220" height="72" alt="铁臂商城" src="images/new_logo.png" title="铁臂商城"></a></h1>
+  <div class="new_topMid">
+    <ul class="news_topSearch">  
+        <li class="ntsi">  
+          <input type="text" onkeydown="tj2();" name="keyword" id="keyword" maxlength="30" value="">
+        </li>
+        <li class="ntsb">     
+          <input type="submit" onclick="tj3();" id="button" value="&nbsp;">  
+        </li>
+          <input type="hidden" name="f" value="product"> 
+    </ul>
+      <div class="hotWords">热门搜索： <a target="_blank" href="/search/挖掘机_0_0_0.htm"><b>挖掘机</b></a> <a target="_blank" href="/search/装载机_0_0_0.htm">装载机</a> <a target="_blank" href="/search/起重机_0_0_0.htm">起重机</a> <a target="_blank" href="/search/卡特彼勒挖机_0_0_0.htm" class="link09"> 卡特彼勒挖机</a> </div>
+  </div>
+          <script>
+		  function showOther(){
+		  document.getElementById('other').style.display="block";
+		  }
+		  function hideOther(){
+		  document.getElementById('other').style.display="none";
+		  }
+		  function tj2(){
+		  if((event.ctrlKey&&window.event.keyCode==13)||window.event.keyCode==13) {
+		  if(jQuery('#keyword').val()==''){
+		     alert("请输入您要搜索的关键词");
+		     jQuery('#keyword').focus();
+			 return false;
+		  }
+		  var keyword=jQuery('#keyword').val();
+		  window.open("/search/"+keyword+"_0_0_0.htm","target");
+		  }
+		  }
+		  function tj3(){
+		  if(jQuery('#keyword').val()==''){
+		     alert("请输入您要搜索的关键词");
+		     jQuery('#keyword').focus();
+			 return false;
+		  }
+		  var keyword=jQuery('#keyword').val();
+		  window.open("/search/"+keyword+"_0_0_0.htm","target");
+		  }
+		</script>
+  <div class="topHot" id="topHot">
+  <img width="260" height="80" src="images/tu5.gif">
+  </div>
+  
+  <script type="text/javascript">
+  var count3 = 0;
+    count3=jQuery(".thl li").length;
+	jQuery(".thl li").hide();
+	jQuery(".thl li:first").show();
+	jQuery("#topHot").show();
+	jQuery(".thn li").click(function() {
+		var i = jQuery(this).text() - 1;
+		n3 = i;
+		if (i >= count3) return;
+		jQuery(".thl li").filter(":visible").fadeOut(800).parent().children().eq(i).fadeIn(800);
+		jQuery(this).toggleClass("on");
+		jQuery(this).siblings().removeAttr("class");
+	});
+	t3 = setInterval("showAuto3()", 11000);
+	jQuery("#topHot").hover(function(){clearInterval(t3)}, function(){t3 = setInterval("showAuto3()", 11000);});
+  </script>
+</div>
+</div>
+
+
+<div class="g_top">
+    	<div class="wrap clearfix">
+    	<h1 class="logo"><a href="" title=""><img src="images/logo.png" alt=""/></a></h1>
+        <a class="collect" href="#" title=""><img src="images/collect.png" alt=""/></a>
+        <p>原装神钢挖掘机、宣工推土机、<br />厦工装载机河南地区总代理</p>
+        </div>
+    </div>
+<div class="g_nav">
+    	<ul class="wrap">
+          <li><a href="">首页</a></li>
+          <li><a href="">原装神钢挖掘机</a></li>
+          <li><a href="">宣工推土机</a></li>
+          <li><a href="">厦工装载机</a></li>
+          <li><a href="">公司介绍</a></li>
+          <li><a href="">联系方式</a></li>
+        </ul>
+    </div>
+    <div class="g_banner">
+    	<a href="" title=""><img src="images/banner.jpg" alt="" width="1920" height="680"/></a>
+    </div>
+	<div class="g_link">
+    	<div class="wrap clearfix">
+    	<ul class=" ">
+          <li><a href=""><img src="images/a1.jpg" alt=""/></a></li>
+          <li><a href=""><img src="images/a2.jpg" alt=""/></a></li>
+          <li><a href=""><img src="images/a3.jpg" alt=""/></a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="g_pro">
+    	<div class="p1 pp"><a href="#"><img src="images/pic1.jpg" usemap="#Map" border="0"/></a>
+          <map name="Map" id="Map">
+            <area shape="rect" coords="490,256,672,302" href="#" />
+          </map>
+    	</div>
+        <div class="p2 pp"><a href="#"><img src="images/pic2.jpg" usemap="#Map2" border="0"/></a>
+          <map name="Map2" id="Map2">
+            <area shape="rect" coords="991,267,1169,312" href="#" />
+          </map>
+        </div>
+    	<div class="p3 pp"><a href="#"><img src="images/pic3.jpg" usemap="#Map3" border="0"/></a>
+          <map name="Map3" id="Map3">
+            <area shape="rect" coords="490,218,672,260" href="#" />
+          </map>
+    	</div>
+    </div>
+    <div class="con1">
+    <div class="g_tit">
+      <div class="wrap clearfix">
+    	<h2>原装神钢挖掘机</h2>
+        <a href="#" class="more">查看更多>></a>
+      </div>
+    </div>
+    <ul class="pro1 wrap proList">
+    	<li><a href="#"><img src="images/pro1.jpg"/></a>
+              <h3>神钢SK210LC-8挖掘机</h3>
+              <a href="" class="order_btn"></a>	
+        </li>
+        <li><a href="#"><img src="images/pro1.jpg"/></a>
+        	<h3>神钢SK210LC-8挖掘机</h3>
+              <a href="" class="order_btn"></a>	
+      </li>
+        <li><a href="#"><img src="images/pro1.jpg"/></a>
+        	<h3>神钢SK210LC-8挖掘机</h3>
+              <a href="" class="order_btn"></a>	
+      </li>
+    </ul>
+    </div>
+    <div class="con2">
+    <div class="g_tit tit2">
+      <div class="wrap clearfix">
+    	<h2>宣工推土机</h2>
+        <a href="#" class="more">查看更多>></a>
+      </div>
+    </div>
+    
+    <ul class="pro2 wrap proList">
+    	<li><a href="#"><img src="images/pro4.jpg"/></a>
+              <h3>神钢SK210LC-8挖掘机</h3>
+              <a href="" class="order_btn"></a>	
+        </li>
+        <li><a href="#"><img src="images/pro4.jpg"/></a>
+        	<h3>神钢SK210LC-8挖掘机</h3>
+              <a href="" class="order_btn"></a>	
+      </li>
+        <li><a href="#"><img src="images/pro4.jpg"/></a>
+        	<h3>神钢SK210LC-8挖掘机</h3>
+              <a href="" class="order_btn"></a>	
+      </li>
+    </ul>
+    </div>
+    <div class="con3">
+    <div class="g_tit tit3">
+      <div class="wrap clearfix">
+    	<h2>厦工装载机</h2>
+        <a href="#" class="more">查看更多>></a>
+      </div>
+    </div>
+    <ul class="pro3 wrap proList">
+    	<li><a href="#"><img src="images/pro7.jpg"/></a>
+              <h3>神钢SK210LC-8挖掘机</h3>
+              <a href="" class="order_btn"></a>	
+        </li>
+        <li><a href="#"><img src="images/pro7.jpg"/></a>
+        	<h3>神钢SK210LC-8挖掘机</h3>
+              <a href="" class="order_btn"></a>	
+      </li>
+        <li><a href="#"><img src="images/pro7.jpg"/></a>
+        	<h3>神钢SK210LC-8挖掘机</h3>
+              <a href="" class="order_btn"></a>	
+      </li>
+    </ul>
+    </div>
+    <div class="con4">
+    <div class="g_tit tit4">
+      <div class="wrap clearfix">
+    	<h2>公司介绍</h2>
+        <a href="#" class="more">查看更多>></a>
+      </div>
+    </div>
+     <div class="about wrap">
+     	<img src="images/about.jpg"/>
+     	<p>　　河南中远工程机械有限公司于2001年开始关注工程机械行业，是河南最具规模的工程机械销售、服务代理商；集著名品牌机械的销售、租赁、配件维修服务、工程施工于一体；公司在创办初期就秉承“客户第一、团队合作、追求卓越、回报社会”的经营理念，以高品质的品牌产品，完善的销售、服务区域网络管理，地区二级联销体系，全新的规范理念、独特的管理模式，实现了事业从无到有、从小到大的转变，成为业内的典范。
+        　　公司现为厦工机械、宣工机械等著名品牌机械河南区域销售、服务代理商。拥有郑州、许昌、漯河、周口、驻马店、信阳等全资销售服务公司，并设立了机械租赁工程部、配件服务中心等独立产业单位，拥有正宗的配件供应、专业的维修队伍和设备运输车辆。坚持“一切以满足客户需求”为中心，争创“最佳印象、最佳选择”的品牌代理商，志在做行业先锋，快速健康地成长。<br /><br />
+        
+        　　中远的发展是靠精诚协作、团结进取。中远人并肩创业，从全体员工的共同努力到各部门的紧密合作，无不反映出中远人团结协作的精神。永远发扬这一优良传统，应为全体中远人的共同承诺。
+        
+        　　经过中远人的共同努力，我们必定会更进一步，以一个团结、互助、共同健康发展的团队形象展现出中远辉煌的明天！
+        [我们的愿景]
+        　　我们的武器是智慧的利刃。我们将鼓励大胆的思维和富于勇气的行动。通过分享知识、相互学习以及于所服务的市场，我们将以不同凡响、令人惊叹的方式解决所遇到的问题。
+        　　我们注定要成功。我们将严于律己，通过不懈努力来完成伟大的使命。我们的成功将为公司和自身带来更可观利润。
+        　　我们品格高尚，尊重自然与生命、安全工作、与同事和睦相处、精诚合作。每一天，无论上班、回家的时候，我们都将是精神气爽的。
+        </p>
+     </div>
+    </div>
+<div class="con5">
+    	<div class="g_tit tit5">
+          <div class="wrap clearfix">
+            <h2>联系方式</h2>
+            <a href="#" class="more">查看更多>></a>
+          </div>
+        </div>
+    	<div class="wrap">
+          <table border="0" cellpadding="0" cellspacing="0" width="95%">
+            <tbody>
+              <tr>
+                <td><strong>[河南中远工程机械有限公司]<br />
+                  </strong>地　址：河南郑州市南三环与郑尉路交叉口向南800m路西<br />
+                  邮　编：450000<br />
+                  邮　箱：<br />
+                  网　址：<a href="http://www.zygcjx.com/">http://www.zygcjx.com/</a>　　<a href="http://www.hnzyjx.com.cn/">http://www.hnzyjx.com.cn/</a></td>
+              </tr>
+              <tr>
+                <td><strong>[全国统一服务热线]　</strong>400-110-9777</td>
+              </tr>
+              <tr>
+                <td><strong>[销售部]　</strong>电话：0371- 66711177    传真：0371-66879000</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>
+<div class="con6">
+<div class="g_tit tit6">
+          <div class="wrap clearfix">
+            <h2>产品订单</h2>
+            <a href="#" class="more">查看更多>></a>
+          </div>
+        </div>
+  <div class="wrap clearfix">
+    <div class="border03 l list08">
+      <div class="title08">
+        <h3><b>询价总数：527</b> - 采购询价</h3>
+        <span>共有<font>527</font>个符合条件</span> </div>
+      <ul class="ti">
+        <li class="i1">编号</li>
+        <li class="i2">询价产品</li>
+        <li class="i3">联系人</li>
+        <li class="i4">电话</li>
+        <li class="i5">询价品牌</li>
+        <li class="i6">询价区域</li>
+        <li class="i7">询价时间</li>
+      </ul>
+      <div class="li">
+        
+        <ul class="libg01">
+            <li class="i1">1</li>
+            <li class="i2"><a target="_blank" href="/inquiry/details_for_255111.htm">加藤HD820R挖掘机</a></li>
+            <li class="i3">何***</li>
+            <li class="i4">152***252</li>
+            <li class="i5"><a href="/inquiry/?factory=189" target="_blank">加藤</a></li>
+            <li class="i6">-</li>
+            <li class="i7">2014-08-26 17:03</li>
+          </ul>
+       
+        <ul class="libg01">
+            <li class="i1">2</li>
+            <li class="i2"><a target="_blank" href="/inquiry/details_for_255079.htm">加藤HD820V挖掘机</a></li>
+            <li class="i3">个***</li>
+            <li class="i4">134***887</li>
+            <li class="i5"><a href="/inquiry/?factory=189" target="_blank">加藤</a></li>
+            <li class="i6">广东湛江市</li>
+            <li class="i7">2014-08-25 17:35</li>
+          </ul>
+       
+        <ul class="libg01">
+            <li class="i1">3</li>
+            <li class="i2"><a target="_blank" href="/inquiry/details_for_255066.htm">加藤HD820R挖掘机</a></li>
+            <li class="i3">肖***</li>
+            <li class="i4">189***777</li>
+            <li class="i5"><a href="/inquiry/?factory=189" target="_blank">加藤</a></li>
+            <li class="i6">广东惠州市</li>
+            <li class="i7">2014-08-25 14:41</li>
+          </ul>
+       
+        <ul class="libg01">
+            <li class="i1">4</li>
+            <li class="i2"><a target="_blank" href="/inquiry/details_for_255063.htm">斗山DL505/305轮式装载机</a></li>
+            <li class="i3">郭***</li>
+            <li class="i4">184***008</li>
+            <li class="i5"><a href="/inquiry/?factory=192" target="_blank">斗山</a></li>
+            <li class="i6">贵州贵阳市</li>
+            <li class="i7">2014-08-25 14:38</li>
+          </ul>
+       
+        <ul class="libg01">
+            <li class="i1">5</li>
+            <li class="i2"><a target="_blank" href="/inquiry/details_for_255061.htm">柳工906C挖掘机</a></li>
+            <li class="i3">魏***</li>
+            <li class="i4">181***110</li>
+            <li class="i5"><a href="/inquiry/?factory=136" target="_blank">柳工</a></li>
+            <li class="i6">湖北孝感市</li>
+            <li class="i7">2014-08-25 14:35</li>
+          </ul>
+       
+        <ul class="libg01">
+            <li class="i1">6</li>
+            <li class="i2"><a target="_blank" href="/inquiry/details_for_255056.htm">加藤HD820R挖掘机</a></li>
+            <li class="i3">程***</li>
+            <li class="i4">180***712</li>
+            <li class="i5"><a href="/inquiry/?factory=189" target="_blank">加藤</a></li>
+            <li class="i6">广西柳州市</li>
+            <li class="i7">2014-08-25 14:25</li>
+          </ul>
+       
+        <ul class="libg01">
+            <li class="i1">7</li>
+            <li class="i2"><a target="_blank" href="/inquiry/details_for_255053.htm">柳工ZL40B轮式装载机</a></li>
+            <li class="i3">吴***</li>
+            <li class="i4">150***853</li>
+            <li class="i5"><a href="/inquiry/?factory=136" target="_blank">柳工</a></li>
+            <li class="i6">广西南宁市</li>
+            <li class="i7">2014-08-25 14:23</li>
+          </ul>
+       
+        <ul class="libg01">
+            <li class="i1">8</li>
+            <li class="i2"><a target="_blank" href="/inquiry/details_for_255051.htm">柳工CLG920E挖掘机</a></li>
+            <li class="i3">曾***</li>
+            <li class="i4">182***032</li>
+            <li class="i5"><a href="/inquiry/?factory=136" target="_blank">柳工</a></li>
+            <li class="i6">广西梧州市</li>
+            <li class="i7">2014-08-25 14:22</li>
+          </ul>
+       
+        <ul class="libg01">
+            <li class="i1">9</li>
+            <li class="i2"><a target="_blank" href="/inquiry/details_for_255050.htm">柳工CLG816C轮式装载机</a></li>
+            <li class="i3">陶***</li>
+            <li class="i4">150***128</li>
+            <li class="i5"><a href="/inquiry/?factory=136" target="_blank">柳工</a></li>
+            <li class="i6">广西桂林市</li>
+            <li class="i7">2014-08-25 14:20</li>
+          </ul>
+       
+        <ul class="libg01">
+            <li class="i1">10</li>
+            <li class="i2"><a target="_blank" href="/inquiry/details_for_255018.htm">加藤HD820V挖掘机</a></li>
+            <li class="i3">姚***</li>
+            <li class="i4">156***871</li>
+            <li class="i5"><a href="/inquiry/?factory=189" target="_blank">加藤</a></li>
+            <li class="i6">广西南宁市</li>
+            <li class="i7">2014-08-25 10:24</li>
+          </ul>
+     
+      </div>
+    </div>
+    <div style="margin-left:467px;width:500px;clear:both;float:left;" class="page">
+    <div id="pagination" class="paging page">
+    <a href="javascript:;" title="上一页" class="pre noPre"></a> 
+    <span class="current"><b>&nbsp;1&nbsp;</b></span>
+    <a href="?offset=10#to_order" class="num">&nbsp;2&nbsp;</a>
+    <a href="?offset=20#to_order" class="num">&nbsp;3&nbsp;</a>
+    <a href="?offset=30#to_order" class="num">&nbsp;4&nbsp;</a>
+    <a href="?offset=40#to_order" class="num">&nbsp;5&nbsp;</a>
+    <a style="cursor: default;border:none;color:#000;" href="javascript:void(0);" class="num">...</a><a href="?offset=510#to_order" class="num">&nbsp;52&nbsp;</a><a href="?offset=520#to_order" class="num">&nbsp;53&nbsp;</a><a class="next" href="?offset=10#to_order"></a></div></div>
+  
+  </div>
+
+</div>
+
+
+<div class="bottombg">
+<div class="proFoot" style="width:980px; height:170px; margin:0 auto; clear:both; position:relative;">
+<div class="fewm" style="position:absolute; right:-18px; top:36px; width:160px; text-align:center;"><img width="90" height="90" src="images/ewm_new.gif"><br>关注铁臂商城<br>抢先查询新品信息</div>
+  <link type="text/css" href="http://www.21-sun.com/00css/new_21sun_include.css" rel="stylesheet">
+  <div class="New_website">
+    <div class="New_linksContain">
+      <strong><span onclick="window.open('http://www.21-sun.com');" class="New_links">中国工程机械商贸网</span>旗下网站：</strong>
+      <span onclick="window.open('http://part.21-sun.com/');" class="New_links">中国工程机械配件网</span>
+      <span onclick="window.open('http://www.21-cmjob.com/');" class="New_links">中国工程机械人才网</span>
+      <span onclick="window.open('http://www.21-rent.com/');" class="New_links">中国工程机械租赁网</span>
+      <span onclick="window.open('http://www.21-used.com/');" class="New_links">中国工程机械二手网</span>
+      <span onclick="window.open('http://www.21part.com/');" class="New_links">配件商城</span>
+      <span onclick="window.open('http://www.21peitao.com/');" class="New_links">配套网</span>
+      <span onclick="window.open('http://www.cmbol.com/');" class="New_links">工程机械外贸网</span>
+      <span onclick="window.open('http://product.21-sun.com/');" class="New_links">铁臂商城</span>
+    </div>
+  </div>
+  <div class="New_foot">
+    <span onclick="window.open('http://www.21-sun.com/service/guanggao/index.htm');" class="New_links">广告服务</span><em>|</em>
+    <span onclick="window.open('http://www.jerei.com/contact/');" class="New_links">联系方式</span><em>|</em>
+    <span onclick="window.open('http://www.jerei.com/');" class="New_links">关于我们</span><em>|</em>
+    <span onclick="window.open('http://www.jerei.com/news/');" class="New_links">本网动态</span><em>|</em>
+    <span onclick="window.open('http://www.jerei.com/contact/legal.jsp');" class="New_links">法律声明</span><em>|</em>
+    <span onclick="window.open('http://aboutus.21-sun.com/map.htm');" class="New_links">网站导航</span><em>|</em>
+    <span onclick="window.open('http://www.21-sun.com/contact/');" class="New_links">联系客服</span><br>
+    产品询价专线：4006-521-526<br>
+    <span onclick="window.open('http://www.21-sun.com');" class="New_links">中国工程机械商贸网</span>
+    Copyright &copy; 2000-<script type="text/javascript">document.write((new Date()).getFullYear());</script>2014
+  </div>
+  <!-- Baidu Button BEGIN -->
+    <div style="width:300px; margin:0px auto;">
+    <div style="padding-left:50px;" class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1409046586027">
+    <a data-cmd="more" class="bds_more" href="#"></a><a title="分享到QQ空间" data-cmd="qzone" class="bds_qzone" href="#"></a><a title="分享到新浪微博" data-cmd="tsina" class="bds_tsina" href="#"></a><a title="分享到腾讯微博" data-cmd="tqq" class="bds_tqq" href="#"></a><a title="分享到人人网" data-cmd="renren" class="bds_renren" href="#"></a><a title="分享到微信" data-cmd="weixin" class="bds_weixin" href="#"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+    </div>
+    <!-- Baidu Button END -->
+</div>
+
+
+<script type="text/javascript">
+/*function addUrl(){
+	var url = window.location.href;
+    try{
+       window.external.addFavorite(url, '铁臂商城');
+   }catch (e){
+       try{
+           window.sidebar.addPanel('铁臂商城',url,"");
+       }catch (e){
+           alert("加入收藏失败，请使用Ctrl+D进行添加");
+       }
+   }
+}
+
+$('.gotop').click(function(){$('html,body').stop().animate({scrollTop:'0'},300)});*/
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<#list list as l><li>
+<a href="/inquiry/0_0_0_${l.num}_0.shtm" target="_blank" title="${l.name}">${l.name}</a>
+<div class="txd_filter_pnc">
+	<ul class="fix">
+	<#assign proList = query(" select name,catalog_num as num from pro_catalog where parentid =${l.id?c} and is_show=1 and LEN(num)<=6 order by num asc")>
+		<#list proList as pro>
+		<li><a href="/inquiry/0_0_0_${pro.num}_0.shtm" target="_blank" title="${pro.name}"><#if (pro.name??&&(pro.name?length gt 7))>${pro.name?substring(0,7)}<#else>${pro.name} </#if></a></li>
+		</#list>
+	</ul>
+</div>
+</li>
+</#list>

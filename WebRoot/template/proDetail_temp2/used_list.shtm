@@ -1,0 +1,19 @@
+        <!--二手-->
+        <div class="txd_plant fix">
+          <div class="tpl_title">二手</div>
+          <a href="http://used.21-sun.com/equipment/0-0-0-${factoryid}-0-0-0-0.htm" class="tpl_more" target="_blank">查看更多</a> </div>
+        <div class="prodt_used">
+          <ul>
+            <#if usedList??&&(usedList?size>0)>
+            <#list usedList as used>
+            <li><a target="_blank" href="http://used.21-sun.com/equipment/equipmentdetail_for_${used.id?c}.htm" title="${used.import_brand}${used.model}${used.name}"><img src="${used.img1_1}" class="_img">
+              <div class="_text">${used.import_brand}${used.model}${used.name}<br>
+                年限：${used.factorydate?c}年<br>
+                地点：${used.area_name}<br>
+                <span>价格：面议</span></div>
+              </a></li>
+            </#list>
+            </#if>
+          </ul>
+        </div>
+        <!--二手 end-->

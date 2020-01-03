@@ -1,0 +1,9 @@
+﻿<%@ page language="java" import="java.util.*,com.jerehnet.util.common.*,org.apache.commons.httpclient.*,org.apache.commons.httpclient.methods.*" pageEncoding="UTF-8"%>
+<#assign proList = query(" select SUBSTRING(catalognum,0,7) as catalognum  from pro_products where is_show=1 and  factoryid=${factoryid}  and catalognum !='' and catalognum is not null  group by  SUBSTRING(catalognum,0,7) ")>
+<#list proList as pro>  
+	<#list query(" select  * from pro_catalog where num='${pro.catalognum}' ") as proNum>
+	       <#if proNum??&&(proNum?size>0)>
+		   			<li title="${factoryname}${proNum.name}"><a title="${factoryname}${proNum.name}" href="?factory=${factoryid}&catalog=${pro.catalognum}">${factoryname}${proNum.name}</a></li>
+           </#if>
+    </#list>
+</#list>

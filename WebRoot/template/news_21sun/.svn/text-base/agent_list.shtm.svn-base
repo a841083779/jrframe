@@ -1,0 +1,30 @@
+﻿<link href="http://news.21-sun.com/00css/news_detail_spe.css" rel="stylesheet" type="text/css" />
+<link href="http://news.21-sun.com/00css/style_news.css" rel="stylesheet" type="text/css" />
+<#assign proLists = query(" select top 6 id,full_name,agent_fac_name,city,usern,telphone,is_qijiandian,is_made from pro_agent_factory where flag = 2 and is_show = 1 and  (agent_fac LIKE '${factoryid},%' OR agent_fac LIKE '%,${factoryid}%' or agent_fac = '${factoryid}') order by  is_shop desc,flag ASC , name DESC , id DESC  ")>
+
+		  
+		  
+    <div class="np_left" style="width:99.5%">
+        <div class="w208 border02 l leftPart02 mb10 np_addpcat">
+          <div class="stitle">
+            <h3>${factoryname}代理商</h3>
+            </div>
+          <ul class="list003" id="brandProductList">
+		  <#if proLists??&&(proLists?size>0)>
+	    <#list proLists as pro>   
+		  
+        <#if ((pro.is_qijiandian??)&&(pro.is_qijiandian==1))&&((pro.is_made??)&&(pro.is_made==1))>
+        <li class="top3"><h4><a style="float:left" title="${pro.full_name}" href="http://product.21-sun.com/agentstore/${pro.usern}/" target="_blank">{pro.full_name}</a></h4></li>
+        <#elseif ((pro.is_qijiandian??)&&(pro.is_qijiandian==1))&&((pro.is_made??)&&(pro.is_made==1))>
+        <li class="top3"><h4><a style="float:left"  title="${pro.full_name}" href="http://${pro.usern}.product.21-sun.com" target="_blank">${pro.full_name}</a></h4></li>
+        <#elseif ((pro.is_qijiandian??)&&(pro.is_qijiandian==1))&&((pro.is_made??)&&(pro.is_made==1))>
+        <li class="top3"><h4><a  style="float:left"  title="${pro.full_name}" href="http://product.21-sun.com/agentshop02/${pro.usern}/" target="_blank">${pro.full_name}</a></h4></li>
+        <#else>
+        <li class="top3"><h4><a  style="float:left"  title="${pro.full_name}" href="http://product.21-sun.com/agent/${pro.usern}/" target="_blank">${pro.full_name}</a></h4></li>
+       </#if>
+		 
+	    </#list>
+		   </#if>
+          </ul>
+        </div>
+      </div>

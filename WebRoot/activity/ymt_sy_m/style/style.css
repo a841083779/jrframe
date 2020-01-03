@@ -1,0 +1,82 @@
+﻿/*
+* name: style.css
+* version: v1.0.0
+* update: 
+* date: 2016-07-19
+*/
+
+html,body{ position:relative; height:100%; overflow-x:hidden;}/*overflow*/
+html{ font-size:15.625vw;}
+body{ max-width:640px; -webkit-text-size-adjust:none; text-size-adjust:none; user-select:none; -webkit-user-select:none; font-size:0.24rem;}
+
+
+/* 设置 */
+body{ font-size:0.24rem; color:#fff; background-color:#fff;}
+.wrap{ padding-left:4%; padding-right:4%; box-sizing:border-box;}
+a{ color:inherit;}
+
+
+
+
+/* 手机竖屏 start! */
+
+/*header*/
+.header{ height:0.68rem; background-color:#ea4609;}
+.logo{ float:left; font-size:0.30rem; color:#fff; line-height:0.68rem;}
+.headRight{ float:right; width:1.82rem; height:0.68rem; background:url(../static/images/tel.gif) no-repeat left center; background-size:1.82rem 0.28rem;}
+
+
+/*banner*/
+.banner-top{}
+
+
+
+/*main*/
+.main{ background-color:#e70012; padding-bottom:0.20rem;}
+.titleTxt{ font-size:0.40rem; font-weight:bold; text-align:center;}
+
+.main-title{ padding:0.30rem 0 0;}
+.main-title h3{}
+.main-title p{ font-size:0.28rem; line-height:1.7;}
+
+
+.pro-list{}
+.pro-list li{ padding:0.10rem; margin-top:0.20rem; background-color:#fff;}
+.pro-infor{ padding-top:0.10rem;}
+.pro-infor>span.pro-tip{ display:block; width:1.20rem; height:0.30rem; padding-top:0.10rem; background-color:#e20012; font-size:0.20rem; line-height:1em; text-align:center;}
+.pro-infor h3.pro-price{ display:block; margin-left:0.10rem; font-size:0.36rem; line-height:1em; color:#e20012;}
+.pro-infor i{ position:relative; top:-0.06rem; font-size:0.30rem; line-height:1em;}
+.pro-infor h3.pro-price>span{ font-size:0.20rem; font-weight:normal;}
+.pro-infor>span.pri-price{ margin-top:0.10rem; font-size:0.26rem; line-height:1em; color:#7e7e7e; text-decoration:line-through;}
+.buy-btn a{ display:block; width:100%; height:0.50rem; padding-top:0.20rem; margin-top:0.20rem; background-color:#e20012; font-size:0.36rem; line-height:1em; text-align:center;}
+
+.wechat-share{ padding:0.48rem 0 0.30rem;}
+.wechat-box{ width:1.90rem; text-align:center; line-height:1.6; font-size:0.26rem;}
+.wechat-des{ width:3.80rem; padding-top:0.20rem;}
+.wechat-des h3{ font-size:0.34rem; line-height:1.7;}
+.wechat-des p{ font-size:0.22rem; line-height:1.5;}
+
+.activity-des{ padding:0.10rem; background:url(../static/images/intro-bg.jpg) no-repeat center center; background-size:cover; border:#fff solid 0.06rem;}
+.activity-des h3{ margin-top:0.20rem;}
+.activity-des p{ margin-bottom:0.14rem; font-size:0.24rem; color:#fff; line-height:1.7;}
+.activity-des span.des-name{ display:block; font-size:0.30rem; font-weight:bold;}
+.activity-des i{ color:#fff000;}
+
+
+.alert-bg{ display:none; position:fixed; left:0; top:0; z-index:999; width:100%; height:100%; background-color:rgba(0,0,0,0.8);}
+.form-box{ position:absolute; left:50%; top:50%; width:5.80rem; height:6.40rem; margin-left:-2.92rem; margin-top:-3.22rem; border:#fff solid 0.02rem; background-color:#e70012;}
+.form-box label{ display:block; padding-top:0.40rem; padding-bottom:0.36rem;}
+.form-box span{ display:inline-block; width:1.80rem; margin-left:0.20rem; font-size:0.30rem;}
+.form-box select{ width:3.44rem; height:0.64rem; margin-bottom:0.30rem; font-size:0.30rem;}
+.form-box input[type="text"]{ width:3.30rem; height:0.60rem; padding-left:0.10rem; margin-bottom:0.30rem; font-size:0.30rem;}
+.form-box .citySelect{ display:inline-block;}
+.form-box select.prov,.form-box select.city{ width:1.72rem; font-size:0.30rem; font-family:"微软雅黑";}
+.form-box option{ font-size:0.30rem;}
+.form-box input[type="button"]{ width:3.20rem; height:0.82rem; margin-left:1.30rem; margin-top:0.20rem; background:url(../static/images/submit_btn.png) no-repeat; background-size:cover; border-width:0;}
+.form-box input[type="submit"]{ width:3.20rem; height:0.82rem; margin-left:1.30rem; margin-top:0.20rem; background:url(../static/images/submit_btn.png) no-repeat; background-size:cover; border-width:0;}
+.close-btn{ position:absolute; right:10px; top:10px; width:26px; height:26px; background:url(../static/images/close_btn.png) no-repeat; cursor:pointer;}
+
+
+
+
+

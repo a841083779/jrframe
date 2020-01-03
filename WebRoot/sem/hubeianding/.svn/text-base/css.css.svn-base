@@ -1,0 +1,431 @@
+/* CSS Document */
+body 
+{
+	font-family:"宋体";
+	font-size:12px;
+    margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-attachment: scroll;
+	background-image:url("bj.jpg")/*tpa=http://www.hubeianding.com/images/bj.jpg*/;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+/* 未被访问的链接 红色 */
+a:link {
+	font-size: 12px;
+	line-height: 22px;
+	color: #333333;
+	text-decoration: none;
+	font-family: "宋体";
+	font-weight: normal;
+}
+ /* 已被访问过的链接 绿色 */
+a:visited {
+	font-size: 12px;
+	line-height: 22px;
+	text-decoration: none;
+	color: #000000;
+	font-family: "宋体";
+	font-weight: normal;
+}
+/* 鼠标悬浮在上的链接 橙色 */
+a:hover {
+	font-size: 12px;
+	line-height: 22px;
+	color: #FF0000;
+	text-decoration: none;
+	font-weight: normal;
+}
+/* 鼠标点中激活链接 蓝色 */
+a:active {
+	font-size: 12px;
+	line-height: 22px;
+	color: #FF0000;
+	text-decoration: none;
+	font-weight: normal;
+	
+}
+
+a.blink:link {
+	color: #FFFFFF;
+	font-family: "宋体";
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: bold;
+	text-decoration: none;
+} /* 未被访问的链接 红色 */
+a.blink:visited {
+	color: #FFFFFF;
+	font-family: "宋体";
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: bold;
+	text-decoration: none;
+} /* 已被访问过的链接 绿色 */
+a.blink:hover {
+	color: #FFFFFF;
+	font-family: "宋体";
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: bold;
+	text-decoration: none;
+
+} /* 鼠标悬浮在上的链接 橙色 */
+a.blink:active {
+	color: #FFFFFF;
+	font-family: "宋体";
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: bold;
+	text-decoration: none;
+} /* 鼠标点中激活链接 蓝色 */
+
+a.clink:link {
+	font-size: 12px;
+	line-height: 22px;
+	color: #333333;
+	text-decoration: none;
+	font-family: "宋体";
+	font-weight: normal;
+}
+ /* 已被访问过的链接 绿色 */
+a.clink:visited {
+	font-size: 12px;
+	line-height: 22px;
+	text-decoration: none;
+	color: #000000;
+	font-family: "宋体";
+	font-weight: normal;
+}
+/* 鼠标悬浮在上的链接 橙色 */
+a.clink:hover {
+	font-size: 12px;
+	line-height: 22px;
+	color: #FFffff;
+	text-decoration: none;
+	font-weight: normal;
+}
+/* 鼠标点中激活链接 蓝色 */
+a.clink:active {
+	font-size: 12px;
+	line-height: 22px;
+	color: #FFffff;
+	text-decoration: none;
+	font-weight: normal;
+	
+}
+
+.bx {
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: 1px;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dashed;
+	border-left-style: none;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: normal;
+	color: #FF0000;
+	text-decoration: none;
+	border-top-color: #ffffff;
+	border-right-color: #ffffff;
+	border-bottom-color: #ffffff;
+	border-left-color: #ffffff;
+}
+
+
+.blue {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #1A4EFA;
+	text-decoration: none;
+}
+.blue1 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: normal;
+	color: #46C100;
+	text-decoration: none;
+}
+
+.copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #2B2B2B;
+}
+
+.ecopyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	line-height: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #009933;
+}
+
+.green {
+	font-family: "方正粗倩简体";
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+.nrfont {
+	font-size: 12px;
+	line-height: 23px;
+	color: #333333;
+	text-decoration: none;
+	font-family: "宋体";
+	font-style: normal;
+	font-weight: normal;
+}
+
+.nrfontsx {
+	font-size: 12px;
+	line-height: 23px;
+	color: #666666;
+	text-decoration: none;
+	font-family: "宋体";
+	font-style: normal;
+	font-weight: normal;
+}
+
+.white {
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif.px;
+}
+.red {
+	font-family: "宋体";
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+}
+.yellow {
+	font-family: "黑体";
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+}
+.nrblod {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+
+.nrmenu {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bolder;
+	color: #333333;
+	text-decoration: none;
+	font-family: "宋体";
+}
+
+.nrmenubt {
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bolder;
+	color: #333333;
+	text-decoration: none;
+	font-family: "幼圆";
+}
+
+.ctdbj {
+	background-attachment: scroll;
+	background-image: url("tdbj.jpg")/*tpa=http://www.hubeianding.com/images/tdbj.jpg*/;
+	background-repeat: repeat-y;
+	background-position: 547px top;
+}
+.lxwmbj {
+	background-attachment: scroll;
+	background-image: url("index_32.jpg")/*tpa=http://www.hubeianding.com/images/index_32.jpg*/;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	font-family: "宋体";
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 22px;
+}
+
+
+.menuen {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+}
+.white1 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+.enwhite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.online {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 23px;
+	text-decoration: none;
+}
+.etitle {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.bjpic {
+	background-attachment: scroll;
+	background-image: url("bj_13.jpg")/*tpa=http://www.hubeianding.com/images/bj_13.jpg*/;
+	background-repeat: repeat-x;
+	background-position: center bottom;
+}
+.lbjpic {
+	background-attachment: scroll;
+	background-image: url("index_31.jpg")/*tpa=http://www.hubeianding.com/images/index_31.jpg*/;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.rbjpic {
+	background-attachment: scroll;
+	background-image: url("index_32.jpg")/*tpa=http://www.hubeianding.com/images/index_32.jpg*/;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.r2bjpic {
+	background-attachment: scroll;
+	background-image: url("index_44.jpg")/*tpa=http://www.hubeianding.com/images/index_44.jpg*/;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.rrbjpic {
+	background-attachment: scroll;
+	background-image: url("index_33.jpg")/*tpa=http://www.hubeianding.com/images/index_33.jpg*/;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.red1 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+}
+.leftpadding {
+padding-left:40px;
+padding-top:5px;
+}
+.yellow {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	color: #ff0000;
+	text-decoration: none;
+}
+.yellow2 {
+	float:left;
+	color:#0028FA;
+	filter:Dropshadow(offx=3,offy=0,color=#ffffff) Dropshadow(offx=0,offy=3,color=#ffffff) Dropshadow(offx=-2,offy=0,color=#ffffff) Dropshadow(offx=0,offy=-2,color=#ffffff);
+	font-family:"黑体";
+	font-size:39px;
+
+}
+.nrbj {
+	background-attachment: scroll;
+	background-image: url("index_41.jpg")/*tpa=http://www.hubeianding.com/images/index_41.jpg*/;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.tdbj {
+	background-attachment: fixed;
+	background-image: url("index_41.jpg")/*tpa=http://www.hubeianding.com/images/index_41.jpg*/;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.kuang {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	color: #666666;
+	text-decoration: none;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+.menubx {
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #9D642F;
+	font-family: "黑体";
+	font-size: 14px;
+	color: #999999;
+	text-decoration: none;
+	bottom: 1px;
+}
+.8888 {
+	background-attachment: scroll;
+	background-image: url("index_03.jpg")/*tpa=http://www.hubeianding.com/images/index_03.jpg*/;
+	background-repeat: repeat-x;
+	background-position: center 100px;
+}
+.ybx {
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 23px;
+	color: #333333;
+	text-decoration: none;
+}

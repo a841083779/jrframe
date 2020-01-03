@@ -1,0 +1,58 @@
+.searchTop { width:100%; height:40px; float:left; padding-top:17px; border-bottom:#dedede 1px solid; margin-bottom:20px; }
+.searchTop h2 { width:127px; padding-left:43px; text-align:left; float:left; font-size:20px; color:#DD4B39; font-weight:normal; }
+#resultStats { width:auto; float:left; line-height:20px; color:#999999; }
+.searchLeft { width:100%; float:left; }
+.searchLeft li { width:100%; height:28px; line-height:28px; float:left; margin-bottom:4px; }
+.searchLeft li a { display:block; width:127px; padding-left:43px; font-size:13px; }
+.searchLeft li a:hover { background:#eeeeee; color:#2e4bb5!important; }
+.searchLeft li.msel a { border-left:5px solid #2e4bb5; background:#eeeeee; width:127px; padding-left:38px; color:#2e4bb5!important; }
+#tadsb { width:512px; margin:0 0 14px; padding-top:1px; padding-right:35px; padding-bottom:1px; padding-left:7px; background:#FFF8E7; border: 1px solid #FFF8E7; }
+#tadsb h2 { font-size:13px!important; font-weight:normal; margin:0 -35px 0 0; padding:4px 4px 4px 0 }
+#tadsb h2 b { font-weight:normal; color:#DD4B39; }
+#tadsb .vsta h3 { font-size:medium; text-decoration:underline; font-weight:normal; }
+#tadsb .vsta h3 a { color:#0E1CB3!important; }
+#tadsb .vsta h3 a b { color:#DD4B39; font-weight:normal; text-decoration:underline; }
+#tadsb .vsta .kva cite { color:#00802A; font-style:normal; }
+#tadsb .vsta .ac { color:#171717; line-height:20px; }
+#tadsb .vsta .oslk a { color:#0E1CB3!important; }
+#tadsb .vsta .oslk a:hover { text-decoration:underline; }
+.std { margin:7px 0 1em; }
+.std a { text-decoration:underline; color:#0E1CB3!important; }
+.searchList { width:530px; float:left; }
+.searchList li.g { margin-bottom:25px; }
+.searchList li.g em { font-style:normal; }
+.searchList li.g h3 { font-size:medium; text-decoration:underline; font-weight:normal; line-height:20px; }
+.searchList li.g h3 a { color:#1122CC; text-decoration:underline; }
+.searchList li.g h3 a em { color:#DD4B39; text-decoration:underline; }
+.searchList li.g .s { line-height:18px; }
+.searchList li.g .s .kv { margin-bottom:5px; }
+.searchList li.g .s .kv cite { color:#00802A; font-style:normal; }
+.searchList li.g .s .st { font-size:13px; }
+.searchList li.g .s .st em { color:#DD4B39; }
+.searchList li.g .vsc .vsc { padding-top:2px; }
+.searchList li.g .vsc .tl a { font-size:12px; color:#093; }
+.searchList li.g .vsc .tl a em { text-decoration:underline; color:#DD4B39; }
+.searchList li.g .vsc .gl { padding-top:2px; color:#aaa;}
+.searchList li.g .vsc .gl cite { color:#00802A; font-style:normal; }
+#brs { clear:both; margin-bottom:17px; overflow:hidden; }
+#brs em { font-style:normal; color:#DD4B39; }
+#brs .med { text-align:left; font-size:16px; }
+.brs_col { width:300px; float:left; }
+.brs_col p { width:150px; height:20px; line-height:20px; float:left; }
+.brs_col p a { color:#1122CC!important; text-decoration:underline; }
+
+.Plinks { width:230px; border-left:#e1e1e1 1px solid; padding-left:15px;}
+.Plinks ul { width:100%; float:left;}
+.Plinks ul li { width:100%; float:left; padding-bottom:20px;}
+.Plinks ul li h3 { font-size:16px; font-weight:normal; padding-bottom:5px;}
+.Plinks ul li h3 a { text-decoration:underline; color:#0000cc!important;} 
+.Plinks ul li h3 font { font-size:16px; text-decoration:underline;}
+.Plinks ul li p { line-height:20px; padding-bottom:5px;}
+.Plinks ul li p a { color:#434343!important;}
+.Plinks ul li span cite { color:#008000; font-style:normal;}
+
+.tgTitle { width:100%; float:left; line-height:30px; text-decoration:underline;}
+
+
+
+

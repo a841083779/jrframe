@@ -1,0 +1,4 @@
+cache.memory=false
+cache.persistence.class=com.opensymphony.oscache.plugins.diskpersistence.DiskPersistenceListener
+cache.path=d:\\webcache\\zoomlion_used
+cache.blocking=true

@@ -1,0 +1,3 @@
+/*J_sele*/
+.sele{position:relative;height:20px;line-height:20px;width:99px;cursor:pointer;}
+.sele_{display:none;position:absolute;width:100%;left:-1px;top:20px;background:#fff;border:1px solid #cacad9;max-height:200px;overflow:auto;}

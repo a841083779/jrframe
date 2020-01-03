@@ -1,0 +1,49 @@
+﻿@charset "utf-8";
+/*	样式重置*/
+body { font: 12px/1.67 Tahoma, 'microsoft yahei', sans-serif; color: #333; min-width: 980px; _width: expression(document.body.clientWidth < 980 ? "980px" : "auto" ); background:#f4f4f4;}
+a { text-decoration: none; color: #666; }
+a:hover { color: #000; }
+img { border: 0; vertical-align: top; }
+input, textarea, select { font-size: 100%; }
+body, h1, h2, h3, h4, p, ul, ol, dd, dl, form { margin: 0; font-weight: normal; cursor: default; }
+ul { padding-left: 0; list-style-type: none; }
+i, em { font-style: normal; }
+s, u { text-decoration: none; }
+/*样式库*/
+.mh { height: auto !important; height: 470px; min-height: 470px; padding-bottom:30px;}
+.fix{*zoom:1;}.fix:before,.fix:after{content:"";display:table;}.fix:after{clear:both;}
+.oh { overflow: hidden; *zoom:1;}
+.l { float: left; }.r { float: right; }
+.pr { position: relative; }.pa { position: absolute; }
+.tc { text-align: center; }.tr { text-align: right; }.tl { text-align: left; }
+.el { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.vm{vertical-align:middle;}
+.dib { display: inline-block; *display:inline;*zoom:1;}
+/*
+**组件索引**
+
+1,全站结构
+2,幻灯片效果
+3,滚动效果
+4,导航
+5,栏目标题
+6,新闻头条
+7,内页结构
+8,面包屑
+9,新闻列表
+10,边栏菜单
+11,产品列表
+12,多栏新闻列表
+13,文章详细页
+14,选项卡
+15,二手详细页(效果)
+16,二手列表
+17,录入表格样式
+*/
+
+/*全站结构*/
+.max_wrap { margin-left: auto; margin-right: auto; max-width: 1200px; _width: expression(document.body.clientWidth > 1200 ? "1200px" : "auto" );}
+.contain980 { width: 980px; margin: 0 auto;clear: both; }
+.slide{position: relative;width: 100%;}
+.ban_c{position: absolute;left: 0;top: 0;width: 100%;height: 100%;overflow: hidden;}
+.ban_c img{ width:1920px; height:100%; position:absolute; left:50%; margin-left:-960px; top:0;}

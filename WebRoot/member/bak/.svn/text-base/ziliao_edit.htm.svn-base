@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<meta name="author" content="design by www.21-sun.com">
+<title>个人中心</title>
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+</head>
+<body>
+<!--top-->
+<div class="m_newTop">
+  <div class="wrapper">
+    <h2 class="l"><img width="219" height="40" src="images/mem_logo.png" alt="铁臂商城购物中心"></h2>
+    <ul class="m_nav">
+      <li><a href="#" class="n">网站<i></i></a>
+        <div class="box">
+          <a href="#">网站首页</a>
+          <a href="#">铁臂商城</a>
+          <a href="#">铁臂兄弟连</a>
+          <a href="#">铁臂口碑</a>
+          <a href="#">铁臂图库</a>
+          <a href="#">铁臂维修</a>
+          <a href="#">铁臂视频</a>
+          <a href="#">铁臂资讯</a>
+        </div>
+      </li>
+      <li><a href="#" class="n">应用<i></i></a>
+        <div class="box">
+          <a href="#">我的口碑</a>
+          <a href="#">我上传的图片</a>
+          <a href="#">我的维修知识</a>
+          <a href="#">我上传的视频</a>
+        </div>
+      </li>
+    </ul>
+    <div class="top_search">
+      <input type="text" name="top_input" id="top_input" value="请输入搜索内容" onfocus="if(this.value == '请输入搜索内容'){this.value=''}" onblur="if(this.value == ''){this.value='请输入搜索内容'}" class="top_input">
+      <li class="select_box"> <span>帖子</span>
+        <ul style="display: none;" class="son_ul">
+          <li value="0">帖子</li>
+          <li value="1">用户</li>
+        </ul>
+      </li>
+      <input type="hidden" id="top_select" value="0">
+      <a class="top_btn" href="javascript:void(0);" onclick="goSearch()"></a> 
+      <script type="text/javascript">
+          $(document).ready(function(){
+             $('.son_ul').hide(); //初始ul隐藏
+             $('.select_box span').hover(function(){ //鼠标移动函数
+                $(this).parent().find('ul.son_ul').slideDown(200);  //找到ul.son_ul显示
+                $(this).parent().find('li').hover(function(){$(this).addClass('hover')},function(){$(this).removeClass('hover')}); //li的hover效果
+                $(this).parent().hover(function(){},
+                                       function(){
+                                           $(this).parent().find("ul.son_ul").slideUp(200); 
+                                           }
+                                       );
+                },function(){}
+                );
+            $('ul.son_ul li').click(function(){
+              $("#top_select").val($(this).attr('value'));
+              $(this).parents('li').find('span').html($(this).html());
+              $(this).parents('li').find('ul').slideUp(200);
+            });
+          });
+          function goSearch(){
+              var tar = $("#top_select").val();
+              var str = $("#top_input").val();
+              if($.trim(str) == ''){
+                  $.jBox.tip('请输入搜索内容');
+              }
+              if(tar == 0){
+                   window.location.href='/service/searchList.jsp?keyWord='+str;
+              }else{
+                  window.location.href='/newMember.jsp?keyWord='+str;
+              }
+          }
+      </script> 
+    </div>
+    <div class="mtl m_set"><a class="m_Ico"><em></em></a></div>
+    <div class="b_nav_member" style="background: none;width: auto;">
+      <a href="/infocenter/index.jsp"><img width="30" height="30" src="images/noface.png" class="b_faceimg"></a> 
+      <span class="b_name" style="width: auto;">
+        <a href="/infocenter/index.jsp" style="color: #FFF;">Style2013</a>
+        <a href="/tools/exit.jsp" style="color:#fff;">[退出]</a>
+      </span>
+    </div>
+  </div>
+</div>
+<!--top end-->
+
+<div class="wrapper m_contain mb20 fix">
+  <!--left-->
+  <div class="m_leftPart">
+    <div class="mem-con">
+      <div class="mem-face">
+        <img width="175" height="175" src="images/noface.png">
+      </div>
+      <ul class="mem-info">
+        <li><strong>780</strong><br>
+          粉丝</li>
+        <li style="border:none;"><strong>895</strong><br>
+          关注</li>
+      </ul>
+    </div>
+    
+    <h3 class="mt">我发布的</h3>
+    <ul class="m_leftMenu">
+      <li><a class="selected" href="#"><span class="n"><img src="images/menu_ico01.png">我的口碑</span></a></li>
+      <li><a href="#"><span class="n"><img src="images/menu_ico02.png">我上传的图片</span></a></li>
+      <li><a href="#"><span class="n"><img src="images/menu_ico03.png">我的维修知识</span></a></li>
+      <li><a href="#"><span class="n"><img src="images/menu_ico04.png">我的上传视频</span></a></li>
+    </ul>
+    <div class="m_line"></div>
+    
+  </div>
+  <!--left end-->
+  <!--right-->
+  <div class="m_rightPart">
+    <div class="mr_menu">
+      <ul class="fix">
+        <li><a href="#">首页</a></li>
+        <li><a href="#" class="selected">个人资料</a></li>
+        <li><a href="#">修改头像</a></li>
+        <li><a href="#">手机绑定</a></li>
+        <li><a href="#">地址管理</a></li>
+      </ul>
+    </div>
+    <div class="n_mem_info">
+      <ul class="ziliao">
+      	<div class="title b_rtitle">
+         <span style="margin-top: 0px;" class="btn save"><a onclick="subFrom()" style="background-position: 0px 0px;" href="javascript:;">保存</a></span>
+         </div>
+        <li>
+          <h3>基本信息</h3>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <th width="10%">昵称</th>
+                <td width="90%"><input type="text" onblur="memberNick(this,'129305');" value="Style2013" class="b_input" id="zd_nickname" name="zd_nickname" readonly="readonly"></td>
+              </tr>
+              <tr>
+                <th>姓名</th>
+                <td><input type="text" value="" class="b_input" id="zd_real_name" name="zd_real_name"></td>
+              </tr>
+              <tr>
+                <th>生日</th>
+                <td><input type="text" value="" onclick="WdatePicker({dateFmt:'yyyy-MM-dd',startDate:'1980-01-01'});" class="b_input Wdate" id="zd_birthday" name="zd_birthday"></td>
+              </tr>
+              <tr>
+                <th>性别</th>
+                <td>
+                	<input type="radio" checked="checked" class="b_radio" value="1" id="radio" name="zd_sex"> 男 &nbsp;
+              		<input type="radio" class="b_radio" value="0" id="radio2" name="zd_sex">女 
+              	</td>
+              </tr>
+              <tr>
+                <th>所在地区</th>
+                <td>
+                	<li class="rflist">
+                		<style>
+                			.rfLeft_area li{
+                				margin-bottom: 0px;
+                			}
+                		</style>
+				        <div class="rfLeft_area">
+				          <div class="select_box"> <span id="proTree" class="">山东省</span>
+				            <ul id="province_name" class="son_ul" style="display: none;"> <!-- 省 -->
+				                
+							  <li value="2100110">山东省</li>
+						                
+							  <li value="2101800">安徽省</li>
+						                
+							  <li value="2103100">江西省</li>
+						                
+							  <li value="2104200">浙江省</li>
+						                
+							  <li value="2105290">上海市</li>
+						                
+							  <li value="2105499">北京市</li>
+						                
+							  <li value="2105689">天津市</li>
+						                
+							  <li value="2105879">重庆市</li>
+						                
+							  <li value="2106400">河北省</li>
+						                
+							  <li value="2108300">山西省</li>
+						                
+							  <li value="2109700">内蒙古自治区</li>
+						                
+							  <li value="2110900">江苏省</li>
+						                
+							  <li value="2113000">广西省</li>
+						                
+							  <li value="2115000">西藏自治区</li>
+						                
+							  <li value="2116000">宁夏自治区</li>
+						                
+							  <li value="2117000">新疆自治区</li>
+						                
+							  <li value="2119000">吉林省</li>
+						                
+							  <li value="2120000">辽宁省</li>
+						                
+							  <li value="2122000">黑龙江省</li>
+						                
+							  <li value="2124000">湖北省</li>
+						                
+							  <li value="2126000">湖南省</li>
+						                
+							  <li value="2128000">广东省</li>
+						                
+							  <li value="2130000">河南省</li>
+						                
+							  <li value="2132000">贵州省</li>
+						                
+							  <li value="2133000">青海省</li>
+						                
+							  <li value="2134000">甘肃省</li>
+						                
+							  <li value="2135500">陕西省</li>
+						                
+							  <li value="2137000">云南省</li>
+						                
+							  <li value="2139000">四川省</li>
+						                
+							  <li value="2141500">海南省</li>
+						                
+							  <li value="2142000">福建省</li>
+						                
+							  <li value="5000380">国外</li>
+						                
+							  <li value="5000400">台湾省</li>
+						                
+							  <li value="5000401">香港特区</li>
+						                
+							  <li value="5000402">澳门特区</li>
+						                
+				            </ul>
+				          </div>
+				          <div class="select_box"> 
+				            <span id="zd_city_name" class="">烟台市</span>
+				            <ul id="city_name" class="son_ul" style="display: none;"><li onclick="changeCityName('2100120','青岛市')" value="2100120" class="">青岛市</li><li onclick="changeCityName('2100250','日照市')" value="2100250">日照市</li><li onclick="changeCityName('2100300','潍坊市')" value="2100300">潍坊市</li><li onclick="changeCityName('2100430','烟台市')" value="2100430">烟台市</li><li onclick="changeCityName('2100570','威海市')" value="2100570">威海市</li><li onclick="changeCityName('2100640','临沂市')" value="2100640">临沂市</li><li onclick="changeCityName('2100770','枣庄市')" value="2100770">枣庄市</li><li onclick="changeCityName('2100840','淄博市')" value="2100840">淄博市</li><li onclick="changeCityName('2100930','济宁市')" value="2100930">济宁市</li><li onclick="changeCityName('2101060','泰安市')" value="2101060">泰安市</li><li onclick="changeCityName('2101130','菏泽市')" value="2101130">菏泽市</li><li onclick="changeCityName('2101230','莱芜市')" value="2101230">莱芜市</li><li onclick="changeCityName('2101260','济南市')" value="2101260">济南市</li><li onclick="changeCityName('2101380','聊城市')" value="2101380">聊城市</li><li onclick="changeCityName('2101470','德州市')" value="2101470">德州市</li><li onclick="changeCityName('2101590','东营市')" value="2101590">东营市</li><li onclick="changeCityName('2101650','滨州市')" value="2101650">滨州市</li></ul>
+				          </div>
+			              <div class="select_box"> <span class="area_required" id="area_required">芝罘区</span><input type="hidden" value="2100440" id="zd_area_id" name="zd_area_id">
+			                <ul id="area_name" class="son_ul" style="display: none;"><li onclick="changeAreaName('2100440','芝罘区',this)" value="2100440">芝罘区</li><li onclick="changeAreaName('2100450','福山区',this)" value="2100450">福山区</li><li onclick="changeAreaName('2100460','莱山区',this)" value="2100460">莱山区</li><li onclick="changeAreaName('2100470','开发区',this)" value="2100470">开发区</li><li onclick="changeAreaName('2100480','牟平区',this)" value="2100480">牟平区</li><li onclick="changeAreaName('2100490','栖霞市',this)" value="2100490">栖霞市</li><li onclick="changeAreaName('2100500','海阳市',this)" value="2100500">海阳市</li><li onclick="changeAreaName('2100510','龙口市',this)" value="2100510">龙口市</li><li onclick="changeAreaName('2100520','莱阳市',this)" value="2100520">莱阳市</li><li onclick="changeAreaName('2100530','莱州市',this)" value="2100530">莱州市</li><li onclick="changeAreaName('2100540','招远市',this)" value="2100540">招远市</li><li onclick="changeAreaName('2100550','蓬莱市',this)" value="2100550">蓬莱市</li><li onclick="changeAreaName('2100560','长岛县',this)" value="2100560">长岛县</li></ul>
+				          </div>
+				        </div>
+				      </li>
+                </td>
+              </tr>
+              <tr>
+                <th>个性签名</th>
+                <td><textarea class="b_textarea01" rows="5" cols="45" id="zd_intro" name="zd_intro">这家伙很懒,什么也没留下...</textarea></td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+        <li>
+          <h3>联系方式</h3>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <th width="10%">邮箱</th>
+                <td width="90%"><input type="text" onblur="checkEmail(this,'129305')" value="wangjian@21-sun.com" class="b_input" id="zd_email" name="zd_email"></td>
+              </tr>
+              <tr>
+                <th>手机</th>
+                <td><input type="text" onblur="checkPhone(this,'129305')" value="" class="b_input" id="zd_phone" name="zd_phone"></td>
+              </tr>
+              <tr>
+                <th>QQ</th>
+                <td>
+                	<input type="text" value="" class="b_input" id="zd_qq" name="zd_qq">
+                	<input type="hidden" class="b_radio" value="1" id="zd_contact_is_show" name="zd_contact_is_show">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+        <li>
+          <h3>工作信息</h3>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <th width="10%">工作单位</th>
+                <td width="90%">
+                	<input type="text" value="" readonly="readonly" id="company_id" class="b_input" name="company_id">
+                	<input type="hidden" value="0" id="zd_company_id" class="b_input" name="zd_company_id">
+                </td>
+              </tr>
+              <tr>
+                <th>职业</th>
+                <td>
+	                <select style="width:192px;" class="select" id="jobSelect" name="select4">
+			          <option>请选择</option>
+	                  
+	              		<option value="1">机手</option>
+	              	  
+	              		<option value="2">车主</option>
+	              	  
+	              		<option value="3">维修工程师</option>
+	              	  
+	              		<option value="4">工程管理相关</option>
+	              	  
+	              		<option value="9">设备运输相关</option>
+	              	  
+	              		<option value="5">销售人员</option>
+	              	  
+	              		<option value="6">行业名人</option>
+	              	  
+	              		<option value="7">学(生)徒</option>
+	              	  
+	              		<option value="8" selected="selected">其他</option>
+	              	  
+			        </select>
+		       </td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+       
+        <li>
+          <h3>收货地址</h3>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <th width="10%">邮寄地址</th>
+                <td width="90%"><input type="text" value="" class="b_input" id="ems_address" name="ems_address"></td>
+              </tr>
+              <tr>
+                <th>邮政编码</th>
+                <td><input type="text" value="" class="b_input" id="ems_postcode" name="ems_postcode"></td>
+              </tr>
+              <tr>
+                <th>联系人</th>
+                <td><input type="text" value="" class="b_input" id="ems_linkman" name="ems_linkman"></td>
+              </tr>
+              <tr>
+                <th>联系方式</th>
+                <td><input type="text" value="" class="b_input" id="ems_phone" name="ems_phone"></td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+      </ul>
+      <div class="btn"><a href="#" title="保存"><img src="images/edit_btn02.png" alt="保存" /></a></div>
+    </div>
+  </div>
+  <!--right end-->
+</div>
+<!--foot-->
+<div class="foot">
+  <a href="#">广告服务</a>|<a href="#">联系方式</a>|<a href="#">关于我们</a>|<a href="#">本网动态</a>|<a href="#">法律声明</a>|<a href="#">网站导航</a>|<a href="#">联系客服</a><br />
+  产品询价专线：4006-521-526<br />
+  <a href="http://www.21-sun.com/" target="_blank">中国工程机械商贸网</a> Copyright &copy; 2000-2014
+</div>
+<!--foot end-->
+</body>
+<script type="text/javascript" src="scripts/common.js"></script>
+</html>

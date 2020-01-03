@@ -1,0 +1,110 @@
+<div class="newspart blue mb10">
+   <div class="title bigTitle">
+      <h3>产品图库</h3>
+      <ul class="t-con" style="width:550px;list-style:none;">
+          <li style="*padding-top:2px;">搜索图片：</li>
+          <li>
+          <div class="selectContain" align="left" style="margin-top:8px;*margin-top:0px;">
+            <select id="factoryid" name="factoryid" style="width:140px;">
+              <option selected="selected" value=""> 选择品牌 </option>
+            </select>
+            <select  id="catalogid" name="catalogid" disabled="disabled" style="width:160px">
+              <option selected="selected" value=""> 选择类型　　 </option>
+            </select>
+            <!--<select style="position: absolute; left: -2000px;"  id="level_3" 	name="level_3" disabled="disabled">
+                    <option selected="selected" value=""> 请选择机型 </option>
+                  </select>-->
+          </div>
+             <a onclick="submitYN();" class="photbtn" style="margin-top:7px; margin-left:-70px;*margin-left:-140px;" href="javascript:void(0)">搜索</a>
+        </li>
+      </ul>
+      <span class="more"><a href="http://photo.21-sun.com/" target="_blank">更多&gt;&gt;</a></span>
+    </div>
+    <div class="content NewsImgscroll" id="NewsImgscroll">
+      <div class="hd"> 
+        <a class="newsImgnext"></a>
+        <ul>
+        </ul>
+        <a class="newsImgprev"></a> 
+      </div>
+      <div class="bd">
+        <ul class="newsPicList">
+          <li>
+            <div class="newsBigimg"><a href="http://product.21-sun.com/photo/detail_for_8622.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/11083115205784_0.jpg" alt="南方路机干粉砂浆生产设备FBZ2000" width="369" height="262" /><h3>南方路机干粉砂浆生产设备FBZ2000</h3></a></div>
+            <div class="newsSmallimg">
+              <dl><a href="http://product.21-sun.com/photo/detail_for_20259.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/07/20130725112422_261.jpg" alt="徐工挖掘机XE50C" width="120" height="90" /><br />
+             徐工挖掘机XE50C</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_3566.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/08122309052485_0.jpg" alt="上海友一三角型破碎锤YYB1000" width="120" height="90" /><br />
+             上海友一三角型破碎锤YYB1000</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_19066.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/24/20130524095819_580.jpg" alt="三笠路面切割机MCD220DXH" width="120" height="90" /><br />
+             三笠路面切割机MCD220DXH</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_11145.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/ds/1289809178888.jpg" alt="道胜履带式摊铺机LTL45B" width="120" height="90" /><br />
+             道胜履带式摊铺机LTL45B</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_12863.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/12070415493559_0.jpg" alt="黑金钢直立型破碎锤HJB175" width="120" height="90" /><br />
+             黑金钢直立型破碎锤HJB175</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_16349.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/04/26/20130426084825_567.jpg" alt="东达桩工液压步履式桩架JDJ6" width="120" height="90" /><br />
+             东达桩工液压步履式桩架JDJ6</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_10868.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/jshtdl/1309592873774.jpg" alt="华通动力履带式摊铺机LTL45H" width="120" height="90" /><br />
+             华通动力履带式摊铺机LTL45H</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_20308.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/08/20130812112940_842.jpg" alt="山重建机挖掘机MC386LC-8" width="120" height="90" /><br />
+             山重建机挖掘机MC386LC-8</a></dl>
+            </div>
+          </li>
+          <li>
+            <div class="newsBigimg"><a href="http://product.21-sun.com/photo/detail_for_6012.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/sy/1246575103844.gif" alt="三一布料杆HGY15" width="369" height="262" /><h3>三一布料杆HGY15</h3></a></div>
+            <div class="newsSmallimg">
+              <dl><a href="http://product.21-sun.com/photo/detail_for_11438.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/07/20130703142014_878.jpg" alt="中联重科平头塔式起重机TCT7527-20(CE)-129ZY-A" width="120" height="90" /><br />
+              中联重科平头塔式起重机TCT7527-20(CE)-129ZY-A</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_5962.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/06/20130604165730_283.jpg" alt="三一堆高机SDCY90K8C2" width="120" height="90" /><br />
+              三一堆高机SDCY90K8C2</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_711.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/20081211150524_0.jpg" alt="成工轮式装载机CG956H" width="120" height="90" /><br />
+              成工轮式装载机CG956H</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_8295.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/11082515071947_0.jpg" alt="方圆集团塔式起重机TC4208" width="120" height="90" /><br />
+              方圆集团塔式起重机TC4208</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_13145.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/ds/1318241330050.jpg" alt="道胜搅拌站LJB1000C" width="120" height="90" /><br />
+              道胜搅拌站LJB1000C</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_21476.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2014/05/20140506105836_702.jpg" alt="山东临工井下装载机LG953N" width="120" height="90" /><br />
+              山东临工井下装载机LG953N</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_18276.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/14/20130514131444_467.png" alt="远华机械破碎机锤式" width="120" height="90" /><br />
+              远华机械破碎机锤式</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_10224.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/shanhe/669.jpg" alt="山河智能凿岩机和钻机SWDL150" width="120" height="90" /><br />
+              山河智能凿岩机和钻机SWDL150</a></dl>
+            </div>
+          </li>
+          <li>
+            <div class="newsBigimg"><a href="http://product.21-sun.com/photo/detail_for_18930.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/20130522174234_937.jpg" alt="特雷克斯履带式起重机CC 5800" width="369" height="262" /><h3>特雷克斯履带式起重机CC 5800</h3></a></div>
+            <div class="newsSmallimg">
+              <dl><a href="http://product.21-sun.com/photo/detail_for_8936.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/11122613451225_0.jpg" alt="博汇机械混凝土搅拌运输车XZQ5313GJBN3267C" width="120" height="90" /><br />
+              博汇机械混凝土搅拌运输车XZQ5313GJBN3267C</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_3758.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/08122313334761_0.jpg" alt="东空液压剪TNH-16-1B" width="120" height="90" /><br />
+              东空液压剪TNH-16-1B</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_2633.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/20081216120019_0.jpg" alt="戴纳派克夯实机LF62" width="120" height="90" /><br />
+              戴纳派克夯实机LF62</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_10610.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/changlin/201221413300734551.jpg" alt="常林股份自行式平地机PY165H" width="120" height="90" /><br />
+              常林股份自行式平地机PY165H</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_18675.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/17/20130517164320_269.jpg" alt="科尼乐重工柴油机细石混凝土输送泵DXBS系列" width="120" height="90" /><br />
+              科尼乐重工柴油机细石混凝土输送泵DXBS系列</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_15492.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2014/01/20140110153022_911.jpg" alt="山东鲁工轮式装载机LG-918-2" width="120" height="90" /><br />
+              山东鲁工轮式装载机LG-918-2</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_5340.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles/12061517435645_0.jpg" alt="中交西筑轮式摊铺机LTD600" width="120" height="90" /><br />
+              中交西筑轮式摊铺机LTD600</a></dl>
+              <dl><a href="http://product.21-sun.com/photo/detail_for_17814.htm" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/11/20130511092844_230.jpg" alt="双牛破碎锤DBB30" width="120" height="90" /><br />
+              双牛破碎锤DBB30</a></dl>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="/scripts/choose_cascade_date.js"></script>
+    <script type="text/javascript">jQuery("#NewsImgscroll").slide({ titCell:".hd ul", mainCell:".bd ul",effect:"left",vis:1,scroll:1,autoPlay:true,autoPage:true});</script> 
+ 	<script>
+ 	function submitYN(){
+		  if(""==jQuery.trim(jQuery("#factory").val())){
+		  	jQuery("#factory").removeAttr("name") ;
+		  }
+         var factoryid = jQuery("#factoryid").val() ;
+         var catalogid = jQuery("#catalogid").val() ;
+         window.open("http://product.21-sun.com/photo/list.jsp?factoryid="+factoryid+"&catalogid="+catalogid) ;
+		}
+ 	</script>
+  </div>

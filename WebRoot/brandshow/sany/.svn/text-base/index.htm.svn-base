@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>三一集团(SANY)_三一 - 铁臂三一专区</title>
+<meta name="keywords" content="三一,三一集团,三一专区" />
+<meta name="description" content="铁臂三一专区为您提供全面的三一信息，包括三一简介,三一动态，三一人物，三一产品，三一代理商，三一口碑，帮助您全面了解三一。买三一产品，就上铁臂商城！" />
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<link href="/brandshow/style/brands.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+</head>
+<body>
+<!--top-->
+<!--#include virtual="/include/top.jsp"  --> 
+<!--top end-->
+<div class="contain980 fix">
+  <div class="s_brand_logo">
+    <img src="http://product.21-sun.com/uploadfiles/09070916592948_0.jpg" alt="三一" width="120" height="50" class="s_img" /><strong class="s_n"><h1>三一</h1></strong>
+  </div>
+  <div class="s_mainSite"><a href="http://www.sanygroup.com/" target="_blank">访问官网</a></div>
+  <div class="s_tel">三一品牌客服电话：<b>0731-84031888</b></div>
+</div>
+<div class="s_navBar">
+  <div class="contain980">
+    <ul class="fix">
+      <li class="selected"><a href="/">三一首页</a></li>
+      <li><a href="/intro.htm">三一简介</a></li>
+      <li><a href="/news.htm">三一动态</a></li>
+      <li><a href="#">三一人物</a></li>
+      <li><a href="/product_list.htm">三一产品</a></li>
+      <li><a href="/comment_list.htm">三一口碑</a></li>
+      <li><a href="/agent_list.htm">三一代理商</a></li>
+    </ul>
+  </div>
+</div>
+<div class="s_main fix">
+  <!--banner-->
+  <div class="contain980 fix s_banner mb20"><img src="/uploadfiles//image/2014/07/20140715163935_404.jpg" alt="三一" width="980" height="320" /></div>
+  <!--简介-->
+  <div class="contain980 fix s_intro">
+    <div class="s_video"><img title="三一" alt="三一" src="http://product.21-sun.com/uploadfiles/09070917004940_0.jpg" width="460" height="275" /></div>
+    <div class="hd">
+      <h3>三一简介</h3>
+    </div>
+    <div class="bd text">
+     <p>三一重工主要从事工程机械的研发、制造、销售，产品包括建筑机械、筑路机械、起重机械等26大类200多个品种，主导产品有混凝土输送泵、混凝土输送泵车、混凝土搅拌站、沥青搅拌站、压路机、摊铺机、平地机、履带起重机等。目前，三一混凝土输送机械、搅拌设备、履带起重机械、旋挖钻机已成为国内第一品牌。</p>
+    </div>
+  </div>
+  <!--left-->
+  <div class="contain980 fix">
+    <div class="s_mleft">
+      <!--新闻-->
+      <div class="comBox mb10">
+        <div class="hd fix">
+          <h3>三一动态</h3>
+          <span class="more"><a href="/news.htm" title="更多三一动态" target="_blank">更多三一动态 &gt;&gt;</a></span>
+        </div>
+        <div class="bd fix">
+        	<!--news-->
+        	<!--#include virtual="/include/brandshow/brand_news.jsp?usern=三一"  --> 
+			<!--news end-->
+        </div>
+      </div>
+      <!--人物-->
+      <div class="comBox mb10">
+        <div class="hd fix">
+          <h3>三一人物</h3>
+          <span class="more"><a href="#">更多三一人物 &gt;&gt;</a></span>
+        </div>
+        <div class="bd fix s_renwu">
+          <ul class="fix">
+            <li><a href="#"><img src="http://product.21-sun.com/brandshow/images/temp/temp_img04.jpg" onerror="showImgDelay(this,'/uploadfiles/no_big.gif',2);" />
+              <strong class="n">梁稳根</strong>
+              <div class="p">三一重工董事长</div>
+            </a><a href="#" class="focus">加关注</a></li>
+            <li><a href="#"><img src="http://product.21-sun.com/brandshow/images/temp/temp_img04.jpg" onerror="showImgDelay(this,'/uploadfiles/no_big.gif',2);" />
+              <strong class="n">梁稳根</strong>
+              <div class="p">三一重工董事长</div>
+            </a><a href="#" class="focus">加关注</a></li>
+            <li><a href="#"><img src="http://product.21-sun.com/brandshow/images/temp/temp_img04.jpg" onerror="showImgDelay(this,'/uploadfiles/no_big.gif',2);" />
+              <strong class="n">梁稳根</strong>
+              <div class="p">三一重工董事长</div>
+            </a><a href="#" class="focus">加关注</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--口碑-->
+      <div class="comBox mb10">
+      	<!--comment-->
+        	<!--#include virtual="/include/brandshow/brand_comment.jsp?factoryid=133"  --> 
+		<!--comment end-->
+      </div>
+      <!--三一代理商-->
+      <div class="comBox mb10">
+        <div class="hd fix">
+          <h3>三一代理商</h3>
+          <span class="more"><a href="agent_list.htm" target="_blank">更多三一代理商 &gt;&gt;</a></span>
+        </div>
+        <div class="bd fix s_company">
+          	<!--agent-->
+        	<!--#include virtual="/include/brandshow/brand_agent.jsp?factoryid=133"  --> 
+			<!--agent end-->
+        </div>
+      </div>
+    </div>
+    <!--right-->
+    <div class="s_right">
+    	<!--agent-->
+        	<!--#include virtual="right.htm"  --> 
+		<!--agent end-->
+    </div>
+  </div>
+</div>
+<!--foot--> 
+<!--#include virtual="/include/foot.jsp"  --> 
+<!--end of foot--> 
+</body>
+<script type="text/javascript" src="http://product.21-sun.com/scripts/scripts.js"></script>
+</html>

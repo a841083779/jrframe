@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<title>卡特帮视频抢先看</title>
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script type="text/javascript" src="/scripts/validator.alert.js"></script>
+<script type="text/javascript" src="/scripts/jquery.form.js"></script>
+<!--[if IE 6]><script src="scripts/pngfix.js">/* s,i,.pngfix,.pngimg img */</script><![endif]-->
+</head>
+<body>
+<!--top-->
+<!--#include virtual="/include/top.jsp"--> 
+<!--end of top--> 
+<!--main-->
+<div class="main">
+  <div class="wrap">
+    <span class="video">
+      <embed src="http://player.youku.com/player.php/sid/XNzExMDM0MDcy/v.swf" allowFullScreen="true" quality="high" width="453" height="275" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+    </span>
+  </div>
+  <div class="wrap box" style="height:841px; margin-bottom:8px;">
+    <form name="comment_form" id="comment_form" method="post" action="/action/ajax.jsp">
+    <div class="text01 dash">我们有幸邀请您提前赏鉴卡特帮宣传片，并真诚的希望您能在观后作答简单问卷，您的任何反馈都将对卡特帮计划产生积极影响。</div>
+    <ul class="wenti">
+      <li>
+        <strong class="t">Q1：您目前是_________?</strong>
+        <p>
+          <span><input type="radio" name="Q1" id="Q1" value="挖掘机手">挖掘机手</span>
+          <span><input type="radio" name="Q1" id="Q1" value="机主，也曾有挖机操作经验">机主，也曾有挖机操作经验</span>        
+          <span><input type="radio" name="Q1" id="Q1" value="其他">其他（请说明：<input type="text" name="Q1T" id="Q1T" class="bc">）</span>
+        </p>
+      </li>
+      <li>
+        <strong class="t">Q2：看完视频，您是否了解‘卡特帮’可以为您提供什么样的帮助? </strong>
+        <p>
+          <span>
+          <input type="radio" name="Q2" id="Q2" value="是">是</span>
+          <span>
+          <input type="radio" name="Q2" id="Q2" value="否">否</span>        
+          <span>
+          <input type="radio" name="Q2" id="Q2" value="不确定">不确定（请说明：<input type="text" name="Q2T" id="Q2T" class="bc">）</span>
+        </p>
+      </li>
+      <li>
+        <strong class="t">Q3：看完视频，您是否愿意加入卡特英雄俱乐部，向卡特专家提问？</strong>
+        <p>
+          <span>
+          <input type="radio" name="Q3" id="Q3" value="是">是</span>
+          <span>
+          <input type="radio" name="Q3" id="Q3" value="否">否</span>        
+          <span>
+          <input type="radio" name="Q3" id="Q3" value="不确定">不确定（请说明：<input type="text" name="Q3T" id="Q3T" class="bc">）</span>
+        </p>
+      </li>
+      <li>
+        <strong class="t">Q4：您是否愿意将视频分享给其他朋友？</strong>
+        <p>
+          <span>
+          <input type="radio" name="Q4" id="Q4" value="是">是</span>
+          <span>
+          <input type="radio" name="Q4" id="Q4" value="否">否</span>        
+          <span>
+          <input type="radio" name="Q4" id="Q4" value="不确定">不确定（请说明：<input type="text" name="Q4T" id="Q4T" class="bc">）</span>
+        </p>
+      </li>
+      <li>
+        <strong class="t">Q5：您是否喜欢这支视频？从1-5分打分</strong>
+        <p>
+          <span>
+          <input type="radio" name="Q5" id="Q5" value="1分，非常不喜欢">1分，非常不喜欢</span>
+          <span>
+          <input type="radio" name="Q5" id="Q5" value="2分，不太喜欢">2分，不太喜欢</span>        
+          <span>
+          <input type="radio" name="Q5" id="Q5" value="3分，一般">3分，一般</span>
+          <span>
+          <input type="radio" name="Q5" id="Q5" value="4分，喜欢">4分，喜欢</span>
+          <span>
+          <input type="radio" name="Q5" id="Q5" value="5分，非常喜欢">5分，非常喜欢</span>
+        </p>
+      </li>
+    </ul>
+    <div class="text02">感谢您的配合，您的意见非常宝贵，希望您能继续关注卡特彼勒，祝您工作生活愉快！</div>
+    <div class="formBtn">
+      <input type="button" name="button2" id="button2" value="&nbsp;" class="btn" onclick="doComments();">
+    </div>
+	       <input type="hidden" name="flag" value="cat_video" />
+           <input type="hidden" name="video_flag" id="video_flag"  value="2"/>
+	</form>
+  </div>
+  <div class="footInfo"><span>产品询价专线：4006-521-526</span><span><a href="http://www.21-sun.com/" target="_blank">中国工程机械商贸网</a> Copyright &copy; 2000-<script type="text/javascript">document.write((new Date()).getFullYear());</script></span></div>
+</div>
+<!--main end-->
+<!--foot-->
+<div class="foot">
+  
+</div>
+<!--foot end-->
+<script type="text/javascript" src="scripts/comm.js"></script>
+<script>
+	function doComments(){
+		var rs = Validator.Validate(document.getElementById("comment_form"),1);
+		if(rs){
+			jQuery("#comment_form").ajaxSubmit({
+				type : "POST",
+				async : false ,
+				success : function(data){
+			     if(jQuery.trim(data)=='no'){
+				   alert("您输入的评价中含有敏感词，请重新输入") ;
+				    jQuery("#content").val("") ;
+		            jQuery("#content").focus() ; 
+				   return ;
+				}
+					alert("问卷提交成功！");
+					//getComment();
+					jQuery("#comment_form").clearForm();
+				}					  
+			});
+		}
+	}
+</script>
+</body>
+</html>

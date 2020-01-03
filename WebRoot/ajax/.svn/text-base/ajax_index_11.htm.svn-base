@@ -1,0 +1,38 @@
+   <div class="sortLeft">
+        <div class="cate">
+          <h3>破碎设备分类</h3>
+          <ul>
+            <li><a target="_blank" href="/products/prolist.jsp?catalog=113001">破碎锤</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?catalog=113002">液压剪</a></li>
+          </ul>
+        </div>
+        <div class="brandRec">
+          <h3>品牌推荐</h3>
+          <ul>
+           <li><a target="_blank" href="/brand/shms/">民盛水山</a></li>
+           <li><a target="_blank" href="/tuan/doosan_ganen/index.htm">斗山</a></li>
+           <li><a target="_blank" href="/products/prolist.jsp?factory=679&catalog=113001">烟台军恒</a></li>
+             <li><a target="_blank" href="/products/prolist.jsp?factory=403&catalog=113">普堃韩泰克</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=401&catalog=113001">惊天液压</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=417&catalog=113001">古河</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=1113&catalog=113001">神斧</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=421&catalog=113001">韩宇</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=1585&catalog=113001">诺森机械</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=402&catalog=113001">艾迪</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=1108&catalog=113001">烟台百财</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=1103&catalog=113001">黑金刚</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=1353&catalog=113001">泰石克</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=1112&catalog=113001">韩工</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=1304&catalog=113001">山特维克</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=405&catalog=113001">东空</a></li>
+            <li style="width:122px;"><a target="_blank" href="/products/prolist.jsp?factory=776&catalog=113001">连云港工兵GBPSC</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=418&catalog=113001">麦恩</a></li>
+            <li><a target="_blank" href="/products/prolist.jsp?factory=407&catalog=113001">甲南</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="sortRight">
+        <div class="l"><a target="_blank" href="/tuan/doosan_ganen/index.htm"><img width="432" height="430" alt="斗山破碎锤" src="ads/ds_ps.jpg"></a></div>
+        <div class="r"><a target="_blank" href="/brand/ytjunheng/"><img width="230" height="215" alt="烟台军恒工程机械" src="ads/junheng.jpg"></a></div>
+        <div class="r"><a target="_blank" href="/brand/hi-tech/"><img width="230" height="215" alt="韩泰克破碎锤" src="ads/hi.jpg"></a></div>
+      </div>

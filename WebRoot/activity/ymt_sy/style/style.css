@@ -1,0 +1,96 @@
+/*
+* name: style.css
+* version: v1.0.0
+* update: no
+* date: 2016-07-18
+*/
+
+/*引入符号样式*/
+@import url(../static/ui/ux/iconfont.css);
+
+/* 设置 */
+body{ color:#333; background-color:#fff;}
+.wrap{ width:1000px; margin-left:auto; margin-right:auto; *width:1000px;}
+a{ color:#333; transition:all ease 0.3s; -webkit-transition:all ease 0.3s; -moz-transition:all ease 0.3s; -o-transition:all ease 0.3s;}/*a链接的默认样式*/
+a:hover{ color:#ff9400;}
+
+/*tool*/
+.animated{ transition:all ease 0.3s; -webkit-transition:all ease 0.3s; -moz-transition:all ease 0.3s; -o-transition:all ease 0.3s;}
+
+
+/*------- 网站样式 start------ */
+
+body{ position:relative; overflow-x:hidden;}
+
+/*header*/
+.header{ position:absolute; top:0; left:0; z-index:99; width:100%; height:48px; background-color:#fff; border-bottom:#dfdfdf solid 1px;}
+.logo{ display:block; width:340px; height:48px; background:url(../static/images/logo.gif) no-repeat left center; font:0/0 Verdana, Geneva, sans-serif;}
+.servTel{ display:block; width:130px; height:48px; background:url(../static/images/tel.gif) no-repeat left center;}
+
+
+/*banner*/
+.center-pos{ position:relative; left:50%; margin-left:-960px; width:1920px;}
+.banner-bot{ height:449px; background:url(../static/images/banner_bg.jpg) repeat-x;}
+.banner-des{ width:1040px; margin:0 auto;}
+
+
+/*main*/
+.main{ padding-bottom:36px; background-color:#e70012;}
+
+.main-title{ text-align:center; color:#fff; padding:24px 0 18px;}
+.main-title h3{ font-size:30px; line-height:42px;}
+.main-title p{ font-size:22px; line-height:32px;}
+
+.pro-list{ width:1184px; margin:0 auto;}
+.pro-list ul{ width:108%;}
+.pro-list li{ float:left; position:relative; width:574px; padding:7px; margin-right:10px; background-color:#fff;}
+
+.pro-infor{ padding-top:10px;}
+.pro-infor>span.pro-tip{ display:block; width:86px; height:24px; background-color:#e20012; font-size:14px; color:#fff; line-height:24px; text-align:center;}
+.pro-infor h3.pro-price{ display:block; margin-left:18px; font-size:44px; line-height:1em; color:#e20012;}
+.pro-infor i{ position:relative; top:-10px; font-size:30px; line-height:30px;}
+.pro-infor h3.pro-price>span{ margin-left:4px; font-size:18px; font-weight:normal;}
+.pro-infor>span.pri-price{ margin-top:20px; font-size:24px; line-height:1em; color:#7e7e7e; text-decoration:line-through;}
+.buy-btn a{ display:block; width:266px; height:44px; background-color:#e20012; font-size:20px; color:#fff; line-height:44px; text-align:center;cursor:pointer;}
+
+.wechat-share{ width:814px; padding:28px 0 36px; margin:0 auto;}
+.wechat-box{ width:113px; text-align:center; line-height:24px; font-size:16px; color:#fff;}
+.wechat-des{ width:670px; padding-top:16px; color:#fff;}
+.wechat-des h3{ font-size:26px; line-height:38px;}
+.wechat-des p{ font-size:20px; line-height:24px;}
+
+.activity-des{ width:1180px; margin:0 auto; border:#fff solid 10px;}
+.activity-des{ width:1180px; height:364px; margin:0 auto; border:#fff solid 10px; background:url(../static/images/intro-bg.jpg) no-repeat center center; overflow:hidden;}
+.activity-des h3{ margin-top:36px; margin-bottom:24px; font-size:30px; color:#fff; line-height:1em; text-align:center;}
+.activity-des p{ margin-left:66px; font-size:20px; font-weight:bold; color:#fff; line-height:46px;}
+.activity-des span.des-name{ display:inline-block; width:180px;}
+.activity-des i{ color:#fff000;}
+
+
+
+/*form-box*/
+.form-box{ display:none; position:absolute; left:-1px; top:-1px; width:588px; height:436px; *height:426px; background-color:#e70012; border:#fff solid 1px; overflow:hidden;}
+.form-box label{ display:block; margin-top:24px; margin-bottom:20px; font-size:30px; font-weight:bold; color:#fff; text-align:center;}
+.form-box span{ display:inline-block; width:130px; margin-left:18px; color:#fff; font-size:20px; *vertical-align:middle; *margin-bottom:20px;}
+.form-box select{ width:224px; height:34px; margin-bottom:20px; font-size:18px; line-height:34px;}
+.form-box i{ margin-right:4px;}
+.form-box input[type="text"]{ width:396px; height:34px; padding-left:4px; margin-bottom:20px; font-size:18px; line-height:34px;}
+.form-box .city-select{}
+.form-box .city-select select{ width:201px; font-size:18px; font-family:"微软雅黑";}
+.form-box input[type="button"]{ width:234px; height:60px; margin-left:148px; margin-top:30px; background:url(../static/images/submit_btn.png) no-repeat; border-width:0;}
+.form-box input[type="submit"]{ width:234px; height:60px; margin-left:148px; margin-top:30px; background:url(../static/images/submit_btn.png) no-repeat; border-width:0; !important}
+.close-btn{ position:absolute; right:10px; top:10px; width:26px; height:26px; background:url(../static/images/close_btn.png) no-repeat; cursor:pointer;}
+.close-btn:hover{ transform:rotate(360deg); -webkit-transform:rotate(360deg); -moz-transform:rotate(360deg); -o-transform:rotate(360deg); -ms-transform:rotate(360deg);}
+
+
+
+/*footer*/
+.footer{ height:42px; background-color:#fff;}
+.footLeft,.footRight{ font-size:12px; line-height:42px; color:#000;}
+.footer a,.footer em{ color:#000;}
+.footer a:hover{ color:#fe6000;}
+.footer em{ margin:0 10px;}
+
+/*wechat*/
+.wechat{ position:fixed; right:4px; bottom:20px; z-index:999; margin-top:90px; width:106px; height:130px; padding:5px; border-radius:5px; background-color:#f00; border:#e4e4e4 solid 1px; text-align:center;}
+.wechat p{ font-size:12px; color:#fff; line-height:20px; margin-top:4px;}

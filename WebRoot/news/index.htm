@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="产品导购,购机资讯,工程机械导购" />
+<meta name="description" content="铁臂商城行情导购专业提供工程机械企业动态，工程机械行业聚焦，工程机械维修法规等最新行业动态分析，为用户选购设备提供丰富的参考依据。买工程机械产品就上铁臂商城。" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>产品导购_购机资讯 - 铁臂商城</title>
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<script type="text/javascript" src="/scripts/flash.js"></script>
+<script type="text/javascript" src="/scripts/jquery.SuperSlide.js"></script>
+</head>
+<body>
+<!--top-->
+  <!--#include virtual="/include/top.jsp"-->
+<!--面包屑-->
+<div class="contain980 mb10">
+  <h3 class="breadCrumbs"><a href="/">铁臂商城</a> &gt;&gt;&nbsp;行情.导购</h3>
+</div>
+<!--面包屑结束--> 
+
+<!--main-->
+<div class="contain980"> 
+ <div class="newspart blue mb10">
+<!--#include virtual="/include/news/new_pro_rec.htm"--><!-- 新品推荐 -->
+<div class="newsMid">
+<!--#include virtual="/include/news/pro_news.htm"--><!-- 企业动态 -->
+<!--#include virtual="/include/news/pro_news_agent.htm"--><!-- 企业动态下方代理商的新闻 -->
+</div>
+<!--#include virtual="/include/news/activity_rec.htm"--><!-- 活动推荐 -->
+ </div>  
+  <!--#include virtual="/include/news/new_pro_pics.htm"--><!-- 产品图库 -->
+  <!--#include virtual="/include/news/pro_videos.htm"--><!-- 产品视频 -->  
+  <!--#include virtual="/include/news/news_list.htm"--><!-- 产品动态 -->   
+<div class="clear"></div>
+</div>
+<!--main end--> 
+<!--foot-->
+<!--#include virtual="/include/foot.jsp"-->
+<!--end of foot--> 
+</body>
+<script type="text/javascript" src="/scripts/sort.js"></script>
+  <script type="text/javascript">
+  var _html = '热门：' ;
+  	jQuery(function(){
+  	  	jQuery.ajax({
+  		url:'/action/ajax.jsp',
+  		data:{flag:'getLuceneKeyword'},
+  		type:'post',
+  		dataType:'json',
+  		async:false ,
+  		success:function(data){
+  			jQuery.each(data,function(i,val){
+  				_html += '<a href="http://sowa.21-sun.com/?q='+encodeURIComponent(data[i].word)+'&f=product" target="_blank">'+data[i].word+'</a>' ;
+  			}) ;
+  			jQuery("#hot_keywords").html(_html) ;
+  		}
+  	}) ;
+  }) ;  
+  </script>
+</html>

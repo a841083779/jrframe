@@ -1,0 +1,12 @@
+<#assign list = query(" select top ${count} id,factoryname,cataname,product_name,add_date,name,mobile_phone from pro_product_form order by id desc ")>
+<ul>
+<#list list as info>
+  <li>
+    <div class="t2"><a target="_blank" href="/inquiry/detail_for_${info.id?c}.htm">${info.factoryname!""}${info.product_name!""}${info.cataname!""}</a></div>
+    <div class="t3">${CommonDate.getFormatDate("MM月dd日",info.add_date)}</div>
+    <div class="t4"><#if (info.name?length >= 1)>${info.name?substring(0,1)}</#if>***</div>
+    <div class="t5"><#if ((info.mobile_phone??)&&info.mobile_phone?length >= 3)>${info.mobile_phone?substring(0,3)}</#if>****<#if ((info.mobile_phone??)&&info.mobile_phone?length >= 11)>${info.mobile_phone?substring(7,11)}</#if>
+    </div>
+  </li>
+</#list> 
+</ul>

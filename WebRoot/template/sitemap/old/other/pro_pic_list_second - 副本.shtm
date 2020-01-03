@@ -1,0 +1,24 @@
+﻿<#assign brandList = query(" select id from pro_agent_factory where is_show=1 and  flag = 1 and usern<>'tdbenniu' ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+		<#list brandList as brand>
+		<url>
+            <loc>http://photo.21-sun.com/list.jsp?factory=${brand.id}</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+        <#assign proList = query(" select  num  from pro_catalog where is_show=1 and len(num)<=6 ")>
+		<#list proList as pro>
+		<url>
+        <loc>http://photo.21-sun.com/list.jsp?catalog=${pro.num}</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>			
+		<url>
+            <loc>http://photo.21-sun.com/list.jsp?factory=${brand.id}&catalog=${pro.num}</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		</#list>	
+	    </#list>
+</urlset>

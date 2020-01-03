@@ -1,0 +1,55 @@
+<#assign agent_factory_list = query("SELECT TOP 60 id FROM pro_agent_factory where is_show = 1 and flag=1 and id NOT in (SELECT TOP 420 id FROM pro_agent_factory where is_show = 1 and flag=1)")>
+<#assign photo_group_list = query(" select sort_num from pro_photo_group where is_show = 1 ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list agent_factory_list as agent_factory >
+	<#list photo_group_list as photo_group >
+		<#list photo_group.sort_num?split(",") as sort_num>
+		<#if sort_num ?length gt 0 >
+				<url>
+					<loc>http://photo.21-sun.com/zhanhui_0_0_0_${sort_num}_0.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+				<url>
+					<loc>http://photo.21-sun.com/zhanhui_107005001_0_0_${sort_num}_0.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+				<url>
+					<loc>http://photo.21-sun.com/zhanhui_107005001_${agent_factory.id?c}_0_${sort_num}_0.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+				<url>
+					<loc>http://photo.21-sun.com/zhanhui_107005002_0_0_${sort_num}_0.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+				<url>
+					<loc>http://photo.21-sun.com/zhanhui_107005002_${agent_factory.id?c}_0_${sort_num}_0.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+				<url>
+					<loc>http://photo.21-sun.com/zhanhui_107005003_0_0_${sort_num}_0.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+				<url>
+					<loc>http://photo.21-sun.com/zhanhui_107005003_${agent_factory.id?c}_0_${sort_num}_0.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+		</#if>
+		</#list>
+		</#list>
+	</#list>
+</urlset>

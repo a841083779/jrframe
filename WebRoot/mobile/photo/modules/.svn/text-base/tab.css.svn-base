@@ -1,0 +1,8 @@
+/*
+* tab.css
+* v0.98
+*/
+.tab{position:relative;}
+.tab_t{position:absolute;top:0;width:106px;text-align:center;cursor:pointer;}
+.tab_c{display:none;}
+.tab_c_cur{display:block;}

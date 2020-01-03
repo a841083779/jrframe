@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>工程机械品牌大全 - 铁臂商城</title>
+<meta name="keywords" content="工程机械品牌大全,工程机械" />
+<meta name="description" content="【工程机械品牌大全】请上铁臂商城.铁臂商城拥有所有的工程机械品牌,是最全的工程机械品牌库. " />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="../style/style.css" rel="stylesheet" type="text/css" />
+<style>
+.searchBlock select {
+    border: 1px solid #ABADB3;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 24px;
+    width: 198px;
+}
+select optgroup {
+    background: none repeat scroll 0 0 #EDF2FE;
+    color: #0055AA;
+    font-style: normal;
+}
+</style>
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<script type="text/javascript" src="/scripts/flash.js"></script>
+<link href="../style/new_brand.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--top--> 
+<!--#include virtual="/include/top.jsp"  --> 
+<!--面包屑-->
+<div class="contain980 mb10">
+  <h3 class="breadCrumbs"><a href="/">铁臂商城</a> &gt;&gt; 品牌大全</h3>
+</div>
+<!--面包屑结束-->
+<!--main--> 
+<!--品牌索引-->
+<!--#include virtual="/include/brand/letter_nav.jsp"  --> 
+<!--品牌索引结束--> 
+<div class="hotBrand Brand_newPart">
+  <div class="hbTitle">
+    <h2>热门品牌</h2>
+  <!--   <span class="more"><a href="#">更多&gt;&gt;</a></span>  -->
+  </div>
+  <div class="hbContain">
+  <ul>
+       <li> <a target="_blank" href="sany/"><img onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/09070916592948_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" title="三一重工" width="80" height="30" /></a>
+        <h3><a target="_blank"  title="三一重工" href="sany/">三一重工</a></h3>
+      </li>
+      <li> <a target="_blank" href="xcmg/"><img onerror="this.src='/images/nopic.gif';" title="徐工" src="http://product.21-sun.com/uploadfiles/20081212082831_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank"  title="徐工" href="xcmg/">徐工</a></h3>
+      </li>
+      <li> <a target="_blank" href="zoomlion/"><img onerror="this.src='/images/nopic.gif';"  title="中联重科" src="http://product.21-sun.com/uploadfiles/20081208093148_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank"  title="中联重科" href="zoomlion/">中联重科</a></h3>
+      </li>
+      <li> <a target="_blank" href="liugong/"><img onerror="this.src='/images/nopic.gif';" title="柳工" src="http://product.21-sun.com/uploadfiles/09031711214794_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank"  title="柳工" href="liugong/">柳工</a></h3>
+      </li>
+      <li> <a target="_blank" href="shantui/"><img onerror="this.src='/images/nopic.gif';"  title="山推" src="http://product.21-sun.com/uploadfiles//image/2014/02/20140221154814_568.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" title="山推" href="shantui/">山推</a></h3>
+      </li>
+      <li> <a target="_blank" href="sdlg/"><img onerror="this.src='/images/nopic.gif';" title="山东临工" src="http://product.21-sun.com/uploadfiles//image/2014/05/20140506121112_822.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" title="山东临工" href="sdlg/">山东临工</a></h3>
+      </li>
+      <li> <a target="_blank" href="lovol/"><img onerror="this.src='/images/nopic.gif';" title="福田雷沃" src="http://product.21-sun.com/uploadfiles/0903171119171_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" title="福田雷沃" href="lovol/">福田雷沃</a></h3>
+      </li>
+      <li> <a target="_blank" href="chinalonggong/"><img onerror="this.src='/images/nopic.gif';" title="龙工" src="http://product.21-sun.com/uploadfiles/11091416204918_0.jpg" original="http://product.21-sun.com/uploadfiles/11091416204918_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" title="龙工" href="chinalonggong/">龙工</a></h3>
+      </li>
+      <li> 
+        <a href="komatsu/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" title="小松" src="/uploadfiles/09031711183542_0.jpg" width="80" height="30" /></a>
+        <h3><a href="komatsu/" title="小松" target="_blank">小松</a></h3>
+      </li>
+      <li> 
+        <a href="cat/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" title="卡特彼勒" src="/uploadfiles/20081204173853_0.jpg" original="/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a href="cat/"  title="卡特彼勒" target="_blank">卡特彼勒</a></h3>
+      </li>
+      <li> 
+        <a href="volvo/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';"  title="沃尔沃" src="/uploadfiles/09031718090534_0.jpg" original="/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a href="volvo/" title="沃尔沃" target="_blank">沃尔沃</a></h3>
+      </li>
+        <li> 
+        <a href="liebherr/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" title="利勃海尔" src="/uploadfiles/20081204175150_0.jpg" original="/uploadfiles/20081204175150_0.jpg" width="80" height="30" /></a>
+        <h3><a href="liebherr/" title="利勃海尔" target="_blank">利勃海尔</a></h3>
+      </li>
+       <li> 
+        <a href="kobelco/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" title="神钢" src="/uploadfiles/20081205142130_0.jpg" original="/uploadfiles/20081205142130_0.jpg" width="80" height="30" /></a>
+        <h3><a href="kobelco/" title="神钢" target="_blank">神钢</a></h3>
+      </li>
+      <li> 
+        <a href="hitachi/" target="_blank" ><img onerror="this.src='/uploadfiles/no_small.gif';" title="日立" src="/uploadfiles/20081205142317_0.jpg" original="/uploadfiles/20081205142317_0.jpg" width="80" height="30" /></a>
+        <h3><a href="hitachi/"  title="日立" target="_blank">日立</a></h3>
+      </li>
+      <li> 
+        <a href="sakai/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" title="酒井" src="/uploadfiles/09031718322659_0.jpg" original="/uploadfiles/09031718322659_0.jpg" width="80" height="30" /></a>
+        <h3><a href="sakai/" title="酒井" target="_blank">酒井</a></h3>
+      </li>
+      <li> 
+        <a href="jcb/" target="_blank"><img onerror="this.src='/uploadfiles/no_small.gif';" title="杰西博" src="/uploadfiles/09031713161592_0.jpg" original="/uploadfiles/09031713161592_0.jpg" width="80" height="30" /></a>
+        <h3><a href="jcb/" title="杰西博" target="_blank">杰西博</a></h3>
+      </li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
+
+<!--#include virtual="/include/brand/catalog_brand.htm" --> 
+<!--main end--> 
+<!--foot--> 
+<!--#include virtual="/include/foot.jsp" --> 
+<!--end of foot--> 
+<!--#include virtual="/include/brand/catalog_nav.htm" --> 
+</body>
+<script type="text/javascript" src="/scripts/sort.js"></script>
+<script type="text/javascript">
+(function(jQuery){
+ jQuery.extend(jQuery.fn,{
+ scrollTo:function(time,to){
+ time=time||0;
+ to=to||1;
+            jQuery('a[href*=#]', this).click(function(){
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var jQuerytarget = jQuery(this.hash);
+     jQuerytarget = jQuerytarget.length && jQuerytarget || jQuery('[name=' + this.hash.slice(1) + ']');
+                    if (jQuerytarget.length) {
+                        if (to == 1) {
+                            jQuery('html,body').animate({
+                                scrollTop: jQuerytarget.offset().top
+                            }, 0);
+                        }
+                        else if(to==2){
+                            jQuery('html,body').animate({
+                                scrollLeft: jQuerytarget.offset().left
+                            }, 0);
+                        }else{
+alert('argument error');
+  }
+                        return false;
+                    }
+                }
+            });
+  }
+ });
+})(jQuery);
+jQuery(function(){
+  jQuery(".sideGuide").scrollTo(700);
+  jQuery(".sideGuide a").click(function(){
+		jQuery(".sideGuide a").removeClass("selected");
+		jQuery(this).addClass("selected");
+	});
+});
+</script>
+</html>

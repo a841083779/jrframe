@@ -1,0 +1,114 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" tppabs="http://www.deca-glass.com/style/style.css"/>
+<script src="jquery.min.js" tppabs="http://lib.sinaapp.com/js/jquery/1.9.0/jquery.min.js" ></script>
+<script type="text/javascript" src="scripts.js" tppabs="http://www.deca-glass.com/scripts/scripts.js"></script>
+<script type="text/javascript" src="js.js" tppabs="http://www.deca-glass.com/scripts/js.js"></script>
+<title>中空玻璃机械_中空玻璃设备_中空玻璃生产线_中空设备_打胶机_济南德佳玻璃机器有限公司</title>
+<META name=keywords content="中空玻璃机械,中空玻璃设备,中空玻璃生产线,中空玻璃,中空设备,打胶机">
+<META name=description content="济南德佳玻璃机器有限公司主要生产中空玻璃设备，包括中空玻璃打胶机等，拥有中空玻璃生产线，有最好的中空设备，是国内中空玻璃机械生产厂家，是目前国内最大的中空玻璃设备加工基地。">
+</head>
+<body>
+	<!--top-->
+    <div class="top">
+        <div class="ssc fix">
+            <div class="plist02" onmouseover="displaylayer(this);" onmouseout="hidelayer(this);"> 
+                <font>Language</font> 				              
+                <span class="pllayer02" style="display: none;">
+                <dl>
+                   <dd><a href="index.htm" tppabs="http://www.deca-glass.com/" target="_blank">中文</a></dd>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/en/index.asp  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaglass.com/en/index.asp'" tppabs="http://www.decaglass.com/en/index.asp" rel="nofollow" target="_blank">英文</a></dd>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/ru/index.asp  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaglass.com/ru/index.asp'" tppabs="http://www.decaglass.com/ru/index.asp" rel="nofollow" target="_blank">俄文</a></dd>
+                </dl>
+                </span> 
+            </div>
+            <a href="index-1.htm" tppabs="http://www.deca-glass.com/contact/" class="top_contact"><span>联系我们</span></a>
+            <a href="#" onclick="favorite()"><span>加入收藏</span></a>
+            <a href="#"  onclick="setHome(this)"><span>设为首页</span></a>
+         </div>
+         <div class="lonav">
+            <div class="logo">
+            <h1>
+            <a href="index.htm" tppabs="http://www.deca-glass.com/" title="济南德佳玻璃机器有限公司"><img src="logo.gif" tppabs="http://www.deca-glass.com/images/logo.gif"></a>
+            </h1>
+            <span>以德兴企 双赢为佳</span></div>
+            <div class="nav">
+                <ul>
+                    <li><a class="on" href="index.htm" tppabs="http://www.deca-glass.com/">网站首页</a></li>
+                    <li><a href="index-2.htm" tppabs="http://www.deca-glass.com/about/">关于德佳</a></li>
+                    <li><a href="index-3.htm" tppabs="http://www.deca-glass.com/news/">新闻中心</a></li>
+                    <li><a href="index-4.htm" tppabs="http://www.deca-glass.com/research/">研发中心</a></li>
+                    <li><a href="index-5.htm" tppabs="http://www.deca-glass.com/product/">产品中心</a></li>
+                    <li id="nav_last"><a href="index-1.htm" tppabs="http://www.deca-glass.com/contact/">联系我们</a></li>
+                </ul>
+            </div>
+         </div>
+    </div>
+    <!--top end-->
+    <!--bannerlist-->
+    <div class="ban">
+        <div class="ban_c"><a href="prodetail.jsp-myid=126201.htm" tppabs="http://www.deca-glass.com/product/prodetail.jsp?myid=126201" target="_blank"><img alt="德佳中空玻璃设备" src="1.jpg" tppabs="http://www.deca-glass.com/images/1.jpg"></a></div>
+        <div class="ban_c"><a href="prodetail.jsp-myid=126190.htm" tppabs="http://www.deca-glass.com/product/prodetail.jsp?myid=126190" target="_blank"><img alt="中空玻璃" src="2.jpg" tppabs="http://www.deca-glass.com/images/2.jpg"></a></div>
+        <div class="ban_c"><a href="prodetail.jsp-myid=126216.htm" tppabs="http://www.deca-glass.com/product/prodetail.jsp?myid=126216" target="_blank"><img alt="中空玻璃机械" src="3.jpg" tppabs="http://www.deca-glass.com/images/3.jpg"></a></div>
+        <div class="ban_c"><a href="prodetail.jsp-myid=126186.htm" tppabs="http://www.deca-glass.com/product/prodetail.jsp?myid=126186" target="_blank"><img alt="中空玻璃生产线" src="4.jpg" tppabs="http://www.deca-glass.com/images/4.jpg"></a></div>
+        <div class="ban_c"><a href="prodetail.jsp-myid=126144.htm" tppabs="http://www.deca-glass.com/product/prodetail.jsp?myid=126144" target="_blank"><img alt="中空设备" src="5.jpg" tppabs="http://www.deca-glass.com/images/5.jpg"></a></div>
+    </div>
+    <!--bannerlist end-->
+    <div class="index_content">
+            <div class="company_summary">
+              <a href="index-2.htm" tppabs="http://www.deca-glass.com/about/"><h3>公司介绍</h3></a>
+                <div class="fix">
+                <a href="index-2.htm" tppabs="http://www.deca-glass.com/about/" title="公司介绍"><img src="index_summary_pic.jpg" tppabs="http://www.deca-glass.com/images/index_summary_pic.jpg" width="100" class="l" height="80"></a><div class="about"><a href="index-2.htm" tppabs="http://www.deca-glass.com/about/">　　<span>济南德佳玻璃机器有限公司</span><br/> 成立于1999年，系专业从事中空玻璃加工设备的研发、生产和销售的高新技术企业，拥有目前国内最大的中空玻璃设备加工基地。产品国内市场占有率及出口额稳居同行业之首。公司于成立之初被接纳为“中国建筑玻璃与工业玻璃协会”的会员，2000年应国家...</a></div>
+                </div>
+                <a href="index-2.htm" tppabs="http://www.deca-glass.com/about/" class="readmore1" title="查看更多">查看更多>></a>
+            </div>
+            <div class="pro_show">
+            	<a href="index-5.htm" tppabs="http://www.deca-glass.com/product/"><h3>产品展示</h3></a>
+                <div class="ipro">
+                	<a href="prodetail.jsp-myid=126187.htm" tppabs="http://www.deca-glass.com/product/prodetail.jsp?myid=126187" target="_blank" title="中空玻璃生产线"><img src="ipro_01.jpg" tppabs="http://www.deca-glass.com/images/ipro_01.jpg"></a>
+                    <div class="ipro_intro">
+                    	<a href="prodetail.jsp-myid=126187.htm" tppabs="http://www.deca-glass.com/product/prodetail.jsp?myid=126187" target="_blank" title="中空玻璃生产线"><span>中空玻璃生产线</span></a><br/>
+                        产品特点：高效，节能，安全，低碳环保...
+                    </div>
+                </div>
+                <div class="ipro pr2">
+                	<a href="prodetail.jsp-myid=126165.htm" tppabs="http://www.deca-glass.com/product/prodetail.jsp?myid=126165" target="_blank" title="2700中空玻璃生产线"><img src="ipro_02.jpg" tppabs="http://www.deca-glass.com/images/ipro_02.jpg"></a>
+                    <div class="ipro_intro">
+                    	<a href="prodetail.jsp-myid=126165.htm" tppabs="http://www.deca-glass.com/product/prodetail.jsp?myid=126165" target="_blank" title="2700中空玻璃生产线"><span>2700中空玻璃生产线</span></a><br/>
+                        产品特点：整线全面采用德国技术，主要零部件采用进口...
+                    </div>
+                </div>
+                <a href="index-5.htm" tppabs="http://www.deca-glass.com/product/" class="readmore2" title="查看更多">查看更多>></a>
+            </div>
+            <div class="icontact">
+              	 <a href="index-1.htm" tppabs="http://www.deca-glass.com/contact/"><h3 style=" cursor:pointer;">联系方式</h3></a>
+                 <div class="con_content">
+                	电 话：0531-86037566  86037366<br/>  
+                    传 真：0531-86037266 <br/>
+                  网 址：<a href="index.htm" tppabs="http://www.deca-glass.com/" target="_blank">www.deca-glass.com/</a><br/>
+					邮 箱：<a href="mailto:decasales@decaglass.com">decasales@decaglass.com</a>
+                 </div>
+                 <h3>友情链接</h3>
+                 <a href="javascript:if(confirm('http://www.decaholdings.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaholdings.com/'" tppabs="http://www.decaholdings.com/" rel="nofollow" title="德佳控股" target="_blank"><img class="ml27 mt17" src="djkg.jpg" tppabs="http://www.deca-glass.com/images/djkg.jpg"></a><a href="javascript:if(confirm('http://www.decadf.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decadf.com/'" tppabs="http://www.decadf.com/" rel="nofollow" title="德佳淀粉" target="_blank"><img class="mt17 ml14" src="djdf.jpg" tppabs="http://www.deca-glass.com/images/djdf.jpg"></a><a href="javascript:if(confirm('http://www.decamachine.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decamachine.com/'" tppabs="http://www.decamachine.com/" rel="nofollow" title="德佳机器" target="_blank"><img class="mt17 ml14" src="djjx.jpg" tppabs="http://www.deca-glass.com/images/djjx.jpg"></a>
+            </div>
+    </div>
+    <!--foot-->
+    <div class="foot">
+    	<div class="left_word"><a href="index-5.htm" tppabs="http://www.deca-glass.com/product/" target="_blank">中空玻璃设备</a> - <a href="index-5.htm" tppabs="http://www.deca-glass.com/product/" target="_blank">中空玻璃生产线</a> - <a href="index-5.htm" tppabs="http://www.deca-glass.com/product/" target="_blank">中空设备</a> - <a href="index-5.htm" tppabs="http://www.deca-glass.com/product/" target="_blank">中空玻璃</a> - <a href="index-5.htm" tppabs="http://www.deca-glass.com/product/" target="_blank">打胶机</a> - <a href="index-5.htm" tppabs="http://www.deca-glass.com/product/" target="_blank">中空玻璃机械</a><br />
+<a href="index.htm" tppabs="http://www.deca-glass.com/" title="济南德佳玻璃机器有限公司" target="_blank">济南德佳玻璃机器有限公司</a>版权所有 <a href="javascript:if(confirm('http://www.21-sun.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.21-sun.com/'" tppabs="http://www.21-sun.com/" title="21-sun" target="_blank">中国工程机械商贸网</a>制作维护 <br/>
+            地址：济南高新区舜华路1号齐鲁软件园创业广场B座5层B511　电话：0531-86037566  86037366　传真：0531-86037266
+<br />友情链接：<a href="javascript:if(confirm('http://www.xhzyjs.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.xhzyjs.com/'" tppabs="http://www.xhzyjs.com/">工作台</a></div>
+
+        <div class="right_word">欢迎您第 <script src="counter.asp-uid=dejia&style=7" tppabs="http://www.21-sun.com/count/counter.asp?uid=dejia&style=7"></script> 次来访德佳玻璃!</div>
+    </div>
+    <!--foot end-->
+
+</body>
+<script>
+$('.ban').T_banner();
+</script>
+</html>
+

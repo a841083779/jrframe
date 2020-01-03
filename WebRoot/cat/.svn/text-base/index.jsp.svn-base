@@ -1,0 +1,357 @@
+<%@ page language="java" import="com.jerehnet.util.common.*,com.jerehnet.util.dbutil.PageBean,com.jerehnet.util.dbutil.DBHelper,com.jerehnet.util.common.CommonString,java.util.*" pageEncoding="UTF-8"%>
+<% 
+	DBHelper dbHelper = DBHelper.getInstance() ;
+	String agentId = "174";//卡特
+	//新闻与活动
+	List<Map>newsOneList = dbHelper.getMapList(" select top 1 id,title,intro_image from pro_agent_news where news_type=0 and intro_image is not null and intro_image <>'' and agent_id=? order by pub_date desc,id desc",new Object[]{agentId}) ;
+	List<Map>newsList = dbHelper.getMapList(" select top 5 id,title from pro_agent_news where news_type=0 and agent_id=? order by add_date desc,id desc",new Object[]{agentId}) ;
+	//优惠政策
+	List<Map>preferentialList = dbHelper.getMapList(" select top 7 id,title from pro_agent_news where news_type=1 and agent_id=? order by add_date desc,id desc",new Object[]{agentId}) ;
+	//小挖
+	List<Map>litleProList = dbHelper.getMapList(" select top 4 factoryname,name,catalogname_spe,img2,id,factoryid_sub,file_name,introduce from pro_products where is_show=1 and factoryid=? and catalognum like '%101001%' and tonandmeter <20 order by view_count,id desc",new Object[]{agentId}) ;
+	//中挖
+	List<Map>middleProList = dbHelper.getMapList(" select top 4 factoryname,name,catalogname_spe,img2,id,factoryid_sub,file_name,introduce from pro_products where is_show=1 and factoryid=? and catalognum like '%101001%' and tonandmeter between 20 and 30 order by view_count,id desc",new Object[]{agentId}) ;
+	//大挖
+	List<Map>largeProList = dbHelper.getMapList(" select top 4 factoryname,name,catalogname_spe,img2,id,factoryid_sub,file_name,introduce from pro_products where is_show=1 and factoryid=? and catalognum like '%101001%' and tonandmeter > 30 order by view_count,id desc",new Object[]{agentId}) ;
+	//hot
+	List<Map>hotProList = dbHelper.getMapList(" select top 10 factoryname,name,catalogname_spe,img2,id,factoryid_sub,file_name,introduce from pro_products where is_show=1 and factoryid=? and catalognum like '%101001%' and zoomlion_hot=11 order by view_count,id desc",new Object[]{agentId}) ;
+							
+	
+%><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>卡特挖掘机_卡特挖掘机价格 - 铁臂商城卡特彼勒(Cat)专区</title>
+<meta name="Keywords" content="卡特挖掘机,卡特挖掘机型号,卡特挖掘机价格,卡特挖掘机报价" />
+<meta name="Description" content="铁臂商城卡特彼勒(Cat)专区是世界最大的挖掘机生产厂家之一卡特彼勒公司旗下的Cat电商平台,提供卡特挖掘机型号，卡特挖掘机价格方面内容，了解最新卡特挖机报价相关信息登录铁臂商城卡特彼勒专区。" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.SuperSlide.js"></script>
+<script src="scripts/tabs.js" type="text/javascript"></script>
+<!--[if (IE 6)]>
+<script src="scripts/iepng.js" type="text/javascript"></script>
+<script type="text/javascript">
+   EvPNG.fix('.png'); 
+</script>
+<![endif]-->
+</head>
+<body>
+
+<!--top--begin-->
+<jsp:include page="include/top.jsp" flush="true"></jsp:include>
+<jsp:include page="include/nav.jsp" flush="true"></jsp:include>
+<!--top--end-->
+
+<div class="wrap con">
+  <div class="con1">
+    <div class="con1_left">
+      <dl>
+        <dt><a href="list.jsp?flag=grab_1_19" target="_blank">Cat<sup>&reg;</sup>小型挖掘机&gt;</a></dt>
+        <dd class="menu">
+        	<a href="detail.jsp?id=20164" target="_blank">306E小型挖掘机</a><br />
+        	<a href="detail.jsp?id=20163" target="_blank">307E小型挖掘机</a><br />
+        	<a href="detail.jsp?id=20472" target="_blank">313D2履带式挖掘机</a>
+        </dd>
+      </dl>
+      <dl >
+        <dt><a href="list.jsp?flag=grab_20_30" target="_blank">Cat<sup>&reg;</sup>中型挖掘机&gt;</a></dt>
+        <dd class="menu">
+	        <a href="detail.jsp?id=20440" target="_blank">320D2履带式挖掘机</a><br />
+	        <a href="detail.jsp?id=400" target="_blank">320DGC/320D/320DL液<br />压挖掘机</a><br />
+	        <a href="detail.jsp?id=9550" target="_blank">323D/323DL液压挖掘机 </a>
+        </dd>
+      </dl>
+      <dl>
+        <dt><a href="list.jsp?flag=grab_30_1" target="_blank">Cat<sup>&reg;</sup>大型挖掘机&gt;</a></dt>
+        <dd class="menu">
+        	<a href="detail.jsp?id=20735" target="_blank">336D2履带式挖掘机 </a><br />
+        	<a href="detail.jsp?id=9551" target="_blank"> 340DL液压挖掘机 </a>
+        </dd>
+      </dl>
+      <a href="order.jsp" target="_blank" class="xunjia"></a>
+    </div>
+    <div class="con1_mid">
+   		 <div class="effect">
+				<div id="slideBox2" class="slideBox2">
+					<div class="hd">
+						<ul><li></li><li></li><li></li><li></li><li></li></ul>
+					</div>
+					<div class="bd">
+						<ul>
+<li><a href="http://www.catwaji.com/club/?utm_source=21sun&utm_medium=paid&utm_content=may14_33&utm_campaign=catclub_2014" target="_blank" title="卡特帮帮忙"><img src="images/cat2014052002.jpg" /></a></li>                     
+   	<li><a href="detail.jsp?id=20735" target="_blank" title="可靠，取胜之道！Cat（卡特）大型挖机336D2震撼上市！"><img src="images/banner3212322.jpg" /></a></li>
+							<li><a href="http://www.catwaji.com/tuijian/" target="_blank" title="好兄弟，一起赢，推荐CAT赢双礼！"><img src="images/banner1.jpg" /></a></li>
+							<li><a href="http://www.catwaji.com/hero2014/" target="_blank" title="卡特英雄争霸赛 “效”傲江湖 智勇对决"><img src="images/banner8.jpg" /></a></li>
+							<li><a href="http://www.catwaji.com/e10/?utm_source=21sun&utm_medium=paid&utm_content=11sep2014_01&utm_campaign=BCP2014_PC" target="_blank" title="10倍创富"><img src="images/10bei.jpg" /></a></li>
+						</ul>
+					</div>
+				</div>
+				<script type="text/javascript">jQuery(".slideBox2").slide( { mainCell:".bd ul",autoPlay:true,delayTime:1000} );</script>
+			</div>
+      </div>
+     <!-- <div class="option clearfix"> <span class="choose"><a href="#" target="_blank">新闻与活动</a></span> <span><a href="#" target="_blank">优惠政策</a></span> </div>-->
+     <div class="con1_right">
+    <div class="TabTitle clearfix">
+      <ul id="myTab">
+        <li class="active" onclick="nTabs(this,0);">新闻与活动</li>
+        <li class="normal" onclick="nTabs(this,1);">优惠政策</li>
+      </ul>
+    </div>
+	
+    <div class="TabContent">
+    <div id="myTab_Content0">
+    	<%
+		if(newsOneList != null && newsOneList.size()>0){
+	  		for(Map m:newsOneList){
+	  			String id = CommonString.getFormatPara(m.get("id"));
+	  			String intro_image = CommonString.getFormatPara(m.get("intro_image"));
+	  			String title = CommonString.getFormatPara(m.get("title"));
+      
+      %>
+    	<div class="hh clearfix">
+    		<a href="news_detail.jsp?id=<%=id %>" target="_blank" title="<%=title %>">
+        	<img src="<%=intro_image %>" style="width:107px; height:80px;" alt="<%=title %>"/>
+        	</a>
+            <p><a href="news_detail.jsp?id=<%=id %>" target="_blank" title="<%=title %>"><%=title %></a></p>
+        </div>
+       <%	
+	  		}
+  		}
+	%> 
+      <ul>
+      <%
+		if(newsList != null && newsList.size()>0){
+			int i = 1;
+	  		for(Map m:newsList){
+	  			String id = CommonString.getFormatPara(m.get("id"));
+	  			String title = CommonString.getFormatPara(m.get("title"));
+      
+      %>
+      	<li <% if(i==newsList.size()){ %>class="last"<%} %>><a href="news_detail.jsp?id=<%=id %>" target="_blank"><%=title %></a></li>
+	<%			i++;
+	  		}
+  		}
+	%>
+      </ul>
+      </div>
+      <ul id="myTab_Content1" class="none">
+     	<%
+		if(preferentialList != null && preferentialList.size()>0){
+			int j = 1;
+	  		for(Map pm:preferentialList){
+	  			String id = CommonString.getFormatPara(pm.get("id"));
+	  			String title = CommonString.getFormatPara(pm.get("title"));
+      
+      %>
+      	<li <% if(j==preferentialList.size()){ %>class="last"<%} %>><a href="news_detail.jsp?id=<%=id %>" target="_blank"><%=title %></a></li>
+	<%			j++;
+	  		}
+  		}
+	%>
+      </ul>
+    </div>
+    </div>
+  </div>
+  <div class="con2 mb15">
+    <div class="con_title Yh18"> <span>New新品推荐</span> <!-- <a href="#" target="_blank">更多&gt;&gt;</a> --> </div>
+    <ul class=" clearfix">
+      <li><a href="detail.jsp?id=20472" target="_blank" title="卡特彼勒313D2履带式挖掘机"><img src="images/img_new1.jpg" alt="卡特彼勒313D2履带式挖掘机"/></a></li>
+      <li><a href="list.jsp?flag=grab_1_19" target="_blank" title="卡特彼勒306E/307E小型液压挖掘机"><img src="images/img_new2.jpg" alt="卡特彼勒306E/307E小型液压挖掘"/></a></li>
+      <li><a href="detail.jsp?id=9551" target="_blank" title="卡特彼勒340DL液压挖掘机"><img src="images/img_new3.jpg" alt="卡特彼勒340DL液压挖掘机"/></a></li>
+      <li><a href="detail.jsp?id=400" target="_blank" title="卡特彼勒320DGC/320D/320DL液压挖掘机"><img src="images/img_new4.jpg" alt="卡特彼勒320DGC/320D/320DL液压挖掘机"/></a></li>
+    </ul>
+  </div>
+  <div class="con3 mb15">
+    <div class="con_title Yh18"> <span>Sales促销产品</span> <!--<a href="#" target="_blank">更多&gt;&gt;</a>--> </div>
+    <div class="item clearfix">
+      <div class="img">
+    <!--  <a href="#" target="_blank"><img src="images/cat1_21.jpg" /></a>-->
+      <div class="effect">
+				<div id="slideBox3" class="slideBox3">
+					<div class="hd">
+						<ul><li></li><li></li></ul>
+					</div>
+					<div class="bd">
+						<ul>
+							<li><a href="detail.jsp?id=20440" target="_blank" title="卡特彼勒320D2履带式挖掘机"><img src="images/cat1_23.jpg" alt="卡特彼勒320D2履带式挖掘机" /></a></li>
+							<li><a href="detail.jsp?id=20735" target="_blank" title="卡特彼勒336D2履带式挖掘机"><img src="images/cat1_22.jpg" alt="卡特彼勒336D2履带式挖掘机" /></a></li>
+						</ul>
+					</div>
+				</div>
+				<script type="text/javascript">jQuery(".slideBox3").slide( { mainCell:".bd ul",autoPlay:true,delayTime:1000} );</script>
+			</div>
+      </div>
+      <ul class="list">
+        <li> <a href="detail.jsp?id=20164" target="_blank" title="卡特彼勒306E小型液压挖掘机"><img src="http://product.21-sun.com/uploadfiles//image/2013/08/20130806112954_737.jpg" alt="卡特彼勒306E小型液压挖掘机" style="width:210px;height:178px;"/></a>
+          <div class="info clearfix">
+            <h3><a class="recommend" href="detail.jsp?id=20164" target="_blank" title="卡特彼勒306E小型液压挖掘机">306E小挖</a></h3>
+            <a href="order.jsp?id=20164" target="_blank" class="wyxj">我要询价</a> </div>
+        </li>
+        <li> <a class="recommend" href="detail.jsp?id=20163" target="_blank" title="卡特彼勒307E小型液压挖掘机"><img src="http://product.21-sun.com/uploadfiles//image/2013/08/20130806113612_935.jpg"  alt="卡特彼勒307E小型液压挖掘机" style="width:210px;height:178px;"/></a>
+          <div class="info clearfix">
+            <h3><a class="recommend" href="detail.jsp?id=20163" target="_blank" title="卡特彼勒307E小型液压挖掘机">307E小挖</a></h3>
+            <a href="order.jsp?id=20163" target="_blank" class="wyxj">我要询价</a> </div>
+        </li>
+        <li> <a href="detail.jsp?id=20473" target="_blank" title="卡特彼勒312D2 GC履带式挖掘机"><img src="http://product.21-sun.com/uploadfiles//image/2013/09/20130925154859_239.jpg" alt="卡特彼勒312D2 GC履带式挖掘机" style="width:210px;height:178px;"/></a>
+          <div class="info clearfix">
+            <h3><a class="recommend" href="detail.jsp?id=20473" target="_blank" title="卡特彼勒312D2 GC履带式挖掘机">312D2 GC小挖</a></h3>
+            <a href="order.jsp?id=20473" target="_blank" class="wyxj">我要询价</a> </div>
+        </li>
+        <li> <a href="detail.jsp?id=20472" target="_blank" title="卡特彼勒313D2履带式挖掘机"><img src="http://product.21-sun.com/uploadfiles//image/2013/11/20131113152737_385.jpg" alt="卡特彼勒313D2履带式挖掘机" style="width:210px;height:178px;"/></a>
+          <div class="info clearfix">
+            <h3><a class="recommend" href="detail.jsp?id=20472" target="_blank" title="卡特彼勒313D2履带式挖掘机">313D2小挖</a></h3>
+            <a href="order.jsp?id=20472" target="_blank" class="wyxj">我要询价</a> </div>
+        </li>
+        <li> <a href="detail.jsp?id=20440" target="_blank" title="卡特彼勒320D2履带式挖掘机"><img src="http://product.21-sun.com/uploadfiles//image/2013/11/20131128132206_258.jpg" alt="卡特彼勒320D2履带式挖掘机" style="width:210px;height:178px;"/></a>
+          <div class="info clearfix">
+            <h3><a class="recommend" href="detail.jsp?id=20440" target="_blank" title="卡特彼勒320D2履带式挖掘机">320D2中挖</a></h3>
+            <a href="order.jsp?id=20440" target="_blank" class="wyxj">我要询价</a> </div>
+        </li>
+        <li> <a href="detail.jsp?id=20735" target="_blank" title=""><img src="http://product.21-sun.com/uploadfiles//image/2013/12/20131216133339_849.jpg" alt="卡特彼勒336D2履带式挖掘机" style="width:210px;height:178px;"/></a>
+          <div class="info clearfix">
+            <h3><a  class="recommend" href="detail.jsp?id=20735" target="_blank" title="卡特彼勒336D2履带式挖掘机">336D2大挖</a></h3>
+            <a href="order.jsp?id=20735" target="_blank" class="wyxj">我要询价</a> </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="con4 mb30">
+    <div class="con_title Yh18 clearfix"> <span>Hot热卖产品</span> <a href="list.jsp" target="_blank">更多&gt;&gt;</a> </div>
+    <div class="leftLoop mb20">
+      <div class="bd">
+        <ul class="picList">
+        <%
+		if(hotProList != null && hotProList.size()>0){
+	  		for(Map oneMap:hotProList){
+	  			String id = CommonString.getFormatPara(oneMap.get("id"));
+    			String file_name = CommonString.getFormatPara(oneMap.get("file_name"));
+    			String img2 = CommonString.getFormatPara(oneMap.get("img2"));
+    			String factoryname = CommonString.getFormatPara(oneMap.get("factoryname"));
+    			String name = CommonString.getFormatPara(oneMap.get("name"));
+    			String catalogname = CommonString.getFormatPara(oneMap.get("catalogname"));
+    			String factoryid_sub = CommonString.getFormatPara(oneMap.get("factoryid_sub"));
+      
+      %>
+          <li>
+            <div class="pic">
+            	<a href="detail.jsp?id=<%=id %>" target="_blank" title="<%=factoryname %><%=name %><%=catalogname %>"><img src="http://product.21-sun.com/uploadfiles/<%=img2 %>" width="181" height="156" alt="<%=factoryname %><%=name %><%=catalogname %>"/></a>
+            	<div class="hot-icon"><img src="images/hot.gif" width="46" height="45"/></div>
+            </div>
+            <div class="info">
+              <h3><a class="recommend" href="detail.jsp?id=<%=id %>" target="_blank" title="<%=factoryname %><%=name %><%=catalogname %>"><%=name %></a></h3>
+              <a href="order.jsp?id=<%=id %>" target="_blank" class="wyxj">我要询价</a> </div>
+          </li>
+          <%}} %>
+        </ul>
+      </div>
+      <div class="hd"> <a class="next"></a>
+        <ul>
+        </ul>
+        <a class="prev"></a> </div>
+    </div>
+    <div><a href="detail.jsp?id=20440" target="_blank"><img src="images/img_hot2.jpg" /></a></div>
+  </div>
+  <div class="con5 mb15">
+    <div class="con_title Yh18 clearfix"> <span>Cat<sup>&reg;</sup>小型挖掘机</span> <a href="list.jsp?flag=grab_1_19" target="_blank">更多&gt;&gt;</a> </div>
+    <ul class=" clearfix">
+    	<%
+		if(litleProList != null && litleProList.size()>0){
+	  		for(Map oneMap:litleProList){
+	  			String id = CommonString.getFormatPara(oneMap.get("id"));
+    			String file_name = CommonString.getFormatPara(oneMap.get("file_name"));
+    			String img2 = CommonString.getFormatPara(oneMap.get("img2"));
+    			String factoryname = CommonString.getFormatPara(oneMap.get("factoryname"));
+    			String name = CommonString.getFormatPara(oneMap.get("name"));
+    			String catalogname = CommonString.getFormatPara(oneMap.get("catalogname"));
+    			String factoryid_sub = CommonString.getFormatPara(oneMap.get("factoryid_sub"));
+    			String introduce = CommonString.getFormatPara(oneMap.get("introduce"));
+      
+      %>
+      <li>
+        <div class="img"><a href="detail.jsp?id=<%=id %>" target="_blank" title="<%=factoryname %><%=name %><%=catalogname %>"><img src="http://product.21-sun.com/uploadfiles/<%=img2 %>" style="width:235px;height:178px;" alt="<%=factoryname %><%=name %><%=catalogname %>" /></a></div>
+        <a href="detail.jsp?id=<%=id %>#param" target="_blank" class="a1 aa">参数</a> <a href="detail.jsp?id=<%=id %>#intro" target="_blank" class="a2 aa">介绍</a> <a href="detail.jsp?id=<%=id %>#inquirys" target="_blank" class="a3 aa">询价单</a>
+        <div class="price">
+          <a href="detail.jsp?id=<%=id %>" target="_blank" title="<%=factoryname %><%=name %><%=catalogname %>"><h3><%=name %><%=catalogname %></h3>
+          </a>
+           </div>
+        <a href="order.jsp?id=<%=id %>" target="_blank" class="aaa wyxj">我要询价</a> </li>
+      <%}} %>
+    </ul>
+  </div>
+  <div class="con5 mb15">
+    <div class="con_title Yh18 clearfix"> <span>Cat<sup>&reg;</sup>中型挖掘机</span> <a href="list.jsp?flag=grab_20_30" target="_blank">更多&gt;&gt;</a> </div>
+    <ul class=" clearfix">
+      <%
+		if(middleProList != null && middleProList.size()>0){
+	  		for(Map oneMap:middleProList){
+	  			String id = CommonString.getFormatPara(oneMap.get("id"));
+    			String file_name = CommonString.getFormatPara(oneMap.get("file_name"));
+    			String img2 = CommonString.getFormatPara(oneMap.get("img2"));
+    			String factoryname = CommonString.getFormatPara(oneMap.get("factoryname"));
+    			String name = CommonString.getFormatPara(oneMap.get("name"));
+    			String catalogname = CommonString.getFormatPara(oneMap.get("catalogname"));
+    			String factoryid_sub = CommonString.getFormatPara(oneMap.get("factoryid_sub"));
+    			String introduce = CommonString.getFormatPara(oneMap.get("introduce"));
+      
+      %>
+      <li>
+        <div class="img"><a href="detail.jsp?id=<%=id %>" target="_blank" title="<%=factoryname %><%=name %><%=catalogname %>"><img src="http://product.21-sun.com/uploadfiles/<%=img2 %>" style="width:235px;height:178px;" alt="<%=factoryname %><%=name %><%=catalogname %>" /></a></div>
+        <a href="detail.jsp?id=<%=id %>#param" target="_blank" class="a1 aa">参数</a> <a href="detail.jsp?id=<%=id %>#intro" target="_blank" class="a2 aa">介绍</a> <a href="detail.jsp?id=<%=id %>#inquirys" target="_blank" class="a3 aa">询价单</a>
+        <div class="price">
+          <a href="detail.jsp?id=<%=id %>" target="_blank" title="<%=factoryname %><%=name %><%=catalogname %>"><h3><%=name %><%=catalogname %></h3>
+          </a>
+           </div>
+        <a href="order.jsp?id=<%=id %>" target="_blank" class="aaa wyxj">我要询价</a> </li>
+      <%}} %>
+    </ul>
+  </div>
+  <div class="con5 mb15">
+    <div class="con_title Yh18 clearfix"> <span>Cat<sup>&reg;</sup>大型挖掘机</span> <a href="list.jsp?flag=grab_30_1" target="_blank">更多&gt;&gt;</a> </div>
+    <ul class=" clearfix">
+      <%
+		if(largeProList != null && largeProList.size()>0){
+	  		for(Map oneMap:largeProList){
+	  			String id = CommonString.getFormatPara(oneMap.get("id"));
+    			String file_name = CommonString.getFormatPara(oneMap.get("file_name"));
+    			String img2 = CommonString.getFormatPara(oneMap.get("img2"));
+    			String factoryname = CommonString.getFormatPara(oneMap.get("factoryname"));
+    			String name = CommonString.getFormatPara(oneMap.get("name"));
+    			String catalogname = CommonString.getFormatPara(oneMap.get("catalogname"));
+    			String factoryid_sub = CommonString.getFormatPara(oneMap.get("factoryid_sub"));
+    			String introduce = CommonString.getFormatPara(oneMap.get("introduce"));
+      
+      %>
+      <li>
+        <div class="img"><a href="detail.jsp?id=<%=id %>" target="_blank" title="<%=factoryname %><%=name %><%=catalogname %>"><img src="http://product.21-sun.com/uploadfiles/<%=img2 %>" style="width:235px;height:178px;" alt="<%=factoryname %><%=name %><%=catalogname %>" /></a></div>
+        <a href="detail.jsp?id=<%=id %>#param" target="_blank" class="a1 aa">参数</a> <a href="detail.jsp?id=<%=id %>#intro" target="_blank" class="a2 aa">介绍</a> <a href="detail.jsp?id=<%=id %>#inquirys" target="_blank" class="a3 aa">询价单</a>
+        <div class="price">
+          <a href="detail.jsp?id=<%=id %>" target="_blank" title="<%=factoryname %><%=name %><%=catalogname %>"><h3><%=name %><%=catalogname %></h3>
+          </a>
+           </div>
+        <a href="order.jsp?id=<%=id %>" target="_blank" class="aaa wyxj">我要询价</a> </li>
+      <%}} %>
+    </ul>
+  </div>
+  <div class="activity mb15">
+    <div class="con_title Yh18 clearfix"> <span>Activity活动专题</span> <a href="active.jsp" target="_blank">更多&gt;&gt;</a> </div>
+    <ul class="clearfix">
+    	 <li><a href="http://product.21-sun.com/cat/detail.jsp?id=20735" target="_blank" title="可靠，取胜之道！Cat（卡特）大型挖机336D2震撼上市！"><img src="images/active/kaxiao.jpg" alt="可靠，取胜之道！Cat（卡特）大型挖机336D2震撼上市！"/></a></li>
+      <li><a rel="nofollow" href="http://www.catwaji.com/tuijian/" target="_blank" title="好兄弟，一起赢，推荐CAT赢双礼！"><img src="images/kal3.jpg" /></a></li>
+      <li><a href="list.jsp?flag=grab_1_19" target="_blank" title="卡特“创富中国梦”大赛，赢取卡特E系列小挖6个月免费使用权"><img src="images/kal2.jpg" alt="卡特“创富中国梦”大赛，赢取卡特E系列小挖6个月免费使用权"/></a></li>
+      <li><a rel="nofollow" href="http://www.wajueji.com/service/detail_for_48764.htm" target="_blank" title="卡特专家走进你身边，大家一起来寻“宝”"><img src="images/3331.jpg" alt="卡特专家走进你身边，大家一起来寻“宝”"/></a></li>
+    </ul>
+  </div>
+  
+  	<!--foot--begin-->
+	<jsp:include page="include/foot.jsp" flush="true"></jsp:include>
+	<!--foot--end-->
+
+</div>
+<script type="text/javascript" src="scripts/comm.js"></script> 
+<script type="text/javascript">
+jQuery(".leftLoop").slide({ titCell:".hd ul",mainCell:".bd ul",effect:"leftLoop",vis:5,scroll:1,autoPage:false,autoPlay:true,delayTime:1000});
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!--产品列表-->
+	<#assign agent_factory_list = query(" select id from pro_agent_factory where flag=1 and is_show = 1")>
+<#if list_nums != 0>
+	<#assign catalog_list = query(" select * from pro_catalog where is_show = 1 and id between 15000 * (${list_nums?c}-1) and 15000 * ${list_nums?c}  ")>
+</#if>
+<#if list_nums == 0>
+	<#assign catalog_list = query(" select * from pro_catalog where is_show = 1")>
+</#if>
+
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list catalog_list as catalog>
+		<url>
+			<loc>http://spec.21-sun.com/list-${catalog.num}-0-0-0-0-0.htm</loc>
+            		<lastmod>${.now}</lastmod>
+			<priority>1.0</priority>
+			<changefreq>monthly</changefreq>
+		</url>
+		<url>
+			<loc>http://spec.21-sun.com/list-${catalog.num}-0-0-0-0-view.htm</loc>
+            		<lastmod>${.now}</lastmod>
+			<priority>1.0</priority>
+			<changefreq>monthly</changefreq>
+		</url>
+	</#list>
+</urlset>

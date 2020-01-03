@@ -1,0 +1,18 @@
+﻿<link href="http://news.21-sun.com/00css/news_detail_spe.css" rel="stylesheet" type="text/css" />
+<link href="http://news.21-sun.com/00css/style_news.css" rel="stylesheet" type="text/css" />
+<#assign proList = query(" select top 4 file_name,name,factoryname,catalogname,img2,catalognum,factoryid,id from pro_products where img2!=''  and view_count>1000 and factoryid=${factoryid} order by newid() ")>
+      <div class="rp fix mb10 nwx_video">
+        <div class="title">
+          <h3>${factoryname}热门产品图片</h3>
+        </div>
+        <div class="nwx_vlist">
+          <ul class="np_fix">
+		  <#list proList as pro>  
+      <li>
+        <p class="nwx_vimg"><a title="${pro.factoryname}${pro.name}${pro.catalogname}图片" target="_blank" href="http://photo.21-sun.com/detail_for_${pro.id?c}.htm"><img  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"  src="http://product.21-sun.com//uploadfiles/${pro.img2}" alt="${pro.factoryname}${pro.name}${pro.catalogname}"/><em class="nwx_vpico"></em></a></p>
+        <p class="nwx_vname"><a title="${pro.factoryname}${pro.name}${pro.catalogname}图片" target="_blank"  href="http://photo.21-sun.com/detail_for_${pro.id?c}.htm">${pro.factoryname}${pro.name}${pro.catalogname}图片</a></p>
+      </li>
+	    </#list>
+          </ul>
+        </div>
+      </div>

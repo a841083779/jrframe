@@ -1,0 +1,426 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>【${model.factoryname?replace("卡特彼勒","卡特")}${model.product_name}${model.catalogname}怎么样?】<#if (model.content?length>20)>${model.content?substring(0,20)}<#else >${model.content}</#if>_${model.factoryname?replace("卡特彼勒","卡特")}${model.product_name}${model.catalogname}口碑_${model.factoryname?replace("卡特彼勒","卡特")}- 铁臂口碑</title>
+<meta name="keywords" content="${model.factoryname?replace('卡特彼勒','卡特')}${model.product_name}${model.catalogname},${model.factoryname?replace('卡特彼勒','卡特')}${model.product_name}${model.catalogname}怎么样,${model.factoryname?replace('卡特彼勒','卡特')}${model.product_name}${model.catalogname}好不好,${model.factoryname?replace('卡特彼勒','卡特')}${model.product_name}${model.catalogname}口碑" />
+<meta name="description" content="铁臂口碑包含了大量${model.factoryname?replace('卡特彼勒','卡特')}${model.product_name}${model.catalogname}产品口碑，帮助您通过网络了解${model.factoryname?replace('卡特彼勒','卡特')}${model.product_name}${model.catalogname}产品怎么样,好不好，买${model.factoryname?replace('卡特彼勒','卡特')}${model.product_name}${model.catalogname}产品就上铁臂商城。" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<link href="/style/new_style.css" rel="stylesheet" type="text/css" />
+<link href="http://product.21-sun.com/koubei/style/koubei.css" rel="stylesheet" type="text/css" />
+<link href="/new_resources/css/style.css" rel="stylesheet" />
+<link href="/new_resources/css/style_common.css" rel="stylesheet" />
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/scripts/jquery.raty.min.js"></script>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<script type="text/javascript" src="/scripts/validator.alert.js"></script>
+<script type="text/javascript" src="/plugin/jquery/jquery.cookies.2.2.0.min.js"></script>
+<!-- jbox -->
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css"/>
+<link href="/style/friendly_link.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script src="/scripts/iepng.js"></script>
+<script>
+   EvPNG.fix('.png')
+</script>
+<![endif]-->
+<script type="text/javascript">
+//导航选中状态
+var jrChannel='2#0'
+</script>
+</head>
+<body>
+<!--top-->
+<!--#include virtual="/include/top_koubei_new.htm"-->
+<!--面包屑-->
+<div class="contain1190 mb10" style="margin-top: 10px;">
+  <h3 class="breadCrumbs">我的位置：<a href="http://product.21-sun.com/">铁臂商城</a> >> <a href="/" title="铁臂口碑">铁臂口碑</a>&nbsp;&gt;&gt;&nbsp;最新口碑
+    
+    <div style="display:none">&nbsp;&gt;&gt;&nbsp;<a href="/comment-${model.catalognum?substring(0,3)}-0-0-0-0.htm">${three}</a></div>
+    <#if (model.catalognum?length>=6)>
+    &gt;&gt;&nbsp;<a href="/comment-${model.catalognum}-0-0-0-0.htm">${model.catalogname}</a> 
+	&gt;&gt;&nbsp;<a href="/comment-0-${model.factoryid?c}-0-0-0.htm">${model.factoryname?replace("卡特彼勒","卡特")}</a> 
+	&gt;&gt;&nbsp;<a href="/comment-${model.catalognum}-${model.factoryid?c}-0-0-0.htm">${model.factoryname?replace("卡特彼勒","卡特")}${model.catalogname}</a> 
+	&gt;&gt;&nbsp;<a href="/comment-${model.catalognum?substring(0,6)}-${model.factoryid?c}-0-0-0.htm">${model.factoryname?replace("卡特彼勒","卡特")}${six}怎么样</a> 
+	&gt;&gt;&nbsp;${model.factoryname?replace("卡特彼勒","卡特")}${model.product_name}${model.catalogname}怎么样
+    </#if>
+  </h3>
+</div>
+<!--面包屑结束-->
+<div class="contain1190 mb10 np_fix">
+  <!--left-->
+  <div class="w210 l n_pp_left np_left nkb_detleft">
+
+    <div class="mb10 nkb_zyyw border02 l w208">
+      <div class="nkb_zyyw_title">
+        <h2 class="l">${model.factoryname?replace("卡特彼勒","卡特")}主营业务</h2>
+        <span class="r"><a href="/0-${model.factoryid?c}-0.htm" target="_blank" title="更多${model.factoryname?replace('卡特彼勒','卡特')}主营业务">更多&gt;&gt;</a></span> </div>
+      <ul class="nkb_zyyw_list np_fix">
+	  <#if allCatalogList?? && (allCatalogList?size>0)>
+        <#list allCatalogList as cataList>
+		<#if (cataList?split("@_@")[0]?length>6)>
+		<li><a target="_blank"  href="/${cataList?split('@_@')[0]?substring(0,6)}-${model.factoryid?c}-0.htm" title="${model.factoryname?replace('卡特彼勒','卡特')}${cataList?split("@_@")[1]}">${cataList?split("@_@")[1]}</a></li>
+		<#else>
+		<li><a target="_blank"  href="/${cataList?split('@_@')[0]}-${model.factoryid?c}-0.htm" title="${model.factoryname?replace('卡特彼勒','卡特')}${cataList?split("@_@")[1]}">${cataList?split("@_@")[1]}</a></li>
+		</#if>
+        </#list>
+		</#if>
+      </ul>
+    </div>
+    <div class="w208 border02 l leftPart02 mb10 pp_hotph">
+      <h2>${model.catalogname}口碑排行<!--todo--> </h2>
+      <ul class="list003" id="brandSubLeftId">
+	  <#if brandRankList?? && (brandRankList?size>0)>
+        <#list brandRankList as rankList>
+		<#if rankList_index<3>
+        <li class="top3"> <em>${rankList_index+1}</em>
+          <h4><a target="_blank" href="/${model.catalognum}-${rankList?split('@_@')[0]}-0.htm" title="${rankList?split('@_@')[1]}${model.catalogname}口碑">${rankList?split('@_@')[1]}${model.catalogname}口碑</a></h4>
+        </li>
+		<#else>
+		<li> <em>${rankList_index+1}</em>
+          <h4><a target="_blank" href="/${model.catalognum}-${rankList?split('@_@')[0]}-0.htm" title="${rankList?split('@_@')[1]}${model.catalogname}口碑">${rankList?split('@_@')[1]}${model.catalogname}口碑</a></h4>
+        </li>
+        </#if>
+        </#list>
+        </#if>
+      </ul>
+    </div>
+
+  </div>
+  <!--left end-->
+  <!--right-->
+  <div class="w960 r mb10 np_right nkb_det_right">
+    <div class="l n_koubei_list ">
+      <div class="plList nkb_pro_list np_fix nkb_det_top mb10" style="width:930px">
+        <ul>
+          <li>
+            <div class="l" style="margin-top: 65px;">
+              <div class="plimg" style="width:91px;background: url(/images/plbg_new.gif) no-repeat;"> <a  title="${model.factoryname?replace('卡特彼勒','卡特')}${model.product_name}${model.catalogname}"> <img style="width:90px;"  src="http://product.21-sun.com/catalog/images/s_face.png" onerror="showImgDelay(this,'http://product.21-sun.com/catalog/images/s_face.png',2);" alt="${model.factoryname?replace('卡特彼勒','卡特')}${model.product_name}${model.catalogname}" title="${model.factoryname?replace('卡特彼勒','卡特')}${model.product_name}${model.catalogname}"> </a> </div>
+            </div>
+            <div class="content">
+              <div class="np_fix" style="margin-left: -350px;font-size: 13px;">
+                <h1><a  title="${model.factoryname?replace('卡特彼勒','卡特')}${model.product_name}${model.catalogname}怎么样?">${model.factoryname?replace('卡特彼勒','卡特')}${model.product_name}${model.catalogname}怎么样?</a><span style="display: inline-block;position: absolute;top: 12px;left: 790px;">
+                  <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+                  </span></h1>
+                <span class="time">${model.add_date}</span></div>
+              <div class="plinfo01" style="margin-left: -200px;"><span class="plname">${model.username}的评论</span></div>
+              <div class="w100 np_fix" style="margin-left: -200px;">
+                <p class="textContent">
+                  ${model.content}</p>
+                <!--<div class="r plt">网友平均评分 <font>70</font> 分</div>-->
+              </div>
+              <div class="n_kb_add_pf" style="margin-left: -200px;">
+                <p class="pftitle">网友评分</p>
+                <ul class="np_fix nkb_pflist np_fix">
+                  <li><span class="nkb_pfwz">价格：</span>
+                    <div id="pricescore_${model.id?c}" title="regular"></div>
+                    <span class="nkb_pffs">${model.score1}分</span></li>
+                  <li><span class="nkb_pfwz">性能：</span>
+                    <div id="abilityscore_${model.id?c}" title="regular"></div>
+                    <span class="nkb_pffs">${model.score2}分</span></li>
+                  <li><span class="nkb_pfwz">质量：</span>
+                    <div id="qualityscore_${model.id?c}" title="regular"></div>
+                    <span class="nkb_pffs">${model.score3}分</span></li>
+                  <li><span class="nkb_pfwz">售后：</span>
+                    <div id="servicescore_${model.id?c}"></div>
+                    <span class="nkb_pffs">${model.score4}分</span></li>
+                </ul>
+              </div>
+              <script language="javascript" type="text/javascript">
+	            var s1_${model.id?c} = (parseInt(${model.score1},10)/20);
+	  			var s2_${model.id?c} = (parseInt(${model.score2},10)/20);
+	  			var s3_${model.id?c} = (parseInt(${model.score3},10)/20);
+	  			var s4_${model.id?c} = (parseInt(${model.score4},10)/20);
+	            //获得评论分数
+	          	jQuery("#pricescore_${model.id?c}").raty({
+	          		path: "/koubei/img", //图片路径  
+	          		half : true ,
+	          		readOnly : true,
+	          		score : s1_${model.id?c}
+	          	});
+	          	jQuery("#abilityscore_${model.id?c}").raty({
+	          		path: "/koubei/img", //图片路径  
+	          		half : true ,
+	          		readOnly : true,
+	          		score : s2_${model.id?c}
+	          	});
+	          	jQuery("#qualityscore_${model.id?c}").raty({
+	          		path: "/koubei/img", //图片路径  
+	          		half : true ,
+	          		readOnly : true,
+	          		score : s3_${model.id?c}
+	          	});
+	          	jQuery("#servicescore_${model.id?c}").raty({
+	          		path: "/koubei/img", //图片路径  
+	          		half : true ,
+	          		readOnly : true,
+	          		score : s4_${model.id?c}
+	          	});
+              </script>
+              <div class="nkb_moregg"><span><a title="${model.factoryname}" href="/0-${model.factoryid?c}-0.htm" target="_blank">${model.factoryname}</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a title="${model.factoryname?replace('卡特彼勒','卡特')}${model.catalogname}" href="/<#if (model.catalognum?length>6)>${model.catalognum?substring(0,6)}<#else>${model.catalognum}</#if>-${model.factoryid?c}-0.htm" target="_blank">${model.factoryname?replace('卡特彼勒','卡特')}${model.catalogname}</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/comment-<#if (model.catalognum?length>6)>${model.catalognum?substring(0,6)}<#else>${model.catalognum}</#if>-${model.factoryid?c}-0-0-0.htm" target="_blank" title="更多${model.factoryname?replace('卡特彼勒','卡特')}${model.catalogname}口碑">更多${model.factoryname?replace('卡特彼勒','卡特')}${model.catalogname}口碑</a></div>
+            </div>
+            <div class="k_zxzdj"><a href="javascript:;" onclick="showinquery('${model.product_id?c}','')"><img src="/koubei/images/temp/1_03.png" alt="免费询价" width="120" height="27"></a></br>
+              </br>
+              <a href="http://koubei.21-sun.com/list/${model.product_id?c}.htm#sentComment" target="_blank"><img src="/koubei/images/temp/1_05.png" alt="发表评论" width="120" height="27"></a></div>
+          </li>
+        </ul>
+      </div>
+      <div class="plList nkb_pro_list np_fix nkb_det_top mb10" style="width:930px" >
+        <div class="np_fix nkb_other_t">
+          <div class="l other_title">其他用户口碑</div>
+          <div class="r other_more"><a href="/comment-<#if (model.catalognum?length>6)>${model.catalognum?substring(0,6)}<#else>${model.catalognum}</#if>-${model.factoryid?c}-0-0-0.htm" target="_blank" title="${model.factoryname?replace('卡特彼勒','卡特')}${model.product_name}${model.catalogname}">更多&gt;&gt;</a></div>
+        </div>
+        <ul>
+		<#if otherList?? && (otherList?size>0)>
+         <#list otherList as otherList> 
+          <li>
+            <div class="content" style="float:left;width:100%">
+              <div class="np_fix"> <img style="width:41px;height:41px;"  src="http://product.21-sun.com/catalog/images/s_face.png" onerror="showImgDelay(this,'http://product.21-sun.com/catalog/images/s_face.png',2);" alt="${otherList.factoryname?replace('卡特彼勒','卡特')}${otherList.product_name}${otherList.catalogname}" title="${otherList.factoryname?replace('卡特彼勒','卡特')}${otherList.product_name}${otherList.catalogname}"> <span class="plname" style="font-weight:bold;">游客对${otherList.factoryname?replace('卡特彼勒','卡特')}${otherList.product_name}${otherList.catalogname}的评论</span> <span class="time">${otherList.add_date} </span> </div>
+              <div class="w100 np_fix">
+                <p class="textContent" style="width:660px">
+				<#if (otherList.content?length>30)>${otherList.content?substring(0,30)}<#else>${otherList.content}</#if>
+                  <a href="http://koubei.21-sun.com/detail/${otherList.id?c}.htm" target="_blank" title="查看全文">查看全文>></a></p>
+                <!--<div class="r plt">网友平均评分 <font>${otherList.score1?c+otherList.score2?c+otherList.score3?c+otherList.score4?c}/4</font> 分</div>-->
+              </div>
+              <div class="n_kb_add_pf">
+                <p class="pftitle">网友评分</p>
+                <ul class="np_fix nkb_pflist np_fix">
+                  <li><span class="nkb_pfwz">价格：</span>
+                    <div id="pricescore_${otherList.id?c}" title="regular"></div>
+                    <span class="nkb_pffs">${otherList.score1}分</span></li>
+                  <li><span class="nkb_pfwz">性能：</span>
+                    <div id="abilityscore_${otherList.id?c}" title="regular"></div>
+                    <span class="nkb_pffs">${otherList.score2}分</span></li>
+                  <li><span class="nkb_pfwz">质量：</span>
+                    <div id="qualityscore_${otherList.id?c}" title="regular"></div>
+                    <span class="nkb_pffs">${otherList.score3}分</span></li>
+                  <li><span class="nkb_pfwz">售后：</span>
+                    <div id="servicescore_${otherList.id?c}"></div>
+                    <span class="nkb_pffs">${otherList.score4}分</span></li>
+                </ul>
+              </div>
+              <script language="javascript" type="text/javascript">
+	            var s1_${otherList.id?c} = (parseInt(${otherList.score1},10)/20);
+	  			var s2_${otherList.id?c} = (parseInt(${otherList.score2},10)/20);
+	  			var s3_${otherList.id?c} = (parseInt(${otherList.score3},10)/20);
+	  			var s4_${otherList.id?c} = (parseInt(${otherList.score4},10)/20);
+
+	            //获得评论分数
+	          	jQuery("#pricescore_${otherList.id?c}").raty({
+	          		path: "/koubei/img", //图片路径  
+	          		half : true ,
+	          		readOnly : true,
+	          		score : s1_${otherList.id?c}
+	          	});
+	          	jQuery("#abilityscore_${otherList.id?c}").raty({
+	          		path: "/koubei/img", //图片路径  
+	          		half : true ,
+	          		readOnly : true,
+	          		score : s2_${otherList.id?c}
+	          	});
+	          	jQuery("#qualityscore_${otherList.id?c}").raty({
+	          		path: "/koubei/img", //图片路径  
+	          		half : true ,
+	          		readOnly : true,
+	          		score : s3_${otherList.id?c}
+	          	});
+	          	jQuery("#servicescore_${otherList.id?c}").raty({
+	          		path: "/koubei/img", //图片路径  
+	          		half : true ,
+	          		readOnly : true,
+	          		score : s4_${otherList.id?c}
+	          	});
+              </script>
+			  
+			  
+             
+            </div>
+          </li>
+        </#list>
+		<#else>
+		  <li>
+            <div>暂无相关评论！</div>
+          </li>
+        </#if>  
+        </ul>
+      </div>
+    </div>
+    <div class="wfull l mb10" id="myTab2_ContentA4" style="display:none">
+      <div class="sentComment">
+        <div class="pdTab">
+          <ul>
+            <li class="select">我要评论</li>
+          </ul>
+        </div>
+        <div class="scc">
+          <form name="comment_form" id="comment_form" method="post" action="/action/ajax.jsp">
+            <div class="w300 l npkb_left">
+              <div><b>您的称呼：</b>
+                <input id="name" datatype="Require" msg="请输入您的称呼！" name="name" value="" class="npkb_nameinp" type="text" maxlength="11">
+                <input type="checkbox" name="is_noname" id="checkbox" class="check" value="1" onclick="if(this.checked){(jQuery('#name').val(remote_ip_info['province']+remote_ip_info['city']+'的网友'))}else{jQuery('#name').val('')}">
+                匿名评价</div>
+              <div><b>优点：</b>
+                <input id="good" datatype="Require" msg="请输入优点！" name="good" value="" type="text" maxlength="11" class="npkb_inp">
+              </div>
+              <div><b>缺点：</b>
+                <input id="bad" datatype="Require" msg="请输入缺点！" name="bad" value="" type="text" maxlength="11" class="npkb_inp">
+              </div>
+              <div class="npkb_areaval"><b>建议：</b>
+                <textarea class="npkb_area" id="content" name="content" dataType="Require" msg="请输入评价内容！ cols="45" rows="5"></textarea>
+              </div>
+              <div>
+                <input type="checkbox" name="is_buy" id="is_buy" class="check" value="1">
+                <b>我已购买该产品</b></div>
+            </div>
+            <div class="w370 r npkb_right">
+              <div><b>产品评分：</b>在星星上滑动鼠标点击即可评分</div>
+              <ul>
+                <li><span>价格：</span>
+                  <div id="price_1" style="float:left; margin-left:3px;"></div>
+                </li>
+                <li><span>质量：</span>
+                  <div id="zhiliang_1" style="float:left;margin-left:3px;"></div>
+                </li>
+                <li><span>性能：</span>
+                  <div id="xingneng_1" style="float:left;margin-left:3px;"></div>
+                </li>
+                <li><span>售后：</span>
+                  <div id="shouhou_1" style="float:left;margin-left:3px;"></div>
+                </li>
+              </ul>
+              <div class="sent">
+                <input id="button" name="button" value="&nbsp;" type="button" onclick="doComments();">
+                <input type="hidden" name="flag" value="save_comment_new">
+                <input type="hidden" name="product_id" value="${model.product_id?c}">
+                <input type="hidden" name="score1" id="score1">
+                <input type="hidden" name="score2" id="score2">
+                <input type="hidden" name="score3" id="score3">
+                <input type="hidden" name="score4" id="score4">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--right end-->
+</div>
+<!--end of foot-->
+<!--#include virtual="/include/foot_koubei_new.htm"-->
+<script type="text/javascript" src="/scripts/sort.js"></script>
+<script type="text/javascript" src="/scripts/jquery.form.js"></script>
+<script type="text/javascript" src="/scripts/validator.alert.js"></script>
+<script src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js" type="text/javascript"></script>
+<script type="text/javascript">
+//评论提交	
+jQuery("#price_1,#xingneng_1,#zhiliang_1,#shouhou_1").raty({
+	path: "/koubei/img", //图片路径  
+	half : true ,
+	score : 4
+});
+//获得评论分数
+jQuery("#pricescore").raty({
+	path: "/koubei/img", //图片路径  
+	half : true ,
+	readOnly : true,
+	score : 0
+});
+jQuery("#abilityscore").raty({
+	path: "/koubei/img", //图片路径  
+	half : true ,
+	readOnly : true,
+	score : 0
+});
+jQuery("#qualityscore").raty({
+	path: "/koubei/img", //图片路径  
+	half : true ,
+	readOnly : true,
+	score : 0
+});
+jQuery("#servicescore").raty({
+	path: "/koubei/img", //图片路径  
+	half : true ,
+	readOnly : true,
+	score : 0
+});
+function doComments(){
+	var rs = Validator.Validate(document.getElementById("comment_form"),1);
+	if(rs){
+	   var  content = jQuery.trim(jQuery("#content").val()) ;
+	   if(content!=content.replace(/<\/?[^>]*>/g,'').replace('&lt','').replace('&gt','') || (content.indexOf("www.")!=-1 || content.indexOf("http:")!=-1)){
+	       alert('您的评论内容不符合规则，请重新输入!') ;	
+	       jQuery("#content").val("") ;
+	       jQuery("#content").focus() ;
+	        return false ;
+	   }
+		jQuery("#score1").val(parseFloat(jQuery("#price_1").raty("score"),10)*20);
+		jQuery("#score2").val(parseFloat(jQuery("#xingneng_1").raty("score"),10)*20);
+		jQuery("#score3").val(parseFloat(jQuery("#zhiliang_1").raty("score"),10)*20);
+		jQuery("#score4").val(parseFloat(jQuery("#shouhou_1").raty("score"),10)*20);
+		jQuery("#comment_form").ajaxSubmit({
+			type : "POST",
+			async : false ,
+			success : function(data){
+		     if(jQuery.trim(data)=='no'){
+			   alert("您输入的评价中含有敏感词，请重新输入") ;
+			    jQuery("#content").val("") ;
+	            jQuery("#content").focus() ; 
+			   return ;
+			}
+				alert("评论提交成功！");
+				//getComment();
+				jQuery("#comment_form").clearForm();
+				jQuery("#price_1,#xingneng_1,#zhiliang_1,#shouhou_1").raty({
+					path: "/koubei/img", //图片路径  
+					half : true ,
+					score : 4
+				});
+			}					  
+		});
+	}
+}
+
+function vote(id){
+		var help = parseInt($("#vote_"+id).html());
+		if(setlooked(id)==1){
+			$.ajax({
+			  url: "/action/ajax.jsp?flag=koubeiHelp&id="+id,
+			  cache: false,
+			  async: true,
+			  success: function(html){
+			  }
+			});
+			$("#vote_"+id).html(help+1);
+			$.jBox.tip('感谢您的支持！');
+		}else{
+			$.jBox.tip('您已经投过票了哟！');
+		}
+	}
+	function setlooked(id){
+		var x = 0;
+		var imgs = jQuery.cookies.get("help_imgs");
+		if(imgs==null || imgs == "" || imgs.indexOf("help"+id) < 0){
+			var newImgs = imgs+",help"+id;
+			jQuery.cookies.set("help_imgs",newImgs,{hoursToLive : 10});
+			x = 1;
+		}
+		return x;
+	}
+</script>
+<!--end of foot-->
+<div style="display:none">
+  <script src="http://s6.cnzz.com/stat.php?id=5755842&web_id=5755842" language="JavaScript"></script>
+</div>
+<script type="text/javascript" src="http://product.21-sun.com/koubei/scripts/common.js"></script>
+</body>
+</html>

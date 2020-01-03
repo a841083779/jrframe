@@ -1,0 +1,23 @@
+ <#assign viedos = query(" SELECT TOP 5 * FROM article WHERE sort_num LIKE '%,873,%' ORDER BY newid() DESC ")> 
+ <div class="newspart video blue mb10">
+    <div class="title bigTitle">
+      <h3>产品看看</h3>
+      <ul class="t-con">
+        <li>热门：<a href="http://video.21-sun.com/search.jsp?searchKey=%E6%8C%96%E6%8E%98%E6%9C%BA" target="_blank">挖掘机</a> <a href="http://video.21-sun.com/search.jsp?searchKey=%E8%A3%85%E8%BD%BD%E6%9C%BA" target="_blank">装载机</a> <a href="http://video.21-sun.com/search.jsp?searchKey=%E6%8E%A8%E5%9C%9F%E6%9C%BA" target="_blank">推土机</a> </li>
+      </ul>
+      <span class="more"><a href="http://video.21-sun.com/" target="_blank">更多&gt;&gt;</a></span>
+    </div>
+    <div class="content bigContent">
+      <ul class="list">
+      	<#if viedos??&&((viedos?size)>0)>
+			<#list viedos as v>
+			<li>
+	          <a href="${v.link_other!''}" target="_blank"><img src="http://news.21-sun.com/UserFiles/Image/${v.image!''}" width="160" height="90" /><em class="playico"></em>
+	          </a>
+			  <h3 style="width:160px;overflow:hidden;"><a href="${v.link_other!''}" target="_blank">${v.title!''}</a></h3>
+	        </li>
+			</#list>
+		</#if>
+      </ul>
+    </div>
+  </div>

@@ -1,0 +1,22 @@
+<#assign loader_order = query(" SELECT top 2 a.factoryname,a.name,a.catalogname,a.file_name,a.id,a.img2,b.add_date,b.content,b.id as commentid from (select  factoryname,name,catalogname,file_name,id,img2 from pro_products where is_show=1 AND catalognum LIKE '%101001%' )as a INNER  JOIN ( SELECT product_id,add_date,content,id  FROM pro_comments  where is_show=1  ) as b ON a.id=b.product_id  ORDER BY  b.add_date desc")> <#-- 装载机排行 -->
+<#if loader_order??&&(loader_order?size>0)>
+     <#list loader_order as oneGrab>
+        <li><a target="_blank" href="/detail/${oneGrab.commentid?c}.htm" title="${oneGrab.factoryname}${oneGrab.name}${oneGrab.catalogname}">
+        <img alt="${oneGrab.factoryname}${oneGrab.name}${oneGrab.catalogname}" src="http://product.21-sun.com/uploadfiles/${oneGrab.img2}" />
+        <div class="intro">
+          <strong class="n">${oneGrab.factoryname}${oneGrab.name}${oneGrab.catalogname}</strong>
+       		  <#if (oneGrab.content??&&(oneGrab.content?length gt 16))>
+                <span class="num" >${oneGrab.content?substring(0,16)}...</span>
+		  <#else>
+		         <span class="num" >${oneGrab.content}</span>
+		  </#if>
+          <span class="time">${oneGrab.add_date?string("yyyy-MM-dd")}</span>
+        </div>
+        </a></li> 
+      </#list>
+</#if>
+
+ 
+	
+	
+   

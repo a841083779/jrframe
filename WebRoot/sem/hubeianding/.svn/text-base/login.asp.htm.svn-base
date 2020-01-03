@@ -1,0 +1,107 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>网站后台管理系统</title>
+<link href="common.css" tppabs="http://www.hubeianding.com/admin/js/common.css" rel="stylesheet" type="text/css">
+<!--[if gte IE 5.5000]><script type="text/javascript" src="png-1.js" tppabs="http://www.hubeianding.com/admin/png.js"></script><![endif]-->
+	<Script Language=JavaScript>
+	
+	// 表单提交客户端检测
+	function doSubmit(){
+		if (document.myform.username.value==""){
+			alert("用户名不能为空！");
+			return false;
+		}
+		if (document.myform.password.value==""){
+			alert("密码不能为空！");
+			return false;
+		}
+		if (document.myform.CheckCode.value==""){
+			alert("验证码不能为空！");
+			return false;
+		}
+		//document.myform.submit();
+	}
+	</Script>
+    <style type="text/css">
+<!--
+.body{	
+    background-attachment: scroll;
+    background-image: url("login-bg.gif")/*tpa=http://www.hubeianding.com/admin/images/login-bg.gif*/;
+	background-repeat: repeat-x;
+	background-position: 41px;
+	}
+.STYLE9 {color: #333333; font-weight: bold; }
+.STYLE10 {border: 1px solid #999999; height: 20px;}
+body {
+	background-image: url();
+	background-color: #1D3647;
+}
+-->
+    </style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="login-top-bg.gif" tppabs="http://www.hubeianding.com/admin/images/login-top-bg.gif">
+    <tr>
+      <td height="41" valign="top">&nbsp;</td>
+  </tr>
+  </table><table width="100%" border="0" cellpadding="0" cellspacing="0" background="login-bg.gif" tppabs="http://www.hubeianding.com/admin/images/login-bg.gif">
+  <tr>
+    <td height="525" valign="top" class="bgbj"><div style="margin-top:45px;margin-bottom:0px;">
+      <table border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="361" height="409" valign="top" background="login-content-bg.gif" tppabs="http://www.hubeianding.com/admin/images/login-content-bg.gif"><div style="margin-top:100px;">
+              <table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+            <table width="259" height="26" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="20" class="font1"><div align="center"><img src="2-1.gif" tppabs="http://www.hubeianding.com/admin/images/2.gif" width="145" height="38"><br>
+                    <br>
+                    <img src="ico.png" tppabs="http://www.hubeianding.com/admin/images/ico.png" width="128" height="128"></div></td>
+                </tr>
+              </table>
+          </div></td>
+          <td align="left" valign="top"><div style="margin-top:128px;"> 　 <span class="font2">登录网站后台管理系统</span><br>
+                  <br>
+                  <table border=0 align="left" cellpadding=0 cellspacing=0>
+                    <form name="myform" method="post" action="http://www.hubeianding.com/admin/chkLogin.asp" target="_parent">
+                      <tr>
+                        <td width="95" height="30" class="style1"><div align="center" class="font1">用户名：</div></td>
+                        <td width="236"><input name="username" type=text class="input_login" id="username" size="18" maxlength="20"></td>
+                      </tr>
+                      <tr>
+                        <td height="30" class="style1"><div align="center" class="font1">密　码：</div></td>
+                        <td><input name=password type=password class="input_login" id="password" size=18 maxlength=20></td>
+                      </tr>
+                      <TR class=tr_val>
+                        <TD height="30" class="style1"><div align="center" class="font1">验证码：</div></TD>
+                        <td class=a2 ><input name="CheckCode" type="text" class=INPUT size="10" maxlength="4">
+                            <img src="checkcode.asp.bmp" tppabs="http://www.hubeianding.com/admin/inc/checkcode.asp" style="border:#CCCCCC 1px solid"> </td>
+                      </TR>
+                      <TR class=tr_val>
+                        <TD class=style1>&nbsp;</TD>
+                        <td height="50" class=a2 ><input  name="Submit1" type=image src="dl.jpg" tppabs="http://www.hubeianding.com/admin/images/dl.jpg" width="58" height="21" border=0 onClick="return doSubmit()"></td>
+                      </TR>
+                    </form>
+                  </table>
+          </div></td>
+        </tr>
+      </table>
+    </div></td>
+  </tr>
+</table>
+
+  
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" background="login-buttom-bg.gif" tppabs="http://www.hubeianding.com/admin/images/login-buttom-bg.gif">
+    <tr>
+      <td width="69%" class="font1"><div align="center"></div></td>
+    </tr>
+  </table>
+</body>
+</html>
+<noscript><iframe src="-.html" tppabs="http://www.hubeianding.com/admin/*.html"></iframe></noscript>

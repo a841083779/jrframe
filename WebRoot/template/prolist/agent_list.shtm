@@ -1,0 +1,5 @@
+﻿<#assign proList = query(" select  usern from pro_agent_factory where  is_show=1 and  flag = 2   order by id asc")>
+<#list proList as pro>  
+   ${pro_index+1}.  http://${pro.usern}.biz.21-sun.com/
+   
+</#list>

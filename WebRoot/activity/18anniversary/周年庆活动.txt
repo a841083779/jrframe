@@ -1,0 +1,11 @@
+周年庆活动页面统计
+
+index.html 			首页
+21sun_say.html 		品牌说
+to_users.html 		致用户的一封信
+ranking_list.html	势力榜
+comments.html 		评论页面
+adv_sell.html 		广告/会员活动
+to_pay.html 		广告/会员活动 -> 去支付
+
+其他：所有页面的通用提示框代码放在 21sun_say.html 及 21sun_say.js 下，全页面可用。

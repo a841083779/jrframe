@@ -1,0 +1,1148 @@
+<#assign factory = query(" select is_made,pro_brand_title, is_qijiandian,usern,is_shop,id,name,is_shop,logo,full_name,introduce,mobile,zturl,img1,telphone from pro_agent_factory where usern = '${usern}' and is_show=1 and flag=1 ")>
+<#assign pro_list = query(" select top 6 file_name,name,factoryname,catalogname,img2,view_count from pro_products where is_show=1 and factoryid=${factory[0].id?c} order by view_count desc")>
+<#assign brandCatalog = query(" SELECT  SUBSTRING(catalognum, 0, 7) as catanum  FROM  pro_products where len(catalognum)>= 6 and  factoryid=${factory[0].id?c} and is_show=1 GROUP BY SUBSTRING(catalognum, 0, 7)   ")>
+<#assign order_list = query(" select top 5 id,factoryname,product_name,cataname,mobile_phone,province,city,add_date,name from pro_product_form where is_deleted=0 and product_name is not null and product_name != '' and factoryid=${factory[0].id?c} order by id desc ")>
+<#assign rec_pro_list = query(" select top 3 file_name,name,factoryname,catalogname,img2 from pro_products where is_show=1 and factoryid=${factory[0].id?c} order by newid() ")>
+<#assign agent_list = query("select top 6 id,full_name,agent_fac_name,city,usern,telphone,is_qijiandian,is_made,address from pro_agent_factory where levelflag!=1 and  flag = 2 and is_show = 1 and (agent_fac LIKE '%${factory[0].id?c},%' OR agent_fac LIKE '%,${factory[0].id?c}%' or agent_fac = '${factory[0].id?c}') order by is_top desc, is_made desc,is_shop desc,flag ASC , name DESC , id DESC ")>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="renderer" content="webkit">
+<title><#if factory[0].pro_brand_title??>${factory[0].pro_brand_title}<#else>${factory[0].name}_${factory[0].name}品牌专区</#if> - 铁臂商城</title>
+<meta name="keywords" content="${factory[0].name},${factory[0].name}品牌专区" />
+<meta name="description" content="铁臂商城为您提供${factory[0].name}产品，${factory[0].name}报价，${factory[0].name}图片等全面的${factory[0].name}信息，帮助您全面了解${factory[0].name}。" />
+<meta name="author" content="design by www.21-sun.com">
+<meta name="mobile-agent" content="format=html5;url=http://m.product.21-sun.com/">
+<link href="/new_resources/css/style.css" rel="stylesheet" />
+<link href="/new_resources/css/style_common.css" rel="stylesheet" />
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/new_resources/js/superslide.js"></script>
+<link href="/Static/css/ui.css" rel="stylesheet" />
+<link href="/Static/css/common.css" rel="stylesheet" />
+<link href="/Static/css/style.css" rel="stylesheet" />
+<link href="/style/brand.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/style/product_2018.css" />
+<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?998e4dbd9441f628020df509fd0e9f3c";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+</head>
+<body>
+<!--#include virtual="/include/brand_top.htm"-->
+<!--面包屑-->
+<div class="txd_posi">
+  <div class="wrap fix">我的位置：<a href="/">铁臂商城</a> &gt;&gt; <a href="/brand/">品牌大全</a> &gt;&gt; ${factory[0].name}</div>
+</div>
+<!--面包屑 end-->
+<!--main-->
+<div class="txd_nmain">
+  <div class="wrap fix">
+    <div class="txd_nleft" style="top:0px">
+      <!--热门 start-->
+      <div class="txd_plant txd_plant_npd fix">
+        <h2 class="tpl_title">${factory[0].name}热门产品排行榜</h2>
+      </div>
+      <div class="txd_hot_proph">
+        <ul class="fix">
+          <#if pro_list??&&(pro_list?size>0)>   
+          <#list pro_list as pro>
+          <li> <a href="/proDetail/${pro.file_name}" title="${pro.factoryname}${pro.name}${pro.catalogname}" target="_blank"> <#if pro.img2?contains("uploadfiles")>
+            <div class="re_himg l"> <img src="/${pro.img2}" alt="${pro.factoryname}${pro.name}${pro.catalogname}" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"> </div>
+            <#else>
+            <div class="re_himg l"> <img src="/uploadfiles/${pro.img2}" alt="${pro.factoryname}${pro.name}${pro.catalogname}" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"> </div>
+            </#if>
+            <div class="re_hot l">
+              <h3 class="thp_title">${pro.factoryname}${pro.name}${pro.catalogname}</h3>
+              <div class="re_hindex fix">
+                <p class="l">销量：${(pro.view_count*3)?c}</p>
+                <p class="l">评分：80</p>
+              </div>
+            </div>
+            </a> </li>
+          </#list>
+          </#if>
+        </ul>
+      </div>
+      <!--热门 end-->
+      <!--新闻 start-->
+      <div class="txd_plant txd_plant_npd fix">
+        <h2 class="tpl_title">${factory[0].name}新闻中心</h2>
+      </div>
+      <div class="txd_hot_proph">
+        <ul class="fix">
+          <#if newsList??&&(newsList?size>0)>  
+          <#list newsList as news>
+          <li class="fix re_new pr"> <a title="${news.title}" target="_blank" href="http://news.21-sun.com/detail/${news.html_filename?substring(0,4)}/${news.html_filename?substring(4,6)}/${news.html_filename}">
+            <p class="l" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;width:240px
+            ">${news.title}</p>
+            <!--
+            <p class="pa">浏览量: ${news.view_count?c}</p>
+          -->
+            </a> </li>
+          </#list>
+          </#if>
+        </ul>
+      </div>
+      <!--新闻 end-->
+    </div>
+    <div class="txd_nright">
+      <!--logo start-->
+      <div class="txd_brand_logo fix">
+        <div class="tbd_logoimg"> <img onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" src="/uploadfiles/${factory[0].logo}" alt="${factory[0].full_name}" title="${factory[0].full_name}" > </div>
+        <h1 class="tbd_comname"><a href="http://product.21-sun.com/products/prolist.jsp?factory=${factory[0].id?c}" target="_blank">${factory[0].full_name}</a></h1>
+      </div>
+      <!--logo end-->
+      <!--简介 start-->
+      <div class="txd_brand_info fix">
+        <div class="tbinfo_img"> <img onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" src="/uploadfiles/${factory[0].img1}" alt="${factory[0].full_name}" title="${factory[0].full_name}"> </div>
+        <div class="tbinfo_nr">
+          <div class="tbinfo_sum">
+            <h3 class="re_tbtitle">公司简介：</h3>
+            <div class="re_tbinfo">
+              <p>
+			  <#if CommonHtml.filterHTML(CommonString.getFormatPara(factory[0].introduce))?length gt 110>  
+			  ${CommonHtml.filterHTML(CommonString.getFormatPara(factory[0].introduce))?substring(0,100)}...
+			  <#else>
+			  ${CommonHtml.filterHTML(CommonString.getFormatPara(factory[0].introduce))}
+			  </#if>
+			  </p>
+            </div>
+          </div>
+          <div class="tbinfo_btn"> <a href="javascript:void(0)" class="tbinfo_btn_01" onClick="showinquery('','${factory[0].id?c}')" title="咨询最低价">咨询最低价</a> </div>
+        </div>
+      </div>
+      <!--简介 end-->
+      <!--主营业务 start-->
+      <div class="txd_plant fix">
+        <h2 class="tpl_title">主营业务</h2>
+      </div>
+      <div class="re_business fix"> <#if brandCatalog??&&(brandCatalog?size>0)>   
+        <#list brandCatalog as catalog>
+        <#assign oneCatalog = query(" select name,num from pro_catalog where num='${catalog.catanum}' ")>
+        <#if oneCatalog??&&(oneCatalog?size>0)>   
+        <#list oneCatalog as one> <a target="_blank" title="${factory[0].name}${one.name}" href="/products/prolist.jsp?factory=${factory[0].id?c}&catalog=${catalog.catanum}">>${one.name}</a> </#list>
+        </#if>
+        </#list>
+        </#if> </div>
+      <!--主营业务 end-->
+      <!--产品 start-->
+      <div class="txd_plant fix">
+        <h2 class="tpl_title">${factory[0].name}产品</h2>
+      </div>
+      <div class="brandkind0510"> <#if brandCatalog??&&(brandCatalog?size>0)>   
+        <#list brandCatalog as catalog>
+        <div class="brand_item"> <#assign oneCatalog = query(" select name from pro_catalog where num='${catalog.catanum}' ")>
+          <#if oneCatalog??&&(oneCatalog?size>0)>   
+          <#list oneCatalog as one>
+          <div class="bi_title">
+            <h3>${factory[0].name}${one.name}</h3>
+            <a title="${factory[0].name}${one.name}" href="/products/prolist.jsp?factory=${factory[0].id?c}&catalog=${catalog.catanum}" target="_blank">更多&gt;&gt;</a> </div>
+          </#list>
+          </#if>
+          <div class="bi_main fix"> <#assign otherProList = query(" SELECT  top 3 id,name,catalogname,factoryname,img2,introduce,file_name,catalognum,factoryid FROM  pro_products where   factoryid=${factory[0].id?c} and is_show=1   and catalognum like '${catalog.catanum}%' order by view_count desc ")>
+            <#if otherProList??&&(otherProList?size>0)>   
+            <#list otherProList as pro>
+            <div class="re_biitem l fix"> <#if pro.img2?contains("uploadfiles")>
+              <div class="re_itemimg l"><a href="/proDetail/${pro.file_name}"  alt="${pro.factoryname}${pro.name}${pro.catalogname}" title="${pro.factoryname}${pro.name}${pro.catalogname}" target="_blank"><img src="/${pro.img2}"/> </a></div>
+              <#else>
+              <div class="re_itemimg l"><a href="/proDetail/${pro.file_name}"  alt="${pro.factoryname}${pro.name}${pro.catalogname}" title="${pro.factoryname}${pro.name}${pro.catalogname}" target="_blank"><img src="/uploadfiles/${pro.img2}"/> </a> </div>
+              </#if>
+              <div class="re_item l">
+                <div class="re_ititle"><a href="/proDetail/${pro.file_name}" title="${pro.factoryname}${pro.name}${pro.catalogname}" target="_blank">${pro.factoryname}${pro.name}${pro.catalogname}</a></div>
+                <div class="re_ilist"> <a target="_blank" title="${pro.factoryname}${pro.name}${pro.catalogname}参数" href="/proDetail/${pro.file_name}#cans">参数</a> <a target="_blank" title="${pro.factoryname}${pro.name}${pro.catalogname}口碑" href="/proDetail/${pro.file_name?replace('.shtm','')}_message.shtm#koubei">口碑</a> <a target="_blank" title="${pro.factoryname}${pro.name}${pro.catalogname}价格" href="/proDetail/${pro.file_name}#xunjia">价格</a> <a  target="_blank" title="${pro.factoryname}${pro.name}${pro.catalogname}图片" href="/proDetail/${pro.file_name?replace('.shtm','')}_pic.shtm#xingn">图片</a> </div>
+                <a href="javascript:void(0)"  onClick="showinquery('${pro.id?c}','')" class="re_iask">立即询价</a> </div>
+            </div>
+            </#list>
+            </#if> </div>
+        </div>
+        </#list>
+        </#if> </div>
+      <!--产品 end-->
+      <!--代理商 start-->
+      <div class="txd_plant fix">
+        <h2 class="tpl_title" id="dealerName">代理商</h2>
+        <!--<a target="_blank" href="http://product.21-sun.com/agent/0_0_136_0.shtm" class="tpl_more">查看更多</a>-->
+      </div>
+      <div class="txd_daili_m">
+        <div class="txd_daili_list">
+          <ul class="fix" id="brandDealerList">
+            <li class="first">
+              <div class="txd_dl_t txd_dl_t1">代理商</div>
+              <div class="txd_dl_t txd_dl_t2">代理区域</div>
+              <div class="txd_dl_t txd_dl_t3">主营品牌</div>
+              <div class="txd_dl_t txd_dl_t4">在线询价</div>
+              <div class="txd_dl_t txd_dl_t5">联系电话</div>
+            </li>
+            <#if agent_list??&&(agent_list?size>0)>
+            <#list agent_list as agent>
+            <li>
+              <div class="txd_dl_t txd_dl_t1"> <a target="_blank" href="/agent/${agent.usern}/" title="${agent.full_name}">${agent.full_name}</a> </div>
+              <div class="txd_dl_t txd_dl_t2">${agent.city}</div>
+              <div class="txd_dl_t txd_dl_t3">${agent.agent_fac_name}</div>
+              <div class="txd_dl_t txd_dl_t4"> <a href="javascript:void(0);" onClick="showinquery('','${factory[0].id?c}')" class="txd_dl_price">在线询价</a> </div>
+              <div class="txd_dl_t txd_dl_t5"> <a id="seePhone_12626"  onClick="showinquery('','${factory[0].id?c}')" href="javascript:void(0);"  class="txd_dl_tel">点击查看联系电话</a> </div>
+            </li>
+            </#list>
+            </#if>
+          </ul>
+        </div>
+      </div>
+      <!--代理商 end-->
+      <!--询价 start-->
+      <div class="txd_plant fix"> <span id="xunjia" class="maod"></span>
+        <h2 class="tpl_title">产品询价</h2>
+      </div>
+      <div class="txd_xunjia mt15" id="prodetailOrder">
+        <div class="txj_lant">非常欢迎您选择${factory[0].name}产品，我们诚恳的希望您详细填写如下信息，以便我们的服务专员与您联系。</div>
+        <div class="txj_main fix">
+          <div class="_form">
+            <form action="/action/detail_order_save.jsp" method="post" name="theform" id="theform">
+              <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tbody>
+                  <tr>
+                    <th align="right">您在什么地方：</th>
+                    <td><div class="txd_address"> <a href="javascript:void(0);" class="cityboxbtn"> <span class="tadd_p" id="the_province">山东</span><span class="tadd_c" id="the_city">烟台市</span> </a>
+                        <div class="citybox citybox_tab" style="display: none;">
+                          <ul class="city_keylist fix">
+                            <li class="city_key city_key_01"></li>
+                            <li class="city_key city_key_02 "></li>
+                          </ul>
+                          <div class="city_val city_val_01 hide" style="display: none;">
+                            <div class="cityshow fix"> <span data-province="山东***100110"><a href="javascript:void(0)">山东</a></span> <span data-province="安徽***101800"><a href="javascript:void(0)">安徽</a></span> <span data-province="江西***103100"><a href="javascript:void(0)">江西</a></span> <span data-province="浙江***104200"><a href="javascript:void(0)">浙江</a></span> <span data-province="上海***105290"><a href="javascript:void(0)">上海</a></span> <span data-province="北京***105499"><a href="javascript:void(0)">北京</a></span> <span data-province="天津***105689"><a href="javascript:void(0)">天津</a></span> <span data-province="重庆***105879"><a href="javascript:void(0)">重庆</a></span> <span data-province="河北***106400"><a href="javascript:void(0)">河北</a></span> <span data-province="山西***108300"><a href="javascript:void(0)">山西</a></span> <span data-province="内蒙古***109700"><a href="javascript:void(0)">内蒙古</a></span> <span data-province="江苏***110900"><a href="javascript:void(0)">江苏</a></span> <span data-province="广西***113000"><a href="javascript:void(0)">广西</a></span> <span data-province="西藏***115000"><a href="javascript:void(0)">西藏</a></span> <span data-province="宁夏***116000"><a href="javascript:void(0)">宁夏</a></span> <span data-province="新疆***117000"><a href="javascript:void(0)">新疆</a></span> <span data-province="吉林***119000"><a href="javascript:void(0)">吉林</a></span> <span data-province="辽宁***120000"><a href="javascript:void(0)">辽宁</a></span> <span data-province="黑龙江***122000"><a href="javascript:void(0)">黑龙江</a></span> <span data-province="湖北***124000"><a href="javascript:void(0)">湖北</a></span> <span data-province="湖南***126000"><a href="javascript:void(0)">湖南</a></span> <span data-province="广东***128000"><a href="javascript:void(0)">广东</a></span> <span data-province="河南***130000"><a href="javascript:void(0)">河南</a></span> <span data-province="贵州***132000"><a href="javascript:void(0)">贵州</a></span> <span data-province="青海***133000"><a href="javascript:void(0)">青海</a></span> <span data-province="甘肃***134000"><a href="javascript:void(0)">甘肃</a></span> <span data-province="陕西***135500"><a href="javascript:void(0)">陕西</a></span> <span data-province="云南***137000"><a href="javascript:void(0)">云南</a></span> <span data-province="四川***139000"><a href="javascript:void(0)">四川</a></span> <span data-province="海南***141500"><a href="javascript:void(0)">海南</a></span> <span data-province="福建***142000"><a href="javascript:void(0)">福建</a></span> </div>
+                          </div>
+                          <div class="city_val city_val_02 hide" style="display: none;">
+                            <div class="cityshow fix" id="zd_citys"><span data-city="青岛市"><a href="javascript:void(0);">青岛市</a></span><span data-city="日照市"><a href="javascript:void(0);">日照市</a></span><span data-city="潍坊市"><a href="javascript:void(0);">潍坊市</a></span><span data-city="烟台市"><a href="javascript:void(0);">烟台市</a></span><span data-city="威海市"><a href="javascript:void(0);">威海市</a></span><span data-city="临沂市"><a href="javascript:void(0);">临沂市</a></span><span data-city="枣庄市"><a href="javascript:void(0);">枣庄市</a></span><span data-city="淄博市"><a href="javascript:void(0);">淄博市</a></span><span data-city="济宁市"><a href="javascript:void(0);">济宁市</a></span><span data-city="泰安市"><a href="javascript:void(0);">泰安市</a></span><span data-city="菏泽市"><a href="javascript:void(0);">菏泽市</a></span><span data-city="莱芜市"><a href="javascript:void(0);">莱芜市</a></span><span data-city="济南市"><a href="javascript:void(0);">济南市</a></span><span data-city="聊城市"><a href="javascript:void(0);">聊城市</a></span><span data-city="德州市"><a href="javascript:void(0);">德州市</a></span><span data-city="东营市"><a href="javascript:void(0);">东营市</a></span><span data-city="滨州市"><a href="javascript:void(0);">滨州市</a></span></div>
+                          </div>
+                          <span class="city_close"></span> </div>
+                        <input type="hidden" name="zd_province" id="zd_province" value="">
+                        <input type="hidden" name="zd_city" id="zd_city" value="">
+                      </div></td>
+                  </tr>
+                  <tr>
+                    <th align="right">您怎么称呼：</th>
+                    <td><input class="txj_inp" name="zd_name" type="text" id="zd_name" size="30" maxlength="20"></td>
+                  </tr>
+                  <tr>
+                    <th align="right">您的电话号：</th>
+                    <td><input class="txj_inp" name="zd_mobile_phone" type="text" id="zd_mobile_phone" size="30" maxlength="15" placeholder="请填写正确手机号，获取最低价短信"></td>
+                  </tr>
+                  <tr>
+                    <th>&nbsp;</th>
+                    <td height="30" colspan="2"><input class="btn02 hover" onClick="submitYN();" type="button"></td>
+                    <td height="22" style="padding-top:5px; padding-left:10px;"></td>
+                  </tr>
+                </tbody>
+              </table>
+              <input name="tag" type="hidden" id="tag" value="3">
+              <input name="zd_factoryid" type="hidden" id="zd_factoryid" value="">
+              <input name="zd_product_id" type="hidden" id="zd_product_id" value="">
+              <input name="zd_factoryname" type="hidden" id="zd_factoryname" value="${factory[0].name}">
+              <input name="zd_product_name" type="hidden" id="zd_product_name" value="">
+              <input name="zd_message" type="hidden" id="zd_message" value="">
+              <input type="hidden" name="zd_contact_address" id="zd_contact_address">
+              <input type="hidden" name="zd_cataname" id="zd_cataname" value="">
+              <input type="hidden" name="zd_catanum" id="zd_catanum" value="">
+              <input type="hidden" name="tableName" id="tableName" value="pro_product_form">
+              <input type="hidden" name="zd_ifgroup" id="zd_ifgroup" value="个人">
+              <input type="hidden" name="zd_is_first" id="zd_is_first" value="1">
+              <input type="hidden" name="zd_other_message" id="zd_other_message" value="">
+            </form>
+          </div>
+          <div class="_xjlist">
+            <div class="re_altitle">今天大家都在询价以下几款产品：</div>
+            <div class="re_allist fix"> <#if rec_pro_list??&&(rec_pro_list?size>0)>   
+              <#list rec_pro_list as pro> <a href="/proDetail/${pro.file_name}" class="l"  target="_blank" title="${pro.factoryname}${pro.name}${pro.catalogname}" alt="${pro.factoryname}${pro.name}${pro.catalogname}"> <#if pro.img2?contains("uploadfiles")>
+              <div> <img src="/${pro.img2}"/> </div>
+              <#else>
+              <div> <img src="/uploadfiles/${pro.img2}"/> </div>
+              </#if>
+              <p>${pro.factoryname}${pro.name}${pro.catalogname}</p>
+              </a> </#list>
+              </#if> </div>
+          </div>
+        </div>
+      </div>
+      <!--询价 end-->
+      <!--订单 start-->
+      <div class="txd_plant fix">
+        <h2 class="tpl_title">${factory[0].name}产品订单</h2>
+        <!--<a target="_blank" href="http://product.21-sun.com/inquiry/0_0_136_0_0.shtm" class="tpl_more">查看更多</a>-->
+      </div>
+      <div class="txd_order_m">
+        <div class="txd_od_lant fix"> </div>
+        <div class="txd_order_list">
+          <ul class="fix">
+            <li class="first">
+              <div class="txd_od_t txd_od_t1">询价产品</div>
+              <div class="txd_od_t txd_od_t2">联系人电话</div>
+              <div class="txd_od_t txd_od_t3">询价品牌</div>
+              <div class="txd_od_t txd_od_t4">询价区域</div>
+              <div class="txd_od_t txd_od_t5">询价时间</div>
+            </li>
+            <#if order_list??&&(order_list?size>0)>
+            <#list order_list as order>
+            <li>
+              <div class="txd_od_t txd_od_t1"><a title="${order.factoryname}${order.product_name}${order.cataname}" href="/inquiry/detail_for_${order.id?c}.htm" >${order.factoryname}${order.product_name}${order.cataname}</a></div>
+              <div class="txd_od_t txd_od_t2"><#if order.mobile_phone?length gte 3>${order.mobile_phone?substring(0,2)}****</#if><#if order.mobile_phone?length gte 7>${order.mobile_phone?substring(order.mobile_phone?length-2,order.mobile_phone?length)}</#if></div>
+              <div class="txd_od_t txd_od_t3">${order.factoryname}</div>
+              <div class="txd_od_t txd_od_t4">${order.province}${order.city}</div>
+              <div class="txd_od_t txd_od_t5">${order.add_date?string("yyyy-MM-dd HH:mm:ss")}</div>
+            </li>
+            </#list>
+            </#if>
+          </ul>
+        </div>
+      </div>
+      <!--订单 end-->
+      <!--案例 start-->
+      <div class="txd_plant fix">
+        <h2 class="tpl_title">施工案例</h2>
+      </div>
+      <div class="re_construct fix"> <#assign sgCatalog=['101001','101002','106001','102','103','104','101003','101005','107','105'] />   
+        <#if sgCatalog??&&(sgCatalog?size>0)>   
+        <#list sgCatalog as catalogs>
+        <#assign otherProLists = query(" SELECT  top 1 id,name,catalogname,factoryname,img2,introduce,file_name,catalognum,factoryid FROM  pro_products where   factoryid=${factory[0].id?c} and is_show=1   and catalognum like '${catalogs}%' order by view_count desc ")>
+        <#if otherProLists??&&(otherProLists?size>0)>   
+        <#list otherProLists as pro>
+        <div class="re_citem l">
+          <div class="re_cimg"> <a target="_blank"  href="/proDetail/${pro.file_name}" title="${pro.factoryname}${pro.name}${pro.catalogname}" alt="${pro.factoryname}${pro.name}${pro.catalogname}" > <#if pro.img2?contains("uploadfiles")> <img src="/${pro.img2}"/> <#else> <img src="/uploadfiles/${pro.img2}"/> </#if> </a></div>
+          <p><a target="_blank"  title="${pro.factoryname}${pro.name}${pro.catalogname}"   href="/proDetail/${pro.file_name}">${pro.factoryname}${pro.name}${pro.catalogname}</a></p>
+          <div class="re_cbtns"> <a title="${pro.factoryname}${pro.name}${pro.catalogname}外观" target="_blank" href="/proDetail/${pro.file_name?replace('.shtm','')}_pic.shtm#xingn">外观</a> <a title="${pro.factoryname}${pro.name}${pro.catalogname}细节"  target="_blank" href="/proDetail/${pro.file_name?replace('.shtm','')}_pic.shtm#xingn">细节</a> <a title="${pro.factoryname}${pro.name}${pro.catalogname}施工案例"  target="_blank" href="/proDetail/${pro.file_name?replace('.shtm','')}_pic.shtm#xingn">施工案例</a> </div>
+        </div>
+        </#list>
+        </#if>
+        </#list>
+        </#if> </div>
+      <!--案例 end-->
+    </div>
+  </div>
+</div>
+<!--main end-->
+<script>
+			$('.pro-nav .has-list').after($('#topCataPro'));
+			$('.allCates .acn').after($('.acLayer'));
+			$('.allCates').mouseover(function() {
+				$(this).find('.acLayer').show();
+			}).mouseleave(function() {
+				$(this).find('.acLayer').hide();
+			});
+			$('.acLayer .acb').mouseenter(function() {
+				$(this).addClass('acb_hover');
+			}).mouseleave(function() {
+				$(this).removeClass('acb_hover');
+			});
+			$('.acLayer').children('.acb:last').addClass('last')
+		</script>
+<!--foot start-->
+<div class="j_foot j_foot01" style="height:240px">
+  <div class="wrap fix">
+    <div class="j_foot01_1">
+      <div class="wrap fix">
+        <div class="footLeft">
+          <ul class="fix">
+            <li> <strong class="jf_hd"><a href="/products/prolist.jsp?catalog=101001" target="_blank" title="挖掘机/属具"><i class="fi fi01"></i>挖掘机/属具</a></strong>
+              <div class="jf_bd"> <a href="/products/prolist.jsp?catalog=101001001" target="_blank" title="履带挖掘机">履带挖掘机</a> <a href="/products/prolist.jsp?catalog=101001004" target="_blank" title="轮式挖掘机">轮式挖掘机</a> <a href="/products/prolist.jsp?catalog=101001007" target="_blank" title="特种挖掘机">特种挖掘机</a> <a href="/products/prolist.jsp?catalog=101001098" target="_blank" title="破碎器">破碎器</a> <a href="/products/prolist.jsp?catalog=101001099" target="_blank" title="液压剪">液压剪</a> </div>
+            </li>
+            <li> <strong class="jf_hd"><a href="/products/prolist.jsp?catalog=101002" target="_blank" title="装载机"><i class="fi fi02"></i>装载机</a></strong>
+              <div class="jf_bd"> <a href="/products/prolist.jsp?catalog=101002007" target="_blank" title="轮式装载机">轮式装载机</a> <a href="/products/prolist.jsp?catalog=101002006" target="_blank" title="履带装载机">履带装载机</a> <a href="/products/prolist.jsp?catalog=101002004" target="_blank" title="特种装载机">特种装载机</a> <a href="/products/prolist.jsp?catalog=101002008" target="_blank" title="挖掘装载机">挖掘装载机</a> <a href="/products/prolist.jsp?catalog=101002009" target="_blank" title="滑移装载机">滑移装载机</a> <a href="/products/prolist.jsp?catalog=101002010" target="_blank" title="叉装机">叉装机</a> </div>
+            </li>
+            <li> <strong class="jf_hd"><a href="/products/prolist.jsp?catalog=101003" target="_blank" title="推土机"><i class="fi fi03"></i>推土机</a></strong>
+              <div class="jf_bd"> <a href="/products/prolist.jsp?catalog=101003001" target="_blank" title="履带推土机">履带推土机</a> <a href="/products/prolist.jsp?catalog=101003004" target="_blank" title="轮式推土机">轮式推土机</a> </div>
+              <strong class="jf_hd"><a href="/products/prolist.jsp?catalog=101003" target="_blank" title="平地/铲运机"><i class="fi fi04"></i>平地/铲运机</a></strong>
+              <div class="jf_bd"> <a href="/products/prolist.jsp?catalog=101005001" target="_blank" title="铲运机">铲运机</a> <a href="/products/prolist.jsp?catalog=101005002" target="_blank" title="平地机">平地机</a> </div>
+            </li>
+            <li> <strong class="jf_hd"><a href="/products/prolist.jsp?catalog=102" target="_blank" title="起重机"><i class="fi fi05"></i>起重机</a></strong>
+              <div class="jf_bd"> <a href="/products/prolist.jsp?catalog=102007" target="_blank" title="汽车起重机">汽车起重机</a> <a href="/products/prolist.jsp?catalog=102002" target="_blank" title="塔式起重机">塔式起重机</a> <a href="/products/prolist.jsp?catalog=102003" target="_blank" title="高空作业车/平台">高空作业车/平台</a> <a href="/products/prolist.jsp?catalog=102006" target="_blank" title="随车起重机">随车起重机</a> <a href="/products/prolist.jsp?catalog=102008" target="_blank" title="履带起重机">履带起重机</a> <a href="/products/prolist.jsp?catalog=102012" target="_blank" title="伸缩臂叉装机">伸缩臂叉装机</a> <a href="/products/prolist.jsp?catalog=102011" target="_blank" title="施工升降机">施工升降机</a></div>
+            </li>
+            <li> <strong class="jf_hd"><a href="/products/prolist.jsp?catalog=103" target="_blank" title="混凝土设备"><i class="fi fi06"></i>混凝土设备</a></strong>
+              <div class="jf_bd"> <a href="/products/prolist.jsp?catalog=103001" target="_blank" title="混凝土泵车">混凝土泵车</a> <a href="/products/prolist.jsp?catalog=103019" target="_blank" title="混凝土搅拌运输车">混凝土搅拌运输车</a> <a href="/products/prolist.jsp?catalog=103017" target="_blank" title="车载泵">车载泵</a> <a href="/products/prolist.jsp?catalog=103018" target="_blank" title="拖泵">拖泵</a> <a href="/products/prolist.jsp?catalog=103020" target="_blank" title="混凝土输送泵">混凝土输送泵</a> <a href="/products/prolist.jsp?catalog=103002" target="_blank" title="混凝土搅拌站/车/楼">混凝土搅拌站/车/楼</a> <a href="/products/prolist.jsp?catalog=103005" target="_blank" title="混凝土布料杆/车">混凝土布料杆/车</a></div>
+            </li>
+            <li> <strong class="jf_hd"><a href="/products/prolist.jsp?catalog=106001" target="_blank" title="压路机/压实机/夯"><i class="fi fi07"></i>压实机械</a></strong>
+              <div class="jf_bd"> <a href="/products/prolist.jsp?catalog=106001001" target="_blank" title="单钢轮压路机">单钢轮压路机</a> <a href="/products/prolist.jsp?catalog=106001002" target="_blank" title="双钢轮压路机">双钢轮压路机</a> <a href="/products/prolist.jsp?catalog=106001003" target="_blank" title="三钢轮压路机">三钢轮压路机</a> <a href="/products/prolist.jsp?catalog=106001005" target="_blank" title="轮胎压路机">轮胎压路机</a> <a href="/products/prolist.jsp?catalog=106001004" target="_blank" title="手扶压路机">手扶压路机</a> <a href="/products/prolist.jsp?catalog=106001020" target="_blank" title="压实机">压实机</a> <a href="/products/prolist.jsp?catalog=106001021" target="_blank" title="夯实机">夯实机</a> </div>
+            </li>
+          </ul>
+        </div>
+        <!--二维码扫描-->
+        <div class="wechat_right fix">
+          <dl>
+            <dt style="padding-top:2px; height:88px;"><img src="http://product.21-sun.com/img/f_ewm01.jpg" width="90" height="90"></dt>
+            <dd>铁臂商城手机版随时随地询价</dd>
+          </dl>
+          <dl>
+            <dt><img src="http://product.21-sun.com/img/f_ewm02.gif" width="90" height="90"></dt>
+            <dd>关注铁臂商城抢先查询新品信息</dd>
+          </dl>
+        </div>
+        <!--二维码扫描 end-->
+      </div>
+    </div>
+  </div>
+</div>
+<div class="j_bottom">
+  <div class="wrap fix">
+    <div class="j_bottom_left l"> <span class="New_links" onClick="window.open('http://www.21-sun.com/service/guanggao/index.htm');">广告服务</span><em>|</em> <span class="New_links" onClick="window.open('http://aboutus.21-sun.com/contact/');">联系方式</span><em>|</em> <span class="New_links" onClick="window.open('http://product.21-sun.com/about/');">关于我们</span><em>|</em> <span class="New_links" onClick="window.open('http://www.jerei.com/news/index-list-0.htm');">本网动态</span><em>|</em> <span class="New_links" onClick="window.open('http://www.jerei.com/contact/legal.jsp');">法律声明</span><em>|</em> <span class="New_links" onClick="window.open('http://aboutus.21-sun.com/map.htm');">网站导航</span><em>|</em> <span class="New_links" onClick="window.open('http://aboutus.21-sun.com/contact/');">联系客服</span> </div>
+    <div class="j_bottom_left r">中国工程机械商贸网 © copyright 2000-<span class="currentDate">
+      <script type="text/javascript">document.write((new Date()).getFullYear());</script>
+      </span></div>
+  </div>
+</div>
+<!--foot end-->
+<!--如下是头部所需繁多的代码，放在页面底部，在最后通过js添加到头部，防止影响头部加载速度-->
+<!--购机导航内容-->
+<div class="list-box list-pro" id="topCataPro"> <span class="over-line"></span>
+  <ul>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=101001" target="_blank"><strong>挖掘机/属具</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001001" target="_blank">履带挖掘机</a> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001004" target="_blank">轮式挖掘机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101001007" target="_blank">特种挖掘机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101001098" target="_blank">破碎锤</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101001099" target="_blank">液压剪</a> </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=101002" target="_blank"><strong>装载机</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002007" target="_blank">轮式装载机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101002003" target="_blank">履带装载机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101002004" target="_blank">特种装载机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101002008" target="_blank">挖掘装载机</a> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002009" target="_blank">滑移装载机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101002010" target="_blank">叉装机</a> </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=101003" target="_blank"><strong>推土机</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=101003001" target="_blank">履带推土机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101003004" target="_blank">轮式推土机</a> </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=102" target="_blank"><strong>起重机</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=102007" target="_blank">汽车起重机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=102002" target="_blank">塔式起重机</a> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=102003" target="_blank">高空作业车/平台</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=102006" target="_blank">随车起重机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=102008" target="_blank">履带式起重机</a>
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=102012" target="_blank">伸缩臂叉装机</a>-->
+          <a href="http://product.21-sun.com/products/prolist.jsp?catalog=102011" target="_blank">施工升降机</a>
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=102013" target="_blank">龙门/桥梁起重机</a>-->
+        </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001" target="_blank"><strong>压路机/压实机/夯</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=106001001" target="_blank">单钢轮压路机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001002" target="_blank">双钢轮压路机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001003" target="_blank">三钢轮压路机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001005" target="_blank">轮胎压路机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001004" target="_blank">手扶压路机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001020" target="_blank">压实机</a>
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=106001021" target="_blank">夯实机</a>-->
+        </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=103" target="_blank"><strong>混凝土机械</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=103001" target="_blank">泵车</a> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=103019" target="_blank">搅拌运输车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103017" target="_blank">车载泵</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103018" target="_blank">拖泵</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103020" target="_blank">输送泵</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103002" target="_blank">搅拌站/楼/车</a>
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=103005" target="_blank">布料杆/车</a>-->
+          <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103008" target="_blank">干粉/砂浆生产设备</a>
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=103010" target="_blank">喷湿机</a>
+                  <a href="http://product.21-sun.com/products/prolist.jsp?catalog=103015" target="_blank">其它混凝土设备</a>-->
+        </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=105" target="_blank"><strong>桩工机械</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=105003" target="_blank">旋挖钻机</a>
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=105004" target="_blank">潜孔钻机</a>-->
+          <a href="http://product.21-sun.com/products/prolist.jsp?catalog=105005" target="_blank">水平定向钻</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=105007" target="_blank">连续墙设备</a>
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=105018" target="_blank">螺旋钻机</a>-->
+          <a href="http://product.21-sun.com/products/prolist.jsp?catalog=105009" target="_blank">压桩机/打桩机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=105028" target="_blank">截桩机/破桩机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=105027" target="_blank">其它桩工机械</a> </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=101005" target="_blank"><strong>平地机/铲运机</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101005001" target="_blank">自行式铲运机</a> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=101005002" target="_blank">自行式平地机</a> </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=104" target="_blank"><strong>路面机械</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=104001" target="_blank">摊铺机</a> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=104005" target="_blank">铣刨机</a>
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=104003" target="_blank">开槽机/灌缝机</a>-->
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=104004" target="_blank">破碎机</a>-->
+          <a href="http://product.21-sun.com/products/prolist.jsp?catalog=104002" target="_blank">再生机械</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=104008" target="_blank">稳定土厂拌设备</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=104009" target="_blank">沥青搅拌/转运</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=104006" target="_blank">沥青洒布/碎石散布机</a> </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=110" target="_blank"><strong>地下及矿山机械</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=110001" target="_blank">盾构机</a> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=110002" target="_blank">掘进机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=110008" target="_blank">凿岩台车/钻机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=110009" target="_blank">破碎机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=110012" target="_blank">筛分机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=110013" target="_blank">装载及搬运设备</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=110018" target="_blank">扒渣机</a>
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=110019" target="_blank">采煤机</a>-->
+        </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=107" target="_blank"><strong>叉车</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=107011" target="_blank">内燃平衡重叉车</a> <a class="active" href="http://product.21-sun.com/products/prolist.jsp?catalog=107012" target="_blank">电动叉车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=107013" target="_blank">侧面叉车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=107014" target="_blank">前移叉车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=107015" target="_blank">搬运车/托盘车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=107016" target="_blank">堆高机/堆垛车</a> </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=122" target="_blank"><strong>环卫车辆</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=122001" target="_blank">清扫车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=122002" target="_blank">垃圾车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=122003" target="_blank">清雪车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=122004" target="_blank">酒水车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=122005" target="_blank">污水粪便车</a> </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=118" target="_blank"><strong>专用车辆</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118001" target="_blank">普通载货车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118013" target="_blank">公路牵引车</a>
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=118004" target="_blank">场地牵引车</a>-->
+          <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118003" target="_blank">消防车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118012" target="_blank">清障车</a>
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=118005" target="_blank">冷藏车</a>
+                  <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118006" target="_blank">货厢车</a>-->
+          <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118007" target="_blank">粉罐车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118008" target="_blank">油罐车</a>
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=118009" target="_blank">液罐车</a>
+                  <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118010" target="_blank">翻斗车</a>-->
+          <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118011" target="_blank">渣土车</a>
+          <!--<a href="http://product.21-sun.com/products/prolist.jsp?catalog=118014" target="_blank">半挂车</a>-->
+          <a href="http://product.21-sun.com/products/prolist.jsp?catalog=118002" target="_blank">其他专用车</a> </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=101008" target="_blank"><strong>自卸卡车/矿卡</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101008002" target="_blank">刚性自卸卡车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=101008001" target="_blank">铰接式自卸卡车</a> </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=109" target="_blank"><strong>桥梁机械</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=109006" target="_blank">砂浆车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=109005" target="_blank">检测车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=109004" target="_blank">提梁机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=109002" target="_blank">运梁车</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=109001" target="_blank">架桥机</a> </div>
+      </div>
+    </li>
+    <li class="fix">
+      <div class="list-ele-left l"><a href="http://product.21-sun.com/products/prolist.jsp?catalog=111" target="_blank"><strong>港口机械</strong></a></div>
+      <div class="list-ele-right r">
+        <div class="list-wrapper"> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=111001" target="_blank">正面吊</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=111004" target="_blank">门式起重机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=111002" target="_blank">码头堆高机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=111003" target="_blank">卸船机</a> <a href="http://product.21-sun.com/products/prolist.jsp?catalog=111007" target="_blank">推耙机</a> </div>
+      </div>
+    </li>
+  </ul>
+  <div class="rec-pro fix"> <a href="http://product.21-sun.com/products/prolist.jsp?factory=174&catalog=101001" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">卡特挖掘机</span></span></span></a> <a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=101001" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">三一挖掘机</span></span></span></a> <a href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=101001" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">徐工挖掘机</span></span></span></a> <a href="http://product.21-sun.com/products/prolist.jsp?factory=135&catalog=101001" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">龙工挖掘机</span></span></span></a> <a href="http://product.21-sun.com/products/prolist.jsp?factory=137&catalog=101001" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">临工挖掘机</span></span></span></a> <a href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=101001" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">柳工挖掘机</span></span></span></a> <a href="http://product.21-sun.com/products/prolist.jsp?factory=141&catalog=101001" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">雷沃挖掘机</span></span></span></a> <a href="http://product.21-sun.com/products/prolist.jsp?factory=138&catalog=101002" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">山工装载机</span></span></span></a> <a href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=101002" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">柳工装载机</span></span></span></a> <a href="http://product.21-sun.com/products/prolist.jsp?factory=135&catalog=101002" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">龙工装载机</span></span></span></a> <a href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=101002" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">徐工装载机</span></span></span></a> <a href="http://product.21-sun.com/products/prolist.jsp?factory=137&catalog=101002" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">临工装载机</span></span></span></a> <a href="http://product.21-sun.com/products/prolist.jsp?factory=139&catalog=101002" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">厦工装载机</span></span></span></a> <a href="http://product.21-sun.com/products/prolist.jsp?factory=174&catalog=101002" target="_blank"><span class="link-btn-left"><span class="link-btn-right"><span class="link-btn-center">卡特装载机</span></span></span></a> </div>
+</div>
+<!--头部购机导航内容 end-->
+<!--全部产品分类-->
+<div class="acLayer">
+  <!--挖掘机-->
+  <div class="acb">
+    <div class="hn"><i class="ico ico3_4"></i> <strong class="n"><a style="color:#fff" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001" target="_blank">挖掘机</a></strong>/<a target="_blank" target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=101001">三一</a>/<a target="_blank" target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=174&catalog=101001">卡特彼勒</a> </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=174&catalog=101001"><img src="http://product.21-sun.com/uploadfiles/20081204173853_0.jpg" alt="卡特彼勒"><strong class="n">卡特彼勒</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=101001"><img src="http://product.21-sun.com/uploadfiles/09070916592948_0.jpg" alt="三一"><strong class="n">三一</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/brand/lovol/"><img src="http://product.21-sun.com/uploadfiles/0903171119171_0.jpg" alt="雷沃重工"><strong class="n">雷沃重工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=182&catalog=101001"><img src="http://product.21-sun.com/uploadfiles/09031711183542_0.jpg" alt="小松"><strong class="n">小松</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=101001"><img src="http://product.21-sun.com/uploadfiles/09031711214794_0.jpg" alt="柳工"><strong class="n">柳工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=183&catalog=101001"><img src="http://product.21-sun.com/uploadfiles/20081205142130_0.jpg" alt="神钢"><strong class="n">神钢</strong></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList dash_border">
+          <dt><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001001">履带挖掘机</a></dt>
+          <dd><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001&tonandmeter=grab_1_13">小挖(1-13吨)</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001&tonandmeter=grab_14_30">中挖(14-30吨)</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001&tonandmeter=grab_30_1">大挖(30吨以上)</a><em>|</em><a target="_blank" href="http://product.21-sun.com/activity/ihisce/">石川岛微挖</a></dd>
+        </dl>
+        <dl class="ac_linkList">
+          <dt><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001004">轮式挖掘机</a> <em>|</em><a  target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001007">其他挖掘机</a></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=101001">三一挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=174&catalog=101001">卡特彼勒挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=137&catalog=101001">山东临工挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=182&catalog=101001">小松挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=101001">柳工挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=152&catalog=101001">山重建机挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=184&catalog=101001">日立挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=183&catalog=101001">神钢挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=194&catalog=101001">现代挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=187&catalog=101001">久保田挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=190&catalog=101001">石川岛挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=192&catalog=101001">斗山挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=101001">徐工挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=141&catalog=101001">雷沃重工挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=14238&catalog=101001">约翰迪尔挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=189&catalog=101001">加藤挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=135&catalog=101001">龙工挖掘机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=142&catalog=101001">山河智能挖掘机</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--装载机-->
+  <div class="acb">
+    <div class="hn"><i class="ico ico3_4"></i> <strong class="n"><a style="color:#fff" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002" target="_blank">装载机</a></strong>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=135&catalog=101002">龙工</a>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=101002">柳工</a> </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=141&catalog=101002"><img src="http://product.21-sun.com/uploadfiles/0903171119171_0.jpg" alt="雷沃重工"><strong class="n">雷沃重工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=138&catalog=101002"><img src="http://product.21-sun.com/uploadfiles//image/2014/02/20140211113606_389.jpg" alt="山工机械"><strong class="n">山工机械</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=135&catalog=101002"><img src="http://product.21-sun.com/uploadfiles/11091416204918_0.jpg" alt="龙工"><strong class="n">龙工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=139&catalog=101002"><img src="http://product.21-sun.com/uploadfiles/09031711274964_0.jpg" alt="厦工"><strong class="n">厦工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=137&catalog=101002"><img src="http://product.21-sun.com/uploadfiles/09031711372951_0.jpg" alt="山东临工"><strong class="n">山东临工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=101002"><img src="http://product.21-sun.com/uploadfiles/09031711214794_0.jpg" alt="柳工"><strong class="n">柳工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=101002"><img src="http://product.21-sun.com/uploadfiles/09070916592948_0.jpg" alt="三一"><strong class="n">三一</strong></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList dash_border">
+          <dt><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002007">轮式装载机</a></dt>
+          <dd><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002&tonandmeter=loader_1_3">装载机（3吨以下）</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002&tonandmeter=loader_3_01">装载机（3吨）</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002&factory=136&tonandmeter=loader_3_5">装载机（3-5吨）</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002&factory=136&tonandmeter=loader_5_1">装载机（5吨以上）</a></dd>
+        </dl>
+        <dl class="ac_linkList">
+          <dt><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002003">履带式装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002010">叉装机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002009">滑移装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002008">挖掘装载机</a></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=135&catalog=101002">龙工装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=101002">柳工装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=101002">徐工装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=138&catalog=101002">山工机械装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=139&catalog=101002">厦工装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=141&catalog=101002">雷沃重工装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=145&catalog=101002">成工装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=137&catalog=101002">山东临工装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=149&catalog=101002">沃得重工装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=172&catalog=101002">晋工装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=192&catalog=101002">斗山装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=14238&catalog=101002">约翰迪尔装载机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=144&catalog=101002">山推装载机</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--起重机-->
+  <div class="acb">
+    <div class="hn"><i class="ico ico3_4"></i> <strong class="n"><a style="color:#fff" href="http://product.21-sun.com/products/prolist.jsp?catalog=102" target="_blank">起重机</a></strong>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=102">三一</a>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=102">徐工</a> </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=102"><img src="http://product.21-sun.com/uploadfiles/20081212082831_0.jpg" alt="徐工"><strong class="n">徐工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=102"><img src="http://product.21-sun.com/uploadfiles/09070916592948_0.jpg" alt="三一"><strong class="n">三一</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=134&catalog=102"><img src="http://product.21-sun.com/uploadfiles/20081208093148_0.jpg" alt="中联重科"><strong class="n">中联重科</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=189&catalog=102"><img src="http://product.21-sun.com/uploadfiles/09031713193821_0.jpg" alt="加藤"><strong class="n">加藤</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=102"><img src="http://product.21-sun.com/uploadfiles/09031711214794_0.jpg" alt="柳工"><strong class="n">柳工</strong></a></li>
+            <li><a href="http://product.21-sun.com/products/prolist.jsp?factory=167&catalog=102"><img src="http://product.21-sun.com/uploadfiles/20081213162759_0.jpg" alt="北方交通"><strong class="n">北方交通</strong></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList dash_border">
+          <dt><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=102007">汽车起重机</a></dt>
+          <dd><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=102007&tonandmeter=crane_1_16">起重机（16吨以下）</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=102007&tonandmeter=crane_20_70">起重机（20-70吨）</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=102007&tonandmeter=crane_70_1">起重机（70吨以上）</a></dd>
+        </dl>
+        <dl class="ac_linkList">
+          <dt><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=102008">履带式起重机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=102002">塔式起重机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=102003">高空作业车/平台</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=102006">随车起重机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=102011">施工升降机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=102012">伸缩臂叉装机</a></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=102" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=102">徐工起重机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=102">三一起重机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=134&catalog=102">中联重科起重机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=189&catalog=102">加藤起重机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=102">柳工起重机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=167&catalog=102">北方交通起重机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=139&catalog=102">厦工起重机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=179&catalog=102">利勃海尔起重机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=176&catalog=102">特雷克斯起重机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=186&catalog=102">北起多田野起重机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=14217&catalog=102">三一帕尔菲格起重机</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--推土机-->
+  <div class="acb">
+    <div class="hn"><i class="ico ico3_4"></i> <strong class="n"><a style="color:#fff" href="http://product.21-sun.com/products/prolist.jsp?catalog=101003" target="_blank">推土机</a></strong>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=144&catalog=101003">山推</a>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=154&catalog=101003">宣工</a> </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=144&catalog=101003"><img src="http://product.21-sun.com/uploadfiles//image/2014/02/20140221154814_568.jpg" alt="山推"><strong class="n">山推</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=154&catalog=101003"><img src="http://product.21-sun.com/images/hbxg.jpg" alt="宣工"><strong class="n">宣工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=138&catalog=101003"><img src="http://product.21-sun.com/uploadfiles//image/2014/02/20140211113606_389.jpg" alt="山工机械"><strong class="n">山工机械</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=143&catalog=101003"><img src="http://product.21-sun.com/uploadfiles/20081211172557_0.jpg" alt="宇通重工"><strong class="n">宇通重工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=161&catalog=101003"><img src="http://product.21-sun.com/uploadfiles/20081212105232_0.jpg" alt="移山"><strong class="n">移山</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=101003"><img src="http://product.21-sun.com/uploadfiles/09031711214794_0.jpg" alt="柳工"><strong class="n">柳工</strong></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList dash_border">
+          <dt><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101003004">轮胎式推土机</a></dt>
+          <dd><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101003&tonandmeter=tuitu_1_120">120马力以下</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101003&tonandmeter=tuitu_120_220">120-220马力</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101003&tonandmeter=tuitu_220_230">220-230马力</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101003&tonandmeter=tuitu_230_1">320马力以上</a></dd>
+        </dl>
+        <dl class="ac_linkList">
+          <dt><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101003001">履带式推土机</a></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101003" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=144&catalog=101003">山推推土机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=154&catalog=101003">宣工推土机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=138&catalog=101003">山工机械推土机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=143&catalog=101003">宇通重工推土机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=161&catalog=101003">移山推土机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=101003">柳工推土机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=140&catalog=101003">鼎盛重工推土机</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--混凝土-->
+  <div class="acb">
+    <div class="hn"><i class="ico ico3_4"></i> <strong class="n"><a style="color:#fff" href="http://product.21-sun.com/products/prolist.jsp?catalog=103" target="_blank">混凝土</a></strong>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=103">三一</a>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=134&catalog=103">中联重科</a> </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=103"><img src="http://product.21-sun.com/uploadfiles/09070916592948_0.jpg" alt="三一"><strong class="n">三一</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=202&catalog=103"><img src="http://product.21-sun.com/uploadfiles/09031718293914_0.jpg" alt="鸿得利重工"><strong class="n">鸿得利重工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=671&catalog=103002"><img src="http://product.21-sun.com/uploadfiles/10031711232772_0.jpg" alt="方圆集团"><strong class="n">方圆集团</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/brandshop/lingyu/"><img src="http://product.21-sun.com/uploadfiles//image/2013/09/20130909151051_309.jpg" alt="中集凌宇"><strong class="n">中集凌宇</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=218&catalog=103"><img src="http://product.21-sun.com/uploadfiles/10072609324085_0.jpg" alt="铁拓"><strong class="n">铁拓</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=200&catalog=103"><img src="http://product.21-sun.com/uploadfiles/20081213175805_0.jpg" alt="南方路机"><strong class="n">南方路机</strong></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dt><a href="http://product.21-sun.com/products/prolist.jsp?catalog=103001">泵车</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=103017">车载泵</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=103018">拖泵/输送泵</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=103019">混凝土搅拌车</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=103002">混凝土搅拌站/楼搅拌机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=103005002">布料机/布料杆</a><em>|</em> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=103008">干粉砂浆生产设备</a><em>|</em> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=103010">喷湿机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=103015">其它混凝土设备</a></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=103" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=103">三一混凝土机械</a><em>|</em> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=103001">三一泵车</a><em>|</em> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=103019">三一搅拌车</a><em>|</em> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=134&catalog=103">中联重科混凝土机械</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=202&catalog=103">鸿得利重工混凝土机械</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=671&catalog=103002">方圆集团混凝土机械</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=767&catalog=103">中集凌宇混凝土机械</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=218&catalog=103">铁拓混凝土机械</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=200&catalog=103">南方路机混凝土机械</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=207&catalog=103">陆德筑机混凝土机械</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--叉车-->
+  <div class="acb">
+    <div class="hn"><i class="ico ico3_4"></i> <strong class="n"><a style="color:#fff" href="http://product.21-sun.com/products/prolist.jsp?catalog=107" target="_blank">叉车</a></strong>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=1742&catalog=107">林德</a>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=13699&catalog=107001">诺力</a> </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=1742&catalog=107"><img src="http://product.21-sun.com/uploadfiles//image/2012/10/20121019134726_641.jpg" alt="林德"><strong class="n">林德</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=107"><img src="http://product.21-sun.com/uploadfiles/09070916592948_0.jpg" alt="三一"><strong class="n">三一</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=158&catalog=107"><img src="http://product.21-sun.com/uploadfiles/20081211153837_0.jpg" alt="合力"><strong class="n">合力</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=135&catalog=107"><img src="http://product.21-sun.com/uploadfiles/11091416204918_0.jpg" alt="龙工"><strong class="n">龙工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=107"><img src="http://product.21-sun.com/uploadfiles/20081212082831_0.jpg" alt="徐工"><strong class="n">徐工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=1715&catalog=107"><img src="http://product.21-sun.com/uploadfiles//image/2012/10/20121017132449_891.jpg" alt="宝骊"><strong class="n">宝骊</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=107"><img src="http://product.21-sun.com/uploadfiles/09031711214794_0.jpg" alt="柳工"><strong class="n">柳工</strong></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dt><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=107012">电动叉车</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=107001">内燃叉车</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=107018">仓储叉车</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=118004">牵引车</a></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=107" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=1742&catalog=107">林德叉车</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=13699&catalog=107001">诺力叉车</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=158&catalog=107">合力叉车</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=135&catalog=107">龙工叉车</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=107">徐工叉车</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=1715&catalog=107">宝骊叉车</a><em>|</em><a  target="_blank"href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=107">柳工叉车</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=192&catalog=107">斗山叉车</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--压路机-->
+  <div class="acb">
+    <div class="hn"><i class="ico ico3_4"></i> <strong class="n"><a style="color:#fff" href="http://product.21-sun.com/products/prolist.jsp?catalog=106001" target="_blank">压路机</a></strong>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=106001">徐工</a>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=106001">柳工</a> </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=106001"><img src="http://product.21-sun.com/uploadfiles/20081212082831_0.jpg" alt="徐工"><strong class="n">徐工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=106001"><img src="http://product.21-sun.com/uploadfiles/09070916592948_0.jpg" alt="三一"><strong class="n">三一</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=135&catalog=106001"><img src="http://product.21-sun.com/uploadfiles/11091416204918_0.jpg" alt="龙工"><strong class="n">龙工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=138&catalog=106001"><img src="http://product.21-sun.com/uploadfiles//image/2014/02/20140211113606_389.jpg" alt="山工机械"><strong class="n">山工机械</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=106001"><img src="http://product.21-sun.com/uploadfiles/09031711214794_0.jpg" alt="柳工"><strong class="n">柳工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=139&catalog=106001"><img src="http://product.21-sun.com/uploadfiles/09031711274964_0.jpg" alt="厦工"><strong class="n">厦工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=148&catalog=106001"><img src="http://product.21-sun.com/uploadfiles/20081211135543_0.jpg" alt="常林股份"><strong class="n">常林股份</strong></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dt><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=106001001">单钢轮压路机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=106001002">双钢轮压路机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=106001005">轮胎压路机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=106001003">三轮压路机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=106001004">光轮压路机</a><em>|</em></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=106001" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=106001">徐工压路机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=136&catalog=106001">柳工压路机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=135&catalog=106001">龙工压路机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=138&catalog=106001">山工机械压路机</a><em>|</em><a target="_blank" target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=139&catalog=106001">厦工压路机</a><em>|</em><a target="_blank" target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=148&catalog=106001">常林股份压路机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=212&catalog=106001">戴纳派克压路机</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--旋挖钻-->
+  <div class="acb">
+    <div class="hn"><i class="ico ico3_4"></i> <strong class="n"><a style="color:#fff" href="http://product.21-sun.com/products/prolist.jsp?catalog=105003" target="_blank">旋挖钻</a></strong>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=105003">徐工</a>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=142&catalog=105003">山河智能</a> </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=105003"><img src="http://product.21-sun.com/uploadfiles/20081212082831_0.jpg" alt="徐工"><strong class="n">徐工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=105003"><img src="http://product.21-sun.com/uploadfiles/09070916592948_0.jpg" alt="三一"><strong class="n">三一</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=142&catalog=105003"><img src="http://product.21-sun.com/uploadfiles//image/2013/08/20130807155848_987.jpg" alt="山河智能"><strong class="n">山河智能</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=683&catalog=105003"><img src="http://product.21-sun.com/uploadfiles/10052610253281_0.jpg" alt="德国宝峨"><strong class="n">德国宝峨</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=134&catalog=105003"><img src="http://product.21-sun.com/uploadfiles/20081208093148_0.jpg" alt="中联重科"><strong class="n">中联重科</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=141&catalog=105003"><img src="http://product.21-sun.com/uploadfiles/0903171119171_0.jpg" alt="雷沃重工"><strong class="n">雷沃重工</strong></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dt><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?offset=0&catalog=105003">旋挖钻机</a></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=105003" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd><a  target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=105003">徐工旋挖钻机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=142&catalog=105003">山河智能旋挖钻机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=105003">三一旋挖钻机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=683&catalog=105003">德国宝峨旋挖钻机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=134&catalog=105003">中联重科旋挖钻机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=141&catalog=105003">雷沃重工旋挖钻机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=14261&catalog=105003">泰信机械旋挖钻机</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--地下矿山机械-->
+  <div class="acb">
+    <div class="hn"><i class="ico ico3_4"></i> <strong class="n"><a style="color:#fff" href="http://product.21-sun.com/products/prolist.jsp?catalog=110" target="_blank">地下矿山机械</a></strong>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=1304&catalog=110">山特维克</a> </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=1304&catalog=110"><img src="http://product.21-sun.com/uploadfiles//image/2013/03/20130301135306_26.jpg" alt="山特维克"><strong class="n">山特维克</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=110"><img src="http://product.21-sun.com/uploadfiles/09070916592948_0.jpg" alt="三一"><strong class="n">三一</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=110"><img src="http://product.21-sun.com/uploadfiles/20081212082831_0.jpg" alt="徐工"><strong class="n">徐工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=1758&catalog=110"><img src="http://product.21-sun.com/uploadfiles//image/2012/10/20121031172146_568.jpg" alt="铁建重工"><strong class="n">铁建重工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/brandshop/hengri/"><img src="http://product.21-sun.com/uploadfiles/12052510060812_0.jpg" alt="恒日重工"><strong class="n">恒日重工</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=167&catalog=110"><img src="http://product.21-sun.com/uploadfiles/20081213162759_0.jpg" alt="北方交通"><strong class="n">北方交通</strong></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dt> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=110013">装载及搬运设备</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=110002">矿用掘进机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=110008">凿岩台车</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=110012">筛分机</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=110001">盾构掘进机</a> </dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=110" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=1304&catalog=110">山特维克地下及矿山机械</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=209&catalog=110">徐工地下及矿山机械</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=110">三一地下及矿山机械</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=1758&catalog=110">铁建重工地下及矿山机械</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=1508&catalog=110">恒日重工地下及矿山机械</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=167&catalog=110">北方交通地下及矿山机械</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=1236&catalog=110">新天和地下及矿山机械</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=13096&catalog=110">恒至凿岩地下及矿山机械</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--破碎设备-->
+  <div class="acb">
+    <div class="hn"><i class="ico ico3_4"></i> <strong class="n"><a style="color:#fff" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001098" target="_blank">破碎设备</a></strong>/<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=419&catalog=101001098">水山</a> </div>
+    <div class="acbBox">
+      <div class="hd">
+        <h3>品牌推荐</h3>
+      </div>
+      <div class="bd">
+        <div class="ac_imgList">
+          <ul>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=417&catalog=101001098"><img src="http://product.21-sun.com/uploadfiles/12020215540740_0.jpg" alt="古河"><strong class="n">古河</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=402&catalog=101001098"><img src="http://product.21-sun.com/uploadfiles/08122309094362_0.jpg" alt="艾迪"><strong class="n">艾迪</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=419&catalog=101001098"><img src="http://product.21-sun.com/uploadfiles/08122313405889_0.jpg" alt="水山"><strong class="n">水山</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=192&catalog=101001098"><img src="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" alt="斗山"><strong class="n">斗山</strong></a></li>
+            <li><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=401&catalog=101001098"><img src="http://product.21-sun.com/uploadfiles/11031114434183_0.jpg" alt="惊天液压"><strong class="n">惊天液压</strong></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hd">
+        <h3>产品分类</h3>
+      </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dt><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001098">破碎锤</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001099">液压剪</a></dt>
+        </dl>
+      </div>
+      <div class="hd">
+        <h3>推荐产品</h3>
+        <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001098" class="more">更多<i class="ico ico3_3"></i></a> </div>
+      <div class="bd">
+        <dl class="ac_linkList">
+          <dd> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=417&catalog=101001098">古河破碎锤</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=402&catalog=101001098">艾迪破碎锤</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=419&catalog=101001098">水山破碎锤</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=192&catalog=101001098">斗山破碎锤</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=401&catalog=101001098">惊天液压破碎锤</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=406&catalog=113">泰科破碎锤</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=403&catalog=113">普堃韩泰克破碎锤</a><em>|</em><a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?factory=404&catalog=113">泰戈破碎锤</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+<!--全部产品分类 end-->
+<script>
+$('.pro-nav .has-list').after($('#topCataPro'));
+
+
+	$('.allCates .acn').after($('.acLayer'));
+	$('.allCates').mouseover(function(){
+		$(this).find('.acLayer').show();
+	}).mouseleave(function(){
+		$(this).find('.acLayer').hide();
+	});
+	$('.acLayer .acb').mouseenter(function(){
+		$(this).addClass('acb_hover');
+	}).mouseleave(function(){
+		$(this).removeClass('acb_hover');
+	});
+	$('.acLayer').children('.acb:last').addClass('last')
+</script>
+<div style="display:none;">
+  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_2697829'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s6.cnzz.com/stat.php%3Fid%3D2697829' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+<!--foot end-->
+<script type="text/javascript" src="/new_resources/js/sele_t.js"></script>
+<script type="text/javascript"  src="/new_resources/js/new_common.js"></script>
+<script type="text/javascript" src="/scripts/sort.js"></script>
+<script type="text/javascript" src="/plugin/jquery/jquery.cookies.2.2.0.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<script type="text/javascript" src="/scripts/jquery.form.js"></script>
+<script>
+			//营销宝统计
+			jQuery(function() {
+				jQuery.ajax({
+					type: 'post',
+					url: '/action/ajax.jsp',
+					data: {
+						flag: 'getAgentViewCount',
+						agentId: '136'
+					},
+					success: function(msg) {}
+				});
+			});
+
+			var nowBrand = '136';
+			var nowBrandName = '';
+			var nowCatalog = '';
+			var nowCatalogName = '';
+			var nowProvince = '';
+			var nowCity = '';
+
+			function setHover() {
+				jQuery(".agent_li ul").hover(function() {
+					jQuery(this).toggleClass("a_hover");
+				}, function() {
+					jQuery(this).removeClass("a_hover");
+				});
+			}
+
+			function zaiXianXunJia(id) {
+				var url = '/include/agent/enquiry.jsp?id=' + id;
+				if(nowBrand != '') {
+					url += "&nowBrand=" + nowBrand;
+				}
+				if(nowBrandName != '') {
+					url += "&nowBrandName=" + nowBrandName;
+				}
+				if(nowCatalog != '') {
+					url += "&nowCatalog=" + nowCatalog;
+				}
+				if(nowCatalogName != '') {
+					url += "&nowCatalogName=" + nowCatalogName;
+				}
+				jQuery.jBox("iframe:" + url, {
+					title: "在线询价",
+					width: 550,
+					height: 380,
+					top: '25%',
+					buttons: {
+						"确定": true,
+						"关闭": false
+					},
+					submit: function(v, h, f) {
+						if(v) {
+							var ifrm = jQuery.jBox.getIframe();
+							var subSr = ifrm.contentWindow.doSub();
+							return false;
+						}
+						return true;
+					}
+				});
+			}
+ 
+ 
+
+			function showImgDelay(imgObj, imgSrc, maxErrorNum) {
+				//showSpan.innerHTML += "--" + maxErrorNum;  
+				if(maxErrorNum > 0) {
+					imgObj.onerror = function() {
+						showImgDelay(imgObj, imgSrc, maxErrorNum - 1);
+					};
+					setTimeout(function() {
+						imgObj.src = imgSrc;
+					}, 100);
+				} else {
+					imgObj.onerror = null;
+					imgObj.src = "http://product.21-sun.com/uploadfiles/no_small.gif";
+				}
+			}
+			
+			
+			
+	var province = '';
+	var city='';
+		jQuery.ajax({
+					url : '/tools/ajax.jsp?flag=getProvinceCity',
+					async : false,
+					type : 'post',
+					success : function(data){
+	                    var area=new Array();
+	                    area=data.split(",");
+	                    province=area[0];
+	                    city=area[1];	
+	                    document.getElementById("the_city").innerHTML=city;
+	                    document.getElementById("the_province").innerHTML=province;
+	                    document.getElementById("zd_province").value=province;
+	                    document.getElementById("zd_city").value=city;
+
+	                    $('.city_val_01').find('span').each(function(){
+		                    if($(this).find('a').text()==$('#the_province').text().trim()){
+			                    $(this).click();
+ 		                    }
+	                    }).after(function(){
+ 		                    $('.city_val_02').find('span').each(function(){
+ 			                    if($(this).find('a').text()==$('#the_city').text().trim()){
+				                    $(this).click();
+	 		                    }
+		                    })
+	                    })
+	                    $('.city_key_02').click();			
+					}
+		});
+
+
+	 function submitYN(event) {
+	var factoryname=$("#zd_factoryname").val(); 
+	var pro_id=jQuery("#zd_product_id").val();
+ 
+	var mobile_phone_reg = /^1[3456789][0-9]\d{8}$/;
+	var connect_reg=/^((0\d{2,3})-)(\d{7,8})(-(\d{3,}))?$/;
+	var emailreg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+	if (null == jQuery("#zd_name").val() || jQuery("#zd_name").val().length == 0) {
+		jQuery.jBox.tip("请输入您的姓名!");
+		setTimeout(function() {
+			jQuery("#zd_name").focus();
+		},
+		0);
+		return false;
+	}
+	if ((null == jQuery("#zd_mobile_phone").val() || jQuery("#zd_mobile_phone").val().length == 0)) {
+		jQuery.jBox.tip("请输入您的手机或固定电话！");
+		setTimeout(function() {
+		 	jQuery("#zd_mobile_phone").focus();
+		},
+		10);
+		return false;
+	}
+	if (jQuery("#zd_mobile_phone").val().length != 0 && (!mobile_phone_reg.test(jQuery('#zd_mobile_phone').attr("value"))&&!connect_reg.test(jQuery('#zd_mobile_phone').attr("value")))) {
+		jQuery.jBox.tip("请输入正确的电话号码!");
+		setTimeout(function() {
+			jQuery("#zd_mobile_phone").focus();
+			jQuery("#zd_mobile_phone").select(); 
+		},
+		10);
+		return false;
+	}
+	if(jQuery("#zd_city").val()==''){
+			jQuery.jBox.tip("选择城市") ;
+			jQuery("#zd_city").focus() ;
+		     return false ;
+	}
+ 
+	var other_message="";
+	var other_list=document.getElementsByName("other_message");
+        var objarray=other_list.length;
+        for (i=0;i<objarray;i++){
+            if(other_list[i].checked == true){
+                other_message+=other_list[i].value+",";
+            }
+     }
+	jQuery.ajax({
+		url : '/action/ajax.jsp',
+		async : false,
+					type : 'post',
+					data : {
+						flag : 'get_city_name',
+						city : jQuery("#zd_city").val()
+					},
+					success : function(data){
+							jQuery("#zd_city").val(city= $.trim(data)) ;
+					}
+	});
+    jQuery("#zd_other_message").val(other_message) ;
+	jQuery("#zd_contact_address").val(jQuery("#zd_province").val()+jQuery("#zd_city").val()) ;
+	  jQuery("#theform").ajaxSubmit({
+	 	type:'post',
+	    url:'/action/detail_order_save.jsp' ,
+	    success:function(msg){
+	        if(jQuery.trim(msg)=='rand'){
+			    jQuery.jBox.tip("您提交的过于频繁，请稍后再试!") ;
+			}else{
+			    jQuery.jBox.tip("您的询价信息已成功提交，我们将及时联系您进行报价！!") ;
+ 
+	    	jQuery("#rand").val("") ;
+	        //setTimeout("window.location.reload()",1000);
+			jQuery("#zd_name").val("");
+			jQuery("#zd_mobile_phone").val("");
+			jQuery("#zd_province").val("");
+			jQuery("#zd_city").val("");
+            }
+	    }
+	 }) ;
+   return false ;
+}		
+</script>
+<div id="cli_dialog_div"></div>
+</body>
+</html>

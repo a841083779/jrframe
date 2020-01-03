@@ -1,0 +1,26 @@
+<div class="dl_cg_list dl_sele fix">
+<h3 class="dl_cg_t">全部产品</h3>
+  <div class="l dl_sele_l">
+    <ul class="idTabs dl_sele_l_ls">
+	<#list query("select name from pro_agent_factory where agent_fac!='' order by id asc") as agent >
+      <li><a href="#cg${agent_index+1}" >${agent.name}</a></li>
+	  </#list>
+    </ul>
+  </div>
+  <div class="r dl_sele_r">
+  <#list query("select id,name from pro_agent_factory where agent_fac!='' order by id asc") as agents >
+    <div class="dl_sele_r_ls" id="cg${agents_index+1}">
+      <ul>
+	  <#list query("select catalognum from pro_agent_products  where agent_id='${agents.id}' and catalognum!='' group by catalognum ") as agents_catalog>
+	  <#list query("select num,name  from pro_catalog where num='${agents_catalog.catalognum}' ") as item >
+        <li><a href="#">${item.name}</a></li>
+		</#list>
+		</#list>
+      </ul>
+    </div>
+	</#list>
+  
+  </div>
+  <div class="dl_sele_btm"></div>
+</div>
+

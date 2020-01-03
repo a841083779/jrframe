@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>Join UsJob details_LEONESSAbrevini (Yancheng) Slewing Bearings Co., LTD</title>
+<link href="../style/style.css" tppabs="http://www.leonessabrevini.com/en/style/style.css" rel="stylesheet" />
+<script src="../scripts/jquery.min.js" tppabs="http://www.leonessabrevini.com/en/scripts/jquery.min.js"></script>
+<script src="../scripts/js.js" tppabs="http://www.leonessabrevini.com/en/scripts/js.js"></script>
+</head>
+<body>
+
+<div class="wrap head"> <a href="../index.htm" tppabs="http://www.leonessabrevini.com/en/" title="牛力士布雷维尼" class="dib logo"><img src="../images/logo.jpg" tppabs="http://www.leonessabrevini.com/en/images/logo.jpg" alt="LEONESSAbrevini" /></a> <span class="lang"><a href="../../index.htm" tppabs="http://www.leonessabrevini.com/" class="dib cn">中文</a><a href="../index.htm" tppabs="http://www.leonessabrevini.com/en/" class="dib en">English</a></span> </div>
+<ul class="wrap nav yahei">
+	<li class="i"><a href="../index.htm" tppabs="http://www.leonessabrevini.com/en/">HOME</a></li>
+	<li><a href="../about/index.htm" tppabs="http://www.leonessabrevini.com/en/about/">About Us</a></li>
+	<li><a href="../news/index.htm" tppabs="http://www.leonessabrevini.com/en/news/">News</a></li>
+	<li><a href="../products/index.htm" tppabs="http://www.leonessabrevini.com/en/products/">Product</a></li>
+	<li><a href="../app/index.htm" tppabs="http://www.leonessabrevini.com/en/app/">Application</a></li>
+	<li><a href="../service/index.htm" tppabs="http://www.leonessabrevini.com/en/service/">Service </a></li>
+	<li><a href="index.htm" tppabs="http://www.leonessabrevini.com/en/job/">Join Us</a></li>
+	<li><a href="../contact/index.htm" tppabs="http://www.leonessabrevini.com/en/contact/">Contact Us</a></li>
+</ul>
+<div class="wrap c_ny">
+	<div class="ny pr">
+		<div class="ny2">
+			<div class="ny3 fix"> <span class="pa posi">Your current location:<a href="../index.htm" tppabs="http://www.leonessabrevini.com/en/">HOME</a> > <a href="index.jsp.htm" tppabs="http://www.leonessabrevini.com/en/job/index.jsp">Join Us</a> > Job details</span>
+				<div class="l side job">
+					<h2><span class="dib head_h2"><div>J</div></span>
+						<span class="dib tit_h2">Join Us<div class="en_h2">Job</div></span></h2>
+				</div>
+				<div class="r main"> 　　
+					
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="../style/jereh.css" tppabs="http://www.leonessabrevini.com/en/style/jereh.css" />
+<script type="text/javascript" src="../scripts/jquery-1.4.2.min.js" tppabs="http://www.leonessabrevini.com/en/scripts/jquery-1.4.2.min.js"></script>
+
+
+<script type="text/javascript" src="../scripts/validator_en.js" tppabs="http://www.leonessabrevini.com/en/scripts/validator_en.js"></script>
+
+
+
+<script type="text/javascript">
+<!--
+function jobDoSub(){
+	var myFlag = Validator.Validate(document.getElementById('jobForm'),1);
+	if(myFlag&&checkPhone()){
+		var yzm = '';
+		var myRand=jQuery.trim(jQuery("#rand").val());
+		jQuery.ajax({
+			url:'/action/ajax_rand.jsp?rand='+myRand,
+			async:false,
+			success:function(data){
+				yzm = jQuery.trim(data);
+			}
+		});
+		var rand = jQuery.trim(jQuery("#rand").val());
+		if(yzm!=rand){
+			
+				alert("Please enter the verification code！");
+			
+			jQuery("#rand").focus();
+		}else{
+			if($("#sendmail").val()!=undefined && $("#sendmail").val()!=''){
+				//$.post("http://www.leonessabrevini.com/en/job/mail.jsp",jQuery('#jobForm').serialize(),function(){})
+				var content = '姓名：'+jQuery('#zd_name').val()+'<br/>应聘职位：'+jQuery('#zd_position').val()+'<br/>出生年月：'+jQuery('#zd_birthday').val()+'<br/>籍贯：'+jQuery('#zd_address').val()+'<br/>现住地址：'+jQuery('#zd_contact_address').val()+'<br/>联系电话:'+jQuery('#zd_telephone').val()+'<br/>邮箱：'+jQuery('#zd_email').val()+'<br/>学历：'+jQuery('#zd_education').val()+'<br/>毕业学院：'+jQuery('#zd_college').val()+'<br/>工作经历：'+jQuery('#zd_work_experience').val();
+				var to = jQuery('#sendmail').val();
+				jQuery.getJSON("http://service.21-sun.com/http/utils/sendmail.jsp?callback=?&to="+to+"&title=简历投递&content="+content,function(json){
+					document.jobForm.submit();
+				});
+
+			}else{
+			document.jobForm.submit();
+			}
+		}	
+	}
+}
+	function checkPhone(){
+		var phone= document.getElementById("zd_telephone").value;
+		while(phone.indexOf(" ")!=-1){
+			phone= phone.replace(" ","");
+		}
+		while(phone.indexOf("-")!=-1){
+			phone= phone.replace("-","");
+		}
+		if(isNaN(phone)||phone.length<5||phone.length>13){
+			alert("Please check your phone number!");
+			document.getElementById("zd_telephone").focus();
+			document.getElementById("zd_telephone").select();
+			return false;
+		}
+		return true;
+	}
+
+//-->
+function checkForm(){
+	return true;
+}
+window.onload= function(){
+	document.getElementById("zd_education").value="高中";
+	document.getElementById("zd_sex").value="男";
+}
+</script>
+<script language="javascript">
+function refresh(){
+	document.getElementById("authImg").src='/admin/authImgServlet?now=' + new Date();
+}
+
+</script>
+
+<!--表单背景变色开始-->
+
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(function(){
+	jQuery(".job-txt").hover(function(){
+		jQuery(this).attr("class","jobinputbg2");
+	},function(){
+		jQuery(this).attr("class","jobinputbg1");
+	});
+})
+</script>
+<!--表单背景变色结束-->
+
+<form method="post" name="jobForm" id="jobForm" action="http://www.leonessabrevini.com/en/job/job_i.jsp">
+<input type="hidden" name="op_flag" value="1" />
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="job-form">
+  <tr class="job-odd">
+    <td class="job-left">Name</td>
+    <td class="job-right"><input type="text" name="zd_name" value="" maxlength="30"  id="zd_name" class="job-txt" dataType="Require" msg="Please input your Name!" /><font color="red"> *</font></td>
+  </tr>
+  <tr class="job-even">
+    <td class="job-left">Applied Position</td>
+    <td class="job-right"><input type="text" name="zd_position" value="Heat treatment" maxlength="30" id="zd_position" class="job-txt" dataType="Require" msg="Please input the positon!" /><font color="red"> *</font></td>
+  </tr>
+  <tr class="job-odd">
+    <td class="job-left">Gender</td>
+    <td class="job-right">
+    	<select name="zd_sex" id="zd_sex" value="">
+        	<option value="男">Male </option>
+            <option value="女">Female</option>
+        </select>
+    </td>
+  </tr>
+  <tr class="job-even">
+    <td class="job-left">Date of Birth</td>
+    <td class="job-right"><input type="text" name="zd_birthday" id="zd_birthday" maxlength="30" value="" dataType="Require" msg="Please input your birthday!"  class="job-txt" /><font color="red"> *</font></td>
+  </tr>
+  <tr class="job-odd">
+    <td class="job-left">Height</td>
+    <td class="job-right"><input type="text" name="zd_standing" id="zd_standing" maxlength="30" value="" class="job-txt" /></td>
+  </tr>
+  <tr class="job-even">
+    <td class="job-left">Native Place</td>
+    <td class="job-right"><input type="text" name="zd_address" value="" maxlength="60" dataType="Require"  msg="Please input your native place!" id="zd_address" class="job-txt" /><font color="red"> *</font></td>
+  </tr>
+  <tr class="job-odd">
+    <td class="job-left">Current Address</td>
+    <td class="job-right"><input type="text" name="zd_now_address" value="" maxlength="60" id="zd_now_address" dataType="Require" msg="Please input your Address!" class="job-txt" /><font color="red"> *</font></td>
+  </tr>
+  <tr class="job-even">
+    <td class="job-left">Phone Number</td>
+    <td class="job-right"><input type="text" name="zd_telephone" value="" maxlength="30" id="zd_telephone" dataType="Require" msg="Please input your TEL!" class="job-txt" /><font color="red"> *</font></td>
+  </tr>
+  <tr class="job-odd">
+    <td class="job-left">Email</td>
+    <td class="job-right"><input type="text" name="zd_email" value="" maxlength="30" id="zd_email" dataType="Email" msg="Please check your email!" class="job-txt" /><font color="red"> *</font></td>
+  </tr>
+  <tr class="job-even">
+    <td class="job-left">Education Background</td>
+    <td class="job-right">
+    	<select name="zd_education" id="zd_education">
+        	<option value="初中">Junior High School</option>
+			<option value="高中" selected="selected">Senior High School </option>
+			<option value="大专">College </option>
+			<option value="本科">Undergraduate </option>
+			<option value="研究生">Postgraduate</option>
+        </select>
+     <font color="red"> *</font>
+    </td>
+  </tr>
+  <tr class="job-odd">
+    <td class="job-left">Graduated College</td>
+    <td class="job-right"><input type="text" name="zd_college" value="" maxlength="30" id="zd_college" class="job-txt" dataType="Require"  msg="Please input your College!" /><font color="red"> *</font></td>
+  </tr>
+  <tr class="job-even">
+    <td class="job-left">Major</td>
+    <td class="job-right"><input type="text" name="zd_specialty" value="" maxlength="30" id="zd_specialty" class="job-txt" /></td>
+  </tr>
+  <tr class="job-odd">
+    <td class="job-left">Work Seniority</td>
+    <td class="job-right"><input type="text" name="zd_work_years" value="" maxlength="30" id="zd_work_years" class="job-txt" /></td>
+  </tr>
+  <tr class="job-even">
+    <td class="job-left">Work Experience</td>
+    <td class="job-right"><textarea name="zd_work_experience"  id="zd_work_experience" dataType="Require"  msg="Please input your work experience!"  class="job-txt" ></textarea><font color="red"> *</font></td>
+  </tr>
+  <tr class="job-odd">
+    <td class="job-left">Self Evaluation</td>
+    <td class="job-right"><textarea name="zd_self_evaluation" id="zd_self_evaluation" class="job-txt"></textarea></td>
+  </tr>
+  <tr class="job-odd">
+    <td class="job-left">Verification code</td>
+    <td class="job-right"><input name="rand" type="text" id="rand" value="" size="4" style="width:50px;" maxlength="4" dataType="Require"  msg="Please input verification code!" class="job-txt" onKeyDown="if(event.keyCode==13){jobDoSub();}"><font color="red"> *</font>
+<img src="../../admin/authImgServlet" tppabs="http://www.leonessabrevini.com/admin/authImgServlet" name="authImg" id="authImg" style="cursor:hand"  title="Click to change" onClick="refresh();"/></td>
+  </tr>
+  <tr class="job-last">
+    <td colspan="2">
+    	<div class="job-sub">
+        	<input type="button" onclick="jobDoSub();" value="" />
+        </div>
+        <div class="job-reset">
+        	
+        			<input type="reset" value=" " />
+        			
+        </div>
+        <div class="clear"></div>
+    </td>
+  </tr>
+</table>
+<div style="display:none;">
+<input name="zd_id" type="hidden" id="zd_id" value="0" />
+<input name="zd_web_no" type="hidden" id="zd_web_no" value='11146' />
+<input name="zd_catalog_no" type="hidden" id="zd_catalog_no" value='jobs02' />
+<input name="zd_language_version" type="hidden" id="zd_language_version" value='2' />
+<input name="zd_add_user" type="hidden" id="zd_add_user" value='null' />
+<input name="zd_add_ip" type="hidden" id="zd_add_ip" value='119.180.98.134' />
+<input name="zd_add_date" type="hidden" id="zd_add_date" value='2013-08-01 10:29:59' />
+</div>
+</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="wrap foot">
+	<div class="foot_ lineheight26px c666666"> Copyright &copy; <a href="../index.htm" tppabs="http://www.leonessabrevini.com/en/">LEONESSAbrevini (Yancheng) Slewing Bearings Co., LTD</a><br/>
+		Add:No.65 East Yandu Road, Yancheng Economic Development Zone,Jiangsu, P.R.C. &nbsp;&nbsp;Tel:+86 515 8902 6300　Code:224007</div>
+	<div class="pa"><a href="../index.htm" tppabs="http://www.leonessabrevini.com/en/" title="HOME">◄ HOME</a><a href="#" title="TOP">▲ TOP</a></div>
+</div>
+</body>
+</html>

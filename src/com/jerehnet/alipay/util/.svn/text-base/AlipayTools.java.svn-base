@@ -1,0 +1,51 @@
+package com.jerehnet.alipay.util;
+
+import java.io.*;
+import java.net.*;
+import java.sql.*;
+import java.text.*;
+import java.util.*;
+import java.util.Date;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.commons.httpclient.DefaultHttpMethodRetryHandler;
+import org.apache.commons.httpclient.HttpClient;
+import org.apache.commons.httpclient.methods.GetMethod;
+import org.apache.commons.httpclient.params.HttpMethodParams;
+import org.json.*;
+
+import com.jerehnet.util.common.*;
+import com.jerehnet.util.dbutil.DBHelper;
+import com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException;
+
+public class AlipayTools {
+	public static void loadStaticVariable() {
+
+	}
+
+	@SuppressWarnings( { "unchecked", "static-access" })
+	
+
+	/** ************************ 业务相关代码 *********************** */
+	
+	/**
+	 * 生成订单号，规则：10-99随机数+当前时间的毫秒显示方式的后11位+买家id的后2位（买家id为1位时，前导0）
+	 * 
+	 * @param mem_id
+	 * @return
+	 */
+	public static String generationOrderNum(int mem_id) {
+		String num = String.valueOf((new Random().nextInt(90) + 10));
+		String millis = String.valueOf(System.currentTimeMillis());
+		millis = millis.substring(2);
+		String id = String.valueOf(mem_id);
+		if (id.length() < 2) {
+			id = "0" + id;
+		} else if (id.length() > 2) {
+			id = id.substring(id.length() - 2);
+		}
+		return num + millis + id;
+	}
+
+}

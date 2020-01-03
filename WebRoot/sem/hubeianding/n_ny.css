@@ -1,0 +1,1479 @@
+BODY {
+	LINE-HEIGHT: 200%; MARGIN: 0px auto; FONT-FAMILY: "ËÎÌå","Arial Narrow"; BACKGROUND: url("bj.jpg")/*tpa=http://www.hubeianding.com/images/bj.jpg*/; COLOR: #ffffff; FONT-SIZE: 12px
+}
+IMG {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+DIV {
+	ZOOM: 1; OVERFLOW: hidden
+}
+A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.topbg {
+	WIDTH: auto; BACKGROUND: url("bg_ny_02.jpg")/*tpa=http://www.hubeianding.com/images/bg_ny_02.jpg*/; HEIGHT: 425px
+}
+.topbg .top_redline {
+	WIDTH: auto; BACKGROUND: #999999; HEIGHT: 1px
+}
+.topbg .top {
+	MARGIN: 0px auto; WIDTH: 959px; BACKGROUND: url("logo.jpg")/*tpa=http://www.hubeianding.com/images/logo.jpg*/ repeat-x 50% top
+}
+.topbg .top .top_left {
+	WIDTH: 726px; FLOAT: left; HEIGHT: 105px
+}
+.topbg .top .top_right {
+	WIDTH: 233px; FLOAT: left; HEIGHT: 98px; PADDING-TOP: 7px
+}
+.topbg .top .top_right .right1 {
+	WIDTH: 233px; FLOAT: left; HEIGHT: 37px
+}
+.topbg .top .top_right .right2 {
+	WIDTH: 233px; FLOAT: left; HEIGHT: 68px
+}
+.topbg .menu {
+	MARGIN: 0px auto; WIDTH: 959px; BACKGROUND: url("menu_bg.jpg")/*tpa=http://www.hubeianding.com/images/menu_bg.jpg*/ repeat-x; HEIGHT: 38px
+}
+.topbg .menu .menu_left {
+	WIDTH: 5px; BACKGROUND: url("menu_left.jpg")/*tpa=http://www.hubeianding.com/images/menu_left.jpg*/ no-repeat 50% top; FLOAT: left; HEIGHT: 38px
+}
+.topbg .menu UL {
+	WIDTH: 949px; FLOAT: left; HEIGHT: 38px
+}
+.topbg .menu LI {
+	TEXT-ALIGN: center; WIDTH: 92px; BACKGROUND: url("menu_line.jpg")/*tpa=http://www.hubeianding.com/images/menu_line.jpg*/ no-repeat right top; FLOAT: left; HEIGHT: 38px; COLOR: #ffffff
+}
+.topbg .menu LI A {
+	DISPLAY: block; HEIGHT: 38px; COLOR: #ffffff; PADDING-TOP: 7px
+}
+.topbg .menu LI A:hover {
+	BACKGROUND: url("menu_c.jpg")/*tpa=http://www.hubeianding.com/images/menu_c.jpg*/ no-repeat 50% top; HEIGHT: 38px; COLOR: #000000
+}
+.topbg .menu .menu_right {
+	WIDTH: 5px; BACKGROUND: url("menu_right.jpg")/*tpa=http://www.hubeianding.com/images/menu_right.jpg*/ no-repeat 50% top; FLOAT: left; HEIGHT: 38px
+}
+.topbg .top2 {
+	MARGIN: 0px auto; WIDTH: 959px; BACKGROUND: url("menu1_19.gif")/*tpa=http://www.hubeianding.com/images/menu1_19.gif*/ no-repeat 50% top; HEIGHT: 36px
+}
+.topbg .top2 .m {
+	PADDING-LEFT: 110px; WIDTH: 800px; HEIGHT: 36px; COLOR: #ffffff; PADDING-TOP: 7px
+}
+.topbg .banner {
+	MARGIN: 0px auto; WIDTH: 959px; HEIGHT: 204px
+}
+.topbg .banner .banner1 {
+	WIDTH: 214px; FLOAT: left; HEIGHT: 205px
+}
+.topbg .banner .banner2 {
+	MARGIN: 0px auto; WIDTH: 735px; HEIGHT: 205px
+}
+.topbg .top3 {
+	MARGIN: 0px auto; WIDTH: 959px; BACKGROUND: url("top_14.jpg")/*tpa=http://www.hubeianding.com/images/top_14.jpg*/ no-repeat 50% top; HEIGHT: 40px
+}
+.topbg .top3 .left {
+	WIDTH: 794px; FLOAT: left; HEIGHT: 40px
+}
+.topbg .top3 .left .ch {
+	PADDING-LEFT: 30px; FLOAT: left; COLOR: #ffffff; PADDING-TOP: 11px
+}
+.topbg .top3 .left .en {
+	COLOR: #ffea00
+}
+.topbg .top3 .left .en A {
+	COLOR: #ffea00
+}
+.topbg .top3 .right {
+	WIDTH: 165px; FLOAT: left; HEIGHT: 40px
+}
+.middle4 {
+	MARGIN: 17px auto 8px; WIDTH: 959px
+}
+.middle4 .left {
+	WIDTH: 213px; FLOAT: left
+}
+.middle4 .left .left1 {
+	WIDTH: 213px; BACKGROUND: url("index_32.jpg")/*tpa=http://www.hubeianding.com/images/index_32.jpg*/ no-repeat 50% top; HEIGHT: 232px
+}
+.middle4 .left .left1 .yongtu1 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 50px; COLOR: #ffffff; FONT-SIZE: 14px; PADDING-TOP: 20px
+}
+.middle4 .left .left1 .yongtu2 {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 27px; TEXT-INDENT: 2em; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; HEIGHT: 268px; COLOR: #ffffff; PADDING-TOP: 5px
+}
+.middle4 .left .left1 UL {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 22px; PADDING-RIGHT: 22px; COLOR: #ffffff; PADDING-TOP: 6px
+}
+.middle4 .left .left1 UL LI {
+	PADDING-LEFT: 10px; BACKGROUND: url("san1.gif")/*tpa=http://www.hubeianding.com/images/san1.gif*/ no-repeat left 7px; HEIGHT: 27px
+}
+.middle4 .left .left2 {
+	MARGIN-TOP: 8px; WIDTH: 213px; BACKGROUND: url("index_37.jpg")/*tpa=http://www.hubeianding.com/images/index_37.jpg*/ no-repeat 50% top; HEIGHT: 316px
+}
+.middle4 .left .left2 .tezheng1 {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 50px; COLOR: #ffffff; FONT-SIZE: 14px; PADDING-TOP: 16px
+}
+.middle4 .left .left2 .tezheng2 {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 27px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 568px; PADDING-TOP: 5px
+}
+.middle4 .left .left2 .tezheng2 A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.middle4 .left .left2 .tezheng2 A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.middle4 .left .left3 {
+	MARGIN-TOP: 8px; WIDTH: 213px; BACKGROUND: url("sousuo.jpg")/*tpa=http://www.hubeianding.com/images/sousuo.jpg*/ no-repeat 50% top; HEIGHT: 157px
+}
+.middle4 .left .left3 .tezhengsousuo {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 50px; COLOR: #ffffff; FONT-SIZE: 14px; PADDING-TOP: 16px
+}
+.middle4 .left .left4 {
+	MARGIN-TOP: 0px; WIDTH: 213px; BACKGROUND: url("index_30.jpg")/*tpa=http://www.hubeianding.com/images/index_30.jpg*/ no-repeat 50% top; HEIGHT: 435px
+}
+.middle4 .left .left4 .yongtu1 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 50px; COLOR: #ffffff; FONT-SIZE: 14px; PADDING-TOP: 20px
+}
+.middle4 .left .left4 .yongtu2 {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 27px; TEXT-INDENT: 2em; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; HEIGHT: 268px; COLOR: #ffffff; PADDING-TOP: 5px
+}
+.middle4 .left .left4 UL {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; COLOR: #ffffff; PADDING-TOP: 6px
+}
+.middle4 .left .left4 UL LI {
+	PADDING-LEFT: 10px; BACKGROUND: url("san1.gif")/*tpa=http://www.hubeianding.com/images/san1.gif*/ no-repeat left 7px; HEIGHT: 27px
+}
+.middle4 .left .left5 {
+	MARGIN-TOP: 0px; WIDTH: 213px; BACKGROUND: url("index_37.jpg")/*tpa=http://www.hubeianding.com/images/index_37.jpg*/ no-repeat 50% top; HEIGHT: 316px
+}
+.middle4 .left .left5 .yongtu1 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 50px; COLOR: #ffffff; FONT-SIZE: 14px; PADDING-TOP: 20px
+}
+.middle4 .left .left5 .yongtu2 {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 27px; TEXT-INDENT: 2em; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; HEIGHT: 268px; COLOR: #ffffff; PADDING-TOP: 5px
+}
+.middle4 .left .left5 UL {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; COLOR: #ffffff; PADDING-TOP: 6px
+}
+.middle4 .left .left5 UL LI {
+	PADDING-LEFT: 10px; BACKGROUND: url("san1.gif")/*tpa=http://www.hubeianding.com/images/san1.gif*/ no-repeat left 7px; HEIGHT: 27px
+}
+.middle4 .right {
+	WIDTH: 735px; BACKGROUND: url("biz_11.gif")/*tpa=http://www.hubeianding.com/images/biz_11.gif*/ repeat-y; FLOAT: left; MARGIN-LEFT: 11px
+}
+.middle4 .right .top {
+	WIDTH: 735px; BACKGROUND: url("biz_08.gif")/*tpa=http://www.hubeianding.com/images/biz_08.gif*/ no-repeat 50% top; HEIGHT: 8px
+}
+.middle4 .right .bot {
+	WIDTH: 735px; BACKGROUND: url("biz_19.gif")/*tpa=http://www.hubeianding.com/images/biz_19.gif*/ no-repeat 50% top; HEIGHT: 9px
+}
+.middle4 .right .bt {
+	MARGIN: 10px auto 5px; BACKGROUND: url("biz_12.jpg")/*tpa=http://www.hubeianding.com/images/biz_12.jpg*/ no-repeat 50% top; HEIGHT: 63px
+}
+.middle4 .right .bt1 {
+	MARGIN: 10px auto 5px; BACKGROUND: url("bzj_knowledge.jpg")/*tpa=http://www.hubeianding.com/images/bzj_knowledge.jpg*/ no-repeat 50% top; HEIGHT: 63px
+}
+.middle4 .right .bt_products {
+	MARGIN: 10px auto 5px; BACKGROUND: url("biz_15.gif")/*tpa=http://www.hubeianding.com/images/biz_15.gif*/ no-repeat 50% top; HEIGHT: 63px
+}
+.middle4 .right .bt .place {
+	PADDING-LEFT: 30px; PADDING-TOP: 38px
+}
+.middle4 .right .bt1 .place {
+	PADDING-LEFT: 30px; PADDING-TOP: 38px
+}
+.middle4 .right .bt_products .place {
+	PADDING-LEFT: 30px; PADDING-TOP: 38px
+}
+.middle4 .right .line {
+	MARGIN: 0px auto 5px; WIDTH: 685px; BACKGROUND: #626262; HEIGHT: 1px
+}
+.middle4 .right .main {
+	MARGIN: 10px auto 5px; WIDTH: 700px
+}
+.middle4 .right1 {
+	WIDTH: 735px; BACKGROUND: url("about_36.gif")/*tpa=http://www.hubeianding.com/images/about_36.gif*/ repeat-y; FLOAT: left; COLOR: #000000; MARGIN-LEFT: 11px
+}
+.middle4 .right1 A {
+	COLOR: #000000
+}
+.middle4 .right1 A:hover {
+	COLOR: #f00; TEXT-DECORATION: underline
+}
+.middle4 .right1 .top {
+	WIDTH: 735px; BACKGROUND: url("about_24.gif")/*tpa=http://www.hubeianding.com/images/about_24.gif*/ no-repeat 50% top; HEIGHT: 7px
+}
+.middle4 .right1 .bot {
+	WIDTH: 735px; BACKGROUND: url("about_41.gif")/*tpa=http://www.hubeianding.com/images/about_41.gif*/ no-repeat 50% top; HEIGHT: 7px
+}
+.middle4 .right1 .place {
+	PADDING-LEFT: 30px; PADDING-TOP: 5px
+}
+.middle4 .right1 .main {
+	MARGIN: 0px auto 5px; WIDTH: 700px; FONT-FAMILY: 
+}
+.middle4 .right1 .main .bazhaji {
+	FONT-FAMILY: "ËÎÌå","Î¢ÈíÑÅºÚ","Arial Narrow"; FONT-SIZE: 12px
+}
+.link {
+	MARGIN-TOP: 16px; WIDTH: 959px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.link .linkbt1 {
+	WIDTH: 843px; FLOAT: left
+}
+.link .linkbt2 {
+	WIDTH: 116px; FLOAT: left
+}
+.link .link3 {
+	WIDTH: 959px; HEIGHT: 91px
+}
+.bot {
+	WIDTH: auto; BACKGROUND: url("index_51.jpg")/*tpa=http://www.hubeianding.com/images/index_51.jpg*/ repeat-x 50% top; HEIGHT: 247px
+}
+.bot .contact {
+	MARGIN: 0px auto; WIDTH: 959px; BACKGROUND: url("index_53.jpg")/*tpa=http://www.hubeianding.com/images/index_53.jpg*/ no-repeat 50% top; HEIGHT: 247px
+}
+.bot .contact UL {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 625px; WIDTH: 325px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 32px
+}
+.bot .contact UL LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 12px; WIDTH: 80px; FLOAT: left; COLOR: #ffffff
+}
+.bot .contact .copyright {
+	PADDING-LEFT: 278px; WIDTH: 570px; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 120px; COLOR: #ffffff; PADDING-TOP: 0px
+}
+.formlistleft TD {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 28px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; HEIGHT: 28px; VERTICAL-ALIGN: middle; PADDING-TOP: 4px
+}
+formlist2 TH {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 28px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; HEIGHT: 28px; VERTICAL-ALIGN: middle; PADDING-TOP: 4px
+}
+.formlistleft TH {
+	TEXT-ALIGN: right; PADDING-LEFT: 10px; PADDING-RIGHT: 5px; FONT-WEIGHT: normal
+}
+.formlistleft TD SPAN {
+	PADDING-LEFT: 5px; COLOR: #adadad; VERTICAL-ALIGN: middle
+}
+.formlistleft .content {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 200%; PADDING-LEFT: 25px; PADDING-RIGHT: 0px; COLOR: #ff580a; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.rightleft {
+	TEXT-ALIGN: right
+}
+.fcontentleft {
+	MARGIN: 0px auto; WIDTH: 213px
+}
+.fcontentleftziti {
+	COLOR: #ffffff
+}
+INPUT.buttonface {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 88px; PADDING-RIGHT: 0px; BACKGROUND: url("botton_bg.jpg")/*tpa=http://www.hubeianding.com/images/botton_bg.jpg*/ no-repeat 0px 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 24px; COLOR: #fff; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+INPUT.buttonface2 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 68px; PADDING-RIGHT: 0px; BACKGROUND: url("search.gif")/*tpa=http://www.hubeianding.com/images/search.gif*/ no-repeat 0px 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 21px; COLOR: #fff; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+INPUT.buttonface1 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 68px; PADDING-RIGHT: 0px; BACKGROUND: url("querendingyue.gif")/*tpa=http://www.hubeianding.com/images/querendingyue.gif*/ no-repeat 0px 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 21px; COLOR: #fff; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.frameleft {
+	WIDTH: 682px; FLOAT: left
+}
+.margintleft10 {
+	MARGIN-LEFT: 10px
+}
+.frameleft .fup1 {
+	LINE-HEIGHT: 39px; WIDTH: 682px; BACKGROUND: url("conent_bg_02.jpg")/*tpa=http://www.hubeianding.com/images/conent_bg_02.jpg*/ repeat-x 0px 0px; HEIGHT: 39px
+}
+.frameleft .fup .spantitle {
+	TEXT-ALIGN: center; PADDING-LEFT: 35px; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.fup1 .spantitle {
+	TEXT-ALIGN: center; PADDING-LEFT: 35px; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.fup2 .spantitle {
+	TEXT-ALIGN: center; PADDING-LEFT: 35px; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.frameleft .fcontent1 {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 662px; PADDING-RIGHT: 10px; BACKGROUND: url("conent_bg_02.jpg")/*tpa=http://www.hubeianding.com/images/conent_bg_02.jpg*/ repeat-y -682px 0px; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.newsleft {
+	WIDTH: 212px; FLOAT: left
+}
+.center {
+	TEXT-ALIGN: center
+}
+A.infolist {
+	COLOR: #626262; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.newsright {
+	WIDTH: 450px; FLOAT: left
+}
+.textlist {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 200%; LIST-STYLE-TYPE: none; MARGIN: 0px auto; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.textlist LI {
+	LINE-HEIGHT: 25px; LIST-STYLE-TYPE: none; PADDING-LEFT: 8px; BACKGROUND: url("icon3.gif")/*tpa=http://www.hubeianding.com/images/icon3.gif*/ no-repeat 0px 10px; HEIGHT: 25px; OVERFLOW: hidden
+}
+.textlist LI .names {
+	FLOAT: right; COLOR: #bdbdbd; FONT-SIZE: 12px
+}
+.frameleft .fdown1 {
+	BACKGROUND-COLOR: #b9e5fa; WIDTH: 682px; HEIGHT: 4px; OVERFLOW: hidden
+}
+.frameleft .fup2 {
+	LINE-HEIGHT: 39px; WIDTH: 682px; BACKGROUND: url("conent_bg_03.jpg")/*tpa=http://www.hubeianding.com/images/conent_bg_03.jpg*/ repeat-x 0px 0px; HEIGHT: 39px
+}
+.margintop8 {
+	MARGIN-TOP: 8px
+}
+.frameleft .fup .spantitle {
+	TEXT-ALIGN: center; PADDING-LEFT: 35px; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.fup1 .spantitle {
+	TEXT-ALIGN: center; PADDING-LEFT: 35px; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.fup2 .spantitle {
+	TEXT-ALIGN: center; PADDING-LEFT: 35px; FLOAT: left; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.frameleft .fup .spanmone {
+	PADDING-RIGHT: 10px; FLOAT: right
+}
+.fup1 .spanmone {
+	PADDING-RIGHT: 10px; FLOAT: right
+}
+.fup2 .spanmone {
+	PADDING-RIGHT: 10px; FLOAT: right
+}
+A.morn {
+	COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.frameleft .fcontent2 {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 662px; PADDING-RIGHT: 10px; BACKGROUND: url("conent_bg_03.jpg")/*tpa=http://www.hubeianding.com/images/conent_bg_03.jpg*/ repeat-y -682px 0px; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.frameleft .fdown2 {
+	BACKGROUND-COLOR: #faceb9; WIDTH: 682px; HEIGHT: 4px; OVERFLOW: hidden
+}
+.pagelist {
+	WIDTH: 682px; FLOAT: left
+}
+.newslist {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px auto 0px 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.newslist LI {
+	BORDER-BOTTOM: #dadbd6 1px dotted; TEXT-ALIGN: left; LINE-HEIGHT: 35px; LIST-STYLE-TYPE: none; MARGIN: 0px auto; PADDING-LEFT: 15px; BACKGROUND: url("icon3.gif")/*tpa=http://www.hubeianding.com/images/icon3.gif*/ no-repeat 5px 15px; HEIGHT: 35px; OVERFLOW: hidden
+}
+.newslist LI .data {
+	PADDING-RIGHT: 10px; FLOAT: right; COLOR: #b3b3b3
+}
+.lineheight200 {
+	LINE-HEIGHT: 200%
+}
+.strong {
+	FONT-WEIGHT: bold
+}
+.hrline {
+	BORDER-BOTTOM: #cfe8f7 1px solid; BORDER-LEFT: #cfe8f7 1px solid; HEIGHT: 0px; BORDER-TOP: #cfe8f7 1px solid; BORDER-RIGHT: #cfe8f7 1px solid
+}
+.fontsize14 {
+	FONT-SIZE: 14px
+}
+.padding-right3 {
+	PADDING-RIGHT: 5px
+}
+.bookline {
+	MARGIN: 5px 0px; HEIGHT: 1px; FONT-SIZE: 0px; BORDER-TOP: #e5e5e5 1px solid
+}
+.fonttextindent2em {
+	TEXT-INDENT: 2em
+}
+.pagination {
+	LINE-HEIGHT: 35px; FONT-FAMILY: Î¢ÈíÑÅºÚ, ËÎÌå, arial, helvetica, sans-serif; HEIGHT: 35px; OVERFLOW: hidden
+}
+.pagination SPAN.current {
+	BORDER-BOTTOM: #b7d8ee 1px solid; BORDER-LEFT: #b7d8ee 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 1px; PADDING-LEFT: 5px; PADDING-RIGHT: 6px; COLOR: #5e78c5; BORDER-TOP: #b7d8ee 1px solid; BORDER-RIGHT: #b7d8ee 1px solid; PADDING-TOP: 5px
+}
+.pagination SPAN.disabled {
+	BACKGROUND-COLOR: #d2eaf6
+}
+.otherZt {
+	MARGIN: 10px 0px; BORDER-TOP: #dadbd6 1px dashed
+}
+.three_fg {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px auto 0px 10px; PADDING-LEFT: 0px; WIDTH: 690px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.three_fg LI {
+	TEXT-ALIGN: left; LINE-HEIGHT: 25px; LIST-STYLE-TYPE: none; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: 330px; FLOAT: left; HEIGHT: 25px; OVERFLOW: hidden
+}
+.three_fg LI.a {
+	FONT-WEIGHT: bold
+}
+.three_fg LI.b {
+	LINE-HEIGHT: 25px; LIST-STYLE-TYPE: none; PADDING-LEFT: 8px; DISPLAY: list-item; BACKGROUND: url("icon3.gif")/*tpa=http://www.hubeianding.com/images/icon3.gif*/ no-repeat 0px 11px; HEIGHT: 25px
+}
+.three_fg LI .title {
+	FLOAT: left
+}
+.pagecontent {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #ebf0f4; PADDING-LEFT: 5px; WIDTH: 672px; PADDING-RIGHT: 5px; FLOAT: left; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.pagecontentstr {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #fff; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.pagelist {
+	WIDTH: 682px; FLOAT: left
+}
+.righttext {
+	WIDTH: 662px; FLOAT: left
+}
+.righttext_padding {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; WIDTH: 632px; PADDING-RIGHT: 15px; FLOAT: left; PADDING-TOP: 0px
+}
+.readpic {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: 300px; PADDING-RIGHT: 5px; FLOAT: left; HEIGHT: 300px; PADDING-TOP: 5px
+}
+.readpicphoto {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: 700px; PADDING-RIGHT: 5px; FLOAT: left; HEIGHT: 500px; PADDING-TOP: 5px
+}
+.readpic IMG {
+	BORDER-BOTTOM: #eee 1px solid; BORDER-LEFT: #eee 1px solid; BORDER-TOP: #eee 1px solid; BORDER-RIGHT: #eee 1px solid
+}
+.readtitle {
+	TEXT-ALIGN: left; WIDTH: 300px; FLOAT: left; MARGIN-LEFT: 10px
+}
+.readtitle DL DT {
+	LINE-HEIGHT: 180%; PADDING-LEFT: 10px; COLOR: #ff6600; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.readtitle DL DD {
+	LINE-HEIGHT: 30px; PADDING-LEFT: 10px; HEIGHT: 30px; COLOR: #828282
+}
+.readtitle DL DD.fastline {
+	LINE-HEIGHT: 30px; BACKGROUND-COLOR: #f8f8f8; HEIGHT: 30px; COLOR: #828282
+}
+.readtitle DL DD.orderbotton {
+	PADDING-TOP: 15px
+}
+.readtitlephoto {
+	TEXT-ALIGN: left; WIDTH: 600px; FLOAT: left; MARGIN-LEFT: 10px
+}
+.readtitlephoto DL DT {
+	LINE-HEIGHT: 180%; PADDING-LEFT: 10px; COLOR: #ff6600; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.readtitlephoto DL DD {
+	LINE-HEIGHT: 30px; PADDING-LEFT: 10px; HEIGHT: 30px; COLOR: #828282
+}
+.readtitlephoto DL DD.fastline {
+	LINE-HEIGHT: 30px; BACKGROUND-COLOR: #f8f8f8; HEIGHT: 30px; COLOR: #828282
+}
+.readtitlephoto DL DD.orderbotton {
+	PADDING-TOP: 15px
+}
+.readlist {
+	MARGIN: 10px auto 0px; WIDTH: 662px; FLOAT: left
+}
+.readlist .tg {
+	LINE-HEIGHT: 48px; PADDING-LEFT: 35px; BACKGROUND: url("readlist_bg2.jpg")/*tpa=http://www.hubeianding.com/images/readlist_bg2.jpg*/ no-repeat; HEIGHT: 48px; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.readlist .tg1 {
+	LINE-HEIGHT: 48px; PADDING-LEFT: 35px; BACKGROUND: url("readlist_bg.jpg")/*tpa=http://www.hubeianding.com/images/readlist_bg.jpg*/ no-repeat; HEIGHT: 48px; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.readlist .tg3 {
+	BORDER-BOTTOM: #d0d0d0 1px dotted; LINE-HEIGHT: 38px; PADDING-LEFT: 10px; HEIGHT: 38px; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.readlist .l {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.bbslist {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px auto; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.bbslist LI {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #d0d0d0 1px dotted; PADDING-TOP: 10px
+}
+.bbslist LI:first-child {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #d0d0d0 0px dotted; PADDING-TOP: 0px
+}
+.bbslist LI .first-child {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #d0d0d0 0px dotted; PADDING-TOP: 0px
+}
+.bbslist LI DIV {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 180%; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.bbslist LI .sendname {
+	TEXT-ALIGN: right
+}
+.bbslist LI .messagelist {
+	TEXT-ALIGN: left
+}
+.bbslist LI .remessagelist {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.piclist {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px auto; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.piclist LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 5px; WIDTH: 120px; PADDING-RIGHT: 7px; FLOAT: left; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.piclist LI IMG {
+	BORDER-BOTTOM: #eee 0px solid; BORDER-LEFT: #eee 0px solid; BORDER-TOP: #eee 0px solid; BORDER-RIGHT: #eee 0px solid
+}
+.piclist LI P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.piclist LI .t {
+	LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.goodslist {
+	LIST-STYLE-TYPE: none; MARGIN: 0px auto; OVERFLOW: hidden
+}
+.goodslist LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 205px; PADDING-RIGHT: 10px; FLOAT: left; HEIGHT: 220px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.goodslist LI .t {
+	LINE-HEIGHT: 25px; DISPLAY: list-item; HEIGHT: 25px; OVERFLOW: hidden
+}
+.goodslist LI P {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 25px; PADDING-TOP: 0px
+}
+.goodslist LI IMG {
+	BORDER-BOTTOM: #eee 2px solid; BORDER-LEFT: #eee 2px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: #eee 2px solid; BORDER-RIGHT: #eee 2px solid; PADDING-TOP: 5px
+}
+.goodslist LI IMG:hover {
+	BORDER-BOTTOM: #00a1d8 2px solid; BORDER-LEFT: #00a1d8 2px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: #00a1d8 2px solid; BORDER-RIGHT: #00a1d8 2px solid; PADDING-TOP: 5px
+}
+A.btninfo1 {
+	LINE-HEIGHT: 30px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 28px; WIDTH: 100px; DISPLAY: inline-block; BACKGROUND: url("botton_order_bg.jpg")/*tpa=http://www.hubeianding.com/images/botton_order_bg.jpg*/ no-repeat 0px -33px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 33px; COLOR: #fff; FONT-SIZE: 14px; BORDER-LEFT-WIDTH: 0px
+}
+A.btninfo2 {
+	LINE-HEIGHT: 30px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 28px; WIDTH: 100px; DISPLAY: inline-block; BACKGROUND: url("botton_order_bg.jpg")/*tpa=http://www.hubeianding.com/images/botton_order_bg.jpg*/ no-repeat 0px 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 33px; COLOR: #fff; FONT-SIZE: 14px; BORDER-LEFT-WIDTH: 0px
+}
+.jcarousel {
+	HEIGHT: 120px; OVERFLOW: hidden
+}
+.colorgreen {
+	COLOR: #0f66cd
+}
+A.infolist_orning {
+	COLOR: #fe6c00; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.joblist {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px auto 0px 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.joblist LI {
+	BORDER-BOTTOM: #dadbd6 1px dotted; PADDING-BOTTOM: 10px; LIST-STYLE-TYPE: none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.formlist TD {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 10px
+}
+formlist TH {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 10px
+}
+.formlist TH {
+	TEXT-ALIGN: right; PADDING-RIGHT: 5px; FONT-WEIGHT: normal
+}
+.formlist TH.th2 {
+	TEXT-ALIGN: right; WIDTH: 15%; PADDING-RIGHT: 5px; FONT-WEIGHT: normal
+}
+.formlist TH.th3 {
+	TEXT-ALIGN: right; WIDTH: 25%; PADDING-RIGHT: 5px; FONT-WEIGHT: normal
+}
+.formlist TD.td01 {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 25px; BACKGROUND-COLOR: #f0f0f0; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; HEIGHT: 25px; COLOR: #0f66cd; PADDING-TOP: 5px
+}
+.formlist TD SPAN {
+	PADDING-LEFT: 5px; COLOR: #adadad; VERTICAL-ALIGN: middle
+}
+.formlist2 TD {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 28px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; HEIGHT: 28px; VERTICAL-ALIGN: middle; PADDING-TOP: 4px
+}
+formlist2 TH {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 28px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; HEIGHT: 28px; VERTICAL-ALIGN: middle; PADDING-TOP: 4px
+}
+.formlist2 TH {
+	TEXT-ALIGN: right; PADDING-LEFT: 10px; PADDING-RIGHT: 5px; FONT-WEIGHT: normal
+}
+.formlist2 TD SPAN {
+	PADDING-LEFT: 5px; COLOR: #adadad; VERTICAL-ALIGN: middle
+}
+.formlist2 .content {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 200%; PADDING-LEFT: 25px; PADDING-RIGHT: 0px; COLOR: #ff580a; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.formlist3 TD {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 180%; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.formlist3 TD.line {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; WIDTH: 20%; PADDING-RIGHT: 0px; COLOR: #014597; FONT-WEIGHT: bold; BORDER-RIGHT: #dadbd6 2px solid; PADDING-TOP: 5px
+}
+.framecenter {
+	MARGIN: 0px auto; WIDTH: 682px
+}
+.margintop10 {
+	MARGIN-TOP: 10px
+}
+.widthpage {
+	PADDING-BOTTOM: 10px; MARGIN: 0px auto; PADDING-LEFT: 10px; WIDTH: 682px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.colorgorningage {
+	COLOR: #ff5b0b
+}
+.padding-left10 {
+	PADDING-LEFT: 10px
+}
+.colorgorning3 {
+	COLOR: #90898c
+}
+.bgcolorthree2 {
+	BACKGROUND-COLOR: #f0f0f0
+}
+.widthpagelist {
+	MARGIN: 0px auto; WIDTH: 682px
+}
+.tbottonlist {
+	WIDTH: 260px
+}
+.tbottonlist .tg {
+	LINE-HEIGHT: 30px; BACKGROUND-COLOR: #b5d4f2; PADDING-LEFT: 15px; HEIGHT: 30px; COLOR: #fff; FONT-WEIGHT: bold
+}
+.tbottonlist .l {
+	BORDER-BOTTOM: #b5d4f2 1px solid; BORDER-LEFT: #b5d4f2 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: #b5d4f2 1px solid; BORDER-RIGHT: #b5d4f2 1px solid; PADDING-TOP: 5px
+}
+.tablelist .td01 {
+	BORDER-BOTTOM: #e6e6e6 1px solid; BORDER-LEFT: #e6e6e6 1px solid; PADDING-BOTTOM: 5px; LINE-HEIGHT: 30px; BACKGROUND-COLOR: #f3f3f3; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; HEIGHT: 30px; BORDER-TOP: #e6e6e6 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #e6e6e6 1px solid; PADDING-TOP: 5px
+}
+.tablelist .td02 {
+	BORDER-BOTTOM: #d2e5ef 1px dotted; PADDING-BOTTOM: 5px; LINE-HEIGHT: 30px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; HEIGHT: 30px; PADDING-TOP: 5px
+}
+.tablelist .td03 {
+	BORDER-BOTTOM: #e6e6e6 1px solid; BORDER-LEFT: #e6e6e6 0px; PADDING-BOTTOM: 5px; LINE-HEIGHT: 30px; PADDING-LEFT: 15px; PADDING-RIGHT: 5px; BACKGROUND: url("icon1.gif")/*tpa=http://www.hubeianding.com/images/icon1.gif*/ no-repeat 5px 16px; HEIGHT: 30px; BORDER-TOP: #e6e6e6 0px; BORDER-RIGHT: #e6e6e6 0px; PADDING-TOP: 5px
+}
+.td03 IMG {
+	VERTICAL-ALIGN: middle
+}
+.tablelist .td04 {
+	BORDER-BOTTOM: #e6e6e6 1px solid; BORDER-LEFT: #e6e6e6 0px; PADDING-BOTTOM: 5px; LINE-HEIGHT: 30px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; HEIGHT: 30px; BORDER-TOP: #e6e6e6 0px; BORDER-RIGHT: #e6e6e6 0px; PADDING-TOP: 5px
+}
+.tablelist .td05 {
+	BORDER-BOTTOM: #f0f0f0 1px solid; BORDER-LEFT: #f0f0f0 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 5px; BORDER-TOP: #f0f0f0 1px solid; BORDER-RIGHT: #f0f0f0 1px solid; PADDING-TOP: 5px
+}
+.tablelist .td06 {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 30px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; HEIGHT: 30px; PADDING-TOP: 5px
+}
+A.infolink03 {
+	COLOR: #364be7; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.three {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px auto 0px 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.three LI {
+	BORDER-BOTTOM: #d0d0d0 1px dotted; TEXT-ALIGN: left; LINE-HEIGHT: 30px; LIST-STYLE-TYPE: none; MARGIN: 0px auto; PADDING-LEFT: 0px; HEIGHT: 30px; OVERFLOW: hidden
+}
+.three LI.a {
+	PADDING-LEFT: 13px
+}
+.three LI.b {
+	PADDING-LEFT: 13px; DISPLAY: list-item; BACKGROUND: url("icon1.gif")/*tpa=http://www.hubeianding.com/images/icon1.gif*/ no-repeat 0px 10px; FONT-WEIGHT: bold
+}
+A.typelink {
+	COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.sianin .sianinbg {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT: #d2e5ef 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 369px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; OVERFLOW: hidden; BORDER-RIGHT: #d2e5ef 1px solid; PADDING-TOP: 10px
+}
+.signintitle {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 70px; PADDING-RIGHT: 0px; BACKGROUND: url("application.gif")/*tpa=http://www.hubeianding.com/images/application.gif*/ no-repeat left -166px; HEIGHT: 29px; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+.signin-area-bg {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: 361px; PADDING-RIGHT: 5px; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.signin-area-bg2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.signin-area-bg3 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 110px; WIDTH: 251px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.tipsnr {
+	LINE-HEIGHT: 5px; WIDTH: 371px; BACKGROUND: url("login.gif")/*tpa=http://www.hubeianding.com/images/login.gif*/ no-repeat left -103px; HEIGHT: 5px; OVERFLOW: hidden
+}
+.messicon {
+	PADDING-RIGHT: 10px; HEIGHT: 48px
+}
+.messtext {
+	LINE-HEIGHT: 48px; HEIGHT: 48px; VERTICAL-ALIGN: middle
+}
+.messicon2 {
+	PADDING-RIGHT: 10px; HEIGHT: 20px
+}
+.messtext2 {
+	LINE-HEIGHT: 20px; HEIGHT: 20px; VERTICAL-ALIGN: middle
+}
+.listbox {
+	WIDTH: 720px; FLOAT: left; CLEAR: both; OVERFLOW: hidden
+}
+.e2 {
+	
+}
+.e2 LI {
+	BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 12px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; COLOR: #aaa; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 12px
+}
+.e2 LI B A {
+	COLOR: #555
+}
+.e2 LI A.preview {
+	WIDTH: 84px; DISPLAY: inline; MARGIN-BOTTOM: 3px; FLOAT: left; MARGIN-LEFT: 10px; MARGIN-RIGHT: 7px
+}
+.e2 LI A.preview IMG {
+	BORDER-BOTTOM: #eee 1px solid; BORDER-LEFT: #eee 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; WIDTH: 80px; PADDING-RIGHT: 1px; DISPLAY: block; BORDER-TOP: #eee 1px solid; BORDER-RIGHT: #eee 1px solid; PADDING-TOP: 1px
+}
+.e2 LI A.preview:hover IMG {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid
+}
+.e2 LI A.title {
+	LINE-HEIGHT: 25px; MARGIN-LEFT: 2px; FONT-SIZE: 14px; OVERFLOW: hidden; FONT-WEIGHT: bold
+}
+.e2 SPAN.info {
+	LINE-HEIGHT: 23px; PADDING-LEFT: 12px; DISPLAY: block; COLOR: #555
+}
+.e2 SPAN.info SMALL {
+	COLOR: #aaa; MARGIN-LEFT: 3px; FONT-SIZE: 12px
+}
+.e2 SPAN.info A {
+	COLOR: #690
+}
+.e2 P.intro {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #776955; MARGIN-LEFT: 5px
+}
+.e3 {
+	CLEAR: both; OVERFLOW: hidden
+}
+.e3 LI {
+	BORDER-BOTTOM: #dcebd7 1px dashed; PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; HEIGHT: 50px; OVERFLOW: hidden; PADDING-TOP: 6px
+}
+.e3 LI A.preview {
+	WIDTH: 58px; DISPLAY: block; FLOAT: left; HEIGHT: 48px; OVERFLOW: hidden; MARGIN-RIGHT: 6px
+}
+.e3 LI A.preview IMG {
+	WIDTH: 58px; HEIGHT: 48px
+}
+.e3 LI A.title {
+	LINE-HEIGHT: 21px; DISPLAY: block; HEIGHT: 21px; OVERFLOW: hidden
+}
+.e3 LI .intro {
+	LINE-HEIGHT: 23px; DISPLAY: block; FLOAT: left; COLOR: #777
+}
+.title {
+	PADDING-LEFT: 10px
+}
+.content {
+	HEIGHT: 100%; MARGIN-LEFT: 8px; CLEAR: both; OVERFLOW: hidden; MARGIN-RIGHT: 8px; PADDING-TOP: 8px
+}
+.dede_pages {
+	
+}
+.dede_pages UL {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 16px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 12px
+}
+.dede_pages UL LI {
+	BORDER-BOTTOM: #e9e9e9 1px solid; BORDER-LEFT: #e9e9e9 1px solid; LINE-HEIGHT: 17px; FONT-FAMILY: Tahoma; FLOAT: left; BORDER-TOP: #e9e9e9 1px solid; MARGIN-RIGHT: 6px; BORDER-RIGHT: #e9e9e9 1px solid
+}
+.dede_pages UL LI A {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; DISPLAY: block; FLOAT: left; COLOR: #555; PADDING-TOP: 2px
+}
+.dede_pages UL LI A:hover {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; COLOR: #690; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+.dede_pages UL LI.thisclass {
+	PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #f8f8f8; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.dede_pages UL LI.thisclass A {
+	PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #f8f8f8; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.pagebox UL LI.thisclass A:hover {
+	PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #f8f8f8; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.dede_pages .pageinfo {
+	PADDING-BOTTOM: 12px; LINE-HEIGHT: 21px; PADDING-LEFT: 16px; PADDING-RIGHT: 10px; COLOR: #999; PADDING-TOP: 12px
+}
+.dede_pages .pageinfo STRONG {
+	MARGIN: 0px 2px; COLOR: #555; FONT-WEIGHT: normal
+}
+.viewbox {
+	PADDING-BOTTOM: 8px; WIDTH: 712px; OVERFLOW: hidden
+}
+.viewbox .title {
+	TEXT-ALIGN: center; LINE-HEIGHT: 56px; HEIGHT: 56px; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.viewbox .title H2 {
+	TEXT-ALIGN: center; COLOR: #2b2b2b; FONT-SIZE: 24px
+}
+.viewbox .info {
+	TEXT-ALIGN: center; LINE-HEIGHT: 17px; HEIGHT: 24px; COLOR: #666; OVERFLOW: hidden
+}
+.viewbox .info SMALL {
+	COLOR: #999; MARGIN-LEFT: 8px; FONT-SIZE: 12px; MARGIN-RIGHT: 3px
+}
+.viewbox .info A {
+	COLOR: #690
+}
+.viewbox .intro {
+	BORDER-BOTTOM: #dcdddd 1px solid; BORDER-LEFT: #dcdddd 1px solid; PADDING-BOTTOM: 8px; LINE-HEIGHT: 24px; MARGIN: 8px auto 0px; PADDING-LEFT: 16px; WIDTH: 90%; PADDING-RIGHT: 16px; BACKGROUND: #f5fcee; COLOR: #706a6a; FONT-SIZE: 14px; BORDER-TOP: #dcdddd 1px solid; BORDER-RIGHT: #dcdddd 1px solid; PADDING-TOP: 8px
+}
+.viewbox .infolist {
+	WIDTH: 368px; FLOAT: left
+}
+.viewbox .infolist SMALL {
+	TEXT-ALIGN: right; LINE-HEIGHT: 31px; WIDTH: 100px; DISPLAY: block; FLOAT: left; HEIGHT: 31px; COLOR: #999; CLEAR: left; FONT-SIZE: 12px; OVERFLOW: hidden
+}
+.viewbox .infolist SPAN {
+	LINE-HEIGHT: 30px; WIDTH: 200px; FLOAT: left; HEIGHT: 31px; OVERFLOW: hidden
+}
+.viewbox .picview {
+	WIDTH: 320px; PADDING-RIGHT: 24px; FLOAT: right; PADDING-TOP: 16px
+}
+.viewbox .labeltitle {
+	MARGIN: 0px auto; BACKGROUND: url("view-labeltitle-bg.gif")/*tpa=http://www.hubeianding.com/images/view-labeltitle-bg.gif*/ repeat-x left 10px; HEIGHT: 23px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.viewbox .labeltitle STRONG {
+	TEXT-ALIGN: center; LINE-HEIGHT: 23px; WIDTH: 80px; DISPLAY: block; BACKGROUND: url("view-labeltitle-bg.gif")/*tpa=http://www.hubeianding.com/images/view-labeltitle-bg.gif*/ no-repeat left -44px; FLOAT: left; LETTER-SPACING: 1px; HEIGHT: 23px; COLOR: #fff; OVERFLOW: hidden
+}
+.viewbox .content {
+	PADDING-BOTTOM: 12px; LINE-HEIGHT: 25px; PADDING-LEFT: 16px; PADDING-RIGHT: 16px; COLOR: #333; FONT-SIZE: 14px; PADDING-TOP: 12px
+}
+.viewbox .dede_pages {
+	TEXT-ALIGN: center; WIDTH: 712px; FLOAT: none; OVERFLOW: hidden
+}
+.viewbox .dede_pages UL {
+	TEXT-ALIGN: center; MARGIN: 0px auto; WHITE-SPACE: nowrap; FLOAT: none; CLEAR: both; OVERFLOW: hidden
+}
+.viewbox .dede_pages UL LI {
+	DISPLAY: inline; FLOAT: none
+}
+.viewbox .dede_pages UL LI A {
+	DISPLAY: inline; FLOAT: none
+}
+.viewbox .boxoff {
+	MARGIN: 4px auto; BACKGROUND: url("boxoff.gif")/*tpa=http://www.hubeianding.com/images/boxoff.gif*/ repeat-x left 15px; HEIGHT: 10px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.viewbox .boxoff STRONG {
+	LINE-HEIGHT: 100px; WIDTH: 8px; DISPLAY: block; BACKGROUND: url("boxoff.gif")/*tpa=http://www.hubeianding.com/images/boxoff.gif*/ no-repeat right -10px; FLOAT: left; HEIGHT: 10px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.viewbox .newdigg {
+	MARGIN: 8px auto; PADDING-LEFT: 8px; WIDTH: 406px; HEIGHT: 51px; CLEAR: both; OVERFLOW: hidden
+}
+.viewbox .diggbox {
+	WIDTH: 195px; FLOAT: left; HEIGHT: 51px; OVERFLOW: hidden; CURSOR: pointer; MARGIN-RIGHT: 8px
+}
+.viewbox .diggbox .digg_act {
+	LINE-HEIGHT: 31px; TEXT-INDENT: 32px; FLOAT: left; HEIGHT: 29px; FONT-SIZE: 14px; OVERFLOW: hidden; FONT-WEIGHT: bold
+}
+.viewbox .diggbox .digg_num {
+	LINE-HEIGHT: 29px; TEXT-INDENT: 5px; FLOAT: left
+}
+.viewbox .diggbox .digg_percent {
+	PADDING-LEFT: 10px; WIDTH: 180px; CLEAR: both; OVERFLOW: hidden
+}
+.viewbox .diggbox .digg_percent .digg_percent_bar {
+	MARGIN-TOP: 3px; WIDTH: 100px; BACKGROUND: #e8e8e8; FLOAT: left; HEIGHT: 7px; OVERFLOW: hidden; BORDER-RIGHT: #ccc 1px solid
+}
+.viewbox .diggbox .digg_percent .digg_percent_num {
+	PADDING-LEFT: 10px; FLOAT: left; FONT-SIZE: 10px
+}
+.viewbox .diggbox .digg_percent .digg_percent_bar SPAN {
+	DISPLAY: block; BACKGROUND: #000; HEIGHT: 5px; OVERFLOW: hidden
+}
+.viewbox .newdigg .digg_good {
+	BACKGROUND: url("newdigg-bg.png")/*tpa=http://www.hubeianding.com/images/newdigg-bg.png*/ no-repeat left top
+}
+.viewbox .newdigg .digg_bad {
+	BACKGROUND: url("newdigg-bg.png")/*tpa=http://www.hubeianding.com/images/newdigg-bg.png*/ no-repeat right top
+}
+.viewbox .newdigg .digg_good .digg_act {
+	COLOR: #c30
+}
+.viewbox .newdigg .digg_good .digg_num {
+	COLOR: #c63
+}
+.viewbox .newdigg .digg_bad .digg_act {
+	COLOR: #36c
+}
+.viewbox .newdigg .digg_bad .digg_num {
+	COLOR: #39c
+}
+.viewbox .newdigg .digg_good .digg_percent .digg_percent_bar SPAN {
+	BORDER-BOTTOM: #e37f24 1px solid; BORDER-LEFT: #e37f24 1px solid; BACKGROUND: #ffc535; BORDER-TOP: #e37f24 1px solid; BORDER-RIGHT: #e37f24 1px solid
+}
+.viewbox .newdigg .digg_bad .digg_percent .digg_percent_bar SPAN {
+	BORDER-BOTTOM: #689acc 1px solid; BORDER-LEFT: #689acc 1px solid; BACKGROUND: #94c0e4; BORDER-TOP: #689acc 1px solid; BORDER-RIGHT: #689acc 1px solid
+}
+.viewbox .handle {
+	HEIGHT: 59px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 12px
+}
+.viewbox .handle .digg {
+	WIDTH: 59px; BACKGROUND: url("digg-bg.gif")/*tpa=http://www.hubeianding.com/images/digg-bg.gif*/ no-repeat; FLOAT: left; HEIGHT: 59px; MARGIN-RIGHT: 12px
+}
+.viewbox .handle .digg .digg_num {
+	TEXT-ALIGN: center; LINE-HEIGHT: 34px; WIDTH: 56px; HEIGHT: 34px; COLOR: #6b9169; FONT-SIZE: 20px; OVERFLOW: hidden
+}
+.viewbox .handle .digg .digg_act {
+	LINE-HEIGHT: 23px; WIDTH: 56px; HEIGHT: 22px; OVERFLOW: hidden
+}
+.viewbox .handle .digg .digg_act A {
+	FLOAT: left; COLOR: #666; MARGIN-LEFT: 11px
+}
+.viewbox .handle .context {
+	FLOAT: left
+}
+.viewbox .handle .context UL LI {
+	LINE-HEIGHT: 29px; COLOR: #888
+}
+.viewbox .actbox {
+	TEXT-ALIGN: center; WIDTH: 260px; PADDING-RIGHT: 10px; FLOAT: right; PADDING-TOP: 20px
+}
+.viewbox .actbox UL LI {
+	BACKGROUND-IMAGE: url("actbox-ico.gif")/*tpa=http://www.hubeianding.com/images/actbox-ico.gif*/; PADDING-LEFT: 22px; DISPLAY: inline; BACKGROUND-REPEAT: no-repeat; MARGIN-RIGHT: 10px
+}
+.viewbox .actbox UL LI A {
+	COLOR: #666
+}
+.viewbox .actbox UL LI#act-fav {
+	BACKGROUND-POSITION: 4px 0px
+}
+.viewbox .actbox UL LI#act-err {
+	BACKGROUND-POSITION: 4px -37px
+}
+.viewbox .actbox UL LI#act-pus {
+	BACKGROUND-POSITION: 4px -73px
+}
+.viewbox .actbox UL LI#act-pnt {
+	BACKGROUND-POSITION: 4px -109px
+}
+.viewbox .downurllist {
+	WIDTH: 100%; CLEAR: both; OVERFLOW: hidden
+}
+.viewbox .downurllist LI {
+	MARGIN-TOP: 10px; PADDING-RIGHT: 4px; BACKGROUND: url("downurl-bg.gif")/*tpa=http://www.hubeianding.com/images/downurl-bg.gif*/ no-repeat right top; FLOAT: left; HEIGHT: 27px; OVERFLOW: hidden; MARGIN-RIGHT: 10px
+}
+.viewbox .downurllist LI A {
+	LINE-HEIGHT: 27px; TEXT-INDENT: 30px; PADDING-RIGHT: 5px; DISPLAY: block; BACKGROUND: url("downurl-bg.gif")/*tpa=http://www.hubeianding.com/images/downurl-bg.gif*/ no-repeat left top; FLOAT: left; HEIGHT: 27px; COLOR: #555; FONT-SIZE: 12px
+}
+.viewbox .downurllist LI A:hover {
+	COLOR: #f63; TEXT-DECORATION: none
+}
+.viewbox .picbox {
+	TEXT-ALIGN: center; LINE-HEIGHT: 31px; WIDTH: 100%; FONT-SIZE: 14px; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.viewbox .picbox IMG {
+	MARGIN: 16px auto 6px; DISPLAY: block
+}
+.viewbox .picbox UL.e8 {
+	LINE-HEIGHT: normal; FONT-SIZE: 12px
+}
+.viewbox .picbox UL.e8 LI .pic {
+	BORDER-BOTTOM: #eee 1px solid; BORDER-LEFT: #eee 1px solid; BACKGROUND: none transparent scroll repeat 0% 0%; OVERFLOW: hidden; BORDER-TOP: #eee 1px solid; BORDER-RIGHT: #eee 1px solid
+}
+.viewbox .picbox UL.e8 IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN: 3px; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.viewbox .picbox UL.e8 LI .title {
+	PADDING-TOP: 0px
+}
+.specialpic {
+	WIDTH: 200px; FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 20px; PADDING-TOP: 10px
+}
+.specialpic IMG {
+	WIDTH: 200px; DISPLAY: block
+}
+.speciallist {
+	WIDTH: 720px; OVERFLOW: hidden
+}
+.speciallist DL.tbox {
+	MARGIN-TOP: 8px; WIDTH: 352px; FLOAT: left; MARGIN-RIGHT: 8px
+}
+.storypic {
+	WIDTH: 160px; FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 20px; PADDING-TOP: 10px
+}
+.storypic IMG {
+	WIDTH: 160px; DISPLAY: block
+}
+.infos_userinfo {
+	WIDTH: 240px; OVERFLOW: hidden
+}
+.infos_userinfo DD {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; BACKGROUND: #fff; OVERFLOW: hidden; PADDING-TOP: 12px
+}
+.infos_userinfo DD .userface {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; WIDTH: 52px; PADDING-RIGHT: 1px; FLOAT: left; HEIGHT: 52px; OVERFLOW: hidden; BORDER-TOP: #ddd 1px solid; MARGIN-RIGHT: 8px; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 1px
+}
+.infos_userinfo DD .userface IMG {
+	WIDTH: 52px; DISPLAY: block; HEIGHT: 52px; OVERFLOW: hidden
+}
+.infos_userinfo DD .username {
+	LINE-HEIGHT: 19px; DISPLAY: block; HEIGHT: 19px; COLOR: #f60; OVERFLOW: hidden; FONT-WEIGHT: bold
+}
+.infos_userinfo DD .useract {
+	PADDING-LEFT: 4px; WIDTH: 140px; FLOAT: left; HEIGHT: 44px; OVERFLOW: hidden
+}
+.infos_userinfo DD .useract-pm {
+	LINE-HEIGHT: 19px; WIDTH: 70px; FLOAT: left; HEIGHT: 19px; OVERFLOW: hidden
+}
+.infos_userinfo DD .useract-af {
+	LINE-HEIGHT: 19px; WIDTH: 70px; FLOAT: left; HEIGHT: 19px; OVERFLOW: hidden
+}
+.infos_userinfo DD .useract-vi {
+	LINE-HEIGHT: 19px; DISPLAY: block; HEIGHT: 19px; COLOR: #666; CLEAR: both; OVERFLOW: hidden
+}
+.infos_userinfo DD .userinfo-sp {
+	LINE-HEIGHT: 25px; PADDING-LEFT: 10px; DISPLAY: block; HEIGHT: 25px; CLEAR: both
+}
+.infos_userinfo DD .userinfo-sp SMALL {
+	COLOR: #aaa; FONT-SIZE: 12px; MARGIN-RIGHT: 5px
+}
+.infos_search DD {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 8px; PADDING-RIGHT: 4px; PADDING-TOP: 4px
+}
+.infos_search DD SELECT {
+	MARGIN-TOP: 8px; MARGIN-LEFT: 4px
+}
+.infos_search DD INPUT {
+	MARGIN-TOP: 8px; MARGIN-LEFT: 4px
+}
+.infos_search DD BUTTON {
+	MARGIN-TOP: 8px; MARGIN-LEFT: 4px
+}
+.infos_search DD SELECT {
+	FONT-SIZE: 14px
+}
+.tags_list DD {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 220%; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; PADDING-TOP: 4px
+}
+.tags_list DD A {
+	WHITE-SPACE: nowrap; MARGIN-RIGHT: 10px
+}
+.tagc1 {
+	COLOR: #666; FONT-SIZE: 12px
+}
+.tagc2 {
+	COLOR: #555; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.sp-title {
+	BORDER-BOTTOM: #eaeaea 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; MARGIN-BOTTOM: 8px; BACKGROUND: url("search-top-bg.gif")/*tpa=http://www.hubeianding.com/images/search-top-bg.gif*/ #f3fbea repeat-x; COLOR: #888; BORDER-TOP: #eaeaea 1px solid; PADDING-TOP: 0px
+}
+.sp-title H2 {
+	LINE-HEIGHT: 27px; FONT-SIZE: 14px
+}
+.sp-title H2 A {
+	COLOR: #03541f; MARGIN-LEFT: 6px
+}
+.sp-title .more {
+	LINE-HEIGHT: 27px; MARGIN: -27px 0px; FLOAT: right
+}
+.linkbox {
+	BORDER-BOTTOM: #eee 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; PADDING-TOP: 10px
+}
+.linkbox H3 {
+	COLOR: #693; FONT-SIZE: 14px
+}
+.linkbox H3 A {
+	COLOR: #693; FONT-SIZE: 14px
+}
+.buycar {
+	
+}
+.buycar H2 {
+	LINE-HEIGHT: 31px; COLOR: #f60; FONT-SIZE: 14px
+}
+.buycar .flow {
+	BORDER-LEFT: #dee79e 1px solid; WIDTH: 100%; MARGIN-BOTTOM: 16px; BORDER-TOP: #dee79e 1px solid; BORDER-RIGHT: #dee79e 1px solid
+}
+.buycar .flow TD {
+	BORDER-BOTTOM: #eff3cf 1px solid; TEXT-ALIGN: center; LINE-HEIGHT: 19px; BACKGROUND: #f8faeb; LETTER-SPACING: 3px; HEIGHT: 23px; COLOR: #888; OVERFLOW: hidden; BORDER-TOP: #fff 3px solid; BORDER-RIGHT: #eff3cf 1px solid
+}
+.buycar .flow TD.thisclass {
+	BORDER-BOTTOM: #fff 1px solid; BACKGROUND: #fff; COLOR: #333; BORDER-TOP: #f8faeb 3px solid; FONT-WEIGHT: bold
+}
+.flinkbox {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 4px
+}
+.formbox {
+	MARGIN: 0px auto; WIDTH: 90%
+}
+.formbox .fb {
+	MARGIN: 0px auto; WIDTH: 100%; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.formbox .fb .name {
+	TEXT-ALIGN: right; LINE-HEIGHT: 31px; WIDTH: 180px; PADDING-RIGHT: 10px; DISPLAY: block; FLOAT: left; HEIGHT: 31px; COLOR: #666; FONT-SIZE: 14px
+}
+.formbox .fb .value {
+	FLOAT: left
+}
+.formbox .fb .value IMG {
+	VERTICAL-ALIGN: middle
+}
+.dede_comment {
+	PADDING-BOTTOM: 6px
+}
+.decmt-box2 {
+	PADDING-BOTTOM: 6px; MARGIN: 0px auto; PADDING-LEFT: 5px; WIDTH: 98%; PADDING-RIGHT: 5px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 6px
+}
+.decmt-box2 SPAN.fr {
+	FLOAT: right
+}
+.decmt-box2 SPAN.title {
+	LINE-HEIGHT: 20px; WIDTH: 600px; FLOAT: left
+}
+.decmt-box2 UL {
+	
+}
+.decmt-box2 UL LI {
+	BORDER-BOTTOM: #ccc 1px dashed; PADDING-BOTTOM: 10px; WIDTH: 100%; OVERFLOW: hidden
+}
+.decmt-box2 UL LI A.plpic {
+	BORDER-BOTTOM: #dfd9b9 1px solid; BORDER-LEFT: #dfd9b9 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; WIDTH: 40px; PADDING-RIGHT: 2px; BACKGROUND: #f9fded; FLOAT: left; HEIGHT: 40px; OVERFLOW: hidden; BORDER-TOP: #dfd9b9 1px solid; MARGIN-RIGHT: 5px; BORDER-RIGHT: #dfd9b9 1px solid; PADDING-TOP: 2px
+}
+.decmt-box2 UL LI P {
+	LINE-HEIGHT: 22px; WIDTH: 630px; FLOAT: left
+}
+.decmt-box2 .comment_act {
+	LINE-HEIGHT: 20px; WIDTH: 630px; FLOAT: left; COLOR: #aeaeae
+}
+.decmt-box2 .comment_act A {
+	COLOR: #aeaeae
+}
+.decmt-box {
+	PADDING-BOTTOM: 6px; MARGIN: 0px auto; PADDING-LEFT: 5px; WIDTH: 98%; PADDING-RIGHT: 5px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 6px
+}
+.decmt-box SPAN.fr {
+	FLOAT: right
+}
+.decmt-box SPAN.title {
+	LINE-HEIGHT: 20px; WIDTH: 600px; FLOAT: left
+}
+.decmt-box UL {
+	
+}
+.decmt-box UL LI {
+	BORDER-BOTTOM: #ccc 1px dashed; PADDING-BOTTOM: 10px; WIDTH: 100%; OVERFLOW: hidden
+}
+.decmt-box UL LI A.plpic {
+	BORDER-BOTTOM: #dfd9b9 1px solid; BORDER-LEFT: #dfd9b9 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; WIDTH: 40px; PADDING-RIGHT: 2px; BACKGROUND: #f9fded; FLOAT: left; HEIGHT: 40px; OVERFLOW: hidden; BORDER-TOP: #dfd9b9 1px solid; MARGIN-RIGHT: 5px; BORDER-RIGHT: #dfd9b9 1px solid; PADDING-TOP: 2px
+}
+.decmt-box UL LI P {
+	LINE-HEIGHT: 22px; WIDTH: 630px; FLOAT: left
+}
+.decmt-box .comment_act {
+	LINE-HEIGHT: 20px; WIDTH: 630px; FLOAT: left; COLOR: #aeaeae
+}
+.decmt-box .comment_act A {
+	COLOR: #aeaeae
+}
+.decmt-box1 {
+	PADDING-BOTTOM: 6px; MARGIN: 0px auto; PADDING-LEFT: 5px; WIDTH: 98%; PADDING-RIGHT: 5px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 6px
+}
+.decmt-box1 SPAN.fr {
+	FLOAT: right
+}
+.decmt-box1 SPAN.title {
+	LINE-HEIGHT: 20px; WIDTH: 600px; FLOAT: left
+}
+.decmt-box1 UL {
+	
+}
+.decmt-box1 UL LI {
+	BORDER-BOTTOM: #ccc 1px dashed; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.decmt-box1 UL LI A.plpic {
+	BORDER-BOTTOM: #dfd9b9 1px solid; BORDER-LEFT: #dfd9b9 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; WIDTH: 40px; PADDING-RIGHT: 2px; BACKGROUND: #f9fded; FLOAT: left; HEIGHT: 40px; OVERFLOW: hidden; BORDER-TOP: #dfd9b9 1px solid; MARGIN-RIGHT: 5px; BORDER-RIGHT: #dfd9b9 1px solid; PADDING-TOP: 2px
+}
+.decmt-box1 UL LI P {
+	LINE-HEIGHT: 22px; WIDTH: 880px; FLOAT: left
+}
+.decmt-box1 .comment_act {
+	LINE-HEIGHT: 20px; WIDTH: 880px; FLOAT: left; COLOR: #aeaeae
+}
+.decmt-box1 .comment_act A {
+	COLOR: #aeaeae
+}
+.dede_comment .decmt-box .decmt-title {
+	LINE-HEIGHT: 19px; FONT-FAMILY: Tahoma; COLOR: #999
+}
+.dede_comment .decmt-box .decmt-title SPAN {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 2px
+}
+.dede_comment .decmt-box .decmt-title .moodico {
+	WIDTH: 18px; DISPLAY: inline-block; HEIGHT: 18px
+}
+.dede_comment .decmt-box .decmt-title .username {
+	COLOR: #669
+}
+.dede_comment .decmt-box .decmt-title .username A {
+	COLOR: #669
+}
+.dede_comment .decmt-box .decmt-title .username A:hover {
+	COLOR: #690; TEXT-DECORATION: none
+}
+.dede_comment .decmt-box .decmt-title .ip {
+	COLOR: #669; FONT-SIZE: 11px
+}
+.dede_comment .decmt-box .decmt-title .date {
+	COLOR: #555; FONT-SIZE: 11px
+}
+.dede_comment .decmt-box .decmt-act {
+	POSITION: relative; MARGIN-TOP: -18px; PADDING-RIGHT: 10px; FLOAT: right; COLOR: #999; CLEAR: both
+}
+.dede_comment .decmt-box .decmt-act SPAN {
+	MARGIN-RIGHT: 7px
+}
+.dede_comment .decmt-box .decmt-act SPAN A {
+	COLOR: #888
+}
+.dede_comment .decmt-box .decmt-content {
+	LINE-HEIGHT: 21px; MARGIN: 2px auto 0px; WIDTH: 99%; COLOR: #555; CLEAR: both
+}
+.dede_comment .decmt-box .decmt-content IMG {
+	VERTICAL-ALIGN: middle
+}
+.decmt-box {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN: 6px auto; BACKGROUND: #ffe; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.decmt-content .decmt-box {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN: 6px auto; BACKGROUND: #ffe; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.dede_comment .decmt-box .decmt-box {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN: 6px auto; BACKGROUND: #ffe; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.dede_comment .decmt-box .decmt-box .decmt-title {
+	TEXT-INDENT: 4px
+}
+.dede_comment .decmt-box .decmt-box .decmt-content {
+	COLOR: #555
+}
+.nocomment {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #666; PADDING-TOP: 10px
+}
+.dede_comment_post {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.dcmp-title {
+	LINE-HEIGHT: 25px
+}
+.dcmp-title STRONG {
+	COLOR: #444; FONT-WEIGHT: normal
+}
+.dcmp-title SMALL {
+	COLOR: #999999; FONT-SIZE: 12px
+}
+.dcmp-stand {
+	POSITION: relative; MARGIN-TOP: -18px; PADDING-RIGHT: 10px; FLOAT: right; COLOR: #999; CLEAR: both
+}
+.dcmp-stand STRONG {
+	COLOR: #444; FONT-WEIGHT: normal
+}
+.dcmp-stand INPUT {
+	MARGIN-RIGHT: 2px
+}
+.dcmp-stand IMG {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 2px
+}
+.dcmp-content {
+	PADDING-TOP: 8px
+}
+.dcmp-content TEXTAREA {
+	WIDTH: 450px; FLOAT: left; HEIGHT: 100px
+}
+.dcmp-content1 {
+	PADDING-TOP: 8px
+}
+.dcmp-content1 TEXTAREA {
+	WIDTH: 700px; FLOAT: left; HEIGHT: 100px
+}
+.dcmp-mood {
+	MARGIN-TOP: 8px; WIDTH: 212px; FLOAT: right; HEIGHT: 25px
+}
+.dcmp-mood STRONG {
+	LINE-HEIGHT: 25px; FLOAT: left; COLOR: #444; FONT-WEIGHT: normal
+}
+.dcmp-mood UL {
+	FLOAT: left
+}
+.dcmp-mood UL LI {
+	FLOAT: left; HEIGHT: 30px; MARGIN-RIGHT: 8px
+}
+.dcmp-mood UL LI INPUT {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 0px
+}
+.dcmp-mood UL LI IMG {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 0px
+}
+.dcmp-post {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 35px; COLOR: #444; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.dcmp-post .dcmp-userinfo {
+	FLOAT: left; MARGIN-RIGHT: 6px
+}
+.dcmp-post .dcmp-userinfo INPUT {
+	PADDING-RIGHT: 0px; HEIGHT: 13px
+}
+.dcmp-post .dcmp-userinfo INPUT {
+	MARGIN: 5px; VERTICAL-ALIGN: middle
+}
+.dcmp-post .dcmp-userinfo IMG {
+	MARGIN: 5px; VERTICAL-ALIGN: middle
+}
+.dcmp-post .dcmp-submit {
+	FLOAT: left; PADDING-TOP: 6px
+}
+.dcmp-post .dcmp-submit INPUT {
+	VERTICAL-ALIGN: middle
+}
+.dcmp-post .dcmp-submit BUTTON {
+	VERTICAL-ALIGN: middle
+}
+.dcmp-post .dcmp-submit BUTTON {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 25px; BORDER-RIGHT-STYLE: none; WIDTH: 70px; BORDER-TOP-STYLE: none; BACKGROUND: url("btn-bg2.gif")/*tpa=http://www.hubeianding.com/images/btn-bg2.gif*/ no-repeat; LETTER-SPACING: 1px; HEIGHT: 25px; COLOR: #444; MARGIN-LEFT: 5px; BORDER-LEFT-STYLE: none; OVERFLOW: hidden; CURSOR: pointer
+}
+PRE {
+	MARGIN: 0px 0px 1em; WIDTH: 99%; FONT-FAMILY: 'Courier New' , Monospace; BACKGROUND: #f7f7f7; FONT-SIZE: 12px; OVERFLOW: auto
+}
+PRE OL {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+PRE OL LI {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+PRE OL LI SPAN {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+PRE A {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+PRE A:hover {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+PRE OL {
+	BORDER-LEFT: #146b00 3px solid; PADDING-BOTTOM: 5px; LIST-STYLE-TYPE: decimal; MARGIN: 0px 0px 1px 3em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #f7f7f7; COLOR: #5c5c5c; PADDING-TOP: 5px
+}
+PRE OL LI {
+	LIST-STYLE-POSITION: outside !important; PADDING-BOTTOM: 0px !important; LINE-HEIGHT: 1.3em; LIST-STYLE-TYPE: decimal-leading-zero; MARGIN: 0px; PADDING-LEFT: 10px !important; PADDING-RIGHT: 3px !important; COLOR: #5c5c5c; PADDING-TOP: 0px !important
+}
+PRE OL LI.alt {
+	
+}
+PRE OL LI SPAN {
+	COLOR: black
+}
+PRE .comment {
+	COLOR: #008200
+}
+PRE .comments {
+	COLOR: #008200
+}
+PRE .string {
+	COLOR: blue
+}
+PRE .keyword {
+	COLOR: #069; FONT-WEIGHT: bold
+}
+PRE .preprocessor {
+	COLOR: gray
+}
+PRE .dp-xml .cdata {
+	COLOR: #ff1493
+}
+PRE .dp-xml .tag {
+	COLOR: #069; FONT-WEIGHT: bold
+}
+PRE .dp-xml .tag-name {
+	COLOR: #069; FONT-WEIGHT: bold
+}
+PRE .dp-xml .attribute {
+	COLOR: red
+}
+PRE .dp-xml .attribute-value {
+	COLOR: blue
+}
+PRE .dp-sql .func {
+	COLOR: #ff1493
+}
+PRE .dp-sql .op {
+	COLOR: #808080
+}
+PRE .dp-rb .symbol {
+	COLOR: #a70
+}
+PRE .dp-rb .variable {
+	COLOR: #a70; FONT-WEIGHT: bold
+}
+PRE .dp-py .builtins {
+	COLOR: #ff1493
+}
+PRE .dp-py .magicmethods {
+	COLOR: #808080
+}
+PRE .dp-py .exceptions {
+	COLOR: brown
+}
+PRE .dp-py .types {
+	FONT-STYLE: italic; COLOR: brown
+}
+PRE .dp-py .commonlibs {
+	FONT-STYLE: italic; COLOR: #8a2be2
+}
+PRE .dp-j .annotation {
+	COLOR: #646464
+}
+PRE .dp-j .number {
+	COLOR: #c00000
+}
+PRE .dp-delphi .number {
+	COLOR: blue
+}
+PRE .dp-delphi .directive {
+	COLOR: #008284
+}
+PRE .dp-delphi .vars {
+	COLOR: #000
+}
+PRE .dp-css .value {
+	COLOR: black
+}
+PRE .dp-css .important {
+	COLOR: red
+}
+PRE .dp-c .vars {
+	COLOR: #d00
+}
+PRE .dp-cpp .datatypes {
+	COLOR: #2e8b57; FONT-WEIGHT: bold
+}
+#commetpages {
+	TEXT-ALIGN: center; LINE-HEIGHT: 28px
+}
+#commetpages A {
+	BORDER-BOTTOM: #badaa1 1px solid; BORDER-LEFT: #badaa1 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BORDER-TOP: #badaa1 1px solid; BORDER-RIGHT: #badaa1 1px solid; PADDING-TOP: 0px
+}
+.STYLE1 {
+	COLOR: #ffffff
+}
+.STYLE2 {
+	FONT-SIZE: x-large; FONT-WEIGHT: bold
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>十月优买团带您畅游北京展-寻卡特、寻三一... - 铁臂商城优买团</title>
+<meta name="keywords" content="21-sun优买团,优买团十月北京展,卡特彼勒小型液压挖掘机,三一履带式挖掘机,山推装载机,山工轮式装载机,龙工装载机,斗山小型挖掘机" />
+<meta name="description" content="21-sun优买团，十月优买团带您畅游北京展-寻卡特、寻三一，一切实惠尽在优买团，十月优买团新品推荐卡特彼勒307E小型液压挖掘机、三一SY225C-9(2013款)履带式挖掘机，整机产品推荐山推SL50WA装载机，配件312D GC-RXZ服务包，走进bices展" />
+<link href="/style/tuan.css" rel="stylesheet" type="text/css" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<!--[if (IE 6)]>
+<link href="/style/pngfix.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body class="tuan">
+<div class="tuanTop">
+<!--#include virtual="/tuan/tuan_nav.jsp"-->
+</div>
+<div class="nav10">
+  <ul>
+    <li><a href="./" class="cur">首页</a></li>
+    <li><a href="newproduct.jsp">新品展示</a></li>
+    <li><a href="products.htm">整机产品</a></li>
+    <li><a href="komatsu.htm">小松就在您身边</a></li>
+    <li><a href="parts.htm">配件</a></li>
+    <li><a href="breaker.htm">破碎锤</a></li>
+    <li><a href="http://news.21-sun.com/special/bices2013/index.jsp" target="_blank">走进北京展</a></li>
+    <li class="tuanHome"><a href="/tuan/">优买团首页</a></li>
+  </ul>
+</div>
+<div class="banner10">
+  <div class="contain980"><img src="images/banner_img.jpg" width="980" height="493" /></div>
+</div>
+<!--新品推荐-->
+<div class="contain980 pb10">
+  <div class="title">
+    <h3>新品推荐<span>NEW PRODUCTS</span></h3>
+    <span class="more"><a href="newproduct.jsp">MORE&gt;&gt;</a></span>
+  </div>
+  <div class="content topRecList">
+    <ul class="list">
+      <li>
+        <a href="http://product.21-sun.com/proDetail/307E.shtm" target="_blank"><img src="images/proimgs/cat307E.jpg" alt="卡特彼勒307E小型液压挖掘机" width="370" height="265" /><h3>卡特彼勒307E小型液压挖掘机</h3></a>
+        <a onclick="showinquery('20163','');" class="btn" target="_self" href="javascript:void(0);">立即订购</a>
+      </li>
+      <li>
+        <a href="http://product.21-sun.com/proDetail/SY225C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank"><img src="images/proimgs/SY225C-9.jpg" alt="三一SY225C-9(2013款)履带式挖掘机" width="370" height="265" /><h3>三一SY225C-9(2013款)履带式挖掘机</h3></a>
+        <a onclick="showinquery('18543','');" class="btn" target="_self" href="javascript:void(0);">立即订购</a>
+      </li>
+    </ul>
+  </div>
+<div class="clear"></div>    
+</div>
+<!--整机产品推荐-->
+<div class="contain980 clearfix pb10">
+  <div class="title">
+    <h3>整机产品推荐<span>PRODUCTS</span></h3>
+    <span class="more"><a href="products.htm">MORE&gt;&gt;</a></span>
+  </div>
+  <div class="content recList">
+    <ul class="list">
+      <li>
+        <a href="http://product.21-sun.com/proDetail/312D312DL.shtm" target="_blank"><img src="images/proimgs/cat312D.jpg" alt="卡特彼勒312D 312DL履带式挖掘机" width="300" height="265" /><h3>卡特彼勒312D 312DL履带式挖掘机</h3></a>
+        <a onclick="showinquery('378','');" class="btn" target="_self" href="javascript:void(0);">立即订购</a>
+      </li>
+      <li>
+        <a href="http://product.21-sun.com/proDetail/SY55C-92013K.shtm" target="_blank"><img src="images/proimgs/SY55C-9.jpg" width="300" alt="2013款C9系列SY55C-9挖掘机" height="265" /><h3>2013款C9系列SY55C-9挖掘机</h3></a>
+        <a onclick="showinquery('18533','');" class="btn" target="_self" href="javascript:void(0);">立即订购</a>
+      </li>
+      <li>
+        <a href="http://product.21-sun.com/proDetail/SL50WA.shtm" target="_blank"><img src="images/proimgs/SL50WA.jpg" alt="山推SL50WA装载机" width="300" height="265" /><h3>山推SL50WA装载机</h3></a>
+        <a onclick="showinquery('9928','');" class="btn" target="_self" href="javascript:void(0);">立即订购</a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="content recList">
+    <ul class="list">
+      <li>
+        <a href="http://product.21-sun.com/proDetail/ZL5-G-I.shtm" target="_blank"><img src="images/proimgs/ZL50F-II.jpg" alt="山工ZL50F-II轮式装载机" width="300" height="265" /><h3>山工ZL50F-II轮式装载机</h3></a>
+        <a onclick="showinquery('883','');" class="btn" target="_self" href="javascript:void(0);">立即订购</a>
+      </li>
+      <li>
+        <a href="http://product.21-sun.com/proDetail/CDM855EK.shtm" target="_blank"><img src="images/proimgs/CDM855EK.jpg" alt="龙工CDM855EK装载机" width="300" height="265" /><h3>龙工CDM855EK装载机</h3></a>
+        <a onclick="showinquery('15880','');" class="btn" target="_self" href="javascript:void(0);">立即订购</a>
+      </li>
+      <li>
+        <a href="http://product.21-sun.com/proDetail/DX60.shtm" target="_blank"><img src="images/proimgs/DX60.jpg" alt="斗山DX60迷你/小型挖掘机" width="300" height="265" /><h3>斗山DX60迷你/小型挖掘机</h3></a>
+        <a onclick="showinquery('406','');" class="btn" target="_self" href="javascript:void(0);">立即订购</a>
+      </li>
+    </ul>
+  </div>
+<div class="clear"></div>    
+</div>
+ 
+ <div class="contain980 clearfix pb10">
+  <div class="title">
+    <h3>小松就在您身边</h3>
+    <span class="more"><a href="komatsu.htm">MORE&gt;&gt;</a></span>
+  </div>
+  <div class="content recList">
+    <ul class="list">
+ 
+    <ul class="list">
+      <li>
+        <a href="http://product.21-sun.com/proDetail/PC200-8M0-PC200LC-8M0.shtm" target="_blank"><img src="images/proimgs/PC200-8M01.jpg" alt="小松PC200-8M0-液压挖掘机" width="300" height="265" /><h3>小松PC200-8M0液压挖掘机</h3></a>
+        <a onclick="showinquery('15377','');" class="btn" target="_self" href="javascript:void(0);">立即订购</a>
+      </li>
+      <li>
+        <a href="http://product.21-sun.com/proDetail/PC200LC-8M0.shtm" target="_blank"><img src="images/proimgs/PC200LC-8M0.jpg" width="300" alt="小松PC200LC-8M0-液压挖掘机" height="265" /><h3>小松PC200LC-8M0液压挖掘机</h3></a>
+        <a onclick="showinquery('20222','');" class="btn" target="_self" href="javascript:void(0);">立即订购</a>
+      </li>
+      <li>
+        <a href="http://product.21-sun.com/proDetail/PC210-8M0.shtm" target="_blank"><img src="images/proimgs/PC210-8M0.jpg" alt="小松PC210-8M0-液压挖掘机" width="300" height="265" /><h3>小松PC210-8M0液压挖掘机</h3></a>
+        <a onclick="showinquery('20223','');" class="btn" target="_self" href="javascript:void(0);">立即订购</a>
+      </li>
+<div class="clear"></div>    
+</div>
+<!--配件-->
+<div class="contain980 pb10">
+  <div class="title">
+    <h3>配件<span>PARTS</span></h3>
+    <span class="more"><a href="parts.htm">MORE&gt;&gt;</a></span>
+  </div>
+  <div class="content partsList">
+    <ul class="list">
+      <li> 
+        <a><img src="images/proimgs/part_img1.jpg" alt="第一油压 22吨行走" width="215" height="150" /><h3>第一油压 22吨行走</h3>
+        <span class="price">联系人：徐总</span><span class="month">电　话：13710037665</span></a>
+      </li>
+      <li> 
+        <a><img src="images/proimgs/part_img2.jpg" alt="K3V112伺服柱塞" width="215" height="150" /><h3>K3V112伺服柱塞</h3>
+        <span class="price">联系人：徐总</span><span class="month">电　话：13710037665</span></a>
+      </li>
+      <li> 
+        <a><img src="images/proimgs/part_img01.jpg" alt="康明斯M11发动机" width="215" height="150" /><h3>康明斯M11发动机</h3>
+        <span class="price">联系人：孙先生</span><span class="month">电　话：15020766707</span></a>
+      </li>
+      <li>
+        <a><img src="images/proimgs/part_img02.jpg" alt="康明斯QSB发动机" width="215" height="150" /><h3>康明斯QSB发动机</h3>
+        <span class="price">联系人：孙先生</span><span class="month">电　话：15020766707</span></a>
+      </li>
+    </ul>
+  </div>
+  <div class="content partsList">
+    <ul class="list">
+     <li>
+        <a><img src="images/proimgs/xs01.jpg" alt="7861-92-4800传感器" width="215" height="150" /><h3>7861-92-4800传感器</h3>
+        <span class="price">联系人：孙先生</span><span class="month">电　话：15020766707</span></a>
+      </li>
+      <li>
+        <a><img src="images/proimgs/part_img08.jpg" alt="洋马3TNV82A-SNN" width="215" height="150" /><h3>洋马3TNV82A-SNN</h3>
+        <span class="price">联系人：唐总</span><span class="month">电　话：18665610988</span></a>
+      </li>
+      <li>
+        <a><img src="images/proimgs/part_img015.jpg" alt="ZX330齿轮箱外壳" width="215" height="150" /><h3>1200-6行走马达</h3>
+        <span class="price">联系人：李总</span><span class="month">电话：13925191991</span></a>
+      </li>
+      <li>
+        <a><img src="images/proimgs/part_img016.jpg" alt="ZAX470-3" width="215" height="150" /><h3>ZAX470-3</h3>
+        <span class="price">联系人：李总</span><span class="month">电话：13925191991</span></a>
+      </li>
+    </ul>
+  </div>
+<div class="clear"></div>    
+</div>
+<div class="contain980 pb10">
+  <div class="title">
+    <h3>破碎锤<span>BREAKER</span></h3>
+    <span class="more"><a href="breaker.htm">MORE&gt;&gt;</a></span>
+  </div>
+  <div class="content partsList">
+    <ul class="list">
+      <li> 
+        <a><img src="images/proimgs/ky100t.jpg" alt="ky150t" width="215" height="150" /><h3>冈研KY100T</h3>
+        <span class="price">联系人：罗小姐</span><span class="month">电　话：020-61021435</span></a>
+      </li>
+      <li> 
+        <a><img src="images/proimgs/ky100t.jpg" alt="ky100t" width="215" height="150" /><h3>冈研KY150T</h3>
+        <span class="price">联系人：罗小姐</span><span class="month">电　话：020-61021435</span></a>
+      </li>
+      <li> 
+        <a><img src="images/proimgs/ky100t.jpg" alt="ky65t" width="215" height="150" /><h3>冈研KY220T</h3>
+        <span class="price">联系人：罗小姐</span><span class="month">电　话：020-61021435</span></a>
+      </li>
+      <li>
+        <a><img src="images/proimgs/ky100t.jpg" alt="ky220E" width="215" height="150" /><h3>冈研KY250T</h3>
+        <span class="price">联系人：罗小姐</span><span class="month">电　话：020-61021435</span></a>
+      </li>
+    </ul>
+  </div>
+<div class="clear"></div>  
+</div>
+
+<!--走进bices展
+<div class="contain980 clearfix pb10">
+  <div class="title">
+    <h3>走进bices展</h3>
+    <span class="more"><a href="#">MORE&gt;&gt;</a></span>
+  </div>
+  <div class="content bicesList">
+    <ul class="list">
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+      <li><a href="#" target="_blank"><img src="images/temp/temp_img01.jpg" alt="辽宁海诺集团新产品亮相2013上海宝马展" width="210" height="150" /><h3>辽宁海诺集团新产品亮相2013上海宝马展</h3></a></li>
+    </ul>
+  </div>
+</div>
+走进bices展 end-->
+<!--foot-->
+<div class="foot">
+<!--#include virtual="/include/foot.jsp"--> 
+</div>
+<!--end of foot--> 
+</body>
+<!-- jbox -->
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<script type="text/javascript">
+function showinquery(pid,factoryid){
+	jQuery.jBox("iframe:/include/products/product_order.jsp?productid="+pid+"&factoryid="+factoryid, {
+	title: "在线询价",
+	width: 720,
+	height: 435,
+	top: '20%',
+	iframeScrolling : 'no',
+	buttons: { '关闭': false }
+	});
+	jQuery(".jbox-button-panel").attr("style","display:none;") ;
+}
+</script>
+</html>

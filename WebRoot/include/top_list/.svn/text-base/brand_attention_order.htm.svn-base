@@ -1,0 +1,91 @@
+<%@ page language="java"  pageEncoding="UTF-8"%>
+<div class="w978 l border03 mb10">
+    <div class="title09">
+      <h2>品牌关注度排行榜</h2>
+      <span><a href="brand.jsp" target="_blank">更多&gt;&gt;</a></span>
+    </div>
+    <div class="top10">
+      <ul>
+        <li class="top3">
+          <em>1</em>
+          <div class="topc">
+            <a href="/brand/xcmg/" title="徐工集团" target="_blank"><img src="/uploadfiles/20081212082831_0.jpg" alt="徐工集团" width="80" height="30" /><br />
+            <strong>徐工集团</strong></a><br />
+            品牌指数：80244
+          </div>
+        </li>
+        <li class="top3">
+          <em>2</em>
+          <div class="topc">
+            <a href="/brand/sany/" title="三一集团" target="_blank"><img src="/uploadfiles/09070916592948_0.jpg" alt="三一集团" width="80" height="30" /><br />
+            <strong>三一集团</strong></a><br />
+            品牌指数：62999
+          </div>
+        </li>
+        <li class="top3">
+          <em>3</em>
+          <div class="topc">
+            <a href="/brand/komatsu/" title="小松（中国）投资有限公司" target="_blank"><img src="/uploadfiles/09031711183542_0.jpg" alt="小松（中国）投资有限公司" width="80" height="30" /><br />
+            <strong>小松（中国）投资有限公司</strong></a><br />
+            品牌指数：54199
+          </div>
+        </li>
+        <li>
+          <em>4</em>
+          <div class="topc">
+            <a href="/brand/liugong/" title="广西柳工机械股份有限公司" target="_blank"><img src="/uploadfiles/09031711214794_0.jpg" alt="广西柳工机械股份有限公司" width="80" height="30" /><br />
+            <strong>广西柳工机械股份有限公司</strong></a><br />
+            品牌指数：53206
+          </div>
+        </li>
+        <li>
+          <em>5</em>
+          <div class="topc">
+            <a href="/brand/zoomlion/" title="长沙中联重工科技发展股份有限公司" target="_blank"><img src="/uploadfiles/20081208093148_0.jpg" alt="长沙中联重工科技发展股份有限公司" width="80" height="30" /><br />
+            <strong>长沙中联重工科技发展股份有限公司</strong></a><br />
+            品牌指数：47364
+          </div>
+        </li>
+        <li>
+          <em>6</em>
+          <div class="topc">
+            <a href="/brand/doosan/" title="斗山工程机械（中国）有限公司" target="_blank"><img src="/uploadfiles/20081204182013_0.jpg" alt="斗山工程机械（中国）有限公司" width="80" height="30" /><br />
+            <strong>斗山工程机械（中国）有限公司</strong></a><br />
+            品牌指数：44697
+          </div>
+        </li>
+        <li>
+          <em>7</em>
+          <div class="topc">
+            <a href="/brand/cat/" title="卡特彼勒" target="_blank"><img src="/uploadfiles/20081204173853_0.jpg" alt="卡特彼勒" width="80" height="30" /><br />
+            <strong>卡特彼勒</strong></a><br />
+            品牌指数：36379
+          </div>
+        </li>
+        <li>
+          <em>8</em>
+          <div class="topc">
+            <a href="/brand/volvo/" title="沃尔沃建筑设备（中国）有限公司" target="_blank"><img src="/uploadfiles/09031718090534_0.jpg" alt="沃尔沃建筑设备（中国）有限公司" width="80" height="30" /><br />
+            <strong>沃尔沃建筑设备（中国）有限公司</strong></a><br />
+            品牌指数：36027
+          </div>
+        </li>
+        <li>
+          <em>9</em>
+          <div class="topc">
+            <a href="/brand/lovol/" title="福田雷沃国际重工股份有限公司" target="_blank"><img src="/uploadfiles/0903171119171_0.jpg" alt="福田雷沃国际重工股份有限公司" width="80" height="30" /><br />
+            <strong>福田雷沃国际重工股份有限公司</strong></a><br />
+            品牌指数：34106
+          </div>
+        </li>
+        <li>
+          <em>10</em>
+          <div class="topc">
+            <a href="/brand/hitachi/" title="日立建机(中国)有限公司" target="_blank"><img src="/uploadfiles/20081205142317_0.jpg" alt="日立建机(中国)有限公司" width="80" height="30" /><br />
+            <strong>日立建机(中国)有限公司</strong></a><br />
+            品牌指数：28772
+          </div>
+        </li>
+       </ul>
+    </div>
+  </div>

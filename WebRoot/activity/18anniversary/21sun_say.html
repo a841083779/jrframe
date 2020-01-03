@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>铁臂商城 x 品牌</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		<script>
+		//4.4以下js适配
+		 (function (win, doc) {
+			var docEl = doc.documentElement,
+			resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+			setFontSize = function () {
+			var clientWidth = docEl.clientWidth;
+			if (!clientWidth) return;
+				docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+			};
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, setFontSize, false);
+			doc.addEventListener('DOMContentLoaded', setFontSize, false);
+			if (/Android (\d+\.\d+)/.test(navigator.userAgent)) {
+					win.addEventListener(resizeEvt, function () {
+						clearTimeout(timer);
+						timer = setTimeout(setFontSize, 300);
+					}, false);
+					win.addEventListener("pageshow", function(e) {
+						if (e.persisted) {
+							clearTimeout(timer);
+							timer = setTimeout(setFontSize, 300);
+						}
+					}, false);
+					setFontSize();
+				} 
+			})(window,document);
+		</script>
+	</head>
+	<body class="long_pic">
+		<a href="/activity/18anniversary/" class="to_index">
+			<img class="pa bg" src="images/roll_bg.png"/>
+			<img class="pa arr" src="images/arr_round.png"/>
+		</a>
+		
+		<img class="pic_item" src="images/cat.jpg"/>
+		<div style="height: 0.4rem;"></div>
+		<img class="pic_item" src="images/liugong.jpg"/>
+		<div style="height: 0.4rem;"></div>
+		<img class="pic_item" src="images/sany.jpg"/>
+		<div style="height: 0.4rem;"></div>
+		<img class="pic_item" src="images/xcmg.jpg"/>
+		<div style="height: 0.4rem;"></div>
+		<img class="pic_item" src="images/volvo.jpg"/>
+		<div style="height: 0.4rem;"></div>
+		<img class="pic_item" src="images/xiaosong.jpg"/>
+		<div style="height: 0.4rem;"></div>
+		<img class="pic_item" src="images/doosan.jpg"/>
+		<div style="height: 0.4rem;"></div>
+		<img class="pic_item" src="images/lingong.jpg"/>
+		<div style="height: 0.4rem;"></div>
+		<img class="pic_item" src="images/xiandai.jpg"/>
+		
+		<div class="tip_mask hide">
+			<div class="tip_all">
+				<p class="el"></p>
+				<a href="javascript:void(0);" class="close_it">
+					<img src="images/close.png"/>
+				</a>
+			</div>
+		</div>
+		
+		
+	</body>
+	<script src="js/module/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/21sun_say.js" type="text/javascript" charset="utf-8"></script>
+<script>
+var appIds="";
+var timestamps="";
+var nonceStrs="";
+var signatures="";
+
+(function(){
+	var url=location.href.split('#')[0];
+	$.post('http://xxlfront.jerei.com/magezine/weixinJsConfig_t.jsp',{"url":url},function(data){
+			appIds=$.trim(data.split('@@')[0]);
+			timestamps=$.trim(data.split('@@')[1]);
+			nonceStrs=$.trim(data.split('@@')[2]);
+			signatures=$.trim(data.split('@@')[3]);
+	wx.config({
+	    debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+	    appId:appIds, // 必填，公众号的唯一标识
+	    timestamp:timestamps, // 必填，生成签名的时间戳
+	    nonceStr:nonceStrs, // 必填，生成签名的随机串
+	    signature: signatures,// 必填，签名，见附录1
+	    jsApiList: [
+	        'checkJsApi',
+	        'onMenuShareTimeline',
+	        'onMenuShareAppMessage',
+	        'onMenuShareQQ',
+	        'onMenuShareWeibo',
+	        'hideMenuItems',
+	        'showMenuItems',
+	        'hideAllNonBaseMenuItem',
+	        'showAllNonBaseMenuItem',
+	        'translateVoice',
+	        'startRecord',
+	        'stopRecord',
+	        'onRecordEnd',
+	        'playVoice',
+	        'pauseVoice',
+	        'stopVoice',
+	        'uploadVoice',
+	        'downloadVoice',
+	        'chooseImage',
+	        'previewImage',
+	        'uploadImage',
+	        'downloadImage',
+	        'getNetworkType',
+	        'openLocation',
+	        'getLocation',
+	        'hideOptionMenu',
+	        'showOptionMenu',
+	        'closeWindow',
+	        'scanQRCode',
+	        'chooseWXPay',
+	        'openProductSpecificView',
+	        'addCard',
+	        'chooseCard',
+	        'openCard'
+	    ] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+	});
+	
+	wx.ready(function () {
+  // 1 判断当前版本是否支持指定 JS 接口，支持批量判断
+  wx.checkJsApi({
+    jsApiList: [
+      'onMenuShareTimeline'
+    ],
+    success: function (res) {
+      //alert(JSON.stringify(res));
+    }
+  });
+				var title= '铁臂商城 x 9大品牌，想对你说...';
+				var desc='尽在掌握就是...';
+				var link= 'http://product.21-sun.com/activity/18anniversary/21sun_say.html';
+				var imgUrl= 'http://product.21-sun.com/activity/18anniversary/images/share.jpg';
+  // 分享给朋友
+  wx.onMenuShareAppMessage({
+	    title: title,
+		desc: desc,
+	    link: link,
+	    imgUrl: imgUrl,
+	    trigger: function (res) {
+	    },
+	    success: function (res) {
+	        subShare();
+	        alert("分享成功！");
+	        hideShare()
+	        //setTimeout(function(){window.location.reload();}, 3000 )
+	    },
+	    cancel: function (res) {
+	         //alert('已取消');
+	         hideShare();
+	    },
+	    fail: function (res) {
+	      //alert(JSON.stringify(res));
+	    }
+  });
+
+  //分享朋友圈
+  wx.onMenuShareTimeline({
+      title: title,
+      desc: desc,
+      link: link,
+      imgUrl: imgUrl,
+      trigger: function (res) {
+      },
+      success: function (res) {
+        subShare();
+        alert("分享成功！");
+        hideShare()
+        //setTimeout(function(){window.location.reload();}, 3000 )
+      },
+      cancel: function (res) {
+        hideShare()
+      },
+      fail: function (res) {
+        //alert(JSON.stringify(res));
+      }
+    });
+});
+wx.error(function (res) {
+  //alert(res.errMsg+"error");
+});
+		
+		});
+})();
+</script>
+</html>

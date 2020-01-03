@@ -1,0 +1,186 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by 21-sun.com" />
+<title>企业简介_关于我们_佩德克（PEDAX）济南德佳机器控股有限公司</title>
+<link href="../style/style.css" tppabs="http://www.pedax.cn/style/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--21sun top-->
+<link href="http://product.21-sun.com/style/brandshop_top_include.css" rel="stylesheet" type="text/css" />
+<div class="product_include">
+<div class="brand_topBar">
+  <div class="contain980 clearfix">
+    <div class="visit_21sun"><a title="返回工程机械产品中心" href="http://product.21-sun.com/" target="_blank"><img src="http://product.21-sun.com/images/brandshop_toppoint.gif"> 返回工程机械产品中心</a></div>
+    <ul class="loginLinks_new">
+      <li onclick="window.open('http://product.21-sun.com/agent/login.jsp');">厂家登录</li>
+      <li onclick="window.open('http://product.21-sun.com/agent/login.jsp');">代理商登录</li>
+    </ul>
+    <ul class="tlRight">
+      <li onclick="window.open('http://product.21-sun.com/products/');" class="tl">产品大全</li>
+      <li onclick="window.open('http://product.21-sun.com/brand/');" class="tl">品牌大全</li>
+      <li onclick="window.open('http://product.21-sun.com/news/');" class="tl">行情导购</li>
+      <li onclick="window.open('http://product.21-sun.com/inquiry/');" class="tl">采购询价</li>
+      <li onclick="window.open('http://product.21-sun.com/photo/');" class="tl">产品图库</li>
+      <li onclick="window.open('http://product.21-sun.com/top_list/');" class="tl">排行榜</li>
+      <li onclick="window.open('http://product.21-sun.com/agent/');" class="tl">代理商专区</li>
+      <li class="guide" id="guide" onmouseover="document.getElementById('guide').className='guide ghover'" onmouseout="document.getElementById('guide').className='guide'"><span class="gt">网站导航</span>
+        <ul>
+          <li onclick="window.open('http://market.21-sun.com/');">供求市场</li>
+          <li onclick="window.open('http://news.21-sun.com/');">行业动态</li>
+          <li onclick="window.open('http://product.21-sun.com/');">整机市场</li>
+          <li onclick="window.open('http://www.21-sun.com/part/');">配件市场</li>
+          <li onclick="window.open('http://www.21-rent.com/');">租赁调剂</li>
+          <li onclick="window.open('http://www.21part.com/');">杰 配 网</li>
+          <li onclick="window.open('http://www.21peitao.com/');">配 套 网</li>
+          <li onclick="window.open('http://www.21-sun.com/supply/');">供 应 商</li>
+          <li onclick="window.open('http://www.21-cmjob.com/');">招聘求职</li>
+          <li onclick="window.open('http://data.21-sun.com/');">数据分析</li>
+          <li onclick="window.open('http://www.21-sun.com/bidding/');">招 投 标</li>
+          <li onclick="window.open('http://stock.21-sun.com/');">行业股市</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="brand_topbg">
+  <div class="top contain980 brand_top">
+    <h1><a target="_blank" href="http://product.21-sun.com/"><img width="136" height="72" alt="中国工程机械商贸网" src="http://product.21-sun.com/images/new_n_21sun.gif"><img width="53" height="72" alt="产品中心" src="http://product.21-sun.com/images/new_n_pro_name.gif"></a></h1>
+    <div class="new_topMid">
+      <ul class="news_topSearch">
+        <form target="_blank" onsubmit="if(jQuery('#keyword').val()==''){alert('请输入您要搜索的关键词');jQuery('#keyword').focus();return false;}" action="http://sowa.21-sun.com/" method="get" name="top_search" id="top_search">
+          <li class="ntsi">
+            <input type="text" value="" maxlength="30" id="q" name="q">
+          </li>
+          <li class="ntsb">
+            <input type="submit" value="&nbsp;" id="button">
+          </li>
+          <input type="hidden" value="product" name="f">
+        </form>
+      </ul>
+      <div class="hotWords">热门搜索：<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001"><b>挖掘机</b></a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002">装载机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=102">起重机</a></div>
+    </div>
+    <div id="topHot" class="topHot">
+      <ul class="thl">
+        <li style="display: block;"><a target="_blank" href="http://product.21-sun.com/tuan/"><img width="260" height="80" style="cursor:pointer" alt="产品中心优买团" src="http://product.21-sun.com/images/tu1.png"></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+<!--21sun top end--> 
+
+
+<!--头部开始-->
+
+<div class="top contain980">
+  <h1 class="logo floatLeft"><a href="../index.htm" tppabs="http://www.pedax.cn/"><img src="../images/logo.gif" tppabs="http://www.pedax.cn/images/logo.gif" width="500" height="88" alt="数控弯箍机,钢筋弯曲机,钢筋加工机械,钢筋加工设备,钢筋加工配送,钢筋调直切断机中国区代理商-济南德佳机器控股有限公司"/></a></h1>
+  <div class="top1 floatRight">
+    <div class="eng floatLeft"><a href="javascript:if(confirm('http://www.pedax.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.pedax.com/'" tppabs="http://www.pedax.com/">ENGLISH</a></div>
+    <div class="zw floatLeft"><a href="javascript:if(confirm('http://www.pedax.com.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.pedax.com.cn/'" tppabs="http://www.pedax.com.cn/" rel="nofollow">中文</a></div>
+    <div class="home floatLeft"><a name="homepage" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('../index.htm'/*tpa=http://www.pedax.cn/*/);" href="../index.htm" tppabs="http://www.pedax.cn/" rel="nofollow"><img src="../images/home.gif" tppabs="http://www.pedax.cn/images/home.gif" width="21" height="22" alt="设为首页"/></a></div>
+    <div class="shoucang floatLeft"><a rel="nofollow" href="../index.htm" tppabs="http://www.pedax.cn/" onclick="window.external.addFavorite('../index.htm'/*tpa=http://www.pedax.cn/*/,'济南德佳机器控股有限公司')" target="_top" title="济南德佳机器控股有限公司"><img src="../images/shoucang.gif" tppabs="http://www.pedax.cn/images/shoucang.gif" width="22" height="22" alt="加入收藏"/></a></div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<!--头部结束-->
+<!--FLASH开始-->
+<div class="ny_flash contain980"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="swflash.cab#version=9,0,0,0" tppabs="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="980" height="325" id="index" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="../images/ny_flash.swf" tppabs="http://www.pedax.cn/images/ny_flash.swf" />
+	<param name="quality" value="High" /><param name="bgcolor" value="#ffffff" />	
+	<param name="wmode" value="transparent">
+	<embed src="../images/ny_flash.swf" tppabs="http://www.pedax.cn/images/ny_flash.swf" quality="High" bgcolor="#ffffff" width="980" height="325" name="index" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" />
+</object></div>
+<!--FLASH结束-->
+<!--主要内容开始-->
+<div class="main contain980">
+<!--导航部分开始-->
+  <div class="nav floatLeft">
+    <div class="btitle"><a href="../index.htm" tppabs="http://www.pedax.cn/"><div class="shuzi1">HOME</div><div class="shuzi2">网站首页</div></a></div>
+    <div class="btitle btitleon"><a href="index.htm" tppabs="http://www.pedax.cn/about/"><div class="shuzi1">ABOUT US</div><div class="shuzi2">关于我们</div></a></div>
+    <div class="ab_xl">
+      <div class="ab_xl_nr  ab_xz"><a href="index.htm" tppabs="http://www.pedax.cn/about/">企业简介</a></div>
+      <div class="ab_xl_nr"><a href="qyls.jsp.htm" tppabs="http://www.pedax.cn/about/qyls.jsp">企业历史</a></div>
+      <div class="ab_xl_nr"><a href="qyjz.jsp.htm" tppabs="http://www.pedax.cn/about/qyjz.jsp">企业价值观</a></div>
+      <div class="ab_xl_nr"><a href="zlhb.jsp.htm" tppabs="http://www.pedax.cn/about/zlhb.jsp">战略伙伴</a></div>
+      <div class="ab_xl_nr"><a href="xcyx.jsp.htm" tppabs="http://www.pedax.cn/about/xcyx.jsp">宣传影像</a></div>
+      <div class="ab_xl_nr"><a href="rczp.jsp.htm" tppabs="http://www.pedax.cn/about/rczp.jsp">人才招聘</a></div>
+    </div>
+    <div class="btitle"><a href="../product/index.htm" tppabs="http://www.pedax.cn/product/"><div class="shuzi1">PRODUCTS</div><div class="shuzi2">产品展示</div></a></div>
+    <div class="btitle"><a href="../case/index.htm" tppabs="http://www.pedax.cn/case/"><div class="shuzi1">CASE</div><div class="shuzi2">成功案例</div></a></div>
+    <div class="btitle"><a href="../service/index.htm" tppabs="http://www.pedax.cn/service/"><div class="shuzi1">SERVICE</div><div class="shuzi2">客户服务</div></a></div>
+    <div class="btitle"><a href="../news/index.htm" tppabs="http://www.pedax.cn/news/"><div class="shuzi1">NEWS</div><div class="shuzi2">新闻中心</div></a></div>
+    <div class="btitle"><a href="../contact/index.htm" tppabs="http://www.pedax.cn/contact/"><div class="shuzi1">CONTACT</div><div class="shuzi2">联系我们</div></a></div>
+  </div>
+<!--导航部分结束-->
+<!--右侧内容开始-->
+  <div class="da_nr floatLeft">
+    <div class="title">
+      <h2>企业简介</h2>
+      <h3 class="breadcrumbs">您当前所在的位置：<a href="../index.htm" tppabs="http://www.pedax.cn/">首页</a> &gt; <a href="index.htm" tppabs="http://www.pedax.cn/about/">关于我们</a> &gt; 企业简介</h3>
+    </div>
+    <div class="textcontent">
+      <h3 style="text-align:left; font-family:Arial; color:#0062a1">佩德克（PEDAX）公司</h3>
+      <p style="text-indent:2em;">早在1926年德国一家著名的钢筋加工机械制造商 - Peddinghaus公司就推出了其生产的第一批钢筋弯曲和剪切机。今天这些设备仍然以Perfekt and Simplex为品牌被制造出来并销往全球市场。</p><p style="text-indent:2em;">位于丹麦的另一家著名的钢筋加工机械制造商 - Stema 公司于1984年制造出了第一款名为Steelmaster的全自动弯箍机，该设备的特点为性能高，操作简便。</p><p style="text-indent:2em;"> 1997年Peddinghaus公司被收购，并成功地与Stema公司整合组建成了一个名为Pedax的新公司。</p><p style="text-indent:2em;">今天，佩德克（PEDAX）公司为钢筋加工提供全系列的设备和生产线，并且已经成为该行业的领头羊。当客户计划建造钢筋加工厂并为此配备设备时，特别是当他们以设备的经济实用为第一考虑时，往往都会选择佩德克（PEDAX）公司的产品。</p><p style="text-indent:2em;">佩德克（PEDAX）公司的产品在市场上有着非常强的竞争力。产品系列包括：全自动数控弯箍机、全自动调直切断机、数控棒材剪切生产线、全自动数控棒材弯曲中心、数控钢筋弯曲机、钢筋帘卷焊机、钢筋网加工设备和生产线、钢筋笼滚焊机以及物美价廉的配件。</p><p style="text-indent:2em;">
+我们不仅能够为您在每个钢筋加工工艺环节提供最优质的机械设备，更能凭借百年的行业经验，提供从厂房及产能规划到产品调试服务全过程的系统解决方案，达到投资效益最大化与长期运营经济性的和谐统一。</p>
+<p style="text-indent:2em;">佩德克（PEDAX）公司总部位于丹麦Kvistgaard。主生产工厂位于德国彼特堡。</p><br/>
+	<h3 style="text-align:left; color:#0062a1">济南德佳机器控股有限公司</h3><br/>
+<p style="text-indent:2em;">从2011年1月开始，济南德佳机器控股有限公司成为佩德克（PEDAX）公司在中国地区的独家总代理。</p>
+<p style="text-indent:2em;">济南德佳机器控股有限公司，成立于1998年，是建筑节能领域专业机械及系统集成制造商，始终专注于塑料门窗组装设备、中空玻璃加工设备（节能门窗生产）及相关系统集成软件的研发、制造与销售，是行业的龙头企业。</p>
+<p style="text-indent:2em;">德佳控股，是山东省高新技术企业、工程技术研究中心，参与行业标准编制，“山东省著名商标”。</p>
+<p style="text-indent:2em;">公司现已通过ISO9001：2000版质量体系认证和欧盟CE安全认证。产品销往美、英、德、意、加等88个国家与地区，并成功进入欧美发达国家主流市场。</p>
+<p style="text-indent:2em;">依托成立十余年来积累的专业机械行业与数千家客户服务经历，技能娴熟、经验丰富的员工队伍，遍布全国的30个营销服务机构，准确把握客户需求，量身定做投入产出比最优的客户化解决方案，并提供及时可靠的技术支持，使“德佳机器，专家品质”成为客户的真实体验。</p>
+</div>
+  </div>
+<!--右侧内容结束-->
+  <div class="clear"></div>
+</div>
+<!--foot开始-->
+
+<div class="foot  contain980">
+  <div class="foot_zi">
+    <div class="floatLeft">济南德佳机器控股有限公司  版权所有 产品展示：数控弯箍机,钢筋弯曲机,钢筋加工机械,钢筋加工设备,钢筋加工配送,钢筋调直切断机</div>
+    <div class="floatRight">电话：<span class="shuzi">+86 531 88800203</span>&nbsp;&nbsp;&nbsp; </div><br/>
+    中国工程机械商贸网 制作维护 <script src="../../s21.cnzz.com/stat.php-id=3911289&web_id=3911289&show=pic1" tppabs="http://s21.cnzz.com/stat.php?id=3911289&web_id=3911289&show=pic1" language="JavaScript"></script>邮箱：<a href="mailto:sales@decaholdings.com" style="font-family:Arial;">sales@decaholdings.com</a>
+  </div>
+  <div class="foot_bd"><select style="background:#f8f8f8" onchange="if(this.selectedIndex &amp;&amp; this.selectedIndex!=0){window.open(this.value);}this.selectedIndex=0;" size="1" name="menu1"class="big">
+    <option>--德佳机器控股下属子公司网站--</option>
+    <option value="http://www.decaholdings.com/">济南德佳机器控股有限公司</option>
+	<option value="http://www.decamachine.com/">济南德佳机器有限公司</option>
+	<option value="http://www.decaglass.com/">济南德佳玻璃机器有限公司</option>
+	<option value="http://www.decasoft.com.cn/">济南德佳软件科技有限公司</option>
+  </select></div>
+</div>
+<!--foot结束-->
+
+
+
+
+<!--21sun foot-->
+<link href="http://product.21-sun.com/style/brandshop_top_include.css" rel="stylesheet" type="text/css" />
+<div class="product_include">
+<div class="shopFoot">
+  <div class="proFoot">
+    <link rel="stylesheet" href="http://www.21-sun.com/00css/new_21sun_include.css" type="text/css" />
+    <div class="New_website">
+      <div class="New_linksContain"> <strong><span class="New_links" onclick="window.open('http://www.21-sun.com');">中国工程机械商贸网</span>旗下网站：</strong> <span class="New_links" onclick="window.open('http://www.21-parts.com');">中国工程机械配件网</span> <span class="New_links" onclick="window.open('http://www.21-cmjob.com');">中国工程机械人才网</span> <span class="New_links" onclick="window.open('http://www.21-rent.com');">中国工程机械租赁网</span> <span class="New_links" onclick="window.open('http://www.21-used.com');">中国工程机械二手网</span> <span class="New_links" onclick="window.open('http://www.21part.com/');">配件商城</span> <span class="New_links" onclick="window.open('http://www.21peitao.com/');">配套网</span> <span class="New_links" onclick="window.open('http://www.cmbol.com/');">工程机械外贸网</span> 
+    </div>
+    </div>
+    <div class="New_foot"> <span class="New_links" onclick="window.open('http://www.21-sun.com/service/guanggao/index.htm');">广告服务</span><em>|</em> <span class="New_links" onclick="window.open('http://aboutus.21-sun.com/contact/');">联系方式</span><em>|</em> <span class="New_links" onclick="window.open('http://aboutus.21-sun.com/');">关于我们</span><em>|</em> <span class="New_links" onclick="window.open('http://aboutus.21-sun.com/news/');">本网动态</span><em>|</em> <span class="New_links" onclick="window.open('http://aboutus.21-sun.com/contact/legal.jsp');">法律声明</span><em>|</em> <span class="New_links" onclick="window.open('http://aboutus.21-sun.com/map.htm');">网站导航</span><em>|</em> <span class="New_links" onclick="window.open('http://www.21-sun.com/contact/');">联系客服</span><br/>
+      主编：<a href="mailto:webmaster@21-sun.com" rel="nofollow">webmaster@21-sun.com</a><em>&nbsp;</em> 市场部：<a href="mailto:market@21-sun.com" rel="nofollow">market@21-sun.com</a><em>&nbsp;</em> 技术部：<a href="mailto:tech@21-sun.com" rel="nofollow">tech@21-sun.com</a><em>&nbsp;</em> 广告部：<a href="mailto:ads@21-sun.com" rel="nofollow">ads@21-sun.com</a><br/>
+      产品询价专线：0535-6792733<em>&nbsp;</em>业务联系：(总机)0535-6722555<br/>
+      <span class="New_links" onclick="window.open('http://www.21-sun.com');">中国工程机械商贸网</span> Copyright &copy; 2000-<script type="text/javascript">document.write((new Date()).getFullYear());</script> 
+    </div>
+  </div>
+</div>
+</div>
+<!--21sun foot end-->
+
+</body>
+</html>

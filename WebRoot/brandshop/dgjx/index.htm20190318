@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>德工机械官方旗舰店</title>
+<meta content="" name="Keywords">
+<meta content="" name="Description">
+<link rel="icon" href="/resources/favicon.ico" >
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="design by www.jerei.com">
+<script src="js/jquery-1.7.min.js"></script>
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<!--header-->
+          <!--#include virtual="/brandshop/include/top.jsp"-->
+
+
+<!--header end-->
+<!--main-->
+<section class="pageMain index arrow_bg">
+	<div class="wrap">
+		<!-- 店铺介绍 start -->
+		<div class="shop_header fix">
+			<img class="dg_logo l" src="img/dg_logo.png" alt="logo">
+			<div class="shop_search l">
+				<div class="search_box fix">
+					<input class="search_ipt l" type="text" id="keyword" />
+					<input class="search_btn hidetext l" onclick="search()" type="submit">
+				</div>
+				<p class="hot_search el">热门搜索：<a href="zzj.jsp">德工装载机</a>、<a href="lzs.jsp">德工冷再生机</a>、<a href="psj.jsp">德工水泥路面破碎机</a></p>
+			</div>
+			<div class="shop_info r" >
+				<p>装载机营销热线：0534-2552598 0534-2553888<br>
+				   外贸进出口：0534-2552567 0534-2552538<br>
+				   冷再生机：0534-2488803	0534-2488811
+				</p>
+			</div>
+		</div>
+		<!-- 店铺介绍 end -->
+		<!-- 导航 start -->
+		<div class="navs tc">
+			<a style="color:#fff" href="index.htm" class="nav_item">首页</a>
+			<a style="color:#fff" href="zzj.jsp" class="nav_item">装载机</a>
+			<a style="color:#fff" href="lzs.jsp" class="nav_item">冷再生机</a>
+			<a style="color:#fff" href="psj.jsp" class="nav_item">破碎机</a>
+			<a style="color:#fff" href="wjj.jsp" class="nav_item">轮式挖掘机</a>
+			<a style="color:#fff"  href="cycp.jsp" class="nav_item">差异化产品</a>
+			<a style="color:#fff"  href="ttj.jsp" class="nav_item">推土机</a>
+			<a style="color:#fff" href="intro.htm" class="nav_item">公司介绍</a>
+		</div>
+		<!-- 导航 end -->
+	</div>
+	<!-- banner start -->
+	<div class="banner">
+		<div class="hd">
+			<ul><li></li><li></li><li></li><li></li></ul>
+		</div>
+		<div class="bd">
+			<ul>
+				<li  style="background-image:url(img/51.jpg);height:510px" > </li>
+				<li  style="background-image:url(img/cj.jpg);height:510px" > </li>
+				<li  style="background-image:url(img/60year.jpg);height:510px" > </li>
+				<li  style="background-image:url(img/banner1.jpg);height:510px" > </li>
+
+				<!--
+				<li><a href="javascript:void(0)"><img src="img/banner_index.jpg" /></a></li>
+				<li><a href="javascript:void(0)"><img src="img/banner_index.jpg" /></a></li>
+				-->
+			</ul>
+		</div>
+	</div>
+	<!-- banner end -->
+	<div class="wrap">
+		<!-- 产品介绍 start -->
+		<div class="product_info_list oh">
+			<p class="title tit01 pr" style="float:none;">
+				<a href="zzj.jsp" class="title_btn pa">查看详情 >></a>
+			</p>
+			
+			<div class="product_item pr">
+				<img class="pa product_img" src="img/965H2.jpg" alt="装载机">
+				<div class="product_info pa">
+					<p class="item_tit">DG956H-2装载机</p>
+					<p class="info_info oh">性能稳定，动力强劲<br>加强型驱动桥，承载能力大<br>双泵合流液压技术，高效节能</p>
+					<a  href="javascript:;" onClick="showinquery('7773','');"  class="btn_consult">立即询价</a>
+				</div>
+			</div>
+			<div class="product_item pr">
+				<img class="pa product_img" src="img/DG956H.jpg" alt="装载机">
+				<div class="product_info pa">
+					<p class="item_tit">DG956H装载机</p>
+					<p class="info_info oh">作业稳定<br>长轴距设计，增强了整车牵引力、掘起力<br>采用潍柴新一代国Ⅲ排放发动机</p>
+					<a  href="javascript:;" onClick="showinquery('29714','');"  class="btn_consult">立即询价</a>
+				</div>
+			</div>
+			<div class="product_item pr">
+				<img class="pa product_img" src="img/DG938H.jpg" alt="装载机">
+				<div class="product_info pa">
+					<p class="item_tit">DG938H装载机</p>
+					<p class="info_info oh">油耗低，动力输出稳定，牵引力大<br>负荷传感液压系统，转向灵活轻便</p>
+					<a  href="javascript:;" onClick="showinquery('29710','');"  class="btn_consult">立即询价</a>
+				</div>
+			</div>			
+			
+		 
+			<p class="title tit02 pr" style="float:none;">
+				<a href="lzs.jsp" class="title_btn pa">查看详情 >></a>
+			</p>
+			<div class="product_item pr">
+				<img class="pa product_img" src="img/index_goods_03.jpg" alt="DGL550N冷再生机">
+				<div class="product_info pa">
+					<p class="item_tit">DGL550N冷再生机</p>
+					<p class="info_info oh">多功能施工机械<br>主要用于旧沥青路面的升级改造<br>即沥青路面基层的冷再生作业</p>
+					<a href="javascript:;" onClick="showinquery('29718','');"  class="btn_consult">立即询价</a>
+				</div>
+			</div>
+			<div class="product_item pr">
+				<img class="pa product_img" src="img/index_goods_04.jpg" alt="DGL700N冷再生机">
+				<div class="product_info pa">
+					<p class="item_tit">DGL700N冷再生机</p>
+					<p class="info_info oh">功率强大，性能可靠，高效节能<br>整机行走采用静液压传动技术<br>铣拌转子驱动采用机械传动</p>
+					<a href="javascript:;" onClick="showinquery('29719','');"  class="btn_consult">立即询价</a>
+				</div>
+			</div>
+			<p class="title tit03 pr" style="float:none;">
+				<a href="psj.jsp" class="title_btn pa">查看详情 >></a>
+			</p>
+			<div class="product_item pr">
+				<img class="pa product_img" src="img/index_goods_05.jpg" alt="PSJ400破碎机">
+				<div class="product_info pa">
+					<p class="item_tit">PSJ400破碎机</p>
+					<p class="info_info oh">采用绿色环保的康明斯发动机，<br>功率强大，性能可靠，高效节能。<br>整机采用静液压传动技术。</p>
+					<a href="javascript:;" onClick="showinquery('29722','');"  class="btn_consult">立即询价</a>
+				</div>
+			</div>
+			<p class="title tit04 pr" style="float:none;">
+				<a href="wjj.jsp" class="title_btn pa">查看详情 >></a>
+			</p>
+			<div class="product_item pr">
+				<img class="pa product_img" src="img/index_goods_06.jpg" alt="DG680轮式挖掘机">
+				<div class="product_info pa">
+					<p class="item_tit">DG680轮式挖掘机</p>
+					<p class="info_info oh">采用国Ⅲ发动机，动力强劲，高<br>效可靠；环保排放，低震动、低<br>噪音，低油耗。</p>
+					<a href="javascript:;" onClick="showinquery('29727','');"  class="btn_consult">立即询价</a>
+				</div>
+			</div>
+			
+			
+			<p class="title tit07 pr" style="float:none;">
+				<a href="ttj.jsp" class="title_btn pa">查看详情 >></a>
+			</p>
+			<div class="product_item pr">
+				<img class="pa product_img" src="img/index_goods_07.jpg" alt="DGT240轮式推土机">
+				<div class="product_info pa">
+					<p class="item_tit">DGT240轮式推土机</p>
+					<p class="info_info oh">噪音小、油耗低、污染小。</p>
+					<a href="javascript:;" onClick="showinquery('30319','');"  class="btn_consult">立即询价</a>
+				</div>
+			</div>
+			
+		</div>
+		<!-- 产品介绍 end -->
+	</div>
+</section>
+<!--main end-->
+<!--footer-->
+<footer class="page_footer tc">
+	<p class="footer_item"><a  style="color:#fff" target="_blank" href="http://www.21-sun.com/service/guanggao/index.htm">广告服务</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a  style="color:#fff" target="_blank" href="http://aboutus.21-sun.com/contact/">联系方式</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a  style="color:#fff" target="_blank" href="http://product.21-sun.com/about/">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a  style="color:#fff"  target="_blank" href="http://www.jerei.com/news/index-list-0.htm">本网动态</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a  style="color:#fff" href="http://www.jerei.com/site/mian-ze-sheng-ming.htm">法律声明</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a  style="color:#fff" href="http://aboutus.21-sun.com/map.htm">网站导航</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a  style="color:#fff" href="http://aboutus.21-sun.com/contact/">联系客服</a></p>
+	<p class="footer_item">产品询价专线:4006-521-526</p>
+	<p class="footer_item">中国工程机械商贸网 Copyright © 2000-2017</p>
+</footer>
+<!--footer end-->
+<script src="js/jquery.SuperSlide.js"></script>
+<script src="js/index.js"></script>
+
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<script type="text/javascript" src="/scripts/sort.js"></script>
+<link type="text/css" rel="stylesheet"	href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<script>
+function search(){
+
+ var keyword=jQuery("#keyword").val();
+ if(keyword==''){
+    alert("请输入您要搜索的产品！");
+ }else{
+    window.location.href="/brandshop/dgjx/search.jsp?keyword="+keyword;
+ }	
+
+}
+</script>
+<div style="display:none"><script src="https://s22.cnzz.com/z_stat.php?id=1263117920&web_id=1263117920" language="JavaScript"></script></div>
+
+</body>
+</html>

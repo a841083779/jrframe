@@ -1,0 +1,20 @@
+/* CSS Document */
+.kbcon { clear:both;}
+.kbtop .title { height:38px; background:url(../images/kb_titlebg.gif) no-repeat;}
+.kbtop .title h2 { width:auto; height:38px; line-height:38px; font-size:14px; font-weight:normal; color:#fff; white-space:nowrap; padding-left:15px; float:left;}
+.kbtop .content { border:#d3d3d3 1px solid; padding:15px; width:725px; float:left;}
+.kbtop .t { width:100%; float:left; border-bottom:#d3d3d3 1px solid; line-height:24px;}
+.kbtop .t .website { width:auto; float:left; white-space:nowrap; font-weight:bold;}
+.kbtop .t .info { width:auto; float:right; font-weight:bold; white-space:nowrap;}
+.kbtop .t { margin-bottom:15px;}
+.kbtop .img { width:auto; float:left; margin-right:20px; margin-bottom:20px;}
+.kbtop .img img { width:200px; height:140px;}
+.kbtop .text { width:440px; float:left; margin-bottom:20px;}
+.kbtop .otherInfo { clear:both; text-align:center; border-top:#d3d3d3 1px solid; line-height:24px; padding:5px 0px;}
+
+.comments span.commentBtn { width:91px; height:28px; float:right; margin-top:-2px; padding-right:0px;}
+.comments span.commentBtn a { display:block; width:100%; height:28px; line-height:28px; color:#fff; background:url(/images/comment_btnbg.gif) no-repeat; text-align:center; font-weight:bold;}
+
+.comments .pdTab ul li { width:117px; background-image:url(../images/kb_titlebg01.gif);}
+.comments .pdTab ul li a { width:117px;}
+

@@ -1,0 +1,15 @@
+﻿<link href="http://news.21-sun.com/00css/news_detail_spe.css" rel="stylesheet" type="text/css" />
+<link href="http://news.21-sun.com/00css/style_news.css" rel="stylesheet" type="text/css" />
+<#assign proList = query(" select  top 12 id,name from pro_agent_factory where is_show=1 and flag=1 and id in (select distinct factoryid from pro_products where catalognum like '${catalognum}%' ) order by view_count desc ")>
+      <div class="rp fix mb10 area" >
+        <div class="title">
+          <h3>${catalogname}热门品牌</h3>
+        </div>
+        <div class="content rList01">
+          <ul class="list">
+		  <#list proList as pro>  
+                     <li><a target="_blank" title="${pro.name}${catalogname}" href="http://product.21-sun.com/products/prolist.jsp?factory=${pro.id}&catalog=${catalognum}" >${pro.name}</a></li>
+	      </#list>
+          </ul>
+        </div>
+      </div>

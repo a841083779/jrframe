@@ -1,0 +1,123 @@
+/* CSS Document */
+body.tuan { background:url(../images/tuanbg.jpg) center 31px no-repeat; _overflow-x:hidden}
+* html,* html body {background-image:url(../images/tuanbg.jpg); background-attachment:fixed;}
+.wrapper { width:980px; height:auto; clear:both; margin:0px auto;}
+body.tuan .banner { line-height:0px; font-size:0px;}
+.tuan_part01 { height:347px; padding-top:120px; background:url(../images/tuan_part01.jpg) center 0px no-repeat;}
+.tuan_part01 ul.list { width:960px; padding-left:20px;}
+.tuan_part01 ul.list li { width:219px; height:318px; position:relative; float:left; margin-right:20px;}
+.tuan_part01 ul.list li a { display:block; width:100%; height:318px; overflow:hidden;}
+.tuan_part01 ul.list li h3 { width:202px; height:54px; text-align:center; font:100 18px/22px 微软雅黑; padding-top:36px; color:#000; position:absolute; left:8px; top:187px; background:url(../images/color_btns.gif) no-repeat;}
+.tuan_part01 ul.list li.tp01 h3 { background-position:0px 0px;}
+.tuan_part01 ul.list li.tp02 h3 { background-position:-202px 0px;}
+.tuan_part01 ul.list li.tp03 h3 { background-position:-404px 0px;}
+.tuan_part01 ul.list li.tp04 h3 { background-position:-606px 0px;}
+
+.tuan_part02,.tuan_part03 { width:100%; height:auto; clear:both;}
+.tuan_part02 { background:url(../images/sandbg.jpg) center top repeat-y;} 
+.tuan_part03 { background:url(../images/tuan_part03bg.gif) center top repeat-y;}
+
+.tuan_part { width:950px; height:auto; float:left; padding:15px 0px; margin-left:15px; _display:inline;}
+.tuan_part .title { margin-bottom:10px;}
+.tuan_part .title h3 { height:60px; font:700 30px/60px 微软雅黑; color:#fff; background-color:transparent; padding:0px 10px;
+-webkit-text-shadow:#333 1px 0 0,#333 0 1px 0,#333 -1px 0 0,#333 0 -1px 0;
+-moz-text-shadow:#333 1px 0 0,#333 0 1px 0,#333 -1px 0 0,#333 0 -1px 0;
+text-shadow:#333 1px 0 0,#333 0 1px 0,#333 -1px 0 0,#333 0 -1px 0;}
+.tuan_part .title h3 a { color:#fff!important;}
+.tuan_part .title span { font-size:13px; font-weight:normal;}
+.tuan_part .title span.tel { width:auto; float:right; font:700 16px/60px 微软雅黑; color:#ffffff; white-space:nowrap; padding-right:10px;}
+
+.tuan_part02 .tuan_part .title h3 { background-color:#9d0a12;}
+.tuan_part02 .tuan_part .title span.tel { color:#9d0a12;}
+
+.tuan_part .content { overflow:hidden;}
+.tuan_part ul.list { width:980px; *padding-bottom:15px; position:relative;}
+.tuan_part ul.list li { width:300px; height:345px; padding:0px; position:relative; margin:0px 25px 15px 0px; background-color:#fff;}
+.tuan_part ul.list li .img { display:block; height:265px; float:none; line-height:0px; font-size:0px; overflow:hidden;}
+.tuan_part ul.list li .img img { width:300px; height:265px;}
+.tuan_part ul.list li a.ydbtn { position:absolute; right:10px; top:236px; width:106px; height:49px; line-height:48px; background:url(../images/pro_btn01.gif) no-repeat; color:#9d0a12; font-size:18px; font-family:微软雅黑; padding-right:7px; text-align:center; overflow:hidden;}
+.tuan_part ul.list li h3 { font:100 16px/24px 微软雅黑; padding-left:15px; padding-top:5px; width:160px;}
+.tuan_part ul.list li h3 a { color:#524C58!important;}
+.tuan_part ul.list li h3 a:hover { color:#D01E15!important;}
+.tuan_part ul.list li .price { display:none; font:100 14px/16px 微软雅黑; color:red; padding-left:0px;}
+.tuan_part ul.list li .price b { font-weight:bold;}
+.tuan_part ul.list li.pli h3 { padding-top:15px;}
+.tuan_part ul.list li.pli a.ydbtn { top:280px;}
+.tuan_part ul.list li.noMargin { margin-right:0px;}
+.tuan_part ul.list li.intro { background:url(../images/list_introbg.gif) no-repeat; width:253px; height:304px; margin-right:0px; overflow:hidden; padding:20px 20px 20px 47px; font:100 12px/24px 微软雅黑; color:#9d0a12;}
+.tuan_part03 .tuan_part ul.list li.intro { background-position:-320px 0px;}
+.tuan_part ul.list li.intro a { color:#9d0a12!important; text-decoration:underline;}
+
+#part05 .tuan_part ul.list li.intro { width:905px; height:110px; background-image:url(../images/list_introbg01.gif); padding:10px 15px 10px 30px;}
+
+
+.tuan_part .PartContain-con { overflow:visible;}
+.PartContain-con table { width:950px; margin-bottom:40px;}
+.PartContain-con table td { vertical-align:top;}
+.pccRight { padding-right:0px;}
+.pccRight h3 { text-align:left; font-size:30px; font-family:微软雅黑; color:#fff; height:45px; line-height:32px;}
+
+.pcc-con { width:510px; float:left; margin-left:10px; _display:inline;}
+.pcc-con li.pcc-list { width:100px; height:100px; float:left; margin:0px 2px 2px 0px;}
+.pcc-con li.pcc-list a.img { display:block; width:90px; height:90px; line-height:0px; font-size:0px; float:none; padding:5px; background-color:#fff;}
+.pcc-con li.pcc-list a.img img { border:#d7d7d7 1px solid; width:88px; height:88px;}
+li.pcc-list .pcc-intro { display:none; position:absolute; left:0px; top:0px; background-color:#fbc000; width:300px; height:192px; padding:5px; z-index:1;}
+
+.pcc-con li.pcc-list-hover { position:relative;}
+.pcc-con li.pcc-list-hover a.img { position:absolute; left:0px; top:0px; z-index:2; background:#fbc000;} 
+.pcc-con li.pcc-list-hover .pcc-intro { display:block;}
+
+.pcc-intro p.text { padding-left:102px; line-height:20px;}
+.pcc-intro p.text strong { display:block; line-height:24px;}
+.pcc-intro a.more { width:65px; height:20px; line-height:20px; font-size:14px; font-weight:bold; position:absolute; right:5px; bottom:10px; background:url(/tuan/june/images/plus.gif) 0px 3px no-repeat; padding-left:17px; color:#2d2d2d!important; display:block;}
+.pcc-intro a { color:#2d2d2d!important;}
+
+.breaker ul.list li { width:217px; height:212px;}
+.breaker ul.list li .img { width:200px; height:150px; margin:0 auto;}
+.breaker ul.list li .img img { width:200px; height:150px;}
+.breaker ul.list li.pli h3 { width:105px; font-size:13px; line-height:18px; padding-top:12px;}
+.breaker ul.list li.pli a.ydbtn { top:162px; width:78px; height:36px; line-height:36px; padding-right:6px; background-image:url(../images/pro_btn02.gif); font-size:16px;}
+
+.otherTitle { width:100%; height:36px; float:left; background-color:#f4e3d2; margin-bottom:15px;}
+.otherTitle h3 { width:auto; float:left; font:700 24px/34px 微软雅黑; color:#9e0001; padding-left:8px;}
+.otherTitle h3 a { color:#9e0001!important;}
+.otherTitle span.tel { width:auto; float:right; font:700 16px/34px 微软雅黑; color:#9e0001; white-space:nowrap; padding-right:10px;}
+
+.otherProduct ul.list li .price { display:block;}
+.otherProduct .list li.last { background:#eae9ea url(../images/sg_lastbg.jpg) no-repeat;}
+.otherProduct .list li.last .img { height:198px; text-align:center;}
+.otherProduct .list li.last .img img { width:278px; height:198px;}
+.otherProduct .list li.last p { padding:40px 40px 20px; height:68px; font:100 14px/22px 微软雅黑; color:#163eac; overflow:hidden;}
+.otherProduct .list li.last p strong { font-size:18px; font-weight:bold;}
+
+.foot { background-color:#7f0102; border-top:#ffa100 1px solid; padding:15px 0px;}
+.foot .New_website { margin-top:0px; display:none;}
+.foot .New_foot { margin-top:0px;}
+.foot span.New_links,.foot .New_foot { color:#c99495;}
+.foot .New_foot a { color:#c99495!important;}
+.foot .New_foot a:hover { color:#ffffff!important;}
+
+.tuan_part ul.jianglu li.pli h3 { line-height:48px;}
+
+.pageGuide { position:absolute; left:0px; top:0px; width:100%; height:0px; z-index:999;}
+.pageGuide .links { width:175px; height:380px; background:url(../images/side_guide.png) no-repeat; _background-image:url(../images/side_guide_ie6.gif); position:absolute; left:50%; top:590px; margin-left:480px;}
+
+.pageGuideFix { position:fixed;}
+.pageGuideFix .links { top:0px;}
+
+* html .pageGuideFix { position:absolute; left:expression(eval(document.documentElement.scrollLeft)); top:expression(eval(document.documentElement.scrollTop))}
+
+.pageGuide a { display:block; width:125px; height:29px; position:absolute; left:8px; top:77px;}
+.pageGuide a.gl01 { top:77px;}
+.pageGuide a.gl02 { top:105px; height:32px;}
+.pageGuide a.gl03 { top:136px; height:31px;}
+.pageGuide a.gl04 { top:167px; height:29px;}
+.pageGuide a.gl05 { top:196px; height:31px;}
+.pageGuide a.gl06 { top:227px; height:31px;}
+.pageGuide a.gl07 { top:258px; height:26px;}
+.pageGuide a.gl08 { top:284px; height:26px}
+.pageGuide a.gl09 { top:310px; height:34px}
+.pageGuide a.gl10 { top:343px; height:30px}
+
+
+

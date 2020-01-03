@@ -1,0 +1,42 @@
+<div class="sortLeft">
+  <div class="cate">
+    <h3>挖掘机分类</h3>
+    <ul>
+      <li><a href="/products/prolist.jsp?catalog=101001&tonandmeter=grab_30_1" target="_blank">大挖(T＞30)</a></li>
+      <li><a href="/products/prolist.jsp?catalog=101001&tonandmeter=grab_14_30" target="_blank">中挖(13＜T≤30)</a></li>
+      <li><a href="/products/prolist.jsp?catalog=101001&tonandmeter=grab_1_13" target="_blank">小挖(T≤13)</a></li>
+    </ul>
+  </div>
+  <div class="brandRec">
+    <h3>品牌推荐</h3>
+    <ul>
+      <li><a href="/products/prolist.jsp?factory=133&catalog=101001" target="_blank">三一重机</a></li>
+      <li><a href="/products/prolist.jsp?factory=182&catalog=101001" target="_blank">小松</a></li>
+      <li><a href="/products/prolist.jsp?factory=192&catalog=101001" target="_blank">斗山</a></li>
+      <li><a href="/products/prolist.jsp?factory=184&catalog=101001" target="_blank">日立建机</a></li>
+      <li><a href="/products/prolist.jsp?factory=175&catalog=101001" target="_blank">沃尔沃</a></li>
+      <li><a href="/products/prolist.jsp?factory=174&catalog=101001" target="_blank">卡特彼勒</a></li>
+      <li><a href="/products/prolist.jsp?factory=146&catalog=101001" target="_blank">玉柴</a></li>
+      <li><a href="/products/prolist.jsp?factory=136&catalog=101001" target="_blank">柳工</a></li>
+      <li><a href="/products/prolist.jsp?factory=177&catalog=101001" target="_blank">JCB</a></li>
+      <li><a href="/products/prolist.jsp?factory=193&catalog=101001" target="_parent">现代江苏</a></li>
+      <li><a href="/products/prolist.jsp?factory=152&catalog=101001" target="_blank">山重建机</a></li>
+      <li><a href="/products/prolist.jsp?factory=137&catalog=101001" target="_blank">山东临工</a></li>
+      <li><a href="/products/prolist.jsp?factory=141&catalog=101001" target="_blank">福田雷沃</a></li>
+      <li><a href="/products/prolist.jsp?factory=139&catalog=101001" target="_blank">厦工</a></li>
+      <li><a href="/products/prolist.jsp?factory=142&catalog=101001" target="_blank">山河智能</a></li>
+      <li><a href="/products/prolist.jsp?factory=134&catalog=101001" target="_blank">中联重科</a></li>
+      <li><a href="/products/prolist.jsp?factory=157&catalog=101001" target="_blank">山东力士德</a></li>
+      <li><a href="/products/prolist.jsp?factory=185&catalog=101001" target="_blank">住友建机</a></li>
+      <li><a href="/products/prolist.jsp?factory=149&catalog=101001" target="_blank">沃得重工</a></li>
+      <li><a href="/products/prolist.jsp?factory=173&catalog=101001" target="_blank">熔盛机械</a></li>
+      <li><a href="/products/prolist.jsp?factory=170&catalog=101001" target="_blank">恒特重工</a></li>
+      <li><a href="/products/prolist.jsp?factory=161&catalog=101001" target="_blank">移山</a></li>
+    </ul>
+  </div>
+</div>
+<div class="sortRight">
+  <div class="l"><img src="ads/cat1218.jpg" width="432" height="430"  onClick="window.open('http://product.21-sun.com/proDetail/312DGCSERIES2.shtm');" style="cursor: pointer;" alt="卡特"  /></div>
+  <div class="r"><img src="ads/sany.jpg" width="230" height="215" onClick="window.open('http://ad.21-sun.com/link_to.jsp?paras=103,105,6929&url=product.sanygroup.com/products/zh-cn/');" style="cursor: pointer;"  alt="三一挖掘机" /></div>
+  <div class="r"><img src="ads/zy.jpg" width="230" height="215" onClick="window.open('http://ad.21-sun.com/link_to.jsp?paras=103,105,6391&url=www.jonyang.com');" style="cursor: pointer;"  alt="詹阳JY644挖掘机" /></div>
+</div>

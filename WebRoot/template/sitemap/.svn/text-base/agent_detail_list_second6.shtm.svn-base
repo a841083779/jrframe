@@ -1,0 +1,16 @@
+﻿<#assign proList = query(" select id,usern from pro_agent_factory where flag = 2 and is_show = 1  order by  is_shop desc,flag ASC , name DESC , id DESC  ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list proList as pro>  
+        <#list query(" select catalognum from pro_agent_product_vi where agentid = '${pro.id?c}' group by catalognum ") as catalog>
+		    <#list query(" select factoryid from pro_agent_product_vi where agentid ='${pro.id?c}' and catalognum='${catalog.catalognum}' group by factoryid ") as factory>
+				<url>
+                    <loc>http://product.21-sun.com/agent/agent_inquiry.jsp?usern=${pro.usern}&catalognum=${catalog.catalognum}&factory=${factory.factoryid?c}</loc>
+                    <lastmod>2014-06-11</lastmod>
+					<priority>1.0</priority>
+                    <changefreq>monthly</changefreq>
+                </url>
+			</#list>
+	    </#list>	
+	</#list>
+</urlset>

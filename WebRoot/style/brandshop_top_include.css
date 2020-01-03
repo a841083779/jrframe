@@ -1,0 +1,107 @@
+﻿@charset "utf-8";
+.product_include * { margin:0px; padding:0px;}
+.product_include img { border:none;}
+/*css清除浮动*/
+.clear { clear:both; font-size:0px; line-height:0px; overflow:hidden; height:0px;}
+/*clearfix:after*/
+.clearfix:after { content:"."; display:block; height:0px; clear:both; visibility:hidden;}
+.clearfix { display:inline-table; display:block;}
+*html .clearfix { height:1%;}
+*+html .clearfix { height:1%;}
+.contain980 { width:980px; margin:0 auto; clear:both;}
+
+.visit_21sun { width:auto; line-height:31px; float:left; font-family:宋体;}
+.loginLinks_new { width:170px; float:left; padding-top:6px; padding-left:8px;}
+.loginLinks_new li { width:78px; height:18px; text-align:center; line-height:18px; float:left; background:url(http://product.21-sun.com/images/guide_point11.gif) -96px -42px no-repeat; margin-right:6px; color:#6f6d6f; cursor:pointer;}
+.loginLinks_new li a { display:block; width:100%; height:18px; color:#fff!important;}
+.tlRight { width:auto; float:right;}
+.tlRight li.tl { width:70px; height:31px; line-height:31px; float:left; background:url(http://product.21-sun.com/images/n_line01.gif) right no-repeat; text-align:center; cursor:pointer;}
+.tlRight li.tl:hover { color:#ff6600;}
+.tlRight li.guide { width:84px; height:31px; float:left; background:url(http://product.21-sun.com/images/n_line01.gif) right no-repeat; position:relative; z-index:999999; cursor:pointer;}
+.tlRight li.guide span.gt { display:block; width:72px; height:31px; line-height:31px; padding-left:12px; text-align:left; background:url(http://product.21-sun.com/images/guide_point.gif) 0px 0px no-repeat;}
+.tlRight li.guide ul { display:none; position:absolute; right:2px; top:30px; width:140px; background:#fff; float:left; border:#dadada 1px solid; border-top:none; padding:5px 10px;}
+.tlRight li.guide ul li { width:70px; float:left; line-height:24px; text-align:center; cursor:pointer;}
+.tlRight li.guide ul li:hover { color:#ff6600;}
+.tlRight li.guide ul li a:hover { color:#0089e3; text-decoration:underline;}
+.tlRight li.guide.ghover span.gt { background-position:0px -31px;}
+.tlRight li.guide.ghover ul { display:block;}
+.tlRight li.blog { width:130px; height:31px; float:left; background:none;}
+.tlRight li.blog a { display:block; width:90px; padding-left:40px; height:31px; line-height:31px; background:url(http://product.21-sun.com/images/sina.gif) 16px no-repeat;}
+
+.top { height:100px; clear:both;}
+.topbg { background:#fff url(http://product.21-sun.com/images/new_topbg.gif) bottom repeat-x;}
+.top h1 { width:202px; float:left; padding-top:15px; padding-left:9px;}
+.topad { width:auto; float:left; padding-top:15px;}
+.topRight { width:217px; float:right;}
+
+.new_topMid { width:436px; float:left; padding:30px 0px 0px 68px; _overflow:hidden;}
+.news_topSearch { width:100%; height:38px; float:left;}
+.news_topSearch li { height:38px; float:left; background-image:url(http://product.21-sun.com/images/new_searchbg.gif); background-repeat:no-repeat;}
+.ntsi { width:328px; padding-right:14px; background-position:0px 0px; text-align:right;}
+.ntsi input { width:295px; height:38px; line-height:38px; font-size:12px; color:#666666; border:none; background:none;}
+.ntsb { width:94px; background-position:-342px 0px;}
+.ntsb input { width:94px; height:38px; border:none; background:none; cursor:pointer;}
+
+.hotWords { width:100%; height:28px; line-height:28px; float:left; color:#717171;}
+.hotWords a { margin-right:5px;}
+.hotWords b { color:#ff6c00;}
+
+.top .topHot { position:relative; float:right; width:260px; height:80px; margin-top:15px; overflow:hidden; }
+.top .topHot ul { position:relative; height:260px; height:80px; left:0px; top:0px; z-index:1;} 
+.top .topHot ul li { display:block; width:260px; height:80px; position:absolute; left:0px; top:0px;}
+.top .topHot ul li img { display:block; }
+.top .topHot ul.thn { display:none;}
+.top .topHot p { position:absolute; bottom:2px; right:8px; z-index:2;}
+.top .topHot p span { padding-right:4px; color:#999; }
+.top .topHot p span em { color:#333; font-style:normal;}
+.top .topHot p a { display:inline-block; width:13px; height:13px; background:url(http://product.21-sun.com/images/comBg630.png) -300px 0; text-indent:-999em; vertical-align:middle; overflow:hidden;}
+.top .topHot p a:hover { background-position:-300px -20px; }
+.top .topHot p a.imgNext { margin-left:-1px; background-position:-312px 0; }
+.top .topHot p a.imgNext:hover { background-position:-312px -20px; }
+
+.product_include { font-family:Arial; font-size:12px; width:100%; clear:both;}
+.product_include ul,.product_include li { list-style-type:none;}
+.product_include a:link,.product_include a:visited { text-decoration:none; color:#666666;}
+.product_include a:hover,.product_include a:active { text-decoration:none; color:#0f2c8d;}
+.brand_topBar { width:100%; height:34px; background-color:#2d49b2; clear:both;}
+.brand_topBar .visit_21sun { height:34px; line-height:34px; overflow:hidden; white-space:nowrap;}
+.brand_topBar .visit_21sun img { float:left; margin-top:2px;}
+.brand_topBar .visit_21sun,.brand_topBar .visit_21sun a { color:#b7c1e5!important;}
+.brand_topBar .visit_21sun a:hover { color:#fff!important;}
+.brand_topBar .loginLinks_new { height:34px; padding-top:0px; padding-left:15px;}
+.brand_topBar .loginLinks_new li { white-space:nowrap; background:#2d49b2; height:34px; line-height:34px; width:auto; padding:0px 10px; color:#b7c1e5!important;}
+.brand_topBar .loginLinks_new li.hover,.brand_topBar .loginLinks_new li:hover { background-color:#ff6c00; color:#fff!important;}
+.brand_topBar .tlRight { color:#b7c1e5;}
+.brand_topBar .tlRight li.ghover { color:#333;}
+.brand_topBar .tlRight li.tl:hover { color:#fff;}
+.brand_topBar .tlRight li.tl { width:auto; white-space:nowrap; padding:0px 8px; height:34px; line-height:34px; background:url(http://product.21-sun.com/images/n_line02.gif) right center no-repeat;}
+.brand_topBar .tlRight li.guide { background:none; margin-top:1px;}
+
+.brand_topbg { width:100%; height:auto; clear:both; background-color:#fff;}
+.brand_top { height:93px; border-bottom:#2d49b2 2px solid;}
+.brand_top h1 { padding-top:10px;}
+.brand_top .new_topMid { padding-top:20px;}
+.brand_top .topHot { margin-top:3px;}
+.brand_top .hotWords { padding-left:10px;}
+.shopFoot { width:980px; margin:0 auto; clear:both; background:#fff; filter:alpha(opacity=80); opacity:0.8; text-align:center; line-height:24px; padding:25px 0px; color:#000;}
+.shopFoot a:link,.shopFoot a:visited { color:#000;}
+.shopFoot a:hover { color:#000; text-decoration:underline;}
+.shopFoot .New_website { display:none;}
+.shopFoot .proFoot { width:980px; margin:0 auto; clear:both;}
+.brand_top { border-bottom:none!important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

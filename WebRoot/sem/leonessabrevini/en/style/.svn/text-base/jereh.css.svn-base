@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+/*===============================================================================================================================*/
+/*翻页样式*/
+.paging { font-size:12px; margin:20px auto 0 auto; text-align:center; width:100%;}/*翻页条的外部样式*/
+.paging img { vertical-align:middle;}
+.paging a { padding:0px 3px; display:inline-block; line-height:12px;}
+.paging a.pageing-now{ color:#000; font-weight:bold;}
+.paging-first{}
+.paging-last{ }
+.paging-prev{}
+.pageing-middle a{ }
+.pageing-middle a:hover{text-decoration:underline; color:#06C}
+.paging-next{}
+
+/*按钮默认时的状态样式*/
+
+
+/*翻页样式结束*/
+
+/*===============================================================================================================================*/
+
+
+/*留言表单开始*/
+.mes-form input,.form textarea { font-size:12px; color:#333;/*表单内所有 文本字段 和 文本区域 的 字体大小 和 文字颜色 的参数*/}
+
+.mes-form td { padding:3px 5px;/*表单内表格的单元格间距参数*/}
+
+.mes-odd td { background:#fff;/*单元格隔行变色奇数行背景色*/}
+.mes-even td { background:#fff;/*单元格隔行变色偶数行背景色*/}
+
+.mes-left { width:13%; background:#fff; font-family:Arial; color:#333; text-align:right;/*表单内表格左边单元格标题的参数*/}
+.mes-right { width:87%; text-align:left;/*表单内表格右边单元格的参数*/}
+.mes-right span{ color:#DA0001; padding-left:10px;}
+.mes-right input { width:225px; height:20px; line-height:20px; background:#ffffff url("../images/jereh/inputbg.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/inputbg.gif*/ bottom repeat-x; border:#cccccc 1px solid;/*表单内表格右边 文本字段 的参数*/}
+
+/*如需制作 圆角文本字段 的样式，请将该处注释中的样式替换上一条样式
+.mes-right input { width:315px; height:32px; line-height:32px; padding-left:5px; border:none; background:url(../images/jereh/Roundbg_03.gif) no-repeat;}*/
+
+.mes-right textarea { width:367px; height:107px; background:#fdfdfd url("../images/jereh/textareabg.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/textareabg.gif*/ bottom repeat-x; border:#cccccc 1px solid;/*表单内表格右边 文本区域 的参数*/}
+.mes-last td{ padding-left:80px;}
+.mes-sub { width:100px; float:left; height:25px; display:inline; padding-left:20px;}
+.mes-sub input { width:91px; height:27px; border:none; background:url("../images/jereh/sentmesbg.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/sentmesbg.gif*/ no-repeat; cursor:pointer; float:left; padding-left:80px;/*表单内发送留言按钮的样式参数*/}
+
+.mes-reset { width:100px; float:left; height:25px; display:inline;}
+.mes-reset input { width:91px; height:27px; border:none; background:url("../images/jereh/checkmesbg.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/checkmesbg.gif*/ no-repeat; cursor:pointer; float:left;/*表单内查看留言按钮的样式参数*/}
+
+/*如想让鼠标悬停在输入框上变颜色，请修改下面两处背景色，并将上面 "mes-right input" 与 "mes-sub input" 中的背景颜色图片样式删除*/
+.mesinputbg1 { background:#ffffff;/*输入框默认的颜色*/}
+.mesinputbg2 { background:#f6f6f6;/*输入框鼠标悬停的颜色*/}
+/*留言表单结束*/
+
+
+/*===============================================================================================================================*/
+
+
+
+/*简历投递处样式*/
+.job-form { margin:0 auto;}
+.job-form input,.form textarea,.form select { font-size:12px; color:#333;/*表单内所有 文本字段、文本区域 和 下拉列表 的 字体大小 和 文字颜色 的参数*/}
+
+.job-form td { padding:3px 5px; /*表单内表格的单元格间距参数*/}
+
+.job-two { padding:0px 12px;/*左边两个字的间距*/}
+
+.job-odd td { background:#fff;/*单元格隔行变色奇数行背景色*/}
+.job-even td { background:#fff;/*单元格隔行变色偶数行背景色*/}
+
+.job-left { width:13%; background:#fff; font-family:Arial; color:#333; text-align:right;/*表单内表格左边单元格标题的参数*/}
+.job-right { width:87%; text-align:left;/*表单内表格右边单元格的参数*/}
+.job-right span{ color:#DA0001; padding-left:10px;}
+
+.job-right input { width:225px; height:25px; line-height:25px; background:#ffffff url("../images/jereh/inputbg.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/inputbg.gif*/ bottom repeat-x; border:#cccccc 1px solid;/*表单内表格右边 文本字段 的参数*/}
+
+/*如需制作 圆角文本字段 的样式，请将该处注释中的样式替换上一条样式
+.job-right input { width:315px; height:32px; line-height:32px; padding-left:5px; border:none; background:url(../images/jereh/Roundbg_03.gif) no-repeat;}*/
+
+.job-right textarea { width:367px; height:107px; background:#fdfdfd url("../images/jereh/textareabg.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/textareabg.gif*/ bottom repeat-x; border:#cccccc 1px solid;/*表单内表格右边 文本区域 的参数*/}
+
+.job-right select { width:100px;/*表单内下拉列表的样式参数*/}
+
+.job-sub { width:100px; float:left; height:25px; display:inline; padding-left:100px;}
+.job-sub input { width:91px; height:27px; border:none; background:url("../images/jereh/resetjobbg.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/resetjobbg.gif*/ no-repeat; cursor:pointer; float:left; margin-left:200px;/*表单内发送留言按钮的样式参数*/}
+
+.job-reset { width:100px; float:left; height:25px; display:inline;}
+.job-reset input { width:91px; height:27px; border:none; background:url("../images/jereh/checkmesbg.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/checkmesbg.gif*/ no-repeat; cursor:pointer; float:left;/*表单内查看留言按钮的样式参数*/}
+
+/*如想让鼠标悬停在输入框上变颜色，请修改下面两处背景色，并将上面 "job-right input" 与 "job-sub input" 中的背景颜色图片样式删除*/
+.jobinputbg1 { background:#ffffff;/*输入框默认的颜色*/}
+.jobinputbg2 { background:#f6f6f6;/*输入框鼠标悬停的颜色*/}
+/*简历投递处样式结束*/
+
+
+/*===============================================================================================================================*/
+
+/*订单样式*/
+.order-form { margin:0 auto;}
+.order-form input,.form textarea,.form select { font-size:12px; color:#333;/*表单内所有 文本字段、文本区域 和 下拉列表 的 字体大小 和 文字颜色 的参数*/}
+
+.order-form td { padding:3px 5px;/*表单内表格的单元格间距参数*/}
+
+.order-two { padding:0px 12px;/*左边两个字的间距*/}
+
+.order-odd td { background:#fff;/*单元格隔行变色奇数行背景色*/}
+.order-even td { background:#fff;/*单元格隔行变色偶数行背景色*/}
+
+.order-left { width:18%; background:#fff; font-family:Arial; font-weight:bold; color:#666; text-align:right;/*表单内表格左边单元格标题的参数*/}
+.order-right { width:87%; text-align:left;/*表单内表格右边单元格的参数*/}
+.order-right span{ color:#DA0001; padding-left:10px;}
+
+.order-right input { width:225px; height:25px; line-height:25px; background:#ffffff url("../images/jereh/inputbg.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/inputbg.gif*/ bottom repeat-x; border:#cccccc 1px solid;/*表单内表格右边 文本字段 的参数*/}
+
+/*如需制作 圆角文本字段 的样式，请将该处注释中的样式替换上一条样式
+.order-right input { width:315px; height:32px; line-height:32px; padding-left:5px; border:none; background:url(../images/jereh/Roundbg_03.gif) no-repeat;}*/
+
+.order-right textarea { width:367px; height:107px; background:#fdfdfd url("../images/jereh/textareabg.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/textareabg.gif*/ bottom repeat-x; border:#cccccc 1px solid;/*表单内表格右边 文本区域 的参数*/}
+
+.order-right select { width:100px;/*表单内下拉列表的样式参数*/}
+
+.order-sub { width:100px; float:left; height:25px; display:inline; padding-left:103px;}
+.order-sub input { width:90px; height:24px; border:none; background:url("../images/jereh/sentorderbg.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/sentorderbg.gif*/ no-repeat; cursor:pointer;/*表单内发送留言按钮的样式参数*/}
+
+.order-reset { width:100px; float:left; height:25px; display:inline;}
+.order-reset input { width:90px; height:24px; border:none; background:url("../images/jereh/resetorderbg.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/resetorderbg.gif*/ no-repeat; cursor:pointer;/*表单内查看留言按钮的样式参数*/}
+
+/*如想让鼠标悬停在输入框上变颜色，请修改下面两处背景色，并将上面 "order-right input" 与 "order-sub input" 中的背景颜色图片样式删除*/
+.orderinputbg1 { background:#ffffff;/*输入框默认的颜色*/}
+.orderinputbg2 { background:#f6f6f6;/*输入框鼠标悬停的颜色*/}
+/*简历投递处样式结束*/
+
+
+/*===============================================================================================================================*/
+
+
+/*招聘信息*/
+.job-list {width:710px; margin:0 auto; background:url("../images/jereh/hrbt.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/hrbt.gif*/ no-repeat; /*招聘列表整体样式*/}
+.job-list th { height:32px; line-height:32px; font-family:Arial; font-weight:bold; color:#666; padding:0 0 5px 0;  text-align:center;/*招聘列表标题th的样式*/}
+.job-list td { border-bottom:#ccc dotted 1px; font-family:Arial;/*招聘列表td单元格的样式*/}
+.job-order{ text-align:center;}
+.job-position{ width:150px; padding:0 0 0 40px; text-align:left;}
+.job-workplace{width:100px; padding-left:0px; text-align:center;}
+.job-requirecount{width:109px; padding-left:0px;text-align:center;}
+.job-pubdate{width:110px; padding-left:0px;text-align:center;}
+.job-position a{ color:#666; font-weight: bold; text-decoration:none;}
+.job-position a:hover{ color:#DA0001; text-decoration:none;}
+.job-workplace{ text-align:center;}
+.job-department{ text-align:center;}
+
+
+.jt-name { width:35%;/*标题_招聘职位*/}
+.jt-dpm { width:20%;/*标题_招聘部门*/}
+.jt-area { width:15%;/*标题_工作地点*/}
+.jt-num { width:15%;/*标题_人数*/}
+.jt-date { width:15%;/*标题_日期*/}
+
+.job-list td.jl-name { text-align:left; padding-left:40px;/*列表内容_招聘职位*/}
+.jl-dpm { /*列表内容_招聘部门*/}
+.jl-area { /*列表内容_工作地点*/}
+.jl-num { font-family:"Verdana"; font-size:10px; color:#676767;/*列表内容_人数*/}
+.jl-date { font-family:"Verdana"; font-size:10px; color:#676767;/*列表内容_日期*/}
+/*招聘信息结束*/
+
+
+/*===============================================================================================================================*/
+
+
+/*资料下载*/
+.data-listzl { font-size:12px; width:704px; margin:0 auto; background:url("../images/jereh/job_title_bg.gif")/*tpa=http://www.leonessabrevini.com/en/images/jereh/job_title_bg.gif*/ top no-repeat;/*招聘列表整体样式*/}
+.data-listzl th { height:25px; line-height:25px; font-family:Arial; font-weight:normal; color:#fff;/*招聘列表标题th的样式*/}
+.data-listzl td { text-align:center; line-height:28px; border-bottom:#f2f2f2 1px solid;/*招聘列表td单元格的样式*/}
+/*资料下载*/
+
+/*===============================================================================================================================*/
+
+
+/*新闻列表*/
+.newslist {background:url("../images/jereh/xwbt.jpg")/*tpa=http://www.leonessabrevini.com/en/images/jereh/xwbt.jpg*/ no-repeat;  width:719px;/*新闻列表整体样式*/}
+.newslist th { height:25px; line-height:33px; font-family:"Arial"; font-weight:normal; color:#666; font-weight:bold; text-align:center; /*新闻列表标题th的样式*/}
+.newslist td {text-align:center; border-bottom:#CCC dotted 1px;/*新闻列表td单元格的样式*/}
+.news-pubdate{color:#999; font-size:10px; width:100px;}
+.news-title{text-align:left; line-height:32px; height:32px;  font-family:Arial; width:470px;}
+.news-title a{ color:#666!important; text-decoration:none;}
+.news-title a:hover{color:#0D2773!important;text-decoration:none;}
+.news-title div a h2{color: #666666 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 400px;}
+
+/*新闻列表
+.news-order{text-align:center; line-height:27px; width:80px;}
+.newslist td.news-title div { width:400px; height:32px; text-align:left; line-height:32px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; font-size:12px;cursor:pointer;}
+.news-viewcount{text-align:center; line-height:27px; font-family:Arial;}
+结束*/
+
+
+/*===============================================================================================================================*/
+
+
+/*图片列表*/
+.pic-content { font-size:12px; line-height:0px; float:left; margin-right:10px; margin-left:10px; height:160px;/*包含图片的div样式*/}
+.pic-content img { padding:3px; border:#CCC 1px solid; width:140px; height:120px;/*图片的样式*/}
+.pic-name { line-height:20px; width:146px; color:#333; text-align:center; background:#E8E8E8; margin-top:4px; border:#CCC 1px solid;/*图片名称的样式*/}
+.pic-name a { display:block; width:100%; line-height:20px;/*图片名称链接的样式*/}
+/*图片列表结束*/
+
+
+/*===============================================================================================================================*/
+
+
+/*信息搜索*/
+div.search-all{color:#000; margin-left:10px;}
+div.search-num{float:left;margin-right:5px;}
+div.search-title{float:left;}
+/*信息搜索*/
+
+/*===============================================================================================================================*/
+
+/*配件列表*/
+.part-content { font-size:12px; line-height:0px; margin-bottom:2px; float:left; margin-left:5px;/*包含图片的div样式*/}
+.part-content img { padding:3px; border:#CCC 1px solid; width:120px; height:100px;/*图片的样式*/}
+.part-name { line-height:22px; width:122px; background:#ececec; border:#CCC 1px solid; color:#333; text-align:center;/*图片名称的样式*/}
+.part-name a { display:block; width:100%; line-height:22px;/*图片名称链接的样式*/}
+/*配件列表结束*/
+
+/*===============================================================================================================================*/
+
+/*留言列表*/
+.mes-form{ margin-top:20px;}
+.meslist { width:100%; float:left; font-size:12px; margin-bottom:20px;}
+.meslist div { background:#EFEFEF;}
+.meslist .mes-name{float:left;background:#EFEFEF; line-height:23px; border:solid 1px #EBEBEB; border-right:0; padding:0px 10px; width:auto; white-space:nowrap; font-weight:bold;}
+.meslist .mes-pubdate{float:right;background:#EFEFEF; line-height:23px; border:solid 1px #EBEBEB; border-left:0;padding:0px 10px;width:auto; white-space:nowrap; text-align:right; font-weight:bold;}
+.meslist .mes-message{ background:#fff; line-height:23px; border:solid 1px #EBEBEB;border-top:0;  padding:5px 10px;}
+.meslist .mes-reply{background:#F5F5F5; line-height:23px; border:solid 1px #EBEBEB; border-top:0; padding:3px 10px;}
+
+/*.mes-list { font-size:12px;}
+.mes-list .mes-name{float:left;}
+.mes-list .mes-pubdate{float:left;}
+.mes-list .mes-message{}
+.mes-list .mes-reply{}
+*/
+/*留言列表结束*/
+
+/*===============================================================================================================================*/
+
+.sel-search{float:none;}
+
+.highslide-caption{ background:#fff;} 
+

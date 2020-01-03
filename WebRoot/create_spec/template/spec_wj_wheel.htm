@@ -1,0 +1,10 @@
+								<#if list?? && (list?size>0)>
+								<#list list as list>
+									<div class="swiper-slide">
+										<a title="${list.title?replace("^R","®")}" target="_blank" class="rect-6667 imgZoom" href="${list.title_url}">
+											<img src="http://product.21-sun.com/uploadfiles${list.img}" alt="${list.title?replace("^R","®")}">
+											<div class="name el"><b>头条：</b>${list.title?replace("^R","®")}</div>
+										</a>
+									</div>
+								</#list>
+								</#if>

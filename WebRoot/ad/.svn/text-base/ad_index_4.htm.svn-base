@@ -1,0 +1,14 @@
+<div class="l" id="index_4_flash_1" style="cursor:pointer" ></div>
+<div class="clear"></div>
+<script type="text/javascript" src="/scripts/jquery.flash.js"></script>
+<script language="javascript" type="text/javascript">
+	jQuery('#index_4_flash_1').flash({
+		src : '/ads/lingong.swf',
+		width : 980,
+		height : 76,
+		wmode : "transparent"
+		}, {
+		version : 8
+	});
+	
+</script>

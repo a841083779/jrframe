@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>百度api-2</title>
+    
+</head>
+<body onload="api()">
+
+</body>
+<script type="text/javascript" src="http://api.map.baidu.com/api?type=quick&ak=4CCmPvZPhMOXkI0WXXnQZIqg7DCU0cPO&v=1.0"></script>
+<script>
+    function api(){
+		var map = new BMap.Map("allmap");
+		var point = new BMap.Point(121.406528,37.41025);
+		var gc = new BMap.Geocoder();
+		gc.getLocation(point, function(rs){
+		   var addComp = rs.addressComponents;
+		   alert(addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street + ", " + addComp.streetNumber);
+		});
+	}
+ </script>
+</html>

@@ -1,0 +1,15 @@
+        <!--行业口碑-->
+        <div class="txd_plant fix">
+          <div class="tpl_title">行业口碑</div>
+          <a href="http://sowa.21-sun.com/?q=${factoryname!""}&f=news" class="tpl_more" target="_blank">查看更多</a> </div>
+        <div class="hy_kb_list">
+          <ul>
+            <#if getNewsList??&&(getNewsList?size>0)>
+            <#list getNewsList as news>
+            <li><a target="_blank" href="http://news.21-sun.com/detail/${news.html_filename?substring(0,4)}/${news.html_filename?substring(4,6)}/${news.html_filename}" title="${news.title}">${news.title}</a></li>
+            </#list>
+            </#if>
+          </ul>
+        </div>
+        <!--行业口碑 end-->
+       

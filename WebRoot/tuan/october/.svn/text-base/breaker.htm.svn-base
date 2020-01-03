@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title> 十月优买团带您畅游北京展-寻卡特、寻三一... - 铁臂商城优买团</title>
+<meta name="keywords" content="21-sun优买团,优买团十月北京展,卡特彼勒小型液压挖掘机,三一履带式挖掘机,山推装载机,山工轮式装载机,龙工装载机,斗山小型挖掘机" />
+<meta name="description" content="21-sun优买团，十月优买团带您畅游北京展-寻卡特、寻三一，一切实惠尽在优买团，十月优买团新品推荐卡特彼勒307E小型液压挖掘机、三一SY225C-9(2013款)履带式挖掘机，整机产品推荐山推SL50WA装载机，配件312D GC-RXZ服务包，走进bices展" />
+<link href="/style/tuan.css" rel="stylesheet" type="text/css" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<!--[if (IE 6)]>
+<link href="/style/pngfix.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body class="tuan parts">
+<div class="tuanTop">
+<!--#include virtual="/tuan/tuan_nav.jsp"-->
+</div>
+<div class="nav10">
+  <ul>
+    <li><a href="./">首页</a></li>
+    <li><a href="newproduct.jsp">新品展示</a></li>
+    <li><a href="products.htm">整机产品</a></li>
+    <li><a href="komatsu.htm">小松就在您身边</a></li>
+    <li><a href="parts.htm">配件</a></li>
+    <li><a href="breaker.htm" class="cur">破碎锤</a></li>
+    <li><a href="http://news.21-sun.com/special/bices2013/index.jsp" target="_blank">走进北京展</a></li>
+    <li class="tuanHome"><a href="/tuan/">优买团首页</a></li>
+  </ul>
+</div>
+<div class="banner10">
+  <div class="contain980"><img src="images/banner_img.jpg" width="980" height="493" /></div>
+</div>
+
+<div class="main-con clearfix" id="Part">
+  <div class="title">
+    <h3 style="background-image:none; padding-left:387px;">破碎锤专场</h3>
+    <span class="tel">更多优惠请咨询：0535-6921286</span>
+  </div>
+  <div class="content">
+    <div class="partsTabTitle">
+      <ul class="ptt" id="myTab">
+        <li onclick="nTabs(this,0);" class="active"><a href="#Part">华通联利</a></li>
+      </ul>
+    </div>
+    <div class="partTabContain">
+      <div id="myTab_Content0" class="ptc clearfix">
+        <div class="tel_show">
+          <a class="close" title="关闭"></a>
+          <strong class="n">联系人：</strong>罗小姐<br />
+          <strong class="n">电　话：</strong>020-61021435
+        </div>
+        <div class="clear"></div>
+        <ul class="list proList03">
+          <li>
+            <h2>冈研KY100T</h2>
+            <img src="images/proimgs/ky100t.jpg" alt="ky150t" width="215" height="150" />
+            <p class="intro"><img src="images/tel_img.gif" class="tel_img tel_img01" /></p>
+          </li>
+          <li>
+            <h2>冈研KY150T</h2>
+            <img src="images/proimgs/ky100t.jpg" alt="ky100t" width="215" height="150" />
+            <p class="intro"><img src="images/tel_img.gif" class="tel_img tel_img01" /></p>
+          </li>
+          <li>
+            <h2>冈研KY220T</h2>
+            <img src="images/proimgs/ky100t.jpg" alt="ky65t" width="215" height="150" />
+            <p class="intro"><img src="images/tel_img.gif" class="tel_img tel_img01" /></p>
+          </li>
+          <li>
+            <h2>冈研KY250T</h2>
+            <img src="images/proimgs/ky100t.jpg" alt="ky220E" width="215" height="150" />
+            <p class="intro"><img src="images/tel_img.gif" class="tel_img tel_img01" /></p>
+          </li>
+          <li>
+            <h2>韩农140</h2>
+            <img src="images/proimgs/hn140.jpg" alt="韩农140" width="215" height="150" />
+            <p class="intro"><img src="images/tel_img.gif" class="tel_img tel_img01" /></p>
+          </li>
+          <li>
+            <h2>韩农135</h2>
+            <img src="images/proimgs/hn135.jpg" alt="韩农135" width="215" height="150" />
+            <p class="intro"><img src="images/tel_img.gif" class="tel_img tel_img01" /></p>
+          </li>
+          <li>
+            <h2>冈研140三角</h2>
+            <img src="images/proimgs/gy140sj.jpg" alt="冈研140三角" width="215" height="150" />
+            <p class="intro"><img src="images/tel_img.gif" class="tel_img tel_img01" /></p>
+          </li>
+          <li>
+            <h2>冈研140</h2>
+            <img src="images/proimgs/gy140.jpg" alt="冈研140" width="215" height="150" />
+            <p class="intro"><img src="images/tel_img.gif" class="tel_img tel_img01" /></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--foot-->
+<div class="foot">
+<!--#include virtual="/include/foot.jsp"--> 
+</div>
+<!--end of foot--> 
+</body>
+<script type="text/javascript">
+function nTabs(thisObj,Num){
+if(thisObj.className == "active")return;
+var tabObj = thisObj.parentNode.id;
+var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+for(i=0; i <tabList.length; i++)
+{
+if (i == Num)
+{
+   thisObj.className = "active"; 
+      document.getElementById(tabObj+"_Content"+i).style.display = "block";
+}else{
+   tabList[i].className = ""; 
+   document.getElementById(tabObj+"_Content"+i).style.display = "none";
+}
+} 
+}
+$("img.tel_img01").click(function(){
+	$.post("http://advisitor.21-sun.net:7441/count_ad.jsp?dataflag=liuliang&websiteID=0&pageID=0&adID=100051&ip=127.0.0.1");
+	$(this).parent().parent().parent().parent().find(".tel_show").show();
+});
+$(".tel_show a.close").click(function(){
+	$(".tel_show").hide();
+})
+</script>
+<!-- jbox -->
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<script type="text/javascript">
+function showinquery(pid,factoryid){
+	jQuery.jBox("iframe:/include/products/product_order.jsp?productid="+pid+"&factoryid="+factoryid, {
+	title: "在线询价",
+	width: 720,
+	height: 435,
+	top: '20%',
+	iframeScrolling : 'no',
+	buttons: { '关闭': false }
+	});
+	jQuery(".jbox-button-panel").attr("style","display:none;") ;
+}
+</script>
+</html>

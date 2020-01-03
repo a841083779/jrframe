@@ -1,0 +1,40 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<div class="nav_bg">
+  <ul class="clearfix">
+    <li class="category"> <span class="n">全部产品分类 <i></i></span>
+      <div class="con1_left">
+      <dl>
+        <dt><a href="list.jsp?flag=grab_1_19" target="_blank">Cat<sup>&reg;</sup>小型挖掘机&gt;</a></dt>
+        <dd class="menu">
+        	<a href="detail.jsp?id=20164" target="_blank">306E小型挖掘机</a><br />
+        	<a href="detail.jsp?id=20163" target="_blank">307E小型挖掘机</a><br />
+        	<a href="detail.jsp?id=20472" target="_blank">313D2履带式挖掘机</a>
+        </dd>
+      </dl>
+      <dl >
+        <dt><a href="list.jsp?flag=grab_20_30" target="_blank">Cat<sup>&reg;</sup>中型挖掘机&gt;</a></dt>
+        <dd class="menu">
+	        <a href="detail.jsp?id=20440" target="_blank">320D2履带式挖掘机</a><br />
+	        <a href="detail.jsp?id=400" target="_blank">320DGC/320D/320DL液<br />压挖掘机</a><br />
+	        <a href="detail.jsp?id=9550" target="_blank">323D/323DL液压挖掘机 </a>
+        </dd>
+      </dl>
+      <dl>
+        <dt><a href="list.jsp?flag=grab_30_1" target="_blank">Cat<sup>&reg;</sup>大型挖掘机&gt;</a></dt>
+        <dd class="menu">
+        	<a href="detail.jsp?id=20735" target="_blank">336D2履带式挖掘机 </a><br />
+        	<a href="detail.jsp?id=9551" target="_blank"> 340DL液压挖掘机 </a>
+        </dd>
+      </dl>
+      <a href="order.jsp" target="_blank" class="xunjia"></a>
+    </div>
+    </li>
+    <li><a href="index.jsp">首　　页</a></li>
+    <li><a href="list.jsp">产　　品</a> <i class="newIcon"></i></li>
+    <li><a href="http://www.wajueji.com/service/list_100.htm" target="_blank">用户互动区</a></li>
+    <li><a href="order.jsp" target="_blank">预约试机</a></li>
+	<!--
+    <li><a href="active.jsp">活动专题</a></li>
+	-->
+  </ul>
+</div>

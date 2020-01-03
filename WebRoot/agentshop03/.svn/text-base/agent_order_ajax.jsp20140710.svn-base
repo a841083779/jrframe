@@ -1,0 +1,157 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@page import="com.jerehnet.util.common.CommonString"%>
+<%
+	String whereStr = CommonString.getFormatPara(request.getParameter("whereStr")).replaceAll("cnet","and").replace("quot","'")  ;
+	String show_agent_order = CommonString.getFormatPara(request.getParameter("show_agent_order")) ;
+%>
+     <div class="sRightPart list08" id="show_agent_order">
+        <div class="sTitle">
+          <h2>产品订单<a name="order" id="order"></a></h2>
+        </div>
+        <ul class="ti">
+          <li class="i1">编号</li>
+          <li class="i2">询价产品</li>
+          <li class="i3">联系人</li>
+          <li class="i4">电话</li>
+          <li class="i5">询价品牌</li>
+          <li class="i6">询价区域</li>
+          <li class="i7">询价时间</li>
+        </ul>
+        <div class="li" id="showAgentOrders">
+        		<div style="width:20px;margin:220px 165px 230px 350px;">
+				<img src='/images/wait.gif' />
+				</div>
+        </div>
+      </div>
+       <div class="clear"></div>
+      <!-- 分页 -->
+      <div class="wfull l">
+        <div id="pagination" class="page" style="margin-right:10px;width:550px;">
+          <div class='paging page' id='pagination' style="width:550px;"></div>
+        </div>
+      </div>
+   <script type="text/javascript">
+   function createPage(obj){
+		var htm = '';
+		if(obj.nowPage>1){
+			htm += '<a class="pre" href="javascript:void(0);" onclick="getAgentOrders('+(obj.nowPage-1)+');">&nbsp;</a>';
+		}else{
+			htm += '<a class="pre" style="cursor: default;border:none;color:#000;">&nbsp;</a>';
+		}
+		var left = 0;
+		var right = 0;
+		var middle = obj.nowPage;
+		var rightCount = 0; 
+		if(obj.pageCount>10){
+			rightCount = obj.pageCount - 5;
+			if (middle <= 5 && middle < rightCount) {
+				for(var i=0;i<5;i++){
+					if((i+1)==obj.nowPage){
+						htm += '<span class="current"><b>&nbsp;'+(i+1)+'&nbsp;</b></span>';
+					}else{
+						htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+(i+1)+');">&nbsp;'+(i+1)+'&nbsp;</a>';
+					}
+				}
+				if(middle==5){
+					htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+6+');">&nbsp;'+6+'&nbsp;</a>';
+					htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+7+');">&nbsp;'+7+'&nbsp;</a>';
+				}
+				htm += '<a class="num" href="javascript:void(0);" style="cursor: default;border:none;color:#000;">...</a>';
+				htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+(obj.pageCount-2)+');">&nbsp;'+(obj.pageCount-2)+'&nbsp;</a>';
+				htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+(obj.pageCount-1)+');">&nbsp;'+(obj.pageCount-1)+'&nbsp;</a>';
+			}else if( middle > 5 && middle > rightCount){
+				htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+1+');">&nbsp;'+1+'&nbsp;</a>';
+				htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+2+');">&nbsp;'+2+'&nbsp;</a>';
+				htm += '<a class="num" href="javascript:void(0);" style="cursor: default;border:none;color:#000;">...</a>';
+				if(middle==(rightCount+1)){
+					htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+(middle-2)+');">&nbsp;'+(middle-2)+'&nbsp;</a>';
+					htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+(middle-1)+');">&nbsp;'+(middle-1)+'&nbsp;</a>';
+				}
+				for(var i = rightCount;i<obj.pageCount;i++){
+						if((i+1)==obj.nowPage){
+							htm += '<span class="current"><b>&nbsp;'+(i+1)+'&nbsp;</b></span>';
+						}else{
+							htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+(i+1)+');">&nbsp;'+(i+1)+'&nbsp;</a>';
+						}
+					}
+				} else {
+					htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+1+');">&nbsp;'+1+'&nbsp;</a>';
+					htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+2+');">&nbsp;'+2+'&nbsp;</a>';
+					htm += '<a class="num" href="javascript:void(0);" style="cursor: default;border:none;color:#000;">...</a>';
+					htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+(middle-2)+');">&nbsp;'+(middle-2)+'&nbsp;</a>';
+					htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+(middle-1)+');">&nbsp;'+(middle-1)+'&nbsp;</a>';
+					htm += '<span class="current"><b>&nbsp;'+middle+'&nbsp;</b></span>';
+					htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+(middle+1)+');">&nbsp;'+(middle+1)+'&nbsp;</a>';
+					htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+(middle+2)+');">&nbsp;'+(middle+2)+'&nbsp;</a>';
+					htm += '<a class="num" href="javascript:void(0);" style="cursor: default;border:none;color:#000;">...</a>';
+					htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+(obj.pageCount-1)+');">&nbsp;'+(obj.pageCount-1)+'&nbsp;</a>';
+					htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+(obj.pageCount-0)+');">&nbsp;'+(obj.pageCount-0)+'&nbsp;</a>';
+			}
+		}else{
+			left = 0;
+			right = obj.pageCount;
+			for(var i=left;i<right;i++){
+				if((i+1)==obj.nowPage){
+					htm += '<span class="current" style="cursor: default;border:none;color:#000;"><b>&nbsp;'+(i+1)+'&nbsp;</b></span>';
+				}else{
+					htm += '<a class="num" href="javascript:void(0);" onclick="getAgentOrders('+(i+1)+');">&nbsp;'+(i+1)+'&nbsp;</a>';
+				}
+			}
+		}
+		if(obj.nowPage>=obj.pageCount){
+			htm += '<a class="next" style="cursor: default;border:none;color:#000;">&nbsp;</a>';
+		}else{
+			htm += '<a class="next" href="javascript:void(0);" onclick="getAgentOrders('+(obj.nowPage+1)+');">&nbsp;</a>';
+		}
+		jQuery(".paging").html(htm);
+	}
+// 订单程序
+var _oldHtml = jQuery("#showAgentOrders").html() ;
+function getAgentOrders(nowPage){
+// jQuery("html").scrollTop(2100) ;
+jQuery("#showAgentOrders").html(_oldHtml) ;
+var _agentOrders = "" ;
+	jQuery.ajax({
+		url:'/action/ajax.jsp',
+		data:{
+		flag:'getAgentOrders',
+		nowPage:nowPage,
+		where:"<%=whereStr%>",
+		pageSize:15,
+		tableName:'pro_product_form ',
+		fields:'*' ,
+		orderBy:'add_date desc'
+		} ,
+		success:function(data){
+		_agentOrders = eval("["+data+"]")[0] ;
+		var _agentOrder =  _agentOrders.list ;
+		var _html = "" ;
+		if(_agentOrder.length>0){
+		for(var i=0;i<_agentOrder.length;i++){
+			_showclass = "libg0"+i%2 ;
+			_html += "<ul class="+_showclass+">" ;
+			_html += "<li class='i1'>"+(i+1)+"</li>"
+			_html += "<li class='i2'><a href='/inquiry/detail_for_"+_agentOrder[i].id+".htm' target='_blank'>"+_agentOrder[i].factoryname+_agentOrder[i].product_name+_agentOrder[i].cataname+"</a></li>" ;
+			_html += "<li class='i3'>"+_agentOrder[i].name.substring(0,1)+"***</li>" ;
+			_html += "<li class='i4'>"+(_agentOrder[i].contact_tel==null?"***":_agentOrder[i].contact_tel.substring(0,3)+"***"+_agentOrder[i].contact_tel.substring(8))+"</li>";
+			_html += "<li class='i5'>"+_agentOrder[i].factoryname+"</li>" ;            
+            _html += " <li class='i6'>"+_agentOrder[i].province+_agentOrder[i].city+"</li>" ;
+            _html += "<li class='i7'>"+_agentOrder[i].add_date.substring(0,16)+"</li>" ;
+			_html +="</ul>"
+		}
+		}else{
+			_html += "<ul><li style='width:100%;'>暂无订单</li></ul>" ;
+		}
+		jQuery("#showAgentOrders").html(_html) ;
+		if(_agentOrders.pageCount>0){
+			createPage(_agentOrders) ;
+		}
+		}
+	}) ;
+} ;
+getAgentOrders(1) ; // 获取第一页
+if('<%=show_agent_order%>'=='0'){
+	jQuery("#show_agent_order").hide() ;
+	jQuery("#pagination").hide() ;
+}
+   </script>

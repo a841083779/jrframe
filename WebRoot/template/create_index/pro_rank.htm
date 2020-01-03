@@ -1,0 +1,11 @@
+        <div class="tab_c">
+          <div class="brand_rankList">
+            <ul class="fix">
+			  <#list list as info>
+              <li> <a title="${info.factoryname}${info.name?replace('^r', '®')}${info.catalogname}" href="/proDetail/${info.file_name}">
+                <h3 class="n">${info.factoryname}${info.name?replace('^r', '®')}${info.catalogname}</h3>
+                </a> <span class="num">${info.view_count?c}</span> </li>
+              </#list>
+            </ul>
+          </div>
+        </div>

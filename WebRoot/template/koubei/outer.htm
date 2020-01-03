@@ -1,0 +1,87 @@
+<!--热门品牌-->
+<div class="hotBrand">
+  <div class="hbTitle">
+    <h2>热门品牌</h2>
+  </div>
+  <div class="hbContain">
+    <ul>
+      <li> 
+        <a href="/0-182-0-0-0.htm" title="小松口碑" target="_blank"><img alt="小松口碑" onerror="this.src='http://product.21-sun.com/uploadfiles/no_small.gif';" src="http://product.21-sun.com/uploadfiles/09031711183542_0.jpg" width="80" height="30" /></a>
+        <h3><a  title="小松口碑" href="/0-182-0-0-0.htm" target="_blank">小松</a></h3>
+      </li>
+      <li> 
+        <a title="卡特彼勒口碑"  href="/0-174-0-0-0.htm" target="_blank"><img alt="卡特彼勒口碑" onerror="this.src='http://product.21-sun.com/uploadfiles/no_small.gif';" src="http://product.21-sun.com/uploadfiles/20081204173853_0.jpg" original="/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a title="卡特彼勒口碑"  href="/0-174-0-0-0.htm" target="_blank">卡特彼勒</a></h3>
+      </li>
+      <li> 
+        <a title="沃尔沃口碑"  href="/0-175-0-0-0.htm" target="_blank"><img alt="沃尔沃口碑" onerror="this.src='http://product.21-sun.com/uploadfiles/no_small.gif';" src="http://product.21-sun.com/uploadfiles/09031718090534_0.jpg" original="/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a title="沃尔沃口碑"  href="/0-175-0-0-0.htm" target="_blank">沃尔沃</a></h3>
+      </li>
+        <li> 
+        <a title="利勃海尔口碑"  href="/0-179-0-0-0.htm" target="_blank"><img alt="利勃海尔口碑" onerror="this.src='http://product.21-sun.com/uploadfiles/no_small.gif';" src="http://product.21-sun.com/uploadfiles/20081204175150_0.jpg" original="/uploadfiles/20081204175150_0.jpg" width="80" height="30" /></a>
+        <h3><a title="利勃海尔口碑"  href="/0-179-0-0-0.htm" target="_blank">利勃海尔</a></h3>
+      </li>
+       <li> 
+        <a title="神钢口碑"  href="/0-183-0-0-0.htm" target="_blank"><img alt="神钢口碑"  onerror="this.src='http://product.21-sun.com/uploadfiles/no_small.gif';" src="http://product.21-sun.com/uploadfiles/20081205142130_0.jpg" original="/uploadfiles/20081205142130_0.jpg" width="80" height="30" /></a>
+        <h3><a title="神钢口碑"  href="/0-183-0-0-0.htm" target="_blank">神钢</a></h3>
+      </li>
+      <li> 
+        <a title="日立口碑"  href="/0-184-0-0-0.htm" target="_blank" ><img alt="日立口碑" onerror="this.src='http://product.21-sun.com/uploadfiles/no_small.gif';" src="http://product.21-sun.com/uploadfiles/20081205142317_0.jpg" original="/uploadfiles/20081205142317_0.jpg" width="80" height="30" /></a>
+        <h3><a title="日立口碑"  href="/0-184-0-0-0.htm" target="_blank">日立</a></h3>
+      </li>
+      <li> 
+        <a title="酒井口碑"  href="/0-197-0-0-0.htm" target="_blank"><img alt="酒井口碑" onerror="this.src='http://product.21-sun.com/uploadfiles/no_small.gif';" src="http://product.21-sun.com/uploadfiles/09031718322659_0.jpg" original="/uploadfiles/09031718322659_0.jpg" width="80" height="30" /></a>
+        <h3><a title="酒井口碑"  href="/0-197-0-0-0.htm" target="_blank">酒井</a></h3>
+      </li>
+      <li> 
+        <a title="杰西博口碑"  href="/0-177-0-0-0.htm" target="_blank"><img alt="杰西博口碑" onerror="this.src='http://product.21-sun.com/uploadfiles/no_small.gif';" src="http://product.21-sun.com/uploadfiles/09031713161592_0.jpg" original="/uploadfiles/09031713161592_0.jpg" width="80" height="30" /></a>
+        <h3><a title="杰西博口碑"  href="/0-177-0-0-0.htm" target="_blank">杰西博</a></h3>
+      </li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
+<#assign inner_brands_upper_index = query(" select distinct upper_index from pro_agent_factory where is_show=1 and is_inner=0 and flag=1")> <!-- 国外品牌的首写字母 -->
+
+<!--热门品牌结束-->
+<!--字母列表-->
+<#if inner_brands_upper_index??&&(inner_brands_upper_index?size>0)>
+<#list inner_brands_upper_index as one_upper_index>
+<#assign inner_brands = query("  select is_qijiandian,id,logo,name,usern from pro_agent_factory where flag=1 and is_show=1 and is_inner=0 and logo is not null and upper_index='${one_upper_index.upper_index}' order by order_no desc ")>
+<div class="brandCondition">
+  <div class="contain980">
+    <div style="position: relative;"> <a style="position:absolute; top:-107px; " id="${one_upper_index.upper_index}" name="${one_upper_index.upper_index}"></a> </div>
+    <strong class="Letter">${one_upper_index.upper_index}</strong>
+    <div class="brandtopborder"></div>
+    <div class="brandcontain925">
+    <#list inner_brands as oneBrand>
+       <#--	<#assign total_agent = query("  select count(*) total from pro_agent_factory where agent_fac like '%${oneBrand.id}%' ")> -->
+          <#assign total_agent = query(" select count(*) total from pro_catalog_for_factory where factoryid='${oneBrand.id?c}'")>
+      <div class="blbg">
+       <#if total_agent??&&(total_agent?size>0)>
+        <#list total_agent as agent>
+          <div class="blp">
+          <#if oneBrand.is_qijiandian??&&(oneBrand.is_qijiandian==1)>
+          <a title="${oneBrand.name}口碑" target="_blank" href="/0-${oneBrand.id?c}-0-0-0.htm">
+          <#else>
+           <a title="${oneBrand.name}口碑" target="_blank" href="/0-${oneBrand.id?c}-0-0-0.htm">
+         </#if>
+        <img alt="${oneBrand.name}口碑" width="80" height="30"  src="http://product.21-sun.com/uploadfiles/${oneBrand.logo}" onerror="showImgDelay(this,'http://product.21-sun.com/uploadfiles/no_small.gif',2);"  style="display: inline;"></a></div>
+
+         </#list>
+         </#if>
+        <h3 class="bln">
+         <#if oneBrand.is_qijiandian??&&(oneBrand.is_qijiandian==1)>
+        <a title="${oneBrand.name}口碑" target="_blank" href="/0-${oneBrand.id?c}-0-0-0.htm">${oneBrand.name}</a>
+        <#else>
+        <a title="${oneBrand.name}口碑" target="_blank" href="/0-${oneBrand.id?c}-0-0-0.htm">${oneBrand.name}</a>
+        </#if>
+        </h3>
+      </div>
+    </#list> 
+    </div>
+    <div class="brandbottomborder"></div>
+  </div>
+</div>
+</#list>
+</#if>

@@ -1,0 +1,26 @@
+
+<#assign pro_news_2 = query("select top 3 id,title,news_type from pro_agent_news where is_approval = 1 order by pub_date desc ")>
+
+	
+	<ul class="newstyle03">
+		<#if pro_news_2??&&(pro_news_2?size>0)>
+		 <#list pro_news_2 as news_2>
+		<li>
+		<#if news_2.news_type==0>
+		[企业]
+		</#if>
+		<#if news_2.news_type==1>
+		[产品]
+		</#if>
+		<#if news_2.news_type==2>
+		[新品]
+		</#if>		
+		<#if news_2.news_type==3>
+		[维修]
+		</#if>	
+				<a href="/news/detail.jsp?id=${news_2.id?c}&t_flag=product" target="_blank" title="${news_2.title}">${news_2.title}</a>
+		</li>
+		</#list> 
+		</#if>
+	</ul>
+

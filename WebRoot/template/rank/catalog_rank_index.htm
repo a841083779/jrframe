@@ -1,0 +1,122 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+<#assign grab_order = query(" SELECT top 10 allCount as view_count,img2,factoryname,catalogname,name,file_name,factoryid,catalognum,id,introduce from (SELECT  COUNT(*) AS allCount,product_id from pro_product_form  WHERE   is_deleted=0 and product_id!=0 and catanum like '101001%' GROUP BY product_id) as h inner JOIN ( SELECT img2,factoryname,catalogname,name,file_name,factoryid,catalognum,id,view_count,introduce FROM pro_products  ) AS j ON  j.id=h.product_id ORDER BY h.allCount DESC  ")> <#-- 挖掘机排行 -->
+<#assign loader_order = query(" SELECT top 10 allCount as view_count,img2,factoryname,catalogname,name,file_name,factoryid,catalognum,id,introduce from (SELECT  COUNT(*) AS allCount,product_id from pro_product_form  WHERE   is_deleted=0 and product_id!=0 and catanum like '101002%' GROUP BY product_id) as h inner JOIN ( SELECT img2,factoryname,catalogname,name,file_name,factoryid,catalognum,id,view_count,introduce FROM pro_products  ) AS j ON  j.id=h.product_id ORDER BY h.allCount DESC ")> <#-- 装载机排行 -->
+<#assign bulldozer_order = query(" SELECT top 10 allCount as view_count,img2,factoryname,catalogname,name,file_name,factoryid,catalognum,id,introduce from (SELECT  COUNT(*) AS allCount,product_id from pro_product_form  WHERE   is_deleted=0 and product_id!=0 and catanum like '101003%' GROUP BY product_id) as h inner JOIN ( SELECT img2,factoryname,catalogname,name,file_name,factoryid,catalognum,id,view_count,introduce FROM pro_products  ) AS j ON  j.id=h.product_id ORDER BY h.allCount DESC  ")> <#-- 推土机排行 -->
+<#assign grader_order = query(" SELECT top 10 allCount as view_count,img2,factoryname,catalogname,name,file_name,factoryid,catalognum,id,introduce from (SELECT  COUNT(*) AS allCount,product_id from pro_product_form  WHERE   is_deleted=0 and product_id!=0 and catanum like '101005%' GROUP BY product_id) as h inner JOIN ( SELECT img2,factoryname,catalogname,name,file_name,factoryid,catalognum,id,view_count,introduce FROM pro_products  ) AS j ON  j.id=h.product_id ORDER BY h.allCount DESC ")> <#-- 平地机排行 -->
+  <div class="w755 l">
+    
+	<div class="rcl">
+      <div class="title09">
+        <h2><a href="/pro_0_0_0_0_101001_0.htm" target="_blank" title="挖掘机排行榜">挖掘机排行榜</a></h2>
+        <span><a href="/pro_0_0_0_0_101001_0.htm" target="_blank" title="更多挖掘机排行榜">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+        <#if grab_order??&&(grab_order?size>0)>
+        	<#list grab_order as oneGrab>
+        		<#if oneGrab_index<3>
+        		   	<li class="top3">
+        			<#else>
+        			<li>
+        		</#if>
+        		<em>${oneGrab_index+1}</em>
+	          <h3 style="width:170px;"><a href="http://product.21-sun.com/proDetail/${oneGrab.file_name}" target="_blank" title="${oneGrab.factoryname}${oneGrab.name} ${oneGrab.catalogname}">${oneGrab.factoryname}${oneGrab.name} ${oneGrab.catalogname}</a></h3>
+	          <span>关注指数：${(oneGrab.view_count*13)?c}</span>
+	          <#if oneGrab_index==0>
+	          <div class="wfull">
+	          <a href="http://product.21-sun.com/proDetail/${oneGrab.file_name}" target="_blank" title="${oneGrab.factoryname}${oneGrab.name} ${oneGrab.catalogname}">
+	          <img src="/uploadfiles/${oneGrab.img2}" width="120" height="90" title="${oneGrab.factoryname}${oneGrab.name} ${oneGrab.catalogname}"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" /></a> 
+	          <a href="http://product.21-sun.com/proDetail/${oneGrab.file_name}" target="_blank" class="plbtn">询价</a></div>
+	          </#if>
+	        </li>
+        	</#list>
+        </#if>
+      </ul>
+    </div>
+	
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="/pro_0_0_0_0_101002_0.htm" target="_blank" title="装载机排行榜">装载机排行榜</a></h2>
+        <span><a href="/pro_0_0_0_0_101002_0.htm" target="_blank" title="更多装载机排行榜">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+        <#if loader_order??&&(loader_order?size>0)>
+        	<#list loader_order as oneLoader>
+        		<#if oneLoader_index<3>
+        		   	<li class="top3">
+        			<#else>
+        			<li>
+        		</#if>
+        		<em>${oneLoader_index+1}</em>
+	          <h3 style="width:170px;"><a href="http://product.21-sun.com/proDetail/${oneLoader.file_name}" target="_blank" title="${oneLoader.factoryname}${oneLoader.name} ${oneLoader.catalogname}">${oneLoader.factoryname}${oneLoader.name} ${oneLoader.catalogname}</a></h3>
+	          <span>关注指数：${(oneLoader.view_count*13)?c}</span>
+	          <#if oneLoader_index==0>
+	          <div class="wfull">
+	          <a href="http://product.21-sun.com/proDetail/${oneLoader.file_name}" target="_blank" title="${oneLoader.factoryname}${oneLoader.name} ${oneLoader.catalogname}">
+	          <img src="/uploadfiles/${oneLoader.img2}" width="120" height="90" title="${oneLoader.factoryname}${oneLoader.name} ${oneLoader.catalogname}"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/> </a>
+	          <a href="http://product.21-sun.com/proDetail/${oneLoader.file_name}" target="_blank" class="plbtn">询价</a></div>
+	          </#if>
+	        </li>
+        	</#list>
+        </#if>
+      </ul>
+    </div>
+    
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="/pro_0_0_0_0_101003_0.htm" target="_blank" title="推土机排行榜">推土机排行榜</a></h2>
+        <span><a href="/pro_0_0_0_0_101003_0.htm" target="_blank" title="更多推土机排行榜">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+         <#if bulldozer_order??&&(bulldozer_order?size>0)>
+        	<#list bulldozer_order as oneBulldozer>
+        		<#if oneBulldozer_index<3>
+        		   	<li class="top3">
+        			<#else>
+        			<li>
+        		</#if>
+        		<em>${oneBulldozer_index+1}</em>
+	          <h3 style="width:170px;"><a href="http://product.21-sun.com/proDetail/${oneBulldozer.file_name}" target="_blank" title="${oneBulldozer.factoryname}${oneBulldozer.name} ${oneBulldozer.catalogname}">${oneBulldozer.factoryname}${oneBulldozer.name} ${oneBulldozer.catalogname}</a></h3>
+	          <span>关注指数：${(oneBulldozer.view_count*13)?c}</span>
+	          <#if oneBulldozer_index==0>
+	          <div class="wfull">
+	          <a href="http://product.21-sun.com/proDetail/${oneBulldozer.file_name}" target="_blank" title="${oneBulldozer.factoryname}${oneBulldozer.name} ${oneBulldozer.catalogname}">
+	          <img src="/uploadfiles/${oneBulldozer.img2}" width="120" height="90" title="${oneBulldozer.factoryname}${oneBulldozer.name} ${oneBulldozer.catalogname}"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a>
+	           <a href="http://product.21-sun.com/proDetail/${oneBulldozer.file_name}" target="_blank" class="plbtn">询价</a></div>
+	          </#if>
+	        </li>
+        	</#list>
+        </#if>
+      </ul>
+    </div>
+    
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="/pro_0_0_0_0_101005_0.htm" target="_blank" title="平地机排行榜">平地机排行榜</a></h2>
+        <span><a href="/pro_0_0_0_0_101005_0.htm" target="_blank" title="更多平地机排行榜">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+        <#if grader_order??&&(grader_order?size>0)>
+        	<#list grader_order as oneGrader>
+        		<#if oneGrader_index<3>
+        		   	<li class="top3">
+        			<#else>
+        			<li>
+        		</#if>
+        		<em>${oneGrader_index+1}</em>
+	          <h3 style="width:170px;"><a href="http://product.21-sun.com/proDetail/${oneGrader.file_name}" target="_blank" title="${oneGrader.factoryname}${oneGrader.name} ${oneGrader.catalogname}">${oneGrader.factoryname}${oneGrader.name} ${oneGrader.catalogname}</a></h3>
+	          <span>关注指数：${(oneGrader.view_count*13)?c}</span>
+	          <#if oneGrader_index==0>
+	          <div class="wfull">
+	          <a href="http://product.21-sun.com/proDetail/${oneGrader.file_name}" target="_blank" title="${oneGrader.factoryname}${oneGrader.name} ${oneGrader.catalogname}">
+	          <img src="/uploadfiles/${oneGrader.img2}" width="120" height="90" title="${oneGrader.factoryname}${oneGrader.name} ${oneGrader.catalogname}"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/> </a>
+	          <a href="http://product.21-sun.com/proDetail/${oneGrader.file_name}"  target="_blank" class="plbtn">询价</a></div>
+	          </#if>
+	        </li>
+        	</#list>
+        </#if>
+      </ul>
+    </div>
+    
+
+
+  </div>  

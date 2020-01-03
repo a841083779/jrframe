@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /backend/
+Disallow: /tools/
+Disallow: /action/
+Disallow: /template/
+Disallow: /WEB-INF/
+Disallow: /admin/
+Disallow: /sem/

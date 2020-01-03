@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>斗山感恩回馈大型让利促销</title>
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<!--[if (IE 6)]>
+<script src="scripts/iepng.js" type="text/javascript"></script>
+<script type="text/javascript">
+   EvPNG.fix('.png'); 
+</script>
+<![endif]-->
+</head>
+<body class="page03">
+<div class="logo"><img src="images/logo.png" class="png" width="123" height="57" /></div>
+<div class="text01"><img src="images/top_text.png" class="png" width="346" height="163" /></div>
+<div class="nav png"><img src="images/blank.gif" width="216" height="851" usemap="#Map" border="0" />
+  <map name="Map" id="Map">
+    <area shape="poly" coords="101,468,182,494,172,525,92,499" href="index.htm" title="首页" onmouseover="document.body.style.cursor='Hand'" onmouseout="document.body.style.cursor='Default'" />
+    <area shape="poly" coords="89,508,166,533,155,562,80,537" href="breaker.htm" title="破碎器" onmouseover="document.body.style.cursor='Hand'" onmouseout="document.body.style.cursor='Default'" />
+    <area shape="poly" coords="79,547,155,571,146,602,71,578" href="zhuamuqi.htm" title="抓木器" onmouseover="document.body.style.cursor='Hand'" onmouseout="document.body.style.cursor='Default'" />
+    <area shape="poly" coords="68,585,147,608,138,643,59,620" href="yeyajian.htm" title="液压件" onmouseover="document.body.style.cursor='Hand'" onmouseout="document.body.style.cursor='Default'" />
+  </map>
+</div>
+
+<div class="con02 png">
+  <h2>斗山属具新产品-抓木器 </h2>
+  <p class="text">随着林业开发的机械化需求以及港口运输的高效化，抓木器越来越成为中国客户畅销需求产品，而中国挖掘机OEM厂家至今均未涉足抓木器行业。斗山抓住机遇并经过半年对抓木器与斗山挖掘机匹配性设计和测试，重磅推出符合市场需求，具有高端性能品质的产品：该抓木器共有5个机型，适配机型覆盖从4吨到30吨的挖掘机。 </p>
+  <div class="list04">
+    <ul class="fix">
+      <li><a href="http://ytdoushan.part.21-sun.com/shop/product/36492.htm#ad-image-0"  target="_blank"><img src="images/temp/DHRW03.jpg" /><strong>DHRW 03</strong><i></i></a><a href="http://ytdoushan.part.21-sun.com/shop/product/36492.htm#ad-image-0"  target="_blank" class="buyNow">立即订购</a></li>
+      <li><a href="http://ytdoushan.part.21-sun.com/shop/product/36493.htm#ad-image-0"  target="_blank"><img src="images/temp/DHRW04.jpg" /><strong>DHRW 04</strong><i></i></a><a href="http://ytdoushan.part.21-sun.com/shop/product/36493.htm#ad-image-0"   target="_blank" class="buyNow">立即订购</a></li>
+      <li><a href="http://ytdoushan.part.21-sun.com/shop/product/36494.htm#ad-image-0"  target="_blank"><img src="images/temp/DHRW06.jpg" /><strong>DHRW 06</strong><i></i></a><a href="http://ytdoushan.part.21-sun.com/shop/product/36494.htm#ad-image-0"  target="_blank" class="buyNow">立即订购</a></li>
+      <li><a href="http://ytdoushan.part.21-sun.com/shop/product/36495.htm"  target="_blank"><img src="images/temp/DHRW08.jpg" /><strong>DHRW 08</strong><i></i></a><a href="http://ytdoushan.part.21-sun.com/shop/product/36495.htm"  target="_blank" class="buyNow">立即订购</a></li>
+      <li><a href="http://ytdoushan.part.21-sun.com/shop/product/36496.htm"  target="_blank"><img src="images/temp/DHRW10.jpg" /><strong>DHRW 10</strong><i></i></a><a href="http://ytdoushan.part.21-sun.com/shop/product/36496.htm"  target="_blank" class="buyNow">立即订购</a></li>
+    </ul>
+  </div>
+</div>
+
+<script type="text/javascript" src="scripts/comm.js"></script>
+</body>
+</html>

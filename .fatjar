@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Tue Jul 03 15:00:31 CST 2012
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=jrframe.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<po|jrframe>~sys.properties;<jar|javaee.jar>;<jar|jsf-impl.jar>;<jar|jsf-api.jar>;<jar|jstl-1.2.jar>;<jar|commons-codec-1.4.jar>;<jar|commons-fileupload-1.2.2.jar>;<jar|commons-io-2.1.jar>;<jar|commons-logging.jar>;<jar|freemarker.jar>;<jar|jtds-1.2.5.jar>;<jar|org.json.jar>;<jar|oscache-2.4.1.jar>;<jar|commons-httpclient-3.0.1.jar>
+includes=

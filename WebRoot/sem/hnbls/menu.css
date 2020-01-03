@@ -1,0 +1,40 @@
+*{margin:0;border:0;}
+#div_center { width:920px; height:37px; overflow:hidden; padding-right:0; padding-top:0; padding-bottom:0} 
+#nav { line-height: 37px; list-style-type: none; padding:0px;text-align:center;}   
+   
+#nav a { display: block; width:120px; text-align:center; font-size:12px; padding:0;padding-left:0px;}  
+#nav a.l01 { display: block; width:120px; text-align:center; font-size:12px;}  
+#nav a.l02 { display: block; width:120px; text-align:center; font-size:12px;}  
+#nav a:link { color:#FCEDEA;text-decoration:none;margin:0;display:block;}   
+#nav a:visited {color:#FCEDEA;text-decoration:none;margin:0;} 
+#nav a:hover {color:#FCEDEA;text-decoration:none;padding:0;} 
+
+#nav li {float: left;padding-left:0px; text-align:center;}
+#nav li a {display: block; width:109px; font-size:12px;}  
+#nav li a:link { color:#FCEDEA;text-decoration:none;margin:0;padding:0;}   
+#nav li a:visited {color:#FCEDEA;text-decoration:none;margin:0;padding:0;} 
+#nav li a.l01 { display: block; width:100px; text-align:left; font-size:12px;}  
+#nav li a:hover {color:#036bb6;text-decoration:none;padding:0; background:url("bls_06.gif")/*tpa=http://www.hnbls.com/images/bls_06.gif*/ center no-repeat;} 
+
+#nav li ul { padding:0px;line-height:22px;background:#096eb8; filter: Alpha(Opacity=100);position:absolute; list-style-type: none;text-align:centor;left: -888em; width:97px; margin-left:6px;}  
+
+#nav li ul a{display:block; width:97px;text-align:left;font-size:12px; text-indent:24px;}  
+#nav li ul a:link {color:#afe0ff;text-decoration:none;}  
+#nav li ul a:visited {color:#afe0ff;text-decoration:none;} 
+#nav li ul a:hover {color:#4a4a4a;text-decoration:none;background:#fac52d;font-weight:bold;}
+
+
+
+#nav li:hover ul {left: auto;padding:0}
+#nav li.sfhover ul {left: auto;padding:0}
+#content {clear: left;padding:0}
+
+.alpha1{
+width:300px;
+height:200px;
+background-color:#FF0000;
+filter: Alpha(Opacity=30);
+}
+.ap2{
+position:relative;
+}

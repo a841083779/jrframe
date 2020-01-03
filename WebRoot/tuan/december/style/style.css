@@ -1,0 +1,113 @@
+﻿@charset "utf-8";
+/*去除页面中所有标签的默认间距、补白*/
+* { margin:0px; padding:0px;}
+/*页面中的默认字体、字体大小、背景、文字颜色*/
+body { font-size:12px; font-family:Arial; color:#666666; background-color:#010101;-webkit-text-size-adjust:none; cursor:default;}
+/*页面右侧滚动条*/
+html { overflow-y:scroll;}
+/*清除页面所有图片的默认边框*/img{border:none;}/*去除ol、ul、li的默认样式*/ol,ul,li{list-style-type:none;}/*设置表单等项目的默认字体大小*/input,select,textarea{font-size:12px;font-family:Arial;}input{vertical-align:middle;}/*设置文字段落、表格单元格的默认行高*/p,th,td{line-height:22px;}/*字体*/.yahei{font-family:微软雅黑;}.songti{font-family:宋体;}/* 其它需要用到的字体大小 */h1,h2,h3,h4,h5,h6{font-weight:normal;}em,i,u{font-style:normal;}h1{font-size:14px;}h2{font-size:12px;}h3{font-size:12px;}.font10{font-size:10px;}.font11{font-size:11px;}.font12{font-size:12px;}.font13{font-size:13px;}.font14{font-size:14px;}.font15{font-size:15px;}.font16{font-size:16px;}/*去除页面中的链接点击后留下的虚线框*/body a{outline:none;blr:expression(this.onFocus=this.blur());}/* 整个网站需要的字体样式*/.strong{font-weight:bold;}.underline{text-decoration:underline;}/* li相关 */ul,li{list-style-type:none;}/*默认的文字链接样式*/a:link,a:visited{color:#666666;text-decoration:none;cursor:pointer;}a:hover,a:active{color:#0f2c8d;text-decoration:none;cursor:pointer;}/*其他文字链接样式*/.cffffff{color:#ffffff;}.cffffff a:link,.cffffff a:visited{color:#ffffff;}.cffffff a:hover,.cffffff a:active{color:#cccccc;}/* w系列控制宽度 */.wauto{width:auto}.w25{width:25%;}.w33{width:33.3%;}.w50{width:50%;}.w100{width:100%;}.w100px{width:100px;}.w180px{width:180px;}.w120px{width:120px;}.w200px{width:200px;}.w300px{width:300px;}.w310px{width:310px;}.w400px{width:400px;}.w760px{width:760px;}.w960px{width:960px;}.w980px{width:980px;}.w1000px{width:1000px;}.w1344px{width:1344px;}/* h系列控制高度 */.h100{height:100%;}.hauto{height:auto;}.h20px{height:20px;}.h30px{height:30px;}.h40px{height:40px;}.h50px{height:50px;}.h100px{height:100px;}.h150px{height:150px;}.lineheight100{line-height:100%;}.lineheight120{line-height:120%;}.lineheight150{line-height:150%;}.lineheight180{line-height:180%;}.lineheight200{line-height:200%;}.lineheight250{line-height:250%;}.lineheight15px{line-height:15px;}.lineheight20px{line-height:20px;}.lineheight24px{line-height:24px;}.lineheight30px{line-height:30px;}.lineheight32px{line-height:32px;}.lineheight40px{line-height:40px;}/* p系列控制padding */.p5{padding:5px;}.p10{padding:10px;}.p15{padding:15px;}.p20{padding:20px;}.p25{padding:25px;}.p30{padding:30px;}.pt5{padding-top:5px;}.pt10{padding-top:10px;}.pt15{padding-top:15px;}.pt20{padding-top:20px;}.pt25{padding-top:25px;}.pt30{padding-top:30px;}.pr5{padding-right:5px;}.pr10{padding-right:10px;}.pr15{padding-right:15px;}.pr20{padding-right:20px;}.pr25{padding-right:25px;}.pr30{padding-right:30px;}.pb5{padding-bottom:5px;}.pb10{padding-bottom:10px;}.pb15{padding-bottom:15px;}.pb20{padding-bottom:20px;}.pb25{padding-bottom:25px;}.pb30{padding-bottom:30px;}.pl5{padding-left:5px;}.pl10{padding-left:10px;}.pl15{padding-left:15px;}.pl20{padding-left:20px;}.pl25{padding-left:25px;}.pl30{padding-left:30px;}/* m系列控制padding */.m5{margin:5px!important;}.m10{margin:10px!important;}.m15{margin:15px!important;}.m20{margin:20px!important;}.m25{margin:25px!important;}.m30{margin:30px!important;}.mt5{margin-top:5px!important;}.mt10{margin-top:10px!important;}.mt15{margin-top:15px!important;}.mt20{margin-top:20px!important;}.mt25{margin-top:25px!important;}.mt30{margin-top:30px!important;}.mr5{margin-right:5px!important;}.mr10{margin-right:10px!important;}.mr15{margin-right:15px!important;}.mr20{margin-right:20px!important;}.mr25{margin-right:25px!important;}.mr30{margin-right:30px!important;}.mb5{margin-bottom:5px!important;}.mb10{margin-bottom:10px!important;}.mb15{margin-bottom:15px!important;}.mb20{margin-bottom:20px!important;}.mb25{margin-bottom:25px!important;}.mb30{margin-bottom:30px!important;}.mb40{margin-bottom:40px!important;}.ml5{margin-left:5px!important;}.ml10{margin-left:10px!important;}.ml15{margin-left:15px!important;}.ml20{margin-left:20px!important;}.ml25{margin-left:25px!important;}.ml30{margin-left:30px!important;}/* 其他常用元素 *//*文本对齐样式*/.center{margin:0px auto;}.tcenter{text-align:center;}.tleft{text-align:left;}.tright{text-align:right;}/*左右漂浮样式*/.l{float:left;}.r{float:right;}/*css清除浮动*/.c{clear:both}.clear{clear:both;height:0px;line-height:0px;font-size:0px;}/*clearfix:after*/.clearfix:after{content:".";display:block;height:0px;clear:both;visibility:hidden;}.clearfix{display:inline-table;display:block;}*html .clearfix{height:1%;}*+html .clearfix{height:1%;}.imgfix img{display:block;}/*添加鼠标悬浮显示手的形状*/.hand{cursor:pointer;}/*单行截字*/.textbreak{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}/*最小高度*/.minheight500px{min-height:500px;height:auto!important;height:500px;overflow:visible;}/*隐藏元素*/.hide{display:none;}/*解决IE6双边距加倍错误*/.inline{_display:inline;}/*通用样式*/.title{width:100%;float:left;}.title h2,.title h3{width:auto;float:left;white-space:nowrap;}.title span.more{width:auto;float:right;font-family:宋体;}.list{width:100%;float:left;}.list li{width:100%;float:left;}.img{float:left;}.intro{float:right;}.content{width:100%;float:left;}
+/*CSS  Begin*/
+body{ background:url(../images/bg.jpg) repeat;}
+.top{ width:100%; background:#000;}
+.header{ width:980px; margin:0 auto; height:33px;}
+.header h2 a{ float:left; color:#ea501a; font:bold 20px/32px "MicroSoft Yahei";}
+.header .shouye{ float:right; background:url(../images/enter.jpg) no-repeat center; width:130px; height:21px; display:block; padding-top:12px;}
+.banner{ margin:0 auto; background:url(../images/bannerbg.jpg) center top no-repeat; text-align:center; clear:both; height:534px; overflow:hidden;}
+.banner img{ margin:0 auto;}
+.tel{ background:url(../images/phone.jpg) no-repeat center; width:1020px; height:58px; margin:0 auto; margin-bottom: 34px; display:block;}
+.con{width:980px; margin:0 auto;}
+
+
+
+.tuan .content { width:968px; overflow:hidden; margin-bottom:8px; position:relative;} 
+.recList ul {width:990px;overflow:hidden; margin-left:15px; *padding-bottom:23px;}
+.recList ul li { width:314px; height:315px; position:relative; background:#FFF; margin-right:5px; margin-bottom:23px;}
+.recList ul li a { display:block; width:300px; height:auto; margin:0 auto; }
+.recList ul li img { display:block; width:300px; height:265px; margin:7px auto 7px;}
+.recList ul li h3 { width:200px; height:30px; font:12px/30px Arial; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.recList ul li a.btn { width:78px; height:25px; font:700 16px/24px "Microsoft Yahei"; color:#ffde00!important; position:absolute; right:23px; top:280px; background:url(/tuan/october/images/order_btn.gif) no-repeat; text-align:center; padding:0px; overflow:hidden; text-indent:-9999px;}
+
+/*专享价*/
+.recList ul.st1 li { height:340px;}
+.recList ul.st2 li { height:350px;}
+.recList ul li span{ color:#a10101;}
+
+.recList ul li.xugongPk{ background:url(../images/xgpk.jpg) no-repeat center;}
+
+
+/*优惠政策*/
+.tuan .con .discount{margin-left:15px; margin-bottom:12px;width:911px; height:100px; border:#ececec solid 8px; background:#fff; padding-left:25px;}
+.tuan .con .discount h1{ color:#ae000d; font-size:20px; font-family:"Microsoft YaHei";}
+/*三一*/
+
+.sanyTabs {
+    background-color: #D92219;
+    height: auto;
+    margin: 0 auto;
+    width: 952px;
+	margin-bottom:14px;
+}
+.sanyTabs ul {height: auto;padding: 10px 0 0 10px;width: 980px;}
+.sanyTabs ul li {
+    border-right: 1px solid #FF473E;
+    color: #EA8783;
+    float: left;
+    font: 100 14px/18px 微软雅黑;
+    height: 18px;
+    margin-bottom: 10px;
+    padding-left: 6px;
+    width: 86px;
+}
+ .sanyTabs ul li a {
+    color: #FFFFFF !important;
+}
+.foot { background-color:#505050; padding:20px 0px;}
+.foot .New_website { display:none;}
+.foot #bdshare { display:none;}
+.foot .New_foot,.foot .New_foot a,.foot  span.New_links { color:#b6b6b6!important;}
+
+/*home*/
+.home_left{ width:402px; height:auto; float:left; margin-left:54px; _display:inline;}
+.home_left .bd li h2{ font:18px/42px "MicroSoft Yahei";height:42px; color:#a91411;}
+.home_left .bd li p{ font-size:12px; font-family:"宋体"; margin-bottom:30px;}
+.home_left .bd li b{ float:right; font-weight:normal; font-family:"Microsoft Yahei";}
+
+.home_right{ width:425px;float:left; margin-left:44px;_display:inline;}
+.home_right img{ margin-bottom:20px;}
+.home_right .con{ width:212px; float:left;}
+.home_right .text_input, .selectBox{ width:auto;  margin-left:7px; margin-bottom:16px; _display:inline}
+.home_right .text_input input{ height:26px; width:145px; background:#dfdfdf; border:#a7a7a7 solid 1px;}
+
+.home_right .selectBox select{border:#a7a7a7 solid 1px;}
+.home_right a{ background:url(../images/home_voteBtn.jpg) no-repeat center; display:block; width:226px; height:53px; float:right; margin-top: 16px;}
+.home_right .sumitBtn{background:url(../images/home_voteBtn.jpg) no-repeat center;display:block; width:226px; height:53px; float:right; margin-top: 16px;border:0 none; }
+
+/* 单个图片幻灯片盒子 - 公用类 */
+.slideBox{ width:402px; height:412px; overflow:hidden; position:relative; border:1px solid #ddd;  }
+.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:10px; bottom:156px; z-index:1; }
+.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.slideBox .hd ul li{ float:left; margin-right:5px;  width:15px; height:15px;text-align:center; background:url(../images/grey.png) no-repeat center; cursor:pointer; }
+.slideBox .hd ul li.on{ background:url(../images/red.png) no-repeat center; color:#fff; }
+.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox .bd img{ width:402px; height:268px; }
+
+
+/*产品*/
+.products { width:980px; margin:0 auto;*padding-bottom:33px;   }
+.proList03 { width:980px; background-color:#fff;margin-bottom:33px;}
+.proList03 li { width:220px; height:230px; border-right:#e5e5e5 1px solid; padding:10px; margin-bottom:5px;}
+.proList03 li h2 { width:100%; height:21px; line-height:21px; text-align:center; background-color:#aeaeae; font:100 12px/20px 微软雅黑; margin-bottom:15px;}
+.proList03 li h2 a { color:#fff!important;}
+.proList03 li a.img { display:block; width:215px; height:150px; margin:0px auto 5px; float:none;}
+.proList03 li a.img img { display:block; width:215px; height:150px;}
+.proList03 li p.intro { height:36px; float:left; line-height:18px; overflow:hidden; width:135px;}
+.proList03 li .ydbtn { width:76px; height:26px; float:right; background-color:#da1c26; font:100 12px/26px 微软雅黑; color:#fff!important; text-align:center; margin-top:3px;} 
+
+.ptc { width:963px; height:auto; clear:both; padding-left:8px; overflow:hidden;}
+
+
+
+
+
+
+

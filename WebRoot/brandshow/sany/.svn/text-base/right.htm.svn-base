@@ -1,0 +1,88 @@
+<!--#include virtual="/brandshow/tongji.jsp?usern=sany"--> 
+
+      <div class="comBox01 mb10">
+        <div class="hd fix">
+          <h3>品牌信息</h3>
+        </div>
+        <div class="bd fix">
+          <div class="s_info">
+            品牌创立时间：1989年<br />
+            董事长：梁稳根<br />
+            售后投诉服务：0731-84031888<br />
+            邮箱：
+          </div>
+          <div class="s_weibo">
+		   <script type="text/javascript">document.write('<iframe width="145" height="243" frameborder="0" scrolling="no" src="http://widget.weibo.com/relationship/bulkfollow.php?language=zh_cn&uids=2230416520&wide=1&color=FFFFFF,FFFFFF,FE6000,666666&showtitle=1&showinfo=1&sense=0&verified=1&count=5&refer='+encodeURIComponent(location.href)+'&dpc=1"></iframe>')</script>
+          <!--	<iframe width="100%" height="80" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=0&isFans=0&uid=2230416520&verifier=8e94b428&dpc=1"></iframe>-->
+          </div>
+        </div>
+      </div>      
+      <div class="comBox01 mb10">
+        <div class="hd fix">
+          <h3>品牌信息</h3>
+        </div>
+        <div class="bd fix">
+          <ul class="list03">
+            <li> <a title="三一SY60C-9挖掘机图片" href="http://photo.21-sun.com/detail_for_18534.htm" target="_blank"><img width="80" height="70" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" alt="三一SY60C-9挖掘机图片" src="http://product.21-sun.com/uploadfiles//image/2013/05/16/20130516144012_910.jpg"></a>
+              <h3><a title="三一SY60C-9挖掘机图片" href="http://photo.21-sun.com/detail_for_18534.htm" target="_blank">三一SY60C-9挖掘机图片</a><span style="color:#999999"> </span></h3>
+            </li>
+            <li> <a title="三一SY75C-9挖掘机图片" href="http://photo.21-sun.com/detail_for_7208.htm" target="_blank"><img width="80" height="70" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" alt="三一SY75C-9挖掘机图片" src="http://product.21-sun.com/uploadfiles//image/2012/11/20121117110249_316.jpg"></a>
+              <h3><a title="三一SY75C-9挖掘机图片" href="http://photo.21-sun.com/detail_for_7208.htm" target="_blank">三一SY75C-9挖掘机图片</a><span style="color:#999999"> </span></h3>
+            </li>
+            <li> <a title="三一SY135C-9挖掘机图片" href="http://photo.21-sun.com/detail_for_5225.htm" target="_blank"><img width="80" height="70" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" alt="三一SY135C-9挖掘机图片" src="http://product.21-sun.com/uploadfiles//image/2012/11/20121117110112_190.jpg"></a>
+              <h3><a title="三一SY135C-9挖掘机图片" href="http://photo.21-sun.com/detail_for_5225.htm" target="_blank">三一SY135C-9挖掘机图片</a><span style="color:#999999"> </span></h3>
+            </li>
+            <li> <a title="三一SY55C-9挖掘机图片" href="http://photo.21-sun.com/detail_for_7210.htm" target="_blank"><img width="80" height="70" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" alt="三一SY55C-9挖掘机图片" src="http://product.21-sun.com/uploadfiles//image/2012/11/20121117110201_495.jpg"></a>
+              <h3><a title="三一SY55C-9挖掘机图片" href="http://photo.21-sun.com/detail_for_7210.htm" target="_blank">三一SY55C-9挖掘机图片</a><span style="color:#999999"> </span></h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="comBox01 mb10">
+        <div class="hd fix">
+          <h3>三一产品</h3>
+        </div>
+        <div class="bd fix">
+          <ul class="fix s_pro_cates">
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=101001" title="三一挖掘机" target="_blank">三一挖掘机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=101005" title="三一平地机" target="_blank">三一平地机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=102007" title="三一汽车起重机" target="_blank">三一汽车起重机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=102006" title="三一随车起重机" target="_blank">三一随车起重机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=102008" title="三一履带式起重机" target="_blank">三一履带式起重机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=102002" title="三一塔式起重机" target="_blank">三一塔式起重机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=103001" title="三一混凝土泵车" target="_blank">三一混凝土泵车</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=103017" title="三一车载泵" target="_blank">三一车载泵</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=103018" title="三一拖泵" target="_blank">三一拖泵</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=103002" title="三一混凝土搅拌设备" target="_blank">三一混凝土搅拌设备</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=103019" title="三一混凝土搅拌运输车" target="_blank">三一混凝土搅拌运输车</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=104001" title="三一摊铺机" target="_blank">三一摊铺机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=105003" title="三一旋挖钻机" target="_blank">三一旋挖钻机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=105007" title="三一连续墙抓斗" target="_blank">三一连续墙抓斗</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=105009" title="三一液压静力压桩机" target="_blank">三一液压静力压桩机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=106001" title="三一压路机" target="_blank">三一压路机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=107001" title="三一内燃叉车" target="_blank">三一内燃叉车</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=110001" title="三一盾构掘进机" target="_blank">三一盾构掘进机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=110002" title="三一矿用掘进机" target="_blank">三一矿用掘进机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=119002" title="三一采煤机" target="_blank">三一采煤机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=111001" title="三一正面吊" target="_blank">三一正面吊</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=111002" title="三一堆高机" target="_blank">三一堆高机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=111003" title="三一吊具" target="_blank">三一吊具</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=103005" title="三一混凝土布料设备" target="_blank">三一混凝土布料设备</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=104005" title="三一铣刨机" target="_blank">三一铣刨机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=101008" title="三一自卸卡车" target="_blank">三一自卸卡车</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=104009" title="三一沥青搅拌站" target="_blank">三一沥青搅拌站</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=111006" title="三一场桥" target="_blank">三一场桥</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=105017" title="三一强夯机" target="_blank">三一强夯机</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=119001" title="三一煤炭机械" target="_blank">三一煤炭机械</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=111008" title="三一海工装备" target="_blank">三一海工装备</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=103021" title="三一A8 砂浆大师成套设备" target="_blank">三一A8 砂浆大师成套设备</a></li>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=103022" title="三一V8 城镇先锋混凝土成套设备" target="_blank">三一V8 城镇先锋混凝土成套设备</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="comBox01 mb10 side_gg">
+      <!-- <a href="#"><img src="images/temp/temp_img06.png" width="210" height="109" /></a>
+      <a href="#"><img src="images/temp/temp_img07.png" width="210" height="109" /></a> -->
+      </div>

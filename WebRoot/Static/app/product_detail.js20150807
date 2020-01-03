@@ -1,0 +1,102 @@
+/**
+ * 
+ */
+define(function(require) {
+	var $ = require('jquery');
+	var base=require('base');
+	var com=require('./common');
+	
+	/*$('.pro_top_hd').find('li').on('click',function(){
+		$(this).addClass('cur').siblings('li').removeClass('cur');
+	})*/
+	
+	//头部漂浮
+	var _top = $('.pro_top_hd').offset().top;
+	$(window).scroll(function(){
+		var scrolls = $(this).scrollTop();
+		if(scrolls > _top){
+			$('.pro_top_hd').addClass('smartfloat');
+		}else{
+			$('.pro_top_hd').removeClass('smartfloat');
+		};
+	});
+
+	
+	require('superslide');
+	$(".pro_dt_p1 ._top").slider({titCell:".hd li",mainCell:".bd ul",effect:"leftLoop",vis:4,scroll:1,autoPlay:false,interTime:4000}); 
+	$(".pro_dt_p1 ._top").find('li').hover(function(){
+		var img_src=$(this).find('img').attr('src');
+		$(".pro_dt_p1 ._top").find('._img img').attr('src',img_src)
+	})
+
+	
+	//询价城市选择
+	$.fn.tab=function(){
+		var $key=$(this).find('.city_key'),
+			 $val=$(this).find('.city_val');
+		$key.first().addClass('cur');
+		$val.first().show();
+		$key.each(function(index){
+			$(this).click(function(event){
+				event.preventDefault();
+				$(this).addClass('cur').siblings().removeClass('cur');
+				$val.hide().eq(index).show();
+				})
+			})
+		};
+	$('.citybox_tab').each(function() { $(this).tab()});
+	
+	$('.cityboxbtn').click(function(e) {
+		$(this).addClass('cityboxbtn_on');
+		$('.citybox').show();
+	});
+	
+	$('.city_val_01 .cityshow span').click(function(e) {
+		var prov = $(this).data('province');
+		var prov_noe=prov.split('***');
+		var area_id=prov_noe[1];
+		$('#zd_province').val(prov_noe[0]);/*省份*/
+		$('.city_key_01').html(prov_noe[0]);
+		$('.city_key_01').removeClass('cur');
+		$('.city_key_02').addClass('cur');
+		$('.city_val_01').hide();
+		$('.city_val_02').show();
+		jQuery.ajax({
+					url : '/tools/ajax_city.jsp',
+					async : false,
+					type : 'post',
+					data : {
+						flag : 'get_city_new',
+						p : area_id
+					},
+					success : function(data){
+						$("#zd_citys").html($.trim(data));
+								
+								$('#zd_citys span').click(function(e) {
+								var city = $(this).data('city');
+								$('#zd_city').val(city);/*城市*/
+								$('.city_key_02').html(city);
+								var prov = $('.city_key_01').html();
+								$('.city_key_02').removeClass('cur');
+								$('.city_key_01').addClass('cur');
+								$('.city_val_02').hide();
+								$('.city_val_01').show();
+								$('.cityboxbtn .tadd_p').html(prov);
+								$('.cityboxbtn .tadd_c').html(city);
+								$('.citybox').hide();
+								$('.cityboxbtn').removeClass('cityboxbtn_on');
+							});
+					}
+				});
+		
+	});
+	
+	
+	$('.city_close').click(function(e) {
+		$('.citybox').hide();
+		$('.cityboxbtn').removeClass('cityboxbtn_on');
+	});
+
+		
+})
+

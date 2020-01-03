@@ -1,0 +1,19 @@
+﻿/*
+* name: Mobile && SmallScreen StyleSheet
+* version: v1.0.0
+* update: 剔除框架样式
+* data: 2015-01-30
+*/
+
+/* 设备竖屏（默认） */
+
+
+
+
+
+
+/* 设备横屏 */
+@media all and (orientation : landscape){
+
+
+}

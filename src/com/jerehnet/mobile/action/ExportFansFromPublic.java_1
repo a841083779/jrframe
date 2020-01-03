@@ -1,0 +1,51 @@
+package com.jerehnet.mobile.action;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import net.sf.json.*;
+
+import com.jerehnet.util.dbutil.DBHelper;
+import com.jerehnet.util.common.*;
+
+
+public class ExportFansFromPublic {  
+
+    public void test() throws Exception { 
+    	Connection connection = null; 
+    	DBHelper dbHelper = DBHelper.getInstance();
+        Map token=null;String accesstoken="";
+        try{
+        	token = dbHelper.getMap("select access_token,update_time from weixin_access_token where id=2") ;
+        	if(token!=null){
+        		accesstoken=CommonString.getFormatPara(token.get("access_token"));
+        	}
+        }catch(Exception e){
+        	e.printStackTrace();
+        }
+
+        String nextOpenId = "";
+        for(int i=1;i<=2;i++){ //一次拉取调用最多拉取10000个关注者的OpenID，可以通过多次拉取的方式来满足需求。
+
+            //根据appId,appSecret获取数据粉丝openId(1次1万条)
+            //格式：{"data"：{"openid":["oneOpenId,twoOpenId"]},"next_openid":"theNextOpenId"}
+            try{
+            	String returnData=Common.doGet("https://api.weixin.qq.com/cgi-bin/user/get?access_token="+accesstoken+"&next_openid="+nextOpenId);
+            	JSONObject json=JSONObject.fromObject(returnData); 
+            	//JSONArray array = JSONArray.fromObject(returnData );
+                //String openId = json.get("openid").toString();
+
+                 //nextOpenId= json.get("next_openid").toString();
+                //System.out.println(openId+";"+nextOpenId);
+            	System.out.println(json);
+
+            }catch(Exception e){
+            	e.printStackTrace();
+            }    
+        }
+    }
+    
+
+}  

@@ -1,0 +1,14 @@
+<!--http://localhost:1024/koubei/new.jsp-->
+<!--按品牌分-->
+<#assign product_id_list = query(" select id from pro_products where is_show = 1 ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list product_id_list as product_id>
+				<url>
+					<loc>http://koubei.21-sun.com/list/${product_id.id?c}.htm</loc>
+            				<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+	</#list>
+</urlset>

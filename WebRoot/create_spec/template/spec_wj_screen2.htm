@@ -1,0 +1,25 @@
+								<#if list?? && (list?size>0)>
+								<#list list as list>
+								<div class="span-4 smidd-6 smal-12">
+									<div class="info">
+										<a title="${list.title}" target="_blank" class="pic imgZoom" href="${list.title_url}">
+											<div class="rect-60">
+												<img src="http://product.21-sun.com/uploadfiles${list.img}" alt="${list.title}" class="_full">
+											</div>
+											<#if list.is_display == '1' ><span class="tag">${list.sub_title}</span></#if>
+											<span class="name el">${list.title}</span>
+										</a>
+										
+										<div class="order">
+											<a title="询底价" target="_blank" class="ani-btn" href="${list.url1}" c-text="询底价"></a>
+										</div>
+										<div class="detail">
+											<a title="性能" target="_blank" href="${list.url2}">性能</a> <span>|</span>
+											<a title="参数" target="_blank" href="${list.url3}">参数</a> <span>|</span>
+											<a title="口碑" target="_blank" href="${list.url4}">口碑</a> <span>|</span>
+											<a title="图库" target="_blank" href="${list.url5}">图库</a>
+										</div>
+									</div>
+								</div>
+								</#list>
+								</#if>

@@ -1,0 +1,26 @@
+﻿<#assign proList = query(" select usern from pro_agent_factory where is_show=1 and  flag = 1 and usern<>'tdbenniu' ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+		<#list proList as pro>  
+        <url>
+            <loc>http://product.21-sun.com/brand/${pro.usern}/</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		<url>
+            <loc>http://product.21-sun.com/brand/${pro.usern}/product.htm</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>			
+		<url>
+            <loc>http://product.21-sun.com/brand/${pro.usern}/news.htm</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		<url>
+            <loc>http://product.21-sun.com/brand/${pro.usern}/video.htm</loc>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>			
+	    </#list>
+</urlset>

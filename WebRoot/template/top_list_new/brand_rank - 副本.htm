@@ -1,0 +1,73 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+<#assign grab_order = query(" SELECT factoryname,rank,usern FROM(SELECT top 10 factoryname,SUM(view_count) AS rank,factoryid FROM pro_products WHERE catalognum LIKE '101001%' GROUP BY factoryname,factoryid order by rank DESC)AS h INNER JOIN (SELECT id,usern from pro_agent_factory WHERE flag=1) as j  ON h.factoryid=j.id ")> <#-- 挖掘机排行 -->
+<#assign loader_order = query(" SELECT factoryname,rank,usern FROM(SELECT top 10 factoryname,SUM(view_count) AS rank,factoryid FROM pro_products WHERE catalognum LIKE '101002%' GROUP BY factoryname,factoryid order by rank DESC)AS h INNER JOIN (SELECT id,usern from pro_agent_factory WHERE flag=1) as j  ON h.factoryid=j.id  ")> <#-- 装载机排行 -->
+<#assign bulldozer_order = query(" SELECT factoryname,rank,usern FROM(SELECT top 10 factoryname,SUM(view_count) AS rank,factoryid FROM pro_products WHERE catalognum LIKE '101003%' GROUP BY factoryname,factoryid order by rank DESC)AS h INNER JOIN (SELECT id,usern from pro_agent_factory WHERE flag=1) as j  ON h.factoryid=j.id ")> <#-- 推土机排行 -->
+<div class="rankContain newRank"> 
+  <div class="wfull l">
+   
+
+   <div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_101001_0.htm" title="挖掘机排行榜">挖掘机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_101001_0.htm" title="更多挖掘机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+		<#if grab_order??&&(grab_order?size>0)>
+        	<#list grab_order as oneGrab>
+        <p>
+          <strong class="brand_01 top${oneGrab_index+1}"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/${oneGrab.usern}/" title="${oneGrab.factoryname}">${oneGrab.factoryname}</a></span>
+          <span class="brand_03"><b><i style="width:${(oneGrab.rank/5000)?c}%"></i></b><strong>${oneGrab.rank?c}</strong></span>
+        </p>
+		    </#list>
+        </#if>
+        <p class="more">
+          <a href="/brand_0_0_0_101001_0.htm" title="挖掘机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	   <div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_101002_0.htm" title="装载机排行榜">装载机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_101002_0.htm" title="更多装载机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+		<#if loader_order??&&(loader_order?size>0)>
+        	<#list loader_order as oneLoader>
+        <p>
+          <strong class="brand_01 top${oneLoader_index+1}"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/${oneLoader.usern}/" title="${oneLoader.factoryname}">${oneLoader.factoryname}</a></span>
+          <span class="brand_03"><b><i style="width:${(oneLoader.rank/4000)?c}%"></i></b><strong>${oneLoader.rank?c}</strong></span>
+        </p>
+		    </#list>
+        </#if>
+        <p class="more">
+          <a href="/brand_0_0_0_101002_0.htm" title="装载机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	<div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/brand_0_0_0_101003_0.htm" title="推土机排行榜">推土机排行榜</a></h2>
+        <span><a target="_blank" href="/brand_0_0_0_101003_0.htm" title="更多推土机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+         <#if bulldozer_order??&&(bulldozer_order?size>0)>
+        	<#list bulldozer_order as oneBulldozer>
+        <p>
+          <strong class="brand_01 top${oneBulldozer_index+1}"></strong>
+          <span class="brand_02"><a target="_brank" href="http://product.21-sun.com/brand/${oneBulldozer.usern}/" title="${oneBulldozer.factoryname}">${oneBulldozer.factoryname}</a></span>
+          <span class="brand_03"><b><i style="width:${(oneBulldozer.rank/700)?c}%"></i></b><strong>${oneBulldozer.rank?c}</strong></span>
+        </p>
+		    </#list>
+        </#if>
+        <p class="more">
+          <a href="/brand_0_0_0_101003_0.htm" title="推土机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+  </div>  
+  </div>

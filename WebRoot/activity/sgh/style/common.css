@@ -1,0 +1,104 @@
+/*
+* name: common.css
+*/
+
+
+/********** 通用样式 **********/
+.pos-absolute{ position:absolute;}
+
+.mt-10{ margin-top:10px;}
+.mt-30{ margin-top:30px;}
+.mb-10{ margin-bottom:10px;}
+.mb-20{ margin-bottom:20px;}
+.mr-6{ margin-right:6px;}
+
+.pt-10{ padding-top:10px;}
+.pt-20{ padding-top:20px;}
+.pt-30{ padding-top:30px;}
+.pt-40{ padding-top:40px;}
+.pb-20{ padding-bottom:20px;}
+
+.color-feb71f{ color:#feb71f !important;}
+.color-red{ color:#f00;}
+
+.font-12{ font-size:12px;}
+.font-16{ font-size:16px;}
+.font-18{ font-size:18px;}
+.font-20{ font-size:20px;}
+.font-24{ font-size:24px;}
+.font-42{ font-size:42px;}
+
+.fw-bold{ font-weight:bold;}
+
+.text-c{ text-align:center;}
+.text-r{ text-align:right;}
+
+
+
+/********** 全局样式 **********/
+.g-main{ height:100%;}
+
+
+
+
+
+
+/********** 模   块 **********/
+
+.shape-circle-01{}
+.shape-circle-01 circle-01{}
+.shape-circle-01 circle-02{}
+
+
+/*loading*/
+.loading{ background-color:#0a0d13; height:100%; width:100%; position:absolute; z-index:999; margin-top:0px; top:0px;}
+.loading .loading-center{ width:100%; height:100%; position:relative;}
+.loading .loading-center-absolute{ position:absolute; left:50%; top:50%; height:200px; width:200px; margin-top:-100px; margin-left:-100px;}
+.loading .loading-text{ display:none; display:block\9; font-size:20px; color:#fff; text-align:center;}
+.loading .object{ display:none\9; -moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%; position:absolute; border-left:5px solid #FFF; border-right:5px solid #FFF; border-top:5px solid transparent; border-bottom:5px solid transparent; -webkit-animation:animate 2s infinite; animation:animate 2s infinite;}
+.loading .object_one{ left:75px; top:75px; width:50px; height:50px;}						
+.loading .object_two{ left:65px; top:65px; width:70px; height:70px; -webkit-animation-delay:0.1s; animation-delay:0.1s;}
+.loading .object_three{ left:55px; top:55px; width:90px; height:90px; -webkit-animation-delay:0.2s; animation-delay:0.2s;}
+.loading .object_four{ left:45px; top:45px; width:110px; height:110px; -webkit-animation-delay:0.3s; animation-delay:0.3s;}
+@-webkit-keyframes animate {
+	50% { -ms-transform:rotate(180deg); -webkit-transform:rotate(180deg); transform:rotate(180deg);}
+	100% { -ms-transform:rotate(0deg); -webkit-transform:rotate(0deg); transform:rotate(0deg);}
+	}
+@keyframes animate {
+	50% { -ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform: rotate(180deg);}
+	100% { -ms-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+	}
+
+.copyright{ bottom:20px; left:0; width:100%; text-align:center;}
+.copyright a{ color:#999;}
+
+
+/*ope-box*/
+.pro-ope{ left:50%; top:0; z-index:9;}
+
+/*m-mask*/
+.m-mask{ left:0; top:0; z-index:99; width:100%; height:100%; background:url(../static/images/black_70.png);}
+.m-mask .alert-box{ left:50%; top:50%; width:800px; height:520px; margin-left:-400px; margin-top:-260px; background-color:#eee;}
+
+/*activity-alert*/
+.center-box{ display:none; left:50%; top:50%; width:794px; height:446px; margin-left:-397px; margin-top:-223px;}
+.center-box.cur{ display:block;}
+.center-cont{ position:absolute; left:0; top:0; width:100%; height:100%;}
+
+
+/*wechat*/
+.wechat{ position:absolute; right:4px; bottom:20px; z-index:99; margin-top:90px; width:106px; height:130px; padding:5px; border-radius:5px; background-color:#5f220d; text-align:center;}
+.wechat p{ font-size:12px; color:#fff; line-height:20px; margin-top:4px;}
+.wechat img{ max-width:100%;}
+
+
+
+/********** 元   件 **********/
+
+.u-btn{ display:block; width:150px; height:46px; background-color:#feb71f; font-size:28px; color:#fff; line-height:46px; text-align:center; font-weight:bold;}
+.u-btn:hover{ color:#eee;}
+
+.u-close-btn i{ font-size:40px;}
+
+input[type="button"].u-part-btn{ width:118px; height:34px; background:url(../static/images/btn.png) no-repeat; border:none; font-size:18px; font-weight:bold; color:#333;}
+input[type="button"].u-part-btn:hover{ background:url(../static/images/btn_active.png) no-repeat;}

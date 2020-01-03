@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<version>1_1</version>	<!-- 版本号 -->
+	 <rootConfig>\sun21\webpro\sun21_03\21sun_product_2012_test\WEB-INF</rootConfig> <!-- 相关配置文件的根路径，其余文件均相对于此 -->
+	<!-- <rootConfig>D:\workpace\21sun_product_2012_test\WebRoot\WEB-INF</rootConfig> -->
+	<!--<rootConfig>D:\workpace\jrframe\WebRoot\WEB-INF</rootConfig> -->
+	<merchantId>201411041</merchantId><!-- 商户编号 -->
+	 <serverURL>https://115.238.51.98:465/B2BPAY/getToken</serverURL><!--获取令牌URL-->
+     <serverAPIURL>https://115.238.51.98:465/B2BPAY/verifyAccess</serverAPIURL><!-- 浏览器模拟POST请求URL -->
+   <serverOrderQueryUrl>https://115.238.51.98:465/B2BPAY/getOrderStatus</serverOrderQueryUrl> <!-- 请求订单状态URL -->
+   <serverCytUrl></serverCytUrl>
+  	<!--   <serverURL>http://10.0.33.177:8080/B2BPAY/getToken</serverURL>获取令牌URL-->
+ 	<!--    <serverAPIURL>http://10.0.33.177:8080/B2BPAY/verifyAccess</serverAPIURL>浏览器模拟POST请求URL -->
+    <!-- <serverOrderQueryUrl>http://10.0.33.177:8080/B2BPAY/getOrderStatus</serverOrderQueryUrl>请求订单状态URL -->
+	<serverPublicKeyFile>czbankMerchant.jks</serverPublicKeyFile>  <!-- jks证书容器-->
+	<serverPublicPassword>123456</serverPublicPassword> <!-- jks证书容器密码 -->
+	<serverPublicKeyAlias>czbanksigncert</serverPublicKeyAlias><!-- 服务器签名证书公钥别名 -->
+	<serverSSLKeyAlias>czbanksslcert</serverSSLKeyAlias><!-- 服务器SSL证书公钥别名 -->
+	<Operation_CA2>TESTCA_new.cer</Operation_CA2><!-- 根证书-->
+	<clientCertFile>mall.pfx</clientCertFile><!-- 客户端签名证书 -->
+	<clientCertPassword>a111111</clientCertPassword><!-- 客户证书保护密钥 -->
+	<traceConfigFileName>logging.xml</traceConfigFileName><!-- log4j的配置文件 -->
+</config>

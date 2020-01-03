@@ -1,0 +1,439 @@
+<%@page import="java.sql.Connection"%>
+<%@page import="com.jerehnet.util.common.Common"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@page import="com.jerehnet.util.common.CommonString"%>
+<%@page import="com.jerehnet.util.dbutil.DBHelper"%>
+<% 
+	Map memberInfo = (Map)session.getAttribute("memberInfo");
+	String username = "";
+	if(memberInfo != null){
+		username = CommonString.getFormatPara(memberInfo.get("username"));
+	}
+
+	DBHelper dbHelper = DBHelper.getInstance();
+	Connection connection = null;
+	List<Map> wajuejiList = null;
+	List<Map> zhuangzaijiList = null;
+	try{
+		connection = dbHelper.getConnection();
+		//wajueji
+		String wajuejiSql = "select top 4 * from pro_products where catalognum like'101001%' order by view_count desc ,id desc ";
+		wajuejiList = dbHelper.getMapList(wajuejiSql);
+		//zhuangzaiji
+		String zhuangzaijiSql = "select top 5 * from pro_products where catalognum like'101002%' order by view_count desc ,id desc ";
+		zhuangzaijiList = dbHelper.getMapList(zhuangzaijiSql);
+		
+	}catch(Exception e){
+		connection.rollback();
+		e.printStackTrace();
+	}finally{
+		dbHelper.freeConnection(connection);
+	}
+	
+%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>铁臂口碑活动——分享真实用机感受 - 铁臂口碑</title>
+<meta name="keywords" content="工程机械口碑" />
+<meta name="description" content="铁臂口碑第一季活动——分享您的真实用机感受，就有机会获得大奖。买工程机械产品，就上铁臂商城。" />
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/plugin/dialog/jBox/Skins/Blue/jbox.css" type="text/css">
+</link>
+<link href="/plugin/validator/rjboy/validform.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/scripts/login.js"></script>
+<script type="text/javascript" src="/scripts/jquery.raty.min.js"></script>
+</head>
+<body>
+<!--top-->
+<jsp:include page="/include/top.jsp" flush="true"/>
+<!--kb 导航-->
+<div class="kb_nav">
+  <div class="contain960 pr">
+    <ul class="fix">
+      <li><a href="index.jsp">首页</a></li>
+      <li><a href="#guize">活动规则</a></li>
+      <li><a href="#jiangpin">奖品专区</a></li>
+      <li><a href="#pinglun">用机感受</a></li>
+      <li><a href="#jiangpin">获奖名单</a></li>
+      <li><a href="#jixing">口碑热门机型</a></li>
+    </ul>
+    <h1 class="kb_logo"><a title="铁臂商城" href="http://product.21-sun.com/"><img src="images/logo.png" width="136" height="57" title="铁臂商城"  alt="铁臂商城"/></a></h1>
+  </div>
+</div>
+<!--kb 导航 end-->
+<div class="wrap_out"> 
+  <!-- banbner start-->
+  <div class="ptbg">
+    <div class="contain980 part1 pr"> <strong>每周二公布上周获奖名单 <br>
+      <span>产品咨询群： 250469589  活动咨询群： 215179483</span></strong> <a <% if(username.equals("")){ %>href="javascript:void(0)"  onclick="login();"<%}else{%>href="#review" <%}%> >马上分享</a> </div>
+  </div>
+  <!-- banbner end--> 
+  <!-- part2 start-->
+  <div class="part2" id="guize">
+  <div class="contain960">
+  <img src="images/t1.png" width="151" height="43" alt="活动规则" title="活动规则"></div>
+    <div class="contain960 pr p2_con">
+      <p class="p2_1">1. 用户需发布真实、客观的用机感受及评价，内容丰富（至少为10字），分享口碑、评价时不得使用不文明词语；<br/>
+2. 评论不限次数，可从多个角度或对多个产品评论，但评论内容、上传图片不得重复，重复评论不计入评分，恶意重复评论将被取消评奖资格，严重者将禁用账号；<br />
+3. 所有评论内容及图片必须是拥有版权的作品（图片不得带水印），因盗图、侵权导致的法律纠纷，将取消评奖资格并追究法律责任；<br />
+4.  本活动所有作品版权归本站所有，即每位参与者视为同意本站永久性地、免费使用参赛作品。其他媒体未经授权谢绝转载，本站保留追究法律责任的权利。 <br />
+</p>
+      <p class="p2_2"><strong>参加<a href="#">微博</a>、<a  href="#">微信</a>分享活动即有机会获得精美礼品</strong><b>最终成绩=产品评论总数+精品评论数*10（例如评论产品总条数100条，其中有20条精品评论，最终成绩=100+20*10=300 )</b><br>
+        <span><b>成功邀请5位好友注册并发表符合要求的评论，即可获得10分奖励+精美小礼品一份</b>
+        【友情提示】邀请好友之后，需将好友姓名，联系方式私信发送至中国工程机械商贸网微博或微信（www21sun），由中国工程机械商贸网工作人员电话核实后发放奖品。</span></p>
+      <a class="k_btn" href="#pinglun">我要发表口碑</a> <a href="jpkb.docx" target="_blank" class="k_btn jp_pl">精品口碑评判标准</a></div> 
+  </div>
+  <!-- part2  end--> 
+  <!-- part3 start-->
+  <div class="part3" id="jiangpin">
+    <div class="contain960">
+      <h3 class="channel"><img src="images/t2.png" height="39" width="151" alt="奖品专区" title="奖品专区"></h3>
+      <div class="p3_con">
+        <div class="l p3_1">
+        <img src="images/pre_1.jpg" width="300" height="306" alt="福田雷沃赞助变形金刚" title="福田雷沃赞助变形金刚" />
+        <img src="images/pre_2.jpg" width="300" height="251" alt="福田雷沃赞助车载保温杯" title="福田雷沃赞助车载保温杯" />
+        <img src="images/pre_3.jpg" width="300" height="237" alt="精美钱包" title="精美钱包" />
+        </div>
+        <div class="r p3_2">
+          <div class="listbody"> <img src="images/list_top.png" height="37" width="425"  />
+            <div class="listhead fix"><b>用户名</b><b>得分</b><b>名次</b><b>奖项</b></div>
+            <ul>
+              <li><strong>nipeng</strong><span>557分</span><span>第一名</span><span>一等奖</span></li>
+              <li><strong>zizi</strong><span>373分</span><span>第二名</span><span>二等奖</span></li>
+              <li><strong>fy526</strong><span>269分</span><span>第三名</span><span>二等奖</span></li>
+              <li><strong>13027169968</strong><span>242分</span><span>第四名</span><span>二等奖</span></li>
+              <li><strong>fuchuanchen</strong><span>144分</span><span>第五名</span><span>三等奖</span></li>
+              <li><strong>wm1990523</strong><span>73分</span><span>第六名</span><span>三等奖</span></li>
+              <li><strong>zhangjf31</strong><span>70分</span><span>第七名</span><span>三等奖</span></li>
+              <li><strong>13181617287</strong><span>60分</span><span>第八名</span><span>三等奖</span></li>
+              <li><strong>chenjindong</strong><span>30分</span><span>第九名</span><span>三等奖</span></li>
+              </br>
+              <strong>声明：为鼓励原创精品口碑，特设鼓励奖。本期鼓励奖获得者：baobao564331160，LXD521。以上两位会员虽总分数未列入前9名，但其发布口碑均为图文并茂原创内容，精品评论比例100%。</strong>
+            </ul>
+          
+          </div>
+          
+            <div class="list_btm"> 了解更多获奖明细及活动公告请加 <b>产品咨询群： 250469589<br> 活动咨询群： 215179483</b></div>
+        </div>
+            </div>
+    </div>
+  </div>
+  <!-- part3 end--> 
+  <!-- part4 start-->
+  <div class="part4" id="pinglun">
+    <div class="title fix"><img src="images/t3.png" height="46" width="306" alt="发表您的手机感受" title="发表您的手机感受"> <span>（您对爱机的评价可以帮助更多人选机*为必填项）</span> </div>
+    <div class="contain960 p4_con">
+      <form action="/action/crud.jsp" method="post" name="theform" id="theform">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="19%" height="48" align="right" class="td_bot"><b>*</b>请选择机型：</td>
+            <td width="81%" class="td_bot"><select name="catalog" id="catalog" onchange='chooseCatalog(this.value)'>
+                <option value="">请选择热门类型</option>
+                <option value="101001">挖掘机</option>
+                <option value="101002">装载机</option>
+              </select>
+              <select name="brand" id="brand" onchange='<% if(username.equals("")){ %>login();<%}else{%>chooseBrand(this.value)<%}%>'>
+                <option value="">请选择品牌</option>
+              </select>
+              <select name="zd_product_id" id="zd_product_id" >
+                <option>请选择型号</option>
+              </select></td>
+          </tr>
+          <tr>
+            <td align="right"><b>*</b>价格：</td>
+            <td valign="top"><div class="xing" id="price_1"> </div>
+              <span class="xing_tip">点击星星为该机型价格打分</span></td>
+          </tr>
+          <tr>
+            <td align="right"><b>*</b>质量：</td>
+            <td><div class="xing" id="zhiliang_1"> </div>
+              <span class="xing_tip">点击星星为该机型质量打分</span></td>
+          </tr>
+          <tr>
+            <td align="right"><b>*</b>性能：</td>
+            <td><div class="xing" id="xingneng_1"> </div>
+              <span class="xing_tip">点击星星为该机型性能打分</span></td>
+          </tr>
+          <tr>
+            <td align="right"><b>*</b>售后：</td>
+            <td><div class="xing" id="shouhou_1"> </div>
+              <span class="xing_tip">点击星星为该机型售后打分</span></td>
+          </tr>
+          <tr>
+            <td align="right" valign="top"><b>*</b>评价：</td>
+            <td><textarea id="zd_content" name="zd_content"></textarea></td>
+          </tr>
+          <tr>
+            <td height="56">&nbsp;</td>
+            <td><span class="tip">10~2000个字之间，请针对用机感受、使用情况等方面进行评论，评论的内容需对其他用户有参考价值，并且真实原创。</span></td>
+          </tr>
+          <tr>
+            <td align="right">上传图片：</td>
+            <td><%	if(username.equals("")){ %>
+              <img src="images/1_22.jpg" onclick="login();" width="77" height="30" />
+              <%}else{%>
+              <span id="addImgs"></span>
+              <%}%></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="padding-left:182px; padding-top:10px;"><ul class="showpic clearfix" id="addImgs_show">
+              </ul></td>
+          <tr> </tr>
+          
+            <td height="39" class="td_bot"></td>
+            <td class="td_bot">单张图片不超过10MB，尺寸不小于300*300px,支持jpg、png和bmp。</td>
+          </tr>
+          <tr>
+            <td bgcolor="#f8fcfb">&nbsp;</td>
+            <td align="left" bgcolor="#f8fcfb"><div style="position:relative">
+                <blockquote>
+                  <p>
+                    <%	if(username.equals("")){ %>
+                    <a href="javascript:void(0);" onclick="login();" class="ti_btn">提交评论</a>
+                    <%}else{%>
+                    <input type="submit" name="button" id="button" value="提交评论" class="ti_btn" />
+                    <%}%>
+                  </p>
+                </blockquote>              
+              </div></td>
+          </tr>
+        </table>
+        <input type="hidden" name="tableName" id="tableName" value="pro_comments"/>
+        <input type="hidden" name="zd_username" id="zd_username" value="<%=username %>"/>
+        <input type="hidden" name="zd_userid" id="zd_userid" value="1"/>
+        <input type="hidden" name="eventAfter" value="insertImages"/>
+        <input type="hidden" name="zd_score1" id="score1" />
+        <input type="hidden" name="zd_score2" id="score2" />
+        <input type="hidden" name="zd_score3" id="score3" />
+        <input type="hidden" name="zd_score4" id="score4" />
+        <input type="hidden" name="zd_is_show" value="1" />
+      </form>
+    </div>
+  </div>
+  <!-- part4 end--> 
+  <!-- part6 start-->
+  <div class="part6" id="jixing">
+    <div class="contain960">
+      <h3 class="channel"><img src="images/t4.png" height="42" width="227" alt="热门口碑机型" title="热门口碑机型"></h3>
+      <ul class="fix">
+        <%
+    	if(wajuejiList!=null){
+    		for(Map m:wajuejiList){
+    			String id = CommonString.getFormatPara(m.get("id"));
+    			String file_name = CommonString.getFormatPara(m.get("file_name"));
+    			String img2 = CommonString.getFormatPara(m.get("img2"));
+    			String name = CommonString.getFormatPara(m.get("name"));
+    			String factoryname = CommonString.getFormatPara(m.get("factoryname"));
+    			String catalogname = CommonString.getFormatPara(m.get("catalogname"));
+    %>
+        <li><a href="http://koubei.21-sun.com/list/<%=id %>.htm" target="_blank" title="<%=factoryname+name+catalogname %>"><img src="/uploadfiles/<%=img2 %>" onerror="this.src='/uploadfiles/no_big.gif'" width="164" height="116"  alt="<%=factoryname+name+catalogname %>"/><strong><%=factoryname+name+catalogname %></strong></a></li>
+        <%			
+    		}
+    	}
+    %>
+    <li><a href="http://koubei.21-sun.com/list/10110.htm" target="_blank" title="福田雷沃FR60挖掘机"><img src="http://koubei.21-sun.com/uploadfiles/image/2014/01/20140126094347_830.jpg" onerror="this.src='/uploadfiles/no_big.gif'" width="164" height="116" alt="福田雷沃FR60挖掘机"><strong>福田雷沃FR60挖掘机</strong></a></li>
+        <%
+    	if(zhuangzaijiList!=null){
+    		for(Map m:zhuangzaijiList){
+    			String id = CommonString.getFormatPara(m.get("id"));
+    			String file_name = CommonString.getFormatPara(m.get("file_name"));
+    			String img2 = CommonString.getFormatPara(m.get("img2"));
+    			String name = CommonString.getFormatPara(m.get("name"));
+    			String factoryname = CommonString.getFormatPara(m.get("factoryname"));
+    			String catalogname = CommonString.getFormatPara(m.get("catalogname"));
+    %>
+        <li><a href="http://koubei.21-sun.com/list/<%=id %>.htm" target="_blank" title="<%=factoryname+name+catalogname %>"><img src="/uploadfiles/<%=img2 %>" onerror="this.src='/uploadfiles/no_big.gif'" width="164" height="116"  alt="<%=factoryname+name+catalogname %>"/><strong><%=factoryname+name+catalogname %></strong></a></li>
+        <%			
+    		}
+    	}
+    %>
+      </ul>
+    </div>
+  </div>
+  <!-- part6 end--> 
+</div>
+<!--foot-->
+<jsp:include page="/include/foot.jsp" flush="false"/>
+<div style="display:none;"><script src="http://s11.cnzz.com/stat.php?id=5948931&web_id=5948931" language="JavaScript"></script></div>
+<script type="text/javascript" src="scripts/scroll-row.js"></script> 
+<script type="text/javascript" src="/plugin/validator/rjboy/Validform_v5.3.1.js"></script> 
+<script type="text/javascript" src="/plugin/dialog/jBox/jquery.jBox-2.3.min.js"></script> 
+<script type="text/javascript" src="http://resource.21-sun.com/plugin/upload/jr_upload.js"></script> 
+<script language="javascript" type="text/javascript">
+
+jQuery(function(){
+	jQuery("#addImgs").JrUpload({
+		remotUrl : "http://resource.21-sun.com/upload.jsp",
+		folder : "product/koubei" ,
+		sizeLimit:10*1024*1024, //10M
+		multi : true,
+		beforeCallback : "beforeCallback",
+		callback : "setImgs" ,
+		style : "width:98px;height:30px;",
+		buttonImg : "http://product.21-sun.com/activity/koubei/images/1_22.jpg" ,
+		buttonImgWidth : 77 ,
+		buttonImgHeight : 30
+	});
+});
+function beforeCallback(){
+	$.jBox.tip("图片上传中，请稍后。。。", "loading");
+}
+function setImgs(data){
+	var imgs = data.split(",");
+	var htm = '';
+	var f = 'http://resource.21-sun.com';
+	for(var i=0;i<imgs.length;i++){
+		htm += '<li><img class="img" src="'+f+imgs[i]+'" width="90" height="60" /><input type="hidden" name="img" value="'+f+imgs[i]+'" /><a href="javascript:void(0);" onclick="removeThis(this);" attrId="0" class="img_delete" style="position:absolute;top:-7px;left:80px;"><img src="http://member.21-sun.com/home/used/images/delete.png" /></a></li>';
+	}
+	jQuery("#addImgs_show").append(htm);
+	regEvent();
+	$.jBox.closeTip();
+}
+function regEvent(){
+	jQuery("#addImgs_show>li").mouseover(function(){
+		jQuery(".img_delete").hide();
+		jQuery(this).find(".img_delete").show();
+	});
+	jQuery("#addImgs_show>li").mouseout(function(){
+		jQuery(".img_delete").hide();
+	});
+}
+function removeThis(o){
+	var attrId = jQuery(o).attr("attrId")+"";
+	if(attrId=='0'){
+		jQuery(o).parent().remove();
+	}else{
+		if(confirm("确定删除该张图片吗？")){
+			jQuery(o).parent().remove();
+		}
+	}
+}
+function regForm(){
+	$.extend($.Datatype,{
+		"b3" : /^[-\+]?\d{1,3}(\.\d{0,2})?$/
+	});
+		
+	jQuery("#theform").Validform({
+	 	tiptype : 4,
+	 	ajaxPost : true,
+		beforeCheck : function(){
+			var catalog = $("#catalog").val();
+			var a = '';
+			if(catalog==a){
+				alert("请选择产品类型！");
+				return false;
+			}
+			var brand = $("#brand").val();
+			var b = '';
+			if(brand==b){
+				alert("请选择品牌！");
+				return false;
+			}
+			var product = $("#zd_product_id").val();
+			var p = '';
+			if(product==p){
+				alert("请选择产品！");
+				return false;
+			}
+			var price = jQuery("#price_1").raty("score");
+			var xingneng = jQuery("#xingneng_1").raty("score");
+			var zhiliang = jQuery("#zhiliang_1").raty("score");
+			var shouhou = jQuery("#shouhou_1").raty("score");
+			if(typeof(price)=="undefined"){
+				alert("请您点击星星为该机型价格打分！");
+				return false;
+			}
+			if(typeof(zhiliang)=="undefined"){
+				alert("请您点击星星为该机型质量打分！");
+				return false;
+			}
+			if(typeof(xingneng)=="undefined"){
+				alert("请您点击星星为该机型性能打分！");
+				return false;
+			}
+			if(typeof(shouhou)=="undefined"){
+				alert("请您点击星星为该机型售后打分！");
+				return false;
+			}
+			var content = $.trim($("#zd_content").val());
+			var c = '';
+			if(content==c){
+				alert("请填写您的评价！");
+				return false;
+			}else if(content.length<10||content.length>1999){
+				alert("请按要求填写您的评价！");
+				return false;
+			}
+			var imgLength = jQuery("input[name=img]").length;
+			//if(imgLength<1){
+			//	alert("上传图片数量不足，请上传至少1张图片！");
+			//	return false;
+			//}
+			
+			jQuery("#score1").val(parseFloat(jQuery("#price_1").raty("score"),10)*20);
+			jQuery("#score2").val(parseFloat(jQuery("#xingneng_1").raty("score"),10)*20);
+			jQuery("#score3").val(parseFloat(jQuery("#zhiliang_1").raty("score"),10)*20);
+			jQuery("#score4").val(parseFloat(jQuery("#shouhou_1").raty("score"),10)*20);
+			return true;
+		},
+		beforeSubmit : function(){
+			parent.$.jBox.tip("评论分享中，请稍后。。。","loading");
+		},
+	 	callback : function(json){
+	 	 	alert("评论分享成功！");
+	 	 	var pid = $("#zd_product_id").val();
+	 	 	window.location = "http://koubei.21-sun.com/list/"+pid+".htm";
+			//window.location.reload();
+	 	}
+ 	});
+}
+regForm();
+//评论提交	
+jQuery("#price_1,#xingneng_1,#zhiliang_1,#shouhou_1").raty({
+	path: "/koubei/img",
+	half : true ,
+	score : 0
+});
+function chooseCatalog(v){
+	var rand = Math.random();
+	jQuery.ajax({
+			url:'include/brands.jsp?r='+rand+'&v='+encodeURI(v),
+			async:false,
+			cache:false,
+			success:function(data){
+				jQuery("#brand").empty("");
+				jQuery("#brand").append(jQuery.trim(data));
+			}
+		});
+}
+function chooseBrand(v){
+	var rand = Math.random();
+	var c = jQuery("#catalog").val();
+	jQuery.ajax({
+			url:'include/products.jsp?r='+rand+'&v='+encodeURI(v)+'&c='+encodeURI(c),
+			async:false,
+			cache:false,
+			success:function(data){
+				jQuery("#zd_product_id").empty("");
+				jQuery("#zd_product_id").append(jQuery.trim(data));
+			}
+		});
+}
+$(function(){
+	$('.pr_img img').on({
+		"mouseenter":function(){						
+			$(this).parent().parent().css('position','relative').find('.big_img').show();			
+		},
+		"mouseleave":function(){
+			$(this).parent().parent().css('position','static').find('.big_img').hide();			
+		}})
+})
+
+
+</script>
+</body>
+</html>

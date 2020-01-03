@@ -1,0 +1,351 @@
+<%@ page language="java" import="java.util.*,java.sql.*,com.jerehnet.util.dbutil.*,com.jerehnet.util.common.*" pageEncoding="UTF-8"%><%
+	Connection connection = null;
+	String tablePrefix = Env.getInstance().getProperty("table_prefix");
+	DBHelper dbHelper = DBHelper.getInstance();
+	Map model = new HashMap();
+	String tableName = "pro_agent_factory";
+	try{
+		connection = dbHelper.getConnection();
+		String id = CommonString.getFormatPara(request.getParameter("id"));
+		String channelUUID = CommonString.getFormatPara(request.getParameter("channel_uuid"));
+		if(null!=id&&!"".equals(id)){
+			model = dbHelper.getMap(" select * from "+tableName+" where uuid = ? ",new Object [] {id} , connection);
+		}
+		if("".equals(channelUUID)&&null!=model){
+			channelUUID = (String)model.get("channel_uuid");
+		}
+ 	List <Map> brandList = (ArrayList)application.getAttribute("brandList");  // 品牌
+%><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title><%=Env.getInstance().getProperty("project_name") %></title>
+	<link href="/plugin/ui/ligerUI/ligerUI/skins/Aqua/css/ligerui-all.css" rel="stylesheet" type="text/css" />
+	<link href="/plugin/ui/ligerUI/ligerUI/skins/Gray/css/all.css" rel="stylesheet" type="text/css" />
+	<link href="/plugin/ui/ligerUI/ligerUI/skins/ligerui-icons.css" rel="stylesheet" type="text/css" />
+	<link href="/backend/style/style.css" rel="stylesheet" type="text/css" />
+	<script src="/plugin/jquery/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" charset="utf-8" src="/plugin/editor/ueditor/editor_config.js"></script>
+	<script type="text/javascript" charset="utf-8" src="/plugin/editor/ueditor/editor_all_min.js"></script>
+   	<script type="text/javascript" src="/plugin/date/My97DatePicker/WdatePicker.js"></script>
+	<link rel="stylesheet" type="text/css" href="/plugin/editor/ueditor/themes/default/ueditor.css"/>
+	<link rel="stylesheet" type="text/css" href="/plugin/other/highslide/highslide.css" />
+  </head>
+  
+  <body style="margin: 0;padding: 0; overflow-x: hidden; overflow-y:scroll;">
+	<form name="theform" id="theform" action="/backend/action/crud.jsp">
+		<div class="formDiv">
+				<div class="group">
+				<span>
+			    <img src="/plugin/ui/ligerUI/ligerUI/skins/icons/communication.gif"/>
+			     </span>
+				<span class="groupTitle">厂商基本信息</span>
+				</div>
+				<div class="formLeft">用<span class="span3">&nbsp;</span>户<span class="span3">&nbsp;</span>名</div>
+				<div class="formRight" style="width:200px;">
+					<input type="text" style="width:100%" dataType='Require' msg='请输入用户名' class="jr_text" name="zd_usern" id="zd_usern" value="<%=CommonString.getFormatPara(model.get("usern")) %>" />
+				</div>
+				<div class="formLeft">原密码</div>
+				<div class="formRight" style="width:200px;">
+					<input type="text" style="width:100%" dataType='Require' msg='请输入密码' class="jr_text" name="zd_passw_bak" id="zd_passw_bak" value="<%=CommonString.getFormatPara(model.get("passw_bak")) %>" />
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">厂商简称</div>
+				<div class="formRight" style="width:200px;">
+					<input type="text" style="width:100%" dataType='Require' msg='请输入厂商简称' class="jr_text" name="zd_name" id="zd_name" value="<%=CommonString.getFormatPara(model.get("name")) %>" />
+				</div>
+				<div class="formLeft">厂商全称</div>
+				<div class="formRight"  style="width:200px;">
+					<input type="text" style="width:100%" dataType='Require' msg='请输入厂商全称' class="jr_text" name="zd_full_name" id="zd_full_name" value="<%=CommonString.getFormatPara(model.get("full_name")) %>" />
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">(专栏用)品牌页Title</div>
+				<div class="formRight">
+					<input type="text" class="jr_text" name="zd_spec_brand_title" id="zd_spec_brand_title" value="<%=CommonString.getFormatPara(model.get("spec_brand_title")) %>" />
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">(专栏用)列表页Title</div>
+				<div class="formRight">
+					<input type="text" class="jr_text" name="zd_spec_list_title" id="zd_spec_list_title" value="<%=CommonString.getFormatPara(model.get("spec_list_title")) %>" />
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">(品牌大全)品牌Title</div>
+				<div class="formRight">
+					<input type="text" class="jr_text" dataType='Require' msg='请输入品牌title'  name="zd_pro_brand_title" id="zd_pro_brand_title" value="<%=CommonString.getFormatPara(model.get("pro_brand_title")) %>" />
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">联系电话</div>
+				<div class="formRight" style="width:200px;">
+					<input type="text" style="width:100%" class="jr_text" name="zd_telphone" id="zd_telphone" value="<%=CommonString.getFormatPara(model.get("telphone")) %>" />
+				</div>
+				<div class="formLeft">短接收信手机号</div>
+				<div class="formRight" style="width:200px;">
+					<input type="text" style="width:100%" class="jr_text" name="zd_tel_sms" id="zd_tel_sms" value="<%=CommonString.getFormatPara(model.get("tel_sms")) %>" />
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">邮<span class="span2">&nbsp;</span>箱</div>
+				<div class="formRight" style="width:200px;">
+					<input type="text" style="width:100%" class="jr_text" name="zd_email" id="zd_email" value="<%=CommonString.getFormatPara(model.get("email")) %>" />
+				</div>
+				<div class="formLeft">公司网址</div>
+				<div class="formRight" style="width:200px;">
+					<input type="text" style="width:100%" class="jr_text" name="zd_url" id="zd_url" value="<%=CommonString.getFormatPara(model.get("url")) %>" />
+				</div>
+						<div style="clear:left;"></div>
+				<div class="formLeft"><strong>所属集团</strong></div>
+				<div class="formRight" style="width:200px;text-align:left;">
+	  			<select class="jr_select" id="zd_parent_factoryid" name="zd_parent_factoryid" onchange="javascript:jQuery('#zd_parent_factoryname').val(jQuery('#zd_parent_factoryid option:selected').text().substring(2))">
+                    	<option value=''>--请选择厂家--</option>
+		  				<%if(brandList != null){for(Map m : brandList){%>
+                        	<option value='<%=m.get("id")%>' <%=CommonString.getFormatPara(model.get("parent_factoryid")).equals(CommonString.getFormatPara(m.get("id")))?"selected='selected'":"" %>><%=CnToFullSpell.getFullSpell(CommonString.getFormatPara(m.get("name")).substring(0,1)).toUpperCase().substring(0,1)%>-<%=m.get("name")%></option>
+                        <%}}%>
+		  			</select>
+				</div>
+				<div class="formLeft">产品展厅网址</div>
+				<div class="formRight" style="width:200px">
+					<input type="text" style="width:100%" class="jr_text" name="zd_zturl" id="zd_zturl" value="<%=CommonString.getFormatPara(model.get("zturl")) %>" />
+				</div>
+				<div style="clear:left;"></div>
+			<div class="formLeft">公司简介</div>
+	    <div class="formRight" style="height: 220px; text-align: left;"> 
+	      <script type="text/plain" id="editor_introduce" style="width:550px; height:200px;"><%=CommonString.getFormatPara(model.get("introduce")) %></script>
+	      <input type="hidden" name="zd_introduce" id="zd_introduce" value='' />
+	    </div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">LOGO</div>
+				<div class="formRight">
+					<input type="text" class="jr_text" name="zd_logo" id="zd_logo" style="width:400px;" readonly="readonly" value="<%=CommonString.getFormatPara(model.get("logo")) %>" />
+				</div>
+				<div class="formRight" style="padding-left: 220px; position: relative; top:-2px;">
+					<input style="float:right;" type="button" class="btn" onclick="chooseFile('zd_logo',700,480);" value="选择图片" />
+					<a href="javascript:void(0);" class='highslide' onclick='return smallToBig(this,"zd_logo");'><input style="float:right; margin-right: 5px;" type="button" class="btn" value="预览" /></a>
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">厂家图片</div>
+				<div class="formRight">
+					<input type="text" class="jr_text" name="zd_img1" id="zd_img1" style="width:400px;" value="<%=CommonString.getFormatPara(model.get("img1")) %>" readonly="readonly"/>
+				</div>
+					<div class="formRight" style="padding-left: 220px; position: relative; top:-2px;">
+					<input style="float:right;" type="button" class="btn" onclick="chooseFile('zd_img1',700,480);" value="选择图片" />
+					<a href="javascript:void(0);" class='highslide' onclick='return smallToBig(this,"zd_img1");'><input style="float:right; margin-right: 5px;" type="button" class="btn" value="预览" /></a>
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">banner</div>
+				<div class="formRight">
+					<input type="text" class="jr_text" name="zd_banner" id="zd_banner" style="width:400px;" readonly="readonly" value="<%=CommonString.getFormatPara(model.get("banner")) %>" />
+				</div>
+				<div class="formRight" style="padding-left: 220px; position: relative; top:-2px;">
+					<input style="float:right;" type="button" class="btn" onclick="chooseFile('zd_banner',700,480);" value="选择图片" />
+					<a href="javascript:void(0);" class='highslide' onclick='return smallToBig(this,"zd_banner");'><input style="float:right; margin-right: 5px;" type="button" class="btn" value="预览" /></a>
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">是否显示</div>
+				<div class="formRight">
+					<%=CommonForm.createIsRadio(CommonString.getFormatPara(model.get("is_show")),"zd_is_show") %>
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">国内品牌</div>
+				<div class="formRight">
+					<%=CommonForm.createIsRadio(CommonString.getFormatPara(model.get("is_inner")),"zd_is_inner") %>
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">是否合作</div>
+				<div class="formRight">
+					<%
+					String is_cooperate=CommonString.getFormatPara(model.get("is_cooperate"));
+					if(is_cooperate.equals("")){is_cooperate="0";}
+					%>
+					<%=CommonForm.createIsRadio(is_cooperate,"zd_is_cooperate") %>
+				</div>
+				<div style="clear:left;"></div>
+                <div class="formLeft">是否开通营销宝</div>
+				<div class="formRight"  style="width:90px">
+					<%
+					Map listMap = new TreeMap() ;
+					listMap.put("0","否") ;
+					listMap.put("1","免费版") ;
+					listMap.put("2","基础版") ;
+					listMap.put("3","高级版") ;
+					listMap.put("4","订单版") ;//厂家营销宝中只有订单查看权限
+					%>
+					<select class="jr_select" name="zd_is_shop" id="zd_is_shop"  style="width:90px">
+					<%=CommonForm.createSelect(listMap,CommonString.getFormatPara(model.get("is_shop")).equals("")?"0":CommonString.getFormatPara(model.get("is_shop"))) %>
+					</select>
+				</div>
+				<div class="formLeft" style="width:90px">开通旗舰店</div>
+				<div class="formRight" style="width:80px">
+					<%=CommonForm.createIsRadio(CommonString.getFormatPara(model.get("is_qijiandian")).equals("")?"0":CommonString.getFormatPara(model.get("is_qijiandian")),"zd_is_qijiandian") %>
+				</div>
+                <!--
+                <div class="formLeft">会员到期日期</div>
+				<div class="formRight">
+					<input type="text" style="width:150px;" onfocus="WdatePicker()" class="Wdate" name="zd_mem_end_date" id="zd_mem_end_date" value="<%=CommonString.getFormatPara(model.get("mem_end_date")).length()>=10?CommonString.getFormatPara(model.get("mem_end_date")).substring(0,10):CommonString.getFormatPara(model.get("mem_end_date")) %>" />
+				</div>
+                -->
+                <div style="clear:left;"></div>				
+				<div class="formLeft">试用期增加</div>
+				<div class="formRight">
+					<input type="button" class="btn" value="增加试用期" onclick="addProbation();" />
+				</div>
+				<div class="formLeft">到期日期</div>
+				<div class="formRight">
+					<input type="text" style="width: 200px;" class="jr_text" readonly="readonly" name="zd_probation_date" id="zd_probation_date" value="<%=CommonString.getFormatPara(model.get("probation_date")) %>" />
+				</div>
+								<div style="clear: left;"></div>
+				 <div class="formLeft">合同开始日期</div>
+				<div class="formRight">
+					<input type="text" style="width:150px;" onfocus="WdatePicker()" class="Wdate" name="zd_order_start_time" id="zd_order_start_time" value="<%=CommonString.getFormatPara(model.get("order_start_time")) %>" />
+				</div>
+			   <div class="formLeft">合同结束日期</div>
+				<div class="formRight">
+					<input type="text" style="width:150px;" onfocus="WdatePicker()" class="Wdate" name="zd_order_end_time" id="zd_order_end_time" value="<%=CommonString.getFormatPara(model.get("order_end_time")) %>" />
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">首字母</div>
+				<div class="formRight" style="width:200px;">
+					<input type="text"  style="width:100%" dataType='Require' msg='请输入首字母' class="jr_text" name="zd_upper_index" id="zd_upper_index" value="<%=CommonString.getFormatPara(model.get("upper_index")) %>" />
+				</div>
+				<div class="formLeft">排<span class="span2">&nbsp;</span>序</div>
+				<div class="formRight" style="width:200px">
+					<input type="text" style="width:100%" class="jr_text" name="zd_order_no" id="zd_order_no" value="<%=CommonString.getFormatPara(model.get("order_no")) %>" />
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">级<span class="span2">&nbsp;</span>别</div>
+				<div class="formRight">
+					<%=CommonForm.createIsRadio(CommonString.getFormatPara(model.get("levelflag")),"zd_levelflag") %>
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">销售QQ</div>
+				<div class="formRight" style="width:200px">
+					<input type="text" style="width:100%"  class="jr_text" name="zd_saleqq" id="zd_saleqq" value="<%=CommonString.getFormatPara(model.get("saleqq")) %>" />
+				</div>
+				<div class="formLeft">服务QQ</div>
+				<div class="formRight" style="width:200px">
+					<input type="text" style="width:100%" class="jr_text" name="zd_serviceqq" id="zd_serviceqq" value="<%=CommonString.getFormatPara(model.get("serviceqq")) %>" />
+				</div>
+				<div style="clear:left;"></div>
+				<div class="group">
+				<span>
+			    <img src="/plugin/ui/ligerUI/ligerUI/skins/icons/communication.gif"/>
+			     </span>
+				<span class="groupTitle">扩展信息</span>
+				</div>
+				<div class="formLeft">创立时间</div>
+				<div class="formRight"  style="width:200px">
+					<input type="text" style="width:100%"  class="jr_text" name="zd_create_date" id="zd_create_date" value="<%=CommonString.getFormatPara(model.get("create_date")) %>" />
+				</div>
+				<div class="formLeft">董事长</div>
+				<div class="formRight"  style="width:200px">
+					<input type="text" style="width:100%" class="jr_text" name="zd_master" id="zd_master" value="<%=CommonString.getFormatPara(model.get("master")) %>" />
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">微博</div>
+				<div class="formRight"  style="width:200px">
+					<input type="text" style="width:100%" class="jr_text" name="zd_weibo" id="zd_weibo" value="<%=CommonString.getFormatPara(model.get("weibo")) %>" />
+				</div>
+				<div style="clear:left;"></div>
+				<div class="formLeft">品牌介绍</div>
+			    <div class="formRight" style="height: 220px; text-align: left;"> 
+			      <script type="text/plain" id="editor_introduce2" style="width:550px; height:200px;"><%=CommonString.getFormatPara(model.get("factory_intro")) %></script>
+			      <input type="hidden" name="zd_factory_intro" id="zd_factory_intro" value='' />
+			    </div>
+				<div style="clear:left;"></div>
+		</div>
+		<div style="clear: left;"></div>
+		<input type="hidden" name="zd_parent_factoryname" id="zd_parent_factoryname" value="<%=CommonString.getFormatPara(model.get("parent_factoryname")) %>" />
+		<input type="hidden" name="tableName" id="tableName" value="<%=tableName %>" />
+		<input type="hidden" name="zd_id" id="zd_id" value="<%=CommonString.getFormatPara(model.get("id")) %>" />
+		<input type="hidden" name="zd_flag" id="zd_flag" value="1"/>
+		<input type="hidden" name="zd_passw" id="zd_passw" value="1"/>
+		<input type="hidden" name="eventAfter" id="eventAfter" value="updateBrand,open_mem_shop,updateBrandSpec,brandCreate"/>
+		<input type="hidden" name="is_shop_flag" id="is_shop_flag" value="<%=CommonString.getFormatPara(model.get("is_shop"))%>" />
+	</form>
+  </body>
+</html>
+<script type="text/javascript" src="/plugin/jquery/jquery.form.js"></script>
+<script src="/plugin/ui/ligerUI/ligerUI/js/ligerui.min.js" type="text/javascript"></script>
+<script src="/backend/scripts/common.js" prefix="<%=tablePrefix %>" type="text/javascript"></script>
+<script src="/plugin/validator/wofoshan/validator.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="/plugin/other/highslide/highslide.min.js"></script>
+<script type="text/javascript">
+	function addProbation(){
+		jQuery.post("/backend/action/ajax_cud.jsp",{
+			flag : 'addProbation',
+			id : '<%=id %>'
+		},function(data){
+			jQuery("#zd_probation_date").val(data);
+		});
+	}
+
+	function doSub(){
+		var rs = Validator.Validate(document.getElementById("theform"),1);
+		var result = 0 ;
+		//生成文件
+		var user=jQuery("#zd_usern").val();
+		jQuery.post("/tools/create/brandshow/create_detail_temp.jsp?name="+user,function(out){ 
+		if(rs){
+			jQuery("#theform").ajaxSubmit({
+				type : "POST",
+				async : false ,
+				success : function(data) {
+					var rs = parseInt(jQuery.trim(data), 10);
+					result = rs ;
+				
+			       if (rs > 0) {
+						jrSuccess("保存成功！");
+						<%
+						if("".equals(id)){
+							%>
+					     	window.location.reload();
+							<%
+						}
+						%>
+					} 
+		           
+					
+					
+				}
+			});
+		}});
+		if(result>0)
+		{
+		  return true ;
+		}
+	}
+	//
+	var ue_introduce = new baidu.editor.ui.Editor({
+    	textarea : 'zd_introduce',
+    	autoHeightEnabled:false,
+    	minFrameHeight:120
+    });
+    ue_introduce.render('editor_introduce');
+    ue_introduce.addListener("selectionchange",function(){
+	    var state_introduce = ue_introduce.queryCommandState("source");
+	    document.getElementById("zd_introduce").value=ue_introduce.getContent();
+	});
+	document.getElementById("zd_introduce").value=ue_introduce.getContent();
+	//
+	var ue_introduce2 = new baidu.editor.ui.Editor({
+    	textarea : 'zd_factory_intro',
+    	autoHeightEnabled:false,
+    	minFrameHeight:120
+    });
+    ue_introduce2.render('editor_introduce2');
+    ue_introduce2.addListener("selectionchange",function(){
+	    var state_introduce2 = ue_introduce2.queryCommandState("source");
+	    document.getElementById("zd_factory_intro").value=ue_introduce2.getContent();
+	});
+	document.getElementById("zd_factory_intro").value=ue_introduce2.getContent();
+	
+	hs.graphicsDir = '/plugin/other/highslide/graphics/';
+	hs.wrapperClassName = 'wide-border';
+	function smallToBig(o,id){
+	jQuery(o).attr("href","/uploadfiles/"+jQuery("#"+id).val());
+	return hs.expand(o);
+}
+</script><%
+	}catch(Exception e){
+		e.printStackTrace();
+	}finally{
+		dbHelper.freeConnection(connection);
+	}
+%>

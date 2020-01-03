@@ -1,0 +1,74 @@
+<!--热门品牌-->
+<div class="hotBrand">
+  <div class="hbTitle">
+    <h2>热门品牌</h2>
+  </div>
+  <div class="hbContain">
+    <ul>
+      <li> <a target="_blank" title="三一代理商" href="/0_0_133_0_0.shtm"><img alt="三一代理商" onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/09070916592948_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" title="三一代理商"  href="/0_0_133_0_0.shtm">三一</a></h3>
+      </li>
+      <li> <a target="_blank" title="徐工代理商" href="/0_0_209_0_0.shtm"><img alt="徐工代理商" onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/20081212082831_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank"  title="徐工代理商" href="/0_0_209_0_0.shtm">徐工</a></h3>
+      </li>
+      <li> <a target="_blank" title="中联重科代理商" href="/0_0_134_0_0.shtm"><img alt="中联重科代理商" onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/20081208093148_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" title="中联重科代理商"  href="/0_0_134_0_0.shtm">中联重科</a></h3>
+      </li>
+      <li> <a target="_blank" title="柳工代理商"  href="/0_0_136_0_0.shtm"><img alt="柳工代理商" onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/09031711214794_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" title="柳工代理商"  href="/0_0_136_0_0.shtm">柳工</a></h3>
+      </li>
+      <li> <a target="_blank" title="山推代理商" href="/0_0_144_0_0.shtm"><img alt="山推代理商" onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/20081211180948_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" title="山推代理商" href="/0_0_144_0_0.shtm">山推</a></h3>
+      </li>
+      <li> <a target="_blank" title="临工代理商" href="/0_0_137_0_0.shtm"><img alt="临工代理商" onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/09031711372951_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" title="临工代理商" href="/0_0_137_0_0.shtm">临工</a></h3>
+      </li>
+      <li> <a target="_blank" title="福田雷沃代理商" href="/0_0_141_0_0.shtm"><img alt="福田雷沃代理商" onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/0903171119171_0.jpg" original="http://product.21-sun.com/uploadfiles/20081204182013_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" title="福田雷沃代理商" href="/0_0_141_0_0.shtm">福田雷沃</a></h3>
+      </li>
+      <li> <a target="_blank" title="龙工代理商" href="/0_0_135_0_0.shtm"><img alt="龙工代理商" onerror="this.src='/images/nopic.gif';" src="http://product.21-sun.com/uploadfiles/11091416204918_0.jpg" original="http://product.21-sun.com/uploadfiles/11091416204918_0.jpg" width="80" height="30" /></a>
+        <h3><a target="_blank" title="龙工代理商" href="/0_0_135_0_0.shtm">龙工</a></h3>
+      </li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
+<#assign inner_brands_upper_index = query(" select distinct upper_index from pro_agent_factory where is_show=1 and is_inner=1 and flag=1")> <!-- 国内品牌的首写字母 -->
+<!--热门品牌结束-->
+<!--字母列表-->
+<#if inner_brands_upper_index??&&(inner_brands_upper_index?size>0)>
+<#list inner_brands_upper_index as one_upper_index>
+<#assign inner_brands = query("  select is_qijiandian,id,logo,name,usern from pro_agent_factory where flag=1 and is_inner=1 and is_show=1 and logo is not null and upper_index='${one_upper_index.upper_index}' order by order_no desc ")>
+<div class="brandCondition">
+  <div class="contain980">
+    <div style="position: relative;"> <a style="position:absolute; top:-107px; " id="${one_upper_index.upper_index}" name="${one_upper_index.upper_index}"></a> </div>
+    <strong class="Letter">${one_upper_index.upper_index}</strong>
+    <div class="brandtopborder"></div>
+    <div class="brandcontain925">
+    <#list inner_brands as oneBrand>
+       	<#-- <#assign total_agent = query("  select count(*) total from pro_agent_factory where agent_fac like '%${oneBrand.id}%' ")>-->
+       	   <#assign total_agent = query(" select count(*) total from pro_catalog_for_factory where factoryid='${oneBrand.id?c}'")>
+      <div class="blbg">
+       <#if total_agent??&&(total_agent?size>0)>
+        <#list total_agent as agent>
+           <div class="blp">
+
+         <a target="_blank" href="/0_0_${oneBrand.id?c}_0_0.shtm" title="${oneBrand.name}">
+       
+        <img title="${oneBrand.name}" alt="${oneBrand.name}代理商"  width="80" height="30"  src="http://product.21-sun.com/uploadfiles/${oneBrand.logo}" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"  style="display: inline;"></a></div>
+
+         </#list>
+         </#if>
+        <h3 class="bln">
+
+		    <a target="_blank" href="/0_0_${oneBrand.id?c}_0_0.shtm" title="${oneBrand.name}代理商">${oneBrand.name}</a>
+    
+        </h3>
+      </div>
+    </#list> 
+    </div>
+    <div class="brandbottomborder"></div>
+  </div>
+</div>
+</#list>
+</#if>

@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>三一产品_三一产品大全_三一 - 铁臂商城</title>
+<meta name="keywords" content="三一产品,三一产品大全,三一" />
+<meta name="description" content="铁臂商城三一品牌产品专区，包括三一全系列产品，帮助您全面了解三一所有产品。" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<link href="/style/new_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<!-- jbox -->
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<!-- jbox -->
+<!--[if IE 6]>
+<script src="/scripts/iepng.js"></script>
+<script>
+   EvPNG.fix('.png')
+</script>
+<![endif]-->
+</head>
+<body>
+<!--top--> 
+<!--#include virtual="/include/top_brand.jsp?factoryid=133"  --> 
+<!--top end-->
+<!--nav-->
+<div class="n_pp_nav">
+	<div class="contain980">
+    	<ul class="np_fix">
+        	<li><a href="/brand/sany/">三一首页</a></li>
+            <li><a href="/brand/sany/product.htm">三一产品</a></li>
+            <li><a href="/brand/sany/news.htm">三一动态</a></li>
+            <li><a href="/brand/sany/picture.htm">三一图片</a></li>
+            <li><a href="/brand/sany/video.htm">三一实拍</a></li>
+            <li><a href="javascript:void(0)" onclick="ts();">三一用户手册</a></li>
+            <li><a href="/brand/sany/inquiry.htm">三一产品价格表</a></li>
+        </ul>
+    </div>
+</div>
+<!--nav end-->
+<div></div>
+<!--面包屑-->
+<div class="contain980 mb10">
+  <h3 class="breadCrumbs"><a href="/">铁臂商城</a> &gt;&gt;  <a href="/brand/">品牌大全</a> &gt;&gt;  <a href="/brand/sany">三一</a> &gt;&gt;  三一产品</h3>
+</div>
+<!--面包屑结束--> 
+<!--main-->
+<div class="contain980 n_pp_promain">
+	<div class="npp_protitle"><span><h1>三一产品</h1></span></div>
+    <div class="npp_prolist">
+    	<div class="npp_pl_top">
+        	<ul class="np_fix">
+            		<li><a href="/brand/sany/products_101001.htm" title="三一挖掘机">三一挖掘机</a></li>
+            		<li><a href="/brand/sany/products_101005.htm" title="三一平地机">三一平地机</a></li>
+            		<li><a href="/brand/sany/products_102007.htm" title="三一汽车起重机">三一汽车起重机</a></li>
+            		<li><a href="/brand/sany/products_102006.htm" title="三一随车起重机">三一随车起重机</a></li>
+            		<li><a href="/brand/sany/products_102008.htm" title="三一履带式起重机">三一履带式起重机</a></li>
+            		<li><a href="/brand/sany/products_102002.htm" title="三一塔式起重机">三一塔式起重机</a></li>
+            		<li><a href="/brand/sany/products_103001.htm" title="三一混凝土泵车">三一混凝土泵车</a></li>
+            		<li><a href="/brand/sany/products_103017.htm" title="三一车载泵">三一车载泵</a></li>
+            		<li><a href="/brand/sany/products_103018.htm" title="三一拖泵">三一拖泵</a></li>
+            		<li><a href="/brand/sany/products_103002.htm" title="三一混凝土搅拌设备">三一混凝土搅拌设备</a></li>
+            		<li><a href="/brand/sany/products_103019.htm" title="三一混凝土搅拌运输车">三一混凝土搅拌运输车</a></li>
+            		<li><a href="/brand/sany/products_104001.htm" title="三一摊铺机">三一摊铺机</a></li>
+            		<li><a href="/brand/sany/products_105003.htm" title="三一旋挖钻机">三一旋挖钻机</a></li>
+            		<li><a href="/brand/sany/products_105007.htm" title="三一连续墙抓斗">三一连续墙抓斗</a></li>
+            		<li><a href="/brand/sany/products_105009.htm" title="三一液压静力压桩机">三一液压静力压桩机</a></li>
+            		<li><a href="/brand/sany/products_106001.htm" title="三一压路机">三一压路机</a></li>
+            		<li><a href="/brand/sany/products_107001.htm" title="三一内燃叉车">三一内燃叉车</a></li>
+            		<li><a href="/brand/sany/products_110001.htm" title="三一盾构掘进机">三一盾构掘进机</a></li>
+            		<li><a href="/brand/sany/products_110002.htm" title="三一矿用掘进机">三一矿用掘进机</a></li>
+            		<li><a href="/brand/sany/products_119002.htm" title="三一采煤机">三一采煤机</a></li>
+            		<li><a href="/brand/sany/products_111001.htm" title="三一正面吊">三一正面吊</a></li>
+            		<li><a href="/brand/sany/products_111002.htm" title="三一堆高机">三一堆高机</a></li>
+            		<li><a href="/brand/sany/products_111003.htm" title="三一吊具">三一吊具</a></li>
+            		<li><a href="/brand/sany/products_103005.htm" title="三一混凝土布料设备">三一混凝土布料设备</a></li>
+            		<li><a href="/brand/sany/products_104005.htm" title="三一铣刨机">三一铣刨机</a></li>
+            		<li><a href="/brand/sany/products_101008.htm" title="三一自卸卡车">三一自卸卡车</a></li>
+            		<li><a href="/brand/sany/products_104009.htm" title="三一沥青搅拌站">三一沥青搅拌站</a></li>
+            		<li><a href="/brand/sany/products_111006.htm" title="三一场桥">三一场桥</a></li>
+            		<li><a href="/brand/sany/products_105017.htm" title="三一强夯机">三一强夯机</a></li>
+            		<li><a href="/brand/sany/products_119001.htm" title="三一煤炭机械">三一煤炭机械</a></li>
+            		<li><a href="/brand/sany/products_111008.htm" title="三一海工装备">三一海工装备</a></li>
+            		<li><a href="/brand/sany/products_103021.htm" title="三一A8 砂浆大师成套设备">三一A8 砂浆大师成套设备</a></li>
+            		<li><a href="/brand/sany/products_103022.htm" title="三一V8 城镇先锋混凝土成套设备">三一V8 城镇先锋混凝土成套设备</a></li>
+            </ul>
+        </div>
+        <div class="npp_pl_bot">
+        	<ul class="np_fix ">
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SY60C-9(2013K).shtm" title="三一SY60C-9挖掘机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/16/20130516144012_910.jpg" alt="三一SY60C-9挖掘机" title="三一SY60C-9挖掘机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SY60C-9(2013K).shtm" title="三一SY60C-9挖掘机" target="_blank">三一SY60C-9挖掘机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SY60C-9(2013K)_parameter.shtm" target="_blank" title="三一SY60C-9挖掘机参数">参数</a></span> | <span><a href="/proDetail/SY60C-9(2013K)_message.shtm" target="_blank" title="三一SY60C-9挖掘机口碑">口碑</a></span> | <span><a href="/proDetail/SY60C-9(2013K)_pic.shtm" target="_blank" title="三一SY60C-9挖掘机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SY135C-9.shtm" title="三一SY135C-9挖掘机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2012/11/20121117110112_190.jpg" alt="三一SY135C-9挖掘机" title="三一SY135C-9挖掘机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SY135C-9.shtm" title="三一SY135C-9挖掘机" target="_blank">三一SY135C-9挖掘机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SY135C-9_parameter.shtm" target="_blank" title="三一SY135C-9挖掘机参数">参数</a></span> | <span><a href="/proDetail/SY135C-9_message.shtm" target="_blank" title="三一SY135C-9挖掘机口碑">口碑</a></span> | <span><a href="/proDetail/SY135C-9_pic.shtm" target="_blank" title="三一SY135C-9挖掘机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SY55C-92013K.shtm" title="三一SY55C-9挖掘机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/16/20130516143805_885.jpg" alt="三一SY55C-9挖掘机" title="三一SY55C-9挖掘机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SY55C-92013K.shtm" title="三一SY55C-9挖掘机" target="_blank">三一SY55C-9挖掘机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SY55C-92013K_parameter.shtm" target="_blank" title="三一SY55C-9挖掘机参数">参数</a></span> | <span><a href="/proDetail/SY55C-92013K_message.shtm" target="_blank" title="三一SY55C-9挖掘机口碑">口碑</a></span> | <span><a href="/proDetail/SY55C-92013K_pic.shtm" target="_blank" title="三一SY55C-9挖掘机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SY75C-9(2013K).shtm" title="三一SY75C-9挖掘机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/16/20130516144407_121.jpg" alt="三一SY75C-9挖掘机" title="三一SY75C-9挖掘机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SY75C-9(2013K).shtm" title="三一SY75C-9挖掘机" target="_blank">三一SY75C-9挖掘机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SY75C-9(2013K)_parameter.shtm" target="_blank" title="三一SY75C-9挖掘机参数">参数</a></span> | <span><a href="/proDetail/SY75C-9(2013K)_message.shtm" target="_blank" title="三一SY75C-9挖掘机口碑">口碑</a></span> | <span><a href="/proDetail/SY75C-9(2013K)_pic.shtm" target="_blank" title="三一SY75C-9挖掘机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SY115C-9.shtm" title="三一SY115C-9挖掘机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/11/20131129144559_118.jpg" alt="三一SY115C-9挖掘机" title="三一SY115C-9挖掘机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SY115C-9.shtm" title="三一SY115C-9挖掘机" target="_blank">三一SY115C-9挖掘机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SY115C-9_parameter.shtm" target="_blank" title="三一SY115C-9挖掘机参数">参数</a></span> | <span><a href="/proDetail/SY115C-9_message.shtm" target="_blank" title="三一SY115C-9挖掘机口碑">口碑</a></span> | <span><a href="/proDetail/SY115C-9_pic.shtm" target="_blank" title="三一SY115C-9挖掘机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SY65C-9(2013K).shtm" title="三一SY65C-9挖掘机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/16/20130516144226_199.jpg" alt="三一SY65C-9挖掘机" title="三一SY65C-9挖掘机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SY65C-9(2013K).shtm" title="三一SY65C-9挖掘机" target="_blank">三一SY65C-9挖掘机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SY65C-9(2013K)_parameter.shtm" target="_blank" title="三一SY65C-9挖掘机参数">参数</a></span> | <span><a href="/proDetail/SY65C-9(2013K)_message.shtm" target="_blank" title="三一SY65C-9挖掘机口碑">口碑</a></span> | <span><a href="/proDetail/SY65C-9(2013K)_pic.shtm" target="_blank" title="三一SY65C-9挖掘机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SY95C-9(2013K).shtm" title="三一SY95C-9挖掘机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/16/20130516144535_464.jpg" alt="三一SY95C-9挖掘机" title="三一SY95C-9挖掘机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SY95C-9(2013K).shtm" title="三一SY95C-9挖掘机" target="_blank">三一SY95C-9挖掘机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SY95C-9(2013K)_parameter.shtm" target="_blank" title="三一SY95C-9挖掘机参数">参数</a></span> | <span><a href="/proDetail/SY95C-9(2013K)_message.shtm" target="_blank" title="三一SY95C-9挖掘机口碑">口碑</a></span> | <span><a href="/proDetail/SY95C-9(2013K)_pic.shtm" target="_blank" title="三一SY95C-9挖掘机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SY215C92013K.shtm" title="三一SY215C-9挖掘机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/16/20130516145144_885.jpg" alt="三一SY215C-9挖掘机" title="三一SY215C-9挖掘机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SY215C92013K.shtm" title="三一SY215C-9挖掘机" target="_blank">三一SY215C-9挖掘机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SY215C92013K_parameter.shtm" target="_blank" title="三一SY215C-9挖掘机参数">参数</a></span> | <span><a href="/proDetail/SY215C92013K_message.shtm" target="_blank" title="三一SY215C-9挖掘机口碑">口碑</a></span> | <span><a href="/proDetail/SY215C92013K_pic.shtm" target="_blank" title="三一SY215C-9挖掘机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SCC500E.shtm" title="三一SCC500E常规吊装系列履带起重机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2014/05/20140527152207_155.jpg" alt="三一SCC500E常规吊装系列履带起重机" title="三一SCC500E常规吊装系列履带起重机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SCC500E.shtm" title="三一SCC500E常规吊装系列履带起重机" target="_blank">三一SCC500E常规吊装系列履带起重机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SCC500E_parameter.shtm" target="_blank" title="三一SCC500E常规吊装系列履带起重机参数">参数</a></span> | <span><a href="/proDetail/SCC500E_message.shtm" target="_blank" title="三一SCC500E常规吊装系列履带起重机口碑">口碑</a></span> | <span><a href="/proDetail/SCC500E_pic.shtm" target="_blank" title="三一SCC500E常规吊装系列履带起重机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SY195C-9-60.shtm" title="三一SY195C-9挖掘机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/12/20131202164720_740.jpg" alt="三一SY195C-9挖掘机" title="三一SY195C-9挖掘机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SY195C-9-60.shtm" title="三一SY195C-9挖掘机" target="_blank">三一SY195C-9挖掘机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SY195C-9-60_parameter.shtm" target="_blank" title="三一SY195C-9挖掘机参数">参数</a></span> | <span><a href="/proDetail/SY195C-9-60_message.shtm" target="_blank" title="三一SY195C-9挖掘机口碑">口碑</a></span> | <span><a href="/proDetail/SY195C-9-60_pic.shtm" target="_blank" title="三一SY195C-9挖掘机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SY205C-9.shtm" title="三一SY205C-9挖掘机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/16/20130516144939_774.jpg" alt="三一SY205C-9挖掘机" title="三一SY205C-9挖掘机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SY205C-9.shtm" title="三一SY205C-9挖掘机" target="_blank">三一SY205C-9挖掘机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SY205C-9_parameter.shtm" target="_blank" title="三一SY205C-9挖掘机参数">参数</a></span> | <span><a href="/proDetail/SY205C-9_message.shtm" target="_blank" title="三一SY205C-9挖掘机口碑">口碑</a></span> | <span><a href="/proDetail/SY205C-9_pic.shtm" target="_blank" title="三一SY205C-9挖掘机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SY225C-9（2013K）.shtm" title="三一SY225C-9挖掘机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/16/20130516145235_196.jpg" alt="三一SY225C-9挖掘机" title="三一SY225C-9挖掘机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SY225C-9（2013K）.shtm" title="三一SY225C-9挖掘机" target="_blank">三一SY225C-9挖掘机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SY225C-9（2013K）_parameter.shtm" target="_blank" title="三一SY225C-9挖掘机参数">参数</a></span> | <span><a href="/proDetail/SY225C-9（2013K）_message.shtm" target="_blank" title="三一SY225C-9挖掘机口碑">口碑</a></span> | <span><a href="/proDetail/SY225C-9（2013K）_pic.shtm" target="_blank" title="三一SY225C-9挖掘机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SY235C-9-52.shtm" title="三一SY235C-9挖掘机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/05/20130523090912_245.jpg" alt="三一SY235C-9挖掘机" title="三一SY235C-9挖掘机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SY235C-9-52.shtm" title="三一SY235C-9挖掘机" target="_blank">三一SY235C-9挖掘机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SY235C-9-52_parameter.shtm" target="_blank" title="三一SY235C-9挖掘机参数">参数</a></span> | <span><a href="/proDetail/SY235C-9-52_message.shtm" target="_blank" title="三一SY235C-9挖掘机口碑">口碑</a></span> | <span><a href="/proDetail/SY235C-9-52_pic.shtm" target="_blank" title="三一SY235C-9挖掘机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SAC12000.shtm" title="三一SAC12000全地面起重机" target="_blank"><img src="http://product.21-sun.com/uploadfiles//image/2013/07/20130719105431_795.jpg" alt="三一SAC12000全地面起重机" title="三一SAC12000全地面起重机" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SAC12000.shtm" title="三一SAC12000全地面起重机" target="_blank">三一SAC12000全地面起重机</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SAC12000_parameter.shtm" target="_blank" title="三一SAC12000全地面起重机参数">参数</a></span> | <span><a href="/proDetail/SAC12000_message.shtm" target="_blank" title="三一SAC12000全地面起重机口碑">口碑</a></span> | <span><a href="/proDetail/SAC12000_pic.shtm" target="_blank" title="三一SAC12000全地面起重机图片">图片</a></span></p>
+                </li>
+            	<li>
+                	<p class="npp_b_img"><a href="/proDetail/SRT95.shtm" title="三一SRT95矿用车" target="_blank"><img src="http://product.21-sun.com/uploadfiles/sy/20111116112640233.jpg" alt="三一SRT95矿用车" title="三一SRT95矿用车" style="width:120px;height:90px;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a></p>
+                    <p class="npp_b_name"><a href="/proDetail/SRT95.shtm" title="三一SRT95矿用车" target="_blank">三一SRT95矿用车</a></p>
+                    <p class="npp_b_cs"><span><a href="/proDetail/SRT95_parameter.shtm" target="_blank" title="三一SRT95矿用车参数">参数</a></span> | <span><a href="/proDetail/SRT95_message.shtm" target="_blank" title="三一SRT95矿用车口碑">口碑</a></span> | <span><a href="/proDetail/SRT95_pic.shtm" target="_blank" title="三一SRT95矿用车图片">图片</a></span></p>
+                </li>
+            </ul>
+             <div class="npp_seeall"><a href="http://product.21-sun.com/products/prolist.jsp?factory=133" target="_blank" title="更多三一产品 ">更多三一产品 &gt;&gt;  </a></div>
+        </div>
+       
+    </div>
+</div>
+<!--main end--> 
+<!--foot--> 
+<!--#include virtual="/include/foot.jsp"  --> 
+<!--end of foot--> 
+<script type="text/javascript" src="../scripts/sort.js"></script>
+<script>
+//营销宝统计
+jQuery(function(){
+	jQuery.ajax({
+		type:'post',
+		url:'/action/ajax.jsp',
+		data:{flag:'getAgentViewCount',agentId:'133'} ,
+		success:function(msg){
+		}
+	}) ;
+}); 
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+      <div class="tab_c fix">
+        <div class="brands">
+          <ul class="fix">
+		    <#list listbrand as info>
+            <li><a target="_blank" href="/brand/${info.usern!""}"><img data-lazy="http://product.21-sun.com/uploadfiles/${info.logo!""}" alt="${info.name!""}"><strong class="n">${info.name!""}</strong></a></li>
+			</#list>
+          </ul>
+        </div>
+        <div class="textlist">
+          <ul class="fix">
+		    <#list list as info>
+            <li> <a href="/proDetail/${info.file_name!""}" target="_blank" class="j_n" title="${info.factoryname!""}${info.name!""}">${info.factoryname!""}${info.name!""}</a><a target="_blank" href="http://product.21-sun.com/proDetail/${info.file_name}#xingn">性能</a><a target="_blank" href="http://product.21-sun.com/proDetail/${info.file_name}#cans">参数</a></li>
+            </#list>
+          </ul>
+        </div>
+		<#list onePro as info>
+        <div class="pro"><a href="/proDetail/${info.url!""}.shtm"" target="_blank" title="${info.title!""}"><img alt="${info.title!""}" data-lazy="http://product.21-sun.com/uploadfiles${info.img!""}"></a><a href="/proDetail/${info.url!""}.shtm" target="_blank" title="${info.title!""}"><strong class="n">${info.title!""}</strong></a> <span class="links"><a href="/proDetail/${info.url!""}_intro.shtm#position" target="_blank" title="${info.title!""}性能">性能</a><em class="w">|</em> <a href="/proDetail/${info.url!""}_parameter.shtm#position" target="_blank" title="${info.title!""}参数">参数</a><em class="w">|</em><a href="/proDetail/${info.url!""}_message.shtm#position" target="_blank" title="${info.title!""}口碑">口碑</a><em class="w">|</em><a href="/proDetail/${info.url!""}_pic.shtm#position" target="_blank" title="${info.title!""}图库">图库</a> </span>
+		<#assign pro_ids = query(" select view_count from pro_products where id=${info.sub_title} ")>
+		<#list pro_ids as products>
+		<span class="num">${products.view_count?c}人关注</span> 
+        </#list>
+		<a class="inqubttn" href="javascript:;" data-val="${info.sub_title}" >立即询价</a> </div>
+        </#list>
+	  </div>

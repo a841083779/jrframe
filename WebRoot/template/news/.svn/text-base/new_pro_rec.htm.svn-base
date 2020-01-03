@@ -1,0 +1,39 @@
+<#assign pro_rec = query("select top 3 id,title,pub_date,content from article where content is not null and is_pub=1 and sort_num like '%,35,%' and content like '%<img %' union all select top 4 id,title,pub_date,content from article where content is not null and is_pub=1 and  id not in(select top 3 id from article where sort_num like '%,35,%' and content like '%<img %' order by pub_date desc)")>
+<div class="newsLeft">
+      <div class="title">
+        <h3>新品推荐</h3>
+        <span class="more"><a href="/news/list.jsp?flag=newprorec" target="_blank">更多&gt;&gt;</a></span>
+      </div>
+      <div class="content newstyle01">
+        <#if pro_rec??&&(pro_rec?size>0)>
+        	<#list pro_rec as onepro>
+        		<#if onepro.title??&&(onepro.title?length gt 0)>
+        		   <#if onepro_index lt 3>
+				      <div class="newslist">
+					  <h3><a href="/news/detail.jsp?id=${onepro.id?c}" target="_blank" title="${onepro.title}">${onepro.title}</a></h3>
+					  <a href="/news/detail.jsp?id=${onepro.id?c}" class="img" target="_blank"><img src="http://news.21-sun.com/${CommonString.getOnePicFromContent(onepro.content)}" onerror="this.src='/images/nopic.gif'" width="110" height="85" /></a>
+					  <div class="intro">
+						<p class="text">
+						<a href="/news/detail.jsp?id=${onepro.id?c}" target="_blank" style="color:#999999"><#if (CommonHtml.filterHTML(onepro.content)?length>50)>${(CommonHtml.filterHTML(onepro.content)[0..50]?default(""))?trim}...
+				        <#else>${CommonHtml.filterHTML(onepro.content?default(""))?trim}...</#if>      
+						</a></p>
+						<span class="time">${onepro.pub_date[0..8]}</span>
+					  </div>
+					</div>
+					</#if>
+					<#else>
+					<#break>
+        		</#if>
+        	</#list>
+        </#if>
+		</div>
+      <ul class="newstyle02">
+         <#if pro_rec??&&(pro_rec?size>0)>
+         	<#list pro_rec as onepro>
+			  <#if onepro_index gt 2>
+         	     <li><a href="/news/detail.jsp?id=${onepro.id?c}" target="_blank" title="${onepro.title}">${onepro.title}</a></li>
+			</#if>
+         	</#list>
+         </#if>
+      </ul>
+    </div>

@@ -1,0 +1,36 @@
+﻿<#assign proList = query(" select id,usern from pro_agent_factory where flag = 2 and is_show = 1  order by  is_shop desc,flag ASC , name DESC , id DESC  ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list proList as pro>  
+        <url>
+            <loc>http://product.21-sun.com/agent/${pro.usern}/</loc>
+			<lastmod>2014-06-11</lastmod>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		<url>
+            <loc>http://product.21-sun.com/agent/${pro.usern}/introduce.htm</loc>
+			<lastmod>2014-06-11</lastmod>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		<url>
+            <loc>http://product.21-sun.com/agent/${pro.usern}/agent_products.htm</loc>
+			<lastmod>2014-06-11</lastmod>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		<url>
+            <loc>http://product.21-sun.com/agent/${pro.usern}/agent_message.htm</loc>
+			<lastmod>2014-06-11</lastmod>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+		<url>
+            <loc>http://product.21-sun.com/agent/agent_inquiry.jsp?usern=${pro.usern}</loc>
+			<lastmod>2014-06-11</lastmod>
+            <priority>1.0</priority>
+            <changefreq>monthly</changefreq>
+        </url>	
+	</#list>
+</urlset>

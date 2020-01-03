@@ -1,0 +1,12 @@
+/*slide.css*/
+.slide { position: relative;overflow:hidden;}
+.ban_c { display:none;position: absolute;top: 0; left: -100%;width: 100%; height: 100%; overflow: hidden;z-index:1;}
+.ban_c.active {display:block; left: 0; z-index:4;}
+.ban_c.ban_prev {display:block; left: -100%; z-index:3;}
+.ban_c.ban_next {display:block; left: 100%;z-index:2;}
+.transition .ban_c{transition: left 0.5s ease; -webkit-transition: left 0.5s ease;}
+.notransition .ban_c{transition:none;}
+.ban_nav { position: absolute; bottom: 0; right:0;z-index: 98; }
+.arr_prev, .arr_next { cursor: pointer; z-index: 99;}
+.ban_c.ban_next_lower{z-index:1;}
+

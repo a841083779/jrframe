@@ -1,0 +1,49 @@
+﻿@charset "utf-8";
+/*去除页面中所有标签的默认间距、补白*/
+* { margin:0px; padding:0px; }
+/*页面中的默认字体、字体大小、背景、文字颜色*/
+body { font-size:12px; font-family:"MicroSoft YaHei"; color:#666666; background:#ececec url() top repeat-x; -webkit-text-size-adjust:none; cursor:default; }
+/*默认的文字链接样式*/
+a:link, a:visited { color:#666666; text-decoration:none; cursor:pointer; }
+a:hover, a:active { color:#f25768; text-decoration:none; cursor:pointer; }
+/*页面右侧滚动条*/html{overflow-y:scroll;}/*清除页面所有图片的默认边框*/img{border:none; vertical-align:top;}/*去除ol、ul、li的默认样式*/ol,ul,li{list-style-type:none;}/*设置表单等项目的默认字体大小*/input,select,textarea{font-size:12px;font-family:"MicroSoft YaHei";}input{vertical-align:middle;}input:focus{outline: none}/*设置文字段落、表格单元格的默认行高*/p,th,td{line-height:22px;}h1,h2,h3,h4,h5,h6{font-weight:normal;}em,i,u,s{font-style:normal;}h1{font-size:14px;}h2{font-size:12px;}h3{font-size:12px;}/*去除页面中的链接点击后留下的虚线框*/body a{outline:none;blr:expression(this.onFocus=this.blur());}/* 整个网站需要的字体样式*//* p系列控制padding */.p5{padding:5px;}.p10{padding:10px;}.p15{padding:15px;}.p20{padding:20px;}.p25{padding:25px;}.p30{padding:30px;}.pt5{padding-top:5px;}.pt10{padding-top:10px;}.pt15{padding-top:15px;}.pt20{padding-top:20px;}.pt25{padding-top:25px;}.pt30{padding-top:30px;}.pr5{padding-right:5px;}.pr10{padding-right:10px;}.pr15{padding-right:15px;}.pr20{padding-right:20px;}.pr25{padding-right:25px;}.pr30{padding-right:30px;}.pb5{padding-bottom:5px;}.pb10{padding-bottom:10px;}.pb15{padding-bottom:15px;}.pb20{padding-bottom:20px;}.pb25{padding-bottom:25px;}.pb30{padding-bottom:30px;}.pl5{padding-left:5px;}.pl10{padding-left:10px;}.pl15{padding-left:15px;}.pl20{padding-left:20px;}.pl25{padding-left:25px;}.pl30{padding-left:30px;}/* m系列控制padding */.m5{margin:5px!important;}.m10{margin:10px!important;}.m15{margin:15px!important;}.m20{margin:20px!important;}.m25{margin:25px!important;}.m30{margin:30px!important;}.mt5{margin-top:5px!important;}.mt10{margin-top:10px!important;}.mt15{margin-top:15px!important;}.mt20{margin-top:20px!important;}.mt25{margin-top:25px!important;}.mt30{margin-top:30px!important;}.mr5{margin-right:5px!important;}.mr10{margin-right:10px!important;}.mr15{margin-right:15px!important;}.mr20{margin-right:20px!important;}.mr25{margin-right:25px!important;}.mr30{margin-right:30px!important;}.mb5{margin-bottom:5px!important;}.mb10{margin-bottom:10px!important;}.mb15{margin-bottom:15px!important;}.mb20{margin-bottom:20px!important;}.mb25{margin-bottom:25px!important;}.mb30{margin-bottom:30px!important;}.ml5{margin-left:5px!important;}.ml10{margin-left:10px!important;}.ml15{margin-left:15px!important;}.ml20{margin-left:20px!important;}.ml25{margin-left:25px!important;}.ml30{margin-left:30px!important;}/* 其他常用元素 *//*文本对齐样式*/.center{margin:0px auto;}.tcenter{text-align:center;}.tleft{text-align:left;}.tright{text-align:right;}/*左右漂浮样式*/.l{float:left;}.r{float:right;}/*css清除浮动*/.c{clear:both}.clear{clear:both;height:0px;line-height:0px;font-size:0px;}/*clearfix*/.clearfix:before,.clearfix:after{content:"";display:table;}.clearfix:after{clear:both;}.clearfix{*zoom:1;/*ie6,7*/}.imgfix img{display:block;}/*添加鼠标悬浮显示手的形状*//*单行截字*/.textbreak{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}/*隐藏元素*/.hide{display:none;}/*解决IE6双边距加倍错误*/.inline{_display:inline;}/*通用样式*/.title{width:100%;float:left;}.title h2,.title h3{width:auto;float:left;white-space:nowrap;}.title span.more{width:auto;float:right;font-family:宋体;}.list{width:100%;float:left;}.list li{width:100%;float:left;}.img{float:left;}.intro{float:right;}.content{width:100%;float:left;}em.w{margin:0px 5px;}/*半透明*/.alpha{filter:alpha(Opacity=80);-moz-opacity:0.5;opacity: 0.5;} table{ border-collapse: collapse; border-spacing:0;}
+/*CSS Begin*/
+.max-wrap { max-width:1920px; _width:expression((documentElement.clientWidth >1920)?"1920px":"auto"); margin:0 auto; clear:both;}
+.wrap { width:980px; height:auto; clear:both; margin:0 auto;}
+.top{ background:#016fbb; height:40px;}
+.nav li{ float:left;}
+.nav li.cur{ background:#3fa7ee;}
+.nav li a{ padding:0 40px; display:inline-block; height:40px; line-height:40px; text-align:center; color:#fff; font-size:16px;}
+.head{ height:54px; padding:6px 15px 14px 6px;}
+.head .txt{ float:left; font-size:16px; margin-top:28px;}
+.head h1{ float:left; margin-right:17px;}
+.head .tel{ float:right; width:205px; height:37px; background:url(../images/tel.jpg) no-repeat center; margin-top:16px;}
+.tit{ position:relative; float:left; margin-bottom:25px;}
+.tit span{ display:inline-block; height:40px; color:#FFF; line-height:40px; border-right:#c8c8c8 solid 1px;}
+.tit .tl{ width:206px; background:#3fa7ee; float:left; text-align:center; font-size:22px;}
+.tit .tr{ width:722px;  background:#666666; float:right; text-align:left; padding-left:20px; font-size:16px;}
+.tit em{ position:absolute; display:inline-block; width:80px; height:37px; left:-80px; background:url(../images/icon.gif) no-repeat center;}
+.con{ padding-left:30px; width:950px; border-left:#dedede solid 3px; margin-bottom:40px;}
+.con1{*margin-bottom:14px; float:left;} 
+.plist{ float:left; margin-right:-10px;}
+.plist li{ width:310px; margin-right:8px; margin-bottom:14px; border:#fff solid 1px; float:left;}
+.plist li p{ height:42px; line-height:42px; color:#fff; padding-left:12px; background:#666;}
+
+
+.order{ height:64px; background:#323232; position:fixed; width:100%;}
+.order .l{background:url(../images/jia.gif) no-repeat left; padding-left:50px; height:64px; color:#fff;}
+.order .l i{ font-size:22px;}
+.order .r{ margin-top:18px;}
+.order .r .txt{ width:210px; height:28px; border:#666666 solid 1px; color:#a6a6a6; padding-left:10px; line-height:28px;}
+.order .r .btn{ width:100px; height:30px; color:#999999; cursor:pointer; background:#ecebeb; border:none; line-height:30px;}
+.order .r .b2{ background:#0173bf; color:#fff;}
+.order .l1{ line-height:64px;}
+.order .l2{ background:none; padding:0;}
+.order .l2 span{ float:left; margin-top:25px;}
+.order .l2 b{ color:#3fa7ee}
+.order ul{ float:left; height:46px; margin-top:18px; }
+.chosed i{ background:url(../images/guangbi.png) no-repeat center; position:absolute; right:-10px; top:-10px; display:inline-block; width:25px; height:25px; cursor:pointer;}
+.order ul li{ float:left; margin-left:22px; _display:inline; position:relative; height:37px;}
+.o1{ bottom:70px;}
+.o2{ bottom:0px;}
+.footer{ height:130px; background:#0173bf; text-align:center; color:#fff; padding-top:25px;}

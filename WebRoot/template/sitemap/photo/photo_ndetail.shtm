@@ -1,0 +1,12 @@
+<#assign photo_group_list = query(" select * from pro_photo_group where is_show = 1 ")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list photo_group_list as photo_group>
+				<url>
+					<loc>http://photo.21-sun.com/ndetail_for_${photo_group.id?c}.htm</loc>
+            				<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+	</#list>
+</urlset>

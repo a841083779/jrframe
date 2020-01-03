@@ -1,0 +1,378 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" tppabs="http://www.deca-glass.com/style/style.css"/>
+<link rel="stylesheet" type="text/css" href="jereh.css" tppabs="http://www.deca-glass.com/style/jereh.css"/>
+<script src="jquery.min.js" tppabs="http://lib.sinaapp.com/js/jquery/1.9.0/jquery.min.js" ></script>
+<script type="text/javascript" src="scripts.js" tppabs="http://www.deca-glass.com/scripts/scripts.js"></script>
+<title>最新中空玻璃标准或将实行_行业动态_新闻中心_济南德佳玻璃机器有限公司</title>
+</head>
+<body>
+	<!--top-->
+    
+ 
+ <script type="text/javascript" src="js.js" tppabs="http://www.deca-glass.com/scripts/js.js"></script>
+<div class="top">
+        <div class="ssc fix">
+            <div class="plist02" onmouseover="displaylayer(this);" onmouseout="hidelayer(this);"> 
+                <font>Language</font> 				              
+                <span class="pllayer02" style="display: none;">
+                <dl>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaglass.com/'" tppabs="http://www.decaglass.com/" target="_blank">中文</a></dd>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/en/index.asp  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaglass.com/en/index.asp'" tppabs="http://www.decaglass.com/en/index.asp" target="_blank">英文</a></dd>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/ru/index.asp  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaglass.com/ru/index.asp'" tppabs="http://www.decaglass.com/ru/index.asp" target="_blank">俄文</a></dd>
+                </dl>
+                </span> 
+            </div>
+            <a href="index-1.htm" tppabs="http://www.deca-glass.com/contact/" class="top_contact"><span>联系我们</span></a>
+            <a href="#" onclick="favorite()"><span>加入收藏</span></a>
+            <a href="#" onclick="setHome(this)"><span>设为首页</span></a>
+         </div>
+         <div class="lonav">
+            <div class="logo"><a href="index.htm" tppabs="http://www.deca-glass.com/" title="济南德佳玻璃机器有限公司"><img src="logo.gif" tppabs="http://www.deca-glass.com/images/logo.gif"></a><span>以德兴企 双赢为佳</span></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.htm" tppabs="http://www.deca-glass.com/">网站首页</a></li>
+                    <li><a class="" href="index-2.htm" tppabs="http://www.deca-glass.com/about/">关于德佳</a></li>
+                    <li><a class="on" href="index-3.htm" tppabs="http://www.deca-glass.com/news/">新闻中心</a></li>
+                    <li><a class="" href="index-4.htm" tppabs="http://www.deca-glass.com/research/">研发中心</a></li>
+                    <li><a class="" href="index-5.htm" tppabs="http://www.deca-glass.com/product/">产品中心</a></li>
+                    <li id="nav_last"><a class="" href="index-1.htm" tppabs="http://www.deca-glass.com/contact/">联系我们</a></li>
+                </ul>
+            </div>
+         </div>
+    </div>
+    <!--top end-->
+    <div class="content">
+    	<!--left-->
+    	<div class="leftmenu">
+        	<h2>新闻中心</h2>
+            <div class="leftnav">
+            	<ul>
+                	<li><a class="" href="index-2.jsp.htm" tppabs="http://www.deca-glass.com/news/index.jsp">公司新闻</a></li>
+                    <li><a class="cur" href="hyxw.jsp.htm" tppabs="http://www.deca-glass.com/news/hyxw.jsp">行业新闻</a></li>
+                </ul>
+            </div>
+
+            <h3>友情链接</h3>
+            <a href="javascript:if(confirm('http://www.decaholdings.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaholdings.com/'" tppabs="http://www.decaholdings.com/" title="德佳控股" target="_blank"><img src="leftlink01.jpg" tppabs="http://www.deca-glass.com/images/leftlink01.jpg"></a>
+            <a href="javascript:if(confirm('http://www.decamachine.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decamachine.com/'" tppabs="http://www.decamachine.com/" title="德佳机器" target="_blank"><img src="leftlink02.jpg" tppabs="http://www.deca-glass.com/images/leftlink02.jpg"></a>
+            <a href="javascript:if(confirm('http://www.decadf.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decadf.com/'" tppabs="http://www.decadf.com/" title="德佳淀粉" target="_blank"><img src="leftlink03.jpg" tppabs="http://www.deca-glass.com/images/leftlink03.jpg"></a>
+            <a href="javascript:if(confirm('http://www.pedax.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.pedax.cn/'" tppabs="http://www.pedax.cn/" title="钢筋机械" target="_blank"><img src="leftlink04.jpg" tppabs="http://www.deca-glass.com/images/leftlink04.jpg"></a>
+            <a href="javascript:if(confirm('http://www.decasoft.com.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decasoft.com.cn/'" tppabs="http://www.decasoft.com.cn/" title="德佳软件" target="_blank"><img src="leftlink05.jpg" tppabs="http://www.deca-glass.com/images/leftlink05.jpg"></a>
+    	</div>
+        <!--left end-->
+    	<div class="right_content">
+        	<!--banner-->
+            <div class="baner"><img src="news_b.jpg" tppabs="http://www.deca-glass.com/images/news_b.jpg"></div>
+            <!--banner end-->
+            <div class="channelT">
+            	<h2>行业动态</h2>
+                <div class="posi"><a href="index.htm" tppabs="http://www.deca-glass.com/">首页</a>><a href="index-2.jsp.htm" tppabs="http://www.deca-glass.com/news/index.jsp">新闻中心</a>>行业动态</div>
+            </div>
+            <div class="con">
+            <h3 class="newsde_bg">最新中空玻璃标准或将实行</h3>
+         <span class="newsde_date">发布日期：2013-04-16</span>
+         <div class="newsde_btxt"><p><strong>　　前言</strong><br />
+　　本标准与GB/T11944-2002的主要技术差异为：<br />
+　　&mdash;&mdash;删除了中空玻璃常用规格、最大尺寸的规定；<br />
+　　&mdash;&mdash;增加了对制造中空玻璃的主要材料密封胶的性能要求；<br />
+　　&mdash;&mdash;增加了对叠差的要求；<br />
+　　&mdash;&mdash;修改了胶层厚度的要求；<br />
+　　&mdash;&mdash;修改了中空玻璃外观要求；<br />
+　　&mdash;&mdash;删除了密封性能要求<br />
+　　&mdash;&mdash;删除了气候循环耐久性和高温高湿耐久性要求；<br />
+　　&mdash;&mdash;增加了加速耐久性要求；<br />
+　　&mdash;&mdash;增加了对充气中空玻璃初始气体含量的要求；<br />
+　　&mdash;&mdash;增加了对充气中空玻璃气体密封耐久性的要求；<br />
+　　&mdash;&mdash;修改了露点的试验方法；<br />
+　　&mdash;&mdash;增加了边部密封粘结性能（附录A）、密封材料水分渗透率测试方法（附录B）、干燥剂水分含量测试（附录C）、中空玻璃光学现象及目视质量的说明（附录D）、中空玻璃使用寿命（附录E）<br />
+　　本标准的附录A、附录B、附录C为规范性附录，附录D、附录E为资料性附录。<br />
+　　本标准由中国建材工业协会提出；<br />
+　　本标准由全国建筑用玻璃标准化技术委员会归口；<br />
+　　本标准负责起草单位：秦皇岛玻璃工业研究设计院国家玻璃质量监督检验中心；<br />
+　　本标准参加起草单位：<br />
+　　本标准主要起草人：<br />
+　　本标准所替代标准的历次版本发布情况为：<br />
+　　&mdash;&mdash;GB7020-1986、GB11944-1989<br />
+　　&mdash;&mdash;GB/T11944-2002<br />
+<br />
+<strong>　　中空玻璃</strong><br />
+<strong>　　1范围</strong><br />
+　　本标准规定了中空玻璃的术语和定义、材料、技术要求、试验方法、检验规则、包装、标志、运输和贮存。<br />
+　　本标准适用于建筑以及冷藏、装饰等建筑以外用的中空玻璃。本标准不适用于由玻璃之外的其它材料构成的中空玻璃。</p>
+<p><br />
+<strong>　　2规范性引用文件<br />
+</strong>　　下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅所注日期的版本适用于本文件。凡是不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。<br />
+　　GB/T1216外径千分尺<br />
+　　GB/T8170数值修约规则<br />
+　　GB15763.2建筑用安全玻璃：第2部分<a title='钢化玻璃' target='_blank' href="javascript:if(confirm('http://www.glass.cn/trade/ganghuaboli_112.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.glass.cn/trade/ganghuaboli_112.html'" tppabs="http://www.glass.cn/trade/ganghuaboli_112.html">钢化玻璃</a><br />
+　　GB15763.3建筑用安全玻璃：第3部分<a title='夹层玻璃' target='_blank' href="javascript:if(confirm('http://www.glass.cn/trade/jiacengboli_115.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.glass.cn/trade/jiacengboli_115.html'" tppabs="http://www.glass.cn/trade/jiacengboli_115.html">夹层玻璃</a><br />
+　　GB11614<a title='平板玻璃' target='_blank' href="javascript:if(confirm('http://www.glass.cn/trade/pingbanboli_183.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.glass.cn/trade/pingbanboli_183.html'" tppabs="http://www.glass.cn/trade/pingbanboli_183.html">平板玻璃</a><br />
+　　GB/T18915<a title='镀膜玻璃' target='_blank' href="javascript:if(confirm('http://www.glass.cn/trade/dumoboli_131.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.glass.cn/trade/dumoboli_131.html'" tppabs="http://www.glass.cn/trade/dumoboli_131.html">镀膜玻璃</a><br />
+<br />
+<strong>　　3术语和定义</strong><br />
+　　下列术语和定义适用于本标准。<br />
+　　中空玻璃　　Sealedinsulatingglassunit<br />
+　　两片或多片玻璃以有效支撑均匀隔开并周边粘接密封，使玻璃层间形成有干燥气体空间的制品。<br />
+<br />
+<strong>　　4材料</strong><br />
+　　中空玻璃所用材料应满足中空玻璃制造和性能要求。<br />
+<strong>　　4.1玻璃<br />
+</strong>　　可采用平板玻璃、镀膜玻璃、夹层玻璃、钢化玻璃、半钢化玻璃和压花玻璃等。平板玻璃应符合GB11614的规定，镀膜玻璃应符合GB/T18915的规定，夹层玻璃应符合GB15763.3的规定，钢化玻璃应符合GB15763.2的规定。其他品种的玻璃应符合相应标准或由供需双方商定。<br />
+<strong>　　4.2边部密封材料<br />
+</strong>　　4.2.1中空玻璃边部密封弹性密封胶应符合JC/T486标准要求；热熔丁基胶应满足JC/T914标准要求。<br />
+　　4.2.2中空玻璃边部密封材料应能够满足中空玻璃的水气和气体密封性能并能保持中空玻璃的结构稳定。粘结性能应符合附录A的要求、水分渗透率的要求和测试方法见附录B。<br />
+<strong>　　4.3间隔材料</strong><br />
+　　间隔材料应符合相关标准和技术文件的要求。金属间隔框应去污或进行化学处理。<br />
+<strong>　　4.4干燥剂<br />
+</strong>　　干燥剂应符合相关标准要求。<br />
+<br />
+<strong>　　5分类</strong><br />
+<strong>　　5.1按形状分类<br />
+</strong>　　平型中空玻璃；<br />
+　　曲面中空玻璃；<br />
+<strong>　　5.2按间隔层内气体分类<br />
+</strong>　　普通中空玻璃：间隔层内为空气的中空玻璃；<br />
+　　充气中空玻璃：间隔层内充入其它气体的中空玻璃。<br />
+<br />
+<strong>　　6要求<br />
+</strong>　　中空玻璃的性能及试验方法应符合表1中相应条款的规定。<br />
+　　表1中空玻璃性能要求<br />
+　　项目 要&nbsp; 求 试验方法<br />
+　　普通中空玻璃 充气中空玻璃<br />
+　　 尺寸偏差 6．1 6．1 7．1<br />
+　　外观质量 6．2 6．2 7．2<br />
+　　露点 6．3 6．3 7．3<br />
+　　耐紫外线辐照性能 6．4 6．4 7．4<br />
+　　加速耐久性 6．5 6．5 7．5<br />
+　　初始气体含量 __ 6．6 7．6<br />
+　　气体密封耐久性 __ 6．7 7．7<br />
+<strong>　　6.1尺寸偏差</strong><br />
+<strong>　　6.1.1平型中空玻璃的长度及宽度允许偏差见表2。<br />
+</strong>　　表2长（宽）度允许偏差<br />
+　　长（宽）度L 允许偏差<br />
+　　L＜1000 &plusmn;2<br />
+　　1000&le;L＜2000 +2、－3<br />
+　　L&ge;2000 &plusmn;3<br />
+<strong>　　6.1.2中空玻璃的厚度允许偏差见表3。<br />
+</strong>　　表3厚度允许偏差<br />
+　　公称厚度D 允许偏差<br />
+　　D＜17 &plusmn;1.0<br />
+　　17&le;D＜22 &plusmn;1.5<br />
+　　D&ge;22 &plusmn;2.0<br />
+　　注：中空玻璃的公称厚度为玻璃原片公称厚度与间隔层厚度之和。<br />
+<strong>　　6.1.3中空玻璃两对角线之差</strong><br />
+　　矩形平型中空玻璃对角线之差应不大于对角线平均长度的0.2％。<br />
+<strong>　　6.1.4叠差<br />
+</strong>　　平型中空玻璃的叠差应符合表4的规定。<br />
+　　表4允许叠差<br />
+　　表1　单位: mm<br />
+　　长（宽）度L 允许叠差<br />
+　　L＜1000 3<br />
+　　1000&le;L＜2000 4<br />
+　　L&ge;2000 5<br />
+<strong>　　6.1.5中空玻璃的胶层厚度<br />
+</strong>　　当中空玻璃外层密封胶水分渗透率&le;15g/m2.h.mm时，其厚度应不小于7mm；当中空玻璃外层密封胶水分渗透率＞15g/m2.h.mm时，或为充气中空玻璃时，其厚度应不小于9mm；复合密封胶条的胶层厚度为8mm&plusmn;2mm，特殊规格或有特殊要求的产品由供需双方商定。<br />
+<strong>　　6.1.6特殊规格和其它类型的尺寸偏差由供需双方商定。</strong><br />
+<strong>　　6.2外观质量<br />
+</strong>　　中空玻璃的外观质量应符合表5的规定。<br />
+　　表5中空玻璃外观质量<br />
+　　项目要求<br />
+　　边部密封 密封胶应均匀整齐，内层密封胶应连续无断条，与玻璃充分粘结，外层密封胶应无气泡，且不超出玻璃边缘。<br />
+　　玻璃 宽度&le;0.2mm、长度&le;30mm的划伤允许4条/m2， 0.2mm＜宽度&le;1mm、长度&le;50mm划伤允许1条/m2；其它缺陷应符合相应原片标准要求。<br />
+　　间隔材料 与玻璃垂直，平直无扭曲，表面平整光洁，无磕伤，气孔均匀整齐；表面无污痕、斑点及片状不良氧化现象。<br />
+间隔层 无夹杂物。<br />
+　　玻璃内表面 应无妨碍透视的污迹和密封胶流淌。<br />
+<strong>　　6.3露点</strong><br />
+　　中空玻璃的露点应&le;－40℃。<br />
+<strong>　　6.4耐紫外线辐照性能</strong><br />
+　　试样内表面应无结雾、水气凝结或污染的痕迹。复合密封胶条应无蠕变。<br />
+<strong>　　6.5加速耐久性能</strong><br />
+　　水分渗透指数I&le;0.25，平均值Iav&le;0.2。<br />
+<strong>　　6.6初始气体含量</strong><br />
+　　充气中空玻璃的初始气体含量应在90％（＋10％，－5％）（v/v）范围内。<br />
+<strong>　　6.7气体密封耐久性</strong><br />
+　　充气中空玻璃经加速耐久性试验后的气体含量应不小于80％（v/v）。<br />
+<br />
+<strong>　　7试验方法<br />
+　　7.1尺寸偏差<br />
+　　7.1.1中空玻璃长、宽偏差、对角线差、胶层厚度和叠差用精度为0.5mm的钢卷尺或钢直尺测量。<br />
+　　7.1.2中空玻璃厚度用符合GB/T1216规定的精度为0.01mm的外径千分尺或具有相同精度的仪器，在距玻璃边缘15mm内的四边中点测量。测量结果的算术平均值即为厚度值。<br />
+　　7.1.3叠差测量如图1所示。<br />
+</strong>　　图1叠差示意图<br />
+<strong>　　7.1.4双道密封的胶层厚度的测量是从内层密封胶与外层密封胶交界处至外层密封胶外边缘，如图2所示。只有一层密封的胶层厚度的测量是从间隔材料与密封胶的交界处到密封胶外边缘，复合密封胶条的厚度如图3所示。<br />
+</strong>　　1－玻璃　　　　2－干燥剂　　　　3－外层密封胶　　　　4－内层密封胶<br />
+　　图2胶层厚度示意<br />
+　　1－玻璃　　2－胶条　　　　3－支撑带<br />
+　　图3胶条厚度示意<br />
+<strong>　　7.2外观</strong><br />
+　　用制品或试样进行检测，在较好的自然光或散射光背景光照条件下，距中空玻璃正面600mm处，用肉眼进行观测。划伤宽度用放大10倍，精度为0.1mm的读数显微镜测量；划伤的长度用最小刻度为0.5mm的钢直尺或钢卷尺测量。<br />
+<strong>　　7.3露点试验<br />
+　　7.3.1试验目的</strong><br />
+　　本试验为了确定中空玻璃的内部干燥情况。<br />
+<strong>　　7.3.2试样</strong><br />
+　　试样为制品或与制品相同材料、在同一工艺条件下制作的尺寸为510mm&times;360mm的样品15块。<br />
+<strong>　　7.3.3试验条件</strong><br />
+　　试验在23℃&plusmn;2℃，相对湿度30％～75％的环境中进行。试验前全部试样在该环境中放置24h以上。<br />
+<strong>　　7.3.4试验装置</strong><br />
+　　露点仪测量面直径为Ф50mm&plusmn;1mm(见图4)。温度计测量范围为－80℃～30℃，精度为1℃。<br />
+<strong>　　7.3.5试验步骤</strong><br />
+　　向露点仪内注入深约25mm的乙醇或丙酮，再加入干冰，使其温度冷却到等于或低于－60℃，并在试验中保持该温度。<br />
+　　将试样水平放置，在上表面涂一层乙醇或丙酮，使露点仪与该表面紧密接触，停留时间按表6的规定。<br />
+　　表6露点测试时间<br />
+　　原片玻璃厚度（mm） 接触时间(min)<br />
+　　&le;4 3<br />
+　　5 4<br />
+　　6 5<br />
+　　8 7<br />
+　　&ge;10 10<br />
+　　移开露点仪，立刻观察玻璃试样的内表面有无结露或结霜。<br />
+　　如无结霜或结露，露点温度视为-60℃。<br />
+　　如结露或结霜，将试样放置到完全无结霜或结露后，提高温度继续测量，直至测量到-40℃，记录试样最低的不结露温度，该温度为试样的露点温度。<br />
+　　对于由3层玻璃组成的双中空玻璃露点测试应分别测试中空玻璃的两个表面。<br />
+<strong>　　7.4耐紫外线辐照试验<br />
+　　7.4.1试验目的</strong><br />
+　　本试验是为了检验中空玻璃在紫外线辐照下，中空玻璃系统内是否有防碍透视的有机物、水气等的挥发，以及胶条在紫外线辐照下的蠕变情况。<br />
+<strong>　　7.4.2试样</strong><br />
+　　试样为2块与制品相同材料、在同一工艺条件下制作的尺寸为510mm&times;360mm的平型中空玻璃样品。<br />
+<strong>　　7.4.3试验设备<br />
+</strong>　　紫外线试验箱箱体尺寸为560mm&times;560mm&times;560mm，内装由紫铜板制成的Ф150mm的冷却盘两个，如图5所示。光源为功率为300W、紫外线辐照强度不小于40W/m2的紫外灯。试验箱内温度控制在50℃&plusmn;3℃。辐照强度达不到时应更换紫外灯。<br />
+　　图5 紫外线试验箱<br />
+　　1－试验箱<br />
+　　2－冷却盘　　　　3－定位钉　　　　4－试样　　　　5、8、9－支撑架<br />
+　　6－紫外灯　　　　7－温度计<br />
+　　7.4.4试验步骤<br />
+　　在试验箱内放2块试样，试样中心与光源相距300mm，在每块试样表面各放置冷却盘，然后连续通水冷却，进口水温保持在16℃&plusmn;2℃，冷却板进出口水温相差不得超过2℃。紫外线连续照射168小时后，将试样移出，在透射光或反射光照下距试样1m观察是否存在由于结雾而引起的干涉或散射。如果观察到玻璃内表面出现冷凝现象，将试样放到23℃&plusmn;2℃温度下存放一周后擦净表面观察。<br />
+对于由3层玻璃构成的双中空玻璃，试验应分别照射玻璃的两个表面。<br />
+<strong>　　7.5加速耐久性试验<br />
+　　7.5.1试验目的</strong><br />
+　　本试验是为了确定中空玻璃在高低温环境和暴露于高温高湿环境下的密封寿命。<br />
+<strong>　　7.5.2试样</strong><br />
+　　试样为15块（11块试验、4块备用）与制品相同材料、在同一工艺条件下制作的尺寸为510mm&times;360mm的，经7.3检测合格的样品。<br />
+<strong>　　7.5.3试验设备</strong><br />
+　　能够提供下述两个阶段试验的试验箱。第1阶段：56个循环，每12小时为一个温度循环，温度从－18℃&plusmn;2℃～53℃&plusmn;1℃，升降温速度为14℃&plusmn;2℃/小时；第2阶段：温度在58℃&plusmn;1℃保持7周。温度曲线如图6、图7所示。<br />
+　　图6加速耐久性试验温度曲线<br />
+　　1、第1阶段高低温循环试验<br />
+　　2、使用两个试验箱时允许将试样从一个试验箱移到另一试验箱的时间。<br />
+　　3、第2阶段恒温恒湿试验<br />
+　　图7 高低温循环期间温度随时间以及湿度随时间的变化曲线<br />
+　　t1=5h&plusmn;1min(加热阶段)　t2=1h&plusmn;1min(保温阶段)　t3=5h&plusmn;1min(制冷阶段)<br />
+　　t4=1h&plusmn;1min(保温阶段)　t5＝12h(一个循环周期)<br />
+　　1、试验箱温度大于23℃时（虚线范围内）湿度应&ge;95％<br />
+<strong>　　7.5.4试验程序</strong><br />
+　　试验试样按露点温度由高到低的顺序编号，露点温度低于-60℃时随机编号，按表7的　　规定选择试样。<br />
+　　表7加速耐久性试验的试样数量<br />
+　　玻璃编号 试验内容<br />
+　　7、8、9、10 干燥剂初始水分含量的测定<br />
+　　4、5、6、11、12 加速耐久性试验和干燥剂最终水分含量测定<br />
+　　2、3、13、14 备用试样<br />
+　　1、15 干燥剂饱和水分含量的测定<br />
+　　按附录C分别测定4块试样的干燥剂初始水分含量Ti，取其平均值为干燥剂初始水分含量。<br />
+　　按附录C分别测定2块试样的干燥剂标准水分含量Tc，取其平均值为干燥剂标准水分含量。<br />
+　　将5块加速耐久性试样垂直放入试验箱，试样间距离应不小于15mm。<br />
+　　加速耐久性试验后，按附录C测定干燥剂水分最终含量Tf。<br />
+　　按公式计算5块试样的I值和5块试样I值的平均值Iav。<br />
+<strong>　　7.6初始气体含量<br />
+　　7.6.1试验目的</strong><br />
+<strong>　　</strong>本试验是用于确定充气中空玻璃初始充气量。<br />
+<strong>　　7.6.2试样</strong><br />
+<strong>　　</strong>3块充气中空玻璃制品或3块未经加速耐久性试验的与制品相同材料、在同一工艺条件下制作的规格为510mm&times;360mm的试样。<br />
+<strong>　　7.6.3试验条件</strong><br />
+<strong>　　</strong>试验在23℃&plusmn;2℃，相对湿度30％～75％的环境中进行。试验前全部试样在该环境放置24h以上。<br />
+<strong>　　7.6.4试验设备</strong><br />
+<strong>　　</strong>能够准确测量氩气含量的仪器，如顺磁性氧分析仪、气相色谱仪等，测量精度&plusmn;0.5％。<br />
+<strong>　　7.6.5试验过程<br />
+　　7.6.5.1仪器校准</strong><br />
+<strong>　　</strong>试验前应对氧分析仪进行校准，校准分别使用已经确定氧气浓度的干燥空气和纯度为99.99％以上的氩气。<br />
+<strong>　　7.6.5.2取气</strong><br />
+<strong>　　</strong>试样竖直放置，用尖锥在试样中部将间隔框穿透，立即将排空气体的气密注射器穿过胶垫插入中空玻璃中，如图7所示，将间隔层中的气体抽入注射器，然后再把注射器里的气体推入间隔层，如此反复进行两次后，把20ml气体试样抽入注射器。<br />
+<strong>　　7.6.5.3测量<br />
+</strong>　　将取好气体试样的注射器插入仪器进气口，然后将气体缓慢注入分析仪，显示器数值稳定后即为测量结果。<br />
+<strong>　　7.7气体密封耐久性<br />
+　　7.7.1试验目的</strong><br />
+<strong>　　</strong>本试验是为了检验充入惰性气体的中空玻璃的气体保持能力。<br />
+<strong>　　7.7.2试样</strong><br />
+<strong>　　</strong>3块与制品相同材料在同一工艺条件下制作的规格为510mm&times;360mm的充气中空玻璃试样。<br />
+<strong>　　7.7.3试验设备</strong><br />
+<strong>　　</strong>符合7.5.3温度变化要求的试验箱、顺磁性氧分析仪、气相色谱仪。<br />
+<strong>　　7.7.4试验过程</strong><br />
+<strong>　　</strong>将3块试样垂直放入试验箱，试样间的距离应不小于15mm。试验过程中允许1块试样破坏，更换试样重新试验。试验首先按7.5.3第一阶段的试验方法，进行28个高低温循环试验，然后第二阶段的试验方法进行4周的恒温恒湿试验。试验后将试样在温度23℃&plusmn;2℃，相对湿度30％～75％的环境中放置24小时，之后按7.6测量气体含量。<br />
+<br />
+<strong>　　8检验规则<br />
+　　8.1检验分类<br />
+　　8.1.1型式检验</strong><br />
+　　型式检验包括技术要求中的全部检验项目。<br />
+　　有下列情况之一时，应进行型式检验：<br />
+　　a生产过程中，如结构、材料、工艺有较大改变，可能影响产品性能时；<br />
+　　b正常生产时，定期或积累一定产量后，应周期性进行一次检验；<br />
+　　c产品长期停产后，恢复生产时；<br />
+　　d出厂检验结果与上次型式检验有较大差异时；<br />
+　　e国家质量监督机构提出型式检验时。<br />
+<strong>　　8.1.2出厂检验</strong><br />
+　　出厂检验包括外观质量、尺寸偏差、露点、充气中空玻璃的初始气体含量。若要求增加其他检验项目由供需双方商定。<br />
+<strong>　　8.2组批与抽样</strong><br />
+<strong>　　8.2.1组批：采用相同材料、在同一工艺条件下生产的中空玻璃500块为一批。<br />
+　　8.2.2抽样：产品的外观质量、尺寸偏差按表8从交货批中随机抽样进行检验。<br />
+</strong>　　表8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 单位：块　　<br />
+　　2～89～1516～2526～5051～9091～150151～280281～500 235813203250 00112357 11223468<br />
+　　对于产品所要求的其他技术性能，若用制品检验时，根据检验项目所要求的数量从该批产品中随机抽取。若用试样进行检验时，应　　采用相同材料、在同一工艺条件下制作的试样。当检验项目为非破坏性试验时可继续进行其它项目的检测。<br />
+<strong>　　8.3判定规则<br />
+　　8.3.1外观质量、尺寸偏差<br />
+</strong>　　若不合格品数等于或大于表8的不合格判定数，则认为该批产品的外观质量、尺寸偏差不合格。<br />
+<strong>　　8.3.2露点</strong><br />
+　　取15块试样进行露点检测，全部合格该项性能合格。<br />
+<strong>　　8.3.3耐紫外线辐照<br />
+</strong>　　取2块试样进行耐紫外线辐照试验，2块试样均合格该项性能合格。<br />
+<strong>　　8.3.4加速耐久性</strong><br />
+　　取15块试样进行加速耐久性试验，水分渗透指数均合格该项性能合格。<br />
+<strong>　　8.3.5初始气体含量</strong><br />
+　　取3块试样进行初始气体含量试验，3块试样均合格该项性能合格。<br />
+<strong>　　8.3.6气体密封耐久性</strong><br />
+　　取3块试样进行气体密封耐久性试验，3块试样均合格该项性能合格。<br />
+<strong>　　8.3.7批次合格判定</strong><br />
+　　若上述各项中，有一项不合格，则认为该批产品不合格<br />
+<br />
+<strong>　　9包装、标志、运输和贮存</strong><br />
+<strong>　　9.1包装</strong><br />
+　　中空玻璃用木箱或集装箱包装，包装箱应符合国家有关标准规定。每块玻璃应用塑料或纸隔开，玻璃与包装箱之间用不易引起玻璃划伤等外观缺陷的轻软材料填实。<br />
+<strong>　　9.2标志</strong><br />
+　　标志应符合国家有关标准的规定，应包括产品名称、厂名、厂址、商标、规格、数量、生产日期、执行标准。且应标明&ldquo;朝上、轻搬正放、防雨、防潮、小心破碎&rdquo;等字样。<br />
+<strong>　　9.3运输</strong><br />
+　　产品运输应符合国家有关规定。<br />
+　　运输时，不得平放，长度方向应与运输车辆运动方向一致，应有防雨措施。<br />
+<strong>　　9.4贮存</strong><br />
+　　产品应垂直放置，贮存于干燥的室内。<br />
+　　附录A边部密封粘结性能（规范性附录）<br />
+　　A. 1要求<br />
+　　B. 中空玻璃用外道密封材料应有足够的内聚力和粘结力，试样的拉伸试验在图1所示的OAB测试区域内，应无玻璃与密封胶的粘接破坏且无密封胶内聚破坏，见图2。<br />
+　　要求<br />
+　　A. 1试验方法<br />
+　　B. 1.1试验目的<br />
+　　C. 本试验用于确定玻璃与密封胶之间的粘结强度以及密封胶的抗撕裂能力。</p></div>
+         <div class="close"><a href="javascript:window.close();">关 闭</a></div>
+            </div>
+        </div>
+    </div>
+    <!--foot-->
+    
+<div class="foot">
+    	<div style="text-align:center"><a href="index-5.htm" tppabs="http://www.deca-glass.com/product/" target="_blank">中空玻璃设备 - 中空玻璃生产设备 - 中空玻璃加工设备 - 中空玻璃生产线 - 中空玻璃打胶机 - 中空玻璃机械 - 中空玻璃机器</a><br />
+        	<a href="index.htm" tppabs="http://www.deca-glass.com/" title="济南德佳玻璃机器有限公司" target="_blank">济南德佳玻璃机器有限公司</a>版权所有 <a href="javascript:if(confirm('http://www.21-sun.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.21-sun.com/'" tppabs="http://www.21-sun.com/" title="21-sun" target="_blank">中国工程机械商贸网</a>制作维护<br/>
+            地址：济南高新区舜华路1号齐鲁软件园创业广场B座5层B511　电话：0531-86037566  86037366　传真：0531-86037266
+        </div>
+    </div>
+
+    <!--foot end-->
+</body>
+<script>
+$('.ban').T_banner();
+</script>
+</html>
+

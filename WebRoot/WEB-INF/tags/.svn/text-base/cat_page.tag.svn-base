@@ -1,0 +1,94 @@
+<%@ tag body-content="empty" import="java.util.*,java.sql.*,com.jerehnet.util.common.*" pageEncoding="UTF-8" %><%@ attribute name="pageBean" required="true" rtexprvalue="true" type="com.jerehnet.util.dbutil.PageBean" %><%@ attribute name="url" required="false" rtexprvalue="true" type="java.lang.String" %><%
+	Integer prevInt = (pageBean.getNowPage() - 1) == 0 ? 1 : (pageBean.getNowPage() - 1);
+    String offset = CommonString.getFormatPara(request.getParameter("offset")) ;
+    String flag = CommonString.getFormatPara(request.getParameter("flag"));
+	if("".equals(offset) || Integer.parseInt(offset)<0){
+		offset = "0" ;
+	}
+    if(!"".equals(offset)){
+        pageBean.setNowPage(Integer.parseInt(offset)/pageBean.getPageSize()+1) ;
+    }
+	url = CommonString.getFormatPara(url) ;
+    Integer preInt = (pageBean.getNowPage() - 1) == 0 ? 1 : (pageBean.getNowPage() - 1);
+	Integer nextInt = (pageBean.getNowPage() + 1) == pageBean.getTotal() ? pageBean.getTotal(): (pageBean.getNowPage() + 1);
+	StringBuffer pageBar = new StringBuffer();
+	
+	pageBar.append("<div class=\"paga_mark\">");
+	if(pageBean.getTotal() > 0 && pageBean.getPageCount()>1){ // 2012年12月26日13:23:35 改
+		if(pageBean.getNowPage()==1 ){
+			pageBar.append("<a class='prev' title='上一页' href='javascript:;'></a>") ;
+		}else{
+			pageBar.append("<a class='prev' title='上一页' href='"+url+"?offset=" + ((preInt-1)*pageBean.getPageSize()) + pageBean.getParams()+"&flag="+flag+"'></a>") ;
+		}
+	}
+	if (pageBean.getNowPage() > 1) {
+	} else {
+		pageBar.append(" ");
+	}
+	int left = 0;
+	int right = 0;
+	int middle = pageBean.getNowPage();
+	int rightCount = 0; 
+	if(pageBean.getPageCount() > 10){
+		rightCount = pageBean.getPageCount() - 5;
+		if (middle <= 5 && middle < rightCount) {
+			for(int i=0;i<5;i++){
+				if((i+1)==pageBean.getNowPage()){
+					pageBar.append("<strong class=\"cur\">"+(i+1)+"</strong>");
+				}else{
+					pageBar.append("<a href=\""+url+"?offset="+(i*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+(i+1)+"&nbsp;</a>");
+				}
+			}
+			if(middle==5){
+				pageBar.append("<a href=\""+url+"?offset="+((5)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+6+"&nbsp;</a>");
+				pageBar.append("<a href=\""+url+"?offset="+((6)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+7+"&nbsp;</a>");
+			}
+			pageBar.append("<a href=\"javascript:void(0);\" style=\"cursor: default;border:none;color:#000;\">...</a>");
+			pageBar.append("<a href=\""+url+"?offset="+((pageBean.getPageCount()-2)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+(pageBean.getPageCount()-1)+"&nbsp;</a>");
+			pageBar.append("<a href=\""+url+"?offset="+((pageBean.getPageCount()-1)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+(pageBean.getPageCount())+"&nbsp;</a>");
+		}else if( middle > 5 && middle > rightCount){
+			pageBar.append("<a href=\""+url+"?offset="+((1-1)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+1+"&nbsp;</a>");
+			pageBar.append("<a href=\""+url+"?offset="+((2-1)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+2+"&nbsp;</a>");
+			pageBar.append("<a href=\"javascript:void(0);\" style=\"cursor: default;border:none;color:#000;\">...</a>");
+			if(middle==(rightCount+1)){
+				pageBar.append("<a href=\""+url+"?offset="+((middle-2-1)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+(middle-2)+"&nbsp;</a>");
+				pageBar.append("<a href=\""+url+"?offset="+((middle-1-1)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+(middle-1)+"&nbsp;</a>");
+			}
+			for(int i = rightCount;i<(pageBean.getPageCount());i++){
+					if((i+1)==pageBean.getNowPage()){
+						pageBar.append("<strong class=\"cur\">"+(i+1)+"</strong>");
+					}else{
+						pageBar.append("<a href=\""+url+"?offset="+(i*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\" onclick=\"getAgentList("+(i+1)+",\"search\");\">&nbsp;"+(i+1)+"&nbsp;</a>");
+					}
+				}
+			} else {
+				pageBar.append("<a href=\""+url+"?offset="+((1-1)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+1+"&nbsp;</a>");
+				pageBar.append("<a href=\""+url+"?offset="+((2-1)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+2+"&nbsp;</a>");
+				pageBar.append("<a href=\"javascript:void(0);\" style=\"cursor: default;border:none;color:#000;\">...</a>");
+				pageBar.append("<a href=\""+url+"?offset="+((middle-3)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+(middle-2)+"&nbsp;</a>");
+				pageBar.append("<a href=\""+url+"?offset="+((middle-2)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+(middle-1)+"&nbsp;</a>");
+				pageBar.append("<strong class=\"cur\">"+middle+"</strong>");
+				pageBar.append("<a href=\""+url+"?offset="+((middle)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+(middle+1)+"&nbsp;</a>");
+				pageBar.append("<a href=\""+url+"?offset="+((middle+1)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+(middle+2)+"&nbsp;</a>");
+				pageBar.append("<a href=\"javascript:void(0);\" style=\"cursor: default;border:none;color:#000;\">...</a>");
+				pageBar.append("<a href=\""+url+"?offset="+((pageBean.getPageCount()-2)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+(pageBean.getPageCount()-1)+"&nbsp;</a>");
+				pageBar.append("<a href=\""+url+"?offset="+((pageBean.getPageCount()-1)*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+(pageBean.getPageCount())+"&nbsp;</a>");
+		}
+	}else{
+		left = 0;
+		right = pageBean.getPageCount();
+		for(int i=left;i<right;i++){
+			if((i+1)==pageBean.getNowPage()){
+				pageBar.append("<strong class=\"cur\">"+(i+1)+"</strong>");
+			}else{
+				pageBar.append("<a href=\""+url+"?offset="+(i*pageBean.getPageSize())+pageBean.getParams()+"&flag="+flag+"\">&nbsp;"+(i+1)+"&nbsp;</a>");
+			}
+		}
+	}
+	if (pageBean.getNowPage() <= (pageBean.getPageCount()-1)) {
+			pageBar.append("<a href='"+url+"?offset=" + ((nextInt-1)*pageBean.getPageSize()) + pageBean.getParams()+"&flag="+flag+"' class='next'></a>");
+	} else {
+		pageBar.append(" ");
+	}
+	pageBar.append("</div>") ;
+	out.print(pageBar.toString());%>

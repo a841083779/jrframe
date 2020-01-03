@@ -1,0 +1,11 @@
+<#assign loader_order = query(" SELECT top 3 a.factoryname,a.name,a.catalogname,a.file_name,b.allcount,a.id,a.img2,a.factoryid,a.catalognum from (select  factoryname,name,catalogname,file_name,id,img2,substring(catalognum,1,6) as catalognum ,factoryid from pro_products where is_show=1 AND catalognum LIKE '%106%' )as a INNER  JOIN ( SELECT COUNT(product_id) as allcount,product_id  FROM pro_comments  GROUP BY product_id  ) as b ON a.id=b.product_id  ORDER BY  b.allcount desc")> <#-- 装载机排行 -->
+<#if loader_order??&&(loader_order?size>0)>
+     <#list loader_order as oneGrab>
+              <li>
+                <p class="npg_img"><a href="/list/${oneGrab.id?c}.htm" title="${oneGrab.factoryname}${oneGrab.name}${oneGrab.catalogname}口碑" target="_blank"><img width="135" height="100" src="http://product.21-sun.com/uploadfiles/${oneGrab.img2}" alt="${oneGrab.factoryname}${oneGrab.name}${oneGrab.catalogname}口碑" onerror="showImgDelay(this,'/uploadfiles/no_big.gif',2);"></a></p>
+                <p class="nph_name" style="text-align:center"><a title="${oneGrab.factoryname}${oneGrab.name}${oneGrab.catalogname}口碑" href="/list/${oneGrab.id?c}.htm" target="_blank">${oneGrab.factoryname}${oneGrab.name}${oneGrab.catalogname}口碑</a></p>
+                <p class="nph_cat" style="text-align:center"><a title="${oneGrab.factoryname}" href="/0-${oneGrab.factoryid}-0-0-0.htm">[${oneGrab.factoryname}]</a><a title="${oneGrab.factoryname}${oneGrab.catalogname}" href="/${oneGrab.catalognum}-${oneGrab.factoryid}-0-0-0.htm"> [${oneGrab.factoryname}${oneGrab.catalogname}]</a></p>
+                <p class="nph_lik" style="text-align:center">评论数：${oneGrab.allcount?c}条 | <a  target="_blank" href="/compare_${oneGrab.id?c}.htm">对比</a></p>
+              </li>		
+      </#list>
+</#if>

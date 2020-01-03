@@ -1,0 +1,8 @@
+<#assign list = query(" select top 6 a.add_date,a.name as uname,a.content,b.name as pname,b.file_name,b.catalogname,b.factoryname from pro_comments as a left join pro_products as b on a.product_id = b.id where a.is_show=1 and b.file_name is not null and b.file_name != '' order by a.id desc ")>
+<#list list as info>
+<li>
+  <div class="cci"> <span class="mem l"><a href="/proDetail/${info.file_name?replace('.shtm','')}_message.shtm" target="_blank">${info.uname!""}<br />对 <font color="#0078b6"><b>${info.factoryname!""}${info.pname!""}${info.catalogname!""}</b></font>评论：</a></span> <span class="r"></span>
+    <p class="wfull l"><a href="/proDetail/${info.file_name?replace('.shtm','')}_message.shtm" target="_blank">${info.content!""}</a></p>
+  </div>
+</li>
+</#list>

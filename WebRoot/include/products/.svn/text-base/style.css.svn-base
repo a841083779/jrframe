@@ -1,0 +1,245 @@
+@charset "utf-8";
+/*去除页面中所有标签的默认间距、补白*/
+* { margin:0px; padding:0px;}
+/*页面中的默认字体、字体大小、背景、文字颜色*/
+body { font-size:12px; font-family:Arial; color:#666666; background-color:#f6f6f6; -webkit-text-size-adjust:none; cursor:default;}
+/*页面右侧滚动条*/
+html { overflow-y:scroll;}
+/*清除页面所有图片的默认边框*/img{border:none;}/*去除ol、ul、li的默认样式*/ol,ul,li{list-style-type:none;}/*设置表单等项目的默认字体大小*/input,select,textarea{font-size:12px;font-family:Arial;}input{vertical-align:middle;}/*设置文字段落、表格单元格的默认行高*/p,th,td{line-height:22px;}/*字体*/.yahei{font-family:微软雅黑;}.songti{font-family:宋体;}/* 其它需要用到的字体大小 */h1,h2,h3,h4,h5,h6{font-weight:normal;}em,i,u{font-style:normal;}h1{font-size:14px;}h2{font-size:12px;}h3{font-size:12px;}.font10{font-size:10px;}.font11{font-size:11px;}.font12{font-size:12px;}.font13{font-size:13px;}.font14{font-size:14px;}.font15{font-size:15px;}.font16{font-size:16px;}/*去除页面中的链接点击后留下的虚线框*/body a{outline:none;blr:expression(this.onFocus=this.blur());}/* 整个网站需要的字体样式*/.strong{font-weight:bold;}.underline{text-decoration:underline;}/* li相关 */ul,li{list-style-type:none;}/*默认的文字链接样式*/a:link,a:visited{color:#666666;text-decoration:none;cursor:pointer;}a:hover,a:active{color:#f5ac0f;text-decoration:none;cursor:pointer;}/*其他文字链接样式*/.cffffff{color:#ffffff;}.cffffff a:link,.cffffff a:visited{color:#ffffff;}.cffffff a:hover,.cffffff a:active{color:#cccccc;}/* w系列控制宽度 */.wauto{width:auto}.w25{width:25%;}.w33{width:33.3%;}.w50{width:50%;}.w100{width:100%;}.w100px{width:100px;}.w180px{width:180px;}.w120px{width:120px;}.w200px{width:200px;}.w300px{width:300px;}.w310px{width:310px;}.w400px{width:400px;}.w760px{width:760px;}.w960px{width:960px;}.w980px{width:980px;}.w1000px{width:1000px;}.w1344px{width:1344px;}/* h系列控制高度 */.h100{height:100%;}.hauto{height:auto;}.h20px{height:20px;}.h30px{height:30px;}.h40px{height:40px;}.h50px{height:50px;}.h100px{height:100px;}.h150px{height:150px;}.lineheight100{line-height:100%;}.lineheight120{line-height:120%;}.lineheight150{line-height:150%;}.lineheight180{line-height:180%;}.lineheight200{line-height:200%;}.lineheight250{line-height:250%;}.lineheight15px{line-height:15px;}.lineheight20px{line-height:20px;}.lineheight24px{line-height:24px;}.lineheight30px{line-height:30px;}.lineheight32px{line-height:32px;}.lineheight40px{line-height:40px;}/* p系列控制padding */.p5{padding:5px;}.p10{padding:10px;}.p15{padding:15px;}.p20{padding:20px;}.p25{padding:25px;}.p30{padding:30px;}.pt5{padding-top:5px;}.pt10{padding-top:10px;}.pt15{padding-top:15px;}.pt20{padding-top:20px;}.pt25{padding-top:25px;}.pt30{padding-top:30px;}.pr5{padding-right:5px;}.pr10{padding-right:10px;}.pr15{padding-right:15px;}.pr20{padding-right:20px;}.pr25{padding-right:25px;}.pr30{padding-right:30px;}.pb5{padding-bottom:5px;}.pb10{padding-bottom:10px;}.pb15{padding-bottom:15px;}.pb20{padding-bottom:20px;}.pb25{padding-bottom:25px;}.pb30{padding-bottom:30px;}.pl5{padding-left:5px;}.pl10{padding-left:10px;}.pl15{padding-left:15px;}.pl20{padding-left:20px;}.pl25{padding-left:25px;}.pl30{padding-left:30px;}/* m系列控制padding */.m5{margin:5px!important;}.m10{margin:10px!important;}.m15{margin:15px!important;}.m20{margin:20px!important;}.m25{margin:25px!important;}.m30{margin:30px!important;}.mt5{margin-top:5px!important;}.mt10{margin-top:10px!important;}.mt15{margin-top:15px!important;}.mt20{margin-top:20px!important;}.mt25{margin-top:25px!important;}.mt30{margin-top:30px!important;}.mr5{margin-right:5px!important;}.mr10{margin-right:10px!important;}.mr15{margin-right:15px!important;}.mr20{margin-right:20px!important;}.mr25{margin-right:25px!important;}.mr30{margin-right:30px!important;}.mb5{margin-bottom:5px!important;}.mb10{margin-bottom:10px!important;}.mb15{margin-bottom:15px!important;}.mb20{margin-bottom:20px!important;}.mb25{margin-bottom:25px!important;}.mb30{margin-bottom:30px!important;}.ml5{margin-left:5px!important;}.ml10{margin-left:10px!important;}.ml15{margin-left:15px!important;}.ml20{margin-left:20px!important;}.ml25{margin-left:25px!important;}.ml30{margin-left:30px!important;}/* 其他常用元素 *//*文本对齐样式*/.center{margin:0px auto;}.tcenter{text-align:center;}.tleft{text-align:left;}.tright{text-align:right;}/*左右漂浮样式*/.l{float:left;}.r{float:right;}/*css清除浮动*/.c{clear:both}.clear{clear:both;height:0px;line-height:0px;font-size:0px;}/*clearfix*/.clearfix:before,.clearfix:after{content:"";display:table;}.clearfix:after{clear:both;}.clearfix{*zoom:1;/*ie6,7*/}.imgfix img{display:block;}/*添加鼠标悬浮显示手的形状*/.hand{cursor:pointer;}/*单行截字*/.textbreak{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}/*最小高度*/.minheight500px{min-height:500px;height:auto!important;height:500px;overflow:visible;}/*隐藏元素*/.hide{display:none;}/*解决IE6双边距加倍错误*/.inline{_display:inline;}/*通用样式*/.title{width:100%;float:left;}.title h2,.title h3{width:auto;float:left;white-space:nowrap;}.title span.more{width:auto;float:right;font-family:宋体;}.list{width:100%;float:left;}.list li{width:100%;float:left;}.img{float:left;}.intro{float:right;}.content{width:100%;float:left;}
+/*CSS Begin*/
+a.blue { color:#012dd2!important;}
+a.blue:hover { color:#f5ac0f!important;}
+
+.wrap { width:980px; height:auto; margin:0 auto; clear:both;}
+.ico { display:inline-block; width:20px; height:20px; overflow:hidden; background:url("theme_ico.gif")/*tpa=http://www.wajueji.com/cat/images/theme_ico.gif*/ no-repeat; vertical-align:middle;}
+.ico01 { background-position:0px 0px;}
+.ico02 { background-position:-20px 0px;}
+
+.topBar { height:31px; background-color:#000; line-height:30px;}
+.topBar h2 { margin-right:15px;}
+.topBar .welcome { width:auto; float:left; white-space:nowrap; color:#fff;}
+.topBar .welcome b { font-weight:normal; color:#fabf00;}
+.topBar .welcome a { color:#fabf00!important;}
+.topBar .welcome a:hover { text-decoration:underline;}
+.topBar .login { width:auto; float:right; color:#8f8f8f; margin-left:14px;}
+.topBar .login a { color:#8f8f8f!important;}
+.topBar .login a:hover { color:#ffffff!important; text-decoration:underline;}
+.topBar .login em.w { margin:0px 5px;}
+.topBar .quickLogin { width:118px; height:21px; float:right; background:url("quick_login.gif")/*tpa=http://www.wajueji.com/cat/images/quick_login.gif*/ no-repeat; margin-top:3px;}
+.topBar .quickLogin strong.t { width:auto; line-height:20px; float:left; font-size:12px; font-family:"Microsoft Yahei"; font-weight:normal; padding-left:10px; margin-right:8px;}
+.topBar .quickLogin em { display:block; width:16px; height:16px; float:left; margin-right:10px; background:url("quick_login.gif")/*tpa=http://www.wajueji.com/cat/images/quick_login.gif*/ 0px -26px; margin-top:3px;}
+.topBar .quickLogin em.sina { background-position:-23px -26px;}
+.combg { background:url("bg_xx.jpg")/*tpa=http://www.wajueji.com/cat/images/bg_xx.jpg*/ repeat;}
+
+.nav .logo { width:auto; float:left;}
+.navlist { width:auto; float:right; padding-top:23px;}
+.navlist li,.navlist li a { height:32px; line-height:32px;}
+.navlist li { float:left; padding-left:10px;}
+.navlist li a { display:inline-block; width:auto; padding:0px 8px; font:16px/30px "Microsoft Yahei"; color:#010101; white-space:nowrap;}
+.navlist li a:hover,.navlist li a.selected { color:#fff; background-color:#333333;}
+
+.banner { padding-bottom:15px;}
+.banner .bannerText { width:190px; height:190px; float:left; padding:85px 60px 0px 15px; background:url("banner_leftbg.gif")/*tpa=http://www.wajueji.com/cat/images/banner_leftbg.gif*/ left top repeat-y;}
+.banner .bannerText h3 { font:100 16px/30px "Microsoft Yahei"; color:#333;}
+.banner .bannerText p { font:12px/22px "Microsoft Yahei";}
+.banner .img { float:right;}
+
+.title01 { height:103px; background:url("titlebg.jpg")/*tpa=http://www.wajueji.com/cat/images/titlebg.jpg*/ no-repeat;}
+.title01 h3 { font:100 20px/55px "Microsoft Yahei"; color:#f9c616; padding:31px 0px 0px 20px;}
+
+.main .content { padding:10px 20px 20px; width:940px; background-color:#fff;}
+.themeTitle { height:40px;}
+.themeTitle h2 { font:18px/40px "Microsoft Yahei"; float:left; color:#4d4d4d; margin-right:18px;}
+.themeInfo { width:auto; float:left; line-height:40px; color:#909090;}
+.themeInfo em.w { margin:0px 8px;}
+.themeTitle a.submitBtn { width:auto; height:26px; float:right; border:#ff8a00 1px solid; background-color:#f5ac0e; font:16px/26px "Microsoft Yahei"; padding:0px 24px 0px 13px; color:#fff; position:relative; overflow:hidden;} 
+.themeTitle a.submitBtn i { display:block; width:0px; height:0px; border-width:5px; border-style:solid dashed dashed dashed; border-color:#fff transparent transparent transparent; overflow:hidden; position:absolute; right:8px; top:11px;}
+
+.themeCates { width:100%; float:left; padding:5px 0px 15px; border-bottom:#f0f0f0 1px solid;}
+.themeCates a { width:auto; height:29px; font:100 16px/28px "Microsoft Yahei"; color:#838995; background-color:#c00000; float:left; margin-right:5px; padding:0px 15px;}
+.themeCates a.all { color:#fff;}
+.themeCates a.c01 { background-color:#cffdcc;}
+.themeCates a.c02 { background-color:#fac090;}
+.themeCates a.c03 { background-color:#c6e4fd;}
+.themeCates a.c04 { background-color:#debdfe;}
+
+.themeList,.themeList li { width:100%; float:left;}
+.themeList li { border-bottom:#f0f0f0 1px solid; padding:15px 0px; position:relative;} 
+.themeList li .img { width:150px; margin-right:15px;}
+.themeList li .img img { width:150px; height:112px;}
+.themeList li .intro { float:none;}
+.themeList li .intro h3 { font:100 20px/30px "Microsoft Yahei"; padding-bottom:6px;}
+
+i.lx { display:inline-block; width:auto; height:20px; font:100 12px/20px "Microsoft Yahei"; background-color:#0070c0; color:#fff; padding:0px 10px; vertical-align:middle; margin-left:10px;}
+i.lx02 { background-color:#c00000;}
+
+.themeList li .intro p.text { line-height:18px; color:#818181; padding-bottom:10px;}
+.themeList li .intro p.imgs { padding-bottom:10px;}
+.themeList li .intro p.imgs img { margin-right:10px;}
+.otherInfo { height:22px; line-height:22px; position:relative;}
+.otherInfo span.user { display:inline-block; width:auto; height:22px; padding:0px 10px; position:relative; background-color:#fac090; font:12px/22px "Microsoft Yahei"; color:#333; vertical-align:middle; margin-right:15px;}
+.otherInfo span.user i { display:block; width:0px; height:0px; border-width:5px; border-style:dashed solid dashed dashed; border-color:transparent #fac090 transparent transparent; overflow:hidden; position:absolute; left:-10px; top:5px;}
+.otherInfo span.from { color:#999999;}
+.otherInfo span.from b { font-weight:normal; color:#1d53bf;}
+.otherInfo span.time { position:absolute; right:5px; top:0px; font-family:宋体;}
+
+.themeList li .tools { position:absolute; right:0px; top:18px; line-height:20px;}
+.themeList li .tools a { display:inline-block; margin-left:3px;}
+
+.pages { clear:both; text-align:center; padding:20px 0px;}
+.pages a,.pages strong { display:inline-block; width:auto; height:28px; line-height:28px; padding:0px 10px; border:#e2e2e2 1px solid; background-color:#fff; font-weight:normal; color:#000;}
+.pages a.prev i,.pages a.next i { font-family:宋体;}
+.pages a:hover,.pages strong.cur { background-color:#f9c517;}
+
+.foot { line-height:22px; padding:15px 15px; width:950px; background:url("footbg.jpg")/*tpa=http://www.wajueji.com/cat/images/footbg.jpg*/ repeat;}
+.foot em.w { margin:0px 8px;}
+
+.exhTop { width:100%; float:left; padding-bottom:20px;}
+.exhTop .intro { width:620px; font-family:"Microsoft Yahei"}
+.exhTop .intro h2 { font-size:24px; padding-bottom:10px;}
+.exhTop .intro p.text { padding-bottom:10px;}
+.exhTop .intro a.more { float:right; margin-right:10px; _display:inline;}
+
+.exhList { border-top:#f0f0f0 1px solid;}
+.exhList li.hover { background-color:#f6f6f6;}
+
+.proTop .intro h2 { width:430px; font:100 20px/30px "Microsoft Yahei"; padding-bottom:10px;}
+.proTop .intro .hope { border:#cdcdcd 1px solid; border-radius:10px; height:110px; padding:10px 0px;}
+.proTop .intro .hope .ht { float:left; padding-left:15px; margin-right:20px;}
+table.hp { width:325px; float:left;}
+table.hp td { font:14px/22px "Microsoft Yahei"; color:#666;vertical-align:top;}
+table.hp td .v_c { margin-top:6px;}
+table.hp td.num { font-size:12px;}
+
+.v_c { width:97px; height:11px; line-height:0px; font-size:0px; position:relative; overflow:hidden;}
+.v_c .v_d { width:100%; height:11px; background:url("course.gif")/*tpa=http://www.wajueji.com/cat/images/course.gif*/ no-repeat; position:relative; overflow:hidden;}
+.v_c .v_d i { display:block; width:5px; height:11px; background:url("course.gif")/*tpa=http://www.wajueji.com/cat/images/course.gif*/ right 0px no-repeat; position:absolute; right:0px; top:0px; overflow:hidden; _right:-1px;}
+.v1 .v_d { background-position:0px 0px;}
+.v1 .v_d i { background-position:right 0px;}
+.v2 .v_d { background-position:0px -12px;}
+.v2 .v_d i { background-position:right -12px;}
+.v3 .v_d { background-position:0px -24px;}
+.v3 .v_d i { background-position:right -24px;}
+.v4 .v_d { background-position:0px -36px;}
+.v4 .v_d i { background-position:right -36px;}
+
+table.para { clear:both; margin:10px 0px;}
+table.para td { line-height:18px;}
+
+.proTop .introText { line-height:20px; padding-bottom:10px; clear:both;}
+.bdshare #bdshare { float:right;} 
+
+.main .channelTab-con { padding-top:20px;}
+.channelTabTitle { width:100%; height:44px; background:url("tab_title.gif")/*tpa=http://www.wajueji.com/cat/images/tab_title.gif*/ 0px -44px repeat-x; float:left;} 
+.channelTabTitle ul { width:100%; height:44px; float:left;}
+.channelTabTitle ul li { width:152px; height:44px; float:left; text-align:center; font:15px/36px "Microsoft Yahei"; background:url("tab_title.gif")/*tpa=http://www.wajueji.com/cat/images/tab_title.gif*/ -154px 0px no-repeat; margin-right:2px; color:#595959; cursor:pointer;}
+.channelTabTitle ul li.act { background-position:0px 0px;}
+
+.channelTabContain { width:100%; float:left; padding-top:25px;}
+.ctc { min-height:300px; height:auto!important; height:300px; overflow:visible;}
+
+.pictures li { padding-bottom:30px;}
+.pictures li .img { padding-top:5px;}
+.pictures li .img img { display:block; width:385px; height:auto;}
+.pictures li .intro { width:530px;}
+.pictures li .intro h2.t1 { font:24px/30px "Microsoft Yahei"; color:#333;}
+.pictures li .intro h3.t2 { font:18px/30px "Microsoft Yahei"; color:#666; padding-bottom:5px;}
+.pictures li .intro p.text { line-height:22px; font-family:"Microsoft Yahei";}
+
+.exp li { padding-bottom:20px;}
+.exp li .img { padding-top:5px;}
+.exp li .img img { display:block; width:220px; height:150px;}
+.exp li .intro { width:700px; font-family:"Microsoft Yahei";}
+.exp li .intro h2.t1 { font:22px/30px "Microsoft Yahei"; color:#333; padding-bottom:3px;}
+.exp li .intro p.text { font-size:14px; line-height:18px;}
+.learnMore01 a,.learnMore02 a { color:#0213b6!important; line-height:18px;} 
+.learnMore01 a:hover,.learnMore02 a:hover { color:#f5ac0f!important;}
+
+.dlist { padding-top:8px;}
+.dlist,.dlist dd { width:100%; float:left;}
+.dlist h3 { width:300px; height:18px; line-height:18px; float:left; margin-right:10px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+
+.mainPart01 { width:100%; float:left; background:url("home_bg02.jpg")/*tpa=http://www.wajueji.com/cat/images/home_bg02.jpg*/ 0px 31px repeat-y;}
+.mainPart01 .yellowBg { height:31px; background:url("home_bg01.jpg")/*tpa=http://www.wajueji.com/cat/images/home_bg01.jpg*/ no-repeat;}
+
+.proRec { width:677px; float:left;}
+.proRec li { width:338px; height:280px; float:left;}
+.proRec li a { display:block; width:260px; height:auto; margin:0 auto;}
+.proRec li h2 { font:700 20px/30px "Microsoft Yahei"; color:#fff; padding:10px 0px;}
+.proRec li h2 b { color:#fdcf00;}
+.proRec li .img { text-align:center; float:none;}
+.proRec li .img img { display:block; width:180px; height:135px; margin:0 auto;}
+.proRec li p.text { font:12px/18px "Microsoft Yahei"; color:#fff; padding-bottom:10px;padding-top: 20px;}
+.proRec li .btns { line-height:0px; font-size:0px; text-align:center;}
+.proRec li .btns a { display:inline-block; width:108px; height:24px; background:url("btn.png")/*tpa=http://www.wajueji.com/cat/images/btn.png*/ 0px -24px; font:14px/22px "Microsoft Yahei"; color:#212121; margin:0px 10px; overflow:hidden; _height:23px;}
+
+.hopeb { width:300px; height:280px; float:right;}
+.hopeb h2 { font:700 20px/30px "Microsoft Yahei"; color:#fff; padding:10px 0px; text-align:center;}
+.hopeb h2 b { color:#fdcf00;}
+.hopeb .t { font:700 16px/40px "Microsoft Yahei"; color:#fbca18; text-align:center; padding-bottom:10px;}
+.hopeb .t .ico { background-image:url("vote_ico.png")/*tpa=http://www.wajueji.com/cat/images/vote_ico.png*/; width:42px; height:42px; margin-right:5px;}
+
+.hopeb table.hp { width:200px; float:none; margin-left:30px; margin-bottom:10px;}
+.hopeb table.hp td { color:#fff; padding:4px 0px;}
+.hopeb .v_c .v_d,.hopeb .v_c .v_d i { background-image:url("course_black.gif")/*tpa=http://www.wajueji.com/cat/images/course_black.gif*/;}
+
+.hopeb a.joinIn { display:block; width:141px; height:24px; background:url("btn.png")/*tpa=http://www.wajueji.com/cat/images/btn.png*/ 0px 0px; font:14px/22px "Microsoft Yahei"; color:#212121; margin:0px auto; text-align:center;}
+
+.mainPart02 { width:100%; float:left; background:url("home_bg04.jpg")/*tpa=http://www.wajueji.com/cat/images/home_bg04.jpg*/ 0px 90px repeat-y; padding-bottom:34px; border-bottom:#a5a5a5 1px solid;}
+.mainPart02 .title { height:90px; background:url("home_bg03.jpg")/*tpa=http://www.wajueji.com/cat/images/home_bg03.jpg*/ no-repeat;}
+.mainPart02 .title h3 { font:700 26px/44px "Microsoft Yahei"; color:#fff; padding:46px 0px 0px 15px;}
+.mainPart02 .content { width:920px; margin-left:15px; padding:0px 15px; background:url("whitebg.png")/*tpa=http://www.wajueji.com/cat/images/whitebg.png*/ repeat; _display:inline; padding-bottom:15px;}
+
+.mainPart02 .tit { width:100%; height:40px; float:left;} 
+.mainPart02 a,.mainPart02 { color:#333!important;}
+.mainPart02 a:hover { text-decoration:underline;}
+.mainPart02 .tit strong.n { height:40px; font:700 18px/40px "Microsoft Yahei"; width:auto; float:left;}
+.mainPart02 .tit span.more { width:auto; float:right; line-height:40px; font-family:宋体;}
+.mainPart02 .con { width:100%; height:auto; float:left;}
+.mainPart02 .img { width:auto; float:left;}
+.mainPart02 .intro { width:730px; float:right;}
+.mainPart02 .intro h2 { font-weight:bold; line-height:18px; padding-bottom:5px;}
+.mainPart02 .intro h2 a { color:#333!important;}
+.mainPart02 .intro p.text { line-height:18px; height:36px; overflow:hidden; color:#3d3d3d;}
+.mainPart02 .intro .more { line-height:18px; font-family:宋体;}
+.mainPart02 .intro .list { padding-top:15px;}
+.mainPart02 .intro .list li { width:360px; height:18px; line-height:18px;}
+.mainPart02 .intro .list li h3 { width:260px; height:18px; float:left;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.mainPart02 .intro .list li span.time { width:auto; float:right;}
+
+.mainPart03 { width:100%; float:left; background:url("home_bg05.jpg")/*tpa=http://www.wajueji.com/cat/images/home_bg05.jpg*/ 0px 0px repeat-y; padding-bottom:40px;}
+.mainPart03 h3.bt { font:700 26px/44px "Microsoft Yahei"; color:#fff; padding:10px 0px 0px 15px;}
+
+.mainPart03 a,.mainPart03 { color:#333!important;}
+.mainPart03 a:hover { text-decoration:underline;}
+
+.halfPart { width:450px; padding:0px 10px; height:190px; background:url("whitebg.png")/*tpa=http://www.wajueji.com/cat/images/whitebg.png*/ repeat;}
+.active { margin-left:15px; _display:inline;}
+.Topic { margin-right:15px; _display:inline;}
+
+.halfPart .title { height:43px;}
+.halfPart .title h3 { height:40px; font:700 18px/40px "Microsoft Yahei"; width:auto;}
+.halfPart .title .more { width:auto; float:right; line-height:40px;}
+
+.halfPart .content { padding:0px; width:100%; background:none;}
+.active .intro { width:260px;} 
+.active .intro h2 { font:700 12px/22px Arial; padding-bottom:5px;}
+.active .intro p.text { line-height:18px; height:72px; overflow:hidden; margin-bottom:5px;}
+.active .intro .more { font-family:宋体;}
+.active .intro .more a { color:#22318f!important;}
+
+.Topic .content { width:450px; height:135px; overflow:hidden; position:relative;}
+.themeList_bottom { width:100%; position:absolute; left:0px; top:0px;}
+.themeList_bottom li { width:100%; float:left;}
+.themeList_bottom li .img { width:32px; height:24px; float:left; margin-right:10px;}
+.themeList_bottom li .img img { display:block; width:32px; height:24px;}
+.themeList_bottom li h3 { width:290px; height:24px; line-height:24px; float:left;}
+.themeList_bottom li .user { width:auto; float:right; line-height:24px;}
+.themeList_bottom li .time { text-align:right; clear:both; color:#646464;}
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+/*
+* name: slide.css
+* version: v1.34
+* update: img最大宽度继承默认（限制100%）
+* date: 2014-08-22
+*/
+.slide { position: relative; overflow:hidden;}
+
+.slide_wrap{position:relative;width:100%;height:100%;overflow:hidden;*zoom:1;}
+.slide_c {float:left;  top: 0; left: 0; width: 100%; height:100%; overflow: hidden; z-index: 1; }
+
+.slide_nav { position: absolute; z-index: 98; }
+.arr_prev, .arr_next { cursor: pointer; z-index: 99; }

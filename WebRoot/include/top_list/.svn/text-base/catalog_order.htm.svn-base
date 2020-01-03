@@ -1,0 +1,380 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+<div class="rankContain"> 
+  <div class="wfull l">
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="products.jsp?flag=grab" target="_blank">挖掘机排行榜</a></h2>
+        <span><a href="products.jsp?flag=grab" target="_blank">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+        		   	<li class="top3">
+        		<em>1</em>
+	          <h3 style="width:170px;"><a href="/proDetail/318DL.shtm" target="_blank" title="卡特彼勒318DL 重型应用液压挖掘机">卡特彼勒318DL 重型应用液压挖掘机</a></h3>
+	          <span>关注指数：68487</span>
+	          <div class="wfull">
+	          <a href="/proDetail/318DL.shtm" target="_blank" title="卡特彼勒318DL 重型应用液压挖掘机">
+	          <img src="/uploadfiles//image/2013/12/20131230133024_910.jpg" width="120" height="90" title="卡特彼勒318DL 重型应用液压挖掘机"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" /></a> 
+	          <a href="javascript:;" class="plbtn" onclick="showinquery(9548)">询价</a></div>
+	        </li>
+        		   	<li class="top3">
+        		<em>2</em>
+	          <h3 style="width:170px;"><a href="/proDetail/SK200-8.shtm" target="_blank" title="神钢SK200-8 挖掘机">神钢SK200-8 挖掘机</a></h3>
+	          <span>关注指数：60875</span>
+	        </li>
+        		   	<li class="top3">
+        		<em>3</em>
+	          <h3 style="width:170px;"><a href="/proDetail/ZX200-3.shtm" target="_blank" title="日立ZX200-3 挖掘机">日立ZX200-3 挖掘机</a></h3>
+	          <span>关注指数：60183</span>
+	        </li>
+        			<li>
+        		<em>4</em>
+	          <h3 style="width:170px;"><a href="/proDetail/SY60C-9(2013K).shtm" target="_blank" title="三一SY60C-9 挖掘机">三一SY60C-9 挖掘机</a></h3>
+	          <span>关注指数：56367</span>
+	        </li>
+        			<li>
+        		<em>5</em>
+	          <h3 style="width:170px;"><a href="/proDetail/320D320DL.shtm" target="_blank" title="卡特彼勒320DGC/320D/320DL 液压挖掘机">卡特彼勒320DGC/320D/320DL 液压挖掘机</a></h3>
+	          <span>关注指数：55744</span>
+	        </li>
+        			<li>
+        		<em>6</em>
+	          <h3 style="width:170px;"><a href="/proDetail/PC70-8.shtm" target="_blank" title="小松PC70-8 挖掘机">小松PC70-8 挖掘机</a></h3>
+	          <span>关注指数：53708</span>
+	        </li>
+        			<li>
+        		<em>7</em>
+	          <h3 style="width:170px;"><a href="/proDetail/307E.shtm" target="_blank" title="卡特彼勒307E 挖掘机">卡特彼勒307E 挖掘机</a></h3>
+	          <span>关注指数：51857</span>
+	        </li>
+        			<li>
+        		<em>8</em>
+	          <h3 style="width:170px;"><a href="/proDetail/PC56-7.shtm" target="_blank" title="小松PC56-7 挖掘机">小松PC56-7 挖掘机</a></h3>
+	          <span>关注指数：42767</span>
+	        </li>
+        			<li>
+        		<em>9</em>
+	          <h3 style="width:170px;"><a href="/proDetail/DH60-7.shtm" target="_blank" title="斗山DH60-7 挖掘机">斗山DH60-7 挖掘机</a></h3>
+	          <span>关注指数：40185</span>
+	        </li>
+        			<li>
+        		<em>10</em>
+	          <h3 style="width:170px;"><a href="/proDetail/PC200-8.shtm" target="_blank" title="小松PC200-8 挖掘机">小松PC200-8 挖掘机</a></h3>
+	          <span>关注指数：33707</span>
+	        </li>
+      </ul>
+    </div>
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="products.jsp?flag=loader" target="_blank">装载机排行榜</a></h2>
+        <span><a href="products.jsp?flag=loader" target="_blank">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+        		   	<li class="top3">
+        		<em>1</em>
+	          <h3 style="width:170px;"><a href="/proDetail/CLG856.shtm" target="_blank" title="柳工CLG856 轮式装载机">柳工CLG856 轮式装载机</a></h3>
+	          <span>关注指数：49488</span>
+	          <div class="wfull">
+	          <a href="/proDetail/CLG856.shtm" target="_blank" title="柳工CLG856 轮式装载机">
+	          <img src="/uploadfiles//image/2013/05/20130530110358_637.jpg" width="120" height="90" title="柳工CLG856 轮式装载机"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/> </a>
+	          <a href="javascript:;" class="plbtn" onclick="showinquery(813)">询价</a></div>
+	        </li>
+        		   	<li class="top3">
+        		<em>2</em>
+	          <h3 style="width:170px;"><a href="/proDetail/ZL30E.shtm" target="_blank" title="柳工ZL30E 轮式装载机">柳工ZL30E 轮式装载机</a></h3>
+	          <span>关注指数：46472</span>
+	        </li>
+        		   	<li class="top3">
+        		<em>3</em>
+	          <h3 style="width:170px;"><a href="/proDetail/CLG855.shtm" target="_blank" title="柳工CLG855 轮式装载机">柳工CLG855 轮式装载机</a></h3>
+	          <span>关注指数：39250</span>
+	        </li>
+        			<li>
+        		<em>4</em>
+	          <h3 style="width:170px;"><a href="/proDetail/DL503.shtm" target="_blank" title="斗山DL503GOLD 轮式装载机">斗山DL503GOLD 轮式装载机</a></h3>
+	          <span>关注指数：27084</span>
+	        </li>
+        			<li>
+        		<em>5</em>
+	          <h3 style="width:170px;"><a href="/proDetail/SEM630B.shtm" target="_blank" title="山工SEM630B 轮式装载机">山工SEM630B 轮式装载机</a></h3>
+	          <span>关注指数：24820</span>
+	        </li>
+        			<li>
+        		<em>6</em>
+	          <h3 style="width:170px;"><a href="/proDetail/CLG855N.shtm" target="_blank" title="柳工CLG855N 轮式装载机">柳工CLG855N 轮式装载机</a></h3>
+	          <span>关注指数：22815</span>
+	        </li>
+        			<li>
+        		<em>7</em>
+	          <h3 style="width:170px;"><a href="/proDetail/ZL50CN.shtm" target="_blank" title="柳工ZL50CN 轮式装载机">柳工ZL50CN 轮式装载机</a></h3>
+	          <span>关注指数：21861</span>
+	        </li>
+        			<li>
+        		<em>8</em>
+	          <h3 style="width:170px;"><a href="/proDetail/816.shtm" target="_blank" title="柳工CLG816C 轮式装载机">柳工CLG816C 轮式装载机</a></h3>
+	          <span>关注指数：20312</span>
+	        </li>
+        			<li>
+        		<em>9</em>
+	          <h3 style="width:170px;"><a href="/proDetail/ZL5-G-I.shtm" target="_blank" title="山工ZL50F-II 轮式装载机">山工ZL50F-II 轮式装载机</a></h3>
+	          <span>关注指数：18992</span>
+	        </li>
+        			<li>
+        		<em>10</em>
+	          <h3 style="width:170px;"><a href="/proDetail/888III.shtm" target="_blank" title="柳工888III 轮式装载机">柳工888III 轮式装载机</a></h3>
+	          <span>关注指数：18371</span>
+	        </li>
+      </ul>
+    </div>
+    
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="products.jsp?flag=bulldozer" target="_blank">推土机排行榜</a></h2>
+        <span><a href="products.jsp?flag=bulldozer" target="_blank">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+        		   	<li class="top3">
+        		<em>1</em>
+	          <h3 style="width:170px;"><a href="/proDetail/SD16BZX.shtm" target="_blank" title="山推SD16 标准型 履带推土机">山推SD16 标准型 履带推土机</a></h3>
+	          <span>关注指数：20898</span>
+	          <div class="wfull">
+	          <a href="/proDetail/SD16BZX.shtm" target="_blank" title="山推SD16 标准型 履带推土机">
+	          <img src="/uploadfiles//image/2013/05/20130522141245_214.jpg" width="120" height="90" title="山推SD16 标准型 履带推土机"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/></a>
+	           <a href="javascript:;" onclick="showinquery(6912)" class="plbtn">询价</a></div>
+	        </li>
+        		   	<li class="top3">
+        		<em>2</em>
+	          <h3 style="width:170px;"><a href="/proDetail/ZD160-3.shtm" target="_blank" title="中联重科ZD160-3 履带推土机">中联重科ZD160-3 履带推土机</a></h3>
+	          <span>关注指数：19159</span>
+	        </li>
+        		   	<li class="top3">
+        		<em>3</em>
+	          <h3 style="width:170px;"><a href="/proDetail/D9T.shtm" target="_blank" title="卡特彼勒D9T 履带推土机">卡特彼勒D9T 履带推土机</a></h3>
+	          <span>关注指数：14619</span>
+	        </li>
+        			<li>
+        		<em>4</em>
+	          <h3 style="width:170px;"><a href="/proDetail/B160.shtm" target="_blank" title="柳工B160 履带推土机">柳工B160 履带推土机</a></h3>
+	          <span>关注指数：12590</span>
+	        </li>
+        			<li>
+        		<em>5</em>
+	          <h3 style="width:170px;"><a href="/proDetail/MD23.shtm" target="_blank" title="大地MD23 履带推土机">大地MD23 履带推土机</a></h3>
+	          <span>关注指数：9969</span>
+	        </li>
+        			<li>
+        		<em>6</em>
+	          <h3 style="width:170px;"><a href="/proDetail/SD22BZX.shtm" target="_blank" title="山推SD22 标准型 履带推土机">山推SD22 标准型 履带推土机</a></h3>
+	          <span>关注指数：6035</span>
+	        </li>
+        			<li>
+        		<em>7</em>
+	          <h3 style="width:170px;"><a href="/proDetail/SD16LSDX.shtm" target="_blank" title="山推SD16L 湿地型 湿地推土机">山推SD16L 湿地型 湿地推土机</a></h3>
+	          <span>关注指数：5684</span>
+	        </li>
+        			<li>
+        		<em>8</em>
+	          <h3 style="width:170px;"><a href="/proDetail/ZD320-3.shtm" target="_blank" title="中联重科ZD320-3 履带推土机">中联重科ZD320-3 履带推土机</a></h3>
+	          <span>关注指数：5033</span>
+	        </li>
+        			<li>
+        		<em>9</em>
+	          <h3 style="width:170px;"><a href="/proDetail/T140-1.shtm" target="_blank" title="宣工T140-1 履带推土机">宣工T140-1 履带推土机</a></h3>
+	          <span>关注指数：4919</span>
+	        </li>
+        			<li>
+        		<em>10</em>
+	          <h3 style="width:170px;"><a href="/proDetail/D11TD11TCD.shtm" target="_blank" title="卡特彼勒D11T  D11T CD 履带推土机">卡特彼勒D11T  D11T CD 履带推土机</a></h3>
+	          <span>关注指数：4561</span>
+	        </li>
+      </ul>
+    </div>
+    
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="products.jsp?flag=grader" target="_blank">平地机排行榜</a></h2>
+        <span><a href="products.jsp?flag=grader" target="_blank">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+        		   	<li class="top3">
+        		<em>1</em>
+	          <h3 style="width:170px;"><a href="/proDetail/418.shtm" target="_blank" title="柳工CLG418 自行式平地机">柳工CLG418 自行式平地机</a></h3>
+	          <span>关注指数：11411</span>
+	          <div class="wfull">
+	          <a href="/proDetail/418.shtm" target="_blank" title="柳工CLG418 自行式平地机">
+	          <img src="/uploadfiles/lg/1312170068176.jpg" width="120" height="90" title="柳工CLG418 自行式平地机"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/> </a>
+	          <a href="javascript:;" onclick="showinquery(1419)" class="plbtn">询价</a></div>
+	        </li>
+        		   	<li class="top3">
+        		<em>2</em>
+	          <h3 style="width:170px;"><a href="/proDetail/G976.shtm" target="_blank" title="沃尔沃G976 自行式平地机">沃尔沃G976 自行式平地机</a></h3>
+	          <span>关注指数：9296</span>
+	        </li>
+        		   	<li class="top3">
+        		<em>3</em>
+	          <h3 style="width:170px;"><a href="/proDetail/PY190B.shtm" target="_blank" title="中联重科PY190B 自行式平地机">中联重科PY190B 自行式平地机</a></h3>
+	          <span>关注指数：8574</span>
+	        </li>
+        			<li>
+        		<em>4</em>
+	          <h3 style="width:170px;"><a href="/proDetail/885TIERIII.shtm" target="_blank" title="凯斯885B 自行式平地机">凯斯885B 自行式平地机</a></h3>
+	          <span>关注指数：7308</span>
+	        </li>
+        			<li>
+        		<em>5</em>
+	          <h3 style="width:170px;"><a href="/proDetail/GR165.shtm" target="_blank" title="徐工GR165 工程系列平地机">徐工GR165 工程系列平地机</a></h3>
+	          <span>关注指数：4224</span>
+	        </li>
+        			<li>
+        		<em>6</em>
+	          <h3 style="width:170px;"><a href="/proDetail/GR215.shtm" target="_blank" title="徐工GR215 工程系列平地机">徐工GR215 工程系列平地机</a></h3>
+	          <span>关注指数：2559</span>
+	        </li>
+        			<li>
+        		<em>7</em>
+	          <h3 style="width:170px;"><a href="/proDetail/GR135.shtm" target="_blank" title="徐工GR135 工程系列平地机">徐工GR135 工程系列平地机</a></h3>
+	          <span>关注指数：2392</span>
+	        </li>
+        			<li>
+        		<em>8</em>
+	          <h3 style="width:170px;"><a href="/proDetail/14M.shtm" target="_blank" title="卡特彼勒14M 自行式平地机">卡特彼勒14M 自行式平地机</a></h3>
+	          <span>关注指数：2154</span>
+	        </li>
+        			<li>
+        		<em>9</em>
+	          <h3 style="width:170px;"><a href="/proDetail/SHG190C.shtm" target="_blank" title="三一SHG190C 自行式平地机">三一SHG190C 自行式平地机</a></h3>
+	          <span>关注指数：1651</span>
+	        </li>
+        			<li>
+        		<em>10</em>
+	          <h3 style="width:170px;"><a href="/proDetail/GR300.shtm" target="_blank" title="徐工GR300 矿用型平地机">徐工GR300 矿用型平地机</a></h3>
+	          <span>关注指数：1535</span>
+	        </li>
+      </ul>
+    </div>
+    
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="products.jsp?flag=crane" target="_blank">起重机排行榜</a></h2>
+        <span><a href="products.jsp?flag=crane" target="_blank">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+        		   	<li class="top3">
+        		<em>1</em>
+	          <h3 style="width:170px;"><a href="/proDetail/QY20H431.shtm" target="_blank" title="中联重科QY20HF431 汽车起重机">中联重科QY20HF431 汽车起重机</a></h3>
+	          <span>关注指数：16518</span>
+	          <div class="wfull">
+	         <a href="/proDetail/QY20H431.shtm" target="_blank" title="中联重科QY20HF431 汽车起重机">
+	         <img src="/uploadfiles//image/2013/06/20130627174111_346.jpg" width="120" height="90" title="中联重科QY20HF431 汽车起重机"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);"/> </a>
+	          <a href="javascript:;"  class="plbtn" onclick="showinquery(1472)">询价</a></div>
+	        </li>
+        		   	<li class="top3">
+        		<em>2</em>
+	          <h3 style="width:170px;"><a href="/proDetail/QY16HF431-34.shtm" target="_blank" title="中联重科QY16HF431 汽车起重机">中联重科QY16HF431 汽车起重机</a></h3>
+	          <span>关注指数：16231</span>
+	        </li>
+        		   	<li class="top3">
+        		<em>3</em>
+	          <h3 style="width:170px;"><a href="/proDetail/QY25K5.shtm" target="_blank" title="徐工QY25K5 汽车起重机">徐工QY25K5 汽车起重机</a></h3>
+	          <span>关注指数：12994</span>
+	        </li>
+        			<li>
+        		<em>4</em>
+	          <h3 style="width:170px;"><a href="/proDetail/QY8F.shtm" target="_blank" title="四川长起QY8F 汽车起重机">四川长起QY8F 汽车起重机</a></h3>
+	          <span>关注指数：10938</span>
+	        </li>
+        			<li>
+        		<em>5</em>
+	          <h3 style="width:170px;"><a href="/proDetail/LTM11200-9.1.shtm" target="_blank" title="利勃海尔LTM 11200-9.1 汽车起重机">利勃海尔LTM 11200-9.1 汽车起重机</a></h3>
+	          <span>关注指数：9830</span>
+	        </li>
+        			<li>
+        		<em>6</em>
+	          <h3 style="width:170px;"><a href="/proDetail/QY12D.shtm" target="_blank" title="中联重科QY12DF331 汽车起重机">中联重科QY12DF331 汽车起重机</a></h3>
+	          <span>关注指数：9464</span>
+	        </li>
+        			<li>
+        		<em>7</em>
+	          <h3 style="width:170px;"><a href="/proDetail/TC5610-6.shtm" target="_blank" title="中联重科TC5610-6 锤头塔式起重机">中联重科TC5610-6 锤头塔式起重机</a></h3>
+	          <span>关注指数：8329</span>
+	        </li>
+        			<li>
+        		<em>8</em>
+	          <h3 style="width:170px;"><a href="/proDetail/QY50G.shtm" target="_blank" title="四川长起QY50G 汽车起重机">四川长起QY50G 汽车起重机</a></h3>
+	          <span>关注指数：7670</span>
+	        </li>
+        			<li>
+        		<em>9</em>
+	          <h3 style="width:170px;"><a href="/proDetail/SCC500E.shtm" target="_blank" title="三一SCC500E 常规吊装系列履带起重机">三一SCC500E 常规吊装系列履带起重机</a></h3>
+	          <span>关注指数：7526</span>
+	        </li>
+        			<li>
+        		<em>10</em>
+	          <h3 style="width:170px;"><a href="/proDetail/QY50V532.shtm" target="_blank" title="中联重科QY50V532 汽车起重机">中联重科QY50V532 汽车起重机</a></h3>
+	          <span>关注指数：5160</span>
+	        </li>
+      </ul>
+    </div>
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="products.jsp?flag=roller" target="_blank">压路机排行榜</a></h2>
+        <span><a href="products.jsp?flag=roller" target="_blank">更多&gt;&gt;</a></span>
+      </div>
+      <ul>
+        		   	<li class="top3">
+        		<em>1</em>
+	          <h3 style="width:170px;"><a href="/proDetail/620A.shtm" target="_blank" title="柳工CLG620A 单钢轮压路机">柳工CLG620A 单钢轮压路机</a></h3>
+	          <span>关注指数：13324</span>
+	          <div class="wfull">
+	          <a href="/proDetail/620A.shtm" target="_blank" title="柳工CLG620A 单钢轮压路机">
+	          <img src="/uploadfiles/lg/1304503748233.jpg" width="120" height="90" title="柳工CLG620A 单钢轮压路机"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" /></a>
+	           <a href="javascript:;" onclick="showinquery(1380)" class="plbtn">询价</a></div>
+	        </li>
+        		   	<li class="top3">
+        		<em>2</em>
+	          <h3 style="width:170px;"><a href="/proDetail/SEM8218.shtm" target="_blank" title="山工SEM8218 单钢轮压路机">山工SEM8218 单钢轮压路机</a></h3>
+	          <span>关注指数：11663</span>
+	        </li>
+        		   	<li class="top3">
+        		<em>3</em>
+	          <h3 style="width:170px;"><a href="/proDetail/LT220B.shtm" target="_blank" title="一拖LT220B 单钢轮压路机">一拖LT220B 单钢轮压路机</a></h3>
+	          <span>关注指数：10121</span>
+	        </li>
+        			<li>
+        		<em>4</em>
+	          <h3 style="width:170px;"><a href="/proDetail/XG62513C.shtm" target="_blank" title="厦工XG62513C 冲击式压路机">厦工XG62513C 冲击式压路机</a></h3>
+	          <span>关注指数：9001</span>
+	        </li>
+        			<li>
+        		<em>5</em>
+	          <h3 style="width:170px;"><a href="/proDetail/LG520D.shtm" target="_blank" title="龙工LG520D 单钢轮压路机">龙工LG520D 单钢轮压路机</a></h3>
+	          <span>关注指数：8777</span>
+	        </li>
+        			<li>
+        		<em>6</em>
+	          <h3 style="width:170px;"><a href="/proDetail/LT216B.shtm" target="_blank" title="一拖LT216B 单钢轮压路机">一拖LT216B 单钢轮压路机</a></h3>
+	          <span>关注指数：8007</span>
+	        </li>
+        			<li>
+        		<em>7</em>
+	          <h3 style="width:170px;"><a href="/proDetail/XG6011D.shtm" target="_blank" title="厦工XG6011D 串联式振动压路机">厦工XG6011D 串联式振动压路机</a></h3>
+	          <span>关注指数：7841</span>
+	        </li>
+        			<li>
+        		<em>8</em>
+	          <h3 style="width:170px;"><a href="/proDetail/SV512D-512T-512TF.shtm" target="_blank" title="酒井SV512D/512T/512TF 单钢轮压路机">酒井SV512D/512T/512TF 单钢轮压路机</a></h3>
+	          <span>关注指数：7418</span>
+	        </li>
+        			<li>
+        		<em>9</em>
+	          <h3 style="width:170px;"><a href="/proDetail/LF6500.shtm" target="_blank" title="戴纳派克LF6500 双钢轮压路机">戴纳派克LF6500 双钢轮压路机</a></h3>
+	          <span>关注指数：7373</span>
+	        </li>
+        			<li>
+        		<em>10</em>
+	          <h3 style="width:170px;"><a href="/proDetail/YZC12GS.shtm" target="_blank" title="一拖YZC12GS 双钢轮压路机">一拖YZC12GS 双钢轮压路机</a></h3>
+	          <span>关注指数：6912</span>
+	        </li>
+      </ul>
+    </div>
+  </div>  
+  </div>

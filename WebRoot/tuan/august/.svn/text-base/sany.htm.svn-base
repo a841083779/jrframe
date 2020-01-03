@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>三一挖掘机专场_八月优买团，梦想新航线，未来合伙人_21-sun优买团</title>
+<meta name="keywords" content="21-sun优买团,诚邀合伙人,卡特迷你挖掘机,山工装载机,三一挖掘机,卡特挖机,山推专场,配件,破碎锤" />
+<meta name="description" content="21-sun优买团,中国工程机械商贸网13周年感恩回馈客户,梦想新航线未来合伙人,热销机型包括,卡特迷你挖掘机,山工装载机,三一挖掘机,卡特挖机,山推机械等专场优惠" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/common.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".nav li:eq(3)").addClass("selected");
+  $(".sideGuide a:eq(4)").addClass("selected");
+  $(".sanyTabs a").click(function () {
+	    $(".main").css("background-image","none");
+		$("#BigImage").fadeTo(0, 0);
+		$("#BigImage").attr("src", jQuery(this).attr("href"));
+		$("#BigImage").fadeTo(300, 1);
+		$(".sanyTabs a").removeClass("selected");
+		$(this).addClass("selected");
+		return false;
+	})
+  $(".sanyTabs a").click(function(){
+	  $(".zhengce").slideUp(300);
+  })	
+  $(".sanyTabs a.juhe").click(function(){
+	  $(".zc1").slideDown(300);
+  })
+  $(".sanyTabs a.tongcheng").click(function(){
+	  $(".zc2").slideDown(300);
+  })
+  $(".sanyTabs a.shenghe").click(function(){
+	  $(".zc3").slideDown(300);
+  })	
+});
+</script>
+</head>
+<body id="top" class="sany">
+<!--#include virtual="include/top.jsp"-->
+<div class="main">
+  <div class="wrapper banner">
+    <div class="sanyBanner"><img src="images/sany_banner.jpg" name="BigImage" width="1000" height="400" id="BigImage" /></div>
+    <div class="sanyTabs">
+      <ul class="clearfix">
+        <li><a href="images/sany_banner01.jpg">湖南中旺</a></li>
+        <li><a href="images/sany_banner02.jpg">临沂亚华</a></li>
+        <li><a href="images/sany_banner03.jpg">江苏力好</a></li>
+        <li><a href="images/sany_banner04.jpg">重庆国杰</a></li>
+        <li><a class="juhe" href="images/sany_banner05.jpg">广州巨和</a></li>
+        <li><a href="images/sany_banner06.jpg">新疆京泓</a></li>
+        <li><a href="images/sany_banner07.jpg">吉林三君</a></li>
+        <li><a href="images/sany_banner08.jpg">合肥湘元</a></li>
+        <li><a href="images/sany_banner09.jpg">郑州湘元</a></li>
+        <li style="border-right:none;"><a href="images/sany_banner10.jpg" class="tongcheng">贵州通程兄弟</a></li>
+        <li><a href="images/sany_banner11.jpg" class="shenghe">四川盛和</a></li>
+        <li><a href="images/sany_banner12.jpg">江西中旺</a></li>
+        <li><a href="images/sany_banner13.jpg">烟台宏通</a></li>
+        <li><a href="images/sany_banner14.jpg">云南睿德</a></li>
+        <li><a href="images/sany_banner15.jpg">山西三龙聚兴</a></li>
+        <li>包头弘达</li>
+        <li>宜昌博勒</li>
+        <li>张掖海峰</li>
+        <li>宁夏三益</li>
+        <li>武汉九州龙</li>
+        <li style="border-right:none;">北京三一众力</li>
+        <li>陕西悦大</li>
+        <li>陕西泰亨</li>
+        <li>浙江成峰</li>
+        <li>青海海畴</li>
+        <li>广西山宁</li>
+        <li>鸿泰百川</li>
+        <li>西昌和宁</li>
+        <li>辽宁三君</li>
+        <li style="border-right:none;">福建闽瑞通</li>
+        <li>无锡永佳利</li>
+        <li>黑龙江三君</li>
+        <li>海南海龙鹏</li>
+        <li>连云港福泰</li>
+        <li>内蒙古君泰</li>
+        <li>张家口助友</li>
+        <li style="width:104px;">石家庄三一众力</li>
+      </ul>
+    </div>
+  </div>
+  <div class="tuan_part01" id="tuanPart">
+    <div class="main-con tuanParts clearfix">
+      <div class="title">
+        <h3>三一挖掘机专场</h3>
+        <span class="tel">更多优惠请咨询：0535-6791286</span>
+      </div>
+      <div class="content">
+        <div class="zhengce zc1" style="display:none;">
+          <strong>优惠政策：</strong><br>
+          <span style="font-size:18px; font-weight:bold; line-height:30px;">关于三一SY55C-9机型荣获中国精品小挖称号</span> 凡2013年7月25日至2013年9月30日购买小挖可享受以下优惠政策：(二选一)<br />
+          <b>方案一：</b>（1）三年打包价 34.5万元　　（2）赠送1年或2000小时保养件<br />
+          <b>方案二：</b>（1）三年打包价 34.5万元　　（2）赠送管路及3800元配件
+        </div>
+        <ul class="list proList02">
+          <li>
+            <h2><a href="http://product.21-sun.com/proDetail/SY55C-92013K.shtm" target="_blank">三一2013款C9系列SY55C-9挖掘机</a></h2>
+            <a href="http://product.21-sun.com/proDetail/SY55C-92013K.shtm" target="_blank" class="img"><img src="images/SY55C-9.jpg" alt="三一2013款C9系列SY55C-9挖掘机" width="275" height="218" /></a>
+            <a onclick="showinquery('18533','');" target="_self" href="javascript:void(0);" title="立即预订" class="ydbtn"><img src="images/buy_btn02_x.gif" alt="立即预订" width="201" height="50" /></a>
+          </li>
+          <li>
+            <h2><a href="http://product.21-sun.com/proDetail/SY60C-9（2013K）.shtm" target="_blank">三一2013款C9系列SY60C-9挖掘机</a></h2>
+            <a href="http://product.21-sun.com/proDetail/SY60C-9（2013K）.shtm" target="_blank" class="img"><img src="images/SY60C-9.jpg" alt="三一2013款C9系列SY60C-9挖掘机" width="275" height="218" /></a>
+            <a onclick="showinquery('18534','');" target="_self" href="javascript:void(0);" title="立即预订" class="ydbtn"><img src="images/buy_btn02_x.gif" alt="立即预订" width="201" height="50" /></a>
+          </li>
+          <li>
+            <h2><a href="http://product.21-sun.com/proDetail/SY65C-9（2013K）.shtm" target="_blank">三一2013款C9系列SY65C-9挖掘机</a></h2>
+            <a href="http://product.21-sun.com/proDetail/SY65C-9（2013K）.shtm" target="_blank" class="img"><img src="images/SY65C-9.jpg" alt="三一2013款C9系列SY65C-9挖掘机" width="275" height="218" /></a>
+            <a onclick="showinquery('18536','');" target="_self" href="javascript:void(0);" title="立即预订" class="ydbtn"><img src="images/buy_btn02_x.gif" alt="立即预订" width="201" height="50" /></a>
+          </li>
+          <li>
+            <h2><a href="http://product.21-sun.com/proDetail/SY205C-9.shtm" target="_blank">三一2013款C9系列SY205C-9挖掘机</a></h2>
+            <a href="http://product.21-sun.com/proDetail/SY205C-9.shtm" target="_blank" class="img"><img src="images/SY205C-9.jpg" alt="三一2013款C9系列SY205C-9挖掘机" width="275" height="218" /></a>
+            <a onclick="showinquery('18540','');" target="_self" href="javascript:void(0);" title="立即预订" class="ydbtn"><img src="images/buy_btn02_x.gif" alt="立即预订" width="201" height="50" /></a>
+          </li>
+          <li>
+            <h2><a href="http://product.21-sun.com/proDetail/SY215C92013K.shtm" target="_blank">三一2013款C9系列SY215C-9挖掘机</a></h2>
+            <a href="http://product.21-sun.com/proDetail/SY215C92013K.shtm" target="_blank" class="img"><img src="images/SY215C-9.jpg" alt="三一2013款C9系列SY215C-9挖掘机" width="275" height="218" /></a>
+            <a onclick="showinquery('18542','');" target="_self" href="javascript:void(0);" title="立即预订" class="ydbtn"><img src="images/buy_btn02_x.gif" alt="立即预订" width="201" height="50" /></a>
+          </li>
+          <li>
+            <h2><a href="http://product.21-sun.com/proDetail/SY335C-9H（2013K）.shtm" target="_blank">三一2013款C9系列SY335C-9H挖掘机</a></h2>
+            <a href="http://product.21-sun.com/proDetail/SY335C-9H（2013K）.shtm" target="_blank" class="img"><img src="images/SY335C-9H.jpg" alt="三一2013款C9系列SY335C-9H挖掘机" width="275" height="218" /></a>
+            <a onclick="showinquery('18546','');" target="_self" href="javascript:void(0);" title="立即预订" class="ydbtn"><img src="images/buy_btn02_x.gif" alt="立即预订" width="201" height="50" /></a>
+          </li>
+        </ul>
+        <div class="zhengce zc2" style="display:none;">
+          <strong>公司简介：</strong><br>
+          　　贵州通程兄弟工程机械有限公司隶属于湖南容润集团，总部位于湖南长沙，公司于2008年12月在贵阳注册登记成立，是三一重机贵州省唯一授权总代理。主营业务：三一挖掘机整机及配件的销售及技术服务、三一V8混凝土成套设备的销售及技术服务。<br />
+　　公司在全省9个地州市共设有18个分公司，32个服务网点，共有员工357人，其中服务工程师队伍160人，服务车辆70辆，服务半径90km，以可靠的服务能力，坚持做贵州工程机械行业用户满意度第一品牌。截至2012年12月31日，三一品牌在贵州市场占有率已连续2年排名第一！
+        </div>
+        <div class="zhengce zc3" style="display:none;">
+          <strong>公司简介：</strong><br>
+          　　四川盛和机械设备有限公司隶属于湖南容润集团，总部位于四川成都， 公司最早成创建于2006年，最早名为为重机分公司由三一自营,后2007年6月友盛机械（代理商）、2008年8月四川盛和收购友盛（代理商）、2009年6月湖南容润和三一投资收购四川盛和（代理商），于2009年正式注册成立。<br />
+　　四川盛和机械设备有限公司在四川省内共计拥有11家分公司，27个服务网点，公司致力于打造服务第一品牌，目前拥有员工近300名，其中服务人员120名，服务车辆60台，服务半径90公里，努力打造挖掘机市场服务第一品牌。
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tuan_part02">
+    <div class="wrapper">
+      <p class="text">　　2011年三一挖掘机以年销售20614台的佳绩，首次击败外资品牌问鼎中原，从而结束了外资品牌长达20年的市场垄断地位；2012年三一挖掘机的市场销量领先地位再次得到巩固，市场是产品综合品质的最好试金石。<br />
+      　　携2011年和2012年C9系列挖机的佳绩，2013年三一重机再次重磅推出全新C-9系列2013版挖掘机，该系列挖机是三一重机千名研发工程师历时2年和上千次试验开发的专为适应中国施工环境的新一代挖掘机。在上一代系列挖掘机的基础上，采用DOMCS动态寻优智能匹配控制系统等最新三一专属技术，较上一代机型进行了3大提升（节能环保、高效持久、稳定可靠）和6大升级（驾驶舒适性、作业安全性、操控精准性、使用耐久性、维护便捷性、管理智能化），整机更节能环保、高效可靠。 </p>
+    </div>
+  </div>
+</div>
+<div class="foot">
+<!--#include virtual="/include/foot.jsp"--> 
+</div>
+<!--#include virtual="include/side_guide.jsp"-->
+</body>
+<!-- jbox -->
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<script type="text/javascript">
+//图片预加载
+function MM_preloadImages() {
+ var d=document;
+ if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+ var i,j=d.MM_p.length,a=MM_preloadImages.arguments;
+ for(i=0; i<a.length; i++)
+ if (a[i].indexOf("#")!=0){
+  d.MM_p[j]=new Image;
+  d.MM_p[j++].src=a[i];
+  }
+ }
+}
+MM_preloadImages("images/sany_banner01.jpg","images/sany_banner02.jpg","images/sany_banner03.jpg","images/sany_banner04.jpg","images/sany_banner05.jpg","images/sany_banner06.jpg","images/sany_banner07.jpg","images/sany_banner08.jpg","images/sany_banner09.jpg","images/sany_banner10.jpg","images/sany_banner11.jpg","images/sany_banner12.jpg","images/sany_banner13.jpg","images/sany_banner14.jpg","images/sany_banner15.jpg");
+</script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<script type="text/javascript">
+function showinquery(pid,factoryid){
+	jQuery.jBox("iframe:/include/products/product_order.jsp?productid="+pid+"&factoryid="+factoryid, {
+	title: "在线询价",
+	width: 720,
+	height: 435,
+	top: '20%',
+	iframeScrolling : 'no',
+	buttons: { '关闭': false }
+	});
+	jQuery(".jbox-button-panel").attr("style","display:none;") ;
+}
+</script>
+</html>

@@ -1,0 +1,389 @@
+10
+
+dir
+4430
+svn://192.168.0.10/website/201221sunProducts2012/21sun_products_2012/WebRoot/backend
+svn://192.168.0.10/website/201221sunProducts2012
+
+
+
+2014-10-11T03:34:43.005052Z
+4390
+zengfancheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9eb67698-83fa-5342-8b4e-6ed5369eb7f4
+
+after_own.jsp
+file
+
+
+
+
+2016-03-21T02:54:13.719069Z
+5ee97e0fbb766f3bc475ad31009c2473
+2014-08-11T03:51:17.269785Z
+3967
+zengfancheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+29700
+
+pro_products
+dir
+
+pro_photo_group
+dir
+
+function
+dir
+
+pro_400_task1
+dir
+
+pro_400_task2
+dir
+
+scripts
+dir
+
+common_log
+dir
+
+pro_catalog
+dir
+
+pro_product_pic
+dir
+
+common_channel_subblock_data
+dir
+
+pro_user
+dir
+
+pro_famous_person
+dir
+
+index.jsp
+file
+
+
+
+
+2016-03-21T02:54:13.723069Z
+30f65dde9033e4d25d1923b32c7fcb46
+2014-08-11T03:51:17.269785Z
+3967
+zengfancheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4714
+
+pro_products_used
+dir
+
+pro_comments
+dir
+
+pro_agent_factory
+dir
+
+pro_weixiu_info
+dir
+
+images
+dir
+
+common_role
+dir
+
+pro_product_form_blacklist
+dir
+
+common_enum
+dir
+
+data_analysis
+dir
+
+index_bak.jsp
+file
+
+
+
+
+2016-03-21T02:54:13.728070Z
+d92160b0fc8dc9f2ef413151678c52ea
+2013-06-07T00:14:35.953125Z
+2859
+zhanghonglei
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4656
+
+common_channel
+dir
+
+pro_charge_members
+dir
+
+pro_400
+dir
+
+common_template
+dir
+
+pro_product_form
+dir
+
+pro_factory_category
+dir
+
+error.jsp
+file
+
+
+
+
+2016-03-21T02:54:13.738070Z
+2d3861f070580df7b6454b9189c6b320
+2012-07-09T09:28:02.968750Z
+2
+wangguoqiang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+847
+
+common_user
+dir
+
+welcome.jsp
+file
+
+
+
+
+2016-03-21T02:54:13.741070Z
+1121bbda732e910f1cf918903417fead
+2012-07-09T09:28:02.968750Z
+2
+wangguoqiang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1060
+
+pro_tuan
+dir
+
+pro_case_news
+dir
+
+pro_member
+dir
+
+pro_tuan_pros
+dir
+
+menu.jsp
+file
+
+
+
+
+2016-03-21T02:54:13.745071Z
+8841aa0af4b7a3fd2a03acbdfe65fafa
+2014-08-11T03:51:17.269785Z
+3967
+zengfancheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3228
+
+style
+dir
+
+sms
+dir
+
+goto.jsp
+file
+
+
+
+
+2016-03-21T02:54:13.748071Z
+3809ae4ef4bbfe4bd4124197f8713a8e
+2012-07-25T05:54:51.937500Z
+255
+wangguoqiang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+996
+
+common_channel_subblock
+dir
+
+pro_product_form_del
+dir
+
+ad_search
+dir
+
+pro_flagship_category
+dir
+
+pro_product_used_pic
+dir
+
+template
+dir
+
+action
+dir
+

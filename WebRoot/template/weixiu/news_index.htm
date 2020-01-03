@@ -1,0 +1,29 @@
+<#assign list1 = query(" select top 1 id,title,add_date,content from article where  is_pub=1 and title like '%维修%' order by add_date desc ")> 
+<#assign list2 = query(" select top 7 id,title,add_date,content from article where  is_pub=1 and title like '%维修%' and id!=(select top 1 id from article where  is_pub=1 and title like '%维修%' order by add_date desc ) order by add_date desc ")> 
+		  
+		  <#if list1??&&(list1?size>0)>
+          <#list list1 as one>
+		  <div class="_top"> <a href="/news_${one.id?c}.htm" target="_blank" title="${one.title}">
+          <h3 class="_title">${one.title}</h3>
+          <p class="_p"> 		 
+		  <#if (one.content??&&(one.content?length gt 50))>
+                <span class="num" >${one.content?substring(0,50)}...</span>
+		  <#else>
+		         <span class="num" >${one.content}</span>
+		  </#if> 
+		  </p>
+          </a> 
+		  </div>
+          </#list>
+          </#if>
+		  
+		  <div class="_list">
+          <ul>  
+		   <#if list2??&&(list2?size>0)>
+                <#list list2 as one>
+				    <li> <a href="/news_${one.id?c}.htm" target="_blank" title="${one.title}" class="el"> ${one.title} </a> <span class="date">${one.add_date?substring(0,11)} </span> </li>
+			     </#list>
+           </#if>
+          </ul>
+          </div>
+	

@@ -1,0 +1,6 @@
+/*
+* cons.css
+*/
+.conscroll{position:relative;overflow:hidden;}
+.conscroll ul { position: absolute; left: 0; top:0 ;}
+.conscroll .arrs{cursor:pointer;}

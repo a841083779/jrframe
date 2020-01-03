@@ -1,0 +1,2 @@
+﻿<%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
+<div class="ewm1"><img src="/images/erweima.jpg" width="151" height="145" /><p>关注本微信，每天有各种产品推荐，各种开工项目，更有好礼抽奖活动</p></div>

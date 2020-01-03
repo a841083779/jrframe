@@ -1,0 +1,180 @@
+/**
+ * index
+ */
+define(function(require) {
+	var $ = require('jquery');
+	var base=require('base');
+	require('./common');
+	
+	//console.log('hello '+base.getType())
+
+	$('.allCates').addClass('indexCates');
+
+	require('slide');
+	$('.adBox01').slide({
+		imgattr:'slide-src'
+	});
+	
+	//优买团
+	$('.tuanList .tuanBox:first').stop().animate({width:600},'fast');
+	$('.tuanList .tuanBox').mouseenter(function(){
+		$(this).stop().animate({width:600},'fast').siblings().stop().animate({width:200},'fast');
+	});
+	
+	//挖掘机左侧筛选
+	require('sele');
+	$('.wjj_sele01').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	$('.wjj_sele02').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	$('.wjj_sele03').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	
+	//装载机左侧筛选
+	$('.zzj_sele01').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	$('.zzj_sele02').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	$('.zzj_sele03').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	
+	//起重机左侧筛选
+	$('.qzj_sele01').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	$('.qzj_sele02').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	$('.qzj_sele03').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	
+	//混凝土左侧筛选
+	$('.hnt_sele01').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	$('.hnt_sele02').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	$('.hnt_sele03').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	
+	$('.txd_mpro_list li').mouseenter(function(e) {
+		$(this).find('.mp_price').show();
+	}).mouseleave(function(){
+		$(this).find('.mp_price').hide();
+	});
+	
+	require('tab');
+	$('.rankTab').tab({
+		posi_auto:false,
+		act:'mouseenter'
+	});
+	$('.otherBox').tab({
+		posi_auto:false,
+		act:'mouseenter'
+	});
+	
+	require('album');
+	require('scroll-bar');
+	//获取口碑数据
+	function koubeiList(catalog){
+		
+		var getUrl='/create_index/index_'+catalog+'_koubei.htm';
+		$.ajax({
+			type:'get',
+			url:getUrl,
+			dataType:'html',
+			data:{
+				item:'001'
+			},
+			success:function(html){
+				$('#kbListAjax').html(html);
+				$('.zoomList').album({
+					type:2
+				})
+				$('.kbList').scrollBar();
+			}
+		});
+	};
+	//获取数据
+	koubeiList('wjj');
+	$('.kb_hd a').click(function(e){
+		e.preventDefault();
+		var _this=$(this);
+	    var catalog=$(this).data('val');
+		koubeiList(catalog);
+		$(this).parent().addClass('cur').siblings().removeClass('cur')
+	})
+	
+	//二手机下拉
+	$('.used_sele01').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	$('.used_sele02').sele({
+		act:"click",
+		callback:function(val,text){
+			
+		}    
+	});
+	
+	//刷新二手
+	$('#reloadUsed').click(function(e){
+			$.ajax({
+		        url:"/action/ajax.jsp",
+		        type:"post",
+		        data:{"flag":"reloadUsed"},
+		        success:function(data){
+		              $("#used_list").html(data);
+		        }
+	        });
+	})
+	
+})
+

@@ -1,0 +1,88 @@
+/* CSS Document */
+.mb15 { margin-bottom:15px;}
+.slide { position: relative; width:100%; }
+.ban_c { display:none;position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; }
+.ban_c img { width: 100%; height: 100%; }
+.ban_nav { position: absolute; bottom: 0; right:0;font-size:0;z-index: 4; }
+.ban_nav a { display: inline-block; vertical-align: middle; width: 14px; height: 14px; line-height: 14px; overflow: hidden; text-align: center; margin-right: 8px; cursor: pointer; text-decoration: none; font-size: 10px; -webkit-text-size-adjust: none; background: #333; color:#fff;border-radius:50%;}
+.ban_nav .on { background: #3789ef; color: #fff; }
+.Left, .Right { cursor: pointer; }
+
+body { font-family:"Microsoft Yahei"; background:#e2e2e2;}
+.shop_topbg { width:100%; height:105px; clear:both; background:#fff;}
+.shop_topbg h2 { width:auto; height:73px; float:left;}
+.shop_bm { width:auto; height:auto; float:right; margin:0px 33px 0px 0px; _display:inline;}
+.shop_tel { width:160px; float:right; font-size:16px; line-height:22px; color:#fff; padding-top:14px;}
+
+.shopNav { height:32px; background-color:#f5821f; clear:both;}
+.shopNav li { width:auto; height:32px; float:left; background:url(../images/shop_nav_line.png) left no-repeat; padding-left:2px;}
+.shopNav li a { display:inline-block; width:auto; height:32px; line-height:32px; font-size:14px; color:#fff; position:relative; padding:0px 22px; overflow:hidden;}
+.shopNav li a:hover,.shopNav li a.selected {}
+
+.shopBanner { height:520px; overflow:hidden; margin-bottom:15px;}
+.shopBanner .ban_nav { right:50%; margin-right:-475px; bottom:10px;}
+.shopBanner .ban_nav a { width:16px; height:16px; background-color:#d9d9d9; font:0/0 a; letter-spacing:-9px;}
+.shopBanner .ban_nav a.on { background-color:#f5821f;}
+.shopBanner .ban_c img { width:1920px; height:520px; position:absolute; left:50%; top:0px; margin-left:-960px;}
+
+.scroll { width:980px; height:130px; position:relative;}
+.scroll .bd { width:980px; margin:0px 0px; position:relative; overflow:hidden;}
+.scroll .bd ul { width:9999px; float:left;}
+.scroll .bd li { width:242px; height:130px; float:left; background-color:#686d71; margin-right:3px;}
+.scroll .bd img { width:145px; height:130px; float:left;}
+.scroll .bd h3 { width:82px; height:80px; float:left; padding-left:15px; padding-top:50px; line-height:18px; font-size:14px; font-weight:normal; font-family:Arial;}
+.scroll .bd a { color:#fff; display:block; width:100%; height:130px;}
+.scroll .bd a:hover h3 { color:#fff; background-color:#ed6d00;}
+.scroll .arr { display:block; width:45px; height:95px; position:absolute; top:14px; background:url(../images/slide_btn.png) no-repeat; color:#fff; overflow:hidden;}
+.scroll .prev { left:-50px;}
+.scroll .next { right:-50px; background-position:-45px 0px;}
+
+.shopWrap { width:980px; background-color:#fff; padding-left:0px; padding-right:0px; clear:both; margin-left:auto; margin-right:auto;}
+
+.recPro { position:relative;}
+.xj_btn { width:auto; height:35px; line-height:34px; color:#fff!important; font-size:22px; font-weight:bold; background-color:#ed6d00; padding:0px 16px; position:absolute; left:64px; top:273px;}
+
+.about_intro { padding-top:1px; padding-bottom:10px;}
+.about_intro .box { background-color:#717171;}
+.about_intro .l { border-right:#fff 1px solid; margin-right:30px;}
+.about_intro .text { padding-top:20px; line-height:24px; color:#fff; padding-right:30px;}
+
+.shopWrap .hd { height:57px; background:#ed6d00; margin-bottom:0px; position:relative; cursor:default;}
+.shopWrap .hd h3 { font-size:30px; font-weight:bold; color:#fff; line-height:57px; padding-left:45px; background:url(../images/t_p.png) 19px 21px no-repeat;}
+.shopWrap .hd .more { width:84px; height:34px; line-height:30px; text-align:center; background:url(../images/more.png) no-repeat; color:#fff; position:absolute; right:0px; top:14px; font:0/0 a;}
+.shopWrap .hd .more a { color:#fff!important; display:block; width:100%; height:34px;}
+.proList { width:100%; overflow:hidden; position:relative;}
+.proList ul { width:110%; *padding-bottom:10px; padding:10px 0px 0px 10px;}
+.proList li { width:235px; height:330px; border:#434343 0px solid; float:left; margin:0px 6px 10px 0px; position:relative; background-color:#e2e2e2;}
+.proList .img { width:233px; height:230px; border:#e2e2e2 1px solid; background-color:#fff; overflow:hidden;} 
+.proList .img a { display:block; width:100%; height:205px; padding-top:25px;}
+.proList img { display:block; width:230px; height:172px; margin:0 auto;}
+.proList .intro { width:100%; height:52px; background-color:#ed6c00; position:relative; border-bottom:#fff 1px solid;}
+.proList .intro .cate { font-size:11px; height:25px; line-height:24px; background:url(../images/pro_list_logo.png) 0px -30px no-repeat; padding-left:113px; color:#fff; display:block;}
+.proList .btn { display:block; width:93px; height:28px; position:absolute; right:13px; bottom:10px; background:#ed6c00; color:#fff; font:16px/28px "Microsoft Yahei"; text-align:center; border-bottom:#383838 1px solid; border-right:#383838 1px solid;} 
+.proList .intro h3 { font-size:12px; width:220px; height:26px; line-height:26px; word-break:break-all; overflow:hidden; padding:0px 0px 0px 9px; font-weight:normal;}
+.proList .intro h3 a { color:#fff!important;}
+.proList .intro h3 b { font-weight:normal; font-size:16px; margin-right:3px;}
+.proList .otLink { display:block; height:45px; line-height:45px; padding-left:15px;}
+.proList .otLink em { font-style:normal; margin:0px 8px;}
+
+.proList li.hover .intro { background:#686d71;}
+.proList li.hover .intro .cate { background-position:0px 0px;}
+
+.proOrder .content { height:374px; background-color:#fff;}
+.proOrder .i2 { width:293px;}
+.proOrder .list08 div.li ul li.i2 { width:288px;}
+.proOrder .i3 { width:140px;}
+.proOrder .i6 { width:146px;}
+
+.proOrder .list08 div.li { margin-bottom:0px;}
+
+.proOrder .New_website { display:none;}
+.proOrder .New_foot { margin-top:15px;}
+
+.order_title { width:100%; float:left; border-bottom:#e0e0e0 1px solid;}
+.order_title h3 { width:auto; float:left; font:700 14px/25px Arial; color:#333; padding-left:10px;}
+.order_title span.more { width:auto; float:right; font-family:宋体; line-height:25px; padding-right:10px;}
+
+.bottombg { background:#bfbfbf; clear:both; padding-top:10px; margin-top:20px;}
+.bottombg .New_website { margin-top:0;}

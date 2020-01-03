@@ -1,0 +1,47 @@
+/* CSS Document */
+body.tuan { background:url(../images/bodybg.gif) repeat;}
+.tuanTop { clear:both; background-color:#fff;}
+.tuan_nav { display:none;}
+.banner9 { width:100%; clear:both; background:url(../images/bannerbg.jpg) center top no-repeat;}
+.bannershadow { width:100%; height:18px; clear:both; overflow:hidden; background:url(../images/banner_shadow.gif) bottom repeat-x;}
+.banner9 img { display:block; width:980px;}
+
+.brands { height:101px;}
+.brands ul { width:100%; height:75px;}
+.brands ul li { width:auto; float:left;}
+.brands ul li img { display:block;}
+
+.brandShadow { width:100%; height:26px; clear:both; overflow:hidden;}
+
+.tuan9Parts { margin-bottom:15px!important;}
+.tuan9Parts .title { width:100%; height:50px; float:left; background:url(../images/titlebg.gif) no-repeat;}
+.tuan9Parts .title h2 { width:auto; float:left; padding-left:32px; margin-right:20px;}
+.tuan9Parts .title span.more { width:auto; line-height:40px; font-family:宋体; float:right; padding:8px 28px 0px 0px;}
+.tuan9Parts .title span.more a { color:#fff!important;}
+
+.tuan9Parts .title span.tip { width:auto; float:left; white-space:nowrap; color:#fff; padding:7px 0px 0px 0px;}
+.tuan9Parts .title span.tip01 { font:700 24px/40px 微软雅黑;}
+.tuan9Parts .title span.tip01 strong { color:#fdfb1a;}
+.tuan9Parts .title span.tip02 { width:630px; line-height:16px; color:#f1c3c4; white-space:normal; padding-top:11px;}
+.tuan9Parts .title span.tip03 { font:700 20px/40px 微软雅黑;}
+.tuan9Parts .title span.tip03 strong { color:#fdfb1a;}
+.tuan9Parts .content { width:100%; float:left;} 
+
+.slider { height:301px; overflow:hidden; position:relative;}
+.slider .hd { width:200px; height:auto; position:absolute; left:32px; top:0px; float:left; z-index:20;}
+.slider .hd li { width:100%; height:40px; margin-bottom:1px; position:relative; float:left;}
+.slider .hd li .bg { width:200px; height:40px; background-color:#000; filter:alpha(opacity=35); opacity:0.35; position:absolute; left:0px; top:0px; z-index:10;}
+.slider .hd li.on .bg,.slider .hd li.hover .bg { filter:alpha(opacity=60); opacity:0.6;}
+.slider .hd li h3 { width:200px; height:40px; position:relative; z-index:20;}
+.slider .hd li h3 a { display:block; width:74px; padding-left:126px; height:40px; overflow:hidden; cursor:pointer; background:url(../images/slider_point.gif) 182px 15px no-repeat;}
+.slider .hd li h3 strong { width:auto; height:40px; position:absolute; left:0px; top:0px; font:100 12px/40px Arial; color:#fff; padding-left:8px; white-space:nowrap; font-family:宋体;}
+
+.slider .bd { width:980px; height:301px; overflow:hidden; position:relative; clear:both; z-index:10;}
+.slider .bd ul { width:100%; float:left;}
+.slider .bd ul li { width:980px; height:301px; float:left;}
+.slider .bd ul li img { display:block;}
+
+.foot { width:100%; height:100px; clear:both; background-color:#fff; padding-top:15px;}
+.foot .New_website { display:none;}
+
+#topcontrol { z-index:100000;}

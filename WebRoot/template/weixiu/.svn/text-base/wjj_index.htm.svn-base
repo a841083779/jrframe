@@ -1,0 +1,27 @@
+<#assign list1 = query(" SELECT top 5 id,title FROM [dbo].[pro_weixiu_info] where is_show=1 and title like '%挖掘机%' order by id desc ")> 
+<#assign list2 = query(" SELECT top 5 id,title FROM [dbo].[pro_weixiu_info] where is_show=1 and title like '%挖掘机%' order by id asc ")> 
+        <div class="news_item">
+          <h3 class="_title" style="display:none">三一挖掘机维修知识</h3>
+          <ul class="_list rList01">
+		  <#if list1??&&(list1?size>0)>
+                <#list list1 as one>
+            <li><span class="_mark">[维修]</span><a href="/info_${one.id?c}.htm" target="_blank" class="tit el" title="${one.title}">${one.title}</a></li>
+			      </#list>
+           </#if>
+          </ul>
+        </div>
+		
+		<div class="news_item">
+          <h3 class="_title" style="display:none">柳工挖掘机维修知识</h3>
+          <ul class="_list rList01">
+		  <#if list2??&&(list2?size>0)>
+                <#list list2 as one>
+            <li><span class="_mark">[维修]</span><a href="/info_${one.id?c}.htm" target="_blank" class="tit el" title="${one.title}">${one.title}</a></li>
+			      </#list>
+           </#if>
+          </ul>
+        </div>
+
+
+    
+	

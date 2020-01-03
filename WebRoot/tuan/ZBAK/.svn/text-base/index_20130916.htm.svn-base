@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>优买团-工程机械团购、工程机械购机、工程机械打折，购买超级优惠_中国工程机械商贸网</title>
+<meta name="keywords" content="工程机械团购,工程机械购机大全,工程机械交易中心" />
+<meta name="description" content="中国工程机械商贸网发起为大宗采购商,整机厂家,代理商,VIP会员,终端用户提供专属、高效、长期交易平台,贴心服务,共享优惠,咨询热线:0535-6727793" />
+<link href="/style/tuan.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/plugin/validator/rjboy/validform.css" type="text/css"></link>
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<script type="text/javascript" src="/scripts/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="/plugin/validator/rjboy/Validform_v5.3.1.js"></script>
+</head>
+<body class="tuan">
+<!--#include virtual="tuan_nav.jsp"-->
+<div class="tuan_banner">
+  <div class="contain980">
+    <div id="tuan_banner">
+      <div class="tuan_pbg"></div>
+      <ul class="tuan_p">
+        <li value="1" class="selected"></li>
+        <li value="2"></li>
+        <li value="3"></li>
+        <li value="4"></li>
+        <li value="5"></li>
+
+      </ul>
+      <ul class="tuan_i">
+        <li ><a href="http://product.21-sun.com/tuan/september/" target="_blank" title="九月优买团，品牌英雄汇，全民盛宴"><img src="images/9yue.jpg" alt="九月优买团，品牌英雄汇，全民盛宴" width="757" height="365" /></a></li>
+              <li ><a href="http://product.21-sun.com/proDetail/306E.shtm" target="_blank" title="卡特彼勒306E小型液压挖掘机"><img src="images/kate306e.jpg" alt="卡特彼勒306E小型液压挖掘机" width="757" height="365" /></a></li>
+        <li><a href="http://ad.21-sun.com/link_to.jsp?paras=0,0,100040&url=http://product.21-sun.com/tuan/august/index.htm" target="_blank" title="梦想新航线，未来合伙人！"><img src="images/8yue2.jpg" alt="梦想新航线，未来合伙人" width="757" height="365" /></a></li>
+        <li><a href="http://ad.21-sun.com/link_to.jsp?paras=12,0,100034&amp;url=http://product.21-sun.com/tuan/july/" target="_blank" title="奋起吧，优买团！"><img src="images/7yue_757_365.jpg" alt="奋起吧，优买团！" width="757" height="365" /></a></li>
+        <li class="hide"><a href="http://product.21-sun.com/tuan/june/" target="_blank" title="六月逆袭：优买团优惠购机"><img src="images/6yue.jpg" alt="六月逆袭：优买团优惠购机" width="757" height="365" /></a></li>
+
+
+      </ul>
+    </div>
+    <div class="tuan_right">
+      <div class="zheng"><img src="/images/tuan_zm.gif" alt="正品保障，诚信保证" /></div>
+      <ul class="tuan_gonggao">
+        <li><a href="#tuanPart05"><font>[公告]</font>10月活动报名<span style="color:#ff0000">0535-6727793</span></a></li>
+        <li><a href="http://product.21-sun.com/tuan/september/" target="_blank"><font>[公告]</font>品牌英雄汇，全民盛宴</a></li>
+        <li><a href="http://product.21-sun.com/tuan/june/" target="_blank"><font>[公告]</font>六月逆袭：优买团优惠购机</a></li>
+      </ul>
+      <div class="tuan_rec" id="tuan_rec">
+        <div class="bd">
+          <ul>
+            <li>
+              <div class="tuan_news">
+                <h2>优买团新闻</h2>
+                <dl>
+                <dd><a href="http://news.21-sun.com/detail/2013/08/2013081317230575.shtml" target="_blank">我是80后，我是网民，我更是一名挖机老板</a></dd>
+                  <dd><a href="http://news.21-sun.com/detail/2013/07/2013071209384231.shtml" target="_blank">行业新风尚，农民上网买挖机</a></dd>
+                  <dd><a href="http://news.21-sun.com/detail/2013/05/2013052714493575.shtml" target="_blank">挖掘机老板创富经：选对伙伴就等于成功80%</a></dd>
+                  <dd><a href="#tuanPart05" >优买团10月活动火热报名0535-6727793</a></dd>
+                  <dd><a href="http://news.21-sun.com/survey/detail.jsp?no=12" target="_blank">优买团用户体验调查</a></dd>
+                </dl>
+              </div>
+              <h3><a href="http://ad.21-sun.com/link_to.jsp?paras=12,0,100034&amp;url=http://product.21-sun.com/tuan/july/"  target="_blank">卡特迷你小挖优惠</a></h3>
+              <p class="text">客户支持 – 无与伦比的支持服务使 Caterpillar 卓尔不凡</p>
+            </li>
+          </ul>
+        </div>
+        <div class="recbgs">
+          <span class="point"></span>
+          <h3>今日优惠</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--活动专区-->
+<div class="tuanParts tuanPart01" id="tuanPart01">
+  <div class="contain980">
+    <div class="title">
+      <h2><strong>活动专区</strong><br />
+      专属 高效 长期的交易中心</h2>
+    </div>
+    <div class="content">
+      <ul class="tuan_list">
+        <li><a href="tuan_list_wajueji.htm" title="挖掘机活动" target="_blank"><img src="/images/tuan_img02.jpg" alt="挖掘机活动" width="485" height="183" /></a></li>
+        <li><a href="tuan_list_pingdiji.htm" title="平地机活动" target="_blank"><img src="images/tuan_img03.jpg" alt="平地机活动" width="485" height="183" /></a></li>
+        <li><a href="tuan_list_zhuangzaiji.htm" title="装载机活动" target="_blank"><img src="/images/tuan_img05.jpg" alt="装载机活动" width="485" height="183" /></a></li>
+        <li><a href="tuan_list_part.htm" title="配件活动" target="_blank"><img src="images/tuan_img04.jpg" alt="配件活动" width="485" height="183" /></a></li>
+      </ul>
+    </div>
+  <div class="clear"></div>  
+  </div>
+</div>
+<!--往期活动-->
+<div class="tuanParts tuanPart02" id="tuanPart02">
+  <div class="contain980">
+    <div class="title">
+      <h2><strong>往期活动</strong><br />
+      团购 大型订货会</h2>
+      <span class="more"><a href="history.htm" title="查看更多"><img src="../images/tuan_btn01.gif" alt="查看更多" width="235" height="53" /></a></span>
+    </div>
+    <div class="content">
+      <ul class="tuan_list">
+         <li>
+          <a title="优买团9月优惠购机" target="_blank" href="http://product.21-sun.com/tuan/september/"><img width="270" height="140" alt="优买团9月优惠购机" src="images/9yuex.jpg">
+            <h3>优买团9月优惠购机</h3>
+            <p>品牌英雄汇，全民盛宴，卡特挖掘机，小松挖掘机，三一挖掘机，山推装载机，山工装载机，龙工装载机等专场优惠。</p>
+          </a>
+        </li>        <li>
+          <a href="http://product.21-sun.com/tuan/august/index.htm" target="_blank" title="八月优买团，梦想新航线，未来合伙人"><img src="images/8yuex.jpg" width="270" height="140" alt="八月优买团，梦想新航线，未来合伙人" />
+            <h3>八月优买团，梦想新航线，未来合伙人</h3>
+            <p>徐工挖掘机专场、江麓挖掘机专场、斯帕克破碎锤专场、山工装载机专场、卡特挖掘机专场、三一挖掘机专场大型促销活动 。</p>
+          </a>
+        </li>
+        <li>
+          <a href="http://ad.21-sun.com/link_to.jsp?paras=12,0,100034&url=http://product.21-sun.com/tuan/july/" target="_blank" title="奋起吧，优买团！"><img src="images/tuan_img15.jpg" width="270" height="140" alt="奋起吧，优买团！" />
+            <h3>奋起吧，优买团！</h3>
+            <p>7月优买团优惠购机,卡特迷你挖掘机,山工装载机,三一挖掘机,卡特配件,日立配件,江麓挖掘机,福田挖掘机。</p>
+          </a>
+        </li>
+
+     
+      </ul>
+    </div>
+  <div class="clear"></div>  
+  </div>
+</div>
+<!--购买设备-->
+<div class="tuanParts tuanPart03" id="tuanPart03">
+  <div class="contain980">
+    <div class="title">
+      <h2><strong>购买设备</strong></h2>
+    </div>
+    <div class="content">
+      <ul class="tuan_list">
+        <li>
+          <div class="img">
+          <img src="../images/tuan_img15.jpg" width="450" height="335" alt="巾帼不让须眉：一个挖掘机女老板的故事" />
+          </div>
+          <p>
+          <strong>每天都有大量的客户通过“优买团”购买到所需要的设备，我们的产品中心的设备来源各大代理商和厂家，以及配件商，所以，您可以在这里，以合理的价格与渠道了解到您想购买的设备。</strong><br /><br />
+          <strong>通过21-sun优买团购买设备具有众多优势：</strong><br />
+          1、选择众多--您可以在我们产品中心上看到数以千计的工程机械设备，涵盖大多数品牌。<br />
+		  2、掌握购买时机--我们24小时的客服热线为您做引导，为您提供及时便捷的购买渠道。<br />
+		  3、可随时参与我们组织线下活动，让您采购享优惠。<br /><br />
+          <span class="learnMore">了解更多，请致电：<font>0535-6792733  6792769</font></span>
+          </p>
+        </li>
+      </ul>
+    </div>
+  <div class="clear"></div>  
+  </div>
+</div>
+<!--出售设备-->
+<div class="tuanParts tuanPart04" id="tuanPart04">
+  <div class="contain980">
+    <div class="title">
+      <h2><strong>出售设备</strong></h2>
+    </div>
+    <div class="content">
+      <ul class="tuan_list">
+        <li>
+          <div class="img">
+          <img src="../images/tuan_img16.jpg" width="450" height="335" />
+          </div>
+          <p>
+          <strong>我们的卖家都是行业内有实力的代理商和生产厂家，有些是我们的忠诚客户，一直是21-sun商贸网有合作，他们愿意相信“优买团”平台，可以帮助他们实现销售，愿意去尝试电子商务带来的盈利与喜悦，卖家会因为相信与支持愿意放心出售，让用户买到最好的机器。</strong><br /><br />
+          <strong>通过21-sun优买团出售设备具有众多优势：</strong><br />
+          1、我们有专业的买家服务团队免费帮助你寻找到最终客户，引导客户产生购买。<br />
+		  2、更加节省您的时间 – 我们代替您关注销售过程的每一步，包括市场宣传，收集到更多的客户信息。  <br /><br />
+          <span class="learnMore">了解更多，请致电：<font>0535-6727793   6791286</font></span>
+          </p>   
+        </li>
+      </ul>
+    </div>
+  <div class="clear"></div>  
+  </div>
+</div>
+
+<div class="tuanParts tuanPart07" id="tuanPart07">
+  <div class="contain980">
+    <div class="title">
+      <h2><strong>成交故事</strong></h2>
+      <span class="more"><a href="/case/" title="查看更多" target="_blank"><img src="../images/tuan_btn03.gif" alt="查看更多" width="235" height="53" /></a></span>
+    </div>
+    <div class="content">
+      <ul class="tuan_list">
+        <li>
+          <div class="img">
+          <a href="http://news.21-sun.com/detail/2013/08/2013081317230575.shtml" title="我是80后，我是网民，我更是一名挖机老板" target="_blank"><img src="images/80hou.jpg" width="450" height="335" alt="行业新风尚，农民上网买挖机" /></a>
+          </div>
+          <h3><a href="http://news.21-sun.com/detail/2013/08/2013081317230575.shtml" title="我是80后，我是网民，我更是一名挖机老板" target="_blank">我是80后，我是网民，我更是一名挖机老板</a></h3>
+          <p>　　2013年7月8日，诸先生从原来的挖机老板那里离开了，回到苏州老家，打算自己做些什么。正好赶上城市规划，新城区建设，诸先生看到都是外地挖机老板在接活干，便想到：外地老板人生地不熟的，在这里都能找到活干，我作为本地人，买台挖机应该不会饿死吧。<br />
+　　下定决心后，诸先生开始留意挖机的行情。对比之下，在内心里默默定了三个品牌：小松、三一和现代。接下来，诸先生开始上网查询所有这三个品牌的资料和情况。他发现现代和小松宣传有限，能搜到的有效信息不多。而三一不断在网上有优惠。诸先生便点击了一个页面，进入了三一的产品页，抱着试试看的态度，对三一SY75C-9进行了询价。三一询完价后，诸先生继续对小松和现代进行询价。结果不到2个小时，他接到了一个客服电话，是中国工程机械商贸网的客服人员打过来的。因为看到他咨询了三个品牌三款产品，想向他进行更加详细的介绍，帮助他挑选产品。中国工程机械商贸网的客服人员详细讲解了三一的售后服务和产品配置等相关内容之后，诸先生同意和三一在苏州的分公司人员接触。<br />
+　　当天下午，三一苏州分公司的业务经理登门拜访。诸先生被三一的效率和服务折服，最终定购了一台三一的产品。而这个时候，很多其他品牌的业务员还不知道诸先生想买挖机。采访的最后，诸先生对笔者表示感谢，说中国工程机械商贸网的优买团栏目，确实帮助他选购到了称心如意的产品！希望优买团越办越好！</p>
+          <p>&nbsp;</p>
+          <p></p>
+          <p><br />
+          </p>
+          <div class="more"><a href="http://news.21-sun.com/detail/2013/07/2013071209384231.shtml" target="_blank">查看更多&gt;&gt;</a></div>  
+        </li>
+      </ul>
+    </div>
+  <div class="clear"></div>  
+  </div>
+</div>
+
+<!--关于优买团-->
+<div class="tuanParts tuanPart05" id="tuanPart05">
+  <div class="contain980">
+    <div class="title">
+      <h2><strong>关于优买团</strong></h2>
+    </div>
+    <div class="content">
+      <div class="intro">
+        1、如果您是大宗采购商，我们有专业的买家服务团队免费帮您匹配优质供应商，进行交易撮合，打造专属于您的贴心采购服务！<br />
+        2、如果您是整机厂家或代理商，我们协助您与买家达成合作，如果您是我们的VIP会员，我们帮助您实现销售。<br />
+        3、如果您是终端用户，可随时关注我们组织线下活动，让您采购享优惠。 
+      </div>
+      <div class="btn"><a href="javascript:void(0);" onclick="document.getElementById('tuan_layer').style.display='block'" title="在线申请合作意向"><img src="/images/tuan_btn02.gif" alt="在线申请合作意向" width="291" height="74" /></a></div>
+    </div>
+  <div class="clear"></div>  
+  </div>
+</div>
+<!--main end--> 
+<!--foot-->
+<!--#include virtual="/include/foot.jsp"--> 
+<!--end of foot--> 
+<form name="tuan_form" id="tuan_form" action="/action/ajax.jsp">
+<div class="tuan_layer" id="tuan_layer" style="width:550px;height:360px;">
+  <div class="t_contain">
+    <div class="title">
+      <h3>欢迎您与21-sun优买团合作，请详细填写以下内容，谢谢！</h3>
+      <span class="close" title="关闭" id="tuan_close" onclick="document.getElementById('tuan_layer').style.display='none'"></span>
+    </div>
+    <div class="content">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th width="30%"><font color="red">*</font>公司名称：</th>
+          <td width="70%"><input maxlength="20" type="text" name="compname" id="compname" class="tuan_i" datatype="s2-20" nullmsg="请输入公司名称" errormsg="公司名称至少2个字,最多20个字！"/></td>
+        </tr>
+        <tr>
+          <th><font color="red">*</font>姓名：</th>
+          <td><input type="text" maxlength="10" name="username" id="username" class="tuan_i" datatype="s1-10" nullmsg="请输入您的姓名" errormsg="姓名至少1个字,最多10个字！"/></td>
+        </tr>
+        <tr>
+          <th><font color="red">*</font>联系电话：</th>
+          <td><input type="text" maxlength="12" name="telphone" id="telphone" class="tuan_i" datatype="m|g" nullmsg="请输入电话号码" errormsg="请输入正确的电话，固话请填写区号！"/></td>
+        </tr>
+        <tr>
+          <th>合作内容：</th>
+          <td><textarea name="company" id="company" cols="45" rows="5" class="tuan_t"></textarea></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>
+          <input type="submit" name="button2" id="button2" value="提交" class="tuan_b" />
+         <input type="hidden" name="flag" id="flag" value="tuan_form"/>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+</form>
+<div class="qqLayer">
+  <ul class="qql">
+    <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2677195292&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2677195292:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></li>
+    <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=544685334&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:544685334:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></li>
+    <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1623270792&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1623270792:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></li>
+    <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=527071217&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:527071217:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></li>
+    <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=643155291&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:643155291:41" alt="点击这里给我发消息" title="点击这里给我发消息"/></a> </li>
+    <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=452652050&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:452652050:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></li>
+  </ul>
+<span class="qq_bottombg"></span>  
+</div>
+
+<div style="display:none">
+<script src="http://s17.cnzz.com/stat.php?id=5150229&web_id=5150229" language="JavaScript"></script> 
+</div> 
+</body>
+<script type="text/javascript">
+jQuery("#tuan_form").Validform({
+	tiptype:3,
+	ajaxPost:true ,
+	callback:function(data){
+		jQuery("#input:not(:hidden),textarea").val("") ;
+		window.location.reload() ;
+	}
+}) ;
+var t5 = n5 = 0, count5;
+jQuery(document).ready(function(){	
+	count5=jQuery("#tuan_banner ul.tuan_i li").length;
+	jQuery("#tuan_banner ul.tuan_i li:not(:first-child)").hide();
+	jQuery("#tuan_banner .tuan_p li").click(function() {
+		var i = jQuery(this).attr("value") - 1;
+		n5 = i;
+		if (i >= count5) return;
+		jQuery("#tuan_banner ul.tuan_i li").filter(":visible").fadeOut(500).parent().children().eq(i).fadeIn(800);
+		jQuery(this).toggleClass("selected");
+		jQuery(this).siblings().removeAttr("class");
+	});
+	t5 = setInterval("showAuto5()", 4000);
+	jQuery("#tuan_banner").hover(function(){clearInterval(t5)}, function(){t5 = setInterval("showAuto5()", 4000);});
+})
+function showAuto5(){
+	n5 = n5 >=(count5 - 1) ? 0 : ++n5;
+	jQuery("#tuan_banner .tuan_p li").eq(n5).trigger('click');
+}
+</script>
+</html>

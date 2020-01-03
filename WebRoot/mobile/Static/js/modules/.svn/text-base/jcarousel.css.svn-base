@@ -1,0 +1,13 @@
+/** Carousel **/
+
+.jcarousel { position: relative; overflow: hidden; width: 100%; }
+.jcarousel ul { width: 20000em; position: relative; }
+.jcarousel li { float: left; }
+
+/** 左右控制键 **/
+
+.jcarousel-control-prev, .jcarousel-control-next { position: absolute; }
+
+/** 圆点导航 **/
+
+.jcarousel-pagination { position: absolute;}

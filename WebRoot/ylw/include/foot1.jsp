@@ -1,0 +1,23 @@
+<%@page contentType="text/html;charset=utf-8" import="java.util.*" errorPage=""%>
+<%
+String web_no ="20056"; 
+String web_name ="优立维国际机械有限公司";
+ String web_name2 ="Copyright Uniwell International Machinery Co.,Limited. All Rights Reserved.";
+ String web_count ="http://www.21-sun.com/count/counter.asp?uid=youliwei&amp;style=7";
+ String web_site ="http://www.uniwellmachine.com";
+ String language_version ="1";
+%>
+<table border="0" cellpadding="0" cellspacing="0" width="950" height="16"  align="center">
+	<tr>
+		<td></td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="950" background="images/bottom.gif" height="60" align="center">
+	<tr >
+		<td style="padding-top:10px;padding-bottom:10px; padding-left:25px">
+ </td>
+		<td style="padding-top:10px;padding-bottom:10px; padding-right:25px" align="right">
+		<a href="http://www.21-sun.com" target="_blank" class="n6">中国工程机械商贸网</a>　| 制作维护<br>
+		 </td>
+	</tr>
+</table>

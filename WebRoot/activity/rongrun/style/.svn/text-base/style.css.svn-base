@@ -1,0 +1,27 @@
+
+body{ font-family:微软雅黑}
+.topbg { margin-bottom:0px !important;}
+.r_top{ background:url(../images/top.jpg) center no-repeat; height:656px;}
+.r_nav{ height:114px; background:url(../images/nav_bg.png) center top no-repeat; overflow:hidden}
+
+.r_menu { margin-top:20px;}
+.r_menu ul li { float:left; padding:0 37px; text-align:center; height:95px; line-height:95px; font-size:24px; font-weight:bold;}
+.r_menu ul li.s{ padding:0 30px; }
+.r_menu ul li a{ color:#fff;}
+
+.r_content{ background-color:#f4f9f1; padding:15px; width:950px;}
+.r_banner{ height:100px; border:10px solid #f1f4ef; padding-left:150px; background:url(../images/ban.png) 28px center no-repeat; background-color:#fff;}
+.r_banner p strong{ display:block;font-size:24px; color:#292929; padding-top:10px; padding-left:10px; padding-bottom:5px;}
+.r_banner p span{ font-size:16px; color:#676767}	
+
+.r_item{ padding:30px 40px 20px 50px; border-bottom:1px solid #e4e4e4}
+.item_img{ width:335px; margin-left:20px;_display:inline;}
+.item_p{ width:450px;}
+.item_p strong{ display:block; font-size:28px; color:#292929; margin-bottom:25px;}
+.item_p span{ font-size:16px; color:#494949; line-height:30px;}
+.item_p span b{ font-size:22px; color:#208f01; font-weight:normal;}
+.r_btn{ display:block; width:263px; height:59px; background:url(../images/btn.jpg) no-repeat; font:0/0 a; letter-spacing:-7px; margin-top:20px;}
+.r_foot{ background-color:#23a202 ;}
+.New_website{ background-color:#23a202 !important; color:#fff !important; border:0 !important;}
+.New_foot{ color:#fff !important;}
+span.New_links{ color:#fff !important;}

@@ -1,0 +1,6 @@
+/*选项卡*/
+.tab{position:relative;padding-top:30px;width:100%;}
+.tab_b{position:absolute;top:0;left:0;width:100%;height:31px;line-height:31px;border-bottom:1px solid #ddd;}
+.tab_t{position:absolute;top:0;width:106px;height:30px;line-height:30px;text-align:center;}
+.tab_c{display:none;}
+.tab .cur .tab_c{display:block;}

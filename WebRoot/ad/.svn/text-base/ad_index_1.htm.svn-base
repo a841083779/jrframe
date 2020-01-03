@@ -1,0 +1,22 @@
+<div id="index_1_flash_1" class="l" style="cursor:pointer"></div>
+<div class="r" id="index_1_flash_2" style="cursor:pointer"></div>
+<div class="clear"></div>
+<script type="text/javascript" src="/scripts/jquery.flash.js"></script>
+<script language="javascript" type="text/javascript">
+	jQuery('#index_1_flash_1').flash({
+		src : '/ads/sany473.swf',
+		width : 485,
+		height : 75,
+		wmode : "transparent"
+		}, {
+		version : 8
+	});
+	jQuery('#index_1_flash_2').flash({
+		src : '/ads/shanzhong2011.swf',
+		width : 485,
+		height : 75,
+		wmode : "transparent"
+		}, {
+		version : 8
+	});
+</script>

@@ -1,0 +1,428 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="renderer" content="webkit">
+<title>【${model.brand_name}${model.name}${model.catalog_name}】${model.brand_name}${model.name}${model.catalog_name}价格表_参数_图片_口碑 - 铁臂商城</title>
+<meta name="keywords" content="${model.brand_name}${model.name}${model.catalog_name},${model.brand_name}${model.name}${model.catalog_name}价格表,${model.brand_name}${model.name}${model.catalog_name}参数,${model.brand_name}${model.name}${model.catalog_name}图片,${model.brand_name}${model.name}${model.catalog_name}口碑" />
+<meta name="description" content="铁臂商城为您提供三一SY60C-9挖掘机价格,参数,性能,图片,口碑等信息,帮助您通过网络订购三一SY60C-9挖掘机,买三一SY60C-9挖掘机就上铁臂商城。" />
+<meta name="author" content="design by www.21-sun.com">
+<script type="text/javascript" src="../Static/app/mobile.js"></script>
+<link href="../Static/grid/grid12.css" rel="stylesheet" />
+<link href="../Static/css/ui.css" rel="stylesheet" />
+<link href="../Static/css/common.css" rel="stylesheet" />
+<link href="../Static/css/style.css" rel="stylesheet" />
+<!--[if lt IE 9]><script src="../Static/lib/H5shiv.js"></script><![endif]-->
+<script type="text/javascript" src="../scripts/jquery.min.js"></script>
+</head>
+<body>
+<!--top-->
+<!--#include virtual = "/nj/template/detailTop.html"-->
+<!--top end--> 
+<!--nav--> 
+<div class="navBox">
+  <div class="navBar">
+    <div class="wrap fix">
+      <ul class="menu">
+        <li><a href="">首页</a></li>
+        <li><a href="">拖拉机</a></li>
+        <li><a href="">耕整地机械</a></li>
+        <li><a href="">种植施肥机械</a></li>
+        <li><a href="">收割/收获机</a></li>
+        <li><a href="">农产品加工机械</a></li>
+        <li><a href="">运输机械</a></li>
+      </ul>
+      <div class="allCates">
+        <div class="acn">全部分类</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--nav end-->
+<script>
+jQuery(function(){
+    jQuery.post("/action/ajax.jsp", {
+        flag: "isLogin_Tiebi"
+    }, function(data){
+        var tData = jQuery.trim(data);
+        if (tData != 'no') {
+            jQuery("#topLabel").html("<a href='http://www.21-sun.com/' target='_blank'>欢迎您访问中国工程机械商贸网！</a><a href='javascript:void(0);' onclick='logout();' style='text-decoration: underline;'>退出</a> | 欢迎您，<a target='_blank' href='/member/'>" + tData + "</a>");
+           
+        }
+    });
+});
+//退出
+function logout(){
+	jQuery.ajax({
+		url:'/action/ajax.jsp?flag=logout&r='+new Date(),
+		async:false,
+		cache:false,
+		success:function(data){
+			alert("您已退出登录！");
+			setTimeout("window.location.reload()",1000);
+		}
+	});
+}
+</script>
+
+<!--面包屑-->
+<div class="breadCrumbs">
+  <div class="wrap fix">我的位置： 
+    <a href="/nj/index.htm">农机首页</a><em>&gt;&gt;</em>
+    <a href="/nj/prolist.jsp?catalog=${model.catalog_num}">${model.catalog_name}</a><em>&gt;&gt;</em>
+    <a href="/nj/prolist.jsp?catalog=${model.brand_id}">${model.brand_name} </a><em>&gt;&gt;</em>
+    <a href="/nj/prolist.jsp?catalog=${model.catalog_num}&factory=${model.brand_id}">${model.brand_name}${model.catalog_name} </a><em>&gt;&gt;</em>
+   ${model.brand_name}${model.name}${model.catalog_name}
+  </div>
+ </div>
+<!--面包屑 end-->
+<!--main-->
+<div class="wrap">
+  <div class="pro_dt">
+    <div class="pro_dt_p1 fix">
+      <div class="_img">
+        <img onerror="this.src='/uploadfiles/no_big.gif'"  src="/uploadfiles/${model.img}" alt="${model.brand_name}${model.name}${model.catalog_name}" >
+      </div>
+      <div class="_info">
+        <div class="tdlp_trnr">
+          <h2 class="tdlp_dtitle">${model.brand_name}${model.name}${model.catalog_name}</h2>
+          <div class="s_shuzhi">
+           <p>${model.content}</p>
+          </div>
+         
+          <div class="fix">
+          <a  style="float:left" href="javascript:void(0)"  id="xjbox_display"><img src="../Static/images/xunjia.gif" /></a>
+          <a style="float:left; margin-left:6px;" target="_blank" href="javascript:void(0)"><img class="bds_more" data-cmd="more" src="../Static/images/femxiang.gif"></a>
+          </div>
+          <div class="tdlp_dtip">因不同地区代理商及价格差异，请您点击<span><a href="javascript:void(0)"  id="xjbox_displays"">咨询最低价</a></span>。</div>
+          <div class="tdlp_doht fix"> <span class="tdo_t1">品牌：<i><a title="${model.brand_name}" href='/nj/prolist.jsp?factory=${model.brand_id}' target='_blank'>${model.brand_name}</a></i></span> <span class="tdo_t2">类别：<i><a title="${model.name}${model.catalog_name}" href="/nj/prolist.jsp?factory=${model.catalog_num}">${model.name}${model.catalog_name}</a></i></span> </div>
+        </div>
+      </div>
+    </div>
+    <div class="pro_dt_left_box">
+      <div class="_bt">更多型号</div>
+      <div class="xh_sel fix" >
+        <ul class="_list">
+		  <#list list as prolist>
+		   <li><a href="/nj/proDetail/${prolist.file_name}">${prolist.name}</a></li>
+		  </#list>
+        </ul>
+      </div>
+    </div>
+    <!--性能-->
+    <div class="pro_dt_left_box target_section"> <span id="xingn" class="maod"></span>
+      <div class="_bt">${model.brand_name}${model.name}性能</div>
+      <div class="xn_text"> 
+      <!--  <p style="margin-bottom:21px;"><strong>·&nbsp;节能环保：</strong>欧Ⅱ标准环保发动机，采用全新控制器实时精确控制燃油喷射，燃油燃烧更充分，在效率相当的情况下较上一代降低油耗更低；</p>
+       <p style="margin-bottom:21px;"><strong>·&nbsp;高效持久：</strong>采用独创的DOMCS动态寻优智能匹配控制系统，实现了发动机与主泵的完美匹配，最大程度的利用发动机的输出功率，动作更迅速，工作更持久；</p>
+       <p style="margin-bottom:21px;"><strong>·&nbsp;稳定可靠：</strong>配置符合中国国情的挖掘机专用大功率发动机，适应力更强，整机性能更稳定；</p>
+       <p style="margin-bottom:21px;"><strong>·&nbsp;人性化设计：</strong>全新设计的减震系统，超大视野驾驶室，多重降噪设计，极大提高操作舒适性。</p> <br> -->
+       <p style="margin-bottom:21px;">${model.content}</p>
+      </div>
+    </div>
+    <!--性能 end-->
+    <!--询价-->
+    <div class="txd_plant fix"> <span id="xunjia" class="maod"></span>
+      <div class="tpl_title">${model.brand_name}${model.name}询价</div>
+    </div>
+    <div class="txd_xunjia mt15" id="prodetailOrder">
+      <div class="txj_lant">非常欢迎您选择${model.brand_name}${model.name}${model.catalog_name}，我们诚恳的希望您详细填写如下信息，以便我们的服务专员与您联系。</div>
+      <div class="txj_main fix">
+              
+
+      <div class="_form">
+          <form action="../action/detail_order_save.jsp" method="post" name="theform" id="theform"  >
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+              <tr>
+                <th align="right">您怎么称呼：</th>
+                <td><input class="txj_inp" name="zd_name" type="text" id="zd_name" size="30" maxlength="20" />
+              </tr>
+              <tr>
+                <th align="right">您的电话号：</th>
+                <td><input class="txj_inp" name="zd_mobile_phone" type="text" id="zd_mobile_phone" size="30" maxlength="15" placeholder="请填写正确手机号，获取最低价短信" /></td>
+              </tr>
+              <tr>
+                <th align="right">您在什么地方：</th>
+                <td><div class="txd_address"> <a href="javascript:void(0);" class="cityboxbtn"> <span class="tadd_p" id="the_province"></span><span class="tadd_c" id="the_city"></span> </a>
+                    <div class="citybox citybox_tab">
+                      <ul class="city_keylist fix">
+                        <li class="city_key city_key_01">请选择省份</li>
+                        <li class="city_key city_key_02">请选择城市</li>
+                      </ul>
+                      <div class="city_val city_val_01 hide">
+                        <div class="cityshow fix"> <span data-province="山东***100110"><a href="javascript:void(0)">山东</a></span> <span data-province="安徽***101800"><a href="javascript:void(0)">安徽</a></span> <span data-province="江西***103100"><a href="javascript:void(0)">江西</a></span> <span data-province="浙江***104200"><a href="javascript:void(0)">浙江</a></span> <span data-province="上海***105290"><a href="javascript:void(0)">上海</a></span> <span data-province="北京***105499"><a href="javascript:void(0)">北京</a></span> <span data-province="天津***105689"><a href="javascript:void(0)">天津</a></span> <span data-province="重庆***105879"><a href="javascript:void(0)">重庆</a></span> <span data-province="河北***106400"><a href="javascript:void(0)">河北</a></span> <span data-province="山西***108300"><a href="javascript:void(0)">山西</a></span> <span data-province="内蒙古***109700"><a href="javascript:void(0)">内蒙古</a></span> <span data-province="江苏***110900"><a href="javascript:void(0)">江苏</a></span> <span data-province="广西***113000"><a href="javascript:void(0)">广西</a></span> <span data-province="西藏***115000"><a href="javascript:void(0)">西藏</a></span> <span data-province="宁夏***116000"><a href="javascript:void(0)">宁夏</a></span> <span data-province="新疆***117000"><a href="javascript:void(0)">新疆</a></span> <span data-province="吉林***119000"><a href="javascript:void(0)">吉林</a></span> <span data-province="辽宁***120000"><a href="javascript:void(0)">辽宁</a></span> <span data-province="黑龙江***122000"><a href="javascript:void(0)">黑龙江</a></span> <span data-province="湖北***124000"><a href="javascript:void(0)">湖北</a></span> <span data-province="湖南***126000"><a href="javascript:void(0)">湖南</a></span> <span data-province="广东***128000"><a href="javascript:void(0)">广东</a></span> <span data-province="河南***130000"><a href="javascript:void(0)">河南</a></span> <span data-province="贵州***132000"><a href="javascript:void(0)">贵州</a></span> <span data-province="青海***133000"><a href="javascript:void(0)">青海</a></span> <span data-province="甘肃***134000"><a href="javascript:void(0)">甘肃</a></span> <span data-province="陕西***135500"><a href="javascript:void(0)">陕西</a></span> <span data-province="云南***137000"><a href="javascript:void(0)">云南</a></span> <span data-province="四川***139000"><a href="javascript:void(0)">四川</a></span> <span data-province="海南***141500"><a href="javascript:void(0)">海南</a></span> <span data-province="福建***142000"><a href="javascript:void(0)">福建</a></span> </div>
+                      </div>
+                      <div class="city_val city_val_02 hide">
+                        <div class="cityshow fix" id="zd_citys" ></div>
+                      </div>
+                      <span class="city_close"></span> </div>
+                    <input type="hidden"  name="zd_province"  id="zd_province"  />
+                    <input type="hidden"  name="zd_city"  id="zd_city"    />
+                  </div></td>
+              </tr>
+
+              <tr>
+                <th>&nbsp;</th>
+                <td height="30" colspan="2"><input class="btn02 hover" onClick="submitYN();" type="button"></td>
+                <td height="22" style="padding-top:5px; padding-left:10px;"></td>
+              </tr>
+            </table>
+            <input name="tag" type="hidden" id="tag" value="3" />
+            <input name="zd_factoryid" type="hidden" id="zd_factoryid" value="${model.brand_id}" />
+            <input name="zd_product_id" type="hidden" id="zd_product_id" value="${model.id}"/>
+            <input name="zd_factoryname" type="hidden" id="zd_factoryname" value="${model.brand_name}"/>
+            <input name="zd_product_name" type="hidden" id="zd_product_name" value="${model.name}"/>
+            <input name="zd_message" type="hidden" id="zd_message" value="您好，我对${model.brand_name}${model.name}${model.catalog_name}感兴趣，想要咨询，请您给我回复，谢谢。" />
+            <input type="hidden" name="zd_cataname" id="zd_cataname" value="${model.catalog_name}" />
+            <input type="hidden" name="zd_catanum" id="zd_catanum" value="${model.catalog_num}"/>
+            <input type="hidden" name="tableName" id="tableName" value="pro_machine_products_inquiry"/>
+
+          </form>
+        </div>
+        <div class="_xjlist">
+          <div class="_hd">
+            ${model.brand_name}${model.name}${model.catalog_name}的询价用户：</div>
+          <div class="_bd">
+            <ul id="inquiry_list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--询价end-->
+  </div>
+</div>
+<!--main end-->
+<div class="z_pf">
+  <ul>
+    <li><a href="#"><img src="../Static/images/gotop.jpg"></a></li>
+  </ul>
+</div>
+
+<!--foot-->
+<!--#include virtual = "/nj/template/detailFoot.html"-->
+<!--foot end-->
+<script src="../Static/modules/seajs/sea.js" id="seajsnode" ></script>
+<script src="../seajs.config.js"></script>
+<!--询价对比开始-->
+<!--xjbox-->
+<div class="xjbox" id="xjbox">
+  <h2>在线询价</h2>
+  <span class="close" id="closebox">【关闭】</span>
+  <label>想了解<span>${model.name}</span>最低价？<br>
+    请填写如下信息：</label>
+  <form action="../action/save.jsp" method="post" name="theform_right" id="theform_right" >
+    <ul>
+      <li>
+        <div class="left"><span>您怎么称呼：</span></div>
+        <div class="right">
+          <input class="name" type="text"  id="jr_name" name="jr_name"/>
+        </div>
+      </li>
+      <li>
+        <div class="left"><span>您的电话号：</span></div>
+        <div class="right">
+          <input class="name" type="tel"  id="jr_mobile_phone" name="jr_mobile_phone" />
+        </div>
+      </li>
+      <li>
+        <div class="left"><span>您在的省份：</span></div>
+        <div class="right">
+          <select class="xj_select" id="jrs_province" name="jrs_province" >
+            <option value="" area_id="">--请选择--</option>
+            <option value="101800" area_id="101800">安徽</option>
+            <option value="105499" area_id="105499">北京</option>
+            <option value="142000" area_id="142000">福建</option>
+            <option value="128000" area_id="128000">广东</option>
+            <option value="113000" area_id="113000">广西</option>
+            <option value="134000" area_id="134000">甘肃</option>
+            <option value="132000" area_id="132000">贵州</option>
+            <option value="106400" area_id="106400">河北</option>
+            <option value="122000" area_id="122000">黑龙江</option>
+            <option value="124000" area_id="124000">湖北</option>
+            <option value="126000" area_id="126000">湖南</option>
+            <option value="130000" area_id="130000">河南</option>
+            <option value="141500" area_id="141500">海南</option>
+            <option value="103100" area_id="103100">江西</option>
+            <option value="110900" area_id="110900">江苏</option>
+            <option value="119000" area_id="119000">吉林</option>
+            <option value="120000" area_id="120000">辽宁</option>
+            <option value="109700" area_id="109700">内蒙古</option>
+            <option value="116000" area_id="116000">宁夏</option>
+            <option value="133000" area_id="133000">青海</option>
+            <option value="105290" area_id="105290">上海</option>
+            <option value="100110" area_id="100110">山东</option>
+            <option value="108300" area_id="108300">山西</option>
+            <option value="139000" area_id="139000">四川</option>
+            <option value="135500" area_id="135500">陕西</option>
+            <option value="105689" area_id="105689">天津</option>
+            <option value="117000" area_id="117000">新疆</option>
+            <option value="115000" area_id="115000">西藏</option>
+            <option value="137000" area_id="137000">云南</option>
+            <option value="104200" area_id="104200">浙江</option>
+            <option value="105879" area_id="105879">重庆</option>
+          </select>
+        </div>
+      </li>
+      <li>
+        <div class="left"><span>您在的城市：</span></div>
+        <div class="right">
+          <select class="xj_select" id="jr_city" name="jr_city">
+            <option selected>--请选择--</option>
+          </select>
+        </div>
+      </li>
+
+    </ul>
+
+    <input name="jr_province" type="hidden" id="jr_province" value="" />
+    <input name="tag" type="hidden" id="tag" value="3" />
+    <input name="jr_factoryid" type="hidden" id="jr_factoryid" value="${model.brand_id}" />
+    <input name="jr_product_id" type="hidden" id="jr_product_id" value="${model.id}"/>
+    <input name="jr_factoryname" type="hidden" id="jr_factoryname" value="${model.brand_name}"/>
+    <input name="jr_product_name" type="hidden" id="jr_product_name" value="${model.name}"/>
+    <input name="jr_message" type="hidden" id="jr_message" value="您好，我对${model.brand_name}${model.name}${model.catalog_name}感兴趣，想要咨询，请您给我回复，谢谢。" />
+    <input type="hidden" name="jr_cataname" id="jr_cataname" value="${model.catalog_name}" />
+    <input type="hidden" name="jr_catanum" id="jr_catanum" value="${model.catalog_num}"/>
+    <input type="hidden" name="tableName" id="tableName" value="pro_machine_products_inquiry"/>
+    <button type="button" onClick="submitYNS();">获取最低价</button>
+  </form>
+</div>
+<script src="../Static/app/move.js"></script>
+<script> 
+	//询价下拉菜单
+	define("select_down",function(require,exports,module) {
+		var $ = require('jquery');
+		var base = require('base');
+			  //function
+			  require('select');
+			  $('#jr_city').select();
+			  	 
+
+  $('#jrs_province').select({
+        callback: function(val,txt){
+		$("#jr_province").val(txt) ;
+      	$.ajax({
+			url : '../tools/ajax.jsp',
+			async : false,
+			type : 'post',
+			data : {
+				flag : 'detail_get_city',
+				p : val
+			},
+			success : function(data){
+			   $("#jr_city").html(data);
+			   $('#jr_city').select();
+			}
+		});
+    }
+  });	  
+});
+   seajs.use("select_down");
+   //询价浮动
+   var h=$('.j_topBar').height();
+   $(window).scroll(function(){
+	   var scrolls=$(window).scrollTop();
+	   if(scrolls>h){
+		   $('#xjbox').addClass('xjbox_');
+		   }else{
+			   $('#xjbox').removeClass('xjbox_');
+			   }
+	});
+</script>
+<script>
+//询价插件
+
+  var viewWidth=document.documentElement.clientWidth;
+  $('#xjbox').css('width',function(){
+	  return (viewWidth-1200)/2+285;
+	  });
+  $('#cmpContainer').css('width',function(){
+	  return (viewWidth-1200)/2+285;
+	  });
+  $('.empty').css('margin-left',function(){
+	  return $('#cmpContainer').width()/2+85;
+	  });
+  $('#xjbox').find('button').css('margin-left',function(){
+	  return ($('#xjbox').width()-200)/2;
+	  });
+	 
+  $('#xjbox_display').click(function(){
+	  $('.xjbox').css('display','block');
+	  $('.xjbox').animate({'right':0},300);
+	  });
+  $('#xjbox_displays').click(function(){
+	  $('.xjbox').css('display','block');
+	  $('.xjbox').animate({'right':0},300);
+	  });
+  $('#closebox').click(function(){
+	  $('.xjbox').animate({'right':-500},300,function(){
+		  $(this).css('display','none');
+		  });
+	  });
+</script>
+<!--询价对比结束-->
+</body>
+</html>
+<script type="text/javascript" src="../scripts/jquery.raty.min.js"></script>
+<link type="text/css" rel="stylesheet" href="../scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<script type="text/javascript" src="../scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="../scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<script type="text/javascript" src="../scripts/jquery.form.js"></script>
+<script type="text/javascript" src="../plugin/jquery/jquery.cookies.2.2.0.min.js"></script>
+<script type="text/javascript" src="../scripts/rememberAccount.js"></script>
+<script src="../scripts/echarts/dist/echarts-all.js"></script>
+<script type="text/javascript" src="../scripts/prodetail.js"></script>
+<script type="text/javascript">
+	
+	//询价列表
+	jQuery.ajax({
+		url:"../action/ajax.jsp",
+		type:"post",
+		data:{"id":"${model.id}","flag":"inquiry_list"},
+		success:function(data){
+			jQuery("#inquiry_list").html(data);
+		}
+	});
+	
+	    //浏览次数增加
+	jQuery.ajax({
+		url:"../action/ajax.jsp",
+		type:"post",
+		data:{"id":"${model.id}","flag":"viewCount","tableName":"pro_machine_products"},
+		success:function(data){
+		}
+	});
+	
+	//获取询价数
+	//jQuery.ajax({
+	//	url:"../action/ajax.jsp",
+	//	type:"post",
+	//	data:{"id":"${model.id}","flag":"inquiryCount"},
+	//	success:function(data){
+	//	}
+	//});
+	
+jQuery.getScript("http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",function(){
+	var province = remote_ip_info["province"];
+	var city = remote_ip_info["city"];
+	document.getElementById("the_city").innerHTML=city;
+    document.getElementById("the_province").innerHTML=province;
+	document.getElementById("zd_province").value=province;
+	document.getElementById("zd_city").value=city;
+}) ;
+	
+
+// 把下过订单的信息取出
+jQuery(function(){
+	var order_name = jQuery.trim(unescape(GetCookie("order_name"))) ;  // 订单人
+    var order_phone = jQuery.trim(GetCookie("order_phone")) ;  // 订单电话
+    if(''!=order_name && null!=order_name && "null"!=order_name){
+    	jQuery("#zd_name").val(order_name) ;
+    }
+    if(''!=order_phone && null!=order_phone && "null"!=order_phone){
+    	jQuery("#zd_mobile_phone").val(order_phone) ;
+    }
+})
+
+
+</script>

@@ -1,0 +1,54 @@
+/*
+* name: ui.css
+* version: v1.0.6
+* update: 对于overflow:hidden;作调整
+* date: 2016-09-06
+*/
+
+/*reset*/
+html { -webkit-tap-highlight-color:rgba(0,0,0,0);}
+body{ margin:0; font-family:\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,"Hiragino Sans GB",Helvetica,Arial,sans-serif;}
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,pre,hr{ margin-top:0; margin-bottom:0;}
+ul,ol{ padding-left:0; list-style:none;}
+dd{ margin-left:0;}
+blockquote,figure{ margin:0;}
+pre,code,kbd,samp{ font-family:inherit;}
+hr{ border-width:0; border-top:#ccc solid 1px;}
+img{ max-width:100%; height:auto; border:none; vertical-align:top; -ms-interpolation-mode:bicubic;}
+i,em{ font-style:normal;}
+a{ text-decoration:none;}
+a:focus{ -moz-outline-style:none;}
+@-ms-viewport{ width:device-width;}
+
+
+/*form reset*/
+input,button{ font-family:inherit; transition:all ease 0.1s; -webkit-transition:all ease 0.1s; -moz-transition:all ease 0.1s; -o-transition:all ease 0.1s;}
+input[type="text"],input[type="datetime"],input[type="email"],input[type="number"],input[type="password"],input[type="search"],input[type="tel"],input[type="url"]{ padding-top:0; padding-bottom:0; border:none; outline:none;}
+input[type="button"],button,input[type="date"],input[type="datetime-local"],input[type="file"],input[type="image"],input[type="reset"],input[type="submit"]{ font-size:14px;}
+input[type="button"],button,input[type="reset"],input[type="submit"]{ padding:0; border:none; outline:none; vertical-align:middle; cursor:pointer;}
+input[type="checkbox"],input[type="radio"],input[type="range"]{ margin:0; vertical-align:middle;}
+input[type="image"],keygen{ vertical-align:middle;}
+fieldset{ padding:0; margin-left:0; margin-right:0; border:none;}
+legend{ padding-left:0; padding-right:0;}
+textarea{ padding:0; font-family:inherit;/* resize:none;*/ outline:none;}
+menu{ padding-left:0; margin-top:0; margin-bottom:0;}
+
+/*form set*/
+input[type="text"],input[type="datetime"],input[type="email"],input[type="number"],input[type="password"],input[type="search"],input[type="tel"],input[type="url"]{ height:30px; border:#ccc solid 1px;}
+input[type="text"]:focus,input[type="datetime"]:focus,input[type="email"]:focus,input[type="number"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="url"]:focus{ border:#35b558 solid 1px; -webkit-box-shadow:0 0 5px #51cc73;}
+input[type="button"],button,input[type="reset"],input[type="submit"]{ width:120px; height:32px; border:#35b558 solid 1px; background-color:#35b558; color:#fff;}
+input[type="button"]:hover,button:hover,input[type="reset"]:hover,input[type="submit"]:hover{ border:#51cc73 solid 1px; background-color:#51cc73; color:#fff;}
+input[type="button"]:active,button:active,input[type="reset"]:active,input[type="submit"]:active{ border:#666 solid 1px; background-color:#666;}
+
+
+/*table reset*/
+table{ border-collapse:collapse; border-spacing:0;}
+th,td{ padding:0;}
+
+
+/*tools*/
+.fix:before,.fix:after{ display:table; clear:both; content:'';}
+.l{ float:left;}
+.r{ float:right;}
+.el{ overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.hidetext{ font:0/0 a; letter-spacing:-9px;}

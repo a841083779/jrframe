@@ -1,0 +1,24 @@
+    <div class="midPart txd_mpro_list">
+      <ul class="fix">
+<#list list as l>
+        <li>
+          <div class="box">
+            <div class="mp_img"><a href="/proDetail/${l.url!""}.shtm" title="${l.title!""}" target="_blank">
+			<img onerror="this.src='/uploadfiles/no_small.gif'" src="<#if l.img?index_of('uploadfiles')!=-1>http://product.21-sun.com/${l.img!""}<#else>http://product.21-sun.com/uploadfiles/${l.img!""}</#if>" alt="${l.title!""}"></a>
+			</div>
+            <div class="mp_title"><a href="/proDetail/${l.url!""}.shtm" title="${l.title!""}">${l.title!""}</a></div>
+            <div class="mp_link" id="summary">${l.summary!""}</div>
+			<div class="mp_link" id="detail" style="display:none">
+			<a href="/proDetail/${l.url!""}.shtm#position" target="_blank" title="${l.title!""}性能">性能</a><em class="w">|</em>
+			<a href="/proDetail/${l.url!""}_parameter.shtm#position" target="_blank" title="${l.title!""}参数">参数</a><em class="w">|</em>
+			<a href="/proDetail/${l.url!""}_message.shtm#position" target="_blank" title="${l.title!""}口碑">口碑</a><em class="w">|</em>
+			<a href="/proDetail/${l.url!""}_pic.shtm#position" target="_blank" title="${l.title!""}图库">图库</a>
+			</div>
+			
+            <!--<div class="mp_price"><a data-val="${l.sub_title}" href="javascript:;" target="_blank"  class="xj">立即询价</a></div>-->
+			<div class="mp_price"><a href="/proDetail/${l.url!""}.shtm" target="_blank"  class="xj">立即询价</a></div>
+          </div>
+        </li>
+</#list>
+      </ul>
+    </div>

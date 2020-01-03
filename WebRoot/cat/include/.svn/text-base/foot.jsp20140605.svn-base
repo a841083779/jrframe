@@ -1,0 +1,59 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<div class="foot clearfix mb15">
+    <dl>
+      <dt>产品系列</dt>
+      <dd><a href="list.jsp?tonandmeter=grab_1_19" target="_blank">小型挖掘机</a></dd>
+      <dd><a href="list.jsp?tonandmeter=grab_20_30" target="_blank">中型挖掘机</a></dd>
+      <dd><a href="list.jsp?tonandmeter=grab_30_1" target="_blank">大型挖掘机</a></dd>
+    </dl>
+    <dl>
+      <dt>服务与体验</dt>
+      <dd><a href="http://catparts.com.cn/" target="_blank" rel="nofollow">零件与服务</a></dd>
+    </dl>
+    <dl>
+      <dt>新闻与活动</dt>
+      <dd><a href="news.jsp?flag=news" target="_blank">行业资讯</a></dd>
+      <dd><a href="news.jsp?flag=pre" target="_blank">卡特新闻与活动</a></dd>
+    </dl>
+    <dl>
+      <dt>热销型号</dt>
+      <dd><a href="detail.jsp?id=20473" target="_blank">卡特312D2 GC液压挖掘机</a></dd>
+      <dd><a href="list.jsp?tonandmeter=grab_20_30" target="_blank">卡特320D液压挖掘机</a></dd>
+      <dd><a href="detail.jsp?id=9585" target="_blank">卡特M315D轮式挖掘机</a></dd>
+      <dd><a href="detail.jsp?id=20472" target="_blank">卡特313D2挖掘机</a></dd>
+      <dd><a href="detail.jsp?id=20440" target="_blank">卡特320D2挖掘机</a></dd>
+    </dl>
+  </div>
+  <div class="New_foot">
+  Copyright &copy; 2000-<script type="text/javascript">document.write((new Date()).getFullYear());</script>
+	<span class="New_links" onclick="window.open('http://www.21-sun.com');">中国工程机械商贸网</span> | 制作维护
+  </div>
+  <div style="display:none;">
+  <script src="http://s13.cnzz.com/stat.php?id=5786967&web_id=5786967" language="JavaScript"></script>
+  <script src="http://s85.cnzz.com/stat.php?id=5100957&web_id=5100957" language="JavaScript"></script>
+  
+  
+  
+  <script type="text/javascript">
+var _smq = _smq || [];
+_smq.push(['_setAccount', '58af85d', new Date()]);
+_smq.push(['_setHeatmapEnabled', 'no']);
+_smq.push(['_setUrlParam', 'smt_e', '_e360_uid', '_e360_campaignid', '_e360_groupid', '_e360_creativeid', '_e360_keywordid']);
+_smq.push(['pageview']);
+ 
+(function() {
+var so = document.createElement('script'); so.type = 'text/javascript'; so.async = true;
+so.src = 'http://stat.e.tf.360.cn/search/c.js?u=968805521,968805521';
+var e = document.getElementsByTagName('script')[0]; e.parentNode.insertBefore(so, e);
+})();
+ 
+(function() {
+var sm = document.createElement('script'); sm.type = 'text/javascript'; sm.async = true;
+sm.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdnmaster.com/sitemaster/sm360.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sm, s);
+})();
+</script>
+  </div>
+  
+  
+  

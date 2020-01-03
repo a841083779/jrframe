@@ -1,0 +1,10 @@
+								<#if list?? && (list?size>0)>
+								<#list list as list>
+								<div class="span-3">
+									<a title="${list.title}" target="_blank" href="${list.title_url}" class="item">
+										<img src="http://product.21-sun.com/uploadfiles${list.img}" alt="${list.title}">
+										<p>${list.title}</p>
+									</a>
+								</div>
+								</#list>
+								</#if>

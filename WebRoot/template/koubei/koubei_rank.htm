@@ -1,0 +1,75 @@
+
+<#assign grab_order = query("  SELECT top 10 a.factoryname,a.name,a.catalogname,a.file_name,b.allcount,a.id from (select  factoryname,name,catalogname,file_name,id from pro_products where is_show=1 AND catalognum LIKE '%101001%' )as a INNER  JOIN ( SELECT COUNT(product_id) as allcount,product_id  FROM pro_comments  GROUP BY product_id  ) as b ON a.id=b.product_id  ORDER BY  b.allcount desc ")> <#-- 挖掘机排行 -->
+<#assign loader_order = query(" SELECT top 10 a.factoryname,a.name,a.catalogname,a.file_name,b.allcount,a.id from (select  factoryname,name,catalogname,file_name,id from pro_products where is_show=1 AND catalognum LIKE '%101002%' )as a INNER  JOIN ( SELECT COUNT(product_id) as allcount,product_id  FROM pro_comments  GROUP BY product_id  ) as b ON a.id=b.product_id  ORDER BY  b.allcount desc")> <#-- 装载机排行 -->
+<#assign bulldozer_order = query("  SELECT top 10 a.factoryname,a.name,a.catalogname,a.file_name,b.allcount,a.id from (select  factoryname,name,catalogname,file_name,id from pro_products where is_show=1 AND catalognum LIKE '%101003%' )as a INNER  JOIN ( SELECT COUNT(product_id) as allcount,product_id  FROM pro_comments  GROUP BY product_id  ) as b ON a.id=b.product_id  ORDER BY  b.allcount desc ")> <#-- 推土机排行 -->
+<#assign grader_order = query("  SELECT top 10 a.factoryname,a.name,a.catalogname,a.file_name,b.allcount,a.id from (select  factoryname,name,catalogname,file_name,id from pro_products where is_show=1 AND catalognum LIKE '%101005%' )as a LEFT  JOIN ( SELECT COUNT(product_id) as allcount,product_id  FROM pro_comments  GROUP BY product_id  ) as b ON a.id=b.product_id  ORDER BY  b.allcount desc ")> <#-- 平地机排行 -->
+
+    
+	<div class="rcl">
+      <div class="title09">
+        <h2><a href="/rank_101001.htm" target="_blank" title="挖掘机口碑排行榜">挖掘机口碑排行榜</a></h2>
+        <span><a href="/rank_101001.htm" target="_blank" title="挖掘机口碑排行榜">更多&gt;&gt;</a></span>
+      </div>
+	  
+	  <div class="brand_right_box_left">
+	      <#if grab_order??&&(grab_order?size>0)>
+          <#list grab_order as oneGrab>
+          <p> <strong class="brand_01 top${oneGrab_index+1}"></strong> <span class="brand_02"><a title="${oneGrab.factoryname}${oneGrab.name}${oneGrab.catalogname}" href="/list/${oneGrab.id?c}.htm" target="_brank">${oneGrab.factoryname}${oneGrab.name} ${oneGrab.catalogname}</a></span> <span class="brand_03"><b><i style="width:${(oneGrab.allcount*2)?c}%"></i></b><strong>${(oneGrab.allcount*9)?c}</strong></span> </p>
+          </#list>         
+		  <p class="more"> <a title="挖掘机口碑完整榜单" href="/rank_101001.htm">完整榜单&gt;&gt;</a> </p>
+		  </#if>
+	  </div>
+    </div>
+	
+    <div class="rcl">
+      <div class="title09">
+        <h2><a href="/rank_101002.htm" target="_blank" title="装载机口碑排行榜">装载机口碑排行榜</a></h2>
+        <span><a href="/rank_101002.htm" target="_blank" title="装载机口碑排行榜">更多&gt;&gt;</a></span>
+      </div>
+	  
+	  <div class="brand_right_box_left">
+	      <#if loader_order??&&(loader_order?size>0)>
+          <#list loader_order as oneGrab>
+          <p> <strong class="brand_01 top${oneGrab_index+1}"></strong> <span class="brand_02"><a title="${oneGrab.factoryname}${oneGrab.name}${oneGrab.catalogname}" href="/list/${oneGrab.id?c}.htm" target="_brank">${oneGrab.factoryname}${oneGrab.name} ${oneGrab.catalogname}</a></span> <span class="brand_03"><b><i style="width:${(oneGrab.allcount*2)?c}%"></i></b><strong>${(oneGrab.allcount*9)?c}</strong></span> </p>
+          </#list>
+		  <p class="more"> <a title="装载机口碑完整榜单" href="/rank_101002.htm">完整榜单&gt;&gt;</a> </p>
+		  </#if>
+	  </div>
+    </div>
+    
+	<div class="rcl">
+      <div class="title09">
+        <h2><a href="/rank_101003.htm" target="_blank" title="推土机口碑排行榜">推土机口碑排行榜</a></h2>
+        <span><a href="/rank_101003.htm" target="_blank" title="推土机口碑排行榜">更多&gt;&gt;</a></span>
+      </div>
+	  
+	  <div class="brand_right_box_left">
+	      <#if bulldozer_order??&&(bulldozer_order?size>0)>
+          <#list bulldozer_order as oneGrab>
+          <p> <strong class="brand_01 top${oneGrab_index+1}"></strong> <span class="brand_02"><a title="${oneGrab.factoryname}${oneGrab.name}${oneGrab.catalogname}" href="/list/${oneGrab.id?c}.htm" target="_brank">${oneGrab.factoryname}${oneGrab.name} ${oneGrab.catalogname}</a></span> <span class="brand_03"><b><i style="width:${(oneGrab.allcount*2)?c}%"></i></b><strong>${(oneGrab.allcount*9)?c}</strong></span> </p>
+          </#list>
+		  <p class="more"> <a title="推土机口碑完整榜单" href="/rank_101003.htm">完整榜单&gt;&gt;</a> </p>
+		  </#if>
+	  </div>
+    </div>
+    
+	<div class="rcl">
+      <div class="title09">
+        <h2><a href="/rank_101005.htm" target="_blank" title="平地机口碑排行榜">平地机口碑排行榜</a></h2>
+        <span><a href="/rank_101005.htm" target="_blank" title="平地机口碑排行榜">更多&gt;&gt;</a></span>
+      </div>
+	  <div class="brand_right_box_left">
+	     <#if grader_order??&&(grader_order?size>0)>
+         <#list grader_order as oneGrab>
+		     <#if (oneGrab.allcount??)>
+             <p> <strong class="brand_01 top${oneGrab_index+1}"></strong> <span class="brand_02"><a title="${oneGrab.factoryname}${oneGrab.name}${oneGrab.catalogname}" href="/list/${oneGrab.id?c}.htm" target="_brank">${oneGrab.factoryname}${oneGrab.name} ${oneGrab.catalogname}</a></span> <span class="brand_03"><b><i style="width:${(oneGrab.allcount*2)?c}%"></i></b><strong>${(oneGrab.allcount*9)?c}</strong></span> </p>
+			 <#else>
+			 <p> <strong class="brand_01 top${oneGrab_index+1}"></strong> <span class="brand_02"><a title="${oneGrab.factoryname}${oneGrab.name}${oneGrab.catalogname}" href="/list/${oneGrab.id?c}.htm" target="_brank">${oneGrab.factoryname}${oneGrab.name} ${oneGrab.catalogname}</a></span> <span class="brand_03"><b><i style="width:1%"></i></b><strong>0</strong></span> </p>
+			 </#if>
+         </#list>        
+		    <p class="more"> <a title="平地机口碑完整榜单" href="/rank_101005.htm">完整榜单&gt;&gt;</a> </p>
+		 </#if>
+	  </div>
+    </div>
+    
+      

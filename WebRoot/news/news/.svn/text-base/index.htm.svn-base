@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="工程机械,工程机械产品中心" />
+<meta name="description" content="工程机械产品大全涵盖了挖掘机、装载机、起重机等各种工程机械产品。找挖掘机、装载机请来中国工程机械商贸网。" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>【工程机械产品大全|挖掘机|装载机】 - 中国工程机械商贸网</title>
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<script type="text/javascript" src="/scripts/flash.js"></script>
+<script type="text/javascript" src="/scripts/jquery.SuperSlide.js"></script>
+</head>
+<body>
+<!--top-->
+  <!--#include virtual="/include/top.jsp"-->
+<!--面包屑-->
+<div class="contain980 mb10">
+  <h3 class="breadCrumbs">您现在所在的位置：<a href="/">工程机械产品中心</a> &gt;&gt; 新闻中心</h3>
+</div>
+<!--面包屑结束--> 
+<!--广告-->
+<div class="contain980 mb10"><script language="javascript" type="text/javascript">
+writeflashhtml("_swf=../images/hy.swf", "_width=980", "_height=60" ,"_wmode=opaque");
+</script></div>
+<!--广告结束--> 
+<!--main-->
+<div class="contain980"> 
+
+  <div class="newspart blue mb10">
+<!--#include virtual="/news/create/new_pro_rec.jsp"--><!-- 新品推荐 -->
+<!--#include virtual="/news/create/pro_news.jsp"--><!-- 产品资讯 -->
+<!--#include virtual="/news/create/activity_rec.jsp"--><!-- 活动推荐 -->
+ </div>  
+  <!--#include virtual="/news/create/new_pro_pics.jsp"--><!-- 新车图库 -->
+  <!--#include virtual="/news/create/pro_videos.jsp"--><!-- 新车图库 -->  
+  <!--#include virtual="/news/create/news_list.jsp"--><!-- 资讯排行 -->   
+<div class="clear"></div>
+</div>
+<!--main end--> 
+<!--foot-->
+<!--#include virtual="/include/foot.jsp"-->
+<!--end of foot--> 
+</body>
+<script type="text/javascript" src="/scripts/sort.js"></script>
+</html>

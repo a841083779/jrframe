@@ -1,0 +1,65 @@
+<#assign catalog_list = query("SELECT TOP 18 num FROM pro_catalog where is_show = 1 and num  NOT in (SELECT TOP 36 num FROM pro_catalog where is_show = 1)")>
+<#assign agent_factory_list = query(" select id from pro_agent_factory where is_show = 1 and flag = 1")>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<#list catalog_list as obj >
+	<#list agent_factory_list as agent_factory >
+				<url>
+					<loc>http://photo.21-sun.com/other_${agent_factory.id?c}_${obj.num!"0"}_107003_0.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+				<url>
+					<loc>http://photo.21-sun.com/other_${agent_factory.id?c}_${obj.num!"0"}_107004_0.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+				<url>
+					<loc>http://photo.21-sun.com/other_${agent_factory.id?c}_${obj.num!"0"}_107006_0.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+
+				<url>
+					<loc>http://photo.21-sun.com/other_${agent_factory.id?c}_${obj.num!"0"}_107003_001.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+				<url>
+					<loc>http://photo.21-sun.com/other_${agent_factory.id?c}_${obj.num!"0"}_107004_001.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+				<url>
+					<loc>http://photo.21-sun.com/other_${agent_factory.id?c}_${obj.num!"0"}_107006_001.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+
+				<url>
+					<loc>http://photo.21-sun.com/other_${agent_factory.id?c}_${obj.num!"0"}_107003_002.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+				<url>
+					<loc>http://photo.21-sun.com/other_${agent_factory.id?c}_${obj.num!"0"}_107004_002.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+				<url>
+					<loc>http://photo.21-sun.com/other_${agent_factory.id?c}_${obj.num!"0"}_107006_002.htm</loc>
+            		<lastmod>${.now}</lastmod>
+					<priority>1.0</priority>
+					<changefreq>monthly</changefreq>
+				</url>
+	</#list>
+	</#list>
+</urlset>

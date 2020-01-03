@@ -1,0 +1,25 @@
+<!--区域下拉列表-->
+<div class="dl_area_list dl_sele fix">
+    <div class="l dl_sele_l">
+    <ul class="idTabs dl_sele_l_ls">
+	<#list query("select id,name,num,parent_num from pro_agent_province_city where parent_num=0 order by id asc ") as prevince /> 
+	<#assign item=query("select count(id) as count from pro_agent_province_city where parent_num='${prevince.num}' order by id asc")>
+      <li><a href="#area${prevince_index+1}" >${prevince.name}<i>${item.count}</i></a></li>
+	  </#list>
+    </ul>
+  </div>
+  <div class="r dl_sele_r">
+  <#list query("select id,name,num,parent_num from pro_agent_province_city where parent_num=0 order by id asc ") as previnces /> 
+    <div class="dl_sele_r_ls" id="area${previnces_index+1}">
+      <ul>
+	   <#list query("select id,name,num,parent_num from pro_agent_province_city where parent_num='${previnces.num}' order by id asc ") as city />
+	   <#assign item=query("select count(id) as counts from pro_agent_factory where city like '%${city.name}%' order by id asc")>
+        <li><a href="#"><span>420</span>${city.name}</a></li>
+		</#list>
+      </ul>
+    </div>
+   
+  </div>
+  <div class="dl_sele_btm"></div>
+</div>
+<!--end 区域下拉列表 --> 

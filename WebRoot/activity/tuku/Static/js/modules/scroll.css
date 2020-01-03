@@ -1,0 +1,5 @@
+/*scroll*/
+.scroll{position:relative;overflow:hidden;width:100%;}
+.gallery{white-space:nowrap;font-size:0;height:100%;}
+.gallery_cell{display:inline-block;overflow:hidden;height:100%;font-size:12px;vertical-align:top;*display:inline;*zoom:1;}
+.s_prev,.s_next{overflow:hidden;cursor:pointer;}

@@ -1,0 +1,193 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+<div class="rankContain newRank"> 
+  <div class="wfull l">
+   
+
+   <div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/top_list/brand_0_0_0_101001_0.htm" title="挖掘机排行榜">挖掘机排行榜</a></h2>
+        <span><a target="_blank" href="/top_list/brand_0_0_0_101001_0.htm" title="更多挖掘机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+        <p>
+          <strong class="brand_01 top1"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/komatsu/" title="小松">小松</a></span>
+          <span class="brand_03"><b><i style="width:90.649%"></i></b><strong>453245</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top2"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/sany/" title="三一">三一</a></span>
+          <span class="brand_03"><b><i style="width:77.6376%"></i></b><strong>388188</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top3"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/hitachi/" title="日立">日立</a></span>
+          <span class="brand_03"><b><i style="width:67.2392%"></i></b><strong>336196</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top4"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/cat/" title="卡特彼勒">卡特彼勒</a></span>
+          <span class="brand_03"><b><i style="width:60.5086%"></i></b><strong>302543</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top5"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/doosan/" title="斗山">斗山</a></span>
+          <span class="brand_03"><b><i style="width:58.321%"></i></b><strong>291605</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top6"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/kobelco/" title="神钢">神钢</a></span>
+          <span class="brand_03"><b><i style="width:45.974%"></i></b><strong>229870</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top7"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/volvo/" title="沃尔沃">沃尔沃</a></span>
+          <span class="brand_03"><b><i style="width:38.1154%"></i></b><strong>190577</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top8"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/liugong/" title="柳工">柳工</a></span>
+          <span class="brand_03"><b><i style="width:31.9954%"></i></b><strong>159977</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top9"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/xcmg/" title="徐工">徐工</a></span>
+          <span class="brand_03"><b><i style="width:27.1412%"></i></b><strong>135706</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top10"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/hyundai-bj/" title="现代">现代</a></span>
+          <span class="brand_03"><b><i style="width:15.5828%"></i></b><strong>77914</strong></span>
+        </p>
+        <p class="more">
+          <a href="/top_list/brand_0_0_0_101001_0.htm" title="挖掘机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	   <div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/top_list/brand_0_0_0_101002_0.htm" title="装载机排行榜">装载机排行榜</a></h2>
+        <span><a target="_blank" href="/top_list/brand_0_0_0_101002_0.htm" title="更多装载机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+        <p>
+          <strong class="brand_01 top1"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/liugong/" title="柳工">柳工</a></span>
+          <span class="brand_03"><b><i style="width:96.13225%"></i></b><strong>384529</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top2"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/chinalonggong/" title="龙工">龙工</a></span>
+          <span class="brand_03"><b><i style="width:55.801%"></i></b><strong>223204</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top3"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/xcmg/" title="徐工">徐工</a></span>
+          <span class="brand_03"><b><i style="width:31.76475%"></i></b><strong>127059</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top4"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/xiagong/" title="厦工">厦工</a></span>
+          <span class="brand_03"><b><i style="width:29.40025%"></i></b><strong>117601</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top5"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/sdlg/" title="临工">临工</a></span>
+          <span class="brand_03"><b><i style="width:19.64425%"></i></b><strong>78577</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top6"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/china-sg/" title="山工">山工</a></span>
+          <span class="brand_03"><b><i style="width:16.118%"></i></b><strong>64472</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top7"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/cat/" title="卡特彼勒">卡特彼勒</a></span>
+          <span class="brand_03"><b><i style="width:13.8575%"></i></b><strong>55430</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top8"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/chenggong/" title="成工">成工</a></span>
+          <span class="brand_03"><b><i style="width:10.8585%"></i></b><strong>43434</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top9"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/lovol/" title="福田雷沃">福田雷沃</a></span>
+          <span class="brand_03"><b><i style="width:10.6015%"></i></b><strong>42406</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top10"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/doosan/" title="斗山">斗山</a></span>
+          <span class="brand_03"><b><i style="width:10.4815%"></i></b><strong>41926</strong></span>
+        </p>
+        <p class="more">
+          <a href="/top_list/brand_0_0_0_101002_0.htm" title="装载机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+	<div class="rcl">
+      <div class="title09">
+        <h2><a target="_blank" href="/top_list/brand_0_0_0_101003_0.htm" title="推土机排行榜">推土机排行榜</a></h2>
+        <span><a target="_blank" href="/top_list/brand_0_0_0_101003_0.htm" title="更多推土机排行榜">更多&gt;&gt;</a></span> 
+      </div>
+	    <div class="brand_right_box_left">
+        <p>
+          <strong class="brand_01 top1"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/shantui/" title="山推">山推</a></span>
+          <span class="brand_03"><b><i style="width:102.248571428571%"></i></b><strong>71574</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top2"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/cat/" title="卡特彼勒">卡特彼勒</a></span>
+          <span class="brand_03"><b><i style="width:51.905714285714%"></i></b><strong>36334</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top3"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/zoomlion/" title="中联重科">中联重科</a></span>
+          <span class="brand_03"><b><i style="width:43.121428571429%"></i></b><strong>30185</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top4"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/hbxg/" title="宣工">宣工</a></span>
+          <span class="brand_03"><b><i style="width:28.192857142857%"></i></b><strong>19735</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top5"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/liugong/" title="柳工">柳工</a></span>
+          <span class="brand_03"><b><i style="width:27.991428571429%"></i></b><strong>19594</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top6"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/lyyj/" title="洛阳东方红">洛阳东方红</a></span>
+          <span class="brand_03"><b><i style="width:27.8%"></i></b><strong>19460</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top7"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/komatsu/" title="小松">小松</a></span>
+          <span class="brand_03"><b><i style="width:20.547142857143%"></i></b><strong>14383</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top8"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/gjzjyituo/" title="东方红">东方红</a></span>
+          <span class="brand_03"><b><i style="width:19.834285714286%"></i></b><strong>13884</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top9"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/ddgcjx/" title="大地">大地</a></span>
+          <span class="brand_03"><b><i style="width:17.717142857143%"></i></b><strong>12402</strong></span>
+        </p>
+        <p>
+          <strong class="brand_01 top10"></strong>
+          <span class="brand_02"><a target="_brank" href="/brand/xcmg/" title="徐工">徐工</a></span>
+          <span class="brand_03"><b><i style="width:13.465714285714%"></i></b><strong>9426</strong></span>
+        </p>
+        <p class="more">
+          <a href="/top_list/brand_0_0_0_101003_0.htm" title="推土机完整榜单">完整榜单&gt;&gt;</a>
+        </p>
+      </div>  
+    </div>
+	
+  </div>  
+  </div>

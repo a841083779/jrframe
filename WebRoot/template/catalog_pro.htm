@@ -1,0 +1,32 @@
+ <#list query("select factoryid from pro_agent_product_vi where agentid='${agent_id}'   group by factoryid") as fac_sec>
+  <#list query("select top 1 catalognum ,factoryid from pro_agent_product_vi where factoryid='${fac_sec.factoryid}' and is_show=1 group by catalognum,factoryid") as fac_pro>
+<div class="dl_detail">
+ <#list query("select top 1 catalogname ,factoryname from pro_agent_product_vi where factoryid='${fac_pro.factoryid}' and is_show=1 ") as itemsd>
+ <h3><a href="agent_pro.jsp?agent_id=${agent_id}&catalog=${fac_pro.catalognum}&factory=${fac_pro.factoryid}" class="more">更多</a>${itemsd.factoryname}${itemsd.catalogname}</h3>
+ </#list>
+ <ul class="fix">
+ 
+  <#assign x=fac_pro.catalognum >
+<#if x?length gt 6> <#assign x=x?substring(0,6 )> </#if>
+  <#assign items=query("select top 2 agentproductid,factoryname,catalogname,name,img2,file_name  from pro_agent_product_vi where catalognum like '%${x}%' and agentid=${agent_id} and is_show=1") >
+	 <#list items as fac_for>
+    <li><a href="/proDetail/${fac_for.ile_name}">
+	<#if fac_for.img2?contains("uploadfiles")>
+        <img title="${fac_for.name}" style="height:147px;" src="http://m.product.21-sun.com/${fac_for.img2?replace('image', '')}"   class="img" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" >
+      <#elseif fac_for.img2?contains("image")>
+          <img title="${fac_for.name}" style="height:147px;" src="http://m.product.21-sun.com/uploadfiles/${fac_for.img2?replace('image', '')}"  class="img"  onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" >
+	 <#else>
+          <img title="${fac_for.name}" style="height:147px;" src="http://m.product.21-sun.com/uploadfiles/${fac_for.img2?replace('image', '')}"   class="img" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" >
+	 </#if>
+	<strong>${fac_for.factoryname}${fac_for.name}${fac_for.catalogname}</strong> </a>
+	<a class="btn dj"  href="tel:4006-521-526"><img src="Static/img/dl_btn_bg_06.png">询问底价</a>
+	<a class="btn dg" href="/form.jsp?pid=${fac_for.agentproductid?c}"><img src="Static/img/dl_btn_bg_03.png">立即订购</a>
+	</li>
+
+</#list>
+  </ul>
+</div>
+</#list>
+</#list>
+
+

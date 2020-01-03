@@ -1,0 +1,225 @@
+<%@ page language="java"  pageEncoding="utf-8"%>
+<%@page import="com.jerehnet.util.common.*"%>
+<%@page import="com.jerehnet.mobile.action.*" %>
+<%
+	agentAction agentAction=new agentAction();
+	factoryAction factoryAction=new factoryAction();
+	personnelAction personnelAction=new personnelAction();
+
+	String resultStr="";
+	String flag = CommonString.getFormatPara(request.getParameter("flag"));	
+	//------------------------------代理商（开始）------------------------------
+	//代理商 登录
+    if("agent_login".equals(flag)){
+		String usern = CommonString.getFormatPara(request.getParameter("usern")); 
+		String pwd = CommonString.getFormatPara(request.getParameter("pwd")); 
+		resultStr=agentAction.login(usern,pwd);
+		out.println(resultStr);
+	}
+	//代理商 状态统计数
+    if("agent_stateNum".equals(flag)){
+    	int agent_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid"))); 
+		resultStr=agentAction.getCountNum(agent_id);
+		out.println(resultStr);
+	}
+    //代理商 业务员列表
+    if("agent_person_list".equals(flag)){
+		int agent_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid"))); 
+		String searchStr=CommonString.getFormatPara(request.getParameter("searchStr"));
+		int pageNum = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageNum"))); 
+		int pageSize = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageSize"))); 
+		resultStr=agentAction.personList(agent_id,searchStr,pageNum,pageSize);
+		out.println(resultStr);
+	}
+    //代理商 订单列表
+    if("agent_order_list".equals(flag)){
+		int agent_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid"))); 
+		int ywid =  CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("ywid")));
+		int pageNum = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageNum"))); 
+		int pageSize = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageSize"))); 
+		String orderState = CommonString.getFormatPara(request.getParameter("orderState"));
+		String trackState = CommonString.getFormatPara(request.getParameter("trackState"));
+		String lostReason = CommonString.getFormatPara(request.getParameter("lostReason"));
+		resultStr=agentAction.orderList(agent_id,ywid,orderState,trackState,lostReason,pageNum,pageSize);
+		out.println(resultStr);
+	}
+    
+    //代理商 订单详细页
+    if("agent_order_detail".equals(flag)){
+		int form_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("form_id"))); 
+		resultStr=agentAction.orderInfo(form_id);
+		out.println(resultStr);
+	}
+    
+    
+    //统计报表---开始---
+    //代理商 业务员统计
+    if("agent_person_report".equals(flag)){
+		int agent_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid"))); 
+		int pageNum = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageNum"))); 
+		int pageSize = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageSize"))); 
+		resultStr=agentAction.personReport(agent_id,pageNum,pageSize);
+		out.println(resultStr);
+	}
+    //代理商 代理区域列表
+    if("agent_province_list".equals(flag)){
+		int agent_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid"))); 
+		resultStr=agentAction.provinceList(agent_id);
+		out.println(resultStr);
+	}
+    
+    //代理商 代理机型列表
+    if("agent_catalog_list".equals(flag)){
+		int agent_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid"))); 
+		resultStr=agentAction.catalogList(agent_id);
+		out.println(resultStr);
+	}
+    
+    //同区域品牌前十饼图
+    if("agent_brand_report".equals(flag)){
+    	String province=CommonString.getFormatPara(request.getParameter("province"));
+		String catalogNum=CommonString.getFormatPara(request.getParameter("catalogNum"));
+		String timeType=CommonString.getFormatPara(request.getParameter("timeType"));
+		resultStr=agentAction.brandReport(province,catalogNum,timeType);
+		out.println(resultStr);
+	}
+  	//代理机型前十饼图
+    if("agent_catalog_report".equals(flag)){
+    	int agent_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid"))); 
+    	String province=CommonString.getFormatPara(request.getParameter("province"));
+		String catalogNum=CommonString.getFormatPara(request.getParameter("catalogNum"));
+		String timeType=CommonString.getFormatPara(request.getParameter("timeType"));
+		resultStr=agentAction.modelReport(agent_id,province,catalogNum,timeType);
+		out.println(resultStr);
+	}
+  	
+    //订单走势图
+    if("agent_order_report".equals(flag)){
+    	int agent_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid"))); 
+    	String province=CommonString.getFormatPara(request.getParameter("province"));
+		String catalogNum=CommonString.getFormatPara(request.getParameter("catalogNum"));
+		String timeType=CommonString.getFormatPara(request.getParameter("timeType"));
+		resultStr=agentAction.orderReport(agent_id,province,catalogNum,timeType);
+		out.println(resultStr);
+	}
+    
+    //统计报表---结束---
+    
+    //------------------------------代理商（结束）------------------------------
+    
+    
+    
+    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~厂商（开始）~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  	//厂商 登录
+    if("factory_login".equals(flag)){
+		String usern = CommonString.getFormatPara(request.getParameter("usern")); 
+		String pwd = CommonString.getFormatPara(request.getParameter("pwd")); 
+		resultStr=factoryAction.login(usern,pwd);
+		out.println(resultStr);
+	}
+    
+    //厂商 状态统计数
+    if("factory_stateNum".equals(flag)){
+    	int factory_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid"))); 
+		resultStr=factoryAction.getCountNum(factory_id);
+		out.println(resultStr);
+	}
+    
+    //厂商 代理列表
+    if("factory_agent_list".equals(flag)){
+    	int factory_id=CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid")));
+    	String searchStr=CommonString.getFormatPara(request.getParameter("searchStr"));
+    	int pageNum = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageNum"))); 
+		int pageSize = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageSize"))); 
+    	resultStr=factoryAction.agentList(factory_id,searchStr,pageNum,pageSize);
+		out.println(resultStr);
+    }
+    
+    //厂商 订单列表
+    if("factory_order_list".equals(flag)){
+		int factory_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid"))); 
+		int ywid =  CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("ywid")));
+		int pageNum = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageNum"))); 
+		int pageSize = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageSize"))); 
+		String orderState = CommonString.getFormatPara(request.getParameter("orderState"));
+		String trackState = CommonString.getFormatPara(request.getParameter("trackState"));
+		String lostReason = CommonString.getFormatPara(request.getParameter("lostReason"));
+		resultStr=factoryAction.orderList(factory_id,ywid,orderState,trackState,lostReason,pageNum,pageSize);
+		out.println(resultStr);
+	}
+    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~厂商（结束）~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    
+    
+    //*******************************************业务员（开始）*******************************************
+  	//业务员 登录
+    if("personnel_login".equals(flag)){
+		String usern = CommonString.getFormatPara(request.getParameter("usern")); 
+		String pwd = CommonString.getFormatPara(request.getParameter("pwd")); 
+		resultStr=personnelAction.login(usern,pwd);
+		out.println(resultStr);
+	}
+    
+    //业务员 状态统计数
+    if("personnel_stateNum".equals(flag)){
+    	int person_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid"))); 
+		resultStr=personnelAction.getCountNum(person_id);
+		out.println(resultStr);
+	}
+    
+    //业务员 订单列表
+    if("personnel_order_list".equals(flag)){
+		int factory_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid"))); 
+		int pageNum = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageNum"))); 
+		int pageSize = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageSize"))); 
+		String orderState = CommonString.getFormatPara(request.getParameter("orderState"));
+		String trackState = CommonString.getFormatPara(request.getParameter("trackState"));
+		String lostReason = CommonString.getFormatPara(request.getParameter("lostReason"));
+		resultStr=personnelAction.orderList(factory_id,orderState,trackState,lostReason,pageNum,pageSize);
+		out.println(resultStr);
+	}
+    
+    //业务员 订单修改
+    if("personnel_order_detail".equals(flag)){
+		int form_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("form_id"))); 
+		String orderState=CommonString.getFormatPara(request.getParameter("orderState"));
+		String lostReason = CommonString.getFormatPara(request.getParameter("lostReason"));
+		String brand = CommonString.getFormatPara(request.getParameter("brand"));
+		String appRemark=CommonString.getFormatPara(request.getParameter("appRemark"));
+		resultStr=personnelAction.orderEdit(form_id,orderState,lostReason,brand,appRemark);
+		out.println(resultStr);
+	}
+    
+  	//业务员 确认接收订单操作
+    if("personnel_order_receive".equals(flag)){
+		int form_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("form_id"))); 
+		resultStr=personnelAction.receiveOrder(form_id);
+		out.println(resultStr);
+	}
+  	//标记星标
+    if("personnel_doTag".equals(flag)){
+		int form_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("form_id"))); 
+		resultStr=personnelAction.doTag(form_id);
+		out.println(resultStr);
+	}
+  	//取消星标
+    if("personnel_cancelTag".equals(flag)){
+		int form_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("form_id"))); 
+		resultStr=personnelAction.cancelTag(form_id);
+		out.println(resultStr);
+	}
+    if("personnel_tagged_list".equals(flag)){
+		int factory_id = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("uid"))); 
+		int pageNum = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageNum"))); 
+		int pageSize = CommonString.getFormatInt(CommonString.getFormatPara(request.getParameter("pageSize"))); 
+		String trackState = CommonString.getFormatPara(request.getParameter("trackState"));
+		resultStr=personnelAction.taggedList(factory_id,trackState,pageNum,pageSize);
+		out.println(resultStr);
+	}
+  	
+    //*******************************************业务员（结束）*******************************************
+%>
+
+
+
+ 

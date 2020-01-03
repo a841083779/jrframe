@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<meta name="author" content="design by www.21-sun.com">
+<title>个人中心</title>
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+</head>
+<body>
+<!--top-->
+<div class="m_newTop">
+  <div class="wrapper">
+    <h2 class="l"><img width="219" height="40" src="images/mem_logo.png" alt="铁臂商城购物中心"></h2>
+    <ul class="m_nav">
+      <li><a href="#" class="n">网站<i></i></a>
+        <div class="box">
+          <a href="#">网站首页</a>
+          <a href="#">铁臂商城</a>
+          <a href="#">铁臂兄弟连</a>
+          <a href="#">铁臂口碑</a>
+          <a href="#">铁臂图库</a>
+          <a href="#">铁臂维修</a>
+          <a href="#">铁臂视频</a>
+          <a href="#">铁臂资讯</a>
+        </div>
+      </li>
+      <li><a href="#" class="n">应用<i></i></a>
+        <div class="box">
+          <a href="#">我的口碑</a>
+          <a href="#">我上传的图片</a>
+          <a href="#">我的维修知识</a>
+          <a href="#">我上传的视频</a>
+        </div>
+      </li>
+    </ul>
+    <div class="top_search">
+      <input type="text" name="top_input" id="top_input" value="请输入搜索内容" onfocus="if(this.value == '请输入搜索内容'){this.value=''}" onblur="if(this.value == ''){this.value='请输入搜索内容'}" class="top_input">
+      <li class="select_box"> <span>帖子</span>
+        <ul style="display: none;" class="son_ul">
+          <li value="0">帖子</li>
+          <li value="1">用户</li>
+        </ul>
+      </li>
+      <input type="hidden" id="top_select" value="0">
+      <a class="top_btn" href="javascript:void(0);" onclick="goSearch()"></a> 
+      <script type="text/javascript">
+          $(document).ready(function(){
+             $('.son_ul').hide(); //初始ul隐藏
+             $('.select_box span').hover(function(){ //鼠标移动函数
+                $(this).parent().find('ul.son_ul').slideDown(200);  //找到ul.son_ul显示
+                $(this).parent().find('li').hover(function(){$(this).addClass('hover')},function(){$(this).removeClass('hover')}); //li的hover效果
+                $(this).parent().hover(function(){},
+                                       function(){
+                                           $(this).parent().find("ul.son_ul").slideUp(200); 
+                                           }
+                                       );
+                },function(){}
+                );
+            $('ul.son_ul li').click(function(){
+              $("#top_select").val($(this).attr('value'));
+              $(this).parents('li').find('span').html($(this).html());
+              $(this).parents('li').find('ul').slideUp(200);
+            });
+          });
+          function goSearch(){
+              var tar = $("#top_select").val();
+              var str = $("#top_input").val();
+              if($.trim(str) == ''){
+                  $.jBox.tip('请输入搜索内容');
+              }
+              if(tar == 0){
+                   window.location.href='/service/searchList.jsp?keyWord='+str;
+              }else{
+                  window.location.href='/newMember.jsp?keyWord='+str;
+              }
+          }
+      </script> 
+    </div>
+    <div class="mtl m_set"><a class="m_Ico"><em></em></a></div>
+    <div class="b_nav_member" style="background: none;width: auto;">
+      <a href="/infocenter/index.jsp"><img width="30" height="30" src="images/noface.png" class="b_faceimg"></a> 
+      <span class="b_name" style="width: auto;">
+        <a href="/infocenter/index.jsp" style="color: #FFF;">Style2013</a>
+        <a href="/tools/exit.jsp" style="color:#fff;">[退出]</a>
+      </span>
+    </div>
+  </div>
+</div>
+<!--top end-->
+
+<div class="wrapper m_contain mb20 fix">
+  <!--left-->
+  <div class="m_leftPart">
+    <div class="mem-con">
+      <div class="mem-face">
+        <img width="175" height="175" src="images/noface.png">
+      </div>
+      <ul class="mem-info">
+        <li><strong>780</strong><br>
+          粉丝</li>
+        <li style="border:none;"><strong>895</strong><br>
+          关注</li>
+      </ul>
+    </div>
+    
+    <h3 class="mt">我发布的</h3>
+    <ul class="m_leftMenu">
+      <li><a class="selected" href="#"><span class="n"><img src="images/menu_ico01.png">我的口碑</span></a></li>
+      <li><a href="#"><span class="n"><img src="images/menu_ico02.png">我上传的图片</span></a></li>
+      <li><a href="#"><span class="n"><img src="images/menu_ico03.png">我的维修知识</span></a></li>
+      <li><a href="#"><span class="n"><img src="images/menu_ico04.png">我的上传视频</span></a></li>
+    </ul>
+    <div class="m_line"></div>
+    
+  </div>
+  <!--left end-->
+  <!--right-->
+  <div class="m_rightPart">
+    <div class="mr_menu">
+      <ul class="fix">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">个人资料</a></li>
+        <li><a href="#">修改头像</a></li>
+        <li><a href="#" class="selected">手机绑定</a></li>
+        <li><a href="#">地址管理</a></li>
+      </ul>
+    </div>
+    
+    <div class="tb_box">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th width="17%">已绑定手机号：</th>
+          <td width="83%">188*****386 更改号码</td>
+        </tr>
+        <tr>
+          <th>所在地：</th>
+          <td><select name="select" id="select">
+            <option>中国大陆（China)</option>
+          </select></td>
+        </tr>
+        <tr>
+          <th>手机号码：</th>
+          <td><input type="text" name="textfield" id="textfield" class="inp" /><a href="#" class="yl_btn" style="font-size:12px;">获取校验码</a></td>
+        </tr>
+        <tr>
+          <th>校验码：</th>
+          <td><input type="text" name="textfield2" id="textfield2" class="inp" /></td>
+        </tr>
+        <tr>
+          <th>&nbsp;</th>
+          <td><a href="#" class="yl_btn">保存</a></td>
+        </tr>
+      </table>
+    </div>
+    
+  </div>
+  <!--right end-->
+</div>
+<!--foot-->
+<div class="foot">
+  <a href="#">广告服务</a>|<a href="#">联系方式</a>|<a href="#">关于我们</a>|<a href="#">本网动态</a>|<a href="#">法律声明</a>|<a href="#">网站导航</a>|<a href="#">联系客服</a><br />
+  产品询价专线：4006-521-526<br />
+  <a href="http://www.21-sun.com/" target="_blank">中国工程机械商贸网</a> Copyright &copy; 2000-2014
+</div>
+<!--foot end-->
+</body>
+<script type="text/javascript" src="scripts/common.js"></script>
+</html>

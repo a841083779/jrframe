@@ -1,0 +1,38 @@
+ <div class="newspart video blue mb10">
+    <div class="title bigTitle">
+      <h3>产品看看</h3>
+      <ul class="t-con">
+        <li>热门：<a href="http://video.21-sun.com/search.jsp?searchKey=%E6%8C%96%E6%8E%98%E6%9C%BA" target="_blank">挖掘机</a> <a href="http://video.21-sun.com/search.jsp?searchKey=%E8%A3%85%E8%BD%BD%E6%9C%BA" target="_blank">装载机</a> <a href="http://video.21-sun.com/search.jsp?searchKey=%E6%8E%A8%E5%9C%9F%E6%9C%BA" target="_blank">推土机</a> </li>
+      </ul>
+      <span class="more"><a href="http://video.21-sun.com/" target="_blank">更多&gt;&gt;</a></span>
+    </div>
+    <div class="content bigContent">
+      <ul class="list">
+			<li>
+	          <a href="http://player.youku.com/player.php/sid/XMTg5MjI3MDg4/v.swf" target="_blank"><img src="http://news.21-sun.com/UserFiles/Image/20110429072648_0.jpg" width="160" height="90" /><em class="playico"></em>
+	          </a>
+			  <h3 style="width:160px;overflow:hidden;"><a href="http://player.youku.com/player.php/sid/XMTg5MjI3MDg4/v.swf" target="_blank">利勃海尔500吨起重机行走</a></h3>
+	        </li>
+			<li>
+	          <a href="http://news.21-sun.com/detail/2013/08/2013080115573430.shtml" target="_blank"><img src="http://news.21-sun.com/UserFiles/Image/20130826163220_0.jpg" width="160" height="90" /><em class="playico"></em>
+	          </a>
+			  <h3 style="width:160px;overflow:hidden;"><a href="http://news.21-sun.com/detail/2013/08/2013080115573430.shtml" target="_blank">徐工四千吨级起重机首吊</a></h3>
+	        </li>
+			<li>
+	          <a href="http://player.youku.com/player.php/sid/XNDA3NzU4ODEy/v.swf" target="_blank"><img src="http://news.21-sun.com/UserFiles/Image/20120605135235_0.jpg" width="160" height="90" /><em class="playico"></em>
+	          </a>
+			  <h3 style="width:160px;overflow:hidden;"><a href="http://player.youku.com/player.php/sid/XNDA3NzU4ODEy/v.swf" target="_blank">徐工伸缩臂叉装机保定应用实录</a></h3>
+	        </li>
+			<li>
+	          <a href="http://player.youku.com/player.php/sid/XMzc3OTQ1NTEy/v.swf" target="_blank"><img src="http://news.21-sun.com/UserFiles/Image/20120410153112_0.jpg" width="160" height="90" /><em class="playico"></em>
+	          </a>
+			  <h3 style="width:160px;overflow:hidden;"><a href="http://player.youku.com/player.php/sid/XMzc3OTQ1NTEy/v.swf" target="_blank">DX150LC挖掘机</a></h3>
+	        </li>
+			<li>
+	          <a href="http://player.youku.com/player.php/sid/XNTUyOTEzMzI=/v.swf" target="_blank"><img src="http://news.21-sun.com/UserFiles/Image/20110411084350_0.jpg" width="160" height="90" /><em class="playico"></em>
+	          </a>
+			  <h3 style="width:160px;overflow:hidden;"><a href="http://player.youku.com/player.php/sid/XNTUyOTEzMzI=/v.swf" target="_blank">上海工程机械宝马展会跳舞的两头忙</a></h3>
+	        </li>
+      </ul>
+    </div>
+  </div>

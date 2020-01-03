@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>新闻资讯_牛力士布雷维尼(盐城)回转支承有限公司</title>
+<link href="../style/style.css" tppabs="http://www.leonessabrevini.com/style/style.css" rel="stylesheet" />
+<script src="../scripts/jquery.min.js" tppabs="http://www.leonessabrevini.com/scripts/jquery.min.js"></script>
+<script src="../scripts/js.js" tppabs="http://www.leonessabrevini.com/scripts/js.js"></script>
+</head>
+<body>
+<!--21sun top-->
+<link href="http://product.21-sun.com/style/brandshop_top_include.css" rel="stylesheet" type="text/css" />
+<div class="product_include">
+<div class="brand_topBar">
+  <div class="contain980 clearfix">
+    <div class="visit_21sun"><a title="返回工程机械产品中心" href="http://product.21-sun.com/" target="_blank"><img src="http://product.21-sun.com/images/brandshop_toppoint.gif"> 返回工程机械产品中心</a></div>
+    <ul class="loginLinks_new">
+      <li onclick="window.open('http://product.21-sun.com/agent/login.jsp');">厂家登录</li>
+      <li onclick="window.open('http://product.21-sun.com/agent/login.jsp');">代理商登录</li>
+    </ul>
+    <ul class="tlRight">
+      <li onclick="window.open('http://product.21-sun.com/products/');" class="tl">产品大全</li>
+      <li onclick="window.open('http://product.21-sun.com/brand/');" class="tl">品牌大全</li>
+      <li onclick="window.open('http://product.21-sun.com/news/');" class="tl">行情导购</li>
+      <li onclick="window.open('http://product.21-sun.com/inquiry/');" class="tl">采购询价</li>
+      <li onclick="window.open('http://product.21-sun.com/photo/');" class="tl">产品图库</li>
+      <li onclick="window.open('http://product.21-sun.com/top_list/');" class="tl">排行榜</li>
+      <li onclick="window.open('http://product.21-sun.com/agent/');" class="tl">代理商专区</li>
+      <li class="guide" id="guide" onmouseover="document.getElementById('guide').className='guide ghover'" onmouseout="document.getElementById('guide').className='guide'"><span class="gt">网站导航</span>
+        <ul>
+          <li onclick="window.open('http://market.21-sun.com/');">供求市场</li>
+          <li onclick="window.open('http://news.21-sun.com/');">行业动态</li>
+          <li onclick="window.open('http://product.21-sun.com/');">整机市场</li>
+          <li onclick="window.open('http://www.21-sun.com/part/');">配件市场</li>
+          <li onclick="window.open('http://www.21-rent.com/');">租赁调剂</li>
+          <li onclick="window.open('http://www.21part.com/');">杰 配 网</li>
+          <li onclick="window.open('http://www.21peitao.com/');">配 套 网</li>
+          <li onclick="window.open('http://www.21-sun.com/supply/');">供 应 商</li>
+          <li onclick="window.open('http://www.21-cmjob.com/');">招聘求职</li>
+          <li onclick="window.open('http://data.21-sun.com/');">数据分析</li>
+          <li onclick="window.open('http://www.21-sun.com/bidding/');">招 投 标</li>
+          <li onclick="window.open('http://stock.21-sun.com/');">行业股市</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="brand_topbg">
+  <div class="top contain980 brand_top">
+    <h1><a target="_blank" href="http://product.21-sun.com/"><img width="136" height="72" alt="中国工程机械商贸网" src="http://product.21-sun.com/images/new_n_21sun.gif"><img width="53" height="72" alt="产品中心" src="http://product.21-sun.com/images/new_n_pro_name.gif"></a></h1>
+    <div class="new_topMid">
+      <ul class="news_topSearch">
+        <form target="_blank" onsubmit="if(jQuery('#keyword').val()==''){alert('请输入您要搜索的关键词');jQuery('#keyword').focus();return false;}" action="http://sowa.21-sun.com/" method="get" name="top_search" id="top_search">
+          <li class="ntsi">
+            <input type="text" value="" maxlength="30" id="q" name="q">
+          </li>
+          <li class="ntsb">
+            <input type="submit" value="&nbsp;" id="button">
+          </li>
+          <input type="hidden" value="product" name="f">
+        </form>
+      </ul>
+      <div class="hotWords">热门搜索：<a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101001"><b>挖掘机</b></a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=101002">装载机</a> <a target="_blank" href="http://product.21-sun.com/products/prolist.jsp?catalog=102">起重机</a></div>
+    </div>
+    <div id="topHot" class="topHot">
+      <ul class="thl">
+        <li style="display: block;"><a target="_blank" href="http://product.21-sun.com/tuan/"><img width="260" height="80" style="cursor:pointer" alt="产品中心优买团" src="http://product.21-sun.com/images/tu1.png"></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+<!--21sun top end--> 
+<div class="wrap head"> <a href="../index.htm" tppabs="http://www.leonessabrevini.com/" title="牛力士支承,轴承制造有限公司" class="dib logo"><img src="../images/logo.jpg" tppabs="http://www.leonessabrevini.com/images/logo.jpg" alt="牛力士支承,轴承制造有限公司" /></a> <span class="lang"><a href="../index.htm" tppabs="http://www.leonessabrevini.com/" class="dib cn">中文</a><a href="../en/index.htm" tppabs="http://www.leonessabrevini.com/en/" class="dib en">English</a></span> </div>
+<ul class="wrap nav yahei">
+	<li class="i"><a href="../index.htm" tppabs="http://www.leonessabrevini.com/" title="回转支承,转盘轴承,挖机轴承网站首页">首&emsp;页</a></li>
+	<li><a href="../about/index.htm" tppabs="http://www.leonessabrevini.com/about/">关于我们</a></li>
+	<li><a href="index.htm" tppabs="http://www.leonessabrevini.com/news/">新闻资讯</a></li>
+	<li><a href="../products/index.htm" tppabs="http://www.leonessabrevini.com/products/" title="轴承,支承产品展示中心">产品展示</a></li>
+	<li><a href="../app/index.htm" tppabs="http://www.leonessabrevini.com/app/">产品应用</a></li>
+	<li><a href="../service/index.htm" tppabs="http://www.leonessabrevini.com/service/">售后服务</a></li>
+	<li><a href="../job/index.htm" tppabs="http://www.leonessabrevini.com/job/">人才招聘</a></li>
+	<li><a href="../contact/index.htm" tppabs="http://www.leonessabrevini.com/contact/">联系我们</a></li>
+</ul>
+<div class="wrap c_ny">
+	<div class="ny pr">
+		<div class="ny2">
+			<div class="ny3 fix"> <span class="pa posi">您当前所在位置：<a href="../index.htm" tppabs="http://www.leonessabrevini.com/">首页</a> > 新闻资讯</span>
+				<div class="l side news">
+				<h2><span class="dib head_h2">
+						<div>N</div>
+						</span> <span class="dib tit_h2">新闻资讯
+						<div class="en_h2">News</div>
+						</span></h2>
+				</div>
+				<div class="r main about"> 　　
+
+					<div class="fy">
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="../style/jereh.css" tppabs="http://www.leonessabrevini.com/style/jereh.css" />
+<script type="text/javascript">
+<!--
+function goTo(page){
+	var goUrl = "/news/index.jsp?nowPage="+page;
+	if(page>=1&&page<=1){
+		location.assign(goUrl);
+	}
+}
+//-->
+</script>
+<table border="0" cellpadding="0" cellspacing="0" class="newslist">
+
+		<tr>
+		  	
+		  				<th class="newsth-order">序号</th>
+		  				
+		  				<th class="newsth-title">标题</th>
+		  				
+		  				<th class="newsth-pubdate">日期</th>
+		  				
+		  				<th class="newsth-viewcount">点击次数</th>
+		  				
+		  </tr>
+		
+  
+	
+	<!--迭代-->
+	
+  <tr>
+  	
+					<td class="news-order">1</td>
+					
+  				<td class="news-title"><div><a href="news_page.jsp-myid=65816.htm" tppabs="http://www.leonessabrevini.com/news/news_page.jsp?myid=65816" title="牛力士布雷维尼获ISO 9001:2008质量管理体系认证">
+  				<h2>牛力士布雷维尼获ISO 9001:2008质量管理体系认证</h2>
+  				</a></div></td>
+  				
+  				<td class="news-pubdate">2013-07-31</td>
+  				
+  				<td class="news-viewcount">13</td>
+  				
+  </tr>
+			
+  <tr>
+  	
+					<td class="news-order">2</td>
+					
+  				<td class="news-title"><div><a href="news_page.jsp-myid=57174.htm" tppabs="http://www.leonessabrevini.com/news/news_page.jsp?myid=57174" title="牛力士布雷维尼质量管理体系通过DNV认证审核">
+  				<h2>牛力士布雷维尼质量管理体系通过DNV认证审核</h2>
+  				</a></div></td>
+  				
+  				<td class="news-pubdate">2013-05-30</td>
+  				
+  				<td class="news-viewcount">399</td>
+  				
+  </tr>
+			
+  <tr>
+  	
+					<td class="news-order">3</td>
+					
+  				<td class="news-title"><div><a href="news_page.jsp-myid=50761.htm" tppabs="http://www.leonessabrevini.com/news/news_page.jsp?myid=50761" title="市委书记朱克江莅临牛力士布雷维尼考察指导">
+  				<h2>市委书记朱克江莅临牛力士布雷维尼考察指导</h2>
+  				</a></div></td>
+  				
+  				<td class="news-pubdate">2013-05-20</td>
+  				
+  				<td class="news-viewcount">508</td>
+  				
+  </tr>
+			
+  <tr>
+  	
+					<td class="news-order">4</td>
+					
+  				<td class="news-title"><div><a href="news_page.jsp-myid=44385.htm" tppabs="http://www.leonessabrevini.com/news/news_page.jsp?myid=44385" title="牛力士布雷维尼参加BAUMA CHINA 2012 ">
+  				<h2>牛力士布雷维尼参加BAUMA CHINA 2012 </h2>
+  				</a></div></td>
+  				
+  				<td class="news-pubdate">2012-11-05</td>
+  				
+  				<td class="news-viewcount">898</td>
+  				
+  </tr>
+			
+  <tr>
+  	
+					<td class="news-order">5</td>
+					
+  				<td class="news-title"><div><a href="news_page.jsp-myid=44263.htm" tppabs="http://www.leonessabrevini.com/news/news_page.jsp?myid=44263" title="牛力士布雷维尼将参加北京风能展 ">
+  				<h2>牛力士布雷维尼将参加北京风能展 </h2>
+  				</a></div></td>
+  				
+  				<td class="news-pubdate">2012-11-05</td>
+  				
+  				<td class="news-viewcount">626</td>
+  				
+  </tr>
+			
+	<!--迭代-->
+
+</table>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="wrap foot">
+	<div class="foot_ lineheight26px c666666"> 版权所有：<a href="../index.htm" tppabs="http://www.leonessabrevini.com/">牛力士布雷维尼(盐城)回转支承有限公司</a><br/>
+		地址：江苏省盐城经济开发区盐渎东路65号 电话：0515-89026300　邮编：224007</div>
+	<div class="pa"><a href="../index.htm" tppabs="http://www.leonessabrevini.com/" title="返回首页">◄ HOME</a><a href="#" title="返回顶部">▲ TOP</a></div>
+</div>
+<!--21sun foot-->
+<link href="http://product.21-sun.com/style/brandshop_top_include.css" rel="stylesheet" type="text/css" />
+<div class="product_include">
+<div class="shopFoot">
+  <div class="proFoot">
+    <link rel="stylesheet" href="http://www.21-sun.com/00css/new_21sun_include.css" type="text/css" />
+    <div class="New_website">
+      <div class="New_linksContain"> <strong><span class="New_links" onclick="window.open('http://www.21-sun.com');">中国工程机械商贸网</span>旗下网站：</strong> <span class="New_links" onclick="window.open('http://www.21-parts.com');">中国工程机械配件网</span> <span class="New_links" onclick="window.open('http://www.21-cmjob.com');">中国工程机械人才网</span> <span class="New_links" onclick="window.open('http://www.21-rent.com');">中国工程机械租赁网</span> <span class="New_links" onclick="window.open('http://www.21-used.com');">中国工程机械二手网</span> <span class="New_links" onclick="window.open('http://www.21part.com/');">配件商城</span> <span class="New_links" onclick="window.open('http://www.21peitao.com/');">配套网</span> <span class="New_links" onclick="window.open('http://www.cmbol.com/');">工程机械外贸网</span> 
+    </div>
+    </div>
+    <div class="New_foot"> <span class="New_links" onclick="window.open('http://www.21-sun.com/service/guanggao/index.htm');">广告服务</span><em>|</em> <span class="New_links" onclick="window.open('http://aboutus.21-sun.com/contact/');">联系方式</span><em>|</em> <span class="New_links" onclick="window.open('http://aboutus.21-sun.com/');">关于我们</span><em>|</em> <span class="New_links" onclick="window.open('http://aboutus.21-sun.com/news/');">本网动态</span><em>|</em> <span class="New_links" onclick="window.open('http://aboutus.21-sun.com/contact/legal.jsp');">法律声明</span><em>|</em> <span class="New_links" onclick="window.open('http://aboutus.21-sun.com/map.htm');">网站导航</span><em>|</em> <span class="New_links" onclick="window.open('http://www.21-sun.com/contact/');">联系客服</span><br/>
+      主编：<a href="mailto:webmaster@21-sun.com" rel="nofollow">webmaster@21-sun.com</a><em>&nbsp;</em> 市场部：<a href="mailto:market@21-sun.com" rel="nofollow">market@21-sun.com</a><em>&nbsp;</em> 技术部：<a href="mailto:tech@21-sun.com" rel="nofollow">tech@21-sun.com</a><em>&nbsp;</em> 广告部：<a href="mailto:ads@21-sun.com" rel="nofollow">ads@21-sun.com</a><br/>
+      产品询价专线：0535-6792733<em>&nbsp;</em>业务联系：(总机)0535-6722555<br/>
+      <span class="New_links" onclick="window.open('http://www.21-sun.com');">中国工程机械商贸网</span> Copyright &copy; 2000-<script type="text/javascript">document.write((new Date()).getFullYear());</script> 
+    </div>
+  </div>
+</div>
+</div>
+<!--21sun foot end-->
+</body>
+</html>

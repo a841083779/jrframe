@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>山工装载机_八月优买团，梦想新航线，未来合伙人_21-sun优买团</title>
+<meta name="keywords" content="21-sun优买团,诚邀合伙人,卡特迷你挖掘机,山工装载机,三一挖掘机,卡特挖机,山推专场,配件,破碎锤" />
+<meta name="description" content="21-sun优买团,中国工程机械商贸网13周年感恩回馈客户,梦想新航线未来合伙人,热销机型包括,卡特迷你挖掘机,山工装载机,三一挖掘机,卡特挖机,山推机械等专场优惠" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/common.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".nav li:eq(2)").addClass("selected");
+  $(".sideGuide a:eq(3)").addClass("selected");
+});
+</script>
+</head>
+<body id="top" class="sem">
+<!--#include virtual="include/top.jsp"-->
+<div class="main">
+  <div class="wrapper banner"><img src="images/banner_sem.jpg" width="1000" height="390" /></div>
+  <div class="tuan_part01" id="tuanPart">
+    <div class="main-con tuanParts clearfix">
+      <div class="title">
+        <h3>山工装载机专场</h3>
+        <span class="tel">更多优惠请咨询：0535-6792733</span>
+      </div>
+      <div class="content">
+        <ul class="list proList02">
+          <li>
+            <h2><a href="http://product.21-sun.com/proDetail/ZL5-G-I.shtm" target="_blank">山工ZL50F-II轮式装载机</a></h2>
+            <a href="http://product.21-sun.com/proDetail/ZL5-G-I.shtm" target="_blank" class="img"><img src="images/sem_ZL50F.jpg" alt="山工ZL50F-II轮式装载机" width="275" height="218" /></a>
+            <a onclick="showinquery('883','');" target="_self" href="javascript:void(0);" title="立即预订" class="ydbtn"><img src="images/buy_btn02_x.gif" alt="立即预订" width="201" height="50" /></a>
+          </li>
+          <li>
+            <h2><a href="http://product.21-sun.com/proDetail/SEM660B.shtm" target="_blank">山工SEM660B轮式装载机</a></h2>
+            <a href="http://product.21-sun.com/proDetail/SEM660B.shtm" target="_blank" class="img"><img src="images/sem_660B.jpg" alt="山工SEM660B轮式装载机" width="275" height="218" /></a>
+            <a onclick="showinquery('7451','');" target="_self" href="javascript:void(0);" title="立即预订" class="ydbtn"><img src="images/buy_btn02_x.gif" alt="立即预订" width="201" height="50" /></a>
+          </li>
+          <li>
+            <h2><a href="http://product.21-sun.com/proDetail/ZL30F-I-40.shtm" target="_blank">山工SEM652B轮式装载机</a></h2>
+            <a href="http://product.21-sun.com/proDetail/ZL30F-I-40.shtm" target="_blank" class="img"><img src="images/sem_652B.jpg" alt="山工SEM652B轮式装载机" width="427" height="334" /></a>
+            <a onclick="showinquery('863','');" target="_self" href="javascript:void(0);" title="立即预订" class="ydbtn"><img src="images/buy_btn02_x.gif" alt="立即预订" width="201" height="50" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="tuan_part02">
+    <div class="wrapper">
+      <p class="text">　　山东山工机械有限公司成立于1958年，2008年，山工正式加盟卡特彼勒，成为卡特彼勒在中国战略中重要的组成部分，在职职工2500多人。<br />
+        　　加盟卡特后山工引进了6Sigma、CPS、TPM、5S管理及MQ12005质量管理等先进的管理模式，实现了中国传统文化与卡特彼勒企业管理理念的成功融合。<br />
+      　　山工设施配套齐全，生产工艺先进，技术力量雄厚，检测试验完善，拥有多项专利技术、创新技术，始终保持行业技术领先，并一直持续关注于客户，在中国工程机械行业率先承诺“质保一年，保修一年，24小时服务到位”，率先推出卡特彼勒融资租赁方案，以卓越的品质和服务，赢得世界和中国用户的赞许和信赖。</p>
+    </div>
+  </div>
+</div>
+<div class="foot">
+<!--#include virtual="/include/foot.jsp"--> 
+</div>
+<!--#include virtual="include/side_guide.jsp"-->
+</body>
+<!-- jbox -->
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<script type="text/javascript">
+function showinquery(pid,factoryid){
+	jQuery.jBox("iframe:/include/products/product_order.jsp?productid="+pid+"&factoryid="+factoryid, {
+	title: "在线询价",
+	width: 720,
+	height: 435,
+	top: '20%',
+	iframeScrolling : 'no',
+	buttons: { '关闭': false }
+	});
+	jQuery(".jbox-button-panel").attr("style","display:none;") ;
+}
+</script>
+</html>

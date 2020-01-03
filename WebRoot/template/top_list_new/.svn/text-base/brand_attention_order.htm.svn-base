@@ -1,0 +1,28 @@
+<%@ page language="java"  pageEncoding="UTF-8"%>
+<#assign brand_attention_order = query(" select top 10 logo,full_name,view_count,usern from pro_agent_factory where flag=1 order by view_count desc  ") >
+<div class="w978 l border03 mb10">
+    <div class="title09">
+      <h2>品牌关注度排行榜</h2>
+      <span><a href="/brand_list.jsp" target="_blank" title="更多品牌关注度排行榜">更多&gt;&gt;</a></span>
+    </div>
+    <div class="top10">
+      <ul>
+      <#if brand_attention_order??&&(brand_attention_order?size>0)>
+      	<#list brand_attention_order as oneBrand>
+      	<#if oneBrand_index<3>
+        <li class="top3">
+        <#else>
+        <li>
+        </#if>
+          <em>${oneBrand_index+1}</em>
+          <div class="topc">
+            <a href="http://product.21-sun.com/brand/${oneBrand.usern}/" title="${oneBrand.full_name}" target="_blank"><img src="/uploadfiles/${oneBrand.logo}" alt="${oneBrand.full_name}" width="80" height="30" /><br />
+            <strong>${oneBrand.full_name}</strong></a><br />
+            品牌指数：${oneBrand.view_count?c}
+          </div>
+        </li>
+        </#list>
+        </#if>
+       </ul>
+    </div>
+  </div>

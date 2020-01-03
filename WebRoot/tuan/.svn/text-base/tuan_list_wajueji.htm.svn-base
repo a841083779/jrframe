@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>挖掘机团购-优买团-工程机械团购、工程机械购机、工程机械打折，购买超级优惠 - 铁臂商城</title>
+<meta name="keywords" content="工程机械团购,工程机械购机大全,工程机械交易中心" />
+<meta name="description" content="铁臂商城发起为大宗采购商,整机厂家,代理商,VIP会员,终端用户提供专属、高效、长期交易平台,贴心服务,共享优惠,咨询热线:0535-6727793" />
+<link href="/style/tuan.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<script type="text/javascript" src="/scripts/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="/scripts/sort.js"></script>
+<!-- jbox -->
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+</head>
+<body class="tuan">
+<!--#include virtual="tuan_nav.jsp"-->
+<div class="tuanParts tuanPart06">
+  <div class="contain980">
+    <div class="tuan_listTitle">
+      <ul>
+        <li><a href="tuan_list_wajueji.htm" class="selected">挖掘机团购</a></li>
+        <li><a href="tuan_list_pingdiji.htm">平地机团购</a></li>
+        <li><a href="tuan_list_zhuangzaiji.htm">装载机团购</a></li>
+        <li><a href="tuan_list_posuichui.htm">破碎锤团购</a></li>
+      </ul>
+      <div class="Slogan">挖掘机优惠购机，实实在在帮您省！</div>
+    </div>
+    <div class="tuan_listContain">
+      <ul class="tuan_list">
+        <li>
+          <a href="http://product.21-sun.com/proDetail/FR65V8.shtm" class="img" target="_blank"><img src="images/part04_img02.jpg" alt="福田FR65V8挖掘机" width="240" height="225" />
+            <h3>福田FR65V8挖掘机</h3>
+          </a>
+          <a onclick="showinquery('7630','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/FR80G.shtm" class="img" target="_blank"><img src="images/part04_img03.jpg" alt="福田FR80G挖掘机" width="240" height="225" />
+            <h3>福田FR80G挖掘机</h3>
+          </a>
+          <a onclick="showinquery('11629','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/FR170.shtm" class="img" target="_blank"><img src="images/part04_img04.jpg" alt="福田FR170挖掘机" width="240" height="225" />
+            <h3>福田FR170挖掘机</h3>
+          </a>
+          <a onclick="showinquery('7636','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/FR220.shtm" class="img" target="_blank"><img src="images/part04_img05.jpg" alt="福田FR220挖掘机" width="240" height="225" />
+            <h3>福田FR220挖掘机</h3>
+          </a>
+          <a onclick="showinquery('7637','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/FR210.shtm" class="img" target="_blank"><img src="images/part04_img06.jpg" alt="福田FR210挖掘机" width="240" height="225" />
+            <h3>福田FR210挖掘机</h3>
+          </a>
+          <a onclick="showinquery('10112','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/FR150.shtm" class="img" target="_blank"><img src="images/part04_img07.jpg" alt="福田FR150挖掘机" width="240" height="225" />
+            <h3>福田FR150挖掘机</h3>
+          </a>
+          <a onclick="showinquery('10111','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/XE60.shtm" class="img" target="_blank"><img src="/images/tuan_img.jpg" alt="徐工XE60CA挖掘机" width="240" height="225" />
+            <h3>徐工XE60CA挖掘机</h3>
+          </a>
+          <a onclick="showinquery('497','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/XE85C.shtm" class="img" target="_blank"><img src="images/XE85C.jpg" alt="徐工XE85C挖掘机" width="240" height="225" />
+            <h3>徐工XE85C挖掘机</h3>
+          </a>
+          <a onclick="showinquery('16825','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/XE135B.shtm" class="img" target="_blank"><img src="images/XE135B.jpg" alt="徐工XE135B挖掘机" width="240" height="225" />
+            <h3>徐工XE135B挖掘机</h3>
+          </a>
+          <a onclick="showinquery('16824','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/XE215C.shtm" class="img" target="_blank"><img src="images/XE215C.jpg" alt="徐工XE215C挖掘机" width="240" height="225" />
+            <h3>徐工XE215C挖掘机</h3>
+          </a>
+          <a onclick="showinquery('7877','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/XE370C.shtm" class="img" target="_blank"><img src="images/XE370CA.jpg" alt="徐工XE370CA挖掘机" width="240" height="225" />
+            <h3>徐工XE370CA挖掘机</h3>
+          </a>
+          <a onclick="showinquery('7878','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+           <li>
+          <a href="http://product.21-sun.com/proDetail/312D312DL.shtm" class="img" target="_blank"><img src="images/312D.jpg" alt="卡特彼勒312D 312DL履带式挖掘机" width="240" height="225" />
+            <h3>卡特312D 312DL履带式挖掘机</h3>
+          </a>
+          <a onclick="showinquery('378','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+         <li>
+          <a href="http://product.21-sun.com/proDetail/320D320DL.shtm" class="img" target="_blank"><img src="images/320D.jpg" alt="卡特彼勒320D 320DL履带式挖掘机" width="240" height="225" />
+            <h3>卡特320D 320DL履带式挖掘机</h3>
+          </a>
+          <a onclick="showinquery('400','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SY55C-92013K.shtm" class="img" target="_blank"><img src="images/SY55C-9_2013.jpg" alt="三一2013款C9系列SY55C-9挖掘机" width="240" height="225" />
+            <h3>三一2013款C9系列SY55C-9挖掘机</h3>
+          </a>
+          <a onclick="showinquery('18533','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SY60C-9（2013K）.shtm" class="img" target="_blank"><img src="images/SY60C-9_2013.jpg" alt="三一2013款C9系列SY60C-9挖掘机" width="240" height="225" />
+            <h3>三一2013款C9系列SY60C-9挖掘机</h3>
+          </a>
+          <a onclick="showinquery('18534','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SY65C-9（2013K）.shtm" class="img" target="_blank"><img src="images/SY65C-9_2013.jpg" alt="三一2013款C9系列SY65C-9挖掘机" width="240" height="225" />
+            <h3>三一2013款C9系列SY65C-9挖掘机</h3>
+          </a>
+          <a onclick="showinquery('18536','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SY155H.shtm" class="img" target="_blank"><img src="images/SY155H_2013.jpg" alt="三一2013款C9系列SY155H挖掘机" width="240" height="225" />
+            <h3>三一2013款C9系列SY155H挖掘机</h3>
+          </a>
+          <a onclick="showinquery('9695','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+           <li>
+          <a href="http://product.21-sun.com/proDetail/SY195C-9-60.shtm" class="img" target="_blank"><img src="images/SY195C-9_2013.jpg" alt="三一2013款C9系列SY195C-9挖掘机" width="240" height="225" />
+            <h3>三一2013款C9系列SY195C-9挖掘机</h3>
+          </a>
+          <a onclick="showinquery('18937','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SY335C-9H（2013K）.shtm" class="img" target="_blank"><img src="images/SY335C-9_2013.jpg" alt="三一2013款C9系列SY335C-9挖掘机" width="240" height="225" />
+            <h3>三一2013款C9系列SY335C-9挖掘机</h3>
+          </a>
+          <a onclick="showinquery('18546','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SY365H-9.shtm" class="img" target="_blank"><img src="images/SY365C-8_2013.jpg" alt="三一2013款C9系列SY365H-9挖掘机" width="240" height="225" />
+            <h3>三一2013款C9系列SY365H-9挖掘机</h3>
+          </a>
+          <a onclick="showinquery('18549','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SY60C-9.shtm" class="img" target="_blank"><img src="images/SY60C-9.jpg" alt="三一SY60C-9挖掘机" width="240" height="225" />
+            <h3>三一SY60C-9挖掘机</h3>
+          </a>
+          <a onclick="showinquery('9692','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        
+            <li>
+          <a href="http://product.21-sun.com/proDetail/SY75C-9.shtm" class="img" target="_blank"><img src="images/SY75C-9.jpg" alt="三一SY75C-9挖掘机" width="240" height="225" />
+            <h3>三一SY75C-9挖掘机</h3>
+          </a>
+          <a onclick="showinquery('7208','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SY135C-9.shtm" class="img" target="_blank"><img src="images/SY135C-9.jpg" alt="三一SY135C-9挖掘机" width="240" height="225" />
+            <h3>三一SY135C-9挖掘机</h3>
+          </a>
+          <a onclick="showinquery('5225','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+         <li>
+          <a href="http://product.21-sun.com/proDetail/SY185C-8.shtm" class="img" target="_blank"><img src="images/sy185.jpg" alt="三一SY185C-8挖掘机" width="240" height="225" />
+            <h3>三一SY185C-8挖掘机</h3>
+          </a>
+          <a onclick="showinquery('9696','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>        
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SY215C-8.shtm" class="img" target="_blank"><img src="images/SY215C-9.jpg" alt="三一SY215C-9挖掘机" width="240" height="225" />
+            <h3>三一SY215C-9挖掘机</h3>
+          </a>
+          <a onclick="showinquery('7206','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SY365H-8.shtm" class="img" target="_blank"><img src="images/SY365H-8.jpg" alt="三一SY365H-8挖掘机" width="240" height="225" />
+            <h3>三一SY365H-8挖掘机</h3>
+          </a>
+          <a onclick="showinquery('13248','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        
+             <li>
+          <a href="http://product.21-sun.com/proDetail/SY55C-9.shtm" class="img" target="_blank"><img src="images/SY55C-9.jpg" alt="三一SY55C-9挖掘机" width="240" height="225" />
+            <h3>三一SY55C-9挖掘机</h3>
+          </a>
+          <a onclick="showinquery('7210','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/CNE60.shtm" class="img" target="_blank"><img src="images/CN90.jpg" alt="江麓CN90挖掘机" width="240" height="225" />
+            <h3>江麓CN90挖掘机</h3>
+          </a>
+          <a onclick="showinquery('7958','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/CNE85.shtm" class="img" target="_blank"><img src="images/CN150LC.jpg" alt="江麓CN150LC挖掘机" width="240" height="225" />
+            <h3>江麓CN150LC挖掘机</h3>
+          </a>
+          <a onclick="showinquery('7959','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/CN225LC.shtm" class="img" target="_blank"><img src="images/CN225LC.jpg" alt="江麓CN225LC挖掘机" width="240" height="225" />
+            <h3>江麓CN225LC挖掘机</h3>
+          </a>
+          <a onclick="showinquery('13103','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/CN330.shtm" class="img" target="_blank"><img src="images/CN330LC.jpg" alt="江麓CN330LC挖掘机" width="240" height="225" />
+            <h3>江麓CN330LC挖掘机</h3>
+          </a>
+          <a onclick="showinquery('10121','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/CN450LC.shtm" class="img" target="_blank"><img src="images/CN450LC.jpg" alt="江麓CN450LC挖掘机" width="240" height="225" />
+            <h3>江麓CN450LC挖掘机</h3>
+          </a>
+          <a onclick="showinquery('18929','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/JLW60.shtm" class="img" target="_blank"><img src="images/CN70.jpg" alt="江麓CN70挖掘机" width="240" height="225" />
+            <h3>江麓CN70挖掘机</h3>
+          </a>
+          <a onclick="showinquery('5214','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+     
+       
+        <li>
+          <a href="http://product.21-sun.com/proDetail/DH55GOLD.shtm" class="img" target="_blank"><img src="images/DH55GOLD.jpg" alt="斗山DH55GOLD履带式挖掘机" width="240" height="225" />
+            <h3>斗山DH55GOLD履带式挖掘机</h3>
+          </a>
+          <a onclick="showinquery('389','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/DH220LC-9E.shtm" class="img" target="_blank"><img src="images/DH220LC-9E.jpg" alt="斗山DH220LC-9E挖掘机" width="240" height="225" />
+            <h3>斗山DH220LC-9E挖掘机</h3>
+          </a>
+          <a onclick="showinquery('10152','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/DH80GOLD.shtm" class="img" target="_blank"><img src="images/DH80GOLD.jpg" alt="斗山DH80GOLD挖掘机" width="240" height="225" />
+            <h3>斗山DH80GOLD挖掘机</h3>
+          </a>
+          <a onclick="showinquery('5645','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        
+                <li>
+          <a href="http://product.21-sun.com/proDetail/DX345LC.shtm" class="img" target="_blank"><img src="images/DX345LC.jpg" alt="斗山DX345LC挖掘机" width="240" height="225" />
+            <h3>斗山DX345LC挖掘机</h3>
+          </a>
+          <a onclick="showinquery('10150','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>        <li>
+          <a href="http://product.21-sun.com/proDetail/DX380LC.shtm" class="img" target="_blank"><img src="images/DX380LC.jpg" alt="斗山DX380LC挖掘机" width="240" height="225" />
+            <h3>斗山DX380LC挖掘机</h3>
+          </a>
+          <a onclick="showinquery('10149','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>       
+      </ul>
+    </div>
+  <div class="clear"></div>  
+  </div>
+</div>
+<!--main end--> 
+<!--foot-->
+<!--#include virtual="/include/foot.jsp"--> 
+<!--end of foot--> 
+<form name="tuan_form" id="tuan_form" action="/action/ajax.jsp">
+<div class="tuan_layer" id="tuan_layer" style="width:550px;height:360px;">
+  <div class="t_contain">
+    <div class="title">
+      <h3>欢迎您与21-sun优买团合作，请详细填写以下内容，谢谢！</h3>
+      <span class="close" title="关闭" id="tuan_close" onclick="document.getElementById('tuan_layer').style.display='none'"></span>
+    </div>
+    <div class="content">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th width="30%"><font color="red">*</font>公司名称：</th>
+          <td width="70%"><input maxlength="20" type="text" name="compname" id="compname" class="tuan_i" datatype="s2-20" nullmsg="请输入公司名称" errormsg="公司名称至少2个字,最多20个字！"/></td>
+        </tr>
+        <tr>
+          <th><font color="red">*</font>姓名：</th>
+          <td><input type="text" maxlength="10" name="username" id="username" class="tuan_i" datatype="s1-10" nullmsg="请输入您的姓名" errormsg="姓名至少1个字,最多10个字！"/></td>
+        </tr>
+        <tr>
+          <th><font color="red">*</font>联系电话：</th>
+          <td><input type="text" maxlength="12" name="telphone" id="telphone" class="tuan_i" datatype="n5-11" nullmsg="请输入电话号码" errormsg="请输入正确的电话号码！"/></td>
+        </tr>
+        <tr>
+          <th>合作内容：</th>
+          <td><textarea name="company" id="company" cols="45" rows="5" class="tuan_t"></textarea></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>
+          <input type="submit" name="button2" id="button2" value="提交" class="tuan_b" />
+         <input type="hidden" name="flag" id="flag" value="tuan_form"/>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+</form>
+</body>
+<script type="text/javascript">
+var t5,n5 = 0, count5, paseState=0;
+jQuery(document).ready(function(){	
+	count5=jQuery("#tuan_banner ul.tuan_i li").length;
+	jQuery("#tuan_banner ul.tuan_i li:not(:first-child)").hide();
+	jQuery("#tuan_banner ul.tuan_p li").click(function() {
+		var i = jQuery(this).attr("value") - 1;
+		n5 = i;
+		if (i >= count5) return;
+		jQuery("#tuan_banner ul.tuan_i li").filter(":visible").fadeOut(500).parent().children().eq(i).fadeIn(800);
+		jQuery(this).toggleClass("selected");
+		jQuery(this).siblings().removeAttr("class");
+	});
+	t5 = setInterval("showAuto5()", 4000);
+	jQuery("#tuan_banner").hover(function(){clearInterval(t5)}, function(){t5 = setInterval("showAuto5()", 4000);});
+})
+function showAuto5(){
+	if(paseState==0){
+		n5 = n5 >=(count5 - 1) ? 0 : ++n5;
+		jQuery("#tuan_banner ul.tuan_p li").eq(n5).trigger('click');
+	}
+}
+function showPre5(){
+	n5 = n5 <=0 ? (count5 - 1) : --n5;
+	jQuery("#tuan_banner ul.tuan_p li").eq(n5).trigger('click');
+}
+function pase(){
+	if(paseState==0){
+		paseState=1;
+	}else{
+		paseState=0;
+	}
+}
+</script>
+</html>

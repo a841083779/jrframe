@@ -1,0 +1,119 @@
+ <#assign business_news = query("select top 10 id,title,content,link_other from article where sort_num like '%,35,%' and is_pub=1 and content like '%<img%'order by pub_date desc")> 
+ <#assign culture_news = query("select top 10 id,title,content,link_other from article where sort_num like '%,22,%' and is_pub=1 and content like '%<img%'order by pub_date desc")> 
+ <#assign tech_news = query("select top 14 id,title,link_other from article_other where is_pub=1 and sort_num like '%0500%' and content like '%<img%' order by pub_date desc")> 
+  <div class="newspart newsRank blue">
+    <div class="title bigTitle">
+      <h3>产品动态</h3>
+      <ul class="t-con">
+        <li id="hot_keywords"></li>
+      </ul>
+      <span class="more"><a href="/news/list.jsp">更多&gt;&gt;</a></span>
+    </div>
+    <div class="content">
+      <div class="nbli l mr10">
+        <div class="title">
+          <h3>新品推荐</h3>
+          <span class="more"><a href="/news/list.jsp?flag=newprorec" target="_blank">更多&gt;&gt;</a></span>
+        </div>
+        <ul class="list" id="business">
+        <#if business_news??&&(business_news?size>0)>
+        	<#list business_news as b_news>
+        	  <#if b_news_index<3>
+        	       <li class="top3">
+        	       <#else>
+        	        <li>
+        	  </#if>
+            <em>${b_news_index+1}</em>
+             <h3>
+            <a href="/news/detail.jsp?id=${b_news.id?c}" target="_blank" title="${b_news.title}">
+            <#if (b_news.title?length>17)>
+           	 	${b_news.title[0..17]?default("")}...
+            <#else>
+          	  	${b_news.title?default("")}
+            </#if>
+            </a>
+            </h3>
+            <#if b_news_index=0>
+            <div class="img" >
+            <a href="/news/detail.jsp?id=${b_news.id?c}" target="_blank">
+            <img src="http://news.21-sun.com/${CommonString.getOnePicFromContent(b_news.content)}" width="135" height="90" onerror="this.src='/images/nopic.gif'"/>
+            </a>
+            </div>
+            <#else>
+            </#if>
+          </li>
+          	</#list>
+          </#if>
+        </ul>
+      </div>
+      <div class="nbli l">
+        <div class="title">
+          <h3>企业动态</h3>
+          <span class="more"><a href="/news/list.jsp?flag=pronews" target="_blank">更多&gt;&gt;</a></span>
+        </div>
+        <ul class="list" id="culture">
+          <#if culture_news??&&(culture_news?size>0)>
+        	<#list culture_news as c_news>
+        	  <#if c_news_index<3>
+        	       <li class="top3">
+        	       <#else>
+        	        <li>
+        	  </#if>
+            <em>${c_news_index+1}</em> <h3><a href="/news/detail.jsp?id=${c_news.id?c}" target="_blank" title="${c_news.title}">
+                <#if (c_news.title?length>17)>
+           	 	${c_news.title[0..17]?default("")}...
+            <#else>
+          	  	${c_news.title?default("")}
+            </#if>
+			</a></h3>
+            <#if c_news_index=0>
+            <div class="img" >
+            <a href="/news/detail.jsp?id=${c_news.id?c}" target="_blank">
+            <img src="http://news.21-sun.com/${CommonString.getOnePicFromContent(c_news.content)}" onerror="this.src='/images/nopic.gif'" width="135" height="90"/>
+            </a>
+            </div>
+            <#else>
+            </#if>
+          </li>
+          	</#list>
+          </#if>
+        </ul>
+      </div>
+      
+      <div class="nbli r">
+        <div class="title">
+          <h3>维修一线</h3>
+          <span class="more" style="margin-right:9px;"><a href="/news/list.jsp?flag=service"  target="_blank">更多&gt;&gt;</a></span>
+        </div>
+        <ul class="list" id="techni"> 
+         <#if tech_news??&&(tech_news?size>0)>
+        	<#list tech_news as t_news>
+        	  <#if t_news_index<3>
+        	       <li class="top3">
+        	       <#else>
+        	        <li>
+        	  </#if>
+            <em>${t_news_index+1}</em> <h3>
+            <#if t_news.link_other??&&(t_news.link_other?length gt 0)&&t_news.link_other!='null'>
+              <a href="${t_news.link_other}" target="_blank">
+              <#if (t_news.title?length>17)>
+           	 	${t_news.title[0..17]?default("")}...
+            <#else>
+          	  	${t_news.title?default("")}
+            </#if>
+            <#else>
+            <a href="/news/detail.jsp?id=${t_news.id?c}&t_flag=service" target="_blank" title="${t_news.title}">
+              <#if (t_news.title?length>17)>
+           	 	${t_news.title[0..17]?default("")}...
+            <#else>
+          	  	${t_news.title?default("")}
+            </#if>
+            </#if>
+			</a></h3>
+          </li>
+          	</#list>
+          </#if>
+        </ul>
+      </div>
+    </div>
+  </div>

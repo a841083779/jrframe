@@ -1,0 +1,131 @@
+﻿/* reset */
+html { -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+body,input,select,textarea,button { font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, 'Hiragino Sans GB', 'WenQuanYi Micro Hei', STHeiti, SimSun, sans-serif;}
+body, h1, h2, h3, h4, p, ul, ol, dd, dl, form { margin: 0;}
+hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #eee;}
+img { max-width: 100%; height: auto; vertical-align: top; -ms-interpolation-mode: bicubic; border: 0 ;}
+ul { padding-left: 0; list-style-type: none;}
+i, em { font-style: normal;}
+big { font-size: 1.3em;}
+small { font-size: 0.77em;}
+a { -webkit-transition: all 0.3s ease; transition: all 0.3s ease; text-decoration: none; outline: 0;}
+article, aside, dialog, footer, header, section, nav, figure, menu, audio, canvas, progress, video { display: block;}
+input, select, textarea{outline: 0;font-family: inherit;font-size:100%;}
+input[type='checkbox'], input[type='radio'] { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0;}
+input[type='number']::-webkit-inner-spin-button, input[type='number']::-webkit-outer-spin-button { height: auto;}
+input[type='search'] { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-appearance: textfield;}
+input[type='search']::-webkit-search-cancel-button, input[type='search']::-webkit-search-decoration { -webkit-appearance: none;}
+input[type='file'] { display: block;}
+input[type='range'] { display: block; width: 100%;}
+select[multiple], select[size] { height: auto;}
+input[type='file']:focus, input[type='radio']:focus, input[type='checkbox']:focus { 
+  outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px;}
+fieldset { min-width: 0; margin: 0; padding: 0; border: 0;}
+legend { font-size: 1.3em; line-height: 2.5; display: block; width: 100%; margin-bottom: 20px; 
+  padding: 0; color: #333; border: 0; border-bottom: 1px solid #e5e5e5;}
+table { border-spacing: 0; border-collapse: collapse;background-color: transparent;}
+td, th { padding: 0;}
+/* 常量设置 */
+html { overflow-x:auto;}
+html,body,.wrap { min-width:1200px;}
+.wrap { width:1200px; margin-right:auto; margin-left:auto;}
+body{font-size:13px; line-height:1.6; color:#555; background:#eee;}
+a{color:inherit;}
+a:hover { color:#39f;}
+::-moz-selection {color:#fff; background:#39f; }
+::selection {color:#fff; background:#39f; }
+::-webkit-input-placeholder { color:#aaa; } 
+.placeholder { color:#aaa;}
+/*css组件设置*/
+.imgZoom img,.imgY180 img { -moz-transition:all .8s ease 0s; -ms-transition:all .8s ease 0s; -o-transition:all .8s ease 0s; -webkit-transition:all .8s ease 0s; transition:all .8s ease 0s;}
+
+.imgZoom { overflow:hidden; }
+.imgZoom:hover img{ -moz-transform:scale(1.1,1.1); -ms-transform:scale(1.1,1.1); -o-transform:scale(1.1,1.1); -webkit-transform:scale(1.1,1.1); transform:scale(1.1,1.1);}
+
+.imgY180:hover img { cursor:pointer; -moz-transform:rotateY(180deg); -ms-transform:rotateY(180deg); -o-transform:rotateY(180deg); -webkit-transform:rotateY(180deg); transform:rotateY(180deg) }
+
+/* 工具类 */
+.fix { *zoom: 1; *clear: both;}
+.fix:before, .fix:after { display: table; clear: both; content: '';}
+.oh { overflow: hidden; *zoom: 1;}
+.l { float: left;}.r { float: right;}
+.dib { display: inline-block; *display: inline; *zoom: 1;}
+.pr { position: relative;}.pa { position: absolute;}
+.tc { text-align: center;}.tr { text-align: right;}
+.el { overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.hide { display: none;}
+.hidetext { font: 0/0 a; letter-spacing: -9px;}
+.arr { display: inline-block; overflow: hidden; width: 0; height: 0;}
+.opc0 { opacity: 0 ; filter: alpha(opacity=0);}
+
+/* 网站样式 */
+/* 首页 */
+.arrow_bg{ background: url(../img/arrow_bg.jpg) center 0 no-repeat; background-size: 1920px auto;}
+.shop_header{ width: 980px; height: 92px; margin: 0 auto 0 auto; border-top: 2px solid #fe6000;}
+.dg_logo{ width: 187px; height: 64px; margin: 16px 0 0 10px;}
+.shop_search{ margin: 26px 0 0 84px;}
+.shop_search .search_box{ width: 360px; height: 38px; background: url(../img/shop_search.png) 0 0 no-repeat;}
+.shop_search .search_ipt{ width: 69%; height: 100%; padding: 0 3% 0 9%; font-size: 16px; color: #333; line-height: 38px; border: none; background: transparent;}
+.shop_search .search_btn{ width: 19%; height: 100%; border: none; background: transparent; cursor: pointer;}
+.hot_search{ width: 360px; height: 22px; font-size: 12px; color: #333; line-height: 22px;}
+.shop_info{ margin-top: 10px; font-size: 14px; color: #333; line-height: 24px;}
+.shop_info .shop_tel{ font-size: 18px; color: #c8000b; font-weight: bold;}
+
+.shop_info .qq_server{ display: inline-block; width: 77px; height: 22px; background: url(../img/qq_server.png) 0 0 no-repeat; vertical-align: middle;}
+.navs{ height: 55px; font-size: 24px; color: #fff; font-weight: bold; line-height: 55px;}
+.nav_item{ padding: 0 24px;}
+.nav_item:hover{ color: #fff; opacity: .8; filter:Alpha(opacity=80);}
+
+.banner{ width:100%; height:510px; overflow:hidden; position:relative;}
+.banner_mask{ position: absolute; left: 0; top: 0; z-index: 12; width: 230px; height: 230px;}
+.banner .hd{ height:15px; overflow:hidden; position:absolute; left: 5px; right:5px; bottom:12px; z-index:1; }
+.banner .hd ul{ overflow:hidden; zoom:1; text-align: center; }
+.banner .hd ul li{ display: inline-block; width:15px; height:15px; margin: 0 5px; background: #fff; cursor: pointer;}
+.banner .hd ul li.on{ background:#cd1a1e;}
+.banner .bd{ position:relative; height:100%; z-index:0;}
+.banner .bd li{ zoom:1; vertical-align:middle; background-position: center;}
+.banner .bd li a{ cursor: default;}
+.banner .bd img{ width:1200px; height:510px; display:block;}
+
+.product_info_list{ width: 960px; margin: 0 auto; padding-bottom: 76px;}
+.title{ display: block; width: 100%; height: 46px; margin-top: 44px; background-position: 0 0; background-repeat: no-repeat;}
+.tit01{ background-image: url(../img/index_tit_01.png);}
+.tit02{ background-image: url(../img/index_tit_02.png);}
+.tit03{ background-image: url(../img/index_tit_03.png);}
+.tit04{ background-image: url(../img/index_tit_04.png);}
+.tit05{ background-image: url(../img/index_tit_05.png);}
+.tit06{ background-image: url(../img/index_tit_06.png);}
+.tit07{ background-image: url(../img/index_tit_07.png);}
+
+.title_btn{ right: 0; bottom: 0; z-index: 1; font-size: 18px; color: #333; line-height: 20px;}
+.product_item{ width: 100%; height: 285px; margin-top: 34px;}
+.product_img{ display: block; left: 0; top: 0; z-index: 1; width: 100%; height: 100%;}
+.product_info{ left: 100px; right: 550px; top: 28px; z-index: 3;}
+.product_info .item_tit{ font-size: 24px; color: #333; font-weight: bold; line-height: 38px;}
+.product_info .info_info{ height: 128px; margin-bottom: 10px; font-size: 16px; color: #333; line-height: 32px;}
+.btn_consult{ display: block; width: 224px; height: 46px; font-size: 24px; color: #000; text-align: center; line-height: 46px; font-weight: bold; background: #febf00; border-radius: 6px;}
+.btn_consult:hover{ color: #000; opacity: .8; filter:Alpha(opacity=80);}
+
+.page_footer{ padding: 16px 38px; background: #c7000a;}
+.footer_item{ font-size: 12px; color: #fff; line-height: 30px;}
+.footer_item a:hover{ color: #fff; opacity: .8; filter:Alpha(opacity=80);}
+
+/* 装载机、冷再生、破碎机、轮式挖掘机、公司介绍*/
+.zhuangzaiji .product_info_list{ padding-bottom: 50px;}
+.banner_img{ display: block; width: 100%; height: 510px;}
+.title_info{ right: 0; top: 27px; z-index: 1; font-size: 16px; color: #333; line-height: 28px; font-weight: bold;}
+.list_tline{ width: 996px; margin: 0 auto;}
+.list_tline .goods_item{ width: 462px; height: 286px; margin: 0 18px 34px 18px;}
+.list_tline .goods_item .goods_img{ display: block; width: 100%; height: 100%;}
+.list_tline .goods_item .item_info{ left: 0; bottom: 0; right: 0; z-index: 1; height: 36px; line-height: 36px; font-weight: bold; background: #999;}
+.list_tline .item_info .goods_tit{ width: 64.5%; height: 100%; padding: 0 3%; font-size: 20px; color: #fff;line-height:35px}
+.list_tline .item_info .item_btn{ width: 29.5%; height: 100%; font-size: 20px; color: #000; text-align: center; background: #febf00;}
+.list_tline .item_info .item_btn:hover{ opacity: .8; filter:Alpha(opacity=80);}
+.company_info{ width: 960px; margin: 0 auto; padding-bottom: 76px; font-size: 14px; color: #000; line-height: 44px;}
+
+/* 差异化产品 */
+.list_tline.style2 .goods_item .item_info{ height: 94px; background: rgba(153,153,153,.8);}
+.list_tline.style2 .item_info .info_box{ width: 61.5%; padding: 0 3%;}
+.list_tline.style2 .item_info .goods_tit{ width: 100%; height: auto; padding: 0; font-size: 18px;}
+.list_tline.style2 .item_info .info_info{ line-height: 18px; color: #fff;}
+.list_tline.style2 .item_info .item_btn{ height: 36px; margin-top: 29px; font-size: 18px;}

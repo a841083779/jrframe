@@ -1,0 +1,323 @@
+<%@ page language="java" import="org.json.*,java.net.*,java.sql.Connection,java.util.*,com.jerehnet.util.dbutil.*,com.jerehnet.util.common.*,com.jerehnet.webservice.*" pageEncoding="UTF-8"%>
+<%@ taglib tagdir="/WEB-INF/tags" prefix="tags"%>
+<%
+    String id = CommonString.getFormatPara(request.getParameter("id")) ;  // 新闻 id 
+	String keyword = CommonString.getFormatPara(request.getParameter("keyword")) ;
+    String catalog = CommonString.getFormatPara(request.getParameter("catalog")) ;
+	String catalognum = CommonString.getFormatPara(request.getParameter("catalognum")) ;
+	String factory = CommonString.getFormatPara(request.getParameter("factoryid"));
+	String offset = CommonString.getFormatPara(request.getParameter("offset"));
+	String url = CommonString.getFormatPara(request.getQueryString());
+			if (!"".equals(url)) {
+			if (url.indexOf("offset") != -1 && url.indexOf("&") == -1) {
+				url = "";
+			} else if (url.indexOf("offset") != -1) {
+				url = "&" + url.substring(url.indexOf("&") + 1);
+			} else {
+				url = "&" + url;
+			}
+		}
+	Integer nowPage = 1; 
+    PageBean pageBean = new PageBean(); // 分页程序
+	if("".equals(offset) || Integer.parseInt(offset)<=0){
+			offset = "0" ;
+	}
+    if (!"".equals(offset) && !"0".equals(offset)) {
+			nowPage = Integer.parseInt(offset) / pageBean.getPageSize() + 1;
+    }
+	
+	if(catalognum.equals("0")){catalognum="";}
+	if(factory.equals("0")){factory="";}
+	Map catalogMap = (Map) application.getAttribute("catalogMap");
+	Map brandMap = (Map) application.getAttribute("brandMap");
+	List<Map> weixiuList =null;
+	Map oneNews = null ;
+	DBHelper dbHelper = DBHelper.getInstance() ;
+	Connection conn_21sun = null;
+	String 	sel_sql="select * from article_other where id="+id;
+	try{
+	    conn_21sun = dbHelper.getConnection("web21market");
+		String content_show="";
+		String keywords_show="";
+		String title_show="";
+		String title="";
+		String content="";
+		String pub_date="";
+	    if(!"".equals(id)){
+		oneNews = (Map)WEBDBHelper.getMap(sel_sql,"Web21sunDBHelper");
+		title=CommonString.getFormatPara(oneNews.get("title"));
+	    content = CommonString.getFormatPara(oneNews.get("content"));
+        content = content.replaceAll("\\.\\./\\.\\./","/");
+        content = content.replaceAll("/UserFiles/Image/","http://news.21-sun.com/UserFiles/Image/");
+        content = content.replaceAll("/tech/uploadfiles/","http://www.21-sun.com/tech/uploadfiles/");
+		pub_date=CommonDate.getFormatDate("yyyy-MM-dd",oneNews.get("pub_date")) ;
+	    content_show = CommonHtml.filterHTML(CommonString.getFormatPara(oneNews.get("content"))).length()>80?CommonHtml.filterHTML(CommonString.getFormatPara(oneNews.get("content"))).substring(0,80):CommonHtml.filterHTML(CommonString.getFormatPara(oneNews.get("content")));
+		keywords_show=title+","+CommonString.getFormatPara(brandMap.get(factory))+CommonString.getFormatPara(catalogMap.get(catalognum))+"维修,铁臂维修";
+		title_show=title+"_"+CommonString.getFormatPara(brandMap.get(factory))+CommonString.getFormatPara(catalogMap.get(catalognum))+"维修 - 铁臂维修";       
+	   }else{
+		//维修列表
+	    String whereStr=" and is_show=1 and title  like '%维修%' ";
+	   	if(!"".equals(keyword)){
+		    whereStr+=" and title like '%"+keyword+"%'";
+		}
+		if(!"".equals(catalog)){
+		     whereStr+=" and title like '%"+CommonString.getFormatPara(catalogMap.get(catalog))+"%'";
+		}
+		pageBean.setParams(url);
+       pageBean.setPageSize(15); // 每页显示条数
+       pageBean.setCondition(whereStr);
+	   pageBean.setNowPage(nowPage);
+	   pageBean.setFields("id,title,pub_date");
+	   pageBean.setTableName("sell_buy_market");
+
+
+		weixiuList = pageBean.getDatas(conn_21sun);
+		
+	    //title_show="【图文】"+keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"维修_"+keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"维修保养_"+keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"维修大全 - 铁臂维修";
+	    //keywords_show=keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"维修,"+keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"维修保养,"+keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"维修大全";
+	    //content_show="铁臂维修为您提供"+keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"维修方法，"+keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"维修保养知识，快速解决"+keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"维修问题，买"+keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"就上铁臂商城。";
+		
+	    title_show="【图文】"+keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"维修大全 - 铁臂维修";
+	    keywords_show=keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"维修大全";
+	    content_show="铁臂维修为您快速解决"+keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"维修问题，买"+keyword+CommonString.getFormatPara(catalogMap.get(catalog))+"就上铁臂商城。";
+		}
+
+
+%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<link href="/style/new_style.css" rel="stylesheet" type="text/css" />
+<link href="/weixiu/style/style.css" rel="stylesheet" type="text/css" />
+<link href="/style/friendly_link.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<script type="text/javascript" src="/scripts/citys_weixiu.js"></script>
+<title><%=title_show %></title>
+<meta name="keywords" content="<%=keywords_show %>" />
+<meta name="description" content="<%=content_show %>" />
+</head>
+<body>
+<jsp:include page="/weixiu/top.jsp" flush="true" />
+<div class="contain980 mb10">
+  <h3 class="breadCrumbs"><a href="http://weixiu.21-sun.com/">铁臂维修</a>
+  <%="".equals(keyword)?"":" &gt;&gt; "+keyword+"维修大全"%>
+  <%="".equals(catalog)?"":" &gt;&gt; "+CommonString.getFormatPara(catalogMap.get(catalog))+"维修大全"%>
+  
+   <%=!"".equals(factory)?" &gt;&gt; <a href='/0-0-"+factory+".htm'>"+CommonString.getFormatPara(brandMap.get(factory)):""+"</a>"%>
+   <%=!"".equals(catalognum)?" &gt;&gt; <a href='/"+catalognum+"-0-0.htm'>"+CommonString.getFormatPara(catalogMap.get(catalognum)):""+"</a>"%>
+   <%=!"".equals(factory)&&!"".equals(catalognum)?" &gt;&gt; <a href='/weixiu/"+catalognum+"-0-"+factory+".htm'>"+CommonString.getFormatPara(brandMap.get(factory))+CommonString.getFormatPara(catalogMap.get(catalognum)):""+"</a>"%>
+   <%=!"".equals(factory)||!"".equals(catalognum)?" &gt;&gt; "+CommonString.getFormatPara(brandMap.get(factory))+CommonString.getFormatPara(catalogMap.get(catalognum))+"维修":""%>
+   <%if(!"".equals(id)){%>&gt;&gt; <%=title%><%}%>  
+  </h3>
+</div>
+<div class="contain980 np_fix">
+  <!--left-->
+  <%if(!"".equals(id)){%>
+  <div class="kb_det_left">
+    <div class="listleft02">
+      <div class="listtitle01"><%=title%></div>
+      <div class="listtitle03"><font class="font08">发布时间:<%=pub_date%> &nbsp;&nbsp;&nbsp;&nbsp;来源:<a href="http://weixiu.21-sun.com/">铁臂维修</a></font></div>
+      <div class="detail" id="mainDetail"> <%=content%> </div>
+      <div class="listfoot01"></div>
+      <div class="listfoot02">【<img src="http://www.21-sun.com/tech/images/tb01.gif" width="18" height="11"><a href="javascript:storePage();" class="pl">收藏此页</a>】【<img src="http://www.21-sun.com/tech/images/tb02.gif" width="16" height="10"><a href="javascript:SetFontSize(16)" class="pl">大</a>&nbsp;<a href="javascript:SetFontSize(14)">中</a>&nbsp;<a href="javascript:SetFontSize(12)" class="pl">小</a>】【<img src="http://www.21-sun.com/tech/images/tb03.gif" width="16" height="12"><a href="Javascript:window.print();">打印</a>】【<img src="http://www.21-sun.com/tech/images/tb04.gif" width="12" height="9"><a href="/">返回首页</a>】 </div>
+    </div>
+  </div>
+  <%}else{%>
+  <!--维修list-->
+  <div class="rp clearfix mb10 nwx_zxlist repairList" style="width:600px;float:left">
+    <div class="title">
+      <h3><%="".equals(keyword+CommonString.getFormatPara(catalogMap.get(catalog)))?"最新工程机械":keyword+CommonString.getFormatPara(catalogMap.get(catalog))%>维修</h3>
+    </div>
+    <div class="content rList01">
+      <ul class="list blue">
+        <%
+        		if(weixiuList!=null && weixiuList.size()>0){
+        			for(Map weixiu : weixiuList){
+        				String ids = CommonString.getFormatPara(weixiu.get("id"));
+        				String title_weixiu = CommonString.getFormatPara(weixiu.get("title"));
+        				String pub_dates = CommonDate.getFormatDate("yyyy-MM-dd", weixiu.get("pub_date"));
+        	%>
+        <li>
+          <h3><span class="lb">[维修]</span><a href="http://market.21-sun.com/viewSellBuy_for_<%=ids %>.htm" target="_blank" title="<%=title_weixiu %>"><%=title_weixiu %></a></h3>
+          <span class="time"><%=pub_dates %></span> </li>
+        <%}}%>
+        <%if((weixiuList==null|| weixiuList.size()<=0)){%>
+        <div align="center">暂无相关信息</div>
+        <%}%>
+      </ul>
+    </div>
+      <div id="pagination" class="page" style="float:left">
+        <tags:page pageBean="<%=pageBean%>" />
+      </div>
+ </div>
+ 
+  <!--维修list结束-->
+  <%}%>
+  <!--left end-->
+  <!--right-->
+  <div class="kb_det_right" >
+    <div class="hybk">
+      <div class="hybk1">
+        <div class="hybkzt">行业百科</div>
+      </div>
+      <div class="hybkred">按机种:</div>
+      <div class="hybk2"> <a href="/weixiu/detail.jsp?catalog=101001" class="link06">挖掘机</a>　 <a href="/weixiu/detail.jsp?catalog=101002" class="link06">装载机</a>　 <a href="/weixiu/detail.jsp?catalog=102" class="link06">起重机</a>　 <a href="/weixiu/detail.jsp?catalog=101003" class="link06">推土机</a>　 <a href="/weixiu/detail.jsp?catalog=106001" class="link06">压路机</a>　 <a href="/weixiu/detail.jsp?catalog=101005" class="link06">平地机</a><br>
+        <a href="/weixiu/detail.jsp?catalog=104001" class="link06">摊铺机</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="/weixiu/detail.jsp?catalog=" class="link06">旋挖钻</a> 　 <a href="/weixiu/detail.jsp?catalog=105003" class="link06">泵车</a> 　 <a href="/weixiu/detail.jsp?catalog=107" class="link06">叉车</a></div>
+      <div class="hybkmore">
+        <table width="98%" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><table width="44" height="16" cellspacing="0" cellpadding="0" border="0" align="right"  id="imgmenu1" onclick="showsubmenu(1)" style=" cursor:pointer; background:url(../images/new_pro/hybkxs.gif) no-repeat 0 0;">
+                  <tbody>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+            <tr>
+              <td><table width="100%" border="0" cellspacing="0" cellpadding="0" id="submenu1" style=" display:none;">
+                  <tbody>
+                    <tr>
+                      <td align="left" height="20" valign="top"><img src="http://www.21-sun.com/tech/images/hybkxx.jpg" width="346" height="3"></td>
+                    </tr>
+                    <tr>
+                      <td class="bk"><a href="/weixiu/detail.jsp?catalog=101001" class="link06">挖掘机</a> 　 <a href="/weixiu/detail.jsp?catalog=101003" class="link06">推土机</a>　 <a href="/weixiu/detail.jsp?catalog=101002" class="link06">装载机</a> 　 <a href="/weixiu/detail.jsp?catalog=101005" class="link06">平地机</a> 　 <a href="/weixiu/detail.jsp?catalog=101004" class="link06">铲运机</a> 　 <a href="/weixiu/detail.jsp?catalog=101008" class="link06">自卸卡车</a> 　 </td>
+                    </tr>
+                    <tr>
+                      <td height="25"></td>
+                    </tr>
+                    <tr>
+                      <td class="bk"><a href="/weixiu/detail.jsp?catalog=102013" class="link06">桥梁式起重机</a>　 <a href="/weixiu/detail.jsp?catalog=102012" class="link06">伸缩臂叉装机</a>　 <a href="/weixiu/detail.jsp?catalog=102002" class="link06">塔式起重机</a>　 <a href="/weixiu/detail.jsp?catalog=102011" class="link06">施工升降机</a>　 <a href="/weixiu/detail.jsp?catalog=102010" class="link06">高空作业车</a>　 <a href="/weixiu/detail.jsp?catalog=102007" class="link06">汽车起重机</a>　 <a href="/weixiu/detail.jsp?catalog=102008" class="link06">履带式起重机</a>　 <a href="/weixiu/detail.jsp?catalog=102006" class="link06">随车起重机</a>　 <a href="/weixiu/detail.jsp?catalog=102003" class="link06">高空作业平台</a>　 </td>
+                    </tr>
+                    <tr>
+                      <td height="25"></td>
+                    </tr>
+                    <tr>
+                      <td class="bk"><a href="/weixiu/detail.jsp?catalog=103008" class="link06">干粉砂浆生产设备</a>　 <a href="/weixiu/detail.jsp?catalog=103009" class="link06">粉粒物料运输车</a>　 <a href="/weixiu/detail.jsp?catalog=103005" class="link06">混凝土布料设备</a>　 <a href="/weixiu/detail.jsp?catalog=103006" class="link06">混凝土搅拌运输车</a>　 <a href="/weixiu/detail.jsp?catalog=103015" class="link06">其它混凝土设备</a>　 <a href="/weixiu/detail.jsp?catalog=103012" class="link06">干混砂浆生产线</a>　 <a href="/weixiu/detail.jsp?catalog=103011" class="link06">沥青砂浆车</a>　 <a href="/weixiu/detail.jsp?catalog=103014" class="link06">干混砂浆背罐车</a>　 <a href="/weixiu/detail.jsp?catalog=103002" class="link06">混凝土搅拌设备</a>　 <a href="/weixiu/detail.jsp?catalog=103001" class="link06">混凝土泵车</a>　 <a href="/weixiu/detail.jsp?catalog=103010" class="link06">喷湿机</a>　 </td>
+                    </tr>
+                    <tr>
+                      <td height="25"><a href="/weixiu/detail.jsp?catalog=104006" class="link06">稳定土拌合机</a>　 <a href="/weixiu/detail.jsp?catalog=104005" class="link06">铣刨机</a>　 <a href="/weixiu/detail.jsp?catalog=104008" class="link06">稳定土厂拌设备</a>　 <a href="/weixiu/detail.jsp?catalog=104007" class="link06">沥青混合料搅拌设备</a>　 <a href="/weixiu/detail.jsp?catalog=104009" class="link06">沥青搅拌站</a>　 <a href="/weixiu/detail.jsp?catalog=104004" class="link06">其它路面机械</a>　 <a href="/weixiu/detail.jsp?catalog=104001" class="link06">摊铺机</a>　 <a href="/weixiu/detail.jsp?catalog=104002" class="link06">养护机械</a>　 </td>
+                    </tr>
+                    <tr>
+                      <td height="25"></td>
+                    </tr>
+                    <tr>
+                      <td class="bk"><a href="/weixiu/detail.jsp?catalog=105017" class="link06">强夯机</a>　 <a href="/weixiu/detail.jsp?catalog=105018" class="link06">长螺旋钻孔机</a>　 <a href="/weixiu/detail.jsp?catalog=105009" class="link06">液压静力压桩机</a>　 <a href="/weixiu/detail.jsp?catalog=105019" class="link06">多功能钻机</a>　 <a href="/weixiu/detail.jsp?catalog=105007" class="link06">连续墙抓斗</a>　 <a href="/weixiu/detail.jsp?catalog=105028" class="link06">截桩机/破桩机</a>　 <a href="/weixiu/detail.jsp?catalog=105011" class="link06">打桩机</a>　 <a href="/weixiu/detail.jsp?catalog=105016" class="link06">连续墙钻机</a>　 <a href="/weixiu/detail.jsp?catalog=105015" class="link06">打桩锤</a>　 <a href="/weixiu/detail.jsp?catalog=105027" class="link06">其它桩工机械</a>　 <a href="/weixiu/detail.jsp?catalog=105026" class="link06">多轴钻孔机</a>　 <a href="/weixiu/detail.jsp?catalog=105013" class="link06">液压步履式桩架</a>　 <a href="/weixiu/detail.jsp?catalog=105003" class="link06">旋挖钻机</a>　 <a href="/weixiu/detail.jsp?catalog=105004" class="link06">潜孔钻机</a>　 <a href="/weixiu/detail.jsp?catalog=105005" class="link06">水平定向钻</a>　</td>
+                    </tr>
+                    <tr>
+                      <td height="25"></td>
+                    </tr>
+                    <tr>
+                      <td height="25"><a href="/weixiu/detail.jsp?catalog=106004" class="link06">夯实机</a>　 <a href="/weixiu/detail.jsp?catalog=106003" class="link06">压实机</a>　 <a href="/weixiu/detail.jsp?catalog=106001" class="link06">压路机</a>　 <a href="/weixiu/detail.jsp?catalog=107010" class="link06">专用叉车</a>　 <a href="/weixiu/detail.jsp?catalog=107001" class="link06">内燃叉车</a>　 <a href="/weixiu/detail.jsp?catalog=107003" class="link06">电动叉车</a>　 <a href="/weixiu/detail.jsp?catalog=107005" class="link06">仓储叉车</a>　 <a href="/weixiu/detail.jsp?catalog=109004" class="link06">提梁机</a>　 <a href="/weixiu/detail.jsp?catalog=109005" class="link06">检测车</a>　 <a href="/weixiu/detail.jsp?catalog=109002" class="link06">运梁车</a>　 <a href="/weixiu/detail.jsp?catalog=109006" class="link06">砂浆车</a>　 <a href="/weixiu/detail.jsp?catalog=109001" class="link06">架桥机</a>　 </td>
+                    </tr>
+                    <tr>
+                      <td class="bk"><a href="/weixiu/detail.jsp?catalog=110010" class="link06">凿岩钻</a>　 <a href="/weixiu/detail.jsp?catalog=110008" class="link06">凿岩台车</a>　 <a href="/weixiu/detail.jsp?catalog=110009" class="link06">破碎机</a>　 <a href="/weixiu/detail.jsp?catalog=110011" class="link06">凿岩机和钻机</a>　 <a href="/weixiu/detail.jsp?catalog=110012" class="link06">筛分机</a>　 <a href="/weixiu/detail.jsp?catalog=110013" class="link06">装载及搬运设备</a>　 <a href="/weixiu/detail.jsp?catalog=110014" class="link06">连续采煤机和隧道掘进机</a>　 <a href="/weixiu/detail.jsp?catalog=110005" class="link06">采煤机</a>　 <a href="/weixiu/detail.jsp?catalog=110015" class="link06">输送和辅助设备</a>　 <a href="/weixiu/detail.jsp?catalog=110002" class="link06">矿用掘进机</a>　 <a href="/weixiu/detail.jsp?catalog=110016" class="link06">全液压凿岩钻机</a>　 <a href="/weixiu/detail.jsp?catalog=110017" class="link06">隧道轨道设备</a>　 <a href="/weixiu/detail.jsp?catalog=110001" class="link06">盾构掘进机</a>　 </td>
+                    </tr>
+                    <tr>
+                      <td height="25"></td>
+                    </tr>
+                    <tr>
+                      <td class="bk"><a href="/weixiu/detail.jsp?catalog=111003" class="link06">吊具</a>　 <a href="/weixiu/detail.jsp?catalog=111001" class="link06">正面吊</a>　 <a href="/weixiu/detail.jsp?catalog=111002" class="link06">堆高机</a>　 <a href="/weixiu/detail.jsp?catalog=111007" class="link06">推耙机</a>　 <a href="/weixiu/detail.jsp?catalog=111006" class="link06">场桥</a>　 <a href="/weixiu/detail.jsp?catalog=113002" class="link06">液压剪</a>　 <a href="/weixiu/detail.jsp?catalog=113001" class="link06">破碎锤</a> 　 <a href="/weixiu/detail.jsp?catalog=118004" class="link06">牵引车</a>　 <a href="/weixiu/detail.jsp?catalog=118002" class="link06">专用车辆</a>　 <a href="/weixiu/detail.jsp?catalog=118003" class="link06">消防车</a> 　 <a href="/weixiu/detail.jsp?catalog=119001" class="link06">煤炭机械</a> 　 </td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="hybkxt"><img src="../images/new_pro/hybkht.jpg" width="365" height="18"></div>
+      <div class="hybkred2">热门搜索:</div>
+      <div class="hybk22" style="line-height: 22px;"> <a href="/weixiu/detail.jsp?keyword=大臂" class="link06">大小臂</a>　 <a href="/weixiu/detail.jsp?keyword=四轮一带" class="link06">四轮一带</a> 　 <a href="/weixiu/detail.jsp?keyword=控制器" class="link06">控制器</a> 　 <a href="/weixiu/detail.jsp?keyword=压油" class="link06">压油</a> 　 <a href="/weixiu/detail.jsp?keyword=破碎器" class="link06">破碎器</a> 　 <a href="/weixiu/detail.jsp?keyword=法兰" class="link06">法兰</a> 　 <a href="/weixiu/detail.jsp?keyword=传感器" class="link06">传感器</a>　 <a href="/weixiu/detail.jsp?keyword=发动机" class="link06">发动机</a>　 <a href="/weixiu/detail.jsp?keyword=破碎锤" class="link06">破碎锤</a>　 <a href="/weixiu/detail.jsp?keyword=液压系统" class="link06">液压系统</a> 　 <a href="/weixiu/detail.jsp?keyword=变速箱" class="link06">变速箱</a> 　 <a href="/weixiu/detail.jsp?keyword=滤清器" class="link06">滤清器</a> 　 <a href="/weixiu/detail.jsp?keyword=液压油缸" class="link06">液压油缸</a> <a href="/weixiu/detail.jsp?keyword=液压油路" class="link06">液压油路</a> 　 <a href="/weixiu/detail.jsp?keyword=液压剪" class="link06">液压剪</a> 　 <a href="/weixiu/detail.jsp?keyword=马达" class="link06">马达</a> 　 <a href="/weixiu/detail.jsp?keyword=履带架" class="link06">履带架</a> 　 <a href="/weixiu/detail.jsp?keyword=驾驶室" class="link06">驾驶室</a> <a href="/weixiu/detail.jsp?keyword=油缸" class="link06">油缸</a>　 <a href="/weixiu/detail.jsp?keyword=挖斗" class="link06">挖斗</a>　 <a href="/weixiu/detail.jsp?keyword=转台" class="link06">转台</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="/weixiu/detail.jsp?keyword=操纵系统" class="link06">操纵系统</a> 　 <a href="/weixiu/detail.jsp?keyword=泵" class="link06">泵</a> 　 <a href="/weixiu/detail.jsp?keyword=吊壳" class="link06">吊壳</a> 　 <a href="/weixiu/detail.jsp?keyword=小型阀块" class="link06">小型阀块</a> 　 <a href="/weixiu/detail.jsp?keyword=抓斗" class="link06">抓斗</a>　 </div>
+    </div>
+  </div>
+  <!--right end-->
+</div>
+
+  <%
+    String catalogname="";
+    if(!"".equals(id)&&!catalognum.equals("")){
+    catalogname=CommonString.getFormatPara(catalogMap.get(catalognum));
+  %>
+    <!--副导航-->
+  <style>
+ .new_v_foot_list{ width:980px; margin:0 auto; text-align:left; margin-bottom:10px;}
+.new_v_foot_list .adnf_list ul li{ float:left;  margin:0 6px 0;white-space:nowrap; padding: 6px 0;}
+.new_v_foot_list .adnf_list ul li a{  display:inline-block;}
+.new_v_foot_list .adnf_list ul li a:hover{ color:#ff6600}
+.new_v_foot_list .adnf_title{ font-size:14px; font-weight:bold; border-bottom:1px solid #ccc; padding:7px 0; margin-bottom:5px; font-family:微软雅黑;}
+.nleft_one .list003 { height:210px; overflow:auto;}
+  </style>
+    <div class="new_v_foot_list">
+    <div class="adnf_title">其他品牌<%=catalogname %>维修</div>
+    <div class="adnf_list">
+      <ul class="clearfix">
+  <jsp:include page="/include/weixiu/related_brand.jsp" flush="true">
+     <jsp:param name="catalog" value="<%=catalognum%>"></jsp:param>
+     <jsp:param name="catalogName" value="<%=catalogname%>"></jsp:param>
+  </jsp:include>    
+      </ul>
+    </div>
+  </div>
+  <!--副导航-->
+  <%}%>
+
+<jsp:include page="/include/foot.jsp" flush="true"/>
+<script type="text/javascript">
+//下拉
+$.fn.sele=function() {
+	var ev=($(this).data('sele')?$(this).data('sele').act:'mouseenter').split(" ");
+	$(this).bind(ev[0],function(){sele_show(this,ev[0])}).bind('mouseleave',function(){sele_hide(this)});
+	function sele_show(me,evt){
+		$(me).find('.sele_').stop(1,0).show().children('a').click(function(event){
+			event.stopPropagation();
+			if(!$(this).attr('target')){
+				event.preventDefault();
+				if($(me).find('.btn').length){
+					$(me).find('.btn').attr('href',$(this).attr('href'))
+				};
+				$(this).parent().hide().parents('.sele').find('span').text($(this).text());
+			}
+		})
+	};
+	function sele_hide(me){
+		$(me).find('.sele_').stop(1,0).hide()
+	};
+};
+var $sele=$('.sele');
+$sele.each(function(i) {$(this).css('z-index',$sele.length-i).sele()});
+
+function SetFontSize(size){
+   document.getElementById('mainDetail').style.fontSize=size+'px';
+}
+function storePage(){
+	url = window.location.href; 
+	title = "<%=title%>"; 
+	window.external.AddFavorite(url,title);
+}
+
+</script>
+<script>
+function showsubmenu(sid)
+{
+    var whichEl = document.getElementById("submenu" + sid)||null, imgmenu = document.getElementById("imgmenu" + sid)||null;
+    if (!whichEl || !imgmenu) return false;    
+    whichEl.style.display = whichEl.style.display && true ? "" : "none";
+    imgmenu.background = whichEl.style.display && true ? "images/hybkxs.gif" : "images/hybkxx.gif";
+    return false;
+} 
+</script>
+</body>
+</html>
+<%
+	}catch(Exception e){
+		e.printStackTrace();
+	}finally{
+		DBHelper.freeConnection(conn_21sun);
+	}
+%>

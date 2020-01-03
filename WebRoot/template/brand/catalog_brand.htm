@@ -1,0 +1,59 @@
+<#assign catalog_nav = query("select name,num from pro_catalog where len(num)=3 and is_show=1 order by num ")> <!-- 1级栏目 -->
+<#if catalog_nav??&&(catalog_nav?size>0)>
+	<#list catalog_nav as catalog>
+	<#assign catalog_brands = query("select factoryname,factoryid,usern,count(*) total ,logo,is_qijiandian from pro_catalog_for_factory where num like '${catalog.num}%' and factoryname<>'' and factoryname is not null and factoryid<>0 and factoryid<>'' and factoryid is not null and is_show=1 and pro_is_show=1 and len(num)=6 group by factoryname,factoryid,usern,logo,is_qijiandian order by total desc")> <!-- 1 级栏目下的品牌 -->
+	<#assign catalog_sub = query("select top 5 num ,name,count(*) total from pro_catalog_for_factory where num like '${catalog.num}%' group by  num ,name order by total desc")> <!-- 1级栏目下的子栏目 -->
+	 <div class="brandCondition Brand_newPart">
+     <div class="contain980">
+    <div class="letterPoint"><a id="sg${(catalog_index+1)}"></a></div>
+    <div class="hbTitle">
+      <h2>${catalog.name}</h2>
+      <span class="more"><a href="list.jsp?catalognum=${catalog.num}" target="_blank">更多&gt;&gt;</a></span>
+      <span class="hotLinks">
+      <#if catalog_sub??&&(catalog_sub?size>0)>
+      	<#list catalog_sub as sub>
+      	   <a href="list.jsp?catalognum=${sub.num}" target="_blank">${sub.name}</a>
+      	   <#if (sub_index+1)!=catalog_sub?size>
+      	   <em class="w">|</em>
+      	   </#if>
+      	</#list>
+      </#if>
+      </span>
+    </div>
+    <div class="brandtopborder"></div>
+    <div class="brandcontain925">
+    <#if catalog_brands??&&(catalog_brands?size>0)>
+    	<#list catalog_brands as brands>
+		
+		<#if (brands.usern=="china-sg")>
+    	 <div class="blbg">
+        <div class="blp"> <a href="http://product.21-sun.com/brandshop/cql/" target="_blank"> <img width="80" height="30" style="display: inline;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" src="/uploadfiles/${brands.logo}" title="${brands.factoryname}"/> </a></div>
+        <div class="bli">有<font>${brands.total}</font>个系列<br/>
+          [<a href="/agent/0_0_${brands.factoryid?c}_0.shtm" class="link13" target="_blank">代理商</a>]</div>
+        <h3 class="bln"><a href="http://product.21-sun.com/brandshop/cql/" title="${brands.factoryname}"  target="_blank">${brands.factoryname}</a></h3>
+        </div>
+	<#elseif brands.is_qijiandian??&&(brands.is_qijiandian==1)>
+		<div class="blbg">
+        <div class="blp"> <a href="/brandshop/${brands.usern}/" target="_blank"> <img width="80" height="30" title="${brands.factoryname}" style="display: inline;" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" src="/uploadfiles/${brands.logo}"/> </a></div>
+        <div class="bli">有<font>${brands.total}</font>个系列<br/>
+          [<a href="/agent/0_0_${brands.factoryid?c}_0.shtm" class="link13" target="_blank">代理商</a>]</div>
+        <h3 class="bln"><a href=/brandshop/${brands.usern}/" title="${brands.factoryname}" target="_blank">${brands.factoryname}</a></h3>
+        </div>
+	  <#else>
+	     <div class="blbg">
+        <div class="blp"> <a href="${brands.usern}/" target="_blank"> <img width="80" height="30" style="display: inline;" title="${brands.factoryname}" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" src="/uploadfiles/${brands.logo}"/> </a></div>
+        <div class="bli">有<font>${brands.total}</font>个系列<br/>
+          [<a href="/agent/0_0_${brands.factoryid?c}_0.shtm" class="link13" target="_blank">代理商</a>]</div>
+        <h3 class="bln"><a href="${brands.usern}/" title="${brands.factoryname}" target="_blank">${brands.factoryname}</a></h3>
+        </div>
+	  </#if>
+	  
+      </#list>
+    </div>
+    </#if>
+    <div class="brandbottomborder"></div>
+  </div>
+</div>
+	</#list>
+</#if>
+

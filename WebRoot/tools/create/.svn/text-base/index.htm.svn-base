@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<br /><a href="create_brand_index.jsp" target="_blank">生成品牌大全首页</a>
+<br /><a href="create_brand.jsp" target="_blank">生成品牌大全LOGO页</a>
+<br /><a href="http://product.21-sun.com:7341/tools/create/create_brand_detail.jsp" target="_blank">生成品牌详细页</a>
+<br /><a href="/tools/create/create_one_brand_detail.jsp" target="_blank">生成一个品牌详细页<font color="red">&usern=xcmg</font></a>
+<br /><a href="create_index.jsp" target="_blank">create_index.jsp</a>
+<br /><a href="create_products_catalog.jsp" target="_blank">create_products_catalog.jsp</a>
+<br /><a href="create_products_detail.jsp" target="_blank">create_products_detail.jsp</a>
+<br /><a href="create_top_list.jsp" target="_blank">create_top_list.jsp</a>
+</body>
+</html>

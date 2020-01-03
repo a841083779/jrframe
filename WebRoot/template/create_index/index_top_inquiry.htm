@@ -1,0 +1,4 @@
+<#assign list = query(" select top 4 id,factoryname,cataname,product_name,add_date,name,mobile_phone,province,city from pro_product_form where is_deleted=0 and product_name is not null and product_name != '' order by add_date desc ")>
+<#list list as info>
+  <li><span class="ltitle">${info.province!""}${info.city!""}的 <#if (info.name?length >= 1)>${info.name?substring(0,1)}</#if>** 询：</span> <span class="r">${CommonDate.getFormatDate("MM-dd",info.add_date)}</span><span class="linfo"><a href="/inquiry/detail_for_${info.id?c}.htm" target="_blank"><font title="${info.factoryname!""}${info.product_name!""}${info.cataname!""}">${info.factoryname!""}${info.product_name!""}${info.cataname!""}</font>的价格</a></span></li>
+</#list>

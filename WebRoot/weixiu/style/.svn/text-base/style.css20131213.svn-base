@@ -1,0 +1,44 @@
+.list,.list li { width:100%; float:left;}
+
+.reLeft { width:240px; float:left; margin-right:10px;}
+.reMid { width:450px; float:left;}
+.reRight { width:270px; float:right;}
+
+.rp { border:#e0e1e3 1px solid; border-top:#203ca0 2px solid; clear:both;}
+.rp .title { height:32px; line-height:32px; border-bottom:#dcdcdc 1px dotted;}
+.rp .title h3 { color:#004499;}
+.rp .title .more { width:auto; float:right; font-family:"宋体"; padding-right:10px;}
+.rp .title .more a { color:#075AAD!important;}
+.rp .title .more a:hover { color:#ff6600!important;}
+.rp .content { width:100%; float:left;}
+
+.rList01 .list { padding:5px 0px;}
+.rList01 li { width:100%; height:25px; line-height:25px; text-indent:19px; background:url(../images/list_dot.gif) 12px 50% no-repeat;text-overflow:ellipsis; white-space:nowrap;overflow:hidden;}
+.rList01 li.selected a { background-color:#213da4; color:#fff!important; padding:0px 2px;}
+.cate .rList01 li { width:50%;}
+.area .rList01 li,.brands .rList01 li { width:33%;}
+.company .rList01 li { width:100%;text-overflow:ellipsis;}
+
+.repairList li { text-indent:0px;}
+.repairList span.lb { width:auto; font-size:14px; color:#ff6600; margin-right:10px;}
+.repairList li h3 { padding-left:22px; width:300px; height:25px; float:left; font-weight:normal; font-size:14px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden; }
+.repairList .time { width:auto; float:right; color:#a5a5a5; font-size:14px; padding-right:20px; white-space:nowrap;}
+
+.adlist130x40 { width:100%; overflow:hidden;}
+.adlist130x40 .list { width:300px; *padding-bottom:10px;}
+.adlist130x40 li { width:130px; height:40px; margin:0px 8px 10px 0px;}
+
+.moreCate .rList01 li { width:14.2%;}
+.moreArea .rList01 li { width:7.6%;}
+
+.friendLinks dl { border:#c9c9c9 1px solid; padding:10px; line-height:20px;}
+.friendLinks dl dt { width:112px; float:left; text-align:right;}
+.friendLinks dl dd { width:820px; float:right;}
+.friendLinks dl dd a { display:inline-block; white-space:nowrap;}
+.friendLinks dl dd em.w { margin:0px 8px;} 
+
+
+
+
+
+

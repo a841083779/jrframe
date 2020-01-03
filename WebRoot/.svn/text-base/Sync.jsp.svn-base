@@ -1,0 +1,53 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@page import="com.jerehnet.mobile.statistics.*,com.jerehnet.mobile.sync.*,com.jerehnet.webservice.*,java.util.regex.*,java.util.*,com.jerehnet.util.common.*,java.sql.*,com.jerehnet.util.dbutil.*"%>
+
+
+<%
+	String flag = CommonString.getFormatPara(request.getParameter("flag"));	 
+    String method = CommonString.getFormatPara(request.getParameter("method")); 
+    String jsonStr=CommonString.getFormatPara(request.getParameter("jsonStr")); 
+    
+    System.out.println("+++++++++++++++++++++++++++++++++++++flag:"+flag);
+    System.out.println("+++++++++++++++++++++++++++++++++++++method:"+method);
+    System.out.println("*********jsonStr:"+jsonStr);
+    
+    AgentFactorySyncActon agentAction=new AgentFactorySyncActon();
+    OrderSyncActon orderAction=new OrderSyncActon();
+    PersonSyncActon personAction=new PersonSyncActon();
+    MachineSyncActon machineAction=new MachineSyncActon();
+    
+    SyncStatisticsAction statistics =new SyncStatisticsAction();
+    
+    //SringBuffer ret_jsonStr=new SringBuffer();
+    String ret_jsonStr="";
+    if(flag.equals("agent")){
+         ret_jsonStr+=agentAction.sync(flag,method,jsonStr);
+    }else if(flag.equals("order")){
+        ret_jsonStr+=orderAction.sync(flag,method,jsonStr);
+    }else if(flag.equals("person")){
+        ret_jsonStr+=personAction.sync(flag,method,jsonStr);
+    }else if(flag.equals("statistics")){
+        if(method.equals("area_order")){
+            ret_jsonStr+=statistics.getAreaOrderPer(flag,method,jsonStr);
+        }else if(method.equals("order_sum")){
+            ret_jsonStr+=statistics.getOrderSum(flag,method,jsonStr);
+        }else if(method.equals("person_order")){
+            ret_jsonStr+=statistics.getPersonOrderNum(flag,method,jsonStr);
+        }else if(method.equals("agent_order")){
+        	ret_jsonStr+=statistics.getPersonOrderNum(flag,method,jsonStr);
+        }else{
+            ret_jsonStr+="";
+        }
+    }else if(flag.equals("base")){
+       if(method.equals("machine_type_list")){
+            ret_jsonStr+=machineAction.sync(flag,method,jsonStr);
+       } 
+    }else{
+    
+    }
+    out.println(ret_jsonStr.toString());
+%>
+
+
+
+ 

@@ -1,0 +1,8 @@
+<#assign catalog_nav = query("select name,num from pro_catalog where len(num)=3 and is_show=1 order by num  ")> <!-- 1级栏目 -->
+<div class="sideGuide" style="left:0px">
+<#if catalog_nav??&&(catalog_nav?size>0)>
+	<#list catalog_nav as catalog>
+	    <a href="#sg${(catalog_index+1)}">${catalog.name}</a>
+	</#list>
+</#if>
+</div>

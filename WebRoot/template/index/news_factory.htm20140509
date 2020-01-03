@@ -1,0 +1,4 @@
+<#assign list = query(" select top 6 title,html_filename,link_other from article where is_pub=1 and is_del=0 and sort_num not like '%874%' and sort_num not like '%979%'   and flag='1' and sort_num like '%,22,%' order by news_orderno desc ")>
+<#list list as news>
+<li><a target="_blank" href="${news.link_other!'http://news.21-sun.com/detail/${news.html_filename?substring(0,4)}/${news.html_filename?substring(4,6)}/${news.html_filename}'}">${news.title}</a></li>
+</#list>

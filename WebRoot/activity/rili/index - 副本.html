@@ -1,0 +1,75 @@
+<%@ page language="java" import="java.util.*,com.jerehnet.util.common.*" pageEncoding="UTF-8"%><%
+	Connection connection = null;
+	String tablePrefix = Env.getInstance().getProperty("table_prefix");
+	DBHelper dbHelper = DBHelper.getInstance();
+	List<Map> areas = dbHelper.getMapList(" SELECT area_id,area_name FROM comm_area WHERE parent_area_id = 0 ",connection);
+%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="scripts/sele.css"/>
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+</head>
+<body>
+<div class="top">
+  <div class="wrap fix">
+    <h1 class="l"><a href="#" title=""><img src="images/logo.png" width="203" height="84" alt=""></a></h1>
+    <div class="r"><a href="#"><img src="images/right.png"  width="136" height="84" alt="" /></a></div>
+  </div>
+</div>
+
+  <div class="xj">
+    <h3 class="title">在线询价</h3>
+    <input type="text" placeholder="输入您的姓名" class="text placeholder" name="zd_name" id="zd_name">
+    <div class="l sele"> 
+      <div class="_val"><b class="r"></b><span>选择您所在省</span></div>
+      <div class="_option" style="display: none;">
+	  <a href="#">山东</a> <a href="#">山东</a> <a href="#">山东</a> <a href="#">山东</a> <a href="#">山东</a> <a href="#">山东</a> <a href="#">山东</a>
+	  </div>
+    </div>
+    <div class="l sele" style="margin-left:13px;_display:inline"> 
+      <div class="_val"><b class="r"></b><span>选择您所在市</span></div>
+      <div class="_option" style="display: none;"> <a href="#">烟台</a> <a href="#">烟台</a> <a href="#">烟台</a> <a href="#">烟台</a> <a href="#">烟台</a> <a href="#">烟台</a> <a href="#">烟台</a> </div>
+    </div>
+    <div class="l sele pro_sele"> 
+      <div class="_val"><b class="r"></b><span>输入询价产品型号</span></div>
+      <div class="_option" style="display: none;"> <a href="#">山东</a> <a href="#">山东</a> <a href="#">山东</a> <a href="#">山东</a> <a href="#">山东</a> <a href="#">山东</a> <a href="#">山东</a> </div>
+    </div>    
+    <input type="text" value="输入您的联系电话"  class="text inputholder">
+    <input type="text" value="输入您的电子邮箱"  class="text inputholder">
+    <input type="button"  value="" class="btn">
+  </div>
+
+<div class="footer"> 日立建机官方网站 <a href="#" class="n">点 击 进 入</a> </div>
+</body>
+</html>
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/sele.js"></script>
+<script type="text/javascript">
+ $('.sele').each(function() {
+    $(this).sele({
+     max:99,                   // 页面内select效果最大个数，z-index层级即从此开始递减
+     act:"click",              // 触发下拉动作，可选click | mouseenter
+     callback:function(a, b){} // 点击下拉a标签回调，@param(_val, _text)
+   })
+});
+
+$.fn.inputholder=function(){
+	var dval=$(this).val();
+	$(this).focus(function(){
+		$(this).val('').addClass('focus');
+		}).blur(function(){
+		if($(this).val()==''){
+			$(this).val(dval).removeClass('focus');
+			}
+		});
+	};
+	var inputholder=$('.inputholder');
+	if(inputholder.length){
+		inputholder.each(function() {
+		  $(this).inputholder()
+	   })
+	};
+</script>

@@ -1,0 +1,64 @@
+<#assign pro_news_1 = query("select top 11 id,title,link_other from article where sort_num like '%,22,%' order by id desc")> 
+<#assign pro_news_3 = query("select top 5 id,title,link_other from article where sort_num like '%,22,%' order by newid()")> 
+<#assign pro_news_2 = query("select top 3 id,title,news_type from pro_agent_news where is_approval = 1 order by pub_date desc ")>
+<div class="newsMid">
+	<div class="title">
+		<h3>
+			企业动态
+		</h3>
+		<span class="more"><a href="/news/list.jsp?flag=pronews" target="_blank">更多&gt;&gt;</a>
+		</span>
+	</div>
+	<ul class="newstyle03">
+		<li>[企业]
+		<a href="http://www.21-sun.com/SinglePage/lxh/" target="_blank">利星行 卡特正厂超值二手零件上市</a></li>	
+		<#if pro_news_1??&&(pro_news_1?size>0)> 
+		<#list pro_news_1 as news_1>
+		<li>
+			[企业]	
+			<#if news_1.link_other??&&(news_1.link_other?length gt 0)&&news_1.link_other!='null'>
+			<a href="${news_1.link_other}" target="_blank">${news_1.title}</a>
+			<#else>
+			<a href="/news/detail.jsp?id=${news_1.id?c}" target="_blank" title="${news_1.title}">${news_1.title}</a>
+			</#if>
+		</li>	
+		</#list> </#if>
+	 <#if pro_news_3??&&(pro_news_3?size>0)> 
+		<#list pro_news_3 as news_1>
+		<li>
+			[新品]	
+			<#if news_1.link_other??&&(news_1.link_other?length gt 0)&&news_1.link_other!='null'>
+			<a href="${news_1.link_other}" target="_blank">${news_1.title}</a>
+			<#else>
+			<a href="/news/detail.jsp?id=${news_1.id?c}" target="_blank" title="${news_1.title}">${news_1.title}</a>
+			</#if>
+		</li>	
+		</#list> </#if>
+	</ul>
+	<div class="w100 l">
+		<a href="http://www.21-sun.com/SinglePage/lxh/" target="_blank"><img src="../images/lxh.gif" width="373"
+				height="63" />
+		</a>
+	</div>
+	<ul class="newstyle03">
+		<#if pro_news_2??&&(pro_news_2?size>0)>
+		 <#list pro_news_2 as news_2>
+		<li>
+		<#if news_2.news_type==0>
+		[企业]
+		</#if>
+		<#if news_2.news_type==1>
+		[产品]
+		</#if>
+		<#if news_2.news_type==2>
+		[新品]
+		</#if>		
+		<#if news_2.news_type==3>
+		[维修]
+		</#if>	
+				<a href="/news/detail.jsp?id=${news_2.id?c}&t_flag=product" target="_blank" title="${news_2.title}">${news_2.title}</a>
+		</li>
+		</#list> 
+		</#if>
+	</ul>
+</div>

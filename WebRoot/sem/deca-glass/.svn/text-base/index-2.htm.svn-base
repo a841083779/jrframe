@@ -1,0 +1,104 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" tppabs="http://www.deca-glass.com/style/style.css"/>
+<script src="jquery.min.js" tppabs="http://lib.sinaapp.com/js/jquery/1.9.0/jquery.min.js" ></script>
+<script type="text/javascript" src="scripts.js" tppabs="http://www.deca-glass.com/scripts/scripts.js"></script>
+<title>公司介绍_关于德佳_济南德佳玻璃机器有限公司</title>
+<META name=description content="济南德佳玻璃机器有限公司，专业生产中高端中空玻璃加工设备">
+<META name=keywords content="济南德佳玻璃机器有限公司,中空玻璃设备,中空玻璃生产线,丁基胶涂布机,全自动封胶机,双组份打胶机"></head>
+<body>
+	<!--top-->
+     
+ 
+ <script type="text/javascript" src="js.js" tppabs="http://www.deca-glass.com/scripts/js.js"></script>
+<div class="top">
+        <div class="ssc fix">
+            <div class="plist02" onmouseover="displaylayer(this);" onmouseout="hidelayer(this);"> 
+                <font>Language</font> 				              
+                <span class="pllayer02" style="display: none;">
+                <dl>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaglass.com/'" tppabs="http://www.decaglass.com/" target="_blank">中文</a></dd>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/en/index.asp  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaglass.com/en/index.asp'" tppabs="http://www.decaglass.com/en/index.asp" target="_blank">英文</a></dd>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/ru/index.asp  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaglass.com/ru/index.asp'" tppabs="http://www.decaglass.com/ru/index.asp" target="_blank">俄文</a></dd>
+                </dl>
+                </span> 
+            </div>
+            <a href="index-1.htm" tppabs="http://www.deca-glass.com/contact/" class="top_contact"><span>联系我们</span></a>
+            <a href="#" onclick="favorite()"><span>加入收藏</span></a>
+            <a href="#" onclick="setHome(this)"><span>设为首页</span></a>
+         </div>
+         <div class="lonav">
+            <div class="logo"><a href="index.htm" tppabs="http://www.deca-glass.com/" title="济南德佳玻璃机器有限公司"><img src="logo.gif" tppabs="http://www.deca-glass.com/images/logo.gif"></a><span>以德兴企 双赢为佳</span></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.htm" tppabs="http://www.deca-glass.com/">网站首页</a></li>
+                    <li><a class="on" href="index-2.htm" tppabs="http://www.deca-glass.com/about/">关于德佳</a></li>
+                    <li><a class="" href="index-3.htm" tppabs="http://www.deca-glass.com/news/">新闻中心</a></li>
+                    <li><a class="" href="index-4.htm" tppabs="http://www.deca-glass.com/research/">研发中心</a></li>
+                    <li><a class="" href="index-5.htm" tppabs="http://www.deca-glass.com/product/">产品中心</a></li>
+                    <li id="nav_last"><a class="" href="index-1.htm" tppabs="http://www.deca-glass.com/contact/">联系我们</a></li>
+                </ul>
+            </div>
+         </div>
+    </div>
+    <!--top end-->
+    <div class="content">
+    	<!--left-->
+    	<div class="leftmenu">
+        	<h2>关于德佳</h2>
+            <div class="leftnav">
+            	<ul>
+                	<li><a class="cur" href="index-1.jsp.htm" tppabs="http://www.deca-glass.com/about/index.jsp">公司介绍</a></li>
+                    <li><a href="honor.jsp.htm" tppabs="http://www.deca-glass.com/about/honor.jsp">公司荣誉</a></li>
+                    <li><a href="corporate.jsp.htm" tppabs="http://www.deca-glass.com/about/corporate.jsp">合作交流</a></li>
+                </ul>
+            </div>
+
+            <h3>友情链接</h3>
+            <a href="javascript:if(confirm('http://www.decaholdings.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaholdings.com/'" tppabs="http://www.decaholdings.com/" title="德佳控股" target="_blank"><img src="leftlink01.jpg" tppabs="http://www.deca-glass.com/images/leftlink01.jpg"></a>
+            <a href="javascript:if(confirm('http://www.decamachine.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decamachine.com/'" tppabs="http://www.decamachine.com/" title="德佳机器" target="_blank"><img src="leftlink02.jpg" tppabs="http://www.deca-glass.com/images/leftlink02.jpg"></a>
+            <a href="javascript:if(confirm('http://www.decadf.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decadf.com/'" tppabs="http://www.decadf.com/" title="德佳淀粉" target="_blank"><img src="leftlink03.jpg" tppabs="http://www.deca-glass.com/images/leftlink03.jpg"></a>
+            <a href="javascript:if(confirm('http://www.pedax.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.pedax.cn/'" tppabs="http://www.pedax.cn/" title="钢筋机械" target="_blank"><img src="leftlink04.jpg" tppabs="http://www.deca-glass.com/images/leftlink04.jpg"></a>
+            <a href="javascript:if(confirm('http://www.decasoft.com.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decasoft.com.cn/'" tppabs="http://www.decasoft.com.cn/" title="德佳软件" target="_blank"><img src="leftlink05.jpg" tppabs="http://www.deca-glass.com/images/leftlink05.jpg"></a>
+    	</div>
+        <!--left end-->
+    	<div class="right_content">
+        	<!--banner-->
+            <div class="baner"><img src="banner.jpg" tppabs="http://www.deca-glass.com/images/banner.jpg" title="公司介绍"></div>
+            <!--banner end-->
+            <div class="channelT">
+            	<h2>公司介绍</h2>
+                <div class="posi"><a href="index.htm" tppabs="http://www.deca-glass.com/">首页</a>><a href="index-1.jsp.htm" tppabs="http://www.deca-glass.com/about/index.jsp">关于德佳</a>>公司介绍</div>
+            </div>
+            <div class="con">　　<span style="float:right; padding:10px"><img src="rongyu.jpg" tppabs="http://www.deca-glass.com/images/rongyu.jpg" width="385" height="293" alt="荣誉" /></span><strong style="color:#0167b9">济南德佳玻璃机器有限公司</strong>成立于1999年，工厂占地面积1万余平米，员工人数300余人工程师人数近30余人。系专业从事中空玻璃加工设备的研发、生产和销售的高新技术企业，拥有目前国内最大的中空玻璃设备加工基地。产品国内市场占有率及出口额稳居同行业之首。公司于成立之初被接纳为&quot;中国建筑玻璃与工业玻璃协会&quot;的会员，2000年应国家检测中心邀请参与了中空玻璃行业标准的制订。<br />
+              <br />
+<p>　　做优质产品，创强势品牌。为内塑素质，外树形象，公司投入大量资金兴建了黄岗德佳工业园，全面导入了CIS企业形象识别系统，进一步提升了公司的对内对外形象。同时公司不断完善各项质量控制和科学管理体系，于2002年8月在国内同行业内率先一次性全面通过瑞士SGS公司ISO9001：2000质量体系认证。2003年，我公司正式获得中空玻璃设备自营进出口权，生产的中空玻璃加工设备远销美国、加拿大、新西兰、日本、印度、越南、泰国、阿联酋、俄罗斯、乌克兰、哈萨克斯坦、西班牙等国，赢得了良好的国际声誉和市场效益.2004年10月，德佳公司引进德国先进生产技术合作生产，高档中空玻璃生产线和建筑用玻璃自动切割玻璃生产线。<br />
+  <br />
+</p>
+              <p>　　公司本着<strong>“德佳机器，专家品质，专家服务”</strong>的全心全意为客户服务的精神，在人才的引进和培育上做足文章，公司先后汇集了一大批多年从事本行业的技术、服务专家。公司销售和服务网络进一步健全，形成了全国十几个办事处的格局，各种服务信息的传递更加通畅，服务更加完善。<br />
+                <br />
+              </p>
+              <p>　　济南德佳玻璃机器有限公司秉承<strong>“以德兴企，双赢为佳”</strong>的发展理念，本着“创造客户价值”的经营宗旨，愿与客户携手“双赢”！共创国家中空玻璃产业的辉煌！</p>
+              <p></p>
+            </div>
+        </div>
+    </div>
+    <!--foot-->
+    
+<div class="foot">
+    	<div style="text-align:center"><a href="index-5.htm" tppabs="http://www.deca-glass.com/product/" target="_blank">中空玻璃设备 - 中空玻璃生产设备 - 中空玻璃加工设备 - 中空玻璃生产线 - 中空玻璃打胶机 - 中空玻璃机械 - 中空玻璃机器</a><br />
+        	<a href="index.htm" tppabs="http://www.deca-glass.com/" title="济南德佳玻璃机器有限公司" target="_blank">济南德佳玻璃机器有限公司</a>版权所有 <a href="javascript:if(confirm('http://www.21-sun.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.21-sun.com/'" tppabs="http://www.21-sun.com/" title="21-sun" target="_blank">中国工程机械商贸网</a>制作维护<br/>
+            地址：济南高新区舜华路1号齐鲁软件园创业广场B座5层B511　电话：0531-86037566  86037366　传真：0531-86037266
+        </div>
+    </div>
+
+    <!--foot end-->
+</body>
+<script>
+$('.ban').T_banner();
+</script>
+</html>
+

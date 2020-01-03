@@ -1,0 +1,270 @@
+.searchForm {
+	margin: 10px;
+}
+
+.searchLeft {
+	float: left;
+	font-size: 14px;
+	width: 80px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.searchRight {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.searchCondition {
+	float: left;
+	width: 80%
+}
+
+.searchBtn {
+	margin-left: 15px;
+	float: left;
+	width: 15%;
+	margin-bottom: 5px;
+}
+
+.btn {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-image: url("/backend/images/btn_bg.gif");
+	width: 70px;
+	height: 25px;
+	float: left;
+	cursor: pointer;
+}
+
+.formDiv {
+	margin-left: 5px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.formLeft {
+	width: 105px;
+	float: left;
+	text-align: center;
+	margin: 5px;
+	margin-left: 0;
+	height: 22px;
+}
+
+.formRight {
+	width: 160px;
+	float: left;
+	margin: 5px;
+	height: 22px;
+	text-align: center;
+	float: left;
+}
+
+.formRight label {
+	position: relative;
+	top: 3px;
+}
+
+.formEditor_title {
+	text-align: left;
+}
+
+.formEditor {
+	height: 400px;
+}
+
+#submit {
+	margin-top: 10px;
+	margin-left: 300px;
+}
+
+.group {
+	margin: 10px;
+	padding-left: 20px;
+	border-bottom: 1px solid #EEE;
+	padding-bottom: 5px;
+	clear: left;
+	text-align: left;
+}
+
+.groupTitle {
+	font-weight: bold;
+	font-size: 12px;
+	text-align: left;
+}
+
+.jr_text {
+	background-image:
+		url('/plugin/ui/ligerUI/ligerUI/skins/Gray/images/ui/input.gif');
+	background-repeat: repeat-x;
+	border: 1px solid #999;
+	height: 20px;
+	line-height: 20px;
+	width: 550px;
+}
+
+.jr_select {
+	height: 22px;
+	line-height: 22px;
+	width: 160px;
+	border: 1px solid #999;
+}
+
+.jr_textarea {
+	border: 1px solid #999;
+	width: 550px;
+	height: 50px;
+}
+
+.jr_radio {
+	position: relative;
+	top: 5px;
+	margin: 0 3px 0 3px;
+}
+
+.jr_radio_group {
+	text-align: left;
+}
+
+.jr_checkbox_group {
+	text-align: left;
+}
+
+.jr_checkbox_group input {
+	position: relative;
+	top: 3px;
+}
+
+.jr_checkbox_group label {
+	margin: 5px;
+}
+
+.toolbar {
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 10px;
+	height: 26px;
+	margin-left: 15px;
+}
+
+.extensioninfo ul li {
+	width: 92%;
+	height: 20px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.span3 {
+	margin-right: 7px;
+}
+
+.span2 {
+	margin-right: 25px;
+}
+
+.link {
+	color: #000;
+	text-decoration: underline;
+}
+
+div.paging {
+	padding: 5px 20px;
+	margin: 3px 0px;
+	font-family: Arial;
+	line-height: 0px;
+	text-align: center;
+}  /*翻页条的外部样式*/
+div.paging a {
+	padding: 5px 3px;
+	color: #666;
+	text-decoration: none;
+}  /*按钮默认时的状态样式*/
+div.paging a:hover {
+	color: #5972a0;
+}  /*鼠标悬停时的按钮状态样式*/
+div.paging a:active {
+	color: #5972a0;
+}  /*鼠标点击时的按钮状态样式*/
+div.paging span.current {
+	padding: 2px 1px;
+	color: #5972a0;
+	font-weight: bold;
+}  /*当前选中的按钮样式*/
+body,html {
+	height: 100%;
+	padding: 0px;
+	background: #fff;
+}
+
+body {
+	padding: 0px;
+	margin: 0;
+	overflow: hidden;
+}
+
+.l-link {
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	padding-left: 10px;
+	text-decoration: underline;
+	color: #333;
+}
+
+.l-link2 {
+	text-decoration: underline;
+	color: white;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.l-layout-top {
+	background: #102A49;
+	color: White;
+}
+
+.l-layout-bottom {
+	background: #E5EDEF;
+	text-align: center;
+}
+
+#pageloading {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background: white url('/plugin/ui/ligerUI/images/loading.gif') no-repeat
+		center;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+}
+
+.l-link {
+	display: block;
+	line-height: 22px;
+	height: 22px;
+	padding-left: 16px;
+	border: 1px solid white;
+	margin: 4px;
+}
+
+.l-link-over {
+	background: #FFEEAC;
+	border: 1px solid #DB9F00;
+}
+
+.l-winbar {
+	background: #2B5A76;
+	height: 30px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	z-index: 99999;
+}
+
+.space {
+	color: #E7E7E7;
+}

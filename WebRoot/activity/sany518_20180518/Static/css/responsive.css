@@ -1,0 +1,97 @@
+/*
+* name: responsive
+* version: v2.0.1
+* update: 恢复使用max-width，最新版本的UC浏览器不支持max-device-width
+* data: 2016-08-18
+*/
+
+/* import responsive stylesheet */
+@import url(./Pad.css) screen and (max-width: 1024px);
+@import url(./Mobile.css) screen and (max-width: 760px);
+
+/* hide template textarea */
+.UnpcPush textarea, .PcPush textarea, .MobilePush textarea, .UnmobilePush textarea{display: none;}
+
+/*
+* PcMode
+*/
+body:after {
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  content: 'Pc';
+}
+.PcMode:after { content: 'Pc' !important;}
+.UnpcPush, .MobilePush { display: none;}
+img[data-src] { opacity: 0 ; filter: alpha(opacity=0);}
+/*
+* PadMode
+*/
+@media only screen and (max-width: 1024px) {
+
+  body:after {
+    content: 'Pad';
+  }
+  body{ user-select: none;-webkit-user-select: none;}
+  html,body,.wrap { min-width:0;}
+  html { overflow-x:hidden;}
+  body,input,textarea,button,select { font-size:14px;}
+  .wrap{padding-left:2%;padding-right:2%;width: auto;}
+  .PcPush{display: none;}
+  .UnpcPush{display: block;}
+}
+
+/*
+* MobileMode
+*/
+@media only screen and (max-width: 760px) {
+
+  body:after {
+    content: 'Mobile';
+  }
+  body,input,textarea,button,select {font-size:16px;}
+  .wrap{padding-left:4%;padding-right:4%; }
+  .UnmobilePush{display: none;}
+  .MobilePush{display:block;}
+  img[data-src]{opacity: 1;}
+
+  /*banner*/
+  .banner{height:auto; overflow:hidden;}
+  .banner img{width:100%; position: static; margin:0;}
+
+  /*part1*/
+  .part1{margin-top:0;}
+  .part1{background:#f3bf0b; padding-top: 30px;}
+  .part1_box{background:none; padding:0; text-align:center;}
+  .part1_box .time{font-size:16px;}
+  .part1_box .title01{font-size:18px; margin-bottom:20px;}
+  .part1_box .title02{padding:4px 0px; font-size:15px;}
+  .part2{padding:30px 0px;}
+  .part2 .name_list{padding:0; font-size:12px;}
+  .pro_box{padding:30px 0px;}
+
+  .part6{padding:30px 0px;}
+  .part6 .text1{padding:0; font-size:16px;}
+  .part6 .text2{padding:0; font-size:20px;}
+  .part6 .text_box .title{font-size:20px; margin-bottom:10px;}
+  .part6_main{background-size:cover;}
+  .part6 .text_box{padding:6%;}
+  .part7{padding:30px 0px 0;}
+  .part7 .title{font-size:20px;}
+  .part7 .p{padding:0; font-size:14px; margin-bottom:30px;}
+  .pro_detail .tab_t{font-size:14px; padding:14px 0px;}
+  .pro_box .pro_data span{font-size:12px; border:none;}
+  .pro_box .pro_title{font-size:24px;}
+
+  .video_box{height:150px;}
+  .pro_detail .tab_hd{height:50px;}
+
+  /*pro 调整*/
+  .pro_box .message{ line-height:40px; font-size:12px; display:inline-block; margin-top:20px;}
+  .pro_box .message_hd{ padding:0 5px;}
+  .pro_box .message_bd_box{padding:5px 5px;}
+  
+
+}

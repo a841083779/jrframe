@@ -1,0 +1,532 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="renderer" content="webkit">
+<title>【${model.factoryname}${model.name}${model.catalogname}<#if  model.catalogname??&& model.catalogname!=""&&(model.catalogname?length>2)><#if model.catalogname?substring(model.catalogname?length-3,model.catalogname?length)=="挖掘机">(钩机)<#elseif model.catalogname?substring(model.catalogname?length-3,model.catalogname?length)=="装载机">(铲车)</#if></#if>性能】${model.factoryname}${model.name}${model.catalogname}<#if  model.catalogname??&& model.catalogname!=""&&(model.catalogname?length>2)><#if model.catalogname?substring(model.catalogname?length-3,model.catalogname?length)=="挖掘机">(钩机)<#elseif model.catalogname?substring(model.catalogname?length-3,model.catalogname?length)=="装载机">(铲车)</#if></#if>质量性能介绍 - 铁臂商城</title>
+<meta name="keywords" content="${model.factoryname}${model.name}${model.catalogname},${model.factoryname}${model.name}${model.catalogname}性能" />
+<meta name="description" content="铁臂商城为您提供${model.factoryname}${model.name}${model.catalogname}性能,${model.factoryname}${model.name}${model.catalogname}详细性能介绍,帮助您通过网络订购${model.factoryname}${model.name}${model.catalogname},买${model.factoryname}${model.name}${model.catalogname}就上铁臂商城。" />
+<meta name="author" content="design by www.21-sun.com">
+<meta name="mobile-agent" content="format=html5;url=http://m.21-sun.com/product/proDetail/${model.file_name?replace('.shtm','.htm')}">
+<script type="text/javascript" src="/Static/app/mobile.js"></script>
+<script type="text/javascript">uaredirect("http://m.21-sun.com/product/proDetail/${model.file_name?replace('.shtm','.htm')}");</script>
+<link href="/Static/grid/grid12.css" rel="stylesheet" />
+<link href="/Static/css/ui.css" rel="stylesheet" />
+<link href="/Static/css/common.css" rel="stylesheet" />
+<link href="/Static/css/style.css" rel="stylesheet" />
+<!--[if lt IE 9]><script src="/Static/lib/H5shiv.js"></script><![endif]-->
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+</head>
+<body>
+<!--top-->
+<!--#include virtual="/include/new_top.htm"-->
+<!--top end-->
+<!--面包屑-->
+<div class="breadCrumbs"> <#if model.catalognum!=""&&(model.catalognum=="101001001"||model.catalognum=="101002003"||model.catalognum=="101003001")>
+  <div class="wrap fix">我的位置： <a href="/">铁臂商城</a><em>&gt;&gt;</em><a href="/products/">产品大全</a><em>&gt;&gt;</em><a href="/products/prolist.jsp?catalog=${model.catalognum?substring(0,6)}"> ${model.catalogname!""} </a><em>&gt;&gt;</em><a href="/products/prolist.jsp?factory=${model.factoryid?c!""}"> ${model.factoryname!""} </a><em>&gt;&gt;</em><a href="/products/prolist.jsp?factory=${model.factoryid?c!""}&catalog=${model.catalognum?substring(0,6)}"> ${model.factoryname!""}${model.catalogname!""}</a><em>&gt;&gt;</em>${model.factoryname!""}${model.name!""}${model.catalogname!""}性能</div>
+  </#if>	
+  <#if model.catalognum!=""&&model.catalognum!="101001001"&&model.catalognum!="101002003"&&model.catalognum!="101003001">
+  <div class="wrap fix">我的位置：<a href="/">铁臂商城</a> &gt;&gt; <a href="/products/">产品大全</a> &gt;&gt;<a href="/products/prolist.jsp?catalog=${model.catalognum!""}"> ${model.catalogname!""} </a>&gt;&gt;<a href="/products/prolist.jsp?factory=${model.factoryid?c!""}"> ${model.factoryname!""} </a> &gt;&gt;<a href="/products/prolist.jsp?factory=${model.factoryid?c!""}&catalog=${model.catalognum!""}"> ${model.factoryname!""}${model.catalogname!""} </a> &gt;&gt; ${model.factoryname!""}${model.name!""}${model.catalogname!""}性能</div>
+  </#if> </div>
+<!--面包屑 end-->
+<!--main-->
+<div class="wrap">
+  <div class="pro_top_hd_box">
+    <div class="pro_top_hd">
+      <div class="pro_top_box">
+        <ul class="fix">
+          <li><a href="${cName1}">详情<i class="line"></i></a></li>
+          <li><a href="${cName7}#position">参数<i class="line"></i></a></li>
+          <li  class="cur _f"><a href="${cName2}#position">性能<i class="line"></i></a></li>
+          <li><a href="${cName4}#position">代理商<i class="line"></i></a></li>
+          <li><a href="${cName5}#position">口碑<i class="line"></i></a></li>
+          <li><a href="${cName3}#position">图片<i class="line"></i></a></li>
+		  <li style="width:104px"><a style="height:38px;width:100px;padding-left:2px;padding-right:2px"  href="javascript:void(0)" id="top_xj" ><img style="height:38px;width:100px" src="/new_resources/img/xunjia.gif" /></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="pro_dt fix">
+    <!--left-->
+    <div class="pro_dt_left">
+      <div class="pro_dt_p1 fix">
+        <div class="_imgs">
+          <div class="_top">
+            <div class="_img"><img  onerror="showImgDelay(this,'/uploadfiles/no_big.gif',2);"  src="http://product.21-sun.com/uploadfiles/${model.img2?lower_case}" alt="${model.factoryname!""}${model.name!""}${model.catalogname!""}" ></div>
+            <#assign pic_list = query(" select img_name  from  pro_product_pic  where product_id = ${model.id?c}  order by  id desc  ")>
+            <#if pic_list??&&(pic_list?size>0)>
+            <div class="_scrol">
+              <div class="bd">
+                <ul>
+                  <#list pic_list as pic> 
+                  <#if pic.img_name?contains("uploadfiles")>
+                  <li><img  onerror="showImgDelay(this,'/uploadfiles/no_big.gif',2);" src="http://product.21-sun.com/${pic.img_name}"></li>
+                  <#else>
+                  <li><img onerror="showImgDelay(this,'/uploadfiles/no_big.gif',2);" src="http://product.21-sun.com/uploadfiles/${pic.img_name}"></li>
+                  </#if>
+                  </#list>
+                </ul>
+              </div>
+              <a href="javascript:;" class="prev _btn"></a><a href="javascript:;" class="next _btn"></a> </div>
+            </#if> </div>
+        </div>
+        <div class="_info">
+          <div class="tdlp_trnr">
+            <h2 class="tdlp_dtitle">${model.factoryname!""}${model.name!""}${model.catalogname!""}性能</h2>
+            <div class="s_shuzhi">
+              <p><#if (parmaMainMap.p1??&&parmaMainMap.p1!='')>${parmaMainMap.p1!""}：${parmaMainMap.v1!""}</#if>&emsp;&emsp;<#if (parmaMainMap.p2??&&parmaMainMap.p2!='')>${parmaMainMap.p2!""}：${parmaMainMap.v2!""}</#if></p>
+              <p><#if (parmaMainMap.p3??&&parmaMainMap.p3!='')>${parmaMainMap.p3!""}：${parmaMainMap.v3!""}</#if>&emsp;&emsp; <#if (parmaMainMap.p4??&&parmaMainMap.p4!='')>${parmaMainMap.p4!""}：${parmaMainMap.v4!""}</#if></p>
+              <p> <#if (parmaMainMap.p5??&&parmaMainMap.p5!='')>
+                ${parmaMainMap.p5!""}：${parmaMainMap.v5!""}&emsp;&emsp;
+                </#if>
+                <#if (parmaMainMap.p6??&&parmaMainMap.p6!='')>
+                ${parmaMainMap.p6!""}：${parmaMainMap.v6!""}
+                </#if> </p>
+            </div>
+            <div class="tdlp_score">网友平均评分 <span id="totalScoreId"></span> 分&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a style="font-weight:normal"  href="${cName5}#position" class="_more"  >查看评论(<span id="koubei_top"></span>条)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a style="font-weight:normal;color:#fe6000"  href="javascript:void(0)"  onclick="writeKoubei('${model.factoryname!""}','${model.name!""}','${model.catalogname!""}','${model.id?c}')" class="_btn">我要评论</a></div>
+            <div class="fix"> <a  style="float:left" href="javascript:void(0)"  id="xjbox_display"><img src="/new_resources/img/xunjia.gif" /></a> <a style="margin-left:5px;float:left" target="_blank" href="http://used.21-sun.com/equipment/0-0-0-${model.factoryid?c}-0-0-0-0.htm" class="tdlp_dbtn_02"><img src="/new_resources/img/ershou.gif" /></a> <a  onClick="compareEqupment('${model.id?c}')" style="margin-left:5px;float:left" href="javascript:void(0)"    class="tdlp_dbtn_02" id="duibi"><img src="/new_resources/img/duibi.gif" /></a>
+              <div  class="bdsharebuttonbox bdshare-button-style0-16" data-tag="pageSharePreview" data-bd-bind="1436840134257" style="width:100px;background-image:url();float:right;margin:0 0 0 0 ;margin-right:30px"> <a style="background-image:url();float:right;margin:0 0 0 0 ;"  target="_blank"  > <img class="bds_more" data-cmd="more" style="background-image:url();width:100px;height:40px;margin:0 0 0 0 ;padding-left:0px" src="/new_resources/img/femxiang.gif"> </a></div>
+            </div>
+            <div class="tdlp_dtip">因不同地区代理商及价格差异，请您点击<span><a href="javascript:void(0)" onClick="showinquery('${model.id?c}','')">咨询最低价</a></span>。</div>
+            <div class="tdlp_doht fix"> <span class="tdo_t1">品牌：<i><a title="${model.factoryname!""}" href='/products/prolist.jsp?factory=${model.factoryid?c}' target='_blank'>${model.factoryname!""}</a></i></span> <span class="tdo_t2">类别：<i><a title="${model.factoryname?replace('卡特彼勒', '卡特')}${precatalogname}" href="/products/prolist.jsp?factory=${model.factoryid?c}&catalog=<#if (model.catalognum?? && model.catalognum?length > 6)>${model.catalognum?substring(0,6)}<#else>${model.catalognum}</#if>">${model.factoryname?replace('卡特彼勒', '卡特')}${precatalogname}</a></i></span> </div>
+            <div class="_btm">
+              <p> <#if ((saleMap.q1??&&saleMap.q1!='')||(saleMap.q2??&&saleMap.q2!='')||(saleMap.q3??&&saleMap.q3!=''))> <strong style="font-size:18px">购机政策：</strong><br>
+                <#if (saleMap.q1??&&saleMap.q1!='')> <span style="font-size:16px"><strong>[付款]</strong>${saleMap.q1}</span><br>
+                </#if>
+                <#if (saleMap.q2??&&saleMap.q2!='')> <span style="font-size:16px"><strong>[置换]</strong>${saleMap.q2}</span><br>
+                </#if>
+                <#if (saleMap.q3??&&saleMap.q3!='')> <span style="font-size:16px"><strong>[维修]</strong>${saleMap.q3}</span><br>
+                </#if>
+                <#else>   </#if> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pro_dt_left_box">
+        <div class="_bt">更多型号</div>
+        <div class="xh_sel fix">
+          <ul class="_list">
+            <#assign pro_list  = query("select name,file_name from pro_products where  id!=${model.id?c}  and  is_show=1 and   catalognum like  '${model.catalognum}%' and factoryid=${model.factoryid?c}    order by tonandmeter asc,view_count desc ")>  
+            <#if pro_list??&&(pro_list?size>0)>  
+            <#list pro_list as pro>
+            <li><a href="/proDetail/${pro.file_name}">${pro.name}</a></li>
+            </#list>
+            </#if>
+          </ul>
+        </div>
+      </div>
+      <!--性能-->
+      <div class="pro_dt_left_box"> <span id="xingn" class="maod"></span>
+        <div class="_bt">${model.factoryname!""}${model.name!""}性能</div>
+        <div class="xn_text"> <#if (model.introduce?? && model.introduce?length > 11)>${model.introduce?replace("?","")}<#else>暂无介绍</#if> <br>
+          <#if (model.instruments?? && model.instruments!=''&& model.instruments?length > 20)>
+          属具推荐：<br>
+          ${model.instruments!""}
+          </#if> </div>
+      </div>
+      <!--性能 end-->
+      <!--询价-->
+      <div class="txd_plant fix"> <span id="xunjia" class="maod"></span>
+        <div class="tpl_title">${model.factoryname!""}${model.name!""}询价</div>
+      </div>
+      <div class="txd_xunjia mt15" id="prodetailOrder">
+        <div class="txj_lant">非常欢迎您选择${model.factoryname}${model.name}${model.catalogname}，我们诚恳的希望您详细填写如下信息，以便我们的服务专员与您联系。</div>
+        <div class="txj_main fix">
+          <!--#include virtual="/include/prodetail_new/product_detail_order.jsp?factoryid=${model.factoryid?c}&productid=${model.id?c}&factoryname=${model.factoryname}&name=${model.name?replace(' ','')}&cataname=${model.catalogname}&catalognum=${model.catalognum}"-->
+          <div class="_xjlist">
+            <div class="_hd">Hi,最近有<span id="inquiry_bottom"></span>个用户已经询价了，<br>
+              ${model.factoryname!""}${model.name!""}${model.catalogname!""}</div>
+            <div class="_bd">
+              <ul id="inquiry_list">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--询价end-->
+    </div>
+    <!--left end-->
+    <!--right-->
+    <div class="pro_dt_right">
+      <div class="pro-dt-rg-p1">
+        <div class="_hd fix"> <a href="/brand/${brandMode.usern}/" target="_blank"><img style="width:112px;height:38px" onerror="showImgDelay(this,'/uploadfiles/no_big.gif',2);"  src="http://product.21-sun.com/uploadfiles/${brandMode.logo!''}" class="_img" /></a>
+          <div class="_t"><a href="/brand/${brandMode.usern}/" target="_blank">${model.factoryname!""}</a></div>
+        </div>
+        <div class="_tip">${model.factoryname!""}主营业务</div>
+        <div class="_bd">
+          <ul class="fix">
+            <#assign cata_list = query(" select substring(catalognum,1,6) as catalognum from pro_products where is_show=1 and factoryid = ${model.factoryid?c}  and catalognum is not null group by substring(catalognum,1,6) order by catalognum asc ")>  
+            <#if cata_list??&&(cata_list?size>0)>
+            <#list cata_list as cata>
+            <#list query("select top 1 name from pro_catalog where num ='${cata.catalognum}' ") as theCata>
+            <li><a  target="_blank" href="/products/prolist.jsp?factory=${model.factoryid?c}&catalog=${cata.catalognum}"  title="${theCata.name}">${theCata.name}</a></li>
+            </#list>
+            </#list>
+            </#if>
+          </ul>
+        </div>
+      </div>
+      <div class="pro-dt-rg-p1">
+        <!--行业口碑-->
+        <!--#include virtual="/include/prodetail_new/news/news_${model.factoryid?c}.htm"-->
+        <!--行业口碑 end-->
+        <!--其他用户还看了-->
+        <!--#include virtual="/include/prodetail_new/pro_list.jsp?model=${model.name?replace(' ','')}&factoryid=${model.factoryid?c}&catalognum=${precatalognum}&tonand=${tonand}&tonandmeter=${model.tonandmeter?c}&catalog=${model.catalognum!""}"-->
+        <!--其他用户还看了 end-->
+        <!--二手-->
+        <!--#include virtual="/include/prodetail_new/used/used_${model.factoryid?c}.htm"-->
+        <!--二手 end-->
+      </div>
+    </div>
+    <!--right end-->
+  </div>
+</div>
+<!--main end-->
+<div class="z_pf">
+  <ul>
+    <li class="gotop"><a href="#"><img src="../new_resources/img/zpf01.jpg"></a></li>
+    <li><a href="#"><img src="../new_resources/img/zpf02.jpg"></a></li>
+    <li><a href="#"><img src="../new_resources/img/zpf03.jpg"></a></li>
+    <li><a href="#"><img src="../new_resources/img/zpf04.jpg"></a></li>
+  </ul>
+</div>
+<!--foot-->
+<!--#include virtual="/include/new_foot.htm"-->
+<!--foot end-->
+<script src="../Static/modules/seajs/sea.js" id="seajsnode" ></script>
+<script src="../seajs.config.js"></script>
+<script>
+	var jrChannel='1#0';
+	seajs.use('app/product_detail.js')
+</script>
+<!--询价对比开始-->
+<div class="fiopen" id="openbtn">对比</div>
+<div id="divShowCarCompare" class="fipop_cont">
+  <h2>机器对比</h2>
+  <span class="fiaway" id="closebtn">【关闭】</span>
+  <div id="cmpContainer" class="ficont">
+    <div class="ficin">
+      <ul id="cmpContent">
+      </ul>
+      <a onClick="submitCompare();"  class="btn_cont" href="javascript:void(0)"> 开始对比</a> <a onClick="clearAllCompare();"  href="javascript:void(0)" class="empty">清空</a> </div>
+  </div>
+</div>
+<!--xjbox-->
+<div class="xjbox" id="xjbox">
+  <h2>在线询价</h2>
+  <span class="close" id="closebox">【关闭】</span>
+  <label>想了解<span>${model.name}</span>最低价？<br>
+    请填写如下信息：</label>
+  <form action="/action/save.jsp" method="post" name="theform_right" id="theform_right" >
+    <ul>
+      <li>
+        <div class="left"><span>您怎么称呼：</span></div>
+        <div class="right">
+          <input class="name" type="text"  id="jr_name" name="jr_name"/>
+        </div>
+      </li>
+      <li>
+        <div class="left"><span>您的电话号：</span></div>
+        <div class="right">
+          <input class="name" type="tel"  id="jr_mobile_phone" name="jr_mobile_phone" />
+        </div>
+      </li>
+      <li>
+        <div class="left"><span>您在的省份：</span></div>
+        <div class="right">
+          <select class="xj_select" id="tr_province" name="tr_province" >
+            <option value="" area_id="">--请选择--</option>
+            <option value="101800" area_id="101800">安徽</option>
+            <option value="105499" area_id="105499">北京</option>
+            <option value="142000" area_id="142000">福建</option>
+            <option value="128000" area_id="128000">广东</option>
+            <option value="113000" area_id="113000">广西</option>
+            <option value="134000" area_id="134000">甘肃</option>
+            <option value="132000" area_id="132000">贵州</option>
+            <option value="106400" area_id="106400">河北</option>
+            <option value="122000" area_id="122000">黑龙江</option>
+            <option value="124000" area_id="124000">湖北</option>
+            <option value="126000" area_id="126000">湖南</option>
+            <option value="130000" area_id="130000">河南</option>
+            <option value="141500" area_id="141500">海南</option>
+            <option value="103100" area_id="103100">江西</option>
+            <option value="110900" area_id="110900">江苏</option>
+            <option value="119000" area_id="119000">吉林</option>
+            <option value="120000" area_id="120000">辽宁</option>
+            <option value="109700" area_id="109700">内蒙古</option>
+            <option value="116000" area_id="116000">宁夏</option>
+            <option value="133000" area_id="133000">青海</option>
+            <option value="105290" area_id="105290">上海</option>
+            <option value="100110" area_id="100110">山东</option>
+            <option value="108300" area_id="108300">山西</option>
+            <option value="139000" area_id="139000">四川</option>
+            <option value="135500" area_id="135500">陕西</option>
+            <option value="105689" area_id="105689">天津</option>
+            <option value="117000" area_id="117000">新疆</option>
+            <option value="115000" area_id="115000">西藏</option>
+            <option value="137000" area_id="137000">云南</option>
+            <option value="104200" area_id="104200">浙江</option>
+            <option value="105879" area_id="105879">重庆</option>
+          </select>
+        </div>
+      </li>
+      <li>
+        <div class="left"><span>您在的城市：</span></div>
+        <div class="right">
+          <select class="xj_select" id="jr_city" name="jr_city">
+            <option selected>--请选择--</option>
+          </select>
+        </div>
+      </li>
+
+    </ul>
+
+    <input name="jr_province" type="hidden" id="jr_province" value="" />
+    <input name="tag" type="hidden" id="tag" value="3" />
+    <input name="jr_factoryid" type="hidden" id="jr_factoryid" value="${model.factoryid?c}" />
+    <input name="jr_product_id" type="hidden" id="jr_product_id" value="${model.id?c}"/>
+    <input name="jr_factoryname" type="hidden" id="jr_factoryname" value="${model.factoryname}"/>
+    <input name="jr_product_name" type="hidden" id="jr_product_name" value="${model.name}"/>
+    <input name="jr_message" type="hidden" id="jr_message" value="您好，我对${model.factoryname}${model.name}${model.catalogname}感兴趣，想要咨询，请您给我回复，谢谢。" />
+    <input type="hidden" name="jr_contact_address" id="jr_contact_address" value="" />
+    <input type="hidden" name="jr_cataname" id="jr_cataname" value="${model.catalogname}" />
+    <input type="hidden" name="jr_catanum" id="jr_catanum" value="${model.catalognum!""}"/>
+    <input type="hidden" name="tableName" id="tableName" value="pro_product_form"/>
+    <input type="hidden" name="jr_ifgroup" id="jr_ifgroup" value="个人"/>
+    <input type="hidden" name="jr_is_first" id="jr_is_first" value="1"/>
+    <input type="hidden" name="jr_other_message" id="jr_other_message" value=""/>
+    <input type="hidden" name="jr_referer" id="jr_referer" value="http://product.21-sun.com/proDetail/${model.file_name!""}"/>
+    <button type="button" onClick="submitYNS();">获取最低价</button>
+  </form>
+</div>
+<script src="/Static/app/move.js"></script>
+<script> 
+	//询价下拉菜单
+	define("select_down",function(require,exports,module) {
+		var $ = require('jquery');
+		var base = require('base');
+			  //function
+			  require('select');
+			  $('#jr_city').select();
+			  $('#jr_buy_time').select();
+			  $('#jr_buy_type').select();	 
+
+  $('#tr_province').select({
+        callback: function(val,txt){
+		jQuery("#jr_province").val(txt) ;
+      	$.ajax({
+			url : '/tools/ajax.jsp',
+			async : false,
+			type : 'post',
+			data : {
+				flag : 'detail_get_city',
+				p : val
+			},
+			success : function(data){
+			   $("#jr_city").html(data);
+			   $('#jr_city').select();
+
+			}
+		});
+    }
+  });	  
+});
+   seajs.use("select_down");
+   //询价浮动
+   var h=$('.pro_top_hd_box').offset().top;
+   $(window).scroll(function(){
+	   var scrolls=$(window).scrollTop();
+	   if(scrolls>h){
+		   $('#xjbox').addClass('xjbox_');
+		   }else{
+			   $('#xjbox').removeClass('xjbox_');
+			   }
+	});
+</script>
+<script>
+//询价插件
+  var viewWidth=document.documentElement.clientWidth;
+  $('#xjbox').css('width',function(){
+	  return (viewWidth-1200)/2+285;
+	  });
+  $('#cmpContainer').css('width',function(){
+	  return (viewWidth-1200)/2+285;
+	  });
+  $('.empty').css('margin-left',function(){
+	  return $('#cmpContainer').width()/2+85;
+	  });
+  $('#xjbox').find('button').css('margin-left',function(){
+	  return ($('#xjbox').width()-200)/2;
+	  })
+  function CloseBox(){
+	  var oXjBox=document.getElementById('xjbox');
+	  var oShowCarCompare=document.getElementById('divShowCarCompare');//对比插件
+	  var oCloseBox=document.getElementById('closebox');
+	  var oXjbox_display=document.getElementById('xjbox_display');
+	  var top_xj=document.getElementById('top_xj');
+	  var viewHeight=document.documentElement.clientHeight;
+	  var viewWidth=document.documentElement.clientWidth;
+	  oXjBox.style.height=(viewHeight-31)+'px';
+	  oShowCarCompare.style.height=(viewHeight-31)+'px';//对比插件
+	  oCloseBox.onclick=function(){  
+		oXjBox.style.display='none';
+	    oXjBox.style.right=-600+'px';  
+	  }
+	  oXjbox_display.onclick=function(){
+		  oXjBox.style.display='block';
+		  startMove(oXjBox,{right:0});
+		  oXjBox.style.position='fixed';
+		  if(oCom_wrap.style.display=='block'){
+			  $('#divShowCarCompare').css('display','none');
+			  $('#divShowCarCompare').css('display','none');
+	          startMove(oCom_wrap,{right:-328});
+			  }
+	  }
+	  top_xj.onclick=function(){
+		  oXjBox.style.display='block';
+		  startMove(oXjBox,{right:0});
+		  oXjBox.style.position='fixed';
+		  if(oCom_wrap.style.display=='block'){
+			  $('#divShowCarCompare').css('display','none');
+			  $('#divShowCarCompare').css('display','none');
+	          startMove(oCom_wrap,{right:-328});
+			  }
+	  }
+	  }
+  CloseBox();
+   //对比插件
+ var oXjBox=document.getElementById('xjbox');
+ var oCom_wrap=document.getElementById('divShowCarCompare');
+ $('.fiopen').click(function(){
+	 if($('#xjbox').css('display','block')){
+		 $('#xjbox').css('display','none');
+		 $('#xjbox').css('right','-328px');
+		 }
+	 $(this).css('display','none');
+	 $('#divShowCarCompare').css('display','block');
+	 startMove(oCom_wrap,{right:0});
+	 $('#divShowCarCompare').css('position','fixed');
+	 });
+ $('.fiaway').click(function(){
+	 $('#divShowCarCompare').css('display','none');
+	 startMove(oCom_wrap,{right:-328});
+	 $('.fiopen').css('display','block');
+	 $.cookies.set("compareOpenFlag", "close");
+	 });
+ var h=$('.pro_top_hd_box').offset().top;
+ $(window).scroll(function(){
+	 var scrolls=$(window).scrollTop();
+	 if(scrolls>h){
+		 $('#divShowCarCompare').addClass('fipop_cont_');//对比插件
+		 }else{
+			 $('#divShowCarCompare').removeClass('fipop_cont_');//对比插件
+			 }
+	 });
+ //插件结束 
+</script>
+<!--询价对比结束-->
+</body>
+</html>
+<script type="text/javascript" src="/scripts/jquery.raty.min.js"></script>
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<script type="text/javascript" src="/scripts/jquery.form.js"></script>
+<script type="text/javascript" src="/plugin/jquery/jquery.cookies.2.2.0.min.js"></script>
+<script type="text/javascript" src="/scripts/rememberAccount.js"></script>
+<script src="/scripts/echarts/dist/echarts-all.js"></script>
+<script type="text/javascript" src="/scripts/prodetail.js"></script>
+<script type="text/javascript">
+	//获取产品得分和星星 
+	function getAllComment(){
+		jQuery.getJSON("/action/ajax.jsp?flag=get_all_comment&callback=?&pid=${model.id?c}",function(data){
+			var s1 = (parseInt(data.score1,10)/20);
+			var s2 = (parseInt(data.score2,10)/20);
+			var s3 = (parseInt(data.score3,10)/20);
+			var s4 = (parseInt(data.score4,10)/20);
+			var sall = ((s1*5)+(s2*5)+(s3*5)+(s4*5));
+			jQuery("#totalScoreId").html(sall);
+			jQuery("#score_koubei").html(sall);
+			jQuery("#pricescore_koubei").raty({
+				half : true ,
+			    readOnly : true,
+				score : s1
+			});
+			jQuery("#abilityscore_koubei").raty({
+				half : true ,
+				readOnly : true,
+				score : s2
+			});
+			jQuery("#qualityscore_koubei").raty({
+				half : true ,
+				readOnly : true,
+				score : s3
+			});
+			jQuery("#servicescore_koubei").raty({
+				half : true ,
+				readOnly : true,
+				score : s4
+			});	
+		});
+	}
+	getAllComment();
+    //浏览次数增加
+	jQuery.ajax({
+		url:"/action/ajax.jsp",
+		type:"post",
+		data:{"id":"${model.id?c}","flag":"viewCount","tableName":"pro_products"},
+		success:function(data){
+		}
+	});
+	//获取评论数
+	jQuery.ajax({
+		url:"/action/ajax.jsp",
+		type:"post",
+		data:{"id":"${model.id?c}","flag":"commentCount"},
+		success:function(data){
+		    jQuery("#koubei_top").html($.trim(data));
+		    jQuery("#koubei_bottom").html($.trim(data));
+		}
+	});
+	//询价列表
+	jQuery.ajax({
+		url:"/action/ajax.jsp",
+		type:"post",
+		data:{"id":"${model.id?c}","flag":"inquiry_list"},
+		success:function(data){
+			jQuery("#inquiry_list").html(data);
+		}
+	});	
+	//获取询价数
+	jQuery.ajax({
+		url:"/action/ajax.jsp",
+		type:"post",
+		data:{"id":"${model.id?c}","flag":"inquiryCount"},
+		success:function(data){
+			//jQuery("#inquiry").html(data);
+			jQuery("#inquiry_bottom").html($.trim(data));
+		}
+	});
+jQuery.getScript("http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",function(){
+	var province = remote_ip_info["province"];
+	var city = remote_ip_info["city"];
+	document.getElementById("the_city").innerHTML=city;
+    document.getElementById("the_province").innerHTML=province;
+	document.getElementById("zd_province").value=province;
+	document.getElementById("zd_city").value=city;
+}) ;
+// 把下过订单的信息取出
+jQuery(function(){
+	var order_name = jQuery.trim(unescape(GetCookie("order_name"))) ;  // 订单人
+    var order_phone = jQuery.trim(GetCookie("order_phone")) ;  // 订单电话
+    if(''!=order_name && null!=order_name && "null"!=order_name){
+    	jQuery("#zd_name").val(order_name) ;
+    }
+    if(''!=order_phone && null!=order_phone && "null"!=order_phone){
+    	jQuery("#zd_mobile_phone").val(order_phone) ;
+    }
+})
+jQuery("#zds_ifgroup").bind("click",function(){
+	jQuery("#zd_ifgroup").val(jQuery(this).val()) ;  // 个人或公司
+}) ;
+</script>

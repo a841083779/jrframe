@@ -1,0 +1,19 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%><%@page import="com.jerehnet.util.common.CommonString"%><%@page import="com.jerehnet.util.dbutil.DBHelper"%><%@ page session="false" %><%@ taglib uri="/WEB-INF/classes/oscache.tld" prefix="cache"%><%
+	String v = CommonString.getFormatPara(request.getParameter("v")) ;
+	String c = CommonString.getFormatPara(request.getParameter("c")) ;
+
+	DBHelper dbHelper = DBHelper.getInstance() ;
+	String proSql = "SELECT id,name from pro_products WHERE is_show=1 and factoryid ='"+v+"' and catalognum like '"+c+"%' order by name ";
+	List<Map> productsList = dbHelper.getMapList(proSql);
+
+	String proStr = "<option value=''>请选择产品</option>";
+	if(productsList!=null && productsList.size()>0){
+		for(Map p:productsList){
+			String id = CommonString.getFormatPara(p.get("id"));
+			String name = CommonString.getFormatPara(p.get("name"));
+			proStr += "<option value='"+id+"'>"+name+"</option>";
+		}
+	}
+	
+	out.println(proStr);
+%>

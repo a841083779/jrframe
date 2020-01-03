@@ -1,0 +1,361 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>九月优买团，品牌英雄汇，全民盛宴 - 铁臂商城优买团</title>
+<meta name="keywords" content="21-sun优买团,优买团9月特享优惠,卡特挖掘机,小松挖掘机,三一挖掘机,山推装载机,山工装载机,龙工装载机" />
+<meta name="description" content="铁臂商城优买团，品牌英雄汇，全民盛宴，卡特挖掘机，小松挖掘机，三一挖掘机，山推装载机，山工装载机，龙工装载机等专场优惠" />
+<link href="/style/tuan.css" rel="stylesheet" type="text/css" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="/scripts/scripts.js"></script>
+<script type="text/javascript" src="/scripts/jquery.SuperSlide.js"></script>
+<!--[if (IE 6)]>
+<link href="/style/pngfix.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body class="tuan">
+<div class="tuanTop">
+<!--#include virtual="/tuan/tuan_nav.jsp"-->
+</div>
+<div class="banner9">
+  <div class="contain980"><img src="images/banner_img.jpg" width="980" height="349" /></div>
+<div class="bannershadow"></div>
+</div>
+<div class="contain980 brands">
+  <ul>
+    <li><img src="images/brand_title.gif" width="60" height="75" /></li>
+    <li><a href="#part01"><img src="images/brand01.gif" width="141" height="75" /></a></li>
+    <li><a href="#part02"><img src="images/brand02.gif" width="156" height="75" /></a></li>
+    <li><a href="#part03"><img src="images/brand03.gif" width="144" height="75" /></a></li>
+    <li><a href="#part06"><img src="images/brand06.gif" width="177" height="75" /></a></li>
+    <li><a href="#part05"><img src="images/brand05.gif" width="155" height="75" /></a></li>
+    <li><a href="#part04"><img src="images/brand04.gif" width="147" height="75" /></a></li>
+  </ul>
+  <div class="brandShadow"><img src="images/brand_shadow.png" width="980" height="26" /></div>
+</div>
+<div class="contain980 tuan9Parts clearfix" id="part01">
+  <div class="title">
+    <h2><img src="images/title_img01.gif" alt="卡特" width="200" height="50" /></h2>
+    <span class="tip tip01">6个月的<strong>E系列小挖</strong>免费使用权</span>
+    <span class="more"><a href="http://product.21-sun.com/products/prolist.jsp?factory=174&catalog=101001" target="_blank">查看更多</a></span>
+  </div>
+  <div class="content slider sliderScroll">
+    <div class="hd">
+      <ul>
+        <li class="on">
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/307E.shtm" target="_blank"><strong>307E小型液压挖掘机</strong><img src="images/slider_imgs/cat307E.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/306E.shtm" target="_blank"><strong>306E小型液压挖掘机</strong><img src="images/slider_imgs/cat306E.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/312D312DL.shtm" target="_blank"><strong>312D 312DL挖掘机</strong><img src="images/slider_imgs/cat312D.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/320D320DL.shtm" target="_blank"><strong>320D 320DL挖掘机</strong><img src="images/slider_imgs/cat320D.png" /></a></h3>
+        </li>
+      </ul>
+    </div>
+    <div class="bd">
+      <ul>
+        <li><a href="http://product.21-sun.com/proDetail/307E.shtm" target="_blank"><img src="images/slider_imgs/cat307E.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/306E.shtm" target="_blank"><img src="images/slider_imgs/cat306E.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/312D312DL.shtm" target="_blank"><img src="images/slider_imgs/cat312D.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/320D320DL.shtm" target="_blank"><img src="images/slider_imgs/cat320D.jpg" width="980" height="301" /></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="contain980 tuan9Parts clearfix" id="part02">
+  <div class="title">
+    <h2><img src="images/title_img02.gif" width="200" height="50" /></h2>
+    <span class="tip tip03">小松<strong>20吨级M0型号</strong>挖掘机隆重登场，确保油耗降低<strong>15%-20%</strong></span>
+    <span class="more"><a href="http://product.21-sun.com/products/prolist.jsp?factory=182&catalog=101001" target="_blank">查看更多</a></span>
+  </div>
+  <div class="content slider sliderScroll">
+    <div class="hd">
+      <ul>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/PC60-8.shtm" target="_blank"><strong>PC60-8液压挖掘机</strong><img src="images/slider_imgs/PC60-8.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/PC200-8M0-PC200LC-8M0.shtm" target="_blank"><strong>PC200-8M0液压挖掘机</strong><img src="images/slider_imgs/PC200-8M0.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/PC210LC-8M0.shtm" target="_blank"><strong>PC210LC-8液压挖掘机</strong><img src="images/slider_imgs/PC210LC-8.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/PC220-8.shtm" target="_blank"><strong>PC220-8液压挖掘机</strong><img src="images/slider_imgs/PC220-8.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/PC240LC-8.shtm" target="_blank"><strong>PC240LC-8液压挖掘机</strong><img src="images/slider_imgs/PC240LC-8.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/HB205-1.shtm" target="_blank"><strong>HB205-1履带式挖掘机</strong><img src="images/slider_imgs/HB205.png" /></a></h3>
+        </li>
+      </ul>
+    </div>
+    <div class="bd">
+      <ul>
+        <li><a href="http://product.21-sun.com/proDetail/PC60-8.shtm" target="_blank"><img src="images/slider_imgs/PC60-8.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/PC200-8M0-PC200LC-8M0.shtm" target="_blank"><img src="images/slider_imgs/PC200-8M0.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/PC210LC-8M0.shtm" target="_blank"><img src="images/slider_imgs/PC210LC-8.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/PC220-8.shtm" target="_blank"><img src="images/slider_imgs/PC220-8.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/PC240LC-8.shtm" target="_blank"><img src="images/slider_imgs/PC240LC-8.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/HB205-1.shtm" target="_blank"><img src="images/slider_imgs/komatsu.jpg" width="980" height="301" /></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="contain980 tuan9Parts clearfix" id="part03">
+  <div class="title">
+    <h2><img src="images/title_img03.gif" width="200" height="50" /></h2>
+    <span class="tip tip03"><strong>C9系列2013版</strong>  节能<strong>10%-15%</strong>以上，致力于打造世界最省油的挖掘机</span>
+    <span class="more"><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=101001" target="_blank">查看更多</a></span>
+  </div>
+  <div class="content slider sliderScroll">
+    <div class="hd">
+      <ul>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SY55C-92013K.shtm" target="_blank"><strong>2013款C9系列SY55C-9</strong><img src="images/slider_imgs/SY55C-9.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SY60C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank"><strong>2013款C9系列SY60C-9</strong><img src="images/slider_imgs/SY60C-9.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SY65C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank"><strong>2013款C9系列SY65C-9</strong><img src="images/slider_imgs/SY65C-9.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SY205C-9.shtm" target="_blank"><strong>2013款C9系列SY205C-9</strong><img src="images/slider_imgs/SY205C-9.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SY215C92013K.shtm" target="_blank"><strong>2013款C9系列SY215C-9</strong><img src="images/slider_imgs/SY215C-9.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SY335C-9H%EF%BC%882013K%EF%BC%89.shtm" target="_blank"><strong>2013款C9系列SY335C-9H</strong><img src="images/slider_imgs/SY335C-9H.png" /></a></h3>
+        </li>
+      </ul>
+    </div>
+    <div class="bd">
+      <ul>
+        <li><a href="http://product.21-sun.com/proDetail/SY55C-92013K.shtm" target="_blank"><img src="images/slider_imgs/SY55C-9.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/SY60C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank"><img src="images/slider_imgs/SY60C-9.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/SY65C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank"><img src="images/slider_imgs/SY65C-9.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/SY205C-9.shtm" target="_blank"><img src="images/slider_imgs/SY205C-9.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/SY215C92013K.shtm" target="_blank"><img src="images/slider_imgs/SY215C-9.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/products/prolist.jsp?factory=133&catalog=101001" target="_blank"><img src="images/slider_imgs/sany.jpg" width="980" height="301" /></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="contain980 tuan9Parts clearfix" id="part06">
+  <div class="title">
+    <h2><img src="images/title_img06.gif" width="200" height="50" /></h2>
+    <span class="tip tip01">龙工<strong>D系列1900</strong>转发动机，年省油<strong>30000元</strong>！</span>
+    <span class="more"><a href="http://product.21-sun.com/products/prolist.jsp?factory=135&catalog=101002" target="_blank">查看更多</a></span>
+  </div>
+  <div class="content slider sliderScroll">
+    <div class="hd">
+      <ul>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/LG853.shtm" target="_blank"><strong>LG853D装载机</strong><img src="images/slider_imgs/LG853D.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/LG855D.shtm" target="_blank"><strong>LG855D装载机</strong><img src="images/slider_imgs/LG855D.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/LG833B.shtm" target="_blank"><strong>LG833B高卸王</strong><img src="images/slider_imgs/LG833B.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/LG850.shtm" target="_blank"><strong>LG850D装载机</strong><img src="images/slider_imgs/LG850D.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/LG862.shtm" target="_blank"><strong>LG862装载机</strong><img src="images/slider_imgs/LG862.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/CDM855EK.shtm" target="_blank"><strong>CDM855EK轮式装载机</strong><img src="images/slider_imgs/CDM855EK.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/CDM856.shtm" target="_blank"><strong>CDM856轮式装载机</strong><img src="images/slider_imgs/CDM856.png" /></a></h3>
+        </li>
+      </ul>
+    </div>
+    <div class="bd">
+      <ul>
+        <li><a href="http://product.21-sun.com/proDetail/LG853.shtm" target="_blank"><img src="images/slider_imgs/LG853D.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/LG855D.shtm" target="_blank"><img src="images/slider_imgs/LG855D.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/LG833B.shtm" target="_blank"><img src="images/slider_imgs/LG833B.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/LG850.shtm" target="_blank"><img src="images/slider_imgs/LG850D.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/LG862.shtm" target="_blank"><img src="images/slider_imgs/LG862.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/CDM855EK.shtm" target="_blank"><img src="images/slider_imgs/CDM855EK.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/CDM856.shtm" target="_blank"><img src="images/slider_imgs/CDM856.jpg" width="980" height="301" /></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="contain980 tuan9Parts clearfix" id="part05">
+  <div class="title">
+    <h2><img src="images/title_img05.gif" width="200" height="50" /></h2>
+    <span class="tip tip01">山工装载机 全系钜惠</span>
+    <span class="more"><a href="http://product.21-sun.com/products/prolist.jsp?factory=138&catalog=101002" target="_blank">查看更多</a></span>
+  </div>
+  <div class="content slider sliderScroll">
+    <div class="hd">
+      <ul>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SEM952.shtm" target="_blank"><strong>SEM650B轮式装载机</strong><img src="images/slider_imgs/SEM650B.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/ZL5-G-I.shtm" target="_blank"><strong>ZL50F-II轮式装载机</strong><img src="images/slider_imgs/ZL50F-II.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SEM660B-40.shtm" target="_blank"><strong>SEM660B轮式装载机</strong><img src="images/slider_imgs/SEM660B.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/ZL30F-I-40.shtm" target="_blank"><strong>SEM652B轮式装载机</strong><img src="images/slider_imgs/SEM652B.png" /></a></h3>
+        </li>
+      </ul>
+    </div>
+    <div class="bd">
+      <ul>
+        <li><a href="http://product.21-sun.com/proDetail/SEM952.shtm" target="_blank"><img src="images/slider_imgs/sem.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/ZL5-G-I.shtm" target="_blank"><img src="images/slider_imgs/ZL50F-II.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/SEM660B-40.shtm" target="_blank"><img src="images/slider_imgs/SEM660B.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/ZL30F-I-40.shtm" target="_blank"><img src="images/slider_imgs/SEM652B.jpg" width="980" height="301" /></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="contain980 tuan9Parts clearfix" id="part04">
+  <div class="title">
+    <h2><img src="images/title_img04.gif" width="200" height="50" /></h2>
+     <span class="tip tip01">购<strong>山推产品，</strong>享配件赠送，拥<strong>超值服务</strong>！</span>
+    <span class="more"><a href="http://product.21-sun.com/brand/shantui/">查看更多</a></span>
+  </div>
+  <div class="content slider sliderScroll">
+    <div class="hd">
+      <ul>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SL50WA.shtm" target="_blank"><strong>SL50WA装载机</strong><img src="images/slider_imgs/SL50WA.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SL50W-SL50W-2.shtm" target="_blank"><strong>SL50W/50W-2装载机</strong><img src="images/slider_imgs/SL50W.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SRP95M.shtm" target="_blank"><strong>SRP95M多功能摊铺机</strong><img src="images/slider_imgs/SRP95M.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SR22MP.shtm" target="_blank"><strong>SR22M/SR22MP压路机</strong><img src="images/slider_imgs/SR22M.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SR14D.shtm" target="_blank"><strong>SR14D双钢轮压路机</strong><img src="images/slider_imgs/SR14D.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SG18-3.shtm" target="_blank"><strong>山推SG18-3平地机</strong><img src="images/slider_imgs/SG18-3.png" /></a></h3>
+        </li>
+        <li>
+          <div class="bg"></div>
+          <h3><a href="http://product.21-sun.com/proDetail/SG16-3.shtm" target="_blank"><strong>山推SG16-3平地机</strong><img src="images/slider_imgs/SG16-3.png" /></a></h3>
+        </li>
+      </ul>
+    </div>
+    <div class="bd">
+      <ul>
+        <li><a href="http://product.21-sun.com/proDetail/SL50WA.shtm" target="_blank"><img src="images/slider_imgs/SL50WA.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/SL50W-SL50W-2.shtm" target="_blank"><img src="images/slider_imgs/SL50W-50W-2.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/SRP95M.shtm" target="_blank"><img src="images/slider_imgs/SRP95M.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/SR22MP.shtm" target="_blank"><img src="images/slider_imgs/SR22M.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/SR14D.shtm" target="_blank"><img src="images/slider_imgs/SR14D.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/SG18-3.shtm" target="_blank"><img src="images/slider_imgs/SG18-3.jpg" width="980" height="301" /></a></li>
+        <li><a href="http://product.21-sun.com/proDetail/SG16-3.shtm" target="_blank"><img src="images/slider_imgs/SG16-3.jpg" width="980" height="301" /></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--foot-->
+<div class="foot">
+<!--#include virtual="/include/foot.jsp"--> 
+</div>
+<!--end of foot--> 
+<script type="text/javascript">
+(function(jQuery){
+ jQuery.extend(jQuery.fn,{
+ scrollTo:function(time,to){
+ time=time||800;
+ to=to||1;
+            jQuery('a[href*=#]', this).click(function(){
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && 
+location.hostname == this.hostname) {
+      var jQuerytarget = jQuery(this.hash);
+     jQuerytarget = jQuerytarget.length && jQuerytarget || jQuery('[name=' + this.hash.slice(1) + ']');
+                    if (jQuerytarget.length) {
+                        if (to == 1) {
+                            jQuery('html,body').animate({
+                                scrollTop: jQuerytarget.offset().top
+                            }, time);
+                        }
+                        else if(to==2){
+                            jQuery('html,body').animate({
+                                scrollLeft: jQuerytarget.offset().left
+                            }, time);
+                        }else{
+alert('argument error');
+  }
+                        return false;
+                    }
+                }
+            });
+  }
+ });
+})(jQuery);
+</script>
+<script type="text/javascript">
+$(".sliderScroll").slide({effect:"topLoop",mainCell:".bd ul"});
+$(document).ready(function(e) {
+	$(".slider .hd li").hover(function(){
+		$(this).addClass("hover");
+	},function(){
+		$(this).removeClass("hover");
+	})
+});
+jQuery(".brands").scrollTo(700)
+</script>
+<div style="display:none"><script src="http://s20.cnzz.com/stat.php?id=5626732&web_id=5626732&show=pic" language="JavaScript"></script></div>
+</body>
+</html>

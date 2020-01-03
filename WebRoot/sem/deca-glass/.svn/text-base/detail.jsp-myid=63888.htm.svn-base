@@ -1,0 +1,124 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" tppabs="http://www.deca-glass.com/style/style.css"/>
+<link rel="stylesheet" type="text/css" href="jereh.css" tppabs="http://www.deca-glass.com/style/jereh.css"/>
+<script src="jquery.min.js" tppabs="http://lib.sinaapp.com/js/jquery/1.9.0/jquery.min.js" ></script>
+<script type="text/javascript" src="scripts.js" tppabs="http://www.deca-glass.com/scripts/scripts.js"></script>
+<title>中空玻璃的工艺流程简介—中空玻璃设备_公司新闻_新闻中心_济南德佳玻璃机器有限公司</title>
+</head>
+<body>
+	<!--top-->
+    
+ 
+ <script type="text/javascript" src="js.js" tppabs="http://www.deca-glass.com/scripts/js.js"></script>
+<div class="top">
+        <div class="ssc fix">
+            <div class="plist02" onmouseover="displaylayer(this);" onmouseout="hidelayer(this);"> 
+                <font>Language</font> 				              
+                <span class="pllayer02" style="display: none;">
+                <dl>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaglass.com/'" tppabs="http://www.decaglass.com/" target="_blank">中文</a></dd>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/en/index.asp  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaglass.com/en/index.asp'" tppabs="http://www.decaglass.com/en/index.asp" target="_blank">英文</a></dd>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/ru/index.asp  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaglass.com/ru/index.asp'" tppabs="http://www.decaglass.com/ru/index.asp" target="_blank">俄文</a></dd>
+                </dl>
+                </span> 
+            </div>
+            <a href="index-1.htm" tppabs="http://www.deca-glass.com/contact/" class="top_contact"><span>联系我们</span></a>
+            <a href="#" onclick="favorite()"><span>加入收藏</span></a>
+            <a href="#" onclick="setHome(this)"><span>设为首页</span></a>
+         </div>
+         <div class="lonav">
+            <div class="logo"><a href="index.htm" tppabs="http://www.deca-glass.com/" title="济南德佳玻璃机器有限公司"><img src="logo.gif" tppabs="http://www.deca-glass.com/images/logo.gif"></a><span>以德兴企 双赢为佳</span></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.htm" tppabs="http://www.deca-glass.com/">网站首页</a></li>
+                    <li><a class="" href="index-2.htm" tppabs="http://www.deca-glass.com/about/">关于德佳</a></li>
+                    <li><a class="on" href="index-3.htm" tppabs="http://www.deca-glass.com/news/">新闻中心</a></li>
+                    <li><a class="" href="index-4.htm" tppabs="http://www.deca-glass.com/research/">研发中心</a></li>
+                    <li><a class="" href="index-5.htm" tppabs="http://www.deca-glass.com/product/">产品中心</a></li>
+                    <li id="nav_last"><a class="" href="index-1.htm" tppabs="http://www.deca-glass.com/contact/">联系我们</a></li>
+                </ul>
+            </div>
+         </div>
+    </div>
+    <!--top end-->
+    <div class="content">
+    	<!--left-->
+    	<div class="leftmenu">
+        	<h2>新闻中心</h2>
+            <div class="leftnav">
+            	<ul>
+                	<li><a class="cur" href="index-2.jsp.htm" tppabs="http://www.deca-glass.com/news/index.jsp">公司新闻</a></li>
+                    <li><a class="" href="hyxw.jsp.htm" tppabs="http://www.deca-glass.com/news/hyxw.jsp">行业新闻</a></li>
+                </ul>
+            </div>
+
+            <h3>友情链接</h3>
+            <a href="javascript:if(confirm('http://www.decaholdings.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decaholdings.com/'" tppabs="http://www.decaholdings.com/" title="德佳控股" target="_blank"><img src="leftlink01.jpg" tppabs="http://www.deca-glass.com/images/leftlink01.jpg"></a>
+            <a href="javascript:if(confirm('http://www.decamachine.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decamachine.com/'" tppabs="http://www.decamachine.com/" title="德佳机器" target="_blank"><img src="leftlink02.jpg" tppabs="http://www.deca-glass.com/images/leftlink02.jpg"></a>
+            <a href="javascript:if(confirm('http://www.decadf.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decadf.com/'" tppabs="http://www.decadf.com/" title="德佳淀粉" target="_blank"><img src="leftlink03.jpg" tppabs="http://www.deca-glass.com/images/leftlink03.jpg"></a>
+            <a href="javascript:if(confirm('http://www.pedax.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.pedax.cn/'" tppabs="http://www.pedax.cn/" title="钢筋机械" target="_blank"><img src="leftlink04.jpg" tppabs="http://www.deca-glass.com/images/leftlink04.jpg"></a>
+            <a href="javascript:if(confirm('http://www.decasoft.com.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.decasoft.com.cn/'" tppabs="http://www.decasoft.com.cn/" title="德佳软件" target="_blank"><img src="leftlink05.jpg" tppabs="http://www.deca-glass.com/images/leftlink05.jpg"></a>
+    	</div>
+        <!--left end-->
+    	<div class="right_content">
+        	<!--banner-->
+            <div class="baner"><img src="news_b.jpg" tppabs="http://www.deca-glass.com/images/news_b.jpg"></div>
+            <!--banner end-->
+            <div class="channelT">
+            	<h2>公司新闻</h2>
+                <div class="posi"><a href="index.htm" tppabs="http://www.deca-glass.com/">首页</a>><a href="index-2.jsp.htm" tppabs="http://www.deca-glass.com/news/index.jsp">新闻中心</a>>公司新闻</div>
+            </div>
+            <div class="con">
+            <h3 class="newsde_bg">中空玻璃的工艺流程简介—中空玻璃设备</h3>
+         <span class="newsde_date">发布日期：2012-06-01</span>
+         <div class="newsde_btxt"><p>　　随着国内玻璃加工行业的发展以及人们对中空玻璃的优点性能认识的不断深入，中空玻璃的应用范围在不断扩大，除在<a title='玻璃幕墙' target='_blank' href="javascript:if(confirm('http://www.glass.cn/trade/sitppicapgky%e7%8e%bb%e7%92%83%e5%b9%95%e5%a2%99.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.glass.cn/trade/sitppicapgky%e7%8e%bb%e7%92%83%e5%b9%95%e5%a2%99.html'" tppabs="http://www.glass.cn/trade/sitppicapgky%e7%8e%bb%e7%92%83%e5%b9%95%e5%a2%99.html"><span style='color: #3366ff'>玻璃幕墙</span></a>、汽车、飞机等方面得到广泛应用外，目前已开始进入寻常百姓家。这主要是由于中空玻璃的应用能改善建筑物的隔热和隔音效果的同时，简化了空调等通风保暖设施的结构设计，这不仅降低了建筑装饰费用而且实际增加了建筑物内的有效实用空间。<strong>中空玻璃的工艺流程：<br />
+<br />
+</strong>　　<strong>1、<a title='玻璃切割' target='_blank' href="javascript:if(confirm('http://www.glass.cn/trade/sitppicapgky%e7%8e%bb%e7%92%83%e5%88%87%e5%89%b2.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.glass.cn/trade/sitppicapgky%e7%8e%bb%e7%92%83%e5%88%87%e5%89%b2.html'" tppabs="http://www.glass.cn/trade/sitppicapgky%e7%8e%bb%e7%92%83%e5%88%87%e5%89%b2.html"><span style='color: #3366ff'>玻璃切割</span></a>下料：<br />
+</strong>　　<a title='原片玻璃' target='_blank' href="javascript:if(confirm('http://www.glass.cn/trade/sitppicapgky%e5%8e%9f%e7%89%87%e7%8e%bb%e7%92%83.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.glass.cn/trade/sitppicapgky%e5%8e%9f%e7%89%87%e7%8e%bb%e7%92%83.html'" tppabs="http://www.glass.cn/trade/sitppicapgky%e5%8e%9f%e7%89%87%e7%8e%bb%e7%92%83.html"><span style='color: #3366ff'>原片玻璃</span></a>一般为无色浮法玻璃或其它彩色玻璃，遮阳玻璃、钢化玻璃、夹层玻璃，厚度一般为3-12MM，上述玻璃必须符合GB11614中一级品、优等品的规定，经检验合格后方可使用。玻璃切割可由手工或机器进行，但应保证合乎尺寸要求。此道工序工人在操作过程中，应随时注意玻璃表面不得有划伤，内质均匀，不得有气泡、夹渣等明显缺陷。<br />
+<br />
+<strong>　　2、玻璃清洗干燥：<br />
+</strong>　　玻璃清洗一定要采用机器清洗法，因为人工清洗无法保证清洗质量。清洗前须检验玻璃无划伤，为保证密封胶与玻璃的粘结性，最好使用去离子水。另外为保证水循环使用，节约水资源，可对水进行过滤，保证长期使用。清洗后的玻璃要通过光照检验，检验玻璃表面有无水珠、水渍及其它污渍，若有水珠、水渍及其它污渍，则需对机器运行速度、加热温度、风量、毛刷间隙进行调整，直到达到效果完好为止。洗完后的玻璃应在1小时之内组装成中空玻璃，另外要保证玻璃与玻璃之间不要磨擦划伤，最好有半成品玻璃储存小车，把玻璃片与片之间隔开。<br />
+<br />
+<strong>　　3、胶条式中空玻璃及铝条式中空玻璃的组装：<br />
+</strong>　　<strong>胶条式中空玻璃组装：<br />
+</strong>　　（1）对环境的要求：胶条式<a title='中空玻璃加工' target='_blank' href="javascript:if(confirm('http://www.glass.cn/trade/sitppicapgky%e4%b8%ad%e7%a9%ba%e7%8e%bb%e7%92%83%e5%8a%a0%e5%b7%a5.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.glass.cn/trade/sitppicapgky%e4%b8%ad%e7%a9%ba%e7%8e%bb%e7%92%83%e5%8a%a0%e5%b7%a5.html'" tppabs="http://www.glass.cn/trade/sitppicapgky%e4%b8%ad%e7%a9%ba%e7%8e%bb%e7%92%83%e5%8a%a0%e5%b7%a5.html"><span style='color: #3366ff'>中空玻璃加工</span></a>温度冬季应在10-20度之间，夏季应在20-30度之间为宜。<br />
+　　（2）相对湿度的要求：因胶条式<a title='中空玻璃干燥剂' target='_blank' href="javascript:if(confirm('http://www.glass.cn/trade/sitppicapgky%e4%b8%ad%e7%a9%ba%e7%8e%bb%e7%92%83%e5%b9%b2%e7%87%a5%e5%89%82.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.glass.cn/trade/sitppicapgky%e4%b8%ad%e7%a9%ba%e7%8e%bb%e7%92%83%e5%b9%b2%e7%87%a5%e5%89%82.html'" tppabs="http://www.glass.cn/trade/sitppicapgky%e4%b8%ad%e7%a9%ba%e7%8e%bb%e7%92%83%e5%b9%b2%e7%87%a5%e5%89%82.html"><span style='color: #3366ff'>中空玻璃干燥剂</span></a>呈粉末状，与胶混合均匀后干燥剂发挥作用较慢，所以应保证胶条装配区域相对湿度稍低。<br />
+<strong>　　铝条式中空玻璃组装：<br />
+</strong>　　（1）对环境的要求：温度也应在10-30度之间<br />
+　　（2）相对湿度的要求：此种中空玻璃对相对湿度的要求稍低一些，正常情况即可。但应注意的是，干燥剂应选择正规厂家的合格产品，以保证干燥剂的有效使用。干燥剂开封后最好于二十四小时之内用完，因为聚硫胶的透气性较大，密封性差，因此要采用双道密封。用丁基胶作为第一道密封，起到间隔气体的作用。用聚硫胶作为第二道密封，主要作用是粘结作用，其次才是隔气作用。实践证明，单道密封的中空玻璃寿命只有5年左右，而双道密封的中空玻璃寿命可长达20年甚至40年以上，因此，发展双道密封中空玻璃是大势所趋。<br />
+<br />
+<strong>　　4、玻璃压片<br />
+</strong>　　胶条式中空玻璃压片要注意合片玻璃边部要对齐，压片时在后面预留小口，让干燥后的气体从小口溢出，压合后随即封口。至此完成胶条式中空玻璃的加工。铝条式中空玻璃，合片后铝框外边部和玻璃边部应有5-7MM的距离，用于涂第二道密封胶，聚硫胶应均匀沿一侧涂布，以防止气泡，涂完后刮去玻璃表面残余。至此完成铝条式中空玻璃的加工。</p>
+<p><br />
+<strong>　　5、中空玻璃的放置：<br />
+</strong>　　中空玻璃的放置正确与否也会对中空玻璃的最终质量产生影响，无论是在生产还是在运输或在工地存放首先堆垛架的设计要求要考虑到中空玻璃的特点，堆垛架要有一定的倾斜度。但底部平面与侧部应始终保持90度，从而保证中空玻璃的两片玻璃底边能垂直地置放在堆垛架上。另外还要注意，玻璃底部不要沾上油渍，石灰及其它容剂，因为它们对中空玻璃的第二道密封胶都会产生不同程度的侵蚀作用，从而影响中空玻璃的密封性能。<br />
+<br />
+　　随着中空玻璃的不断推广应用，人们对中空玻璃的要求也越来越高，我们应该不断改善中空玻璃的加工工艺，努力提高技术水平和产品质量，促进中空玻璃向更高、更新、更强的方向发展。</p></div>
+         <div class="close"><a href="javascript:window.close();">关 闭</a></div>
+            </div>
+        </div>
+    </div>
+    <!--foot-->
+    
+<div class="foot">
+    	<div style="text-align:center"><a href="index-5.htm" tppabs="http://www.deca-glass.com/product/" target="_blank">中空玻璃设备 - 中空玻璃生产设备 - 中空玻璃加工设备 - 中空玻璃生产线 - 中空玻璃打胶机 - 中空玻璃机械 - 中空玻璃机器</a><br />
+        	<a href="index.htm" tppabs="http://www.deca-glass.com/" title="济南德佳玻璃机器有限公司" target="_blank">济南德佳玻璃机器有限公司</a>版权所有 <a href="javascript:if(confirm('http://www.21-sun.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.21-sun.com/'" tppabs="http://www.21-sun.com/" title="21-sun" target="_blank">中国工程机械商贸网</a>制作维护<br/>
+            地址：济南高新区舜华路1号齐鲁软件园创业广场B座5层B511　电话：0531-86037566  86037366　传真：0531-86037266
+        </div>
+    </div>
+
+    <!--foot end-->
+</body>
+<script>
+$('.ban').T_banner();
+</script>
+</html>
+

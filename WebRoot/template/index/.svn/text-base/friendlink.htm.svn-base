@@ -1,0 +1,16 @@
+<#assign friendlink = query(" select link_name,link_addr from link_list where website_id='10' order by sort_num desc,id ")>
+<div style="position:relative;" class="friend_link clearfix mb10">
+  <ul class="link_left">
+     <li><a href="javascript:void(0)">友情链接：</a></li>
+	 <li><a href="http://product.21-sun.com/company_list/" target="_blank" style="color:red;text-decoration:underline ">更多企业推荐</a></li>
+  </ul>
+  <ul class="link_right">
+  <#if friendlink??&&(friendlink?size>0)>
+  <#list friendlink as link>
+   <#if link.link_name??&&(link.link_name?length gt 0)>
+    <a target="_blank" href="${link.link_addr}">${link.link_name}</a> | 
+    </#if>
+    </#list>
+  </#if>
+  </ul>
+</div>

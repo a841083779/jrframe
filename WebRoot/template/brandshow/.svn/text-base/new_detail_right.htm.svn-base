@@ -1,0 +1,63 @@
+<#assign factory = query(" select is_made,pro_brand_title, is_qijiandian,usern,is_shop,id,name,is_shop,logo,full_name,introduce,mobile,url,img1,telphone,banner,create_date,master,weibo,email from pro_agent_factory where usern = '${usern}' and is_show=1 and flag=1 ")>
+<#assign photo = query("select top 4 p.id,p.catalognum,p.catalogname,p.name,p.factoryname,p.img2 from pro_products p left join pro_agent_factory f on p.factoryid=f.id where f.usern= '${usern}' order by p.view_count desc ,p.id desc")>
+<#assign allcatalogs = query(" select name,num from pro_catalog where len(num) = 6 ")>
+<!--#include virtual="/brandshow/tongji.jsp?usern=${usern}"--> 
+
+      <div class="comBox01 mb10">
+        <div class="hd fix">
+          <h3>品牌信息</h3>
+        </div>
+        <div class="bd fix">
+          <div class="s_info">
+            品牌创立时间：${factory[0].create_date}<br />
+            董事长：${factory[0].master}<br />
+            售后投诉服务：${factory[0].telphone}<br />
+            邮箱：${factory[0].email}
+          </div>
+		  <#if factory[0].weibo??&&factory[0].weibo!="">
+          <div class="s_weibo">
+		   <script type="text/javascript">document.write('<iframe width="145" height="243" frameborder="0" scrolling="no" src="http://widget.weibo.com/relationship/bulkfollow.php?language=zh_cn&uids=${factory[0].weibo}&wide=1&color=FFFFFF,FFFFFF,FE6000,666666&showtitle=1&showinfo=1&sense=0&verified=1&count=5&refer='+encodeURIComponent(location.href)+'&dpc=1"></iframe>')</script>
+          <!--	<iframe width="100%" height="80" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=0&isFans=0&uid=${factory[0].weibo}&verifier=8e94b428&dpc=1"></iframe>-->
+          </div>
+		   </#if>
+        </div>
+      </div>      
+      <div class="comBox01 mb10">
+        <div class="hd fix">
+          <h3>品牌信息</h3>
+        </div>
+        <div class="bd fix">
+          <ul class="list03">
+          	<#if photo??&&(photo?size>0)>
+	        <#list photo as p>
+            <li> <a title="${p.factoryname}${p.name}${p.catalogname}图片" href="http://photo.21-sun.com/detail_for_${(p.id)?c}.htm" target="_blank"><img width="80" height="70" onerror="showImgDelay(this,'/uploadfiles/no_small.gif',2);" alt="${p.factoryname}${p.name}${p.catalogname}图片" src="http://product.21-sun.com/uploadfiles/${p.img2}"></a>
+              <h3><a title="${p.factoryname}${p.name}${p.catalogname}图片" href="http://photo.21-sun.com/detail_for_${(p.id)?c}.htm" target="_blank">${p.factoryname}${p.name}${p.catalogname}图片</a><span style="color:#999999"> </span></h3>
+            </li>
+			</#list>
+			</#if>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="comBox01 mb10">
+        <div class="hd fix">
+          <h3>${factory[0].name}产品</h3>
+        </div>
+        <div class="bd fix">
+          <ul class="fix s_pro_cates">
+			<#if allcatalogs??&&(allcatalogs?size>0)>
+	        <#list allcatalogs as oneCatalog>
+	        	<#assign subcatalogs = query(" select top 1 id from pro_products where is_show=1 and factoryid = '${(factory[0].id)?c}' and catalognum like '${oneCatalog.num}%'")>     
+	        	<#if subcatalogs??&&(subcatalogs?size>0)>
+            		<li><a href="http://product.21-sun.com/products/prolist.jsp?factory=${(factory[0].id)?c}&catalog=${oneCatalog.num}" title="${factory[0].name}${oneCatalog.name}" target="_blank">${factory[0].name}${oneCatalog.name}</a></li>
+            	</#if>
+        	</#list>
+			</#if>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="comBox01 mb10 side_gg">
+      <!-- <a href="#"><img src="images/temp/temp_img06.png" width="210" height="109" /></a>
+      <a href="#"><img src="images/temp/temp_img07.png" width="210" height="109" /></a> -->
+      </div>

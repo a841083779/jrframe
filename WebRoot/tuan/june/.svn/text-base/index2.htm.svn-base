@@ -1,0 +1,923 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="design by www.21-sun.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>六月逆袭，优买团优惠购机-21-sun优买团</title>
+<meta name="keywords" content="21-sun优买团,六月优买团优惠购机,三一挖掘机,卡特挖掘机,山工装载机,烟台军恒斯帕克破碎锤,徐工挖掘机,江麓挖掘机,福田挖掘机" />
+<meta name="description" content="21-sun优买团,六月优买团优惠购机,在优买团下订单皆可享受超值优惠政策,包括三一、卡特、山工、徐工、江麓、福田挖掘机、烟台军恒斯帕克破碎锤专场优惠" />
+<link href="/tuan/tuan_inlucde/tuan.css" rel="stylesheet" type="text/css" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<!--[if (IE 6)]>
+<link href="http://product.21-sun.com/style/pngfix.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="/scripts/jquery.SuperSlide.js"></script>
+</head>
+<body class="tuan">
+<!--topbar-->
+<!--#include virtual="/tuan/tuan_inlucde/topbar.jsp"-->
+<!--topbar end-->
+<!--banner-->
+<div class="tuan_wrapper tuan_banner"><img src="images/banner_img.jpg" alt="六月逆袭，优买团优惠购机，咨询热线:0535-6727793  6792830" width="990" height="535" /></div>
+<!--banner end-->
+<div class="tuan_wrapper tuan_nav">
+  <ul>
+    <li><a href="/tuan/" class="home" target="_blank">优买团首页</a></li>
+    <li><a href="javascript:void(0);" class="p1">三一挖掘机专场</a></li>
+    <li><a href="javascript:void(0);"class="p2">卡特挖掘机专场</a></li>
+    <li><a href="javascript:void(0);"class="p3">装载机专场</a></li>
+    <li><a href="javascript:void(0);"class="p4">配件专场</a></li>
+    <li><a href="javascript:void(0);"class="p5">其他挖掘机</a></li>
+  </ul>
+</div>
+<!--三一挖掘机专场-->
+<div class="tuan_wrapper mainContain" id="Sany">
+  <div class="sanyPart01">
+    <div class="hd">
+      <ul>
+        <li class="on"><a title="湖南中旺" href="#sanyPart02">湖南中旺<em style="left:-331px; top:253px;"></em></a></li>
+        <li><a title="广州巨和" href="#sanyPart02">广州巨和<em style="left:-439px; top:303px;"></em></a></li>
+        <li><a title="江苏力好" href="#sanyPart02">江苏力好<em style="left:-243px; top:163px;"></em></a></li>
+        <li><a title="山东亚华" href="#sanyPart02">山东亚华<em style="left:-408px; top:142px;"></em></a></li>
+        <li><a title="重庆国杰" href="#sanyPart02">重庆国杰<em style="left:-301px; top:141px; height:29px;"></em></a></li>
+        <li><a title="吉林三君" href="#sanyPart02">吉林三君<em style="left:-302px; top:-2px;"></em></a></li>
+        <li><a title="新疆京泓" href="#sanyPart02">新疆京泓<em style="left:-538px; top:3px;"></em></a></li>
+        <li><a title="烟台宏通" href="#sanyPart02">烟台宏通<em style="left:-354px; top:35px;"></em></a></li>
+      </ul>  
+    </div>
+  </div>
+  <div class="sanyPart02" id="sanyPart02">
+    <div class="bd">
+      <!--湖南中旺-->
+      <div class="tuan_part">
+        <div class="title">
+          <h3>湖南中旺<span>—三一挖掘机湖南代理</span></h3>
+          <span class="tel">更多优惠请咨询：0535-6792769</span>
+        </div>
+        <div class="content">
+          <ul class="list">
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY55C-92013K.shtm" target="_blank" title="2013款C9系列SY55C-9挖掘机" class="img"><img src="images/sany_img01.jpg" width="200" height="150" alt="2013款C9系列SY55C-9挖掘机" />
+                <h3>2013款C9系列SY55C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18533','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY60C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY60C-9挖掘机" class="img"><img src="images/sany_img02.jpg" width="200" height="150" alt="2013款C9系列SY60C-9挖掘机" />
+                <h3>2013款C9系列SY60C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18534','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY65C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY65C-9挖掘机" class="img"><img src="images/sany_img03.jpg" width="200" height="150" alt="2013款C9系列SY65C-9挖掘机" />
+                <h3>2013款C9系列SY65C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18536','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY195C-9-60.shtm" target="_blank" title="2013款C9系列SY195C-9挖掘机" class="img"><img src="images/sany_img04.jpg" width="200" height="150" alt="2013款C9系列SY195C-9挖掘机" />
+                <h3>2013款C9系列SY195C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18937','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY205C-9.shtm" target="_blank" title="2013款C9系列SY205C-9挖掘机" class="img"><img src="images/sany_img05.jpg" width="200" height="150" alt="2013款C9系列SY205C-9挖掘机" />
+                <h3>2013款C9系列SY205C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18540','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY215C92013K.shtm" target="_blank" title="2013款C9系列SY215C-9挖掘机" class="img"><img src="images/sany_img06.jpg" width="200" height="150" alt="2013款C9系列SY215C-9挖掘机" />
+                <h3>2013款C9系列SY215C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18542','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY335C-9H%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY335C-9H挖掘机" class="img"><img src="images/sany_img07.jpg" width="200" height="150" alt="2013款C9系列SY335C-9H挖掘机" />
+                <h3>2013款C9系列SY335C-9H挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18546','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY365C-8.shtm" target="_blank" title="2013款C9系列列SY365C-8挖掘机" class="img"><img src="images/sany_img08.jpg" width="200" height="150" alt="2013款C9系列列SY365C-8挖掘机" />
+                <h3>2013款C9系列SY365C-8挖掘机</h3>
+              </a>
+              <a onclick="showinquery('13249','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--广州巨和-->
+      <div class="tuan_part">
+        <div class="title">
+          <h3>广州巨和<span>—三一挖掘机广东代理</span></h3>
+          <span class="tel">更多优惠请咨询：0535-6921286</span>
+        </div>
+        <div class="content">
+          <ul class="list">
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY385H-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY385H-9挖掘机" class="img"><img src="images/sany_img09.jpg" width="200" height="150" alt="2013款C9系列SY385H-9挖掘机" />
+                <h3>2013款C9系列SY385H-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18550','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY75C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY75C-9挖掘机" class="img"><img src="images/sany_img10.jpg" width="200" height="150" alt="2013款C9系列SY75C-9挖掘机" />
+                <h3>2013款C9系列SY75C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18537','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY225C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY225C-9挖掘机" class="img"><img src="images/sany_img11.jpg" width="200" height="150" alt="2013款C9系列SY225C-9挖掘机" />
+                <h3>2013款C9系列SY225C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18543','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY265C-9.shtm" target="_blank" title="2013款C9系列SY265C-9挖掘机" class="img"><img src="images/sany_img12.jpg" width="200" height="150" alt="2013款C9系列SY265C-9挖掘机" />
+                <h3>2013款C9系列SY265C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18544','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY305C-9H-75.shtm" target="_blank" title="2013款C9系列SY305C-9H挖掘机" class="img"><img src="images/sany_img13.jpg" width="200" height="150" alt="2013款C9系列SY305C-9H挖掘机" />
+                <h3>2013款C9系列SY305C-9H挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18545','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY365H-9.shtm" target="_blank" title="2013款C9系列SY365H-9挖掘机" class="img"><img src="images/sany_img14.jpg" width="200" height="150" alt="2013款C9系列SY365H-9挖掘机" />
+                <h3>2013款C9系列SY365H-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18549','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY235C-9-52.shtm" target="_blank" title="2013款C9系列SY235C-9挖掘机" class="img"><img src="images/sany_img15.jpg" width="200" height="150" alt="2013款C9系列SY235C-9挖掘机" />
+                <h3>2013款C9系列SY235C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18935','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY195C-9-60.shtm" target="_blank" title="2013款C9系列列SY195C-9挖掘机" class="img"><img src="images/sany_img16.jpg" width="200" height="150" alt="2013款C9系列列SY195C-9挖掘机" />
+                <h3>2013款C9系列SY195C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18937','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--江苏力好-->
+      <div class="tuan_part">
+        <div class="title">
+          <h3>江苏力好<span>—三一挖掘机(江苏、上海)代理</span></h3>
+          <span class="tel">更多优惠请咨询：0535-6921286</span>
+        </div>
+        <div class="content">
+          <ul class="list">
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY700H-8.shtm" target="_blank" title="2013款C9系列SY700H-8挖掘机" class="img"><img src="images/sany_img17.jpg" width="200" height="150" alt="2013款C9系列SY700H-8挖掘机" />
+                <h3>2013款C9系列SY700H-8挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18936','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY365H-9.shtm" target="_blank" title="2013款C9系列SY365H-9挖掘机" class="img"><img src="images/sany_img14.jpg" width="200" height="150" alt="2013款C9系列SY365H-9挖掘机" />
+                <h3>2013款C9系列SY365H-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18549','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY465H-9.shtm" target="_blank" title="2013款C9系列SY465H-9挖掘机" class="img"><img src="images/sany_img18.jpg" width="200" height="150" alt="2013款C9系列SY465H-9挖掘机" />
+                <h3>2013款C9系列SY465H-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18551','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY225C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY225C-9挖掘机" class="img"><img src="images/sany_img11.jpg" width="200" height="150" alt="2013款C9系列SY225C-9挖掘机" />
+                <h3>2013款C9系列SY225C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18543','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY265C-9.shtm" target="_blank" title="2013款C9系列SY265C-9挖掘机" class="img"><img src="images/sany_img12.jpg" width="200" height="150" alt="2013款C9系列SY265C-9挖掘机" />
+                <h3>2013款C9系列SY265C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18544','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY195C-9-60.shtm" target="_blank" title="2013款C9系列列SY195C-9挖掘机" class="img"><img src="images/sany_img16.jpg" width="200" height="150" alt="2013款C9系列列SY195C-9挖掘机" />
+                <h3>2013款C9系列SY195C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18937','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY305C-9H-75.shtm" target="_blank" title="2013款C9系列SY305C-9H挖掘机" class="img"><img src="images/sany_img13.jpg" width="200" height="150" alt="2013款C9系列SY305C-9H挖掘机" />
+                <h3>2013款C9系列SY305C-9H挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18545','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY235C-9-52.shtm" target="_blank" title="2013款C9系列SY235C-9挖掘机" class="img"><img src="images/sany_img15.jpg" width="200" height="150" alt="2013款C9系列SY235C-9挖掘机" />
+                <h3>2013款C9系列SY235C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18935','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--山东亚华-->
+      <div class="tuan_part">
+        <div class="title">
+          <h3>山东亚华<span>—三一挖掘机(淄博、枣庄、济宁、泰安、日照、德州、聊城、临沂、菏泽、莱芜)代理</span></h3>
+          <span class="tel">更多优惠请咨询：0535-6921286</span>
+        </div>
+        <div class="content">
+          <ul class="list">
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY205C-9.shtm" target="_blank" title="2013款C9系列SY205C-9挖掘机" class="img"><img src="images/sany_img05.jpg" width="200" height="150" alt="2013款C9系列SY205C-9挖掘机" />
+                <h3>2013款C9系列SY205C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18540','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY215C92013K.shtm" target="_blank" title="2013款C9系列SY215C-9挖掘机" class="img"><img src="images/sany_img06.jpg" width="200" height="150" alt="2013款C9系列SY215C-9挖掘机" />
+                <h3>2013款C9系列SY215C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18542','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY225C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY225C-9挖掘机" class="img"><img src="images/sany_img11.jpg" width="200" height="150" alt="2013款C9系列SY225C-9挖掘机" />
+                <h3>2013款C9系列SY225C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18543','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY365C-8.shtm" target="_blank" title="2013款C9系列列SY365C-8挖掘机" class="img"><img src="images/sany_img08.jpg" width="200" height="150" alt="2013款C9系列列SY365C-8挖掘机" />
+                <h3>2013款C9系列SY365C-8挖掘机</h3>
+              </a>
+              <a onclick="showinquery('13249','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY385H-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY385H-9挖掘机" class="img"><img src="images/sany_img09.jpg" width="200" height="150" alt="2013款C9系列SY385H-9挖掘机" />
+                <h3>2013款C9系列SY385H-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18550','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY335C-9H%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY335C-9H挖掘机" class="img"><img src="images/sany_img07.jpg" width="200" height="150" alt="2013款C9系列SY335C-9H挖掘机" />
+                <h3>2013款C9系列SY335C-9H挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18546','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY75C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY75C-9挖掘机" class="img"><img src="images/sany_img10.jpg" width="200" height="150" alt="2013款C9系列SY75C-9挖掘机" />
+                <h3>2013款C9系列SY75C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18537','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY305C-9H-75.shtm" target="_blank" title="2013款C9系列SY305C-9H挖掘机" class="img"><img src="images/sany_img13.jpg" width="200" height="150" alt="2013款C9系列SY305C-9H挖掘机" />
+                <h3>2013款C9系列SY305C-9H挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18545','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--重庆国杰-->
+      <div class="tuan_part">
+        <div class="title">
+          <h3>重庆国杰<span>—三一挖掘机(重庆、四川)代理</span></h3>
+          <span class="tel">更多优惠请咨询：0535-6792830</span>
+        </div>
+        <div class="content">
+          <ul class="list">
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY195C-9-60.shtm" target="_blank" title="2013款C9系列列SY195C-9挖掘机" class="img"><img src="images/sany_img16.jpg" width="200" height="150" alt="2013款C9系列列SY195C-9挖掘机" />
+                <h3>2013款C9系列SY195C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18937','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY65C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY65C-9挖掘机" class="img"><img src="images/sany_img03.jpg" width="200" height="150" alt="2013款C9系列SY65C-9挖掘机" />
+                <h3>2013款C9系列SY65C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18536','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY195C-9-60.shtm" target="_blank" title="2013款C9系列SY195C-9挖掘机" class="img"><img src="images/sany_img04.jpg" width="200" height="150" alt="2013款C9系列SY195C-9挖掘机" />
+                <h3>2013款C9系列SY195C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18937','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY205C-9.shtm" target="_blank" title="2013款C9系列SY205C-9挖掘机" class="img"><img src="images/sany_img05.jpg" width="200" height="150" alt="2013款C9系列SY205C-9挖掘机" />
+                <h3>2013款C9系列SY205C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18540','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY700H-8.shtm" target="_blank" title="2013款C9系列SY700H-8挖掘机" class="img"><img src="images/sany_img17.jpg" width="200" height="150" alt="2013款C9系列SY700H-8挖掘机" />
+                <h3>2013款C9系列SY700H-8挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18936','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY235C-9-52.shtm" target="_blank" title="2013款C9系列SY235C-9挖掘机" class="img"><img src="images/sany_img15.jpg" width="200" height="150" alt="2013款C9系列SY235C-9挖掘机" />
+                <h3>2013款C9系列SY235C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18935','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY465H-9.shtm" target="_blank" title="2013款C9系列SY465H-9挖掘机" class="img"><img src="images/sany_img18.jpg" width="200" height="150" alt="2013款C9系列SY465H-9挖掘机" />
+                <h3>2013款C9系列SY465H-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18551','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY215C92013K.shtm" target="_blank" title="2013款C9系列SY215C-9挖掘机" class="img"><img src="images/sany_img06.jpg" width="200" height="150" alt="2013款C9系列SY215C-9挖掘机" />
+                <h3>2013款C9系列SY215C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18542','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--吉林三君-->
+      <div class="tuan_part">
+        <div class="title">
+          <h3>吉林三君<span>—三一挖掘机吉林代理</span></h3>
+          <span class="tel">更多优惠请咨询：0535-6921286</span>
+        </div>
+        <div class="content">
+          <ul class="list">
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY365C-8.shtm" target="_blank" title="2013款C9系列列SY365C-8挖掘机" class="img"><img src="images/sany_img08.jpg" width="200" height="150" alt="2013款C9系列列SY365C-8挖掘机" />
+                <h3>2013款C9系列SY365C-8挖掘机</h3>
+              </a>
+              <a onclick="showinquery('13249','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY195C-9-60.shtm" target="_blank" title="2013款C9系列列SY195C-9挖掘机" class="img"><img src="images/sany_img16.jpg" width="200" height="150" alt="2013款C9系列列SY195C-9挖掘机" />
+                <h3>2013款C9系列SY195C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18937','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY385H-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY385H-9挖掘机" class="img"><img src="images/sany_img09.jpg" width="200" height="150" alt="2013款C9系列SY385H-9挖掘机" />
+                <h3>2013款C9系列SY385H-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18550','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY75C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY75C-9挖掘机" class="img"><img src="images/sany_img10.jpg" width="200" height="150" alt="2013款C9系列SY75C-9挖掘机" />
+                <h3>2013款C9系列SY75C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18537','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY235C-9-52.shtm" target="_blank" title="2013款C9系列SY235C-9挖掘机" class="img"><img src="images/sany_img15.jpg" width="200" height="150" alt="2013款C9系列SY235C-9挖掘机" />
+                <h3>2013款C9系列SY235C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18935','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY335C-9H%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY335C-9H挖掘机" class="img"><img src="images/sany_img07.jpg" width="200" height="150" alt="2013款C9系列SY335C-9H挖掘机" />
+                <h3>2013款C9系列SY335C-9H挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18546','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY60C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY60C-9挖掘机" class="img"><img src="images/sany_img02.jpg" width="200" height="150" alt="2013款C9系列SY60C-9挖掘机" />
+                <h3>2013款C9系列SY60C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18534','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY65C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY65C-9挖掘机" class="img"><img src="images/sany_img03.jpg" width="200" height="150" alt="2013款C9系列SY65C-9挖掘机" />
+                <h3>2013款C9系列SY65C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18536','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--新疆京泓-->
+      <div class="tuan_part">
+        <div class="title">
+          <h3>新疆京泓<span>—三一挖掘机新疆代理</span></h3>
+          <span class="tel">更多优惠请咨询：0535-6792733</span>
+        </div>
+        <div class="content">
+          <ul class="list">
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY60C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY60C-9挖掘机" class="img"><img src="images/sany_img02.jpg" width="200" height="150" alt="2013款C9系列SY60C-9挖掘机" />
+                <h3>2013款C9系列SY60C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18534','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY305C-9H-75.shtm" target="_blank" title="2013款C9系列SY305C-9H挖掘机" class="img"><img src="images/sany_img13.jpg" width="200" height="150" alt="2013款C9系列SY305C-9H挖掘机" />
+                <h3>2013款C9系列SY305C-9H挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18545','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY265C-9.shtm" target="_blank" title="2013款C9系列SY265C-9挖掘机" class="img"><img src="images/sany_img12.jpg" width="200" height="150" alt="2013款C9系列SY265C-9挖掘机" />
+                <h3>2013款C9系列SY265C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18544','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY235C-9-52.shtm" target="_blank" title="2013款C9系列SY235C-9挖掘机" class="img"><img src="images/sany_img15.jpg" width="200" height="150" alt="2013款C9系列SY235C-9挖掘机" />
+                <h3>2013款C9系列SY235C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18935','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY195C-9-60.shtm" target="_blank" title="2013款C9系列列SY195C-9挖掘机" class="img"><img src="images/sany_img16.jpg" width="200" height="150" alt="2013款C9系列列SY195C-9挖掘机" />
+                <h3>2013款C9系列SY195C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18937','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY365H-9.shtm" target="_blank" title="2013款C9系列SY365H-9挖掘机" class="img"><img src="images/sany_img14.jpg" width="200" height="150" alt="2013款C9系列SY365H-9挖掘机" />
+                <h3>2013款C9系列SY365H-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18549','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY700H-8.shtm" target="_blank" title="2013款C9系列SY700H-8挖掘机" class="img"><img src="images/sany_img17.jpg" width="200" height="150" alt="2013款C9系列SY700H-8挖掘机" />
+                <h3>2013款C9系列SY700H-8挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18936','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY225C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY225C-9挖掘机" class="img"><img src="images/sany_img11.jpg" width="200" height="150" alt="2013款C9系列SY225C-9挖掘机" />
+                <h3>2013款C9系列SY225C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18543','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--烟台宏通-->
+      <div class="tuan_part">
+        <div class="title">
+          <h3>烟台宏通<span>—三一挖掘机(烟台、威海、青岛、潍坊、济南、东营、滨州)代理</span></h3>
+          <span class="tel">更多优惠请咨询：0535-6792769</span>
+        </div>
+        <div class="content">
+          <ul class="list">
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY700H-8.shtm" target="_blank" title="2013款C9系列SY700H-8挖掘机" class="img"><img src="images/sany_img17.jpg" width="200" height="150" alt="2013款C9系列SY700H-8挖掘机" />
+                <h3>2013款C9系列SY700H-8挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18936','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY465H-9.shtm" target="_blank" title="2013款C9系列SY465H-9挖掘机" class="img"><img src="images/sany_img18.jpg" width="200" height="150" alt="2013款C9系列SY465H-9挖掘机" />
+                <h3>2013款C9系列SY465H-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18551','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY195C-9-60.shtm" target="_blank" title="2013款C9系列列SY195C-9挖掘机" class="img"><img src="images/sany_img16.jpg" width="200" height="150" alt="2013款C9系列列SY195C-9挖掘机" />
+                <h3>2013款C9系列SY195C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18937','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY65C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY65C-9挖掘机" class="img"><img src="images/sany_img03.jpg" width="200" height="150" alt="2013款C9系列SY65C-9挖掘机" />
+                <h3>2013款C9系列SY65C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18536','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY60C-9%EF%BC%882013K%EF%BC%89.shtm" target="_blank" title="2013款C9系列SY60C-9挖掘机" class="img"><img src="images/sany_img02.jpg" width="200" height="150" alt="2013款C9系列SY60C-9挖掘机" />
+                <h3>2013款C9系列SY60C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18534','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY305C-9H-75.shtm" target="_blank" title="2013款C9系列SY305C-9H挖掘机" class="img"><img src="images/sany_img13.jpg" width="200" height="150" alt="2013款C9系列SY305C-9H挖掘机" />
+                <h3>2013款C9系列SY305C-9H挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18545','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY55C-92013K.shtm" target="_blank" title="2013款C9系列SY55C-9挖掘机" class="img"><img src="images/sany_img01.jpg" width="200" height="150" alt="2013款C9系列SY55C-9挖掘机" />
+                <h3>2013款C9系列SY55C-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18533','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+            <li>
+              <a href="http://product.21-sun.com/proDetail/SY365H-9.shtm" target="_blank" title="2013款C9系列SY365H-9挖掘机" class="img"><img src="images/sany_img14.jpg" width="200" height="150" alt="2013款C9系列SY365H-9挖掘机" />
+                <h3>2013款C9系列SY365H-9挖掘机</h3>
+              </a>
+              <a onclick="showinquery('18549','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="clear"></div>  
+</div>
+<script type="text/javascript">jQuery("#Sany").slide({effect:"top",trigger:"click"});</script> 
+<!--卡特挖掘机专场-->
+<div class="tuan_wrapper mainContain" id="Cat" style=" height:0px">
+  <div class="tuan_part">
+    <div class="title">
+      <h3>卡特彼勒挖掘机6月优惠</h3>
+    </div>
+    <div class="content">
+      
+      <ul class="list">
+        <li><a class="img" href="http://product.21-sun.com/proDetail/312D312DL.shtm" target="_blank" title="卡特彼勒312D 312DL履带式挖掘机"><img src="http://product.21-sun.com/tuan/may/images/part06_img01.jpg" width="315" height="280" alt="卡特彼勒312D 312DL履带式挖掘机"></a>
+          <a href="javascript:void(0);" target="_self" class="ydbtn" onClick="showinquery('378','');">我要预定</a>
+          <h3><a href="http://product.21-sun.com/proDetail/312D312DL.shtm" target="_blank" title="卡特彼勒312D 312DL履带式挖掘机">卡特彼勒312D 312DL履带式挖掘机</a></h3>
+        </li>
+        <li style="margin-right:0px;"><a class="img" href="http://product.21-sun.com/proDetail/320D320DL.shtm" target="_blank" title="卡特彼勒320D 320DL履带式挖掘机"><img src="http://product.21-sun.com/tuan/may/images/part06_img02.jpg" width="315" height="280" alt="卡特彼勒320D 320DL履带式挖掘机"></a>
+          <a href="javascript:void(0);" target="_self" class="ydbtn" onClick="showinquery('400','');">我要预定</a>
+          <h3><a href="http://product.21-sun.com/proDetail/320D320DL.shtm" target="_blank" title="卡特彼勒320D 320DL履带式挖掘机">卡特彼勒320D 320DL履带式挖掘机</a></h3>
+        </li>
+      </ul>
+      <div class="intro">
+        <strong>更多优惠请咨询：0535-6792769</strong>
+卡特彼勒是世界上最大的土方工程机械、建筑机械和矿用设备的生产商，也是全世界柴油机、天然气发动机、工业用燃气轮机以及柴电混合动力机组的主要供应商。<br> 
+在大中华区，卡特彼勒为区内持续的经济增长和发展提供了产品和技术。迈向 21 世纪，我们的承诺更坚定不移。<br> 
+为了加大投资力度和发展业务，卡特彼勒（中国）投资有限公司于 1996 年在北京成立。今天，卡特彼勒在中国投资建立了23家生产工厂，制造液压挖掘机、压实机、柴油发动机、履带行走装置、铸件、动力平地机、履带式推土机、轮式装载机、再制造的工程机械零部件以及电力发电机组。 
+我们将与合作伙伴及用户一起，在大中华区建设未来。
+      </div>
+      
+    </div>
+  </div>
+<div class="clear"></div>  
+</div>
+<!--装载机专场-->
+<div class="tuan_wrapper mainContain" id="Loader" style=" height:0px">
+  <div class="tuan_part">
+    <div class="title">
+      <h3>山工机械6月优惠专场</h3>
+      <span class="tel">更多优惠请咨询：0535-6792769</span>
+    </div>
+    <div class="content">
+      <ul class="list">
+        <li class="pli"><a class="img" href="http://product.21-sun.com/proDetail/ZL5-G-I.shtm" target="_blank" title="山工ZL50F-II轮式装载机"><img src="http://product.21-sun.com/tuan/may/images/part05_img04.jpg" width="305" height="230" alt="山工ZL50F-II轮式装载机"></a>
+          <a href="javascript:void(0);" target="_self" class="ydbtn" onClick="showinquery('883','');">我要订购</a>
+          <h3><a href="http://product.21-sun.com/proDetail/ZL5-G-I.shtm" target="_blank" title="山工ZL50F-II轮式装载机">山工ZL50F-II轮式装载机</a></h3>
+        </li>
+        <li class="pli"><a class="img" href="http://product.21-sun.com/proDetail/SEM660B.shtm" target="_blank" title="山工SEM660B轮式装载机"><img src="http://product.21-sun.com/tuan/may/images/part05_img05.jpg" width="305" height="230" alt="山工SEM660B轮式装载机"></a>
+          <a href="javascript:void(0);" target="_self" class="ydbtn" onClick="showinquery('7451','');">我要订购</a>
+          <h3><a href="http://product.21-sun.com/proDetail/SEM660B.shtm" target="_blank" title="山工SEM660B轮式装载机">山工SEM660B轮式装载机</a></h3>
+        </li>
+        <li class="pli"><a class="img" href="http://product.21-sun.com/proDetail/ZL30F-I-40.shtm" target="_blank" title="山工SEM652B轮式装载机"><img src="http://product.21-sun.com/tuan/may/images/part05_img06.jpg" width="305" height="230" alt="山工SEM652B轮式装载机"></a>
+          <a href="javascript:void(0);" target="_self" class="ydbtn" onClick="showinquery('863','');">我要订购</a>
+          <h3><a href="http://product.21-sun.com/proDetail/ZL30F-I-40.shtm" target="_blank" title="山工SEM652B轮式装载机">山工SEM652B轮式装载机</a></h3>
+        </li>
+      </ul>
+    </div> 
+  </div>   
+</div>
+<!--配件专场-->
+<div class="tuan_wrapper mainContain" id="Part" style=" height:0px">
+  <div class="tuan_part">
+    <!--烟台军恒斯帕克破碎锤-->
+    <div class="title">
+      <h3>烟台军恒斯帕克破碎锤专场</h3>
+      <span class="tel">更多优惠请咨询：0535-6727793</span>
+    </div>
+    <div class="content">
+      <ul class="list">
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SP1350.shtm" target="_blank" title="SP-1350破碎锤" class="img"><img src="images/part_img01.jpg" width="200" height="150" alt="SP-1350破碎锤" />
+            <h3>SP-1350破碎锤</h3>
+          </a>
+          <a onclick="showinquery('5828','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SP1400.shtm" target="_blank" title="SP-1400破碎锤" class="img"><img src="images/part_img02.jpg" width="200" height="150" alt="SP-1400破碎锤" />
+            <h3>SP-1400破碎锤</h3>
+          </a>
+          <a onclick="showinquery('5829','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SP1500-25.shtm" target="_blank" title="SP-1500破碎锤" class="img"><img src="images/part_img03.jpg" width="200" height="150" alt="SP-1500破碎锤" />
+            <h3>SP-1500破碎锤</h3>
+          </a>
+          <a onclick="showinquery('5830','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/SP1550.shtm" target="_blank" title="SP-1550破碎锤" class="img"><img src="images/part_img04.jpg" width="200" height="150" alt="SP-1550破碎锤" />
+            <h3>SP-1550破碎锤</h3>
+          </a>
+          <a onclick="showinquery('5831','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+      </ul>
+    </div>
+    <!--广州骏隆日立配件专场-->
+    <div class="title" style="padding-top:0px;">
+      <h3>广州骏隆日立配件专场</h3>
+      <span class="tel">更多优惠请咨询：0535-6921286</span>
+    </div>
+    <div class="content">
+      <ul class="list">
+        <li>
+          <a style="cursor:default;" href="javascript:void(0);" target="_self" title="ZX450液压泵总成" class="img"><img src="images/part_img05.jpg" width="200" height="150" alt="ZX450液压泵总成" />
+            <h3>ZX450液压泵总成</h3>
+          </a>
+          <a style="cursor:default;" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://www.3dgzpart.com/viphouse/gzsjzljxsbyxgs_19473_products.shtm" target="_blank" title="电脑板" class="img"><img src="images/part_img06.jpg" width="200" height="150" alt="电脑板" />
+            <h3>电脑板</h3>
+          </a>
+          <a class="ydbtn" target="_blank" href="http://www.3dgzpart.com/viphouse/gzsjzljxsbyxgs_19473_products.shtm">我要预定</a>
+        </li>
+        <li>
+          <a href="http://www.3dgzpart.com/viphouse/gzsjzljxsbyxgs_19464_products.shtm" target="_blank" title="线束" class="img"><img src="images/part_img07.jpg" width="200" height="150" alt="线束" />
+            <h3>线束</h3>
+          </a>
+          <a class="ydbtn" target="_blank" href="http://www.3dgzpart.com/viphouse/gzsjzljxsbyxgs_19464_products.shtm">我要预定</a>
+        </li>
+        <li>
+          <a href="http://www.3dgzpart.com/viphouse/gzsjzljxsbyxgs_19481_products.shtm" target="_blank" title="信号阀" class="img"><img src="images/part_img08.jpg" width="200" height="150" alt="信号阀" />
+            <h3>信号阀</h3>
+          </a>
+          <a class="ydbtn" target="_blank" href="http://www.3dgzpart.com/viphouse/gzsjzljxsbyxgs_19481_products.shtm">我要预定</a>
+        </li>
+      </ul>
+    </div>
+    <!--烟台泰盛精化科技配件专场-->
+    <div class="title" style="padding-top:0px;">
+      <h3>烟台泰盛精化科技配件专场</h3>
+      <span class="tel">更多优惠请咨询：0535-6727793</span>
+    </div>
+    <div class="content">
+      <ul class="list">
+        <li>
+          <a href="http://www.21part.com/shop/27162_detail_detail.shtm" target="_blank" title="螺纹锁固剂" class="img"><img src="images/part_img09.jpg" width="200" height="150" alt="螺纹锁固剂" />
+            <h3>螺纹锁固剂</h3>
+          </a>
+          <a class="ydbtn" target="_blank" href="http://www.21part.com/shop/27162_detail_detail.shtm">我要预定</a>
+        </li>
+        <li>
+          <a href="http://www.21part.com/shop/27163_detail_detail.shtm" target="_blank" title="瞬干胶" class="img"><img src="images/part_img10.jpg" width="200" height="150" alt="瞬干胶" />
+            <h3>瞬干胶</h3>
+          </a>
+          <a class="ydbtn" target="_blank" href="http://www.21part.com/shop/27163_detail_detail.shtm">我要预定</a>
+        </li>
+        <li>
+          <a href="http://www.21part.com/shop/27164_detail_detail.shtm" target="_blank" title="厌氧型平面密封胶" class="img"><img src="images/part_img11.jpg" width="200" height="150" alt="厌氧型平面密封胶" />
+            <h3>厌氧型平面密封胶</h3>
+          </a>
+          <a class="ydbtn" target="_blank" href="http://www.21part.com/shop/27164_detail_detail.shtm">我要预定</a>
+        </li>
+        <li>
+          <a href="http://www.21part.com/shop/27165_detail_detail.shtm" target="_blank" title="硅酮型平面密封胶" class="img"><img src="images/part_img12.jpg" width="200" height="150" alt="硅酮型平面密封胶" />
+            <h3>硅酮型平面密封胶</h3>
+          </a>
+          <a class="ydbtn" target="_blank" href="http://www.21part.com/shop/27165_detail_detail.shtm">我要预定</a>
+        </li>
+        <li>
+          <a href="http://www.21part.com/shop/27166_detail_detail.shtm" target="_blank" title="管螺纹密封胶" class="img"><img src="images/part_img13.jpg" width="200" height="150" alt="管螺纹密封胶" />
+            <h3>管螺纹密封胶</h3>
+          </a>
+          <a class="ydbtn" target="_blank" href="http://www.21part.com/shop/27166_detail_detail.shtm">我要预定</a>
+        </li>
+        <li>
+          <a href="http://www.21part.com/shop/27167_detail_detail.shtm" target="_blank" title="圆柱型零件固持胶" class="img"><img src="images/part_img14.jpg" width="200" height="150" alt="圆柱型零件固持胶" />
+            <h3>圆柱型零件固持胶</h3>
+          </a>
+          <a class="ydbtn" target="_blank" href="http://www.21part.com/shop/27167_detail_detail.shtm">我要预定</a>
+        </li>
+        <li>
+          <a href="http://www.21part.com/shop/27168_detail_detail.shtm" target="_blank" title="表面处理剂" class="img"><img src="images/part_img15.jpg" width="200" height="150" alt="表面处理剂" />
+            <h3>表面处理剂</h3>
+          </a>
+          <a class="ydbtn" target="_blank" href="http://www.21part.com/shop/27168_detail_detail.shtm">我要预定</a>
+        </li>
+        <li>
+          <a href="http://www.21part.com/shop/27169_detail_detail.shtm" target="_blank" title="螺纹锁骨密封剂" class="img"><img src="images/part_img16.jpg" width="200" height="150" alt="螺纹锁骨密封剂" />
+            <h3>螺纹锁骨密封剂</h3>
+          </a>
+          <a class="ydbtn" target="_blank" href="http://www.21part.com/shop/27169_detail_detail.shtm">我要预定</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+  </div>
+</div>
+<!--其他挖掘机-->
+<div class="tuan_wrapper mainContain" id="Other" style=" height:0px">
+  <div class="tuan_part">
+    <!--徐工挖掘机-->
+    <div class="title">
+      <h3>徐工挖掘机—杭州威格尔6月优惠专场</h3>
+      <span class="tel">更多优惠请咨询：0535-6921286</span>
+    </div>
+    <div class="content">
+      <ul class="list">
+        <li>
+          <a href="http://product.21-sun.com/proDetail/XE60.shtm" target="_blank" title="徐工XE60CA挖掘机" class="img"><img src="images/part02_img01.jpg" width="250" height="200" alt="徐工XE60CA挖掘机" />
+            <h3>徐工XE60CA挖掘机<span class="price">专享价：<b>&yen;35万</b></span></h3>
+          </a>
+          <a onclick="showinquery('497','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/XE85C.shtm" target="_blank" title="徐工XE85C挖掘机" class="img"><img src="images/part02_img02.jpg" width="250" height="200" alt="徐工XE85C挖掘机" />
+            <h3>徐工XE85C挖掘机<span class="price">专享价：<b>&yen;46万</b></span></h3>
+          </a>
+          <a onclick="showinquery('16825','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/XE135B.shtm" target="_blank" title="徐工XE135B挖掘机" class="img"><img src="images/part02_img03.jpg" width="250" height="200" alt="徐工XE135B挖掘机" />
+            <h3>徐工XE135B挖掘机<span class="price">专享价：<b>&yen;62万</b></span></h3>
+          </a>
+          <a onclick="showinquery('16824','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/XE215C.shtm" target="_blank" title="徐工XE215C挖掘机" class="img"><img src="images/part02_img04.jpg" width="250" height="200" alt="徐工XE215C挖掘机" />
+            <h3>徐工XE215C挖掘机<span class="price">专享价：<b>&yen;86万</b></span></h3>
+          </a>
+          <a onclick="showinquery('7877','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/XE370C.shtm" target="_blank" title="徐工XE370CA挖掘机" class="img"><img src="images/part02_img05.jpg" width="250" height="200" alt="徐工XE370CA挖掘机" />
+            <h3>徐工XE370CA挖掘机<span class="price">专享价：<b>&yen;165万</b></span></h3>
+          </a>
+          <a onclick="showinquery('7878','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li class="last">
+          <p><strong>购买徐工XE370CA挖掘机</strong><br>
+          送60000元皮卡车一辆(需扣除20%所得税，客户不要车可抵货款)</p>
+          <div class="img"><img src="images/part02_img06.jpg" width="250" height="185" alt="送6万皮卡1辆"></div>
+        </li>
+      </ul>
+    </div>
+    <!--江麓挖掘机-->
+    <div class="title" style="padding-top:0px;">
+      <h3>江麓挖掘机—普堃6月优惠专场</h3>
+      <span class="tel">更多优惠请咨询：0535-6921286</span>
+    </div>
+    <div class="content hi-tech">
+      <ul class="list">
+        <li>
+          <a href="http://product.21-sun.com/proDetail/CNE60.shtm" target="_blank" title="江麓CN90挖掘机" class="img"><img src="images/part03_img01.jpg" width="250" height="200" alt="江麓CN90挖掘机" />
+            <h3>江麓CN90挖掘机</h3>
+          </a>
+          <a onclick="showinquery('7958','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/CNE85.shtm" target="_blank" title="江麓CN150LC挖掘机" class="img"><img src="images/part03_img02.jpg" width="250" height="200" alt="江麓CN150LC挖掘机" />
+            <h3>江麓CN150LC挖掘机</h3>
+          </a>
+          <a onclick="showinquery('7959','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/CN225LC.shtm" target="_blank" title="江麓CN225LC挖掘机" class="img"><img src="images/part03_img03.jpg" width="250" height="200" alt="江麓CN225LC挖掘机" />
+            <h3>江麓CN225LC挖掘机</h3>
+          </a>
+          <a onclick="showinquery('13103','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/CN330.shtm" target="_blank" title="江麓CN330LC挖掘机" class="img"><img src="images/part03_img04.jpg" width="250" height="200" alt="江麓CN330LC挖掘机" />
+            <h3>江麓CN330LC挖掘机</h3>
+          </a>
+          <a onclick="showinquery('10121','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/CN450LC.shtm" target="_blank" title="江麓CN450LC挖掘机" class="img"><img src="images/part03_img05.jpg" width="250" height="200" alt="江麓CN450LC挖掘机" />
+            <h3>江麓CN450LC挖掘机</h3>
+          </a>
+          <a onclick="showinquery('18929','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/JLW60.shtm" target="_blank" title="江麓CN70挖掘机" class="img"><img src="images/part03_img06.jpg" width="250" height="200" alt="江麓CN70挖掘机" />
+            <h3>江麓CN70挖掘机</h3>
+          </a>
+          <a onclick="showinquery('5214','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+      </ul>
+    </div>
+    <!--福田挖掘机-->
+    <div class="title" style="padding-top:0px;">
+      <h3>福田挖掘机—江西雷沃6月优惠专场</h3>
+      <span class="tel">更多优惠请咨询：0535-6727793</span>
+    </div>
+    <div class="content">
+      <ul class="list">
+        <!--<li>
+          <a href="http://product.21-sun.com/proDetail/FR60.shtm" target="_blank" title="福田FR60挖掘机" class="img"><img src="images/part04_img01.jpg" width="250" height="200" alt="福田FR60挖掘机" />
+            <h3>福田FR60挖掘机<span class="price">专享价：<b>&yen;36万</b></span></h3>
+          </a>
+          <a onclick="showinquery('10110','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>-->
+        <li>
+          <a href="http://product.21-sun.com/proDetail/FR65V8.shtm" target="_blank" title="福田FR65V8挖掘机" class="img"><img src="images/part04_img02.jpg" width="250" height="200" alt="福田FR65V8挖掘机" />
+            <h3>福田FR65V8挖掘机<span class="price">专享价：<b>&yen;37万</b></span></h3>
+          </a>
+          <a onclick="showinquery('7630','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/FR80G.shtm" target="_blank" title="福田FR80G挖掘机" class="img"><img src="images/part04_img03.jpg" width="250" height="200" alt="福田FR80G挖掘机" />
+            <h3>福田FR80G挖掘机<span class="price">专享价：<b>&yen;45万</b></span></h3>
+          </a>
+          <a onclick="showinquery('11629','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/FR170.shtm" target="_blank" title="福田FR170挖掘机" class="img"><img src="images/part04_img04.jpg" width="250" height="200" alt="福田FR170挖掘机" />
+            <h3>福田FR170挖掘机<span class="price">专享价：<b>&yen;65万</b></span></h3>
+          </a>
+          <a onclick="showinquery('7636','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/FR220.shtm" target="_blank" title="福田FR220挖掘机" class="img"><img src="images/part04_img05.jpg" width="250" height="200" alt="福田FR220挖掘机" />
+            <h3>福田FR220挖掘机<span class="price">专享价：<b>&yen;93万</b></span></h3>
+          </a>
+          <a onclick="showinquery('7637','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/FR210.shtm" target="_blank" title="福田FR210挖掘机" class="img"><img src="images/part04_img06.jpg" width="250" height="200" alt="福田FR210挖掘机" />
+            <h3>福田FR210挖掘机<span class="price">专享价：<b>&yen;90万</b></span></h3>
+          </a>
+          <a onclick="showinquery('10112','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <li>
+          <a href="http://product.21-sun.com/proDetail/FR150.shtm" target="_blank" title="福田FR150挖掘机" class="img"><img src="images/part04_img07.jpg" width="250" height="200" alt="福田FR150挖掘机" />
+            <h3>福田FR150挖掘机<span class="price">专享价：<b>&yen;62万</b></span></h3>
+          </a>
+          <a onclick="showinquery('10111','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>
+        <!--<li>
+          <a href="#" target="_blank" title="福田FR240挖掘机" class="img"><img src="images/part04_img08.jpg" width="250" height="200" alt="福田FR240挖掘机" />
+            <h3>福田FR240挖掘机<span class="price">专享价：<b>&yen;96万</b></span></h3>
+          </a>
+          <a onclick="showinquery('7958','');" class="ydbtn" target="_self" href="javascript:void(0);">我要预定</a>
+        </li>-->
+      </ul>
+    </div>
+    
+  </div>
+</div>
+
+<!--foot-->
+<!--#include virtual="/include/foot.jsp"--> 
+<!--end of foot--> 
+<div style="display:none"><script src="http://s19.cnzz.com/stat.php?id=5442942&web_id=5442942&show=pic" language="JavaScript"></script></div>
+</body>
+<script type="text/javascript">
+jQuery(function(){
+	jQuery(".tuan_nav a").click(function(){
+		jQuery(".tuan_nav a").removeClass("selected");
+		jQuery(this).addClass("selected");
+	});
+	jQuery(".p1").click(function(){
+		jQuery(".mainContain").stop().animate({height:'0px'},{queue:false,duration:1});
+		jQuery("#Sany").stop().animate({height:'940px'},{queue:false,duration:500});
+		jQuery("html, body").scrollTop(0).animate({scrollTop:jQuery(".tuan_nav").offset().top},500); 
+	});
+	jQuery(".p2").click(function(){
+		jQuery(".mainContain").stop().animate({height:'0px'},{queue:false,duration:1});
+		jQuery("#Cat").stop().animate({height:'520px'},{queue:false,duration:500});
+		jQuery("html, body").scrollTop(0).animate({scrollTop:jQuery(".tuan_nav").offset().top},500); 
+	});
+	jQuery(".p3").click(function(){
+		jQuery(".mainContain").stop().animate({height:'0px'},{queue:false,duration:1});
+		jQuery("#Loader").stop().animate({height:'425px'},{queue:false,duration:500});
+		jQuery("html, body").scrollTop(0).animate({scrollTop:jQuery(".tuan_nav").offset().top},500); 
+	});
+	jQuery(".p4").click(function(){
+		jQuery(".mainContain").stop().animate({height:'0px'},{queue:false,duration:1});
+		jQuery("#Part").stop().animate({height:'1140px'},{queue:false,duration:500});
+		jQuery("html, body").scrollTop(0).animate({scrollTop:jQuery(".tuan_nav").offset().top},500); 
+	});
+	jQuery(".p5").click(function(){
+		jQuery(".mainContain").stop().animate({height:'0px'},{queue:false,duration:1});
+		jQuery("#Other").stop().animate({height:'1930px'},{queue:false,duration:500});
+		jQuery("html, body").scrollTop(0).animate({scrollTop:jQuery(".tuan_nav").offset().top},500); 
+	});
+});
+</script>
+<!-- jbox -->
+<link type="text/css" rel="stylesheet" href="/scripts/jBox-v2.3/Skins2/Blue/jbox.css" />
+<script type="text/javascript" src="/scripts/jBox-v2.3/jquery.jBox-2.3.min.js"></script>
+<script type="text/javascript" src="/scripts/jBox-v2.3/i18n/jquery.jBox-zh-CN.js"></script>
+<script type="text/javascript">
+function showinquery(pid,factoryid){
+	jQuery.jBox("iframe:/include/products/product_order.jsp?productid="+pid+"&factoryid="+factoryid, {
+	title: "在线询价",
+	width: 720,
+	height: 435,
+	top: '20%',
+	iframeScrolling : 'no',
+	buttons: { '关闭': false }
+	});
+	jQuery(".jbox-button-panel").attr("style","display:none;") ;
+}
+</script>
+</html>

@@ -1,0 +1,17 @@
+﻿<link href="http://news.21-sun.com/00css/news_detail_spe.css" rel="stylesheet" type="text/css" />
+<link href="http://news.21-sun.com/00css/style_news.css" rel="stylesheet" type="text/css" />
+<#assign proList = query("  select substring(catalognum,1,6) as catalognum from pro_products where factoryid = '${factoryid}' and catalognum is not null group by substring(catalognum,1,6) order by catalognum asc ")>
+      <div class="rp fix mb10 area" >
+        <div class="title">
+          <h3>${factoryname}主营业务</h3>
+        </div>
+        <div class="content rList01">
+          <ul class="list">
+		  <#list proList as pro>  
+		        <#list query("select num,name from pro_catalog where num='${pro.catalognum}'") as info>
+                     <li><a target="_blank" title="${info.name}" href="http://news.21-sun.com/list/spec_${factoryid}-${info.num}-1.htm" >${info.name}</a></li>
+                </#list>			 
+	    </#list>
+          </ul>
+        </div>
+      </div>

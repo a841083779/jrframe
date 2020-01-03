@@ -1,0 +1,9 @@
+/*
+* select.css
+* v1.1
+* 2014-08-18
+*/
+.select{position:relative;height:20px;line-height:20px;cursor:pointer;}
+.select ._option{display:none;position:absolute;width:100%;left:-1px;top:20px;background:#fff;border:1px solid #cacad9;max-height:200px;overflow:auto;}
+.select ._option a{display:block;}
+.select.on ._option{display:block;}

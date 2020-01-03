@@ -1,0 +1,218 @@
+@charset "utf-8";
+/*reset*/
+body{background:#e7e7e7;}
+body,input,textarea,select{font-size:12px;font-family:Helvetica,'\5b8b\4f53',sans-serif;color:#242C3C;}
+body,h1,h2,h3,h4,p,ul,ol,dd,dl,form{margin:0;font-weight:normal;}
+ul{padding-left:0;list-style-type:none;}
+a{text-decoration:none;color:#333;}
+a:hover{color:#666;}
+a img{border:0;}
+h1{ font-size:12px;}
+.yahei{ font-family:Microsoft Yahei;}
+.arial{ font-family:Arial;}
+.font15{ font-size:15px;}
+/*其他文字链接样式*/
+.cffffff a:link{color : #ffffff ;}
+.cffffff a:visited {color : #ffffff ;}
+.cffffff a:hover {color : #cccccc ;}
+.cffffff a:active {color : #ffffff ;} 
+.cffffff { color:#ffffff;}
+
+.c999999 a:link{color : #999999 ;}
+.c999999 a:visited {color : #999999 ;}
+.c999999 a:hover {color : #999999 ;  text-decoration:underline;}
+.c999999 a:active {color : #999999 ;} 
+.c999999 { color:#999999;}
+
+.c666666 a:link{color : #666666 ;}
+.c666666 a:visited {color : #666666 ;}
+.c666666 a:hover {color : #333333 ;  text-decoration:none;}
+.c666666 a:active {color : #666666 ;} 
+.c666666 { color:#666666;}
+
+.c242C3C a:link{color : #242C3C ;}
+.c242C3C a:visited {color : #242C3C ;}
+.c242C3C a:hover {color : #666 ;  text-decoration:none;}
+.c242C3C a:active {color : #242C3C ;} 
+.c242C3C { color:#242C3C;}
+
+
+.lineheight100  { line-height:100%;}
+.lineheight120  { line-height:120%;}
+.lineheight150  { line-height:150%;}
+.lineheight180  { line-height:180%;}
+.lineheight200  { line-height:200%;}
+.lineheight250  { line-height:250%;}
+
+.lineheight15px  { line-height: 15px; }
+.lineheight20px  { line-height: 20px; }
+.lineheight24px  { line-height: 24px; }
+.lineheight26px  { line-height: 26px; }
+.lineheight30px  { line-height: 30px; }
+.lineheight32px  { line-height: 32px; }
+.lineheight40px  { line-height: 40px; }
+
+/* p系列控制padding */
+.p5 { padding:5px;}
+.p10 { padding:10px;}
+.p15 { padding:15px;}
+.p20 { padding:20px;}
+.p25 { padding:25px;}
+.p30 { padding:30px;}
+
+.pt5 { padding-top:5px;}
+.pt10 { padding-top:10px;}
+.pt15 { padding-top:15px;}
+.pt20 { padding-top:20px;}
+.pt25 { padding-top:25px;}
+.pt30 { padding-top:30px;}
+
+.pr5 { padding-right:5px;}
+.pr10 { padding-right:10px;}
+.pr15 { padding-right:15px;}
+.pr20 { padding-right:20px;}
+.pr25 { padding-right:25px;}
+.pr30 { padding-right:30px;}
+
+.pb5 { padding-bottom:5px;}
+.pb10 { padding-bottom:10px;}
+.pb15 { padding-bottom:15px;}
+.pb20 { padding-bottom:20px;}
+.pb25 { padding-bottom:25px;}
+.pb30 { padding-bottom:30px;}
+
+.pl5 { padding-left:5px;}
+.pl10 { padding-left:10px;}
+.pl15 { padding-left:15px;}
+.pl20 { padding-left:20px;}
+.pl25 { padding-left:25px;}
+.pl30 { padding-left:30px;}
+/*common*/
+.wrap{
+	width:1003px;
+	margin:0 auto;
+	height:auto;
+	overflow:hidden;
+	background:#f9f9f9;
+}
+.l{float:left;display:inline;}.r{float:right;display:inline;}
+.tcenter{text-align:center;}.tright{text-align:right;}.tleft{text-align:left;}
+.tdl{text-decoration:underline;}.tdn,.tdn:hover,a.tdl:hover{text-decoration:none;}
+.vm{vertical-align:middle;}.vt{vertical-align:top;}
+.pr{position:relative;}.pa{position:absolute;}
+.db{display:block;}.dib{-moz-inline-stack:inline-block;display:inline-block;*display:inline;*zoom:1;}
+.fix{*zoom:1;}.fix:before,.fix:after{display:block; content:"."; height:0; clear:both; visibility:hidden;}.fix:after {clear: both;}
+.clear{clear:both;line-height:0px;overflow:hidden;height:0px;width:auto;visibility:hidden;}
+.el{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.oz{overflow:auto;zoom:1;}.ov{overflow:visible;}
+/*css*/
+.mh464{height:auto !important;height:464px;min-height:464px;}
+.head{height:97px;background:url("../images/repeat-x.jpg")/*tpa=http://www.leonessabrevini.com/en/images/repeat-x.jpg*/ 0 -183px repeat-x #f9f9f9;}
+.logo{margin:27px 0 0 35px;}
+.lang{margin-left:500px;font-size:10px;-webkit-text-size-adjust:none;overflow:hidden;}
+.lang a{padding:0 23px 0;background:url("../images/lia.jpg")/*tpa=http://www.leonessabrevini.com/en/images/lia.jpg*/ -88px 0px no-repeat;}
+.lang .en{background-position:-158px 0px;}
+	/*nav begin*/
+.nav{background:url("../images/repeat-x.jpg")/*tpa=http://www.leonessabrevini.com/en/images/repeat-x.jpg*/ 0 -93px repeat-x;}
+.nav li{float:left;height:32px;padding:7px 16px 6px;background:url("../images/repeat-x.jpg")/*tpa=http://www.leonessabrevini.com/en/images/repeat-x.jpg*/ 0 -138px no-repeat;}
+.nav a:link,.nav a:visited{display:block;width:88px;height:32px;line-height:32px;text-align:center;font-weight:bold;font-size:14px;color:#fff;}
+.nav a:hover{background:url("../images/lia.jpg")/*tpa=http://www.leonessabrevini.com/en/images/lia.jpg*/ 0 0 no-repeat;}
+.nav .i{background:none;margin-left:20px;}
+	/*nav over*/
+	/*banner begin*/
+.scrol_new{
+	position:relative;
+	height:330px;
+}
+.button{position:relative;top:252px;right:0;float:right;z-index:9;}
+.button a{float:left;width:16px;height:16px;margin-right:5px;text-align:center;line-height:16px;background:#333;color:#fff; cursor:pointer;}
+.button a.on{background:red;}
+.blc{position:absolute;left:0;top:0;}
+	/*banner over*/
+.c{width:958px;padding:22px;}
+.i_c1{width:218px;}
+.i_c1 a{display:block;height:60px;background:url("../images/i_18.jpg")/*tpa=http://www.leonessabrevini.com/en/images/i_18.jpg*/ 0 0 no-repeat;text-indent:-999em;}
+.i_contact{background:url("../images/lia.jpg")/*tpa=http://www.leonessabrevini.com/en/images/lia.jpg*/ 0 -32px no-repeat;padding-top:8px;margin-top:14px;}
+.i_contact div{background:url("../images/lia.jpg")/*tpa=http://www.leonessabrevini.com/en/images/lia.jpg*/ 0 bottom no-repeat;padding-bottom:8px;}
+.i_contact p{padding:0 8px;border-left:1px solid #c1c1c1;border-right:1px solid #c1c1c1;background:#f9f9f9;}
+.i_c2{width:472px;margin-left:17px;}
+.i_tit{background:url("../images/repeat-x.jpg")/*tpa=http://www.leonessabrevini.com/en/images/repeat-x.jpg*/ 0 0 no-repeat;padding-left:5px;border-bottom:2px solid #174791;}
+.i_tit div{position:relative;background:url("../images/repeat-x.jpg")/*tpa=http://www.leonessabrevini.com/en/images/repeat-x.jpg*/ right -62px no-repeat;padding-right:5px;}
+.i_tit h2{height:31px;line-height:35px;padding-left:10px;background:url("../images/repeat-x.jpg")/*tpa=http://www.leonessabrevini.com/en/images/repeat-x.jpg*/ 0 -31px repeat-x;overflow:hidden;}
+.i_tit h2 a{font-size:14px;color:#174791;font-weight:bold;}
+.i_c2 .fix{padding:10px 0;line-height:25px;height:auto;}
+.i_c2 img.l{margin-right:15px;}
+.i_more{top:5px;right:15px;}
+.i_ul li{border-bottom:1px dotted #999;background:url("../images/lia.jpg")/*tpa=http://www.leonessabrevini.com/en/images/lia.jpg*/ -217px -8px no-repeat;padding-left:20px;}
+.i_ul span{float:right;margin-right:10px; font-size:11px}
+.i_c3{width:212px;margin-left:17px;}
+.i_c3 img{display:block;margin:10px auto;}
+.i_form .butt{border:none;width:62px;height:23px;background:url("../images/sear.jpg")/*tpa=http://www.leonessabrevini.com/en/images/sear.jpg*/ 0 0 no-repeat;cursor:pointer;text-indent:-999em;}
+.i_form .text{color:#ccc;width:125px;margin-right:5px;}
+.foot{margin:4px auto;position:relative;}
+.foot_{padding:10px 20px;color:#666;}
+.foot .pa{top:0;right:40px;background:#e7e7e7;width:138px;height:14px;line-height:14px;}
+.foot .pa a{margin-left:15px;font-size:10px;-webkit-text-size-adjust:none;}
+.c_ny{background:url("../images/mm4.jpg")/*tpa=http://www.leonessabrevini.com/en/images/mm4.jpg*/ 0 0 repeat-x;padding-top:74px;}
+.c_ny2{background:url("../images/mm4.jpg")/*tpa=http://www.leonessabrevini.com/en/images/mm4.jpg*/ 0 0 repeat-x;padding-top:74px;}
+
+.ny{background:url("../images/mm3.jpg")/*tpa=http://www.leonessabrevini.com/en/images/mm3.jpg*/ 0 -74px no-repeat #fff;padding-left:22px;}
+.ny2{background:url("../images/mm3.jpg")/*tpa=http://www.leonessabrevini.com/en/images/mm3.jpg*/ right -74px no-repeat #fff;padding-right:22px;}
+.ny3{background:#fff;border-top:1px solid #cccdd2;}
+.posi{right:30px;top:-30px;}
+.side{position:relative;left:0;top:-50px;width:190px;height:auto !important;height:500px;min-height:500px;background:url("../images/shfw1.jpg")/*tpa=http://www.leonessabrevini.com/en/images/shfw1.jpg*/ -760px 50px no-repeat;}
+.side h2{height:50px;background:url("../images/about.jpg")/*tpa=http://www.leonessabrevini.com/en/images/about.jpg*/ 0 0 no-repeat;font-size:12px;font-weight:bold;}
+.main{width:730px;}
+.about p{text-indent:2em;}
+.head_h2{height:28px;background:#4E7EBE;padding:1px 0;margin:12px 6px 0 30px;}
+.head_h2 div{width:30px;height:28px;line-height:28px;margin:0 -1px;background:#4E7EBE;color:#fff;font-size:20px;font-weight:bold;text-align:center;}
+.tit_h2{line-height:1.2;vertical-align:middle; font-size:15px;}
+.tit_h2 .en_h2{font-size:10px;-webkit-text-size-adjust:none;font-weight:normal;}
+.fy{text-align:left;padding-right:20px;margin-bottom:20px;}
+.fy a{padding:0 8px;}
+.news{background-position:-380px 50px;}
+.art_h1{font-size:16px;font-weight:bold;text-align:center;}
+.info{height:30px;border-bottom:1px dotted #333;text-align:center;color:#666;}
+.art_link{height:30px;position:relative;margin-top:30px;color:#666;}
+.art_link .pa{right:0;top:0;}
+.product{background:none;}
+.pro_dl{border-left:1px solid #D2D1D6;padding:10px;}
+.pro_dl dt{height:24px; font-family:Arial;line-height:24px;border:1px solid #D2D1D6;background:url("../images/tt.gif")/*tpa=http://www.leonessabrevini.com/en/images/tt.gif*/ 7px 6px no-repeat #F7F7F7;padding-left:23px; font-weight:bold; color:#666;;}
+.pro_dl dd{padding-left:20px; color:#666;}
+.imglist{height:500px;}
+.imglist li{float:left;}
+.imglist a{display:block;width:232px;height:auto;margin-right:10px;text-align:center;overflow:hidden;}
+.imglist a:hover{color:#C00;}
+.imglist img{display:block;width:230px;height:129px;border:1px solid #ccc;}
+.app{background-position:-950px 50px;}
+.app_menu{padding:0 10px;margin-top:320px;}
+.app_menu li{padding:1px 0;background:#0B74C5;height:20px;margin-bottom:15px;}
+.app_menu a{display:block;height:20px;line-height:20px;margin:0 -1px;background:#0B74C5;text-align:center;color:#fff;font-size:14px;}
+.app_menu a:hover{text-decoration:underline;color:#ddd;}
+.applist{height:auto;}
+.applist li{-moz-inline-stack:inline-block;display:inline-block;*display:inline;*zoom:1;margin-right:20px;*margin-bottom:13px;}
+.applist a{display:block;font-size:0;color:#fff;}
+.applist img{width:320px;height:220px;padding:5px;border:1px solid #ccc;}
+.service{background-position: 0 50px;}
+.job{background-position:-190px 50px;}
+.joblist{padding-right:30px;}
+.joblist li{border-bottom:1px dotted #333;}
+.joblist span,.joblist a{-moz-inline-stack:inline-block;display:inline-block;*display:inline;*zoom:1;text-align:center;overflow:hidden;}
+.joblist div span{background:#F7F7F7;color:#C03;margin-right:2px;}
+.joblist a{text-decoration:underline;}
+.j1{width:280px;}.j2{width:200px;}.j3{width:100px;}.j4{width:100px;}
+.job_d span{width:100px;background:#F7F7F7;color:#C03;text-align:center;margin:0 10px 3px 0;}
+.red{color:red;}
+.job_form{width:500px;margin:0 auto 20px;}
+.textarea{height:110px;line-height:110px;}
+.textarea span{vertical-align:top;}
+.job_form span{-moz-inline-stack:inline-block;display:inline-block;*display:inline;*zoom:1;width:80px;text-align:center;}
+.job_form input{width:400px;}
+.job_form textarea{width:400px;height:100px;}
+.job_form .butt{width:100px;height:20px;line-height:20px;background:#D0E0E7;border:1px solid #ccc;margin:10px 0 0 200px;}
+.contact{background-position:-570px 50px;}
+.cont_h1{font-size:24px;}
+
+.jobtabless{ background:#ccc; font-size:12px;}
+.jobth{ text-align:center; font-weight:bold; background:#E4E4E4; line-height:25px;}
+.jobtd{ padding:0 10px; background:#fff; line-height:25px;}

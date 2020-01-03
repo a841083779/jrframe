@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" tppabs="http://www.deca-glass.com/style/style.css"/>
+<script src="jquery.min.js" tppabs="http://lib.sinaapp.com/js/jquery/1.9.0/jquery.min.js" ></script>
+<script type="text/javascript" src="scripts.js" tppabs="http://www.deca-glass.com/scripts/scripts.js"></script>
+<title>åœ¨çº¿è®¢è´­_äº§å“ä¸­å¿ƒ_æµå—å¾·ä½³ç»ç’ƒæœºå™¨æœ‰é™å…¬å¸</title>
+</head>
+<body>
+	<!--top-->
+     
+ 
+ <script type="text/javascript" src="js.js" tppabs="http://www.deca-glass.com/scripts/js.js"></script>
+<div class="top">
+        <div class="ssc fix">
+            <div class="plist02" onmouseover="displaylayer(this);" onmouseout="hidelayer(this);"> 
+                <font>Language</font> 				              
+                <span class="pllayer02" style="display: none;">
+                <dl>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.decaglass.com/'" tppabs="http://www.decaglass.com/" target="_blank">ä¸­æ–‡</a></dd>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/en/index.asp  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.decaglass.com/en/index.asp'" tppabs="http://www.decaglass.com/en/index.asp" target="_blank">è‹±æ–‡</a></dd>
+                   <dd><a href="javascript:if(confirm('http://www.decaglass.com/ru/index.asp  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.decaglass.com/ru/index.asp'" tppabs="http://www.decaglass.com/ru/index.asp" target="_blank">ä¿„æ–‡</a></dd>
+                </dl>
+                </span> 
+            </div>
+            <a href="index-1.htm" tppabs="http://www.deca-glass.com/contact/" class="top_contact"><span>è”ç³»æˆ‘ä»¬</span></a>
+            <a href="#" onclick="favorite()"><span>åŠ å…¥æ”¶è—</span></a>
+            <a href="#" onclick="setHome(this)"><span>è®¾ä¸ºé¦–é¡µ</span></a>
+         </div>
+         <div class="lonav">
+            <div class="logo"><a href="index.htm" tppabs="http://www.deca-glass.com/" title="æµå—å¾·ä½³ç»ç’ƒæœºå™¨æœ‰é™å…¬å¸"><img src="logo.gif" tppabs="http://www.deca-glass.com/images/logo.gif"></a><span>ä»¥å¾·å…´ä¼ åŒèµ¢ä¸ºä½³</span></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.htm" tppabs="http://www.deca-glass.com/">ç½‘ç«™é¦–é¡µ</a></li>
+                    <li><a class="" href="index-2.htm" tppabs="http://www.deca-glass.com/about/">å…³äºå¾·ä½³</a></li>
+                    <li><a class="" href="index-3.htm" tppabs="http://www.deca-glass.com/news/">æ–°é—»ä¸­å¿ƒ</a></li>
+                    <li><a class="" href="index-4.htm" tppabs="http://www.deca-glass.com/research/">ç ”å‘ä¸­å¿ƒ</a></li>
+                    <li><a class="on" href="index-5.htm" tppabs="http://www.deca-glass.com/product/">äº§å“ä¸­å¿ƒ</a></li>
+                    <li id="nav_last"><a class="" href="index-1.htm" tppabs="http://www.deca-glass.com/contact/">è”ç³»æˆ‘ä»¬</a></li>
+                </ul>
+            </div>
+         </div>
+    </div>
+    <!--top end-->
+    <div class="content">
+    	<!--left-->
+    	<div class="leftmenu">
+        	<h2>äº§å“ä¸­å¿ƒ</h2>
+            <div class="leftnav">
+            	<ul>
+                	<li><a href="index-4.jsp.htm" tppabs="http://www.deca-glass.com/product/index.jsp">äº§å“ä»‹ç»</a></li>
+                    <li><a href="prolist.jsp-myid=15277.htm" tppabs="http://www.deca-glass.com/product/prolist.jsp?myid=15277">ç»ç’ƒåŠ å·¥è§£å†³æ–¹æ¡ˆ</a></li>
+                    <li><a class="cur" href="order.jsp.htm" tppabs="http://www.deca-glass.com/product/order.jsp">åœ¨çº¿è®¢è´­</a></li>
+                </ul>
+            </div>
+
+            <h3>å‹æƒ…é“¾æ¥</h3>
+            <a href="javascript:if(confirm('http://www.decaholdings.com/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.decaholdings.com/'" tppabs="http://www.decaholdings.com/" title="å¾·ä½³æ§è‚¡" target="_blank"><img src="leftlink01.jpg" tppabs="http://www.deca-glass.com/images/leftlink01.jpg"></a>
+            <a href="javascript:if(confirm('http://www.decamachine.com/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.decamachine.com/'" tppabs="http://www.decamachine.com/" title="å¾·ä½³æœºå™¨" target="_blank"><img src="leftlink02.jpg" tppabs="http://www.deca-glass.com/images/leftlink02.jpg"></a>
+            <a href="javascript:if(confirm('http://www.decadf.com/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.decadf.com/'" tppabs="http://www.decadf.com/" title="å¾·ä½³æ·€ç²‰" target="_blank"><img src="leftlink03.jpg" tppabs="http://www.deca-glass.com/images/leftlink03.jpg"></a>
+            <a href="javascript:if(confirm('http://www.pedax.cn/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.pedax.cn/'" tppabs="http://www.pedax.cn/" title="é’¢ç­‹æœºæ¢°" target="_blank"><img src="leftlink04.jpg" tppabs="http://www.deca-glass.com/images/leftlink04.jpg"></a>
+            <a href="javascript:if(confirm('http://www.decasoft.com.cn/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.decasoft.com.cn/'" tppabs="http://www.decasoft.com.cn/" title="å¾·ä½³è½¯ä»¶" target="_blank"><img src="leftlink05.jpg" tppabs="http://www.deca-glass.com/images/leftlink05.jpg"></a>
+    	</div>
+        <!--left end-->
+    	<div class="right_content">
+        	<!--banner-->
+            <div class="baner"><img src="pro_b.jpg" tppabs="http://www.deca-glass.com/images/pro_b.jpg"></div>
+            <!--banner end-->
+            <div class="channelT">
+            	<h2>äº§å“ä¸­å¿ƒ</h2>
+                <div class="posi"><a href="index.htm" tppabs="http://www.deca-glass.com/">é¦–é¡µ</a>><a href="index-4.jsp.htm" tppabs="http://www.deca-glass.com/product/index.jsp">äº§å“ä¸­å¿ƒ</a>>åœ¨çº¿è®¢è´­</div>
+            </div>
+            <div class="con">
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="jereh.css" tppabs="http://www.deca-glass.com/style/jereh.css" />
+<!--è¡¨å•èƒŒæ™¯å˜è‰²å¼€å§‹-->
+
+<script type="text/javascript" src="validator.js" tppabs="http://www.deca-glass.com/scripts/validator.js"></script>
+
+
+
+
+<script type="text/javascript">
+//jQuery.noConflict();
+jQuery(function(){
+	jQuery(".order-txt").hover(function(){
+		jQuery(this).attr("class","orderinputbg2");
+	},function(){
+		jQuery(this).attr("class","orderinputbg1");
+	});
+})
+</script>
+<!--è¡¨å•èƒŒæ™¯å˜è‰²ç»“æŸ-->
+<script type="text/javascript">
+<!--
+function orderDoSub(){
+	var myFlag = Validator.Validate(document.getElementById('orderForm'),1);
+	if(myFlag&&Checkfilter()){
+	    var yzm = '';
+		var myRand=jQuery.trim(jQuery("#rand").val());
+		jQuery.ajax({
+			url:'/action/ajax_rand.jsp?rand='+myRand,
+			async:false,
+			success:function(data){
+				yzm = jQuery.trim(data);
+			}
+		});
+		var rand = jQuery.trim(jQuery("#rand").val());
+		if(yzm!=rand){
+			
+				alert("è¯·è¾“å…¥æ­£ç¡®çš„éªŒè¯ç ï¼");
+			
+			jQuery("#rand").focus();
+		}else{
+			if(jQuery("#sendmail").val()!=undefined && jQuery("#sendmail").val()!=''){		
+				//jQuery.post("http://www.deca-glass.com/product/mail.jsp",jQuery('#orderForm').serialize(),function(){})
+				var content = 'è®¢è´­äº§å“å‹å·ï¼š'+jQuery('#zd_product_name').val()+'<br/>è®¢è´­è€…å§“åï¼š'+jQuery('#zd_name').val()+'<br/>è®¢è´­è€…åœ°å€ï¼š'+jQuery('#zd_contact_address').val()+'<br/>æ‰€å±å…¬å¸ï¼š'+jQuery('#zd_company').val()+'<br/>è”ç³»ç”µè¯:'+jQuery('#zd_contact_tel').val()+'<br/>é‚®ç®±ï¼š'+jQuery('#zd_email').val()+'<br/>è®¢è´­ç•™è¨€ï¼š'+jQuery('#zd_message').val();
+				var to = jQuery('#sendmail').val();
+				jQuery.getJSON("http://service.21-sun.com/http/utils/sendmail.jsp?callback=?&to="+to+"&title=åœ¨çº¿è®¢è´­&content="+content,function(json){
+					document.orderForm.submit();
+				});
+
+			}else{
+			document.orderForm.submit();
+			}
+		}
+	}
+}
+
+	function Checkfilter(){
+		zd_product_name = jQuery.trim(jQuery("#zd_product_name").val());
+		jQuery("#zd_product_name").val(zd_product_name);
+		zd_name = jQuery.trim(jQuery("#zd_name").val());
+		jQuery("#zd_name").val(zd_name);
+		zd_contact_tel = jQuery.trim(jQuery("#zd_contact_tel").val());
+		jQuery("#zd_contact_tel").val(zd_contact_tel);
+		zd_contact_address = jQuery.trim(jQuery("#zd_contact_address").val());
+		jQuery("#zd_contact_address").val(zd_contact_address);
+		zd_company = jQuery.trim(jQuery("#zd_company").val());
+		jQuery("#zd_company").val(zd_company);
+		zd_email = jQuery.trim(jQuery("#zd_email").val());
+		jQuery("#zd_email").val(zd_email);
+		zd_message = jQuery.trim(jQuery("#zd_message").val());
+		jQuery("#zd_message").val(zd_message);
+		return true;
+	}
+	function checkPhone(){
+		var phone= document.getElementById("zd_contact_tel").value;
+		while(phone.indexOf(" ")!=-1){
+			phone= phone.replace(" ","");
+		}
+		while(phone.indexOf("-")!=-1){
+			phone= phone.replace("-","");
+		}
+		if(isNaN(phone)||phone.length<5||phone.length>13){
+			alert("ç”µè¯å·ç æ ¼å¼ä¸æ­£ç¡®ï¼Œè¯·æ£€æŸ¥");
+			document.getElementById("zd_contact_tel").focus();
+			document.getElementById("zd_contact_tel").select();
+			return false;
+		}
+		return true;
+	}
+//-->
+</script>
+<script language="javascript">
+function refresh(){
+	document.getElementById("authImg").src='/admin/authImgServlet?now=' + new Date();
+}
+
+</script>
+<form name="orderForm" method="post" id="orderForm" action="http://www.deca-glass.com/product/order.jsp?null">
+<input type="hidden" name="op_flag" value="1" />
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="order-form">
+  <tr class="order-odd">
+    <td class="order-left">äº§å“å‹å·ï¼š</td>
+    <td class="order-right"><input type="text" name="zd_product_name" value=""  class="order-txt" id="zd_product_name" maxlength="30" dataType="Require" msg="è¯·è¾“å…¥äº§å“å‹å·!" /><font color="red"> *</font></td>
+  </tr>
+  <tr class="order-even">
+    <td class="order-left">æ‚¨çš„å§“åï¼š</td>
+    <td class="order-right"><input type="text" name="zd_name" class="order-txt" value="" id="zd_name" maxlength="30" dataType="Require" msg="è¯·è¾“å…¥å§“å!" /><font color="red"> *</font></td>
+  </tr>
+  <tr class="order-odd">
+    <td class="order-left">æ‚¨çš„åœ°å€ï¼š</td>
+    <td class="order-right"><input type="text" name="zd_contact_address" value="" maxlength="100" class="order-txt" id="zd_contact_address" dataType="Require" msg="è¯·è¾“å…¥åœ°å€!" /><font color="red"> *</font></td>
+  </tr>
+  <tr class="order-even">
+    <td class="order-left">æ‰€å±å…¬å¸ï¼š</td>
+    <td class="order-right"><input type="text" name="zd_company" value="" maxlength="50" class="order-txt" id="zd_company"  dataType="Require" msg="è¯·è¾“å…¥æ‰€å±å…¬å¸!" /><font color="red"> *</font></td>
+  </tr>
+ 
+  <tr class="order-odd">
+    <td class="order-left">è”ç³»ç”µè¯ï¼š</td>
+    <td class="order-right"><input type="text" name="zd_contact_tel" value="" maxlength="30" class="order-txt" id="zd_contact_tel" dataType="Contact" msg="è¯·è¾“å…¥æ­£ç¡®çš„è”ç³»ç”µè¯ eg:0535-6921292 æˆ–010-6921292 æˆ– 13512345678!" /><font color="red"> *</font></td>
+  </tr>
+  
+  <tr class="order-even">
+    <td class="order-left">è”ç³»é‚®ç®±ï¼š</td>
+    <td class="order-right"><input type="text" name="zd_email" value="" maxlength="40" class="order-txt" id="zd_email" dataType="Email" msg="é‚®ç®±æ ¼å¼ä¸æ­£ç¡®ï¼Œè¯·æ£€æŸ¥!" /><font color="red"> *</font></td>
+  </tr>
+  <tr class="order-odd">
+    <td class="order-left">è®¢è´­ç•™è¨€ï¼š</td>
+    <td class="order-right">
+    	<textarea name="zd_message" id="zd_message" class="order-txt" dataType="Require" msg="è¯·è¾“å…¥ç•™è¨€!" ></textarea><font color="red"> *</font>
+    </td>
+  </tr>
+  </tr>
+    <tr class="order-odd">
+    <td class="order-left">éªŒè¯ç ï¼š</td>
+    <td class="order-right"><input name="rand" type="text" id="rand" value="" size="4" style="width:50px;" maxlength="4" dataType="Require"  msg="è¯·è¾“å…¥éªŒè¯ç !" class="order-txt" onKeyDown="if(event.keyCode==13){orderDoSub();}"><font color="red"> *</font>
+<img src="authImgServlet.jpg" tppabs="http://www.deca-glass.com/admin/authImgServlet" name="authImg" id="authImg" style="cursor:hand"  title="å¦‚æœæ‚¨çœ‹ä¸æ¸…ï¼Œè¯·åœ¨å›¾ç‰‡ä¸Šå•å‡»ï¼Œå¯ä»¥æ›´æ¢éªŒè¯ç ï¼" onClick="refresh();"/></td>
+  </tr>
+  <tr class="order-last">
+    <td colspan="2">
+	<div class="order-sub">
+    	<input type="button" value=" " onclick="orderDoSub();" />
+	</div>
+	<div class="order-reset">
+        
+				<input type="reset" value=" " />
+				
+	</div>
+    <div class="clear"></div>
+    </td>
+  </tr>
+</table>
+
+<div style="disply:none;">
+<input name="zd_id" type="hidden" id="zd_id" value="0" />
+<input name="zd_web_no" type="hidden" id="zd_web_no" value='11297' />
+<input name="zd_catalog_no" type="hidden" id="zd_catalog_no" value='products03' />
+<input name="zd_language_version" type="hidden" id="zd_language_version" value='1' />
+<input name="zd_add_user" type="hidden" id="zd_add_user" value='null' />
+<input name="zd_add_ip" type="hidden" id="zd_add_ip" value='119.180.98.134' />
+<input name="zd_add_date" type="hidden" id="zd_add_date" value='2013-10-24 09:21:08' />
+<input name="zd_sort_no" type="hidden" id="zd_sort_no" value='0' />
+<input name="myid" type="hidden" id="myid" value='' />
+
+
+
+</div>
+</form>
+<script>
+function handle() 
+	{
+		if(document.getElementById("zd_message").value.length>400){
+			 document.getElementById("zd_message").value = document.getElementById("zd_message").value.substr(0,400);
+		}
+	} 
+	//firefoxä¸‹æ£€æµ‹çŠ¶æ€æ”¹å˜åªèƒ½ç”¨oninput,ä¸”éœ€è¦ç”¨addEventListeneræ¥æ³¨å†Œäº‹ä»¶ã€‚ 
+	if(/msie/i.test(navigator.userAgent))    //ieæµè§ˆå™¨ 
+	{
+		document.getElementById("zd_message").onpropertychange=handle 
+	} 
+	else 
+	{//éieæµè§ˆå™¨ï¼Œæ¯”å¦‚Firefox 
+		document.getElementById("zd_message").addEventListener("input",handle,false); 
+	} 
+</script></div>
+        </div>
+    </div>
+    <!--foot-->
+    
+<div class="foot">
+    	<div style="text-align:center"><a href="index-5.htm" tppabs="http://www.deca-glass.com/product/" target="_blank">ä¸­ç©ºç»ç’ƒè®¾å¤‡ - ä¸­ç©ºç»ç’ƒç”Ÿäº§è®¾å¤‡ - ä¸­ç©ºç»ç’ƒåŠ å·¥è®¾å¤‡ - ä¸­ç©ºç»ç’ƒç”Ÿäº§çº¿ - ä¸­ç©ºç»ç’ƒæ‰“èƒ¶æœº - ä¸­ç©ºç»ç’ƒæœºæ¢° - ä¸­ç©ºç»ç’ƒæœºå™¨</a><br />
+        	<a href="index.htm" tppabs="http://www.deca-glass.com/" title="æµå—å¾·ä½³ç»ç’ƒæœºå™¨æœ‰é™å…¬å¸" target="_blank">æµå—å¾·ä½³ç»ç’ƒæœºå™¨æœ‰é™å…¬å¸</a>ç‰ˆæƒæ‰€æœ‰ <a href="javascript:if(confirm('http://www.21-sun.com/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.21-sun.com/'" tppabs="http://www.21-sun.com/" title="21-sun" target="_blank">ä¸­å›½å·¥ç¨‹æœºæ¢°å•†è´¸ç½‘</a>åˆ¶ä½œç»´æŠ¤<br/>
+            åœ°å€ï¼šæµå—é«˜æ–°åŒºèˆœåè·¯1å·é½é²è½¯ä»¶å›­åˆ›ä¸šå¹¿åœºBåº§5å±‚B511ã€€ç”µè¯ï¼š0531-86037566  86037366ã€€ä¼ çœŸï¼š0531-86037266
+        </div>
+    </div>
+
+    <!--foot end-->
+</body>
+<script>
+$('.ban').T_banner();
+</script>
+</html>
+
